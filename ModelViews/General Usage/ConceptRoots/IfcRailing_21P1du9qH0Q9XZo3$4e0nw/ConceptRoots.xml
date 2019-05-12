@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="21P1du9qH0Q9XZo3$4e0nw">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcRailing" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="2z2iqk72jEyAbzd5Y_5Lti">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="21c9b574-adbc-455c-bdd3-d56fa3efc72f" RuleParameters="RelatingType=IfcRailingType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="27Fdarc1P9JRFRpM9bSxzD">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="1fc7725b-7ddd-4b85-b3a0-003ea304b12e" RuleParameters="PsetName=Pset_RailingCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="36ead04e-7910-45ba-9832-a757a89a9fcf">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="b75bf9f7-777b-4310-bac5-0878b61af8af" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="ead9e19b-9fb7-46c5-bfaa-e33d03cc53da" RuleParameters="PropertyName=Height;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="5fa0ce1e-2477-428c-b9e9-9ac7d709eb30" RuleParameters="PropertyName=Diameter;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="f47fa8e2-74df-4c1a-afb2-575b7570000e" RuleParameters="PropertyName=IsExternal;Value=IfcBoolean;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="60521949-e75d-47fa-8874-0c3a73379f7a">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="7f0a4864-792e-49ce-98a7-b57b7393599e" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="cede733e-6efb-4d87-a906-e4e6769a253c" RuleParameters="PsetName=Pset_ConcreteElementGeneral;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="a11eee92-13d8-4328-ae9c-b307a47f2250">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="0029f579-7dfc-474b-8a41-b0f6e17c0b2e" RuleParameters="PropertyName=ConstructionMethod;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="84830023-2632-43f0-b249-a6987d85f6fc" RuleParameters="PropertyName=StructuralClass;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="8f3ba11a-f5a5-498a-81fe-828b450432f5" RuleParameters="PropertyName=StrengthClass;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="1a375cdb-0aa3-4584-ab52-27ab022a2e75" RuleParameters="PropertyName=ExposureClass;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="345f218e-337c-4230-8b22-8caa1a62cb55" RuleParameters="PropertyName=ReinforcementVolumeRatio;Value=IfcMassDensityMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="ab8847d2-3a77-4b46-b325-055f62709fa5" RuleParameters="PropertyName=ReinforcementAreaRatio;Value=IfcAreaDensityMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="8a2e6cc4-1c6d-4fbc-839b-a404dbb6b525" RuleParameters="PropertyName=DimensionalAccuracyClass;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="be215c15-ebc0-41d8-b3c1-2ba41023db3a" RuleParameters="PropertyName=ConstructionToleranceClass;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="6feddbeb-22ba-4a5e-9427-1e05603363ea" RuleParameters="PropertyName=ConcreteCover;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="a69b795c-d29e-4c57-88f0-021e0caa7a76" RuleParameters="PropertyName=ConcreteCoverAtMainBars;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="7ab7005e-e217-49d5-a691-c036b2f05be1" RuleParameters="PropertyName=ConcreteCoverAtLinks;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="0b3d739e-b057-4f67-8022-5c05c655c9f9" RuleParameters="PropertyName=ReinforcementStrengthClass;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="3XwpqfWZL1ieZYIFHrEPFL">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="8fc637a2-f9d7-4223-9508-143f7102a448" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_RailingBaseQuantities;TemplateType=QTO_OCCURRENCEDRIVEN;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material Constituents" UniqueId="5450cfad-7f45-4eda-97d9-09db0c1a8d7a">
+			<Documentation>&lt;p&gt;The material of the &lt;em&gt;IfcRailing&lt;/em&gt; is defined by the
+ &lt;em&gt;IfcMaterialConstituent&lt;/em&gt; or as fallback by &lt;em&gt;IfcMaterial&lt;/em&gt;, and it is attached either directly or at the &lt;em&gt;IfcRailingType&lt;/em&gt;.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Spatial Containment" UniqueId="1rnO$E2vL4qBjv$T5zFixo">
+			<Documentation>&lt;p&gt;The &lt;em&gt;IfcRailing&lt;/em&gt;, as any subtype of &lt;em&gt;IfcBuildingElement&lt;/em&gt;, 
+may participate alternatively in one of the two different containment relationships:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the &lt;em&gt;Spatial Containment&lt;/em&gt; (defined here), or&lt;/li&gt;
+&lt;li&gt;the &lt;em&gt;Element Composition&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Spatial Containment_3Pe$WY01HBmesKdP1dTP15" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="1bd84752-24e5-43f0-b7fe-ec3c55be570d" RuleParameters="RelatingStructure=IfcBuildingStorey;" Order="0">
+					<Documentation>Default spatial container</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="93204462-99b2-4488-b955-73811173a2b1" RuleParameters="RelatingStructure=IfcBuilding;" Order="0">
+					<Documentation>Spatial container for the element if it cannot be assigned to a building storey</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="eeaf3401-e408-4a7a-b315-7e2697273780" RuleParameters="RelatingStructure=IfcSite;" Order="0">
+					<Documentation>Spatial container for the element in case that it is placed on site (outside of building)</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Axis 2D Geometry" UniqueId="00670f88-3cf2-4ff9-9be7-afed37a47e82">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Axis 2D Geometry_1u94Jere57Mf0qgUVrF6rb" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="ed1c2d06-62cd-4323-9ead-17e0dee093cf" Type="IfcRailing" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

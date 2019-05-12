@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcPlate" Name="IfcPlate" UniqueId="2b32e8c1-898b-46b1-a578-df08e1db3c6b" DiagramNumber="1" BaseDefinition="IfcBuildingElement" EntityFlags="229">
+	<Localization>
+		<DocLocalization Name="Platte / Paneel" Locale="de" />
+		<DocLocalization Name="Plate" Locale="en" />
+		<DocLocalization Name="Plaque" Locale="fr" />
+	</Localization>
+	<DiagramRectangle>
+		<DocRectangle X="484.69574" Y="1372.3574" Width="249.9" Height="214.6" />
+	</DiagramRectangle>
+	<Subtypes>
+		<DocSubtype UniqueId="6478f697-99ce-4282-bd27-c36ba662d83c" DefinedType="IfcPlateStandardCase" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="4b413560-ba7d-4a7c-b5d9-d3bf64f0b896" DefinedType="IfcPlateTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Predefined generic type for a plate that is specified in an enumeration. There may be a property set given specificly for the predefined types.
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The &lt;em&gt;PredefinedType&lt;/em&gt; shall only be used, if no &lt;em&gt;IfcPlateType&lt;/em&gt; is assigned, providing its own &lt;em&gt;IfcPlateType.PredefinedType&lt;/em&gt;.&lt;/blockquote&gt;
+&lt;blockquote class=&quot;change-ifc2x4&quot;&gt;IFC4 CHANGE  The attribute has been added at the end of the entity definition.&lt;/blockquote&gt;</Documentation>
+			<DiagramLine>
+				<DocPoint X="734.59574" Y="1527.6574" />
+				<DocPoint X="1113.9624" Y="1527.6574" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="729.2624067" Y="1519.6574" Width="182" Height="35" />
+			</DiagramLabel>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="CorrectPredefinedType" UniqueId="8dfcb2b7-b055-4935-9c45-9fdfbc6a77f1">
+			<Documentation>Either the &lt;em&gt;PredefinedType&lt;/em&gt; attribute is unset (e.g. because an &lt;em&gt;IfcPlateType&lt;/em&gt; is associated), or the inherited attribute &lt;em&gt;ObjectType&lt;/em&gt; shall be provided, if the &lt;em&gt;PredefinedType&lt;/em&gt; is set to USERDEFINED.</Documentation>
+			<Expression>NOT(EXISTS(PredefinedType)) OR
+ (PredefinedType &lt;&gt; IfcPlateTypeEnum.USERDEFINED) OR
+ ((PredefinedType = IfcPlateTypeEnum.USERDEFINED) AND EXISTS (SELF\IfcObject.ObjectType))</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="CorrectTypeAssigned" UniqueId="44cb1ee3-302f-4b4e-aed5-6e5b5d1e6a51">
+			<Documentation>Either there is no plate type object associated, i.e. the &lt;em&gt;IsTypedBy&lt;/em&gt; inverse relationship is not provided, or the associated type object has to be of type &lt;em&gt;IfcPlateType&lt;/em&gt;.</Documentation>
+			<Expression>(SIZEOF(IsTypedBy) = 0) OR
+  (&apos;IFCSHAREDBLDGELEMENTS.IFCPLATETYPE&apos; IN TYPEOF(SELF\IfcObject.IsTypedBy[1].RelatingType))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+	<Tree>
+		<DocLine>
+			<DiagramLine>
+				<DocPoint X="734.59574" Y="1416.3241" />
+				<DocPoint X="1113.93333" Y="1416.3241" />
+			</DiagramLine>
+		</DocLine>
+	</Tree>
+</DocEntity>
+

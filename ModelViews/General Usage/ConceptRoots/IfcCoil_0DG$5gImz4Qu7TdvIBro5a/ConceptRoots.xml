@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0DG$5gImz4Qu7TdvIBro5a">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcCoil" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="3ISmQOnKf6wRQIJJJh80Gl">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="9396086d-866d-466d-8378-3bbf9a02f279" RuleParameters="RelatingType=IfcCoilType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="0ej8RpFaz0bwq3iE5n58QN">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="23af44f2-cc1d-4e22-86d9-e141263e0781" RuleParameters="PsetName=Pset_CoilOccurrence;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="71c00bba-e8e3-4708-8dab-76fb9c225f69">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="84cf9c97-fa58-42c2-aa37-6edb43894a45" RuleParameters="PropertyName=HasSoundAttenuation;Value=IfcBoolean;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="58e595ba-64b5-4924-9fe3-de69327b5783" RuleParameters="PsetName=Pset_CoilTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="1f320175-9f26-42e1-9e94-6e944d796090">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="ce515f88-cb09-4ef4-9f3f-da1fe23caddb" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="a3fe4a40-fa79-4023-a90e-e82c65f5db77" RuleParameters="PropertyName=NominalSensibleCapacity;Value=IfcPowerMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="3963bf12-d520-4fc9-9c5b-fbc96e89c496" RuleParameters="PropertyName=NominalLatentCapacity;Value=IfcPowerMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="79db2736-104f-4254-9975-7ffb86f03553" RuleParameters="PropertyName=NominalUA;Value=IfcReal;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="ab008b63-4f43-40bc-b4fa-1b6089d1e3a4">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="8bd866c7-c52a-423e-bf98-dd033c93cac4" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="29258762-1dad-4403-8262-87f74ea80f3d" RuleParameters="PropertyName=PlacementType;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="864c098e-cf7a-496c-a70c-c1f8a4064907">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="90f9050d-d0b6-44be-8b8f-53f9ea8a3127" RuleParameters="PropertyName=OperationalTemperatureRange;SetValue=IfcThermodynamicTemperatureMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="b9593b13-f861-40e6-811f-33e18e569044" RuleParameters="PropertyName=AirflowRateRange;SetValue=IfcVolumetricFlowRateMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="a21e1a2f-b4fa-4e75-a6fc-495e59dc2386" RuleParameters="PsetName=Pset_CoilTypeHydronic;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="5c32b09c-45d5-43fa-99b4-c9abe3ad3d49">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="e54dd541-dd3f-4a3d-baa8-7568e1156d11" RuleParameters="PropertyName=FluidPressureRange;SetValue=IfcPressureMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="deb727fc-8fa5-4350-88a4-79acfa6d913b">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="1d536d3d-4655-4faf-9219-2bca08332ed2" RuleParameters="PropertyName=CoilCoolant;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="d9a17a29-ed3b-4833-a042-a2745d1cf000" RuleParameters="PropertyName=CoilConnectionDirection;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="8a9772b6-f997-4463-9f64-c773fad727c2" RuleParameters="PropertyName=CoilFluidArrangement;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="80507e4d-66f1-4d6d-9b9b-3cdfbf80bdba">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="22675410-933a-48c5-8b35-9e31fda33079" RuleParameters="PropertyName=CoilFaceArea;Value=IfcAreaMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="cefea449-28b1-4140-85d2-407e3768eb16" RuleParameters="PropertyName=HeatExchangeSurfaceArea;Value=IfcAreaMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="bf00b1ac-b752-4a72-a001-c786c4cb8a38" RuleParameters="PropertyName=PrimarySurfaceArea;Value=IfcAreaMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="a239d918-9812-48bf-8dc9-18f536b63e11" RuleParameters="PropertyName=SecondarySurfaceArea;Value=IfcAreaMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="76b5eb62-7c75-403b-bb25-1726b0a259e7" RuleParameters="PropertyName=BypassFactor;Value=IfcNormalisedRatioMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="da14dc34-77c5-4782-a099-81a5198473ac" RuleParameters="PropertyName=SensibleHeatRatio;Value=IfcNormalisedRatioMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="23654606-f7e9-4fca-9b84-63739b53d4db" RuleParameters="PropertyName=WetCoilFraction;Value=IfcNormalisedRatioMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="0tPeUSljz6NfHyI3bSVtaw">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="a9139689-066c-4647-a7d1-567d29a2d42c" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_CoilBaseQuantities;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material" UniqueId="3t2mMlE894QRGJnv_mO5B8">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="d7cb2ab7-b7a9-452c-a622-e32b9c696b63" RuleParameters="Name=Casing;" Order="0">
+					<Documentation>Material from which the casing is constructed.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Port" UniqueId="3Xhjw7Z4H7gQIMVZh5sfKe">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="cb34ee49-f8b8-4042-9eb4-f2057728b438" RuleParameters="PredefinedType=DXCOOLINGCOIL;PortName=RefrigerantIn;SystemType=REFRIGERATION;Flow=SINK;" Order="0">
+					<Documentation>Refrigerant entering the coil.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="a278bb76-8114-476b-8d79-59d8864a28ac" RuleParameters="PredefinedType=DXCOOLINGCOIL;PortName=RefrigerantOut;SystemType=REFRIGERATION;Flow=SOURCE;" Order="0">
+					<Documentation>Refrigerant leaving the coil.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="deb3acf6-a676-45c1-94e9-131772332a28" RuleParameters="PredefinedType=DXCOOLINGCOIL;PortName=AirIn;SystemType=AIRCONDITIONING;Flow=SINK;" Order="0">
+					<Documentation>Air entering the surface of the coil.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="080d3fa4-ab89-4a12-b0e2-0a8b2164a1cc" RuleParameters="PredefinedType=DXCOOLINGCOIL;PortName=AirOut;SystemType=AIRCONDITIONING;Flow=SOURCE;" Order="0">
+					<Documentation>Air leaving the surface of the coil.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="57333c0a-45b6-4571-b08b-9ca0339132e8" RuleParameters="PredefinedType=WATERCOOLINGCOIL;PortName=ChilledWaterIn;SystemType=CHILLEDWATER;Flow=SINK;" Order="0">
+					<Documentation>Chilled water entering the coil.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="a7d2ad77-3e0c-41be-8082-be74ed75f2ad" RuleParameters="PredefinedType=WATERCOOLINGCOIL;PortName=ChilledWaterOut;SystemType=CHILLEDWATER;Flow=SOURCE;" Order="0">
+					<Documentation>Chilled water leaving the coil.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="52cc582d-4484-45ed-aa11-a88432a88e21" RuleParameters="PredefinedType=WATERCOOLINGCOIL;PortName=AirIn;SystemType=AIRCONDITIONING;Flow=SINK;" Order="0">
+					<Documentation>Air entering the surface of the coil.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="08cf3569-270b-461c-b392-72dd80af6b98" RuleParameters="PredefinedType=WATERCOOLINGCOIL;PortName=AirOut;SystemType=AIRCONDITIONING;Flow=SOURCE;" Order="0">
+					<Documentation>Air leaving the surface of the coil.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="a01aab69-b02e-4b1b-a0d5-9dab01f11b8d" RuleParameters="PredefinedType=WATERHEATINGCOIL;PortName=HeatingIn;SystemType=HEATING;Flow=SINK;" Order="0">
+					<Documentation>Heated water entering the coil.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="1397ef69-b5d6-4d6a-b136-6f3cec5d4aa8" RuleParameters="PredefinedType=WATERHEATINGCOIL;PortName=HeatingOut;SystemType=HEATING;Flow=SOURCE;" Order="0">
+					<Documentation>Heated water leaving the coil.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="8a9b58c4-e575-459c-8f05-71cae2aa8f5b" RuleParameters="PredefinedType=WATERHEATINGCOIL;PortName=AirIn;SystemType=AIRCONDITIONING;Flow=SINK;" Order="0">
+					<Documentation>Air entering the surface of the coil.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="0a525cc9-3a58-4626-80d6-abab7596941b" RuleParameters="PredefinedType=WATERHEATINGCOIL;PortName=AirOut;SystemType=AIRCONDITIONING;Flow=SOURCE;" Order="0">
+					<Documentation>Air leaving the surface of the coil.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="1dda3ddd-c74b-4cda-948c-70b70a171c75" Type="IfcCoil" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

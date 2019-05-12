@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="87a9b7ec-453d-45d5-828c-16b2d2d3ad74">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcCableSegment" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="7f3491b7-a364-4c65-be7d-f27db19d02d8">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="6af8d4f1-ed27-442d-ae28-83c63ff52cf6" RuleParameters="RelatingType=IfcCableSegmentType;" Order="0" />
+			</Items>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="b9e846d5-1245-470e-9cdd-49055407c5b8">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="e070c893-8416-42c3-be0f-84c83cbe7305" RuleParameters="PsetName=Pset_CableSegmentOccurrence;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="c154b533-f4a6-41ac-a244-9e5f5439c15c">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="e9240a69-694d-4b12-ad53-9df80b4e54e3" RuleParameters="Order=1;PropertyName=DesignAmbientTemperature;SetValue=IfcThermodynamicTemperatureMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="51cf9c3f-c68a-434c-9dde-4db9f247d4e2">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="7469f68f-3fc2-4bf8-bfa1-40ecf4d3b7cc" RuleParameters="Order=2;PropertyName=UserCorrectionFactor;Value=IfcReal;" Order="0" />
+								<DocTemplateItem UniqueId="25a3e95f-4fa5-4cf2-acb3-8d54a15507cc" RuleParameters="Order=3;PropertyName=NumberOfParallelCircuits;Value=IfcInteger;" Order="0" />
+								<DocTemplateItem UniqueId="d56abc38-b1e9-41da-a456-d706a60d88aa" RuleParameters="Order=4;PropertyName=InstallationMethod;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="2076daff-9008-4164-b65a-dce29b64f058" RuleParameters="Order=6;PropertyName=DistanceBetweenParallelCircuits;Value=IfcLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="e6eb6dca-8d18-4186-ba71-e0451235836f" RuleParameters="Order=7;PropertyName=SoilConductivity;Value=IfcThermalConductivityMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="cdbf038c-fcc8-4e90-ab6b-ea446f00f6b6" RuleParameters="Order=8;PropertyName=CarrierStackNumber;Value=IfcInteger;" Order="0" />
+								<DocTemplateItem UniqueId="bde3687d-549e-4787-a761-fa47e9d31153" RuleParameters="Order=10;PropertyName=IsHorizontalCable;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="f7d01938-34a8-4aec-aaab-0ea64eca6b8d" RuleParameters="Order=11;PropertyName=IsMountedFlatCable;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="545a5f8c-6659-4cb7-82de-f11183e60a24" RuleParameters="Order=12;PropertyName=CurrentCarryingCapasity;Value=IfcElectricCurrentMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="fa57f976-8741-4c98-8085-a05b89bbee50" RuleParameters="Order=13;PropertyName=MaximumCableLength;Value=IfcLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="1ab6b7f6-24b4-4695-8405-9902f183c9f5" RuleParameters="Order=14;PropertyName=PowerLoss;Value=IfcElectricCurrentMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="c2f5f2e7-f03c-477c-bae2-7b80ae160293">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="b70657e1-9cb1-4878-902f-1855a8237515" RuleParameters="Order=5;PropertyName=InstallationMethodFlagEnum;Value=IfcLabel;Reference=PEnum_InstallationMethodFlagEnum;" Order="0" />
+								<DocTemplateItem UniqueId="a931c8d5-9765-4a78-893f-759af54bbdf5" RuleParameters="Order=9;PropertyName=MountingMethod;Value=IfcLabel;Reference=PEnum_MountingMethodEnum;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="cea0640c-a589-42bf-be02-8c3f133e60a8" RuleParameters="PsetName=Pset_CableSegmentTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="46f66f74-14c0-46a5-ad01-d6c136730d50">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="0def3578-b4a0-4e65-ae69-2df6950b0f77" RuleParameters="Order=1;PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="022b6f54-ca18-42c1-9d22-87d42014582e">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="3172274d-7ccd-4ebb-b9c5-6160bbabcc3f" RuleParameters="Order=2;PropertyName=Status;Value=IfcLabel;Reference=PEnum_ElementStatus;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="e982c4db-3b41-43e5-aac8-fc661a65419b">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="cedfeb61-6f2a-49c6-8267-79bfc405edc3" RuleParameters="QsetName=Qto_CableSegmentBaseQuantities;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Quantities" UniqueId="46059bd6-78e7-43df-bc6a-babd09a516d3">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Weight Quantity_3X0MvMF8bFGfPv1_7RF0hx" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="a60e8b20-3776-4d95-8554-29c39c3e38ef" RuleParameters="Order=1;QuantityName=GrossWeight;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Quantities" UniqueId="46df1be3-66b6-4022-86c6-742d370a32d8">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Length Quantity_3TXdZXum1FS9rZvJdRIz4S" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="32eb6e25-829f-4443-b333-3d68d0784fb3" RuleParameters="Order=2;QuantityName=Length;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Quantities" UniqueId="75e49907-35a8-405e-8fd6-953b967cfa92">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Area Quantity_1bh4T7Rlz3VfJYP3$Kux_6" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="96a920bd-15c2-490b-8918-66f4d5efe748" RuleParameters="Order=3;QuantityName=CrossSectionArea;" Order="0" />
+								<DocTemplateItem UniqueId="4620253f-683e-44ef-b68e-389aa6b258d7" RuleParameters="Order=4;QuantityName=OuterSurfaceArea;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="f68ba985-c1cf-48ca-bffa-be5c39433f67" Type="IfcCableSegment" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

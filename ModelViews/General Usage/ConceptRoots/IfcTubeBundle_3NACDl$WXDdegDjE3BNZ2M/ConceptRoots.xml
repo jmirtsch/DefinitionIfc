@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3NACDl$WXDdegDjE3BNZ2M">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcTubeBundle" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="21cdjC1Hv28Q$QZyQm_XAn">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="691e5b99-f935-4286-b8bc-a48d0e619162" RuleParameters="RelatingType=IfcTubeBundleType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="23dkoDSv55IeupsS0YV4MR">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="50635604-398c-44b1-94cb-f87362a3940a" RuleParameters="PsetName=Pset_TubeBundleTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="f4598f4d-7abe-4c54-9762-86e0a88409af">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="5c26ff7f-663c-4229-a6a3-26bfd1384e20" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="66d293cd-faae-485f-be0d-f95cdac06d73" RuleParameters="PropertyName=NumberOfRows;Value=IfcInteger;" Order="0" />
+								<DocTemplateItem UniqueId="7200000f-c499-4d14-9c2a-2698a9ecfe31" RuleParameters="PropertyName=StaggeredRowSpacing;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="338cd5fa-c52c-402f-b265-f0f7b25fe0e8" RuleParameters="PropertyName=InLineRowSpacing;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="d4206237-bb66-466f-adf0-1f0f315ade6a" RuleParameters="PropertyName=NumberOfCircuits;Value=IfcInteger;" Order="0" />
+								<DocTemplateItem UniqueId="6b9bc562-ac09-4f2f-8283-5daf75950752" RuleParameters="PropertyName=FoulingFactor;Value=IfcThermalResistanceMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="b3c3698e-7250-4a45-97d0-38ecd9b6ca84" RuleParameters="PropertyName=ThermalConductivity;Value=IfcThermalConductivityMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="bba10e5a-18e8-444c-b3db-8d5d619f0c80" RuleParameters="PropertyName=Length;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="99b9dd62-12e4-481b-932d-1481df211b1a" RuleParameters="PropertyName=Volume;Value=IfcVolumeMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="d41ad67e-dd7d-4728-9a00-e4f471d7ed4c" RuleParameters="PropertyName=NominalDiameter;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="75183c08-855c-40a1-95d0-ea2251d55bf6" RuleParameters="PropertyName=OutsideDiameter;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="593f7f2f-4297-483c-a30b-a26b4e8e2e73" RuleParameters="PropertyName=InsideDiameter;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="afb1751a-7179-4b59-ba5a-4ba3c1d4b302" RuleParameters="PropertyName=HorizontalSpacing;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="a2dcf592-7d2e-4482-9c76-704d0617e5b9" RuleParameters="PropertyName=VerticalSpacing;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="376152d4-32ff-4229-b8a0-ff727b882ad9" RuleParameters="PropertyName=HasTurbulator;Value=IfcBoolean;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="8715c7b7-ccdb-4830-9ff1-674863dc194d">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="95fe143a-e597-4489-a016-45de00157e81" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="2zhFmvzUPCnffVMS2zPYuP">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="4cad7c2b-beaa-496b-9cac-11e937763e16" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_TubeBundleBaseQuantities;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material" UniqueId="3Pb3v6kPzBTQk2DOWWJ7qW">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="459480f2-780d-4b53-86df-cad2e8521242" RuleParameters="Name=Casing;" Order="0">
+					<Documentation>Material from which the casing is constructed.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Port" UniqueId="0hcZT6Kwf3FRTy66mLpYbL">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="a240d90d-43a2-4c7b-aee0-709c0ac30640" RuleParameters="PortName=Inlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Inlet.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="6c2747b7-7cad-40bb-8138-5713d2cdf0af" RuleParameters="PortName=Outlet;SystemType=NOTDEFINED;Flow=SOURCE;" Order="0">
+					<Documentation>Uutlet.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="32a495c7-01cd-45c9-848e-b54d1504ae0e" Type="IfcTubeBundle" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

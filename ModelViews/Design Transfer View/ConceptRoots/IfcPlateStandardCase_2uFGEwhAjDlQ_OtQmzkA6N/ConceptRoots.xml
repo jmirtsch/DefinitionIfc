@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="b83d03ba-acab-4dbd-af98-ddac3db8a197">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcPlateStandardCase" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Material Layer Set Usage" UniqueId="762d4deb-9d83-443e-87fe-ab206fa5fe7c">
+			<Documentation>&lt;p&gt;The material of the &lt;em&gt;IfcPlateStandardCase&lt;/em&gt; is defined by
+&lt;em&gt;IfcMaterialLayerSetUsage&lt;/em&gt; and attached by the
+&lt;em&gt;IfcRelAssociatesMaterial&lt;/em&gt;&lt;em&gt;.RelatingMaterial&lt;/em&gt;. It is
+accessible by the inverse &lt;em&gt;HasAssociations&lt;/em&gt; relationship.
+Multi-layer plates can be represented by refering to several
+&lt;em&gt;IfcMaterialLayer&lt;/em&gt;&apos;s within the &lt;em&gt;IfcMaterialLayerSet&lt;/em&gt;
+that is referenced from the
+&lt;em&gt;IfcMaterialLayerSetUsage&lt;/em&gt;.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Material information can also be given at the
+&lt;em&gt;IfcPlateType&lt;/em&gt;, defining the common attribute data for all
+occurrences of the same type.&amp;nbsp;It is then accessible by the
+inverse &lt;em&gt;IsDefinedBy&lt;/em&gt; relationship pointing to
+&lt;em&gt;IfcPlateType.HasAssociations&lt;/em&gt; and via
+&lt;em&gt;IfcRelAssociatesMaterial.RelatingMaterial&lt;/em&gt;.&lt;/p&gt;
+
+
+&lt;p&gt;The &lt;em&gt;IfcPlateStandardCase&lt;/em&gt; defines in addition that the
+&lt;em&gt;IfcPlateType&lt;/em&gt; should have a unique
+&lt;em&gt;IfcMaterialLayerSet&lt;/em&gt;, that is referenced by
+the&amp;nbsp;&lt;em&gt;IfcMaterialLayerSetUsage&lt;/em&gt; assigned to all
+occurrences of this &lt;em&gt;IfcPlateType&lt;/em&gt;.&lt;/p&gt;
+
+
+&lt;p&gt;Figure 220 illustrates assignment of &lt;em&gt;IfcMaterialLayerSetUsage&lt;/em&gt; and &lt;em&gt;IfcMaterialLayerSet&lt;/em&gt; to the &lt;em&gt;IfcPlateStandardCase&lt;/em&gt; as the plate occurrence and to the &lt;em&gt;IfcPlateType&lt;/em&gt;. The same &lt;em&gt;IfcMaterialLayerSet&lt;/em&gt; shall be shared by many occurrences of &lt;em&gt;IfcMaterialLayerSetUsage&lt;/em&gt;. This relationship shall be consistent to the relationship between the &lt;em&gt;IfcPlateType&lt;/em&gt; and the &lt;em&gt;IfcPlateStandardCase&lt;/em&gt;.&lt;/p&gt;
+
+
+&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot; cellspacing=&quot;2&quot; &gt;
+
+&lt;tr&gt;&lt;td width=&quot;610&quot; align=&quot;left&quot; valign=&quot;top&quot;&gt;
+&lt;p&gt;&lt;img src=
+&quot;../../../figures/ifcslab_materialusage-01.png&quot; alt=&quot;Material layer set and usage&quot; height=&quot;220&quot; width=
+&quot;501&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 220 &amp;mdash; Plate type definition&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;/table&gt;
+
+
+
+
+
+&lt;p&gt;As shown in Figure 106, the following conventions shall be met:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The reference coordinate system is the coordinate system established by the &lt;em&gt;IfcExtrudedAreaSolid.Position&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;The reference plane is the plane defined by the extruded profile of &lt;em&gt;IfcExtrudedAreaSolid.SweptSolid&lt;/em&gt;. The &lt;em&gt;IfcMaterialLayerSetUsage.OffsetFromReferenceLine&lt;/em&gt; is given as a distance from this plane.&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;IfcMaterialLayerSetUsage.DirectionSense&lt;/em&gt; defines how the &lt;em&gt;IfcMaterialLayer&lt;/em&gt;&apos;s are assigned to the reference plane. POSITIVE means in direction to the positive z-axis of the reference coordinate system.&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;IfcMaterialLayerSetUsage.OffsetFromReferenceLine&lt;/em&gt; is the distance parallel to the reference plane and always perpendicular to the base (XY) plane of the reference coordinate system. This is independent of a potential non-perpendicular extrusion given by &lt;em&gt;IfcExtrudedAreaSolid.ExtrudedDirection&lt;/em&gt; &amp;lt;&amp;gt; 0.,0.,1. A positive value of &lt;em&gt;IfcMaterialLayerSetUsage.OffsetFromReferenceLine&lt;/em&gt; would then point into the positive z-axis of the reference coordinate system.&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;Thickness&lt;/em&gt; of each &lt;em&gt;IfcMaterialLayer&lt;/em&gt; shall be the parallel distance (measured perpendicular to the base plane). The &lt;em&gt;TotalThickness&lt;/em&gt; of the &lt;em&gt;IfcMaterialLayerSet&lt;/em&gt; is the sum of all layer thicknesses and in case of a perpendicular extrusion identical with &lt;em&gt;IfcExtrudedAreaSolid.Depth&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;IfcMaterialLayerSetUsage.LayerSetDirection&lt;/em&gt; i always AXIS3.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table summary=&quot;material use definition for standard plates&quot; border=&quot;0&quot; cellpadding=&quot;2&quot; cellspacing=&quot;2&quot;&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot; width=&quot;610&quot;&gt;&lt;img src=&quot;../../../figures/ifcmateriallayersetusage_slab-01.png&quot; alt=&quot;plate material layer set&quot; width=&quot;601&quot; height=&quot;321&quot; border=&quot;0&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 221 &amp;mdash; Plate material layers&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Layer Set Usage_1jNxXlFor9_vKe1tXLtSn7" />
+			</Definition>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="mandatory">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body SweptSolid Geometry" UniqueId="e0569a83-7996-4a08-9ff0-08815329e52d">
+			<Documentation>&lt;p&gt;The following additional constraints apply to the swept solid
+representation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;Solid&lt;/u&gt;: &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt; is required,&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Profile&lt;/u&gt;: &lt;em&gt;IfcArbitraryClosedProfileDef,
+IfcRectangleProfileDef, IfcRoundedRectangleProfileDef,
+IfcCircleProfileDef, IfcEllipseProfileDef&lt;/em&gt; shall be
+supported.&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Extrusion&lt;/u&gt;: The profile can be extruded perpendicularly
+or non-perpendicularly to the plane of the swept profile.&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Material&lt;/u&gt;: The definition of the
+&lt;em&gt;IfcMaterialLayerSetUsage&lt;/em&gt;, particularly of the
+&lt;em&gt;OffsetFromReferenceLine&lt;/em&gt; and the
+&lt;em&gt;ForLayerSet.TotalThickness&lt;/em&gt;, has to be consistent to the
+&apos;SweptSolid&apos; representation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table&gt;
+
+ &lt;tr&gt;
+  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcslab_standard-layout1.gif&quot; alt=&quot;standard plate&quot; border=&quot;0&quot; height=&quot;274&quot; width=&quot;399&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;
+
+&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 221 illustrates a &apos;SweptSolid&apos; geometric representation. The following interpretation of dimension parameter applies for polygonal plates (in ground floor view): &lt;em&gt;IfcArbitraryClosedProfileDef.OuterCurve&lt;/em&gt; being a closed bounded curve is interpreted as area (or foot print) of the plate.&lt;/blockquote&gt;
+
+
+ &lt;/td&gt;
+ &lt;/tr&gt;
+
+ &lt;tr&gt;
+  &lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 221 &amp;mdash; Plate body extrusion&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+ &lt;/tr&gt;
+
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="b985e251-3ee3-4a2f-ac0a-77589292e328" RuleParameters="Identifier=Body;Type=SweptSolid;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Geometry" UniqueId="72af4fee-e503-4e1f-9258-5a113ccb4950">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Swept Solid Geometry_3Zj3s_m9z8Ngphyp0n7JNE" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="f28e6400-bd83-4c3f-931c-43d51b63311e" RuleParameters="Profile=IfcArbitraryClosedProfileDef;" Order="0" />
+								<DocTemplateItem UniqueId="ee3dffc4-5c6d-4e2b-bc21-8704ce221204" RuleParameters="Profile=IfcArbitraryProfileDefWithVoids;" Order="0" />
+								<DocTemplateItem UniqueId="687080c5-d7da-4e7f-8d94-5a00c5e37681" RuleParameters="Profile=IfcRectangleProfileDef;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body Clipping Geometry" UniqueId="dce3a2a0-5086-4827-9462-ff826158dc59">
+			<Documentation>&lt;p&gt;The following constraints apply to the &apos;Clipping&apos;
+representation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;Solid&lt;/u&gt;: see &apos;SweptSolid&apos; shape representation,&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Profile&lt;/u&gt;:&amp;nbsp;see &apos;SweptSolid&apos; shape
+representation,&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Extrusion&lt;/u&gt;:&amp;nbsp;see &apos;SweptSolid&apos; shape
+representation,&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Material&lt;/u&gt;:&amp;nbsp;see &apos;SweptSolid&apos; shape
+representation,&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Boolean result&lt;/u&gt;: The &lt;em&gt;IfcBooleanClippingResult&lt;/em&gt;
+shall be supported, allowing for Boolean differences between the
+swept solid (here &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt;) and one or several
+&lt;em&gt;IfcHalfSpaceSolid&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table&gt;
+
+ &lt;tr&gt;
+  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcslab_advanced-layout1.gif&quot; alt=&quot;advanced plate&quot; border=&quot;0&quot; height=&quot;274&quot; width=&quot;399&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 222 illustrates a &apos;Clipping&apos; geometric representation with definition of a plate using advanced geometric representation. The profile is extruded non-perpendicular and the plate body is clipped at the eave.&lt;/blockquote&gt;
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+
+ &lt;tr&gt;
+  &lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 222 &amp;mdash; Plate body clipping&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+ &lt;/tr&gt;
+
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body Clipping Geometry_0isyBrcmn3wfqgdNBG57u0" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="61a3ade8-7796-4929-9147-7604cf90b5ea" Suppress="true">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Element Decomposition_2A9y5QnEfCgOpEVxkXoRpW" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="329b769c-ae1f-4a35-8e83-a6292ca1b02d" Suppress="true">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Mapped Geometry_3i$TV8STL4dxyWvZebtBcw" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="a2c78c3b-0c0b-4f75-bbf5-4e2feaea178d" Suppress="true">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid PolyCurve Geometry_0uSGpDZ$L1ke$Q23091w0k" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="0c6c780e-1b39-4c4e-ac1e-9c0e201acbfa" Suppress="true">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body Tessellation Geometry_1S$KG3PKLCRRmd2fMZq9bG" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="d5076ed5-0abe-4e97-ac60-95857b1485c2" Suppress="true">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body CSG Geometry_2WgtOmQML9NhwFqGRz9Pd2" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="4b05d5ee-c298-47ca-a28a-7ae24f301b7f" Suppress="true">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body SurfaceModel Geometry_0NqqeIb0D0zB_2PJcRuZnL" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="1c984871-a400-4a31-a7b0-44011c48cd8e" Suppress="true">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Layer Set_3VjREfKED6ueKO7mFdpzY6" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="c0f3e562-8f17-476d-ad43-e1af571c6cbb" Suppress="true">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Single_1VEQWKHA1Fiut6tQe5OFnK" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="2ab5f29e-9b80-4b05-9c7c-161cd503b188" Suppress="true">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body AdvancedBrep Geometry_3yTZLrKF5BmBloE2E05I17" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="ff08071f-ae7b-4965-bb87-8a3e81f78ecc" Suppress="true">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body Brep Geometry_2FkIFrk2r8qgqfrdZAHp$Q" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="b4bf7264-4c1e-41af-b468-b28faebcda90" Type="IfcPlateStandardCase" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

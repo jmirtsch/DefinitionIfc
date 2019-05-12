@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2luRbgTXXCvuiF_ssLHlFG">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcDistributionSystem" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage UniqueId="0HWMhXy7TE5PbxMwmc8mnv">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="a4d5235c-196f-4378-96c4-3c0e6a4faf2a" RuleParameters="PsetName=Pset_DistributionSystemCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="085530e9-68cb-4c9e-8e88-646461f67db2">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="c596b45e-be34-4f46-a0c1-5be29ed2c0d0" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Aggregation" UniqueId="0eFgdhszD4ZA_jCmFzXCb2">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="caf7792c-fce6-46bc-b18f-836bd66f04fc" RuleParameters="PredefinedType=ELECTRICAL;RelatedObjects=IfcDistributionSystem;" Order="0">
+					<Documentation>Indicates electrical subsystems within the system.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="67e417c0-de15-4ee0-a36e-2bec17f34dce" RuleParameters="PredefinedType=ELECTRICAL;RelatedObjects=IfcDistributionCircuit;" Order="0">
+					<Documentation>Indicates electrical circuits within the system.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Group Assignment" UniqueId="3Nq78kcTP5tBAvU9I94F7N">
+			<Documentation>&lt;p&gt;For the most common case of an &lt;em&gt;IfcDistributionElement&lt;/em&gt; subtype containing ports of a particular &lt;em&gt;PredefinedType&lt;/em&gt; that all belong to the same distribution system, the &lt;em&gt;IfcDistributionElement&lt;/em&gt; is assigned to the &lt;em&gt;IfcDistributionSystem&lt;/em&gt; via the &lt;em&gt;IfcRelAssignsToGroup&lt;/em&gt; relationship, where &lt;em&gt;IfcDistributionPort&lt;/em&gt;&apos;s are implied as part of the corresponding system based on their &lt;em&gt;PredefinedType&lt;/em&gt;.  An &lt;em&gt;IfcDistributionElement&lt;/em&gt; may belong to multiple systems, however only one &lt;em&gt;IfcDistributionSystem&lt;/em&gt; of a particular &lt;em&gt;PredefinedType&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;For rare cases where an &lt;em&gt;IfcDistributionElement&lt;/em&gt; subtype contains ports of the same &lt;em&gt;PredefinedType&lt;/em&gt; yet different ports belong to different systems, alternatively each &lt;em&gt;IfcDistributionPort&lt;/em&gt; may be directly assigned to a single &lt;em&gt;IfcDistributionSystem&lt;/em&gt; via the &lt;em&gt;IfcRelAssignsToGroup&lt;/em&gt; relationship, where the &lt;em&gt;PredefinedType&lt;/em&gt; must match.  Such assignment indicates that the &lt;em&gt;IfcDistributionSystem&lt;/em&gt; assigned from the &lt;em&gt;IfcDistributionPort&lt;/em&gt; overrides any such system of the same &lt;em&gt;PredefinedType&lt;/em&gt; assigned from the containing &lt;em&gt;IfcDistributionElement&lt;/em&gt;, if any.&lt;/p&gt;
+
+&lt;p&gt;Additionally, an &lt;em&gt;IfcDistributionSystem&lt;/em&gt; may in turn be assigned to an &lt;em&gt;IfcDistributionPort&lt;/em&gt; indicating the host or origination of the system using &lt;em&gt;IfcRelAssignsToProduct&lt;/em&gt;.&lt;/p&gt;
+
+&lt;blockquote class=&quot;example&quot;&gt;
+EXAMPLE&amp;nbsp; A gas-powered hot water heater may have three ports: GAS, DOMESTICCOLDWATER, and DOMESTICHOTWATER.  The heater is a member of two systems (GAS and DOMESTICCOLDWATER), and hosts one system (DOMESTICHOTWATER) at the corresponding port.
+&lt;/blockquote&gt;
+
+&lt;p&gt;Figure 267 illustrates a distribution system for an electrical circuit.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt=&quot;Instance diagram for electrical circuit&quot; src=&quot;../../../figures/ifcdistributionsystem-01.png&quot; &gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 267 &amp;mdash; Distribution system assignment&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Group Assignment_3rPvP$L9D4sQnHatm9h2M3" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="41ba50c8-895a-4607-92d5-9fceb58514f5" RuleParameters="Type=IfcDistributionElement;" Order="0">
+					<Documentation>Indicates devices that are part of the system, where any ports of the same PredefinedType are considered part of the system implicitly.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="24ea9a22-7779-4c8a-9bfc-c9ca501133a8" RuleParameters="Type=IfcDistributionPort;" Order="0">
+					<Documentation>Indicates port that is explicitly part of the system, which overrides any system assignment of the containing device.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="7408c7c3-58fa-421e-8c37-def3db2f77be" Type="IfcDistributionSystem" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

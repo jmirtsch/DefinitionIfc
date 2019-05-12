@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="afa88c2c-bd3b-4ca3-b4f8-23351b5f5aed">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcFanType" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="c83a6105-f332-4eb2-8323-9381578dc632" Type="IfcFanType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

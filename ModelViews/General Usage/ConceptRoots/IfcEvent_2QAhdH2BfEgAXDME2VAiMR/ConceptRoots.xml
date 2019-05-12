@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2QAhdH2BfEgAXDME2VAiMR">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcEvent" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="0yeg5vfefBOPnUI5lh64U7">
+			<Documentation>&lt;p&gt;
+The &lt;em&gt;IfcEvent&lt;/em&gt; defines the anticipated or actual occurrence of
+ any event; common information about event types is handled
+  by &lt;em&gt;IfcEventType&lt;/em&gt;.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="7a222a28-c921-4c31-a478-761d0a120671" RuleParameters="RelatingType=IfcEventType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Property Sets" UniqueId="36LqwYd5n8L8wYA14gQG5L">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Nesting" UniqueId="320zLgLjP8bhuimIByQyoD">
+			<Documentation>&lt;p&gt;
+      &lt;em&gt;IfcEvent&lt;/em&gt; may be contained within an &lt;em&gt;IfcTask&lt;/em&gt; using the
+      &lt;em&gt;IfcRelNests&lt;/em&gt; relationship. The event is considered active
+      during the time period of the enclosing task (including any
+      assigned &lt;em&gt;IfcWorkCalendar&lt;/em&gt;); that is such event may be
+      triggered within the task time period but not outside of
+      it. As an &lt;em&gt;IfcEvent&lt;/em&gt; is considered to be atomic, no use is
+      anticipated for nesting processes inside the event.
+    &lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Nesting_0uoeU8NaT178AKrM_UcbQH" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Sequential Connectivity" UniqueId="1gsd0hRzzC1gWf3PstHAkZ">
+			<Documentation>&lt;p&gt;
+      The relationship &lt;em&gt;IfcRelSequence&lt;/em&gt; is used to indicate control
+      flow. An &lt;em&gt;IfcEvent&lt;/em&gt; as a predecessor
+      (&lt;em&gt;IfcRelSequence.RelatingProcess&lt;/em&gt;) indicates that the
+      succeeding process (typically &lt;em&gt;IfcProcedure&lt;/em&gt; or &lt;em&gt;IfcTask&lt;/em&gt;) is
+      triggered in response to the event. An &lt;em&gt;IfcEvent&lt;/em&gt; as a
+      successor (&lt;em&gt;IfcRelSequence.RelatedProcess&lt;/em&gt;) indicates that
+      the completion of the preceeding process causes the event
+      to be triggered. As events have zero duration, the
+      &lt;em&gt;IfcRelSequence.SequenceType&lt;/em&gt; attribute has no effect on an
+      &lt;em&gt;IfcEvent&lt;/em&gt; but still applies to the opposite end of the
+      relationship if &lt;em&gt;IfcTask&lt;/em&gt; is used.
+    &lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Sequential Connectivity_39yHY0ZFP7$gki1SSxG46n" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Control Assignment" UniqueId="1iOF4IScbDuPCsxC3ZOXMB">
+			<Documentation>&lt;p&gt;An &lt;em&gt;IfcEvent&lt;/em&gt; may be assigned to an &lt;em&gt;IfcWorkCalendar&lt;/em&gt; to
+ indicate times when such event is active using
+      &lt;em&gt;IfcRelAssignsToControl&lt;/em&gt;; otherwise the effective calendar is
+ determined by the nearest &lt;em&gt;IfcProcess&lt;/em&gt; ancestor with a
+  calendar assigned.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Control Assignment_21FdF_La56IAQ0Y8VFGrdn" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Product Assignment" UniqueId="1061Ua7j5ChOt1_9XL98tc">
+			<Documentation>&lt;p&gt;For building operation scenarios, &lt;em&gt;IfcEvent&lt;/em&gt; may be assigned
+ to a product (&lt;em&gt;IfcElement&lt;/em&gt; subtype) using
+      &lt;em&gt;IfcRelAssignsToProduct&lt;/em&gt; to indicate a specific product
+ occurrence that sources the event.&lt;/p&gt;
+
+&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; An
+ &lt;em&gt;IfcSensor&lt;/em&gt; for a motion sensor may have a &quot;Motion Sensed&quot;
+ event. If the &lt;em&gt;IfcEvent&lt;/em&gt; is defined by an &lt;em&gt;IfcEventType&lt;/em&gt; and
+ the &lt;em&gt;IfcEventType&lt;/em&gt; is assigned to a product type (using
+ &lt;em&gt;IfcRelAssignsToProduct&lt;/em&gt;), then the &lt;em&gt;IfcEvent&lt;/em&gt; must be assigned
+ to one or more occurrences of the specified product type
+ using &lt;em&gt;IfcRelAssignsToProduct&lt;/em&gt;.
+&lt;/blockquote&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Product Assignment_3idFi4hVv8Q85eru$fbQaJ" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="8255817f-e8be-4ffd-954a-fcbffcd8f97b" Type="IfcEvent" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

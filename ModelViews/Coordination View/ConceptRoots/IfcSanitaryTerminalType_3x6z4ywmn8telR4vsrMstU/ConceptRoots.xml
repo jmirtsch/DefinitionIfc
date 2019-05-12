@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="fb1bd13c-eb0c-48de-8bdb-139db55b6dde">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcSanitaryTerminalType" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="8c96c0bf-994c-4f72-8474-bfd82144d198" Type="IfcSanitaryTerminalType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

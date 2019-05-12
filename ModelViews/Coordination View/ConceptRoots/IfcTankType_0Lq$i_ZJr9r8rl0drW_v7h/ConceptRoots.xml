@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="15d3fb3e-8d3d-49d4-8d6f-027d60fb91eb">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcTankType" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="fe34871c-deaa-4355-870b-abca001a6fa6" Type="IfcTankType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

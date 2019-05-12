@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcSpatialZoneType" Name="IfcSpatialZoneType" UniqueId="f9754c40-1414-4a96-a587-2ff0a1c7e969" DiagramNumber="5" BaseDefinition="IfcSpatialElementType" EntityFlags="109">
+	<Localization>
+		<DocLocalization Name="Räumliche Zone - Typ" Locale="de" />
+		<DocLocalization Name="Spatial Zone Type" Locale="en" />
+		<DocLocalization Name="Type de zone spatiale" Locale="fr" />
+	</Localization>
+	<DiagramRectangle>
+		<DocRectangle X="7173.1813" Y="2123.4667" Width="237.26667" Height="146.5" />
+	</DiagramRectangle>
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="cffcc7b0-79a5-415e-b0c0-9b23b88d859d" DefinedType="IfcSpatialZoneTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Predefined types to define the particular type of the spatial zone. There may be property set definitions available for each predefined type.</Documentation>
+			<DiagramLine>
+				<DocPoint X="7410.448" Y="2140.7167" />
+				<DocPoint X="7968.17867" Y="2140.7167" />
+				<DocPoint X="7968.17867" Y="1186.77607" />
+				<DocPoint X="7894.670861" Y="1186.77607" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="7528.29275" Y="2128.704704" Width="182" Height="35" />
+			</DiagramLabel>
+		</DocAttribute>
+		<DocAttribute Name="LongName" UniqueId="aeddd5e6-ec3d-4e96-adba-d747e9609667" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Long name for a spatial zone type, used for informal purposes. It should be used, if available, in conjunction with the inherited &lt;em&gt;Name&lt;/em&gt; attribute.
+&lt;blockquote class=&quot;note&quot;&gt;
+  NOTE&amp;nbsp; In many scenarios the &lt;em&gt;Name&lt;/em&gt; attribute refers to the short name or number of a spatial zone, and the &lt;em&gt;LongName&lt;/em&gt; refers to the full descriptive name.
+&lt;/blockquote&gt;</Documentation>
+			<DiagramLine>
+				<DocPoint X="7410.448" Y="2231.3834" />
+				<DocPoint X="7637.91467" Y="2231.3834" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="7394.448" Y="2223.3834" Width="129" Height="35" />
+			</DiagramLabel>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="CorrectPredefinedType" UniqueId="515e0958-d84c-4b8e-a2c1-c23d58d4bf37">
+			<Documentation>The inherited attribute &lt;em&gt;ElementType&lt;/em&gt; shall be provided, if the &lt;em&gt;PredefinedType&lt;/em&gt; is set to USERDEFINED.</Documentation>
+			<Expression>(PredefinedType &lt;&gt; IfcSpatialZoneTypeEnum.USERDEFINED) OR 
+((PredefinedType = IfcSpatialZoneTypeEnum.USERDEFINED) AND EXISTS(SELF\IfcSpatialElementType.ElementType))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="9b3f098f-c68d-49cd-a0b8-6ea433458c81">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcCableFitting" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="ea239ede-e560-48c3-b36b-b99d1beb527e">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="f1f1be40-986f-40c2-b3c2-78fef517a390" RuleParameters="RelatingType=IfcCableFittingType;" Order="0" />
+			</Items>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="c3c8b5d6-ef1e-465d-aba9-394fa282a84a">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="0fe7be16-16ad-4039-b46d-408edf063f21" RuleParameters="PsetName=Pset_CableFittingTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="610dd38b-3b0a-43c5-ac8e-a0c99ec43ea6">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="4f98358b-fca2-4056-b7c8-62f7ea057e15" RuleParameters="Order=1;PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="afebb22e-61e0-40f1-a41d-19007cc66f67">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="cc6d8f29-99ed-48b3-8133-574774224cea" RuleParameters="Order=2;PropertyName=Status;Value=IfcLabel;Reference=PEnum_ElementStatus;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="147f7938-e589-4259-9cde-1e187c2ecbe2">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="fdd92e64-dd55-4838-a78d-9d1d3720ad88" RuleParameters="QsetName=Qto_CableFittingBaseQuantities;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Quantities" UniqueId="921a28a3-441c-4f4a-9e3f-573489129c61">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Weight Quantity_3X0MvMF8bFGfPv1_7RF0hx" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="86255a0c-5e1a-4c89-9ae9-3a2c21a1d182" RuleParameters="Order=1;QuantityName=GrossWeight;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="d9e2efbd-1f4f-43cd-a5ff-1a83999ddb6d" Type="IfcCableFitting" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

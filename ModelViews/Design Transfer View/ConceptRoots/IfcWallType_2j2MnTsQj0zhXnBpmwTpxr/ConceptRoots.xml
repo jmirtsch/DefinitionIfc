@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="ad096c5d-d9ab-40f6-b871-2f3c3a773ef5">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcWallType" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Material Layer Set" UniqueId="992ef032-ae4b-481b-bb61-8bda2db409a5">
+			<Documentation>&lt;p&gt;The material of the &lt;em&gt;IfcWallType&lt;/em&gt; is defined by the
+&lt;em&gt;IfcMaterialLayerSet&lt;/em&gt; or as fall back by &lt;em&gt;IfcMaterial&lt;/em&gt;
+and attached by the
+&lt;em&gt;IfcRelAssociatesMaterial&lt;/em&gt;&lt;em&gt;.RelatingMaterial&lt;/em&gt;. It is
+accessible by the inverse &lt;em&gt;HasAssociations&lt;/em&gt;
+relationship.&lt;/p&gt;
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; It is illegal to assign an
+&lt;em&gt;IfcMaterial&lt;/em&gt; to an &lt;em&gt;IfcWallType&lt;/em&gt;, if there is at least
+one occurrence of &lt;em&gt;IfcWallStandardCase&lt;/em&gt; for this type.&lt;/blockquote&gt;
+
+&lt;p&gt;The shared material layer set definition is defined by
+assigning an &lt;em&gt;IfcMaterialLayerSet&lt;/em&gt; (see material use
+definition above). The &lt;em&gt;IfcMaterialLayer&lt;/em&gt; refers to one or
+several of &lt;em&gt;IfcMaterialLayer&lt;/em&gt; that is the common for all
+wall occurrence, if used. It is only applicable if the
+&lt;em&gt;IfcWallType&lt;/em&gt; has only occurrences of type
+&lt;em&gt;IfcWallStandardCase&lt;/em&gt; (see definition of
+&lt;em&gt;IfcWallStandardCase&lt;/em&gt; for further information).&lt;/p&gt;
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; Since each individual instance of
+&lt;em&gt;IfcWallStandardCase&lt;/em&gt; defines its own
+&lt;em&gt;IfcMaterialLayerSetUsage&lt;/em&gt; including the offset from the
+wall axis, the same &lt;em&gt;IfcWallType&lt;/em&gt; can be used independently
+of the axis alignment of its occurrences.&lt;/blockquote&gt;
+
+
+&lt;p&gt;If a wall type is decomposed into parts, then material layers of the &lt;i&gt;IfcWallType&lt;/i&gt; may be driven by corresponding material layers and profiles of components, where &lt;i&gt;IfcMaterialLayer&lt;/i&gt;.Name refers to &lt;i&gt;IfcElement&lt;/i&gt;.Name. The ordering of layers is preserved by the layer set, while the thicknesses of each layer are calculated according to the material layer/profile geometry of the parts.&lt;/p&gt;
+
+&lt;p&gt;The following is an example of a framed wall composition, where layers are ordered in the direction away from the viewer facing the right side of the wall:&lt;/p&gt;
+
+&lt;table class=&quot;gridtable&quot;&gt;
+&lt;tr&gt;&lt;th&gt;#&lt;/th&gt;&lt;th&gt;Layer/Element Name&lt;/th&gt;&lt;th&gt;Element Type&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;Forward Panels&lt;/td&gt;&lt;td&gt;&lt;i&gt;IfcPlate&lt;/i&gt;&lt;/td&gt;&lt;td&gt;Panels on right side of wall (looking in direction of axis) such as gypsum board or cement board.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;Frame&lt;/td&gt;&lt;td&gt;&lt;i&gt;IfcElementAssembly&lt;/i&gt;&lt;/td&gt;&lt;td&gt;Framing, which is decomposed into tracks, studs, and insulation. The thickness of the layer is determined according to the greatest extent by superimposing the material layers and profiles of all aggregated objects (in the absense of this &lt;i&gt;IfcElementAssembly&lt;/i&gt; having its own &lt;i&gt;IfcMaterialLayerSet&lt;/i&gt; defining sequential positioning of elements).&lt;br/&gt;
+
+&lt;table class=&quot;gridtable&quot;&gt;
+&lt;tr&gt;&lt;th&gt;Element Name&lt;/th&gt;&lt;th&gt;Element Type&lt;/th&gt;&lt;th&gt;Material&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Track&lt;/td&gt;&lt;td&gt;&lt;i&gt;IfcMemberStandardCase&lt;/i&gt;&lt;/td&gt;&lt;td&gt;&lt;i&gt;IfcMaterialProfileSetUsage&lt;/i&gt;&lt;/td&gt;&lt;td&gt;Track at base and top of frame.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Stud&lt;/td&gt;&lt;td&gt;&lt;i&gt;IfcMemberStandardCase&lt;/i&gt;&lt;/td&gt;&lt;td&gt;&lt;i&gt;IfcMaterialProfileSetUsage&lt;/i&gt;&lt;/td&gt;&lt;td&gt;Studs, where &lt;i&gt;IfcMaterialProfileSetUsage&lt;/i&gt;.ReferenceExtent defines the maximum height and &lt;i&gt;IfcMaterialProfileWithOffsets&lt;/i&gt;.Offsets defines the stud spacing.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Insulation&lt;/td&gt;&lt;td&gt;&lt;i&gt;IfcBuildingElementPart&lt;/i&gt;&lt;/td&gt;&lt;td&gt;&lt;i&gt;IfcMaterialLayerSet&lt;/i&gt;&lt;/td&gt;&lt;td&gt;Insulation.&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;Reverse Panels&lt;/td&gt;&lt;td&gt;&lt;i&gt;IfcPlate&lt;/i&gt;&lt;/td&gt;&lt;td&gt;Panels on left side of wall (looking in direction of axis) such as gypsum board or cement board.&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Layer Set_3VjREfKED6ueKO7mFdpzY6" />
+			</Definition>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="5a879a60-1012-46a1-8dae-e86e8831f1b8" Type="IfcWallType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

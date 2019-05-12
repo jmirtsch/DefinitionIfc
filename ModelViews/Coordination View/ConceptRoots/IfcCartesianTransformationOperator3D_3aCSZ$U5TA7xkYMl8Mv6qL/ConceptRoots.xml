@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="e431c8ff-7857-4a1f-bba2-5af216e46d15">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcCartesianTransformationOperator3D" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="df7889fd-e1f7-403a-9a12-34dced9a42f0" Type="IfcCartesianTransformationOperator3D" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="PEnum_DistributionSystemElectricalCategory" UniqueId="aa805d9d-259f-4ca2-8582-e745edb9a55a">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="HIGHVOLTAGE_2SPWT2mEf559uUjdHM5xgT" />
+		<DocPropertyConstant xsi:nil="true" href="LOWVOLTAGE_2IDCHDdc14bOyipwFdLMVM" />
+		<DocPropertyConstant xsi:nil="true" href="EXTRALOWVOLTAGE_1gVk7qZW5BWhBXEklQVWLt" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_2KAyZCmuXDcAHfk4CZvKjO" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_2evIt$6wv7XQ3BrgmerdN1" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3dsjJ9$Sb2p9vnvsAygVfa" />
+	</Constants>
+</DocPropertyEnumeration>
+

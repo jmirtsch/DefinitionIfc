@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcFooting" Name="IfcFooting" UniqueId="0664744b-65e2-41ea-9b44-6b0a1749f000" Status="H" DiagramNumber="1" BaseDefinition="IfcBuildingElement" EntityFlags="37">
+	<Localization>
+		<DocLocalization Name="Fundament / Flachgründung" Locale="de" />
+		<DocLocalization Name="Footing" Locale="en" />
+		<DocLocalization Name="Fondation" Locale="fr" />
+	</Localization>
+	<DiagramRectangle>
+		<DocRectangle X="135.20964" Y="211.02282" Width="200" Height="100" />
+	</DiagramRectangle>
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="ca295c37-cfea-4e1e-b397-13dac2aa1bd0" DefinedType="IfcFootingTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The generic type of the footing.
+
+&lt;blockquote class=&quot;change-ifc2x4&quot;&gt;IFC4 CHANGE&amp;nbsp; Attribute made optional.  Type information can be provided by &lt;em&gt;IfcRelDefinesByType&lt;/em&gt; and &lt;em&gt;IfcFootingType&lt;/em&gt;.&lt;/font&gt;&lt;/blockquote&gt;</Documentation>
+			<DiagramLine>
+				<DocPoint X="335.20964" Y="261.02282" />
+				<DocPoint X="597.93236" Y="261.02282" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="322.927974" Y="249.00848" Width="182" Height="35" />
+			</DiagramLabel>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="CorrectPredefinedType" UniqueId="b6936626-7717-494a-b238-aad497487acd">
+			<Documentation>Either the &lt;em&gt;PredefinedType&lt;/em&gt; attribute is unset (e.g. because an &lt;em&gt;IfcFootingType&lt;/em&gt; is associated), or the inherited attribute &lt;em&gt;ObjectType&lt;/em&gt; shall be provided, if the &lt;em&gt;PredefinedType&lt;/em&gt; is set to USERDEFINED.</Documentation>
+			<Expression>NOT EXISTS(PredefinedType) OR
+(PredefinedType &lt;&gt; IfcFootingTypeEnum.USERDEFINED) OR
+((PredefinedType = IfcFootingTypeEnum.USERDEFINED) AND EXISTS(SELF\IfcObject.ObjectType))</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="CorrectTypeAssigned" UniqueId="2321004d-64f3-4ea1-9b84-f290d130a317">
+			<Documentation>If this occurrence is defined by a type object, the latter has to be an &lt;em&gt;IfcFootingType&lt;/em&gt;.</Documentation>
+			<Expression>(SIZEOF(IsTypedBy) = 0) OR
+(&apos;IFCSTRUCTURALELEMENTSDOMAIN.IFCFOOTINGTYPE&apos; IN TYPEOF(SELF\IfcObject.IsTypedBy[1].RelatingType))
+</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

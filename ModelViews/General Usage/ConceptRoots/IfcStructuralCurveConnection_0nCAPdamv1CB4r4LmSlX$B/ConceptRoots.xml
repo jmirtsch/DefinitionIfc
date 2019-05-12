@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0nCAPdamv1CB4r4LmSlX$B">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcStructuralCurveConnection" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Reference Topology" UniqueId="0A0v$MXWrBr9FSwn8BHMuW">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Reference Topology_1vtMCN8v14oeZ2SDHirRbf" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="3038afd9-3ad8-47ca-aa06-8e9bbc0c51f4" RuleParameters="RepresentationType=Edge;Topology=IfcEdge;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="658c8892-f4d3-404e-a325-fea975dbbc8d" Type="IfcStructuralCurveConnection" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

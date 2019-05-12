@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="05BiKdTcv3lOsvfv2CrLnQ">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcCableSegment" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="36ZxKBXszB6uOGB4fjjuzd">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="ce385f3b-cdf8-4fcd-940e-4092d27f157c" RuleParameters="RelatingType=IfcCableSegmentType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="3zs_RjXKX8GvgvFSW0ZOq$">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="e9e0f3c6-aa9e-4f55-bafa-cd78a777f394" RuleParameters="PsetName=Pset_CableSegmentOccurrence;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="20c44e44-8f30-4577-a810-0023c5431140">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="097cee79-ac90-4e86-a73b-d64ec4eaf1b3" RuleParameters="PropertyName=DesignAmbientTemperature;SetValue=IfcThermodynamicTemperatureMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="87aab466-5f8d-4b65-a0c3-36397f19f3d5">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="bade7cb7-80d6-4c6a-bcde-3701562fe486" RuleParameters="PropertyName=UserCorrectionFactor;Value=IfcReal;" Order="0" />
+								<DocTemplateItem UniqueId="0e233038-3ede-4bd2-8c32-7b8a5ec722d7" RuleParameters="PropertyName=NumberOfParallelCircuits;Value=IfcInteger;" Order="0" />
+								<DocTemplateItem UniqueId="935edc1c-9e72-4e90-ac7a-481cf8debd18" RuleParameters="PropertyName=InstallationMethod;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="3e2bfdda-c945-4b61-91a2-55f687dfeb67" RuleParameters="PropertyName=DistanceBetweenParallelCircuits;Value=IfcLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="14b73b8e-94b1-4520-8e2e-6f4cbda8a0b6" RuleParameters="PropertyName=SoilConductivity;Value=IfcThermalConductivityMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="a826386a-2dbe-4f98-ba21-bf49f0b50e34" RuleParameters="PropertyName=CarrierStackNumber;Value=IfcInteger;" Order="0" />
+								<DocTemplateItem UniqueId="e92a61f9-4d9d-4a9a-8ae1-fa850c0707ff" RuleParameters="PropertyName=IsHorizontalCable;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="185b35db-c56b-440f-92c5-74728d11fbf8" RuleParameters="PropertyName=IsMountedFlatCable;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="debcde13-1af8-4e82-9382-e4e7a4cd73b9" RuleParameters="PropertyName=CurrentCarryingCapasity;Value=IfcElectricCurrentMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="27c487d4-651f-4ddc-baab-e23855aebde6" RuleParameters="PropertyName=MaximumCableLength;Value=IfcLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="6026f54b-1583-4dfc-a7f5-8aaa5cc99c95" RuleParameters="PropertyName=PowerLoss;Value=IfcElectricCurrentMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="26d4b80b-e963-45f4-905f-a0fa77e18f9a">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="ea27e737-accb-4265-8e9b-d7997af148c3" RuleParameters="PropertyName=InstallationMethodFlagEnum;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="0c7619ee-6e34-4849-bbaf-acfc63b9522a" RuleParameters="PropertyName=MountingMethod;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="bb720d2c-18f9-41eb-934b-bcedcdf50298" RuleParameters="PsetName=Pset_CableSegmentTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="dfd9b971-699d-4fae-8281-35d0276bcca9">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="94738024-333c-4373-8080-0f4df132e269" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="b87bb8a7-64d3-455e-9393-4aa28112f9b6">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="4dbb55b8-0e3d-4731-b539-6cef9fbc8531" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="0$dEh7xVPB1OxAgjHwkI_e">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="ff200f13-73dd-430c-ba6c-e1b5d8834ba4" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_CableSegmentBaseQuantities;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material" UniqueId="3k_FhTlvP7BwX12wU0ngVA">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set Usage_1ge1GfjMPBDeTQCM88YfWn" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="b29274b3-a3f7-4f1b-a462-1f0d0cb5cc31" RuleParameters="Name=Conductor;" Order="0">
+					<Documentation>Material from which the conductors are constructed, such as Aluminium or Copper.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="0927b4fb-ed71-451c-bd94-ad5a317acddc" RuleParameters="Name=Insulation;" Order="0">
+					<Documentation>The material from which the insulation is constructed such as PVC, PEX, or EPR.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="5d659bc7-5c42-46b9-b8b3-ffb2cccd70eb" RuleParameters="Name=Screen;" Order="0">
+					<Documentation>The material from which the screen that covers the sheath is constructed (mantel) such as Aluminium, Copper, Steel, or Lead.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="a2180634-ee74-48e7-aa8d-0c08cdaddd8d" RuleParameters="Name=Sheath;" Order="0">
+					<Documentation>The outer sheathing of the cable which may be color-coded.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Composition" UniqueId="015qUDaWT7PxHXqY2Xl0wJ">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="00f329f1-a5a0-47cf-a1e6-eda51ec985b2" RuleParameters="PredefinedType=CABLESEGMENT;RelatedObjects=IfcCableSegment;InnerType=CORESEGMENT" Order="0">
+					<Documentation>Cable segments may be aggregated into cable cores.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="192178c4-294b-418f-893c-a20fcf90fc2b" RuleParameters="PredefinedType=CORESEGMENT;RelatedObjects=IfcCableSegment;InnerType=CONDUCTORSEGMENT" Order="0">
+					<Documentation>Cable cores may be aggregated into cable conductors.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Port" UniqueId="2RrVpK0Dn7beCnMgbg0Yh2">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="929f5d02-8ad6-40d8-94d3-e37cfdf14a7f" RuleParameters="PortName=Input;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>The input end of the cable. While many cables may be bidirectional, port direction is indicated for connectivity purposes.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="f4828ca6-3e84-49c3-8523-56098facff88" RuleParameters="PortName=Output;SystemType=NOTDEFINED;Flow=SOURCE;" Order="0">
+					<Documentation>The output end of the cable. While many cables may be bidirectional, port direction is indicated for connectivity purposes.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="00e5b7d1-aea2-4658-aa76-ada8e2be26db" Type="IfcCableSegment" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

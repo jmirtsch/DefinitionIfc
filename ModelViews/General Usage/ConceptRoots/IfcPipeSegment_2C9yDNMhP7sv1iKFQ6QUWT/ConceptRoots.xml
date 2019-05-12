@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2C9yDNMhP7sv1iKFQ6QUWT">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcPipeSegment" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="3fVUVUR1X0nuOD4$X06IRI">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="0b15c45a-32f7-441e-89cc-224484736572" RuleParameters="RelatingType=IfcPipeSegmentType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="05sAWECdf4ZgLnZm0L3fNs">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="bdd0d0d7-019e-4381-be91-783d785d382d" RuleParameters="PsetName=Pset_PipeConnectionFlanged;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="93a15751-b31a-4010-8617-29169401deb7">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="4394301e-35e3-4c6e-b041-5ce5b8717960" RuleParameters="PropertyName=FlangeTable;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="ec36c4d9-eab4-427d-9f08-5473ca287cec" RuleParameters="PropertyName=FlangeStandard;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="5a69a9bb-fbd5-40ec-a37e-80bd58d02244" RuleParameters="PropertyName=BoreSize;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="6023a3b6-f7c3-41aa-aff8-0faa27722910" RuleParameters="PropertyName=FlangeDiameter;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="448c7c17-f03d-4939-a93e-871c9fc14104" RuleParameters="PropertyName=FlangeThickness;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="7691f121-117b-451c-9c1c-e5e1c090580b" RuleParameters="PropertyName=NumberOfBoltholes;Value=IfcInteger;" Order="0" />
+								<DocTemplateItem UniqueId="d62e205d-a9d1-4336-89bd-1bb36bb85fd4" RuleParameters="PropertyName=BoltSize;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="ac1702e7-5507-4060-a325-167b5f747acb" RuleParameters="PropertyName=BoltholePitch;Value=IfcPositiveLengthMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="4fad133f-7b3c-44c5-a0cc-d8313c3003d2" RuleParameters="PsetName=Pset_PipeSegmentOccurrence;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="0d5349e6-3da0-4b09-aac1-526638b280b8">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="ddc801e1-f897-4117-a09b-cbf4a712260c" RuleParameters="PropertyName=InteriorRoughnessCoefficient;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="5b65f9a3-88b0-4e69-8838-f6a640331e52" RuleParameters="PropertyName=Color;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="1c4359c0-7e98-480e-ba42-cea6ece8f7e2" RuleParameters="PropertyName=Gradient;Value=IfcPositiveRatioMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="539831c0-3424-41ab-88a2-ab30f6322be6" RuleParameters="PropertyName=InvertElevation;Value=IfcLengthMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="21cb0b1e-9c67-4f2e-8233-7d4150711731" RuleParameters="PsetName=Pset_PipeSegmentTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="3242b7c5-b4ea-4911-a291-4fb51e14fb08">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="4776ecac-46ac-4254-90e3-bdc0513de62c" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="41bc2c3a-3f86-4955-ad8c-7886315ffe1c" RuleParameters="PropertyName=WorkingPressure;Value=IfcPressureMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="70346c72-f997-4785-af99-332d113bc76a" RuleParameters="PropertyName=NominalDiameter;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="84e5a992-c941-4dc2-b4d2-07284a008974" RuleParameters="PropertyName=InnerDiameter;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="d0639a44-2448-4036-bab7-d2c1d211abad" RuleParameters="PropertyName=OuterDiameter;Value=IfcPositiveLengthMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="c6073db6-5db1-42a5-a3d6-49ab89d865ef">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="521a5372-9390-47e5-9214-5b31d7558567" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="e2fe7617-d548-4781-aa7f-7808c78f6fcc">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="efe591e7-69ed-4c0f-8b90-76c46634844f" RuleParameters="PropertyName=PressureRange;SetValue=IfcPressureMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="9e6c3e72-6b5a-4f4a-b3ea-7059701595fe" RuleParameters="PropertyName=TemperatureRange;SetValue=IfcThermodynamicTemperatureMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="2yDJwDFc58$hG4XJ5l1Ldg">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="c249d7e3-fabb-41d5-b944-ef03bc12dbee" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_PipeSegmentBaseQuantities;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material" UniqueId="1T8y7WgA1B9gXyyVbAFQfm">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set Usage_1ge1GfjMPBDeTQCM88YfWn" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="e5127b62-4b23-4c8b-bba2-daea1873e833" RuleParameters="Name=Casing;" Order="0">
+					<Documentation>Material from which the casing is constructed.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="f92ea180-2a5a-4bdf-9371-15c30faeea2d" RuleParameters="Name=Coating;" Order="0">
+					<Documentation>The outer coating, if applicable.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="50948124-f8ef-4ab0-b7bf-04af65454cdf" RuleParameters="Name=Insulation;" Order="0">
+					<Documentation>The insulating wrapping, if applicable.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="edf24d03-df18-4f28-82a5-f5bf000baec5" RuleParameters="Name=Lining;" Order="0">
+					<Documentation>The inner lining, if applicable.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Port" UniqueId="1bHD4Eg6r9ewRFmY7cE37r">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="aa959c5b-a3a5-42b8-8076-ebfc4f8a4b14" RuleParameters="PortName=Inlet;Flow=SINK;SystemType=NOTDEFINED;" Order="0">
+					<Documentation>The flow inlet.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="e3b035da-b29c-442e-a26b-dd867e9db1fc" RuleParameters="PortName=Outlet;SystemType=NOTDEFINED;Flow=SOURCE;" Order="0">
+					<Documentation>The flow outlet.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="51ab5ccf-5917-4580-bb6e-91bf33c654d6" Type="IfcPipeSegment" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

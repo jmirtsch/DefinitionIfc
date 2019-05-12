@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcElectricDistributionBoard" Name="IfcElectricDistributionBoard" UniqueId="21087b7b-8ee5-404b-8c9b-1b17cfc62c90" DiagramNumber="3" BaseDefinition="IfcFlowController" EntityFlags="229">
+	<Localization>
+		<DocLocalization Name="Elektrischer Verteilungsregler" Locale="de" />
+		<DocLocalization Name="Electric Distribution Board" Locale="en" />
+		<DocLocalization Name="Tableau de distribution électrique" Locale="fr" />
+	</Localization>
+	<DiagramRectangle>
+		<DocRectangle X="4036.4" Y="727.85333" Width="679.8" Height="103.2" />
+	</DiagramRectangle>
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="920c3b35-1613-4cf1-9d02-d2deba60e55d" DefinedType="IfcElectricDistributionBoardTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<DiagramLine>
+				<DocPoint X="4706.9667" Y="831.05333" />
+				<DocPoint X="4706.9667" Y="881.434947" />
+				<DocPoint X="4298.01663" Y="881.434947" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="4611.824997" Y="828.3866633" Width="182" Height="35" />
+			</DiagramLabel>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="CorrectPredefinedType" UniqueId="ea80a53d-e2b7-4def-bf5b-312792f3255b">
+			<Documentation>Either the &lt;em&gt;PredefinedType&lt;/em&gt; attribute is unset (e.g. because an &lt;em&gt;IfcElectricDistributionBoardType&lt;/em&gt; is associated), or the inherited attribute &lt;em&gt;ObjectType&lt;/em&gt; shall be provided, if the &lt;em&gt;PredefinedType&lt;/em&gt; is set to USERDEFINED.</Documentation>
+			<Expression>NOT(EXISTS(PredefinedType)) OR 
+ (PredefinedType &lt;&gt; IfcElectricDistributionBoardTypeEnum.USERDEFINED) OR 
+ ((PredefinedType = IfcElectricDistributionBoardTypeEnum.USERDEFINED) AND EXISTS (SELF\IfcObject.ObjectType))</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="CorrectTypeAssigned" UniqueId="e369d73d-ca58-4e6b-99dd-e0c6504a8a28">
+			<Documentation>Either there is no electric distribution board type object associated, i.e. the &lt;em&gt;IsTypedBy&lt;/em&gt; inverse relationship is not provided, or the associated type object has to be of type &lt;em&gt;IfcElectricDistributionBoardType&lt;/em&gt;.</Documentation>
+			<Expression>(SIZEOF(IsTypedBy) = 0) OR 
+  (&apos;IFCELECTRICALDOMAIN.IFCELECTRICDISTRIBUTIONBOARDTYPE&apos; IN TYPEOF(SELF\IfcObject.IsTypedBy[1].RelatingType))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

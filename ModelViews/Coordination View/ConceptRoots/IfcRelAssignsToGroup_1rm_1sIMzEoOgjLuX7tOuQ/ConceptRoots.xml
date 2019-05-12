@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="75c3e076-496f-4ec9-8aad-578847dd8e1a">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcRelAssignsToGroup" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="05c30666-3b68-44d9-a583-35b26bc88cbf" Type="IfcRelAssignsToGroup" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

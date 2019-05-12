@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1qlg1gSq952hBGjLBdtAwj">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcHeatExchanger" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="1Q1iDeV$H2hxFfWTeWy4qR">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="919fb1bf-a9a0-4e3c-89cc-f9b460902fbb" RuleParameters="RelatingType=IfcHeatExchangerType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="0jcgruAPL1_AsZkVKQdR6u">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="7a3e064d-3d51-4d74-9156-46212abec15d" RuleParameters="PsetName=Pset_HeatExchangerTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="cdea473f-08b3-4cad-94cb-0723d144cbc5">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="de01e125-35b4-4be7-a1a8-05005bf3b5d5" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="06cf7324-a0ca-4015-b76f-50f029b282f2">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="b33c36ad-23cd-47a2-8a05-4bbe358acbd4" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="b6bf4ae4-ecde-4ca4-9655-c49a00d7cfbb" RuleParameters="PropertyName=Arrangement;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="2QiEsmZhL4Dw8QFAr4V8C_">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="8d14ffff-94bc-4e5b-bd88-50447d814410" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_HeatExchangerBaseQuantities;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material" UniqueId="2IonSSDYPCg8xO$uDrEl9c">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="e4004ec0-c42b-4004-8216-291ac7d268cb" RuleParameters="Name=Casing;" Order="0">
+					<Documentation>Material from which the casing is constructed.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Port" UniqueId="1wOfZPM2XApglygIGL8OsC">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="d9f93cb9-3303-43fd-8cf5-bb55692df084" RuleParameters="PortName=HeatingInlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Inlet of substance to be heated.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="a7920faf-0db4-4120-9c2e-7fee7b258b77" RuleParameters="PortName=HeatingOutlet;SystemType=NOTDEFINED;Flow=SOURCE;" Order="0">
+					<Documentation>Outlet of substance to be heated.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="3967fa17-42e6-490c-a406-cbd7ae9806ba" RuleParameters="PortName=CoolingInlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Inlet of substance to be cooled.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="b7bf92a6-98e4-449c-8208-6ce9ba87cee1" RuleParameters="PortName=CoolingOutlet;SystemType=NOTDEFINED;Flow=SOURCE;" Order="0">
+					<Documentation>Outlet of substance to be cooled.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="a1167665-3b24-4499-b6eb-3936f0ca287c" Type="IfcHeatExchanger" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

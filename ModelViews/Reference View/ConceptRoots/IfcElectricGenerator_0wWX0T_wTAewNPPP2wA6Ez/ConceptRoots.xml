@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3a82101d-fba7-4aa3-a5d9-6590ba2863bd">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcElectricGenerator" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="5bf67320-5cfc-498d-8bd1-c62440cfc78b">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="69e8931d-f894-4b9e-9d1b-76adacb8b35f" RuleParameters="RelatingType=IfcElectricGeneratorType;" Order="0" />
+			</Items>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="20207896-6532-489d-93dd-6632f4770eab">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="5374ecca-92e7-4746-893d-60040265a00d" RuleParameters="PsetName=Pset_ElectricGeneratorTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="b548acb8-bc74-4853-b82d-efd1f739f129">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="e28a1aef-f69a-4142-ab1f-843c01c6d974" RuleParameters="Order=1;PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="bbf968c2-38e5-4a6a-b46e-d150ef9c9c2e" RuleParameters="Order=3;PropertyName=ElectricGeneratorEfficiency;Value=IfcPositiveRatioMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="c6dc1558-4fdc-46f3-b7e7-ade01a682e7c" RuleParameters="Order=4;PropertyName=StartCurrentFactor;Value=IfcReal;" Order="0" />
+								<DocTemplateItem UniqueId="972c3592-9afc-48a2-8db7-31b82b7aa574" RuleParameters="Order=5;PropertyName=MaximumPowerOutput;Value=IfcPowerMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="13d07542-70dd-40c9-82b1-dac488076b30">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="0146ac9b-c963-4368-8ac6-248bbccd29b5" RuleParameters="Order=2;PropertyName=Status;Value=IfcLabel;Reference=PEnum_ElementStatus;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="afca1da2-9bc3-49b0-8665-ccdbcec3a6a8">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="f713ad4b-6942-4191-8618-ca99c9a89351" RuleParameters="QsetName=Qto_ElectricGeneratorBaseQuantities;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Quantities" UniqueId="fc4fa533-5145-483a-82fd-7c4312d9377b">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Weight Quantity_3X0MvMF8bFGfPv1_7RF0hx" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="1e850e24-11fe-42dc-83a8-f7c5a0aa1f23" RuleParameters="Order=1;QuantityName=GrossWeight;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="afa8a0b0-e868-4243-ab38-46acdef5677b" Type="IfcElectricGenerator" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

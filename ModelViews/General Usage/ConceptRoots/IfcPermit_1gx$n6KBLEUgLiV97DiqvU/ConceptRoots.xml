@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1gx$n6KBLEUgLiV97DiqvU">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcPermit" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Approval" UniqueId="1rL2d9n3nDGRB6nwxc2mdi">
+			<Documentation>&lt;p&gt;Approvals may be associated to indicate the status of acceptance or rejection using the &lt;i&gt;IfcRelAssociatesApproval&lt;/i&gt; relationship where &lt;em&gt;RelatingApproval&lt;/em&gt; refers to an &lt;i&gt;IfcApproval&lt;/i&gt; and &lt;em&gt;RelatedObjects&lt;/em&gt; contains the &lt;i&gt;IfcPermit&lt;/i&gt;.  Approvals may be split into sub-approvals using &lt;i&gt;IfcApprovalRelationship&lt;/i&gt; to track approval status separately for each party where &lt;em&gt;RelatingApproval&lt;/em&gt; refers to the higher-level approval and &lt;em&gt;RelatedApprovals&lt;/em&gt; contains one or more lower-level approvals.  The hierarchy of approvals implies sequencing such that a higher-level approval is not executed until all of its lower-level approvals have been accepted.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Approval Association_1ILX$QGe50dQe7saXJ0YIU" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="0t6v1fggL3x8qPoX9BJXxO">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="c105ab68-b6a4-4e4f-82c0-4de63efe66aa" RuleParameters="PsetName=Pset_Permit;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="e537067b-f0fa-49b4-a528-fba54697ab20">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="15584370-7da4-4d6d-9f6f-bdfa340c7458" RuleParameters="PropertyName=EscortRequirement;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="20555559-212e-40f8-989c-534cbd59da0f" RuleParameters="PropertyName=StartDate;Value=IfcDateTime;" Order="0" />
+								<DocTemplateItem UniqueId="fd41ee46-c0fe-4769-beb6-da0a076fb2ad" RuleParameters="PropertyName=EndDate;Value=IfcDateTime;" Order="0" />
+								<DocTemplateItem UniqueId="adbf033a-1d33-4207-abce-8a161e9e7ab0" RuleParameters="PropertyName=SpecialRequirements;Value=IfcText;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Aggregation" UniqueId="17m39ceef4qgpQi567Tg_O">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="8c2c03cd-cba9-4b69-8bae-0021b02fd0eb" RuleParameters="PredefinedType=ACCESS;RelatedObjects=IfcWorkCalendar;" Order="0">
+					<Documentation>A work calendar may indicate the time period of the permit and allowed times when work may be performed.  Such work calendar may have assigned resources indicating equipment or labor permitted at various times.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="0273b928-49b8-40a3-a5e7-8707b67a7832" RuleParameters="PredefinedType=WORK;RelatedObjects=IfcWorkSchedule;" Order="0">
+					<Documentation>A work schedule may indicate tasks and scheduled times where the work schedule type may designate whether tasks and/or times are planned or actual.  Such work schedule may have assigned tasks indicating detail, where tasks may be assigned to products and may have assigned resources.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Nesting" UniqueId="0EC7b_JV1CARqnexvj15aj">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Nesting_0uoeU8NaT178AKrM_UcbQH" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="c502fbda-4f14-44b9-9d65-568d8ca6160c" RuleParameters="Type=IfcPermit;" Order="0">
+					<Documentation>A permit may be nested to indicate permit amendments, in order of issue.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Control Assignment" UniqueId="3nd$sD$En3COHwPNPmD8he">
+			<Documentation>&lt;p&gt;Figure 276 illustrates assignment relationships as indicated:&lt;/p&gt; 
+&lt;ul&gt; 
+&lt;li&gt;&lt;a href=&quot;../../ifckernel/lexical/ifcactor.htm&quot;&gt;IfcActor&lt;/a&gt; (&lt;a href=&quot;../../ifckernel/lexical/ifcrelassignstoactor.htm&quot;&gt;IfcRelAssignsToActor&lt;/a&gt;): Organization issuing the permit such as a local government agency or security organization.&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt; The &lt;b&gt;IfcPermit&lt;/b&gt; may have assignments of its own using the &lt;a href=&quot;../../ifckernel/lexical/ifcrelassignstocontrol.htm&quot;&gt;IfcRelAssignsToControl&lt;/a&gt; relationship where &lt;em&gt;RelatingControl&lt;/em&gt; refers to the &lt;b&gt;IfcPermit&lt;/b&gt; and &lt;em&gt;RelatedObjects&lt;/em&gt; contains one or more objects of the following types: &lt;/p&gt;&lt;ul&gt; 
+&lt;li&gt;&lt;a href=&quot;../../ifckernel/lexical/ifcactor.htm&quot;&gt;IfcActor&lt;/a&gt;: Organization(s) bound to the permit, typically a single contractor.
+&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt=&quot;Assignment Use Definition&quot; src=&quot;../../../figures/ifcpermit-assignment.png&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 276 &amp;mdash; Permit assignment&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Control Assignment_21FdF_La56IAQ0Y8VFGrdn" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="51981e84-a2b2-40b1-a235-a6a92c10dffe" Type="IfcPermit" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

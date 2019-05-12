@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="f4777926-bd53-4f17-aed6-fb321a268371">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcSolarDevice" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="d9e159fa-bcd2-43d5-aa3d-3fa0d3c6aabd">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="e1ac0bff-221b-47a6-884d-e5316edf82cf" RuleParameters="RelatingType=IfcSolarDeviceType;" Order="0" />
+			</Items>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="e54d91bb-3a67-4877-a3ee-eef2b04351c8">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="43e9692c-9f82-4cbb-8a10-e57deb76d819" RuleParameters="PsetName=Pset_SolarDeviceTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="67788f4e-f67d-4ac5-8ef7-ee543552a47c">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="f5885c99-a22f-4fdf-ac49-d49e044e9f23" RuleParameters="Order=1;PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="f7e5987e-91f2-4cea-9e6a-3d323df55ad6">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="a6cd5a17-c810-479d-8c22-bbea3deaad15" RuleParameters="Order=2;PropertyName=Status;Value=IfcLabel;Reference=PEnum_ElementStatus;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="94555a18-8dcf-42ae-8cb6-a4ba9f27bd14">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="dcb511b7-1948-4b7b-bc4c-778969d014ea" RuleParameters="QsetName=Qto_SolarDeviceBaseQuantities;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Quantities" UniqueId="2e49a609-a29d-402e-bacc-b2326acc978a">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Weight Quantity_3X0MvMF8bFGfPv1_7RF0hx" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="2e18bd76-fcd3-424b-87d3-01cc823140ff" RuleParameters="Order=1;QuantityName=GrossWeight;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Quantities" UniqueId="259e348b-b4e7-4fc7-b233-8637416a560b">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Area Quantity_1bh4T7Rlz3VfJYP3$Kux_6" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="e6953728-583a-4a09-9df4-a65b96b85a63" RuleParameters="Order=2;QuantityName=GrossArea;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="52705268-db4b-4593-92e2-7e21c7e1b4a3" Type="IfcSolarDevice" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

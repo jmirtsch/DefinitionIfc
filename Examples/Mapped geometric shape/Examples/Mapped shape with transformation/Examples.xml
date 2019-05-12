@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocExample xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Mapped shape with transformation" UniqueId="b0941ca0-9545-4f4e-a978-647eb732a30d" ApplicableType="IfcShapeRepresentation,IfcMappedItem,IfcRepresentationMap">
+	<ApplicableTemplates>
+		<DocTemplateDefinition xsi:nil="true" href="Mapped Geometry_3i$TV8STL4dxyWvZebtBcw" />
+	</ApplicableTemplates>
+	<Views>
+		<DocModelView xsi:nil="true" href="Design Transfer View" />
+		<DocModelView xsi:nil="true" href="General Usage" />
+	</Views>
+</DocExample>
+

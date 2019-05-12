@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="c353f692-f757-47cf-a217-f9050a21021c">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcPile" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="f315e14e-7db2-4aa3-a43a-9584a7169c9f">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="17373be0-e31b-48b2-b3d0-cb61184b3cb5" RuleParameters="RelatingType=IfcPileType;" Order="0" />
+			</Items>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="a6770b8d-297a-4a2b-8ab9-031987cb096d">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="d33a53a9-0f1e-4f73-8917-b67ae27b75e7" RuleParameters="PsetName=Pset_PileCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="487fc236-3893-4787-baee-ed05d82373f7">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="239bff10-cc41-4527-8361-95041bb7f144" RuleParameters="Order=1;PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="3dc7b09b-1bf1-422d-b037-e0af82fc6922" RuleParameters="Order=3;PropertyName=LoadBearing;Value=IfcBoolean;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="d414f8c4-8cec-4e65-9720-8ec6f47a07c0">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="29b2283e-6720-4128-a172-ac1cabe14d2a" RuleParameters="Order=2;PropertyName=Status;Value=IfcLabel;Reference=PEnum_ElementStatus;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="d06ca016-7c0d-44a4-92e5-3a40ab6b35f8">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="39871b0a-0d93-4fc8-b289-89270b99d075" RuleParameters="QsetName=Qto_PileBaseQuantities;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Quantities" UniqueId="78228137-a5d6-4ad4-bcf1-573cf66b1553">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Length Quantity_3TXdZXum1FS9rZvJdRIz4S" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="e6718a21-85e9-4805-88ff-246a44dbf0a3" RuleParameters="Order=1;QuantityName=Length;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Quantities" UniqueId="55493e22-fcf7-4c15-98f1-b45e728cf121">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Area Quantity_1bh4T7Rlz3VfJYP3$Kux_6" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="e7a2b394-2126-43f7-b4ac-7d4cd1ab01fd" RuleParameters="Order=2;QuantityName=CrossSectionArea;" Order="0" />
+								<DocTemplateItem UniqueId="ed54e364-9a16-459d-a214-02384dcddcca" RuleParameters="Order=3;QuantityName=OuterSurfaceArea;" Order="0" />
+								<DocTemplateItem UniqueId="14a54dbf-db06-4064-b96b-83ea9288cb66" RuleParameters="Order=4;QuantityName=GrossSurfaceArea;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Quantities" UniqueId="5af6d034-2808-437b-9a48-3f02e38476af">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Volume Quantity_1aaQEmj_b1Ae8clDaSAmiE" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="21a539cb-8b2c-4f02-b27b-3e8785e7f5e6" RuleParameters="Order=5;QuantityName=GrossVolume;" Order="0" />
+								<DocTemplateItem UniqueId="87b7eb86-468f-4917-929e-bf448bf05682" RuleParameters="Order=6;QuantityName=NetVolume;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Quantities" UniqueId="dd231349-ca33-4fa8-9168-a15dcabc6082">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Weight Quantity_3X0MvMF8bFGfPv1_7RF0hx" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="e08819ab-8509-4dea-9b4c-7b9d61657939" RuleParameters="Order=7;QuantityName=GrossWeight;" Order="0" />
+								<DocTemplateItem UniqueId="9b26e5ba-96c4-49c4-b043-8c58b3477f11" RuleParameters="Order=8;QuantityName=NetWeight;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material Profile Set" UniqueId="af173e1a-aa02-4ba1-84b6-b81202d2151f">
+			<Documentation>&lt;p&gt;The material of the &lt;em&gt;IfcPile&lt;/em&gt; is defined by the
+&lt;em&gt;IfcMaterialProfileSet&lt;/em&gt; or as fallback by &lt;em&gt;IfcPile&lt;/em&gt;, and it is attached either directly or at the &lt;em&gt;IfcPileType&lt;/em&gt;.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set_12Ui1LAd52mgGZSMYVfrnP" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="4a74d4be-8ecb-4851-a6ef-1343abb2ea15" Type="IfcPile" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

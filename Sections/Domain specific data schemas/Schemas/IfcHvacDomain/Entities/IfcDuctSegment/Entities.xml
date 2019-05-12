@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcDuctSegment" Name="IfcDuctSegment" UniqueId="69c85fcc-5dec-4731-af87-612401edf054" DiagramNumber="2" BaseDefinition="IfcFlowSegment" EntityFlags="101">
+	<Localization>
+		<DocLocalization Name="Kanal" Locale="de" />
+		<DocLocalization Name="Duct Segment" Locale="en" />
+		<DocLocalization Name="Tronçon de gaine" Locale="fr" />
+	</Localization>
+	<DiagramRectangle>
+		<DocRectangle X="2787.7371" Y="1332.7124" Width="343.87275" Height="100" />
+	</DiagramRectangle>
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="0d2f37c7-995f-49ac-93ac-f6490ef06be2" DefinedType="IfcDuctSegmentTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<DiagramLine>
+				<DocPoint X="2787.7371" Y="1382.7124" />
+				<DocPoint X="2584.82434" Y="1382.7124" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="2795.7901639" Y="1371.974981" Width="182" Height="35" />
+			</DiagramLabel>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="CorrectPredefinedType" UniqueId="b2742567-8b04-4ed9-9647-91b85aacba36">
+			<Documentation>Either the &lt;em&gt;PredefinedType&lt;/em&gt; attribute is unset (e.g. because an &lt;em&gt;IfcDuctSegmentType&lt;/em&gt; is associated), or the inherited attribute &lt;em&gt;ObjectType&lt;/em&gt; shall be provided, if the &lt;em&gt;PredefinedType&lt;/em&gt; is set to USERDEFINED.</Documentation>
+			<Expression>NOT(EXISTS(PredefinedType)) OR 
+ (PredefinedType &lt;&gt; IfcDuctSegmentTypeEnum.USERDEFINED) OR 
+ ((PredefinedType = IfcDuctSegmentTypeEnum.USERDEFINED) AND EXISTS (SELF\IfcObject.ObjectType))</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="CorrectTypeAssigned" UniqueId="af5e6b1a-f3c7-421a-9af4-9b692b848b61">
+			<Documentation>Either there is no duct segment type object associated, i.e. the &lt;em&gt;IsTypedBy&lt;/em&gt; inverse relationship is not provided, or the associated type object has to be of type &lt;em&gt;IfcDuctSegmentType&lt;/em&gt;.</Documentation>
+			<Expression>(SIZEOF(IsTypedBy) = 0) OR 
+  (&apos;IFCHVACDOMAIN.IFCDUCTSEGMENTTYPE&apos; IN TYPEOF(SELF\IfcObject.IsTypedBy[1].RelatingType))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

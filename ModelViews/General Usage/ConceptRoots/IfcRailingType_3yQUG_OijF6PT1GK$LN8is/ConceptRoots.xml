@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="fc69e43e-62cb-4f19-9741-414fd55c8b36">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcRailingType" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Body Geometry" UniqueId="2dc5ac19-4085-4d9b-8e33-79849211b40e">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Type Body Geometry_0wx2q0jBj7QgWX$2AubRKn" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="3c325e59-2a59-4154-ab3b-f3fa68dfc7af" Type="IfcRailingType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

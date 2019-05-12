@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="c711dab9-db4a-44f3-8ac4-fe5cf21ba1df">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcCompressorType" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="fb7bf9a7-9087-4ab2-b112-7f9df1c70c3e" Type="IfcCompressorType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

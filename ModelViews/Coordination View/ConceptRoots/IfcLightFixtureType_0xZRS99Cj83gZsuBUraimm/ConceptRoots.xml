@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3b8db709-24cb-480e-a8f6-e0b7b592cc30">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcLightFixtureType" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="01715382-1afa-40a6-b3dd-eb9fa05ef981" Type="IfcLightFixtureType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

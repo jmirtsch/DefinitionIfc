@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="22ZlO$TPT5PhyWht7N_0NQ">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcWallStandardCase" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Material Layer Set Usage" UniqueId="09E7LyS1LFWBZbX2IRXWaI">
+			<Documentation>&lt;p&gt;
+Multi-layer walls can be represented by refering to several
+&lt;em&gt;IfcMaterialLayer&lt;/em&gt;&apos;s within the &lt;em&gt;IfcMaterialLayerSet&lt;/em&gt;
+that is referenced from the
+&lt;em&gt;IfcMaterialLayerSetUsage&lt;/em&gt;.&amp;nbsp;&lt;/p&gt;
+
+
+&lt;p&gt;Material information can also be given at the
+&lt;em&gt;IfcWallType&lt;/em&gt;, defining the common attribute data for all
+occurrences of the same type. It is then accessible by the
+inverse &lt;em&gt;IsDefinedBy&lt;/em&gt; relationship pointing to
+&lt;em&gt;IfcSlabType.HasAssociations&lt;/em&gt; and via
+&lt;em&gt;IfcRelAssociatesMaterial.RelatingMaterial&lt;/em&gt;.&lt;/p&gt; &lt;p&gt;The &lt;em&gt;IfcWallType&lt;/em&gt; should then have a unique
+ &lt;em&gt;IfcMaterialLayerSet&lt;/em&gt;, that is referenced by 
+the &lt;em&gt;IfcMaterialLayerSetUsage&lt;/em&gt; assigned to all
+occurrences of this &lt;em&gt;IfcWallType&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+
+
+
+&lt;table&gt;
+ 
+&lt;tr&gt;
+  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcwallstandardcase_materialusage-01.png&quot; alt=&quot;Material layer set and usage&quot; height=&quot;220&quot; width=&quot;501&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 252 illustrates assignment of &lt;em&gt;IfcMaterialLayerSetUsage&lt;/em&gt; and &lt;em&gt;IfcMaterialLayerSet&lt;/em&gt; to the wall type and the wall occurrence.&lt;/blockquote&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+
+ &lt;tr&gt;
+  &lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 252 &amp;mdash; Wall Standard Object Typing&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+ &lt;/tr&gt;
+
+&lt;/table&gt;
+
+
+
+
+
+&lt;p&gt;Figure 253 illustrates material layer usage, where the following conventions shall be met:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The reference coordinate system is the local coordinate system established by the &lt;em&gt;ObjectPlacement&lt;/em&gt; of the &lt;em&gt;IfcWallStandardCase&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;The reference axis is the axis defined by the &lt;em&gt;IfcShapeRepresentation&lt;/em&gt; with &lt;em&gt;RepresentationType&lt;/em&gt;=&apos;Axis&apos; as one of the
+&lt;em&gt;Representation.Representations&lt;/em&gt; of the &lt;em&gt;IfcWallStandardCase&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;IfcMaterialLayerSetUsage.OffsetFromReferenceLine&lt;/em&gt; is given as a distance from this axis.&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;IfcMaterialLayerSetUsage.OffsetFromReferenceLine&lt;/em&gt; is the distance parallel to the reference axis and always within the base
+(XY) plane of the reference coordinate system. A positve value of &lt;em&gt;IfcMaterialLayerSetUsage.OffsetFromReferenceLine&lt;/em&gt; would
+then point into the positive y-axis of the reference coordinate system.&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;IfcMaterialLayerSetUsage.DirectionSense&lt;/em&gt; defines how the &lt;em&gt;IfcMaterialLayer&lt;/em&gt;&apos;s are assigned to the reference axis. POSITIVE means in direction to the positive y-axis of the reference coordinate system.&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;Thickness&lt;/em&gt; of each &lt;em&gt;IfcMaterialLayer&lt;/em&gt; is provided starting from the &lt;em&gt;OffsetFromReferenceLine&lt;/em&gt; and in the direction given by &lt;em&gt;DirectionSense&lt;/em&gt;. It is applied without any gap or overlap between two consecutive layers. The &lt;em&gt;TotalThickness&lt;/em&gt; of the &lt;em&gt;IfcMaterialLayerSet&lt;/em&gt; is the sum of all layer thicknesses.&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;IfcMaterialLayerSetUsage.LayerSetDirection&lt;/em&gt; is always AXIS2.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot; cellspacing=&quot;2&quot; summary=&quot;material use definition for wall slabs&quot;&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot; width=&quot;610&quot;&gt;&lt;img src=&quot;../../../figures/ifcmateriallayersetusage_wall-01.png&quot; alt=&quot;roof slab material layer set&quot; width=&quot;601&quot; height=&quot;351&quot; border=&quot;0&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 253 &amp;mdash; Wall material layers&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Layer Set Usage_1jNxXlFor9_vKe1tXLtSn7" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Product Placement" UniqueId="95178cb6-bcc2-4138-88f8-e63b7ac32835">
+			<Documentation>&lt;p&gt;The following restriction is imposed:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The local placement shall provide the location and directions 
+for the standard wall, the x/y plane is the plane for the 
+profile, and the z-axis is the extrusion axis for the wall body.&lt;/li&gt;
+&lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Axis 2D Geometry" UniqueId="519873f2-d035-4df8-9f67-ce96049074e0">
+			<Documentation>&lt;p&gt;The wall axis is represented by a two-dimensional open curve 
+within a particular shape representation. The wall axis is used to 
+apply the material layer set usage parameter to the wall geometry.
+&lt;/p&gt;
+&lt;ul&gt;
+
+ &lt;li&gt;&lt;em&gt;Axis&lt;/em&gt;
+  &lt;ul&gt;
+   &lt;li&gt;&lt;em&gt;IfcPolyline&lt;/em&gt; having two &lt;em&gt;Points&lt;/em&gt;, or 
+&lt;em&gt;IfcTrimmedCurve&lt;/em&gt; with &lt;em&gt;BasisCurve&lt;/em&gt; of Type
+&lt;em&gt;IfcLine&lt;/em&gt; for the &apos;SweptSolid&apos; provided as 
+&lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt;. The axis curve lies on the x/y plane and is parallel to the x-axis of
+ the object coordinate system.&lt;/li&gt;
+
+   &lt;li&gt;&lt;em&gt;IfcTrimmedCurve&lt;/em&gt; with &lt;em&gt;BasisCurve&lt;/em&gt; of Type
+&lt;em&gt;IfcCircle&lt;/em&gt; for &apos;SweptSolid&apos; provided as
+ &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt;. The axis curve lies on the x/y plane
+ of the object coordinate system, the tangent at the start is along 
+the positive x-axis.&lt;/li&gt;
+
+  &lt;/ul&gt;
+ &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;table cellpadding=&quot;2&quot; cellspacing=&quot;2&quot;&gt;
+
+ &lt;tr&gt;
+
+  &lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../../figures/ifcwallstandard_straigthwall_01-layout1.gif&quot; alt=&quot;straight wall axis&quot; border=&quot;0&quot; height=&quot;299&quot; width=&quot;393&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 254 illustrates an axis representation for a straight wall. In case of a straight wall, the set of items shall
+include a single geometric representation item of type &lt;em&gt;IfcPolyline&lt;/em&gt; or &lt;em&gt;IfcTrimmedCurve&lt;/em&gt; with the &lt;em&gt;BasisCurve&lt;/em&gt; being an &lt;em&gt;IfcLine&lt;/em&gt;. The &lt;em&gt;IfcPolyline&lt;/em&gt; or &lt;em&gt;IfcTrimmedCurve&lt;/em&gt; shall be parallel (here in a special case co-linear) to the x-axis
+of the object coordinate system. The direction shall be identical to the direction of the x-axis.&lt;/blockquote&gt;
+
+ &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width=&quot;393&quot;&gt;&lt;p class=&quot;figure&quot;&gt;Figure 254 &amp;mdash; Wall axis straight&lt;/p&gt;&lt;/td&gt;
+
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+ &lt;/tr&gt;
+&lt;/table&gt;
+&lt;table cellpadding=&quot;2&quot; cellspacing=&quot;2&quot;&gt;
+
+ &lt;tr&gt;
+
+  &lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../../figures/ifcwallstandard_curvedwall_01-layout1.gif&quot; alt=&quot;curved wall axis&quot; border=&quot;0&quot; height=&quot;299&quot; width=&quot;393&quot;&gt;&lt;/td&gt;
+
+  &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 255 illustrates an axis representation for a curved wall. In case of a curved wall, the set of items shall include
+a single geometric representation item of type &lt;em&gt;IfcTrimmedCurve&lt;/em&gt;. The curve shall have a &lt;em&gt;BasisCurve&lt;/em&gt; of type &lt;em&gt;IfcCircle&lt;/em&gt;. The tangent of the &lt;em&gt;IfcTrimmedCurve&lt;/em&gt; shall be parallel at start to the x-axis of the object coordinate system. The direction shall be identical to the direction of the x-axis.&lt;/blockquote&gt;
+ &lt;/tr&gt;
+ 
+&lt;tr&gt;
+  &lt;td width=&quot;393&quot;&gt;&lt;p class=&quot;figure&quot;&gt;Figure 255 &amp;mdash; Wall axis curved&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+ 
+&lt;/tr&gt;
+
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Axis 2D Geometry_1u94Jere57Mf0qgUVrF6rb" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body SweptSolid Geometry" UniqueId="8437335e-7581-40d9-8d37-2e8a3579f9cd">
+			<Documentation>&lt;p&gt;The following additional constraints apply to the &apos;SweptSolid&apos;
+representation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;Solid&lt;/u&gt;: &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt; is required,&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Profile&lt;/u&gt;: &lt;em&gt;IfcArbitraryClosedProfileDef&lt;/em&gt; and
+&lt;em&gt;IfcRectangleProfileDef&lt;/em&gt; shall be supported.&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Extrusion&lt;/u&gt;: The profile shall be extruded vertically,
+i.e., in the direction of the z-axis of the co-ordinate system of
+the referred spatial structure element. It might be further
+constraint to be in the direction of the global z-axis in
+implementers agreements. The extrusion axis shall be perpendicular
+to the swept profile, i.e. pointing into the direction of the
+z-axis of the Position of the &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The profile of a wall is described in the ground view and extruded vertically. The profile (also identical with the foot print of the wall) is defined by the &lt;em&gt;IfcArbitraryClosedProfileDef&lt;/em&gt; (excluding its subtypes). The profile is given with all wall connections already resolved.&lt;/p&gt;
+
+&lt;p&gt;Figure 256 illustrates a body representation for a straight wall. In case of a straight wall, the two sides of the profile shall be parallel to the wall axis, that is, the wall has a single unchanged thickness.&lt;/p&gt;
+
+&lt;p&gt;Figure 257 illustrates a body representation for a curved wall. In case of a curved wall, the two sides of the profile shall be parallel (with defined offset) to the wall axis, that is, the wall has a single unchanged thickness.&lt;/p&gt;
+
+&lt;table cellpadding=&quot;2&quot; cellspacing=&quot;2&quot;&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../../figures/ifcwallstandard_straigthwall_02-layout1.gif&quot; alt=&quot;straight wall body&quot; border=&quot;0&quot; height=&quot;299&quot; width=&quot;393&quot;&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../../figures/ifcwallstandard_curvedwall_02-layout1.gif&quot; alt=&quot;curved wall body&quot; border=&quot;0&quot; height=&quot;299&quot; width=&quot;393&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width=&quot;393&quot;&gt;&lt;p class=&quot;figure&quot;&gt;Figure 256 &amp;mdash; Wall body extrusion straight&lt;/p&gt;&lt;/td&gt;
+&lt;td width=&quot;393&quot;&gt;&lt;p class=&quot;figure&quot;&gt;Figure 257 &amp;mdash; Wall body extrusion curved&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body Clipping Geometry" UniqueId="5558384d-c5d1-43f1-91b6-ed21ba000e4b">
+			<Documentation>&lt;p&gt;The following constraints apply to the &apos;Clipping&apos;
+representation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;Solid&lt;/u&gt;: see standard geometric representation&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Profile&lt;/u&gt;: see standard geometric representation&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Extrusion&lt;/u&gt;: see standard geometric representation&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Boolean result&lt;/u&gt;: The &lt;em&gt;IfcBooleanClippingResult&lt;/em&gt;
+shall be supported, allowing for Boolean differences between the
+swept solid (here &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt;) and one or several
+&lt;em&gt;IfcHalfSpaceSolid&lt;/em&gt; (or subtypes).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Figure 258 illustrates a clipping for a straight wall using an &lt;em&gt;IfcPolygonalBoundedHalfSpace&lt;/em&gt; as &lt;em&gt;SecondOperand&lt;/em&gt; in
+the &lt;em&gt;IfcBooleanClippingResult&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Figure 259 illustrates a clipping for a curved wall using an &lt;em&gt;IfcHalfSpaceSolid&lt;/em&gt; as &lt;em&gt;SecondOperand&lt;/em&gt; in the
+&lt;em&gt;IfcBooleanClippingResult&lt;/em&gt;.&lt;/p&gt;
+
+&lt;table cellpadding=&quot;2&quot; cellspacing=&quot;2&quot;&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;../../../figures/ifcwallstandard_straigthwall_03-layout1.gif&quot; alt=&quot;straight wall clipping&quot; border=&quot;0&quot; height=&quot;299&quot; width=&quot;397&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;../../../figures/ifcwallstandard_curvedwall_03-layout1.gif&quot; alt=&quot;curved wall clipping&quot; border=&quot;0&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width=&quot;397&quot;&gt;&lt;p class=&quot;figure&quot;&gt;Figure 258 &amp;mdash; Wall body clipping straight&lt;/p&gt;&lt;/td&gt;
+&lt;td width=&quot;400&quot;&gt;&lt;p class=&quot;figure&quot;&gt;Figure 259 &amp;mdash; Wall body clipping curved&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body Clipping Geometry_0isyBrcmn3wfqgdNBG57u0" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="7aea882e-be74-4984-8d2e-21d8d3946c95" Type="IfcWallStandardCase" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

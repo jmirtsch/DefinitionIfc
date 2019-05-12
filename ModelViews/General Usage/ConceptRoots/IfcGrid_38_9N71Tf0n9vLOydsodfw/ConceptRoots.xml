@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="38_9N71Tf0n9vLOydsodfw">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcGrid" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Placement" UniqueId="0szo8QoCX4rP2L$9QDCd9j">
+			<Documentation>&lt;p&gt;
+      The local placement for &lt;em&gt;IfcGrid&lt;/em&gt; is defined in its
+      supertype &lt;em&gt;IfcProduct&lt;/em&gt;. It is defined by the
+      &lt;em&gt;IfcLocalPlacement&lt;/em&gt;, which defines the local coordinate
+      system that is referenced by all geometric representations.
+    &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;The &lt;em&gt;PlacementRelTo&lt;/em&gt; relationship of
+      &lt;em&gt;IfcLocalPlacement&lt;/em&gt; shall point (if given) to the local
+      placement of the same &lt;em&gt;IfcSpatialStructureElement&lt;/em&gt;,
+      which is used in the &lt;em&gt;ContainedInStructure&lt;/em&gt; inverse
+      attribute, or to a spatial structure element at a higher
+      level, referenced by that.
+      &lt;/li&gt;
+      &lt;li&gt;If the relative placement is not used, the absolute
+      placement is defined within the world coordinate system.
+      &lt;/li&gt;
+    &lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Footprint Geometry" UniqueId="0N565O$6v6x8yXn$04Pown">
+			<Documentation>&lt;p&gt;
+      The 2D geometric representation of &lt;em&gt;IfcGrid&lt;/em&gt; is defined
+      using the &apos;GeometricCurveSet&apos; geometry. The following
+      attribute values should be inserted
+    &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;em&gt;IfcShapeRepresentation.RepresentationIdentifier&lt;/em&gt; =
+        &apos;FootPrint&apos;.
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;em&gt;IfcShapeRepresentation.RepresentationType&lt;/em&gt; =
+        &apos;GeometricCurveSet&apos; .
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;
+      The following constraints apply to the 2D representation:
+    &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;The &lt;em&gt;IfcGeometricCurveSet&lt;/em&gt; shall be an (and the
+      only) &lt;em&gt;Item&lt;/em&gt; of the &lt;em&gt;IfcShapeRepresentation&lt;/em&gt;. It
+      should contain an &lt;em&gt;IfcGeometricCurveSet&lt;/em&gt; containing
+      subtypes of &lt;em&gt;IfcCurve&lt;/em&gt;, each representing a grid axis.
+      Applicable subtypes of &lt;em&gt;IfcCurve&lt;/em&gt; are:
+      &lt;em&gt;IfcPolyline&lt;/em&gt;, &lt;em&gt;IfcCircle&lt;/em&gt;, &lt;em&gt;IfcTrimmedCurve&lt;/em&gt;
+      (based on &lt;em&gt;BaseCurve&lt;/em&gt; referencing &lt;em&gt;IfcLine&lt;/em&gt; or &lt;em&gt;
+        IfcCircle&lt;/em&gt;), and &lt;em&gt;IfcOffsetCurve2D&lt;/em&gt;.
+      &lt;/li&gt;
+      &lt;li&gt;Each subtype of &lt;em&gt;IfcCurve&lt;/em&gt; may have a curve style
+      assigned, using &lt;em&gt;IfcStyledItem&lt;/em&gt; referencing
+      &lt;em&gt;IfcCurveStyle&lt;/em&gt;.
+      &lt;/li&gt;
+      &lt;li&gt;Optionally the grid axis labels may be added as
+      &lt;em&gt;IfcTextLiteral&lt;/em&gt;, and they may have text styles
+      assigned, using &lt;em&gt;IfcStyledItem&lt;/em&gt; referencing
+      &lt;em&gt;IfcTextStyle&lt;/em&gt;.
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;table cellpadding=&quot;2&quot; cellspacing=&quot;2&quot;&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td width=&quot;510&quot;&gt;
+            &lt;img src=&quot;../../../figures/ifcdesigngrid-layout1.gif&quot; alt=
+            &quot;design grid&quot; border=&quot;0&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;blockquote&gt;
+              As shown in Figure 31, the &lt;em&gt;IfcGrid&lt;/em&gt; defines a
+              placement coordinate system using the
+              &lt;em&gt;ObjectPlacement&lt;/em&gt;. The XY plane of the
+              coordinate system is used to place the 2D grid axes.
+              The &lt;em&gt;Representation&lt;/em&gt; of &lt;em&gt;IfcGrid&lt;/em&gt; is
+              defined using &lt;em&gt;IfcProductRepresentation&lt;/em&gt;,
+              referencing an &lt;em&gt;IfcShapeRepresentation&lt;/em&gt;, that
+              includes&amp;nbsp;&lt;em&gt;IfcGeometricCurveSet&lt;/em&gt; as
+              &lt;em&gt;Items&lt;/em&gt;. All grid axes are added as
+              &lt;em&gt;IfcPolyline&lt;/em&gt; to the
+              &lt;em&gt;IfcGeometricCurveSet&lt;/em&gt;.
+            &lt;/blockquote&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;
+            &lt;p class=&quot;figure&quot;&gt;Figure 154 &amp;mdash; Grid layout&lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &amp;nbsp;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;p&gt;
+      &amp;nbsp;
+    &lt;/p&gt;
+    &lt;table cellpadding=&quot;2&quot; cellspacing=&quot;2&quot;&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td width=&quot;510&quot;&gt;
+            &lt;img src=&quot;../../../figures/ifcgrid-representation.png&quot; alt=
+            &quot;representation of a design grid&quot; width=&quot;501&quot; height=
+            &quot;621&quot; border=&quot;0&quot;&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &lt;blockquote&gt;
+              As shown in Figure 32, the attributes &lt;em&gt;UAxes&lt;/em&gt;
+              and &lt;em&gt;VAxes&lt;/em&gt; define lists of &lt;em&gt;IfcGridAxis&lt;/em&gt;
+              within the context of the&amp;nbsp;grid. Each instance of
+              &lt;em&gt;IfcGridAxis&lt;/em&gt; refers to the same instance of
+              &lt;em&gt;IfcCurve&lt;/em&gt; (here the subtype &lt;em&gt;IfcPolyline&lt;/em&gt;)
+              that is contained within the
+              &lt;em&gt;IfcGeometricCurveSet&lt;/em&gt; that represents the
+              &lt;em&gt;IfcGrid&lt;/em&gt;.
+            &lt;/blockquote&gt;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;
+            &lt;p class=&quot;figure&quot;&gt;Figure 155 &amp;mdash; Grid representation&lt;/p&gt;
+          &lt;/td&gt;
+          &lt;td&gt;
+            &amp;nbsp;
+          &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="FootPrint Geometry_1FLtVNQEb5dAeiHgtpw8qn" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="baa35c9c-79db-4f5e-9e9f-a7013930d1d9" RuleParameters="RepresentationType=GeometricCurveSet;Geometry=IfcGeometricCurveSet;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="5b50dde2-b55a-482a-8543-ab9007122b23" Type="IfcGrid" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

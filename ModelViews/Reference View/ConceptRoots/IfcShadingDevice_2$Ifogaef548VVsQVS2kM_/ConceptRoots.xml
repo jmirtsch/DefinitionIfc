@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="bf4a9caa-928a-4510-87df-d9a7dc0ae5be">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcShadingDevice" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="604ab438-f636-4b34-8638-020680b017fb">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="0319477a-4ea6-4903-aa21-f3d34d873a6a" RuleParameters="RelatingType=IfcShadingDeviceType;" Order="0" />
+			</Items>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Property Sets for Objects" UniqueId="a4f7a0e5-53d3-4079-9c61-e7cbf144c4fe">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="084db639-5ad6-4559-ab99-b3f8b16cb6a7" RuleParameters="PsetName=Pset_ShadingDeviceCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="4d1d54d1-04c8-4c96-ab31-da321c902493">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="ed3aa542-e5b1-4971-a8aa-554485ec0b20" RuleParameters="Order=1;PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="d7cd8297-7896-416e-82a6-5fe106ae39f9" RuleParameters="Order=4;PropertyName=IsExternal;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="ab9d7dd5-ce19-475d-b9e2-6f40dbd8ef47" RuleParameters="Order=5;PropertyName=MechanicalOperated;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="857b14b3-17a4-4413-be8f-9bb19c6e54ac" RuleParameters="Order=6;PropertyName=ThermalTransmittance;Value=IfcThermalTransmittanceMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="0bf07124-fce9-4fac-8197-885552078197" RuleParameters="Order=7;PropertyName=SolarTransmittance;Value=IfcPositiveRatioMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="e466acc5-944c-43c5-aa2e-2d7ccb8abb97" RuleParameters="Order=8;PropertyName=VisibleLightTransmittance;Value=IfcPositiveRatioMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="5e58167e-ae45-4279-ae4d-d4cd435e34f4" RuleParameters="Order=9;PropertyName=SolarReflectance;Value=IfcPositiveRatioMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="6cb11476-a70a-4a27-b7bb-bf0c16d18a7c" RuleParameters="Order=10;PropertyName=VisibleLightReflectance;Value=IfcPositiveRatioMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="51567035-a079-4b11-8fd2-9b085f1094c6" RuleParameters="Order=11;PropertyName=Roughness;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="de3f82f7-b0ae-4b5d-aa59-1a6febd34171" RuleParameters="Order=12;PropertyName=SurfaceColor;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="13d3fb3c-c098-4928-8625-6dbb7e8cd7fd">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="2e5c74d5-597e-475b-aaf8-75009571cb52" RuleParameters="Order=2;PropertyName=Status;Value=IfcLabel;Reference=PEnum_ElementStatus;" Order="0" />
+								<DocTemplateItem UniqueId="8a401ecb-8c14-4811-a005-e3616cf5cd96" RuleParameters="Order=3;PropertyName=ShadingDeviceType;Value=IfcLabel;Reference=PEnum_ElementShading;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="b2fd835c-77cd-4f81-aa23-9f05ef7678da">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="226be3e7-6a5c-487e-bdfb-0c3f853d7ac2" Type="IfcShadingDevice" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

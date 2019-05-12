@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3cO5iP17n6W9AMAG2rajwV">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcHumidifier" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="2QO5zWGpLBDPffdSmPYE1e">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="f391148a-3b30-4e66-ba95-82fffa588b9d" RuleParameters="RelatingType=IfcHumidifierType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="3xO0gvuPX0Zv8dW4ddO8LY">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="d45290e6-6cc8-4022-8e1d-0faf4ae64069" RuleParameters="PsetName=Pset_HumidifierTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="7cb3b6dd-1262-49e4-bd87-246600e5f755">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="5b1c6e2d-42fb-4ebc-9c80-2691db48e4df" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="88edae6d-2560-4a36-a0c3-e3ebeaf18269" RuleParameters="PropertyName=Weight;Value=IfcMassMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="e8e85fc6-7897-40bb-9a0d-19df43f4222d" RuleParameters="PropertyName=NominalMoistureGain;Value=IfcMassFlowRateMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="2348161f-e1ef-44ea-b61c-cb24f8ce3bd9" RuleParameters="PropertyName=NominalAirFlowRate;Value=IfcVolumetricFlowRateMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="f4ce96fc-d626-49e1-a3b9-ab2fb23918f2" RuleParameters="PropertyName=WaterRequirement;Value=IfcVolumetricFlowRateMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="5dfb909a-a709-455c-acc5-f2353bd116f2">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="26c7b124-19bb-472a-9593-649a7c02e683" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="2fb257db-0eac-4378-8ea9-ac1e2dc57898" RuleParameters="PropertyName=Application;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="877059c5-0f42-48f7-85d8-1f2e1c05627e" RuleParameters="PropertyName=InternalControl;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="2nXWfOPuH5hf$PhDIxKXAx">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="c8f9cfd4-86b1-4069-9862-65d144e82c27" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_HumidifierBaseQuantities;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material" UniqueId="28Aw4Enaz56ehDdCw7jsI9">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="30dd5d30-9805-4577-9091-c265e797c3c9" RuleParameters="Name=Casing;" Order="0">
+					<Documentation>Material from which the casing is constructed.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Port" UniqueId="1dJ0XjRtDE8gdNDv3m6NQ_">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="9e7b5741-3ff5-4678-adf9-38c71295f3df" RuleParameters="PortName=WaterIn;SystemType=DOMESTICCOLDWATER;Flow=SINK;" Order="0">
+					<Documentation>Incoming water.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="b638fe40-56e7-4858-8782-6d73a196318c" RuleParameters="PortName=AirIn;SystemType=AIRCONDITIONING;Flow=SINK;" Order="0">
+					<Documentation>Incoming air.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="304e5e99-ddc7-451e-af66-737dd3bed291" RuleParameters="PortName=AirOut;SystemType=AIRCONDITIONING;Flow=SOURCE;" Order="0">
+					<Documentation>Outgoing air saturated with vapor.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="afe37ccc-a6d4-4442-98ee-4af79143923f" Type="IfcHumidifier" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

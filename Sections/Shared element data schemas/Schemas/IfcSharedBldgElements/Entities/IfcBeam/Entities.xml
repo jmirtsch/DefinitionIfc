@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcBeam" Name="IfcBeam" UniqueId="7f07946e-f8d2-4f0f-a25c-5bae7d67f92a" DiagramNumber="1" BaseDefinition="IfcBuildingElement" EntityFlags="229">
+	<Localization>
+		<DocLocalization Name="Balken / Unterzug" Locale="de" />
+		<DocLocalization Name="Beam" Locale="en" />
+		<DocLocalization Name="Poutre" Locale="fr" />
+	</Localization>
+	<DiagramRectangle>
+		<DocRectangle X="484.77504" Y="360.4283" Width="249.9" Height="227.96667" />
+	</DiagramRectangle>
+	<Subtypes>
+		<DocSubtype UniqueId="6a1d8aa2-cdb8-4bab-afdb-3935056aebd1" DefinedType="IfcBeamStandardCase" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="7bb3f509-7b4f-4430-85ea-65881e1e03ea" DefinedType="IfcBeamTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Predefined generic type for a beam that is specified in an enumeration. There may be a property set given specificly for the predefined types.
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The &lt;em&gt;PredefinedType&lt;/em&gt; shall only be used, if no &lt;em&gt;IfcBeamType&lt;/em&gt; is assigned, providing its own &lt;em&gt;IfcBeamType.PredefinedType&lt;/em&gt;.&lt;/blockquote&gt;
+&lt;blockquote class=&quot;change-ifc2x4&quot;&gt;IFC4 CHANGE  The attribute has been added at the end of the entity definition.&lt;/blockquote&gt;</Documentation>
+			<DiagramLine>
+				<DocPoint X="734.67504" Y="519.72882" />
+				<DocPoint X="1113.9084" Y="519.72882" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="732.0083733" Y="511.72882" Width="182" Height="35" />
+			</DiagramLabel>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="CorrectPredefinedType" UniqueId="a85ecbb1-f14c-45ea-b2d6-3aa676a82c59">
+			<Documentation>Either the &lt;em&gt;PredefinedType&lt;/em&gt; attribute is unset (e.g. because an &lt;em&gt;IfcBeamType&lt;/em&gt; is associated), or the inherited attribute &lt;em&gt;ObjectType&lt;/em&gt; shall be provided, if the &lt;em&gt;PredefinedType&lt;/em&gt; is set to USERDEFINED.</Documentation>
+			<Expression>NOT(EXISTS(PredefinedType)) OR
+ (PredefinedType &lt;&gt; IfcBeamTypeEnum.USERDEFINED) OR
+ ((PredefinedType = IfcBeamTypeEnum.USERDEFINED) AND EXISTS (SELF\IfcObject.ObjectType))</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="CorrectTypeAssigned" UniqueId="cd2089fe-a22d-44ea-a43a-6df4d76d9e48">
+			<Documentation>Either there is no beam type object associated, i.e. the &lt;em&gt;IsTypedBy&lt;/em&gt; inverse relationship is not provided, or the associated type object has to be of type &lt;em&gt;IfcBeamType&lt;/em&gt;.</Documentation>
+			<Expression>(SIZEOF(IsTypedBy) = 0) OR
+  (&apos;IFCSHAREDBLDGELEMENTS.IFCBEAMTYPE&apos; IN TYPEOF(SELF\IfcObject.IsTypedBy[1].RelatingType))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+	<Tree>
+		<DocLine>
+			<DiagramLine>
+				<DocPoint X="734.67504" Y="414.2154" />
+				<DocPoint X="1113.99997" Y="414.2154" />
+			</DiagramLine>
+		</DocLine>
+	</Tree>
+</DocEntity>
+

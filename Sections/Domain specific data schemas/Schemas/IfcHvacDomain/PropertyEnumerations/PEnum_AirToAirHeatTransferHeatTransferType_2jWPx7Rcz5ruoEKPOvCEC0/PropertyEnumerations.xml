@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="PEnum_AirToAirHeatTransferHeatTransferType" UniqueId="ad819ec7-6e6f-45d7-8c8e-51963930e300">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="SENSIBLE_2OgS4_cbr3NRlGt2g7u38Z" />
+		<DocPropertyConstant xsi:nil="true" href="LATENT_1mcZmeCFTEIuDpmDBIk1mo" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_2z2URzjwnBBfAFsYbDrgJC" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_3TmJ2O6Aj0zRD70st3NVKk" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_38xR9kFCfDFxdKbc3VvsHq" />
+	</Constants>
+</DocPropertyEnumeration>
+

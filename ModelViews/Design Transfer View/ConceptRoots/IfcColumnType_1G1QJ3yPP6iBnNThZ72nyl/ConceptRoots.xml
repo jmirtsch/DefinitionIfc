@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="5005a4c3-f196-46b0-bc57-76b8c70b1f2f">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcColumnType" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Material Profile Set" UniqueId="856c963e-6327-4a9b-a014-fc8a87f78e60">
+			<Documentation>&lt;p&gt;The material of the &lt;em&gt;IfcColumnType&lt;/em&gt; is defined by the
+&lt;em&gt;IfcMaterialProfileSet&lt;/em&gt; or as fall back by
+&lt;em&gt;IfcMaterial&lt;/em&gt; and attached by the
+&lt;em&gt;IfcRelAssociatesMaterial&lt;/em&gt;&lt;em&gt;.RelatingMaterial&lt;/em&gt;. It is
+accessible by the inverse &lt;em&gt;HasAssociations&lt;/em&gt;
+relationship.&lt;/p&gt;
+
+&lt;blockquote class=&quot;note&quot;&gt;
+NOTE&amp;nbsp; It is illegal to assign an &lt;em&gt;IfcMaterial&lt;/em&gt; to an &lt;em&gt;IfcColumnType&lt;/em&gt;, if there is at least one occurrences of &lt;em&gt;IfcColumnStandardCase&lt;/em&gt; for this
+type.
+&lt;/blockquote&gt;
+
+&lt;p&gt;The shared profile definition is defined by assigning an
+&lt;em&gt;IfcMaterialProfileSet&lt;/em&gt; (see material use definition above).
+The &lt;em&gt;IfcMaterialProfile&lt;/em&gt; refers to the subtype of
+&lt;em&gt;IfcProfileDef&lt;/em&gt; that is the common profile for all column
+occurrence, if used. It is only applicable if the
+&lt;em&gt;IfcColumnType&lt;/em&gt; has only occurrences of type
+&lt;em&gt;IfcColumnStandardCase&lt;/em&gt; (see definition of
+&lt;em&gt;IfcColumnStandardCase&lt;/em&gt; for further information).&lt;/p&gt;
+
+&lt;blockquote class=&quot;note&quot;&gt;
+NOTE&amp;nbsp; The attribute &lt;em&gt;ProfileName&lt;/em&gt; of the
+&lt;em&gt;IfcProfileDef&lt;/em&gt; subtype, referenced in
+&lt;em&gt;IfcMaterialProfile&lt;/em&gt; should contain a standardized profile
+name according to local standards. However, an additional
+geometric representation of the profile is necessary (e.g. as
+&lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt;). An importing application is allowed
+to check for the existence of the profile name: in case of
+identifying it as a standardized name, the corresponding profile
+geometry and possibly other cross sectional properties can be
+read from a library. Otherwise the geometric representation and
+possible non geometric &lt;em&gt;IfcProfileProperties&lt;/em&gt; have to be
+used.
+&lt;/blockquote&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set_12Ui1LAd52mgGZSMYVfrnP" />
+			</Definition>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="53ac5082-98a6-4604-ae81-71e8d6835b35" Type="IfcColumnType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

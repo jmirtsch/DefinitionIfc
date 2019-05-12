@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0VS7hwUKn2yekxfZ_Yv$P2">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcStructuralCurveMember" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Structural Connectivity" UniqueId="125b09ca-3549-4b39-9238-40e1c666bc2d">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Structural Connectivity_3qzrrFRJXClfxxtxM4GD$B" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="e70f74ac-c676-4848-bd4a-6883213273f2" RuleParameters="StructuralConnection=IfcStructuralPointConnection;" Order="0">
+					<Documentation>Point connections at each end of the member.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material Profile Set Usage" UniqueId="39J3piP3X0CgOy04oha8b5">
+			<Documentation>&lt;p&gt;The material of direct instances &lt;em&gt;IfcStructuralCurveMember&lt;/em&gt; (in contrast to instances of the subtype &lt;em&gt;IfcStructuralCurveMemberVarying&lt;/em&gt;) is defined by &lt;em&gt;IfcMaterialProfileSetUsage&lt;/em&gt; and attached by the &lt;em&gt;IfcRelAssociatesMaterial.RelatingMaterial&lt;/em&gt;.  It is accessible by the inverse &lt;em&gt;HasAssociations&lt;/em&gt; relationship.  Composite profile beams can be represented by refering to several &lt;em&gt;IfcMaterialProfile&lt;/em&gt;s within the &lt;em&gt;IfcMaterialProfileSet&lt;/em&gt; that is referenced from the &lt;em&gt;IfcMaterialProfileSetUsage&lt;/em&gt;.  In case of tapered members, the material profile usage subtype &lt;em&gt;IfcMaterialProfileSetUsageDual&lt;/em&gt; is used which specifies &lt;em&gt;IfcMaterialProfileSet&lt;/em&gt;s separately at the start and the end of the tapered member.&lt;/p&gt;
+
+&lt;p&gt;The material (&lt;em&gt;IfcMaterial&lt;/em&gt;) in each &lt;em&gt;IfcMaterialProfile&lt;/em&gt;(&lt;em&gt;Set&lt;/em&gt;) is specified minimally by a name which corresponds with an agreed upon standardized structural material designation.  An external reference to the source which specifies the material designation should be provided.  Alternatively, structural material properties may be provided by means of &lt;em&gt;IfcMechanicalMaterialProperties&lt;/em&gt; and &lt;em&gt;IfcExtendedMaterialProperties&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The profile (&lt;em&gt;IfcProfileDef&lt;/em&gt;) in each &lt;em&gt;IfcMaterialProfile&lt;/em&gt;(&lt;em&gt;Set&lt;/em&gt;) is specified minimally by a name which corresponds with an agreed upon standardized structural profile designation.  An external reference to the source which specifies the profile designation should be provided.  Alternatively or additionally, explicit profile geometry should be provided by using respective subtypes of &lt;em&gt;IfcProfileDef&lt;/em&gt;.  Alternatively or additionally, structural profile properties may be provided by means of subtypes of &lt;em&gt;IfcProfileProperties&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;An &lt;em&gt;IfcProfileDef&lt;/em&gt; is a two-dimensional geometric object with a x&lt;sub&gt;p&lt;/sub&gt;,y&lt;sub&gt;p&lt;/sub&gt; coordinate system.  The profile is inserted into the curve member model thus that the origin of x&lt;sub&gt;p&lt;/sub&gt;,y&lt;sub&gt;p&lt;/sub&gt; is located at the member&apos;s reference curve and that x&lt;sub&gt;p&lt;/sub&gt;,y&lt;sub&gt;p&lt;/sub&gt; are parallel with and directed like the local y,z.&lt;/p&gt;
+
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp;  Due to convention in structural mechanics, axis names of &lt;em&gt;IfcStructuralCurveMember&lt;/em&gt; differ from axis names of building elements like &lt;em&gt;IfcBeamStandardCase&lt;/em&gt;:  The extrusion axis of &lt;em&gt;IfcStructuralCurveMember&lt;/em&gt; is called x while the extrusion axis of &lt;em&gt;IfcBeamStandardCase&lt;/em&gt; is called z.  Hence x,y,z of &lt;em&gt;IfcStructuralCurveMember&lt;/em&gt; correspond with z,x,y of &lt;em&gt;IfcBeamStandardCase&lt;/em&gt;.&lt;/blockquote&gt;
+
+&lt;p&gt;If the profile is meant to be inserted centrically in terms of structural section properties, it is necessary that the origin of x&lt;sub&gt;p&lt;/sub&gt;,y&lt;sub&gt;p&lt;/sub&gt; is identical with the geometric centroid of the profile (commonly also called centre of gravity).  If subtypes of &lt;em&gt;IfcParameterizedProfileDef&lt;/em&gt; are used which are only singly symmetric or are asymmetric, an explicit translation by &lt;em&gt;IfcParameterizedProfileDef.Position.Location&lt;/em&gt; is required then.&lt;/p&gt;
+
+&lt;p&gt;If the profile is inserted at its geometric centroid, &lt;em&gt;IfcMaterialProfileSetUsage.CardinalPoint&lt;/em&gt; shall be set to 10.&lt;/p&gt;
+
+&lt;p&gt;Otherwise, the profile is inserted eccentrically and a different cardinal point should be set accordingly.&lt;/p&gt;
+
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp;  Another eccentricity model is available independently of eccentric profile specification:  The reference curve of the member may be located eccentrically relative to the reference points of the connected &lt;em&gt;IfcStructuralPointConnection&lt;/em&gt;s.  The connection relationship is then established by &lt;em&gt;IfcRelConnectsWithEccentricity&lt;/em&gt;.  Whether one or the other or both eccentricity models may be used is subject to information requirements and local agreements.&lt;/blockquote&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set Usage_1ge1GfjMPBDeTQCM88YfWn" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Reference Topology" UniqueId="0wObJaxHz1uuGEFhD0Cgag">
+			<Documentation>&lt;p&gt;Direct instances of &lt;em&gt;IfcStructuralCurveMember&lt;/em&gt; shall have a topology representation which consists of one instance of &lt;em&gt;IfcEdge&lt;/em&gt; or a subtype, representing the reference curve of the curve member.  See definitions at &lt;em&gt;IfcStructuralItem&lt;/em&gt; for further specifications.&lt;/p&gt;
+
+&lt;p class=&quot;spec-head&quot;&gt;Informal Propositions:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The reference curve must not be parallel with &lt;em&gt;Axis&lt;/em&gt; at any point within the curve member&apos;s domain.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;The local coordinate system is established by the reference curve given by topology representation and by the attribute &lt;em&gt;Axis&lt;/em&gt;.  The local x axis is parallel with the tangent on the reference curve.  The local z axis is located in the surface which is created by sweeping &lt;em&gt;Axis&lt;/em&gt; along the reference curve and is directed according to &lt;em&gt;Axis&lt;/em&gt;.  The local y axis is directed such that x,y,z form a right-handed Cartesian coordinate system.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Reference Topology_1vtMCN8v14oeZ2SDHirRbf" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="094b3d53-7c80-4a22-bac5-5e8f69fe04ae" RuleParameters="RepresentationType=Edge;Topology=IfcEdge;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="74ff87fc-92a8-4173-a09b-424b1f8e0b1a" Type="IfcStructuralCurveMember" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

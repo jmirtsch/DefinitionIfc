@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1d807077-d341-4b5e-8c0a-eddbbd2eb3f6">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcRoof" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="5e7e0ac3-8b31-4608-b8ee-e6017c682c54">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="b330ab84-181a-4773-82b3-50ec699365b3" RuleParameters="RelatingType=IfcRoofType;" Order="0" />
+			</Items>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Property Sets for Objects" UniqueId="1f0672b9-aea0-4450-9545-d58e62515468">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="588bd388-e953-460c-a826-919d75b80ef2" RuleParameters="PsetName=Pset_RoofCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="b7c68053-cd09-4137-bbd7-0b2c3a20e086">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="4408b5c2-076c-4c05-b365-25e1f1c95848" RuleParameters="Order=1;PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="7211dc1e-7800-4dd7-a6b4-d17f0f8fb6e1" RuleParameters="Order=3;PropertyName=AcousticRating;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="bf76bdd6-8125-4e11-a9c6-ade58a701717" RuleParameters="Order=4;PropertyName=FireRating;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="f47b43af-2d16-420a-a9f9-900e51fc6e75" RuleParameters="Order=5;PropertyName=IsExternal;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="51d7843d-2137-4c47-a903-0340733b584e" RuleParameters="Order=6;PropertyName=ThermalTransmittance;Value=IfcThermalTransmittanceMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="189e43dd-cb02-4e60-a964-d5b69a354598">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="10373873-a493-460e-a164-5b3ec47bf862" RuleParameters="Order=2;PropertyName=Status;Value=IfcLabel;Reference=PEnum_ElementStatus;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Quantity Sets" UniqueId="999481d1-7027-4ea9-a4a9-2c54625dbbc3">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="04cdb78f-3927-48a2-a518-19c1c696b2b1" RuleParameters="QsetName=Qto_RoofBaseQuantities;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Quantities" UniqueId="f1bec920-778d-49ee-b9b4-d07d9a5500a2">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Area Quantity_1bh4T7Rlz3VfJYP3$Kux_6" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="5e107aaa-3e39-4831-a239-e1987c4c1c5b" RuleParameters="Order=1;QuantityName=GrossArea;" Order="0" />
+								<DocTemplateItem UniqueId="9a901208-3b0f-4018-8e63-77bd9e94fa2f" RuleParameters="Order=2;QuantityName=NetArea;" Order="0" />
+								<DocTemplateItem UniqueId="aacd31cd-5c8d-4202-b5d1-ef0b0cf302c7" RuleParameters="Order=3;QuantityName=ProjectedArea;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Element Decomposition" UniqueId="19a4b41b-a03c-4338-ae0d-05866911f643">
+			<Documentation>&lt;p&gt;&lt;em&gt;Geometric representation by aggregated elements&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;If the &lt;em&gt;IfcRoof&lt;/em&gt; has components (referenced by
+&lt;em&gt;SELF\IfcObject.IsDecomposedBy&lt;/em&gt;) then no independent
+geometric representation shall defined for the &lt;em&gt;IfcRoof&lt;/em&gt;.
+The &lt;em&gt;IfcRoof&lt;/em&gt; is then geometrically represented by the
+geometric representation of its components. The components are
+accessed via 
+&lt;em&gt;SELF\IfcObject.IsDecomposedBy[1].RelatedObjects&lt;/em&gt;. The 
+geometric representations that are supported for the aggregated 
+elements are defined with each element. See geometric use 
+definition for &lt;em&gt;IfcSlab&lt;/em&gt;, &lt;em&gt;IfcBeam&lt;/em&gt;, &lt;em&gt;IfcColumn&lt;/em&gt;,
+&lt;em&gt;IfcBuildingElementPart&lt;/em&gt; and other subtypes of
+&lt;em&gt;IfcBuildingElement&lt;/em&gt;.&lt;/p&gt;
+
+
+&lt;p&gt;Figure 135 illustrates roof placement, with an &lt;em&gt;IfcRoof&lt;/em&gt; defining the local placement for all aggregated elements.&lt;/p&gt;
+
+&lt;table cellpadding=&quot;2&quot; cellspacing=&quot;2&quot;&gt;
+&lt;tr valign=&quot;top&quot;&gt;&lt;td valign=&quot;top&quot; align=&quot;left&quot;&gt;&lt;img src=&quot;../../../figures/ifcroof-layout1.gif&quot; alt=&quot;roof&quot; width=&quot;399&quot; height=&quot;274&quot; border=&quot;0&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 135 &amp;mdash; Roof placement&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Element Decomposition_2A9y5QnEfCgOpEVxkXoRpW" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="30fa9cfd-bddb-4bf5-95e3-6cdbf19b8851" RuleParameters="RelatedObjects=IfcSlab;" Order="0">
+					<Documentation>A roof may be aggregated into slabs for each face.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="7ef7017a-621e-4b2f-856f-a21c5108e243" Type="IfcRoof" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

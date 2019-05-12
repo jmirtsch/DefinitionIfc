@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3AFcQrwzb2lf2KuvXeegbT">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcDuctFitting" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="1vvVGzhoX3GRxdKBHCtE$$">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="7991b7f0-42e4-47bc-b4bf-ed5a1725c2ed" RuleParameters="RelatingType=IfcDuctFittingType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="2ZyFpMyiP3kRJB7$9wTwM2">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="ff981700-6fd5-4471-af34-b70366e62453" RuleParameters="PsetName=Pset_DuctFittingOccurrence;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="c0145124-ca45-4bb6-97d0-b2a7429e5972">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="6bcda374-da74-486a-a7e8-c808f06ff9a6" RuleParameters="PropertyName=InteriorRoughnessCoefficient;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="ee0bee0f-9653-46da-bb74-2212cabd323b" RuleParameters="PropertyName=HasLiner;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="71a5d4db-b61f-41b0-b960-0c778fc0e482" RuleParameters="PropertyName=Color;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="158eed8e-b4a5-4a64-a6a5-8a01c2e1d998" RuleParameters="PsetName=Pset_DuctFittingTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="3caef380-7bb4-48c0-9458-a9d3f282fa61">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="5089e782-0f67-4c40-9e20-f8e8d5907be3" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="473cb0df-8ffd-4d87-91fa-c66c57e5d1d4" RuleParameters="PropertyName=PressureClass;Value=IfcPressureMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="2d443fcd-f744-458b-a5b9-d116b68a91c6">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="af303181-5621-4b16-bf53-b14aeca8b777" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="3d114839-714d-4aef-8a5e-c9d81c066d5f">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="07e05f1d-2091-412a-8791-24f3c6a1e641" RuleParameters="PropertyName=PressureRange;SetValue=IfcPressureMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="2462f41f-0b9b-4e70-82e1-b7fab8a9b68a" RuleParameters="PropertyName=TemperatureRange;SetValue=IfcThermodynamicTemperatureMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="3Dx1xO63111g1IUhkbtRzS">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="ef295151-c979-48db-8943-db31c4f4067e" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_DuctFittingBaseQuantities;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material" UniqueId="1zfVc1EhPF6uYZd4$J3JFC">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Layer Set Usage_1jNxXlFor9_vKe1tXLtSn7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="c079b745-ba67-4466-af57-46207c496f7f" RuleParameters="Name=Casing;" Order="0">
+					<Documentation>Material from which the duct fitting is constructed.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="2aa41deb-3105-42bd-975a-6a657f142150" RuleParameters="Name=Coating;" Order="0">
+					<Documentation>The outer coating, if applicable.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="1b8c921a-b1ed-442a-89d7-99771b7c6e90" RuleParameters="Name=Insulation;" Order="0">
+					<Documentation>The insulating wrapping, if applicable.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="baecd3c8-e753-46b1-8075-07f794b8913d" RuleParameters="Name=Lining;" Order="0">
+					<Documentation>The inner lining, if applicable.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Port" UniqueId="0Ir$1wtZX2EwJh2gy5BNux">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="b90290ba-005f-4bd0-8e36-30527e882f3d" RuleParameters="PredefinedType=BEND;PortName=Inlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>The flow inlet.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="7d5b2c32-1260-4af2-8d02-3fbad1d74f78" RuleParameters="PredefinedType=BEND;PortName=Outlet;SystemType=NOTDEFINED;Flow=SOURCE;" Order="0">
+					<Documentation>The flow outlet.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="b8d73432-3450-4e35-bfe5-6a78389a890f" RuleParameters="PredefinedType=CONNECTOR;PortName=Inlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>The flow inlet.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="99ae613d-21e8-4c52-9761-e3b3da082cc3" RuleParameters="PredefinedType=CONNECTOR;PortName=Outlet;SystemType=NOTDEFINED;Flow=SOURCE;" Order="0">
+					<Documentation>The flow outlet.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="62b2f7eb-abf5-4c82-a80c-96683eee1627" RuleParameters="PredefinedType=ENTRY;PortName=Outlet;SystemType=NOTDEFINED;Flow=SOURCE;" Order="0">
+					<Documentation>The flow outlet.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="d17a29ec-2df6-4c58-903f-0c6882fccb9f" RuleParameters="PredefinedType=EXIT;PortName=Inlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>The flow inlet.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="ef0d800e-0518-4de1-88e8-d883a5a49e35" RuleParameters="PredefinedType=JUNCTION;PortName=Inlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>The flow inlet.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="cb0f1ad2-f72e-4f3d-9b82-463c2cf4ccb2" RuleParameters="PredefinedType=JUNCTION;PortName=Outlet#1;SystemType=NOTDEFINED;Flow=SOURCE;" Order="0">
+					<Documentation>The left flow outlet.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="740e301b-5376-40f0-9843-565a65642155" RuleParameters="PredefinedType=JUNCTION;PortName=Outlet#2;SystemType=NOTDEFINED;Flow=SOURCE;" Order="0">
+					<Documentation>The right flow outlet.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="7dbb7e4a-b047-4228-8072-41257c9e68c1" RuleParameters="PredefinedType=OBSTRUCTION;PortName=Inlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>The flow inlet.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="b3fb6f01-e298-4b30-9255-d966ad073191" RuleParameters="PredefinedType=OBSTRUCTION;PortName=Outlet;SystemType=NOTDEFINED;Flow=SOURCE;" Order="0">
+					<Documentation>The flow outlet.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="dc253ced-a9a7-46a3-b1c7-65968f86e8b2" Type="IfcDuctFitting" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

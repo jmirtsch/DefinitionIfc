@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="PEnum_CooledBeamWaterFlowControlSystemType" UniqueId="2f24da8b-bc5c-46c8-b38f-f0117a84aedd">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="NONE_2wIq1VDlL35vs0PceaSLai" />
+		<DocPropertyConstant xsi:nil="true" href="ONOFFVALVE_1XtKYH8tD5MQPZ8opxHxcP" />
+		<DocPropertyConstant xsi:nil="true" href="x2WAYVALVE_3OA0GdzsH5sP_6X6jLzHju" />
+		<DocPropertyConstant xsi:nil="true" href="x3WAYVALVE_2Eg2zOjIP5RAZdmjd3WwpL" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0pW8Yt1xLDpukaqNMzRpT5" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_1L0f4n7JrB3fjCWwcy4OF0" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_2ZjuxEoRTA3gNbvIbduAdT" />
+	</Constants>
+</DocPropertyEnumeration>
+

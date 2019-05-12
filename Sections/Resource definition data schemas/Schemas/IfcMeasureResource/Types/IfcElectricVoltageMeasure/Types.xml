@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcElectricVoltageMeasure" UniqueId="a4ffedba-ccfb-4631-8099-46856ae330fe" DiagramNumber="4" DefinedType="REAL" Length="0">
+	<Localization>
+		<DocLocalization Name="Electric Voltage Measure" Locale="en" />
+		<DocLocalization Name="Mesure de tension électrique" Locale="fr" />
+	</Localization>
+	<DiagramRectangle>
+		<DocRectangle X="5665.0843" Y="580.52065" Width="456.66667" Height="54.923051" />
+	</DiagramRectangle>
+	<Definition>
+		<DocPrimitive xsi:nil="true" href="REAL_2D1tZLsT5C2QsoJqDNh2S2" />
+	</Definition>
+	<DiagramLine>
+		<DocPoint X="6121.751" Y="607.98219" />
+		<DocPoint X="6232.6395" Y="607.98219" />
+	</DiagramLine>
+</DocDefined>
+

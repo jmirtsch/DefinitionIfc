@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1ddK1KJrb9y9jVnqb4DZTx">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcVirtualElement" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Footprint Geometry" UniqueId="3xbsgUDifA6R6_eWS5zTQA">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="FootPrint Geometry_1FLtVNQEb5dAeiHgtpw8qn" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Surface Geometry" UniqueId="0asXBBiE13lATv_gSlabYQ">
+			<Documentation>&lt;p&gt;The 3D geometric representation of &lt;em&gt;IfcVirtualElement&lt;/em&gt; is
+d efined using a surface geometry. The following constraints apply to the 3D surface 
+representation:&lt;/p&gt;
+
+&lt;ul&gt;
+ 
+&lt;li&gt;&apos;Surface3D&apos;: &lt;em&gt;IfcSurfaceOfLinearExtrusion&lt;/em&gt;,
+&lt;em&gt;IfcCurveBoundedPlane&lt;/em&gt;, &lt;em&gt;IfcCurveBoundedSurface&lt;/em&gt;,
+&lt;em&gt;IfcRectangularTrimmedSurface&lt;/em&gt;&lt;/li&gt;
+
+ &lt;li style=&quot;list-style-type: none;&quot;&gt;&lt;small&gt;in case of an
+&lt;em&gt;IfcSurfaceOfLinearExtrusion&lt;/em&gt;&lt;/small&gt;
+
+  &lt;ul&gt;
+   
+&lt;li&gt;&lt;small&gt;&lt;u&gt;Profile&lt;/u&gt;:
+&lt;em&gt;IfcArbitraryOpenProfileDef&lt;/em&gt;&lt;/small&gt;&lt;/li&gt;
+   
+&lt;li&gt;&lt;small&gt;&lt;u&gt;Extrusion&lt;/u&gt;: The extrusion direction shall be
+vertically, i.e., along the positive Z Axis of the co-ordinate
+system of the containing spatial structure element.&lt;/small&gt;&lt;/li&gt;
+  
+&lt;/ul&gt;
+
+ &lt;/li&gt;
+
+ &lt;li style=&quot;list-style-type: none;&quot;&gt;&lt;small&gt;in case of an
+&lt;em&gt;IfcCurveBoundedPlane&lt;/em&gt;, &lt;em&gt;IfcCurveBoundedSurface&lt;/em&gt;,
+&lt;em&gt;IfcRectangularTrimmedSurface&lt;/em&gt;&lt;/small&gt;
+  
+&lt;ul&gt;
+   
+&lt;li&gt;&lt;small&gt;&lt;u&gt;Extrusion&lt;/u&gt;: The &lt;em&gt;BasisSurface&lt;/em&gt; shall be a
+surface that is upright, i.e. standing perpendicular to the xy
+place of the co-ordinate system of the containing spatial
+structure element.&lt;/small&gt;&lt;/li&gt;
+
+   &lt;/ul&gt;
+
+ &lt;/li&gt;
+ 
+&lt;li&gt;&apos;GeometricSet&apos;: a list of 3D surfaces within the constraints
+shown above.&lt;/li&gt;
+
+&lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Surface Geometry_0kcTvm_tD7ZvlAJ_tzwqwb" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="5198dc1c-8a55-41dd-a6fc-8c7abecfe40e" Type="IfcVirtualElement" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

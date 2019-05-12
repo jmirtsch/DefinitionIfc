@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1r8NhWeVj3hRKjfhNNNbFx">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcSpace" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Space Attributes" UniqueId="d6239bb5-eddc-4027-a426-172a3b2c2e61">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Space Attributes_1KEbAdUPn3IQ2w1CFyAHJJ" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Object Typing" UniqueId="a116252d-43fd-4270-bde9-d6b47ad0cfa4">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="ac14fa48-c2bf-43ce-b462-671a67b8f78e" RuleParameters="RelatingType=IfcSpaceType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Property Sets for Objects" UniqueId="324dff43-e2e2-47b3-862c-a3ac53308061">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="f9d3a8df-78d0-44db-9c69-b0da374bb8c4" RuleParameters="PsetName=Pset_SpaceCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="198b07a8-2833-4d97-9075-f0b04293a9f9">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="a9f8260a-8a23-42b1-8ae6-4c2b71311971" RuleParameters="Order=1;PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="9e456659-931a-4c72-9c7d-a6d22cf4cde3" RuleParameters="Order=2;PropertyName=IsExternal;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="c20d2e70-244b-4928-bd44-cd1badb3e512" RuleParameters="Order=3;PropertyName=GrossPlannedArea;Value=IfcAreaMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="a5a6c391-37e9-4a74-b7f6-fa169735a6bf" RuleParameters="Order=4;PropertyName=NetPlannedArea;Value=IfcAreaMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="30a063f5-9699-4f05-82e0-f0d099b3309d" RuleParameters="Order=5;PropertyName=PubliclyAccessible;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="1c9d0110-7e91-42d3-bac2-47c4fdfa60c4" RuleParameters="Order=6;PropertyName=HandicapAccessible;Value=IfcBoolean;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="a2f35886-c3fb-42c5-ae6c-c3026770ef95" RuleParameters="PsetName=Pset_SpaceCoveringRequirements;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="033b5b90-b163-4aaa-9bfb-b9c82f3ff81e">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="122fbd6f-ec08-4017-b759-0a9ddc4fbd74" RuleParameters="Order=1;PropertyName=FloorCovering;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="52324377-f6e3-480e-9674-4b0d00a7d9af" RuleParameters="Order=2;PropertyName=FloorCoveringThickness;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="02d0c641-3dac-4365-a24f-c35f2c14f062" RuleParameters="Order=3;PropertyName=WallCovering;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="4a537111-647a-4107-99c8-8b8b6f1cd999" RuleParameters="Order=4;PropertyName=WallCoveringThickness;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="bab393a8-e928-4d7a-ad32-fab3298b56b8" RuleParameters="Order=5;PropertyName=CeilingCovering;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="4d050d82-0c40-4be1-8c6b-13fd65f00656" RuleParameters="Order=6;PropertyName=CeilingCoveringThickness;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="82a6ca7a-ccfe-4123-aaf6-ff728c80da37" RuleParameters="Order=7;PropertyName=SkirtingBoard;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="45333b7b-99ae-4633-9c54-98bc4d942665" RuleParameters="Order=8;PropertyName=SkirtingBoardHeight;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="c04440f2-4a70-4fb5-87bd-f7b157df3dd5" RuleParameters="Order=9;PropertyName=Molding;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="4f39301e-8915-4a82-9940-cc8c90a06bb7" RuleParameters="Order=10;PropertyName=MoldingHeight;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="6f547210-01be-4099-95e9-0e580019d768" RuleParameters="Order=11;PropertyName=ConcealedFlooring;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="9c0aa0a0-e366-4f58-9c1f-5f7637ed39b9" RuleParameters="Order=12;PropertyName=ConcealedCeiling;Value=IfcBoolean;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="8413e4fc-9195-45e1-938b-de37fcf2bf2c" RuleParameters="PsetName=Pset_SpaceThermalDesign;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="3a13e46e-ce3d-4f26-ada8-4273e92d77d0">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="446b2d37-6ee8-46b7-b6b2-bfd45df7c2dc" RuleParameters="Order=1;PropertyName=CoolingDesignAirflow;Value=IfcVolumetricFlowRateMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="c23d9360-f0bd-4873-a5fc-3742e24ba96b" RuleParameters="Order=2;PropertyName=HeatingDesignAirflow;Value=IfcVolumetricFlowRateMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="33eea1c7-2605-4467-a149-6a711d4543aa" RuleParameters="Order=3;PropertyName=TotalSensibleHeatGain;Value=IfcPowerMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="c6f05f24-54de-441a-b6a9-9fc00fe686ab" RuleParameters="Order=4;PropertyName=TotalHeatGain;Value=IfcPowerMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="c51ecac7-c4f8-4d6d-8dfb-a8e75aa130fc" RuleParameters="Order=5;PropertyName=TotalHeatLoss;Value=IfcPowerMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="78924f07-c827-49ff-9f96-abe5b83dc148" RuleParameters="Order=6;PropertyName=CoolingDryBulb;Value=IfcThermodynamicTemperatureMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="66322989-97ec-4797-a734-541ca8ffb422" RuleParameters="Order=7;PropertyName=CoolingRelativeHumidity;Value=IfcPositiveRatioMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="45e563ed-45be-4a0d-b85b-5ff24ca770a0" RuleParameters="Order=8;PropertyName=HeatingDryBulb;Value=IfcThermodynamicTemperatureMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="4a63e227-e0b5-4de2-bcc3-5ef954e5eb25" RuleParameters="Order=9;PropertyName=HeatingRelativeHumidity;Value=IfcPositiveRatioMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="98a6fc38-1c9d-40fd-83dd-a09e375c8359" RuleParameters="Order=10;PropertyName=VentilationAirFlowrate;Value=IfcVolumetricFlowRateMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="27e7906b-12a0-4a48-aa80-eec551f30895" RuleParameters="Order=11;PropertyName=ExhaustAirFlowrate;Value=IfcVolumetricFlowRateMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="7ad0d946-141d-495f-a1b3-b58d0048cd77" RuleParameters="Order=12;PropertyName=CeilingRAPlenum;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="001e5758-cebd-428f-a224-1befc2c7c1bc" RuleParameters="Order=13;PropertyName=BoundaryAreaHeatLoss;Value=IfcHeatFluxDensityMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="27c700b0-6caa-4c05-93a8-1983839af8e8" RuleParameters="PsetName=Pset_SpaceThermalLoad;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="2bd8a6d8-bd58-473c-952b-eadef719c2dc">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="a0019d4d-6fff-4951-a34f-73900a481de5" RuleParameters="Order=1;PropertyName=People;SetValue=IfcPowerMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="a932cef8-98fa-4dbc-96bf-63ba201b740b" RuleParameters="Order=2;PropertyName=Lighting;SetValue=IfcPowerMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="4de7c47b-5e38-4a60-afa9-10fa55cbb6ed" RuleParameters="Order=3;PropertyName=EquipmentSensible;SetValue=IfcPowerMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="637ca7ad-58c5-4a53-ae66-ccdc14c50453" RuleParameters="Order=4;PropertyName=VentilationIndoorAir;SetValue=IfcPowerMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="8464c0a3-02e6-4fbe-acbf-239821c469a1" RuleParameters="Order=5;PropertyName=VentilationOutdoorAir;SetValue=IfcPowerMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="52c85d7a-ccbe-4708-83a8-f74f124e15fb" RuleParameters="Order=6;PropertyName=RecirculatedAir;SetValue=IfcPowerMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="5af6e1cf-7807-49cf-99dc-4128622093ef" RuleParameters="Order=7;PropertyName=ExhaustAir;SetValue=IfcPowerMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="cacfeba5-90b4-49eb-a1d9-34da55ba7bde" RuleParameters="Order=8;PropertyName=AirExchangeRate;SetValue=IfcPowerMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="71398030-f08c-4f61-acb0-9a7a7aad7cd0" RuleParameters="Order=9;PropertyName=DryBulbTemperature;SetValue=IfcPowerMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="9ca12421-28d4-475e-8e57-645c1f93ce4c" RuleParameters="Order=10;PropertyName=RelativeHumidity;SetValue=IfcPowerMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="8107dd98-5a1c-4fe5-a627-fe434172ea4c" RuleParameters="Order=11;PropertyName=InfiltrationSensible;SetValue=IfcPowerMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="4df5a174-a069-4c1b-bf0f-5886c04e5272" RuleParameters="Order=12;PropertyName=TotalSensibleLoad;SetValue=IfcPowerMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="123a0886-c46d-469f-9316-cd1e216b4f1c" RuleParameters="Order=13;PropertyName=TotalLatentLoad;SetValue=IfcPowerMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="c1104b6e-661d-4765-bf19-6d76476e75b2" RuleParameters="Order=14;PropertyName=TotalRadiantLoad;SetValue=IfcPowerMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="283yqZ5H56hfe8z6VXrg2O">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="7aa3d758-a93f-4a82-8bcf-6021121dd0c2" RuleParameters="QsetName=Qto_SpaceBaseQuantities;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Quantities" UniqueId="8914f4bc-c58a-4910-b3d9-f4a7daaad53e">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Length Quantity_3TXdZXum1FS9rZvJdRIz4S" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="526104ff-13bd-46c7-89da-fc3760f6aec8" RuleParameters="Order=1;QuantityName=Height;" Order="0" />
+								<DocTemplateItem UniqueId="5d6cad0f-01dd-4104-8bbc-ef357c6b25ab" RuleParameters="Order=2;QuantityName=FinishCeilingHeight;" Order="0" />
+								<DocTemplateItem UniqueId="b79f4431-10fc-4ffd-9475-9fe8fe6ca6fe" RuleParameters="Order=3;QuantityName=FinishFloorHeight;" Order="0" />
+								<DocTemplateItem UniqueId="8c3e9ccc-f756-44f7-bdac-54535f7e204e" RuleParameters="Order=4;QuantityName=GrossPerimeter;" Order="0" />
+								<DocTemplateItem UniqueId="1b83ea98-3a85-4262-8a1d-ff5083539e3d" RuleParameters="Order=5;QuantityName=NetPerimeter;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Quantities" UniqueId="a8e2cf8c-d542-4eef-9471-5eee5a668fb0">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Area Quantity_1bh4T7Rlz3VfJYP3$Kux_6" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="15bd8155-6270-4e37-b1d0-63a724de4294" RuleParameters="Order=6;QuantityName=GrossFloorArea;" Order="0" />
+								<DocTemplateItem UniqueId="afe5ae41-7b4c-4d90-8440-0d196b4635bf" RuleParameters="Order=7;QuantityName=NetFloorArea;" Order="0" />
+								<DocTemplateItem UniqueId="39821c4b-1418-4481-a152-d4817c0b8eb2" RuleParameters="Order=8;QuantityName=GrossWallArea;" Order="0" />
+								<DocTemplateItem UniqueId="55e6ea81-2267-4732-8fe6-0162f73012fe" RuleParameters="Order=9;QuantityName=NetWallArea;" Order="0" />
+								<DocTemplateItem UniqueId="a802ed9f-6499-4990-b93a-e06d174aabd6" RuleParameters="Order=10;QuantityName=GrossCeilingArea;" Order="0" />
+								<DocTemplateItem UniqueId="78a830de-c5c2-4222-940f-b133c23e26b1" RuleParameters="Order=11;QuantityName=NetCeilingArea;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Quantities" UniqueId="768e702e-db0e-447a-a332-e4fa78ba9aeb">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Volume Quantity_1aaQEmj_b1Ae8clDaSAmiE" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="da56719c-f07f-49b4-a7bf-fe093672a8d0" RuleParameters="Order=12;QuantityName=GrossVolume;" Order="0" />
+								<DocTemplateItem UniqueId="54918bef-2b4d-4473-a1a7-5cdb5259d9c6" RuleParameters="Order=13;QuantityName=NetVolume;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Spatial Decomposition" UniqueId="bc7cd9af-bb2f-42f7-b8a7-c8970e0afe8f">
+			<Documentation>&lt;p&gt;By using the inverse relationship &lt;em&gt;IfcSpace.Decomposes&lt;/em&gt; it references &lt;em&gt;IfcSite&lt;/em&gt; ||
+&lt;em&gt;IfcBuildingStorey&lt;/em&gt; by 
+&lt;em&gt;IfcRelAggregates.RelatingObject&lt;/em&gt;.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Spatial Decomposition_1cVuH3xCvAZQO$an_h15FW" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="a61a002f-d33a-4f70-bbac-9e900c14e79c" RuleParameters="Spatial Parts=IfcSite;" Order="0">
+					<Documentation>Relation to the &lt;em&gt;IfcSite&lt;/em&gt; to which this space belongs to</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="73ebdb61-831b-468c-8f36-1541e90fec9d" RuleParameters="Spatial Parts=IfcBuildingStorey;" Order="0">
+					<Documentation>Relation to the &lt;em&gt;IfcBuildingStorey&lt;/em&gt; to which this space belongs to (default)</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="2U8PafLn11BhTQD48VuoP5">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Spatial Container_1XtGZj$G59LPCtYlqeIWvl" />
+			</Definition>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Product Local Placement" UniqueId="7d82617c-3d38-47cc-86fe-f729fc3ed84f">
+			<Documentation>&lt;p&gt;The local placement for &lt;em&gt;IfcSpace&lt;/em&gt; is defined at its 
+supertype &lt;em&gt;IfcProduct&lt;/em&gt;. It is defined by the 
+&lt;em&gt;IfcLocalPlacement&lt;/em&gt;, which defines the local coordinate system 
+that is referenced by all geometric representations.&lt;/p&gt;
+
+&lt;ul&gt;
+
+ &lt;li&gt;The &lt;em&gt;PlacementRelTo&lt;/em&gt; relationship of 
+&lt;em&gt;IfcLocalPlacement&lt;/em&gt; shall point to the local placement of the
+ &lt;em&gt;IfcSpatialStructureElement&lt;/em&gt; of type &lt;em&gt;IfcBuildingStorey&lt;/em&gt; or &lt;em&gt;IfcSite&lt;/em&gt; if
+ relative placement is used.&lt;/li&gt;
+ 
+&lt;li&gt;If the relative placement is not used, the absolute placement
+ is defined within the world coordinate system.
+ &lt;/li&gt;
+
+&lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="FootPrint GeomSet Geometry" UniqueId="fcddf0b1-ae2e-4ec0-855b-bc6e976107a8">
+			<Documentation>&lt;p&gt;The following constraints apply to the 2D representation:&lt;/p&gt;
+
+&lt;ul&gt;
+ 
+&lt;li&gt;An &lt;em&gt;IfcBoundedCurve&lt;/em&gt; is required, using
+&lt;em&gt;IfcPolyline&lt;/em&gt; for faceted space contours or
+ &lt;em&gt;IfcCompositeCurve&lt;/em&gt; for space contours with arc segments. For
+ spaces with inner boundaries, a set of &lt;em&gt;IfcBoundedCurve&lt;/em&gt;&apos;s is
+ used, that should be grouped into an
+ &lt;em&gt;IfcGeometricCurveSet&lt;/em&gt;.&lt;/li&gt;
+
+&lt;/ul&gt;
+
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+
+&lt;table cellpadding=&quot;2&quot; cellspacing=&quot;2&quot;&gt;
+ 
+&lt;tr valign=&quot;top&quot;&gt;
+  &lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../../figures/ifcspace_2d-layout1.gif&quot; alt=&quot;2d representation&quot; border=&quot;0&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 126 shows a two-dimensional bounded curve representing the
+foot print of &lt;em&gt;IfcSpace&lt;/em&gt;.&lt;/example&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+
+ &lt;tr&gt;
+  &lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 126 &amp;mdash; Space footprint&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+ &lt;/tr&gt;
+
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="FootPrint GeomSet Geometry_2KLjRMfYf8jBh$lYuukgoS" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="24ea9e87-4fc7-472a-af69-77e872ec036c" RuleParameters="Identifier=FootPrint;Type=Curve2D;Items=IfcBoundedCurve;" Order="0">
+					<Documentation>A single curve defining the outer boundary</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="5ad5f770-c1f3-4782-9d02-db21967bbf11" RuleParameters="Identifier=FootPrint;Type=GeometricCurveSet;Items=IfcGeometricCurveSet;" Order="0">
+					<Documentation>Set of curves (outer and inner) representing the floor projection,</Documentation>
+				</DocTemplateItem>
+			</Items>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body SweptSolid PolyCurve Geometry" UniqueId="eb232576-bd64-469e-87a2-8a77a507e881">
+			<Documentation>&lt;p&gt;The following constraints apply to the &apos;Body&apos; &apos;SweptSolid&apos; representation:&lt;/p&gt;
+
+&lt;ul&gt;
+
+ &lt;li&gt;&lt;u&gt;Solid&lt;/u&gt;: &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt; is required,&lt;/li&gt;
+ 
+&lt;li&gt;&lt;u&gt;Profile&lt;/u&gt;: &lt;em&gt;IfcArbitraryClosedProfileDef&lt;/em&gt; and &lt;em&gt;IfcArbitraryProfileDefWithVoids&lt;/em&gt; shall be
+supported. The profile outline and inline curves are defined using &lt;em&gt;IfcIndexedPolyCurve&lt;/em&gt;.&lt;/li&gt;
+
+ &lt;li&gt;&lt;u&gt;Extrusion&lt;/u&gt;: The extrusion direction shall be vertically,
+i.e., along the positive Z Axis of the co-ordinate system of the
+ containing spatial structure element.&lt;/li&gt;
+
+&lt;/ul&gt;
+
+
+&lt;p&gt;Figure 127 shows an extrusion of an arbitrary profile definition with voids into the swept area solid of &lt;em&gt;IfcSpace&lt;/em&gt;.&lt;/p&gt;
+
+
+&lt;table cellpadding=&quot;2&quot; cellspacing=&quot;2&quot;&gt;
+
+ &lt;tr valign=&quot;top&quot;&gt;
+  &lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;
+   &lt;img src=
+&quot;../../../figures/ifcspace_standard-layout1.gif&quot; alt=&quot;fig1&quot; border=&quot;0&quot; 
+height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+&lt;tr&gt;
+  &lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 127 &amp;mdash; Space body swept solid&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid PolyCurve Geometry_0uSGpDZ$L1ke$Q23091w0k" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="4c537ab7-c544-4663-bc95-8c962404b405" RuleParameters="Identifier=Body;Type=SweptSolid;Geometry=IfcExtrudedAreaSolid;" Order="0">
+					<Documentation>Only extruded area solid shall be used for the swept solid representation.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="a18635bc-e7ab-4f06-9ea5-e92e6080b248" Suppress="true">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object User Identity_31di66dFr7$AJKdxDG2D1A" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="7af6ece2-a562-4aa1-b752-f302f5782145" Suppress="true">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Predefined Type_0b989XcDzD2fDaLbDNNAGX" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="5bdbdcb7-52d8-438f-87ad-d5ed26c9d0bd" Type="IfcSpace" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

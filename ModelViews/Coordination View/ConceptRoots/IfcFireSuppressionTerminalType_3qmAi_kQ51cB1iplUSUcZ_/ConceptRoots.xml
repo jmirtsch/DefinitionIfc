@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="f4c0ab3e-b9a1-4198-b06c-cef79c7a68fe">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcFireSuppressionTerminalType" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="3a528a04-3560-4aca-b9e5-ae13eb180c93" Type="IfcFireSuppressionTerminalType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

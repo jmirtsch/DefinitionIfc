@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0wj$UThAX1GPT34oGawq2g">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcRamp" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="3k5DcGJB58JxwP42y4UV83">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="efac3e09-b2d3-4bef-b287-55a6284d6532" RuleParameters="RelatingType=IfcRampType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="0AnQm$d8bChAnNr6pV_E5t">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="8c88b7fc-21dc-4e51-a6a5-cca25739733c" RuleParameters="PsetName=Pset_RampCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="921fe12c-3df2-46e1-b884-deebdc950d73">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="505bc5fb-1592-46c5-b2ae-af72c5964cc7" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="8c0c887b-a45c-4d9b-a687-eb2f5e2a94a1" RuleParameters="PropertyName=RequiredHeadroom;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="6b80c80a-bba8-4059-8c9c-629d3daa622f" RuleParameters="PropertyName=RequiredSlope;Value=IfcPlaneAngleMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="ebca5d49-e206-4418-93f1-e5f89e499139" RuleParameters="PropertyName=IsExternal;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="95a13e6b-b669-4c48-80ad-cde0fe5a854e" RuleParameters="PropertyName=FireRating;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="58afcd51-fdc6-4bcc-b5ec-580073b9017f" RuleParameters="PropertyName=FireExit;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="b59b5725-0be0-4674-802c-29f6d9bf6742" RuleParameters="PropertyName=HandicapAccessible;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="9ef44c0a-1b88-4cec-a04e-8c193864c858" RuleParameters="PropertyName=HasNonSkidSurface;Value=IfcBoolean;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="3e9ad474-a695-4a48-969b-b0ffbf77231a">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="5317eba3-ad53-4c5f-89cd-6ac55617792f" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="125775a8-1fb9-4ac7-9fb7-4b856bc987b6" RuleParameters="PsetName=Pset_ConcreteElementGeneral;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="05b5dfd4-9edd-4490-8eda-a16805173514">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="8bf7d848-5d6f-4888-8f70-d847a7095506" RuleParameters="PropertyName=ConstructionMethod;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="ee705879-9f58-4762-9753-1020ffe65e0c" RuleParameters="PropertyName=StructuralClass;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="4c5bf853-8ccd-4143-be9b-7a5c917f4091" RuleParameters="PropertyName=StrengthClass;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="f7a9eeef-12e2-4273-ae45-818106c9626d" RuleParameters="PropertyName=ExposureClass;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="e1248069-81b7-4dd9-91c6-8d4b96e5c3a3" RuleParameters="PropertyName=ReinforcementVolumeRatio;Value=IfcMassDensityMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="fe2bc928-d525-4ba1-a2c4-218d8e68334b" RuleParameters="PropertyName=ReinforcementAreaRatio;Value=IfcAreaDensityMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="3c25a15e-b4a0-43eb-91b5-8bb76f2ce7a8" RuleParameters="PropertyName=DimensionalAccuracyClass;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="54dcf23c-7958-4e38-9b7a-d9e55dcb72c1" RuleParameters="PropertyName=ConstructionToleranceClass;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="e38cd35c-c033-4f10-b495-7ba347cb41a8" RuleParameters="PropertyName=ConcreteCover;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="977cea78-92cf-473f-9abc-0636e08c9e96" RuleParameters="PropertyName=ConcreteCoverAtMainBars;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="614fcafd-7450-4f61-8ab6-80a3139f9ff8" RuleParameters="PropertyName=ConcreteCoverAtLinks;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="7c5b6317-1934-44ac-895c-324e9c20c9bd" RuleParameters="PropertyName=ReinforcementStrengthClass;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="014c8923-d47d-40bc-ae50-905133d89a0a" RuleParameters="PsetName=Pset_PrecastConcreteElementFabrication;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="2299b1e4-9cf6-4a8d-b36e-cd246eb19a95">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="dc104c5e-d7b6-4d28-a869-74b77ed63248" RuleParameters="PropertyName=TypeDesignator;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="4e5a31fa-554b-403d-8fe5-9f117ca373e3" RuleParameters="PropertyName=ProductionLotId;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="dded1c6f-3bd6-41c0-9a83-8dd712cc48f2" RuleParameters="PropertyName=SerialNumber;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="a87cc5d9-6744-4fc6-a830-c237d16dea22" RuleParameters="PropertyName=PieceMark;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="73aefc4b-b584-456f-9823-d97fe92c4d7b" RuleParameters="PropertyName=AsBuiltLocationNumber;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="3ed54e31-5043-4f4a-beb7-e73f8213b33d" RuleParameters="PropertyName=ActualProductionDate;Value=IfcDateTime;" Order="0" />
+								<DocTemplateItem UniqueId="58881694-d00b-4278-9ec6-7b8b01bf9978" RuleParameters="PropertyName=ActualErectionDate;Value=IfcDateTime;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="d030cc91-a24d-4f35-97e9-1a78acda3d7b" RuleParameters="PsetName=Pset_PrecastConcreteElementGeneral;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="96637bbb-0b49-4aef-8eb4-bbd185e25dfd">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="ca6fdf20-8ebf-4b2c-8eb6-9486a53bdd48" RuleParameters="PropertyName=TypeDesignator;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="607cc4b4-51bf-47d5-bca1-6de6a7de9d57" RuleParameters="PropertyName=CornerChamfer;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="bc29a7be-3de5-495a-bb96-c69a09b10049" RuleParameters="PropertyName=ManufacturingToleranceClass;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="0abc1bf6-bdef-47a2-9f20-89b6fb085e5b" RuleParameters="PropertyName=FormStrippingStrength;Value=IfcPressureMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="8b1f3989-3689-4835-8df6-57f83402567a" RuleParameters="PropertyName=LiftingStrength;Value=IfcPressureMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="4c700e55-3f9a-4de7-90d6-9e02d23c46bd" RuleParameters="PropertyName=ReleaseStrength;Value=IfcPressureMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="21a2febf-038d-492c-a5af-f9710259d7c8" RuleParameters="PropertyName=MinimumAllowableSupportLength;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="c36fd25d-5aa7-4411-a80d-93489f07eccb" RuleParameters="PropertyName=InitialTension;Value=IfcPressureMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="d9f6c7b9-6704-4887-983f-e3addfafd06d" RuleParameters="PropertyName=TendonRelaxation;Value=IfcPositiveRatioMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="2ad2b93a-8c54-4f73-b082-2896bd0dce81" RuleParameters="PropertyName=TransportationStrength;Value=IfcPressureMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="c9e909f6-f7ed-44b3-a297-35deb5c94814" RuleParameters="PropertyName=SupportDuringTransportDescription;Value=IfcText;" Order="0" />
+								<DocTemplateItem UniqueId="b2ae5c3a-9f01-4f59-9136-493a47ca6825" RuleParameters="PropertyName=HollowCorePlugging;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="1eac307b-78ed-4a54-82c6-6529707a4241" RuleParameters="PropertyName=CamberAtMidspan;Value=IfcRatioMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="153454d3-4375-4e66-a4e7-dd90cd16aea8" RuleParameters="PropertyName=BatterAtStart;Value=IfcPlaneAngleMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="031d6cab-4434-45de-98f7-788c94f3025f" RuleParameters="PropertyName=BatterAtEnd;Value=IfcPlaneAngleMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="47e7c7b0-232f-4fe5-ab3c-a3d93995e6ad" RuleParameters="PropertyName=Twisting;Value=IfcPlaneAngleMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="cba4c938-fe09-45b2-8d9b-9d139316514e" RuleParameters="PropertyName=Shortening;Value=IfcRatioMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="25973b42-ddc1-4088-8f31-49a52b79e553" RuleParameters="PropertyName=PieceMark;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="bf249d31-5199-4d2e-bd05-998966e5dbf8" RuleParameters="PropertyName=DesignLocationNumber;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material Solid" UniqueId="13TkDmq6b6SOZn2vjGOp06">
+			<Documentation>&lt;p&gt;The material of the &lt;em&gt;IfcRamp&lt;/em&gt; is defined by the
+&lt;em&gt;IfcMaterial&lt;/em&gt; and attached by the
+&lt;em&gt;IfcRelAssociatesMaterial&lt;/em&gt;&lt;em&gt;.RelatingMaterial&lt;/em&gt;. It is
+accessible by the inverse &lt;em&gt;HasAssociations&lt;/em&gt;
+relationship.&lt;/p&gt;
+&lt;p&gt;Material information can also be given at the
+&lt;em&gt;IfcRampType&lt;/em&gt;, defining the common attribute data for all
+occurrences of the same type. It is then accessible by the
+inverse &lt;em&gt;IsDefinedBy&lt;/em&gt; relationship pointing to
+&lt;em&gt;IfcRampType.HasAssociations&lt;/em&gt; and via
+&lt;em&gt;IfcRelAssociatesMaterial.RelatingMaterial&lt;/em&gt; to
+&lt;em&gt;IfcMaterial&lt;/em&gt;. If both are given, then the material directly
+assigned to &lt;em&gt;IfcRamp&lt;/em&gt; overrides the material assigned to
+&lt;em&gt;IfcRampType&lt;/em&gt;.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Single_1VEQWKHA1Fiut6tQe5OFnK" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Spatial Containment" UniqueId="58522b23-5a15-448d-88a0-3f19cae6c523">
+			<Documentation>&lt;p&gt;The &lt;em&gt;IfcRamp&lt;/em&gt;, as any subtype of &lt;em&gt;IfcBuildingElement&lt;/em&gt;, 
+may participate alternatively in one of the two different containment relationships:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the &lt;em&gt;Spatial Containment&lt;/em&gt; (defined here), or&lt;/li&gt;
+&lt;li&gt;the &lt;em&gt;Element Composition&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Spatial Containment_3Pe$WY01HBmesKdP1dTP15" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="1f4a6345-68a5-40ed-bed4-201dac364104" RuleParameters="RelatingStructure=IfcBuildingStorey;" Order="0">
+					<Documentation>Default spatial container</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="a296f24e-f463-4437-8ad8-e36ed98cbf61" RuleParameters="RelatingStructure=IfcBuilding;" Order="0">
+					<Documentation>Spatial container for the element if it cannot be assigned to a building storey</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="287c0c1b-4250-490c-800d-d23ba65c28b5" RuleParameters="RelatingStructure=IfcSite;" Order="0">
+					<Documentation>Spatial container for the element in case that it is placed on site (outside of building)</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Element Decomposition" UniqueId="ee36e3ca-d11a-4ba0-bbca-8c4e22d7ec82">
+			<Documentation>&lt;p&gt;If the &lt;em&gt;IfcRamp&lt;/em&gt; has components (referenced by 
+&lt;em&gt;SELF\IfcProduct.IsDecomposedBy&lt;/em&gt;) then no independent &apos;Body&apos; 
+geometric representation shall be defined for the &lt;em&gt;IfcRamp&lt;/em&gt;. 
+The &lt;em&gt;IfcRamp&lt;/em&gt; is then geometrically represented by the
+ geometric representation of its components.&lt;/p&gt;
+
+
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;table&gt;
+ 
+&lt;tr&gt;
+  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcramp-layout1.gif&quot; alt=&quot;ramp&quot; width=&quot;393&quot; height=&quot;299&quot;
+border=&quot;0&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 230 illustrates &lt;em&gt;IfcRamp&lt;/em&gt; defining the local placement for all components.&lt;/blockquote&gt;
+ &lt;/tr&gt;
+ 
+&lt;tr&gt;
+  &lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 230 &amp;mdash; Ramp placement&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+ &lt;/tr&gt;
+
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Element Decomposition_2A9y5QnEfCgOpEVxkXoRpW" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="123ddb61-716f-42c8-9313-ca0abcfb75fd" RuleParameters="RelatedObjects=IfcRampFlight;" Order="0">
+					<Documentation>Ramps may be decomposed into ramp flights.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="77ddc95c-2890-4f77-8457-2528e9d60f57" RuleParameters="RelatedObjects=IfcSlab;" Order="0">
+					<Documentation>Ramps may be decomposed into ramp landing, represented by IfcSlab.PredefinedType=LANDING</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="4e297bc4-2c24-41b5-83fe-fecc3dacad6b" RuleParameters="RelatedObjects=IfcRailing;" Order="0">
+					<Documentation>Ramps may be decomposed into railings.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Placement" UniqueId="10qEaxQn508hB28zjB$02j">
+			<Documentation>&lt;p&gt;The following restriction may be imposed by view definitions or implementer agreements:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;If the &lt;em&gt;IfcRamp&lt;/em&gt; establishes an aggregate, then
+all contained elements shall be placed relative to the
+&lt;em&gt;IfcRamp.ObjectPlacement&lt;/em&gt;.&lt;/li&gt;&lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Axis 2D Geometry" UniqueId="72ed3085-7599-49df-ade7-cb88ecddee12">
+			<Documentation>&lt;p&gt;The walking line is represented by a two-dimensional open curve 
+as the axis. The curve is directed into the upward direction 
+(direction has to be interpreted as specified at the subtypes of
+&lt;em&gt;IfcCurve&lt;/em&gt;). 
+
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The &apos;Axis&apos; representation of &lt;em&gt;IfcRamp&lt;/em&gt; 
+may be provided even if the &lt;em&gt;IfcRamp&lt;/em&gt; has components with own
+ shape representations.&lt;/blockquote&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Axis 2D Geometry_1u94Jere57Mf0qgUVrF6rb" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body SweptSolid Geometry" UniqueId="1fc4205c-109d-48bb-8b95-a84efb507d18">
+			<Documentation>&lt;p&gt;If the &lt;em&gt;IfcRamp&lt;/em&gt; has no components defined (empty set of
+&lt;em&gt;SELF\IfcProduct.IsDecomposedBy&lt;/em&gt;) then the &lt;em&gt;IfcRamp&lt;/em&gt; &apos;Body&apos; geometry 
+may be represented by an own &lt;em&gt;IfcShapeRepresentation&lt;/em&gt;.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body Clipping Geometry" UniqueId="12255273-4300-44bf-8d4f-7f9e2dafdec2">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body Clipping Geometry_0isyBrcmn3wfqgdNBG57u0" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="7911bc68-eb5b-41ec-9527-72600d2b9aa5" Type="IfcRamp" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

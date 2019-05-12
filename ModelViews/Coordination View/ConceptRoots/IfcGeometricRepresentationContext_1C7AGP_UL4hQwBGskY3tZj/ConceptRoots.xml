@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="4c1ca419-f9e5-44ad-ae8b-436ba20f78ed">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcGeometricRepresentationContext" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="b5af5de5-c8fe-4637-91a2-a750a95d06a9" Type="IfcGeometricRepresentationContext" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

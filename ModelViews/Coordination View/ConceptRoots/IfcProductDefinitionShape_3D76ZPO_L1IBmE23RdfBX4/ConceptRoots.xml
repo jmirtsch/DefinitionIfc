@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="cd1c68d9-63e5-4148-bc0e-0836e7a4b844">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcProductDefinitionShape" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="9a84f084-65d5-49ec-ae99-e82c098d3252" Type="IfcProductDefinitionShape" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

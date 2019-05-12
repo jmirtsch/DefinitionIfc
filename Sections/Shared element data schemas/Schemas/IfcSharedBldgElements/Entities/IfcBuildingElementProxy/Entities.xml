@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcBuildingElementProxy" Name="IfcBuildingElementProxy" UniqueId="3e4aa4b8-2c66-482c-8c4a-6913d68fc480" DiagramNumber="2" BaseDefinition="IfcBuildingElement" EntityFlags="109">
+	<Localization>
+		<DocLocalization Name="Bauteil / Bauelement - beliebig" Locale="de" />
+		<DocLocalization Name="Building Element Proxy" Locale="en" />
+		<DocLocalization Name="Elément de construction non défini" Locale="fr" />
+	</Localization>
+	<DiagramRectangle>
+		<DocRectangle X="1865.3516" Y="2173.3927" Width="314" Height="100" />
+	</DiagramRectangle>
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="49d8264c-da80-476c-97cc-c93b33d98240" DefinedType="IfcBuildingElementProxyTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Predefined generic type for a building element proxy that is specified in an enumeration. There may be a property set given specificly for the predefined types.
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The &lt;em&gt;PredefinedType&lt;/em&gt; shall only be used, if no &lt;em&gt;IfcBuildingElementProxyType&lt;/em&gt; is assigned, providing its own &lt;em&gt;IfcBuildingElementProxyType.PredefinedType&lt;/em&gt;.&lt;/blockquote&gt;
+&lt;blockquote class=&quot;change-ifc2x4&quot;&gt;IFC4 CHANGE&amp;nbsp; The attribute &lt;em&gt;CompositionType&lt;/em&gt; has been replaced by &lt;em&gt;PredefinedType&lt;/em&gt;, being a superset of the enumerators.&lt;/blockquote&gt;</Documentation>
+			<DiagramLine>
+				<DocPoint X="2179.3516" Y="2223.3927" />
+				<DocPoint X="2501.41826" Y="2223.3927" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="2179.3516" Y="2223.3927" Width="182" Height="35" />
+			</DiagramLabel>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="HasObjectName" UniqueId="afae1e78-f4fb-4065-9336-a6c327328d17">
+			<Documentation>A Name attribute should be asserted for a building element proxy.</Documentation>
+			<Expression>EXISTS(SELF\IfcRoot.Name)</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="CorrectPredefinedType" UniqueId="56c5e2f3-1077-4972-afb8-5e4fd7a76ba7">
+			<Documentation>Either the &lt;em&gt;PredefinedType&lt;/em&gt; attribute is unset (e.g. because an &lt;em&gt;IfcBuildingElementProxyType&lt;/em&gt; is associated), or the inherited attribute &lt;em&gt;ObjectType&lt;/em&gt; shall be provided, if the &lt;em&gt;PredefinedType&lt;/em&gt; is set to USERDEFINED.</Documentation>
+			<Expression>NOT(EXISTS(PredefinedType)) OR
+ (PredefinedType &lt;&gt; IfcBuildingElementProxyTypeEnum.USERDEFINED) OR
+ ((PredefinedType = IfcBuildingElementProxyTypeEnum.USERDEFINED) AND EXISTS (SELF\IfcObject.ObjectType))</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="CorrectTypeAssigned" UniqueId="8041a5cf-3efd-4762-a77d-12c1c6fd7f2e">
+			<Documentation>Either there is no building element proxy type object associated, i.e. the &lt;em&gt;IsTypedBy&lt;/em&gt; inverse relationship is not provided, or the associated type object has to be of type &lt;em&gt;IfcBuildingElementProxyType&lt;/em&gt;.</Documentation>
+			<Expression>(SIZEOF(IsTypedBy) = 0) OR
+  (&apos;IFCSHAREDBLDGELEMENTS.IFCBUILDINGELEMENTPROXYTYPE&apos; IN TYPEOF(SELF\IfcObject.IsTypedBy[1].RelatingType))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

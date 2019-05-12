@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2muZyfvxn0ABryF_T_1Umd">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcAsset" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage UniqueId="1L7MfvDG13JgVOzuS8AdN$">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="b3108636-9123-4b66-ac77-81cb1038be1d" RuleParameters="PsetName=Pset_Asset;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="bc8d1e23-51f3-4bdd-a4b5-efb86e323cbb">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="a6ddfd5e-fe62-4525-aeff-3ff41baea1fb" RuleParameters="PropertyName=AssetAccountingType;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="8c95b759-9a46-40ad-a398-b6a9643710f5" RuleParameters="PropertyName=AssetTaxType;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="fef47116-0344-4a96-9a1b-34564452685d" RuleParameters="PropertyName=AssetInsuranceType;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Classification" UniqueId="13_BZOOAj6OwH4059NWBLM">
+			<Documentation>&lt;p&gt;The operating function of an asset within an organization may be particularly valuable in situations where one organization provides and maintains core services and another organization adds and maintains terminal services. It can classify who owns and is responsible for the asset. Operating function can be designated through the use of one or more classification references.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Classification Association_1A8aO9PNXCTQ$FYl_eRbxo" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Group Assignment" UniqueId="3tWE4q4ArCjeXE4bybxLwT">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Group Assignment_3rPvP$L9D4sQnHatm9h2M3" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="60a76303-f536-44ec-a33c-d3b0d14f2141" RuleParameters="Type=IfcElement;" Order="0">
+					<Documentation>Physical elements that comprise the asset.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="8a0e990d-3faa-490d-b3a4-2223f3489c77" Type="IfcAsset" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

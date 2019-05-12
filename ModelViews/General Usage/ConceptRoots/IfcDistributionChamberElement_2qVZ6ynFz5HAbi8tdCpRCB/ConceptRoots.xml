@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2qVZ6ynFz5HAbi8tdCpRCB">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcDistributionChamberElement" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="03oqUo6Nr1dQV47MD1hY6q">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="1720286c-52ac-4e50-94b4-4feca1ce8553" RuleParameters="RelatingType=IfcDistributionChamberElementType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="08fC9jMxzCOwvzstU_3Tzk">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="df235a89-79b6-4c88-aea2-145d1dd88862" RuleParameters="PsetName=Pset_DistributionChamberElementCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="181273de-37c5-4d50-a191-48661bd622ca">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="20266f81-ede6-4d71-8559-a7df2edd9290" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="ddfaca31-b233-412c-8a00-33729f8500b5">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="2a0fe7e5-ea66-40e1-8391-44f5ea0bc4f4" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="3TaOMc6H53XBMozwyavXBA">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="c0b0e32f-8795-49ce-9a88-3b69380da394" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_DistributionChamberElementBaseQuantities;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material Constituents" UniqueId="1luLmNWxr3QwOPrhkWu8i8">
+			<Documentation>&lt;p&gt;The material of the &lt;b&gt;IfcDistributionChamberElement&lt;/b&gt; is defined by &lt;a href=&quot;../../ifcmaterialresource/lexical/ifcmaterialconstituentset.htm&quot;&gt;IfcMaterialConstituentSet&lt;/a&gt; or as a fallback by &lt;a href=&quot;../../ifcmaterialresource/lexical/ifcmaterial.htm&quot;&gt;IfcMaterial&lt;/a&gt;, and attached by the &lt;em&gt;RelatingMaterial&lt;/em&gt; attribute on the &lt;a href=&quot;../../ifcproductextension/lexical/ifcrelassociatesmaterial.htm&quot;&gt;IfcRelAssociatesMaterial&lt;/a&gt; relationship.  It is accessible by the &lt;em&gt;HasAssociations&lt;/em&gt; inverse attribute.  Material information can also be given at the &lt;a href=&quot;../../ifcsharedbldgserviceelements/lexical/ifcdistributionchamberelementtype.htm&quot;&gt;IfcDistributionChamberElementType&lt;/a&gt;, defining the common attribute data for all occurrences of the same type.  The following keywords for &lt;em&gt;IfcMaterialConstituentSet.MaterialConstituents[n].Name&lt;/em&gt; shall be used:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;&apos;Base&apos;&lt;/b&gt;: The material from which the base of the duct is constructed.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;&apos;Cover&apos;&lt;/b&gt;: The material from which the access cover to the chamber is constructed.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;&apos;Fill&apos;&lt;/b&gt;: The material that is used to fill the duct (where used).&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;&apos;Wall&apos;&lt;/b&gt;: The material from which the wall of the duct is constructed.&lt;/li&gt;
+&lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="4a350fdf-d81a-446f-87b0-25587a62a1bd" RuleParameters="Name=Base;" Order="0">
+					<Documentation>The material from which the base of the duct is constructed.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="af7c1234-344a-4764-92ea-3af2356ad24d" RuleParameters="Name=Cover;" Order="0">
+					<Documentation>The material from which the access cover to the chamber is constructed.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="9292c90c-badc-4809-a366-13e19308ddd6" RuleParameters="Name=Fill;" Order="0">
+					<Documentation>The material that is  used to fill the duct (where used).</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="05f41357-bcaf-4539-adfa-37dd3c16f0c4" RuleParameters="Name=Wall;" Order="0">
+					<Documentation>The material from which the wall of the duct is constructed.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="5d9ffe96-822a-4284-a1cc-969e580ee5b7" Type="IfcDistributionChamberElement" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

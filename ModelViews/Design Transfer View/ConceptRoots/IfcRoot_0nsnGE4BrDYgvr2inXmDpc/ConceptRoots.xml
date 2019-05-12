@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0nsnGE4BrDYgvr2inXmDpc">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcRoot" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Revision Control" UniqueId="293JAprsXCOQrTkj_4ov63">
+			<Documentation>&lt;p&gt;Ownership, history, and merge state is captured using &lt;i&gt;IfcOwnerHistory&lt;/i&gt;.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Revision Control_2qGSTpFzn2jgCZhIQDpONo" />
+			</Definition>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="dde52bb0-d531-42ce-8327-8edf69357da7" Type="IfcRoot" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="193a7668-738f-4b26-b718-6fe7c3e6a758">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcAirTerminalBoxType" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="05e3879f-b392-4b59-97ea-13a5c0b7b3e8" Type="IfcAirTerminalBoxType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="908b7b85-2693-45ba-a38f-30582d751716">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcTubeBundle" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="649bb373-3d53-46b5-b34d-4a0a1ea7a469">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="d35eefd1-efd0-4fe4-bf61-773a2a9f842a" RuleParameters="RelatingType=IfcTubeBundleType;" Order="0" />
+			</Items>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="4f4a67be-7125-4e9c-98d6-02f02aceda38">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="05d89b2a-45a1-44bb-bb77-345837abdaac" RuleParameters="PsetName=Pset_TubeBundleTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="2ce81ebb-39c2-46a9-85b4-e93da3fa0099">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="c4deb8be-ad44-44a8-94cd-ed2dc13d969a" RuleParameters="Order=1;PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="bc6af7d9-4079-4fab-995f-e3e108eeb1b4" RuleParameters="Order=3;PropertyName=NumberOfRows;Value=IfcInteger;" Order="0" />
+								<DocTemplateItem UniqueId="36ba8d85-cf43-4062-8564-bc26107e5e50" RuleParameters="Order=4;PropertyName=StaggeredRowSpacing;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="bb8c8fc6-9063-4d10-8dd7-b0b86fb0b18e" RuleParameters="Order=5;PropertyName=InLineRowSpacing;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="03aa9445-8a49-4dd1-b9c7-3254ae863dd7" RuleParameters="Order=6;PropertyName=NumberOfCircuits;Value=IfcInteger;" Order="0" />
+								<DocTemplateItem UniqueId="fdac1a0f-a001-427c-a9a3-a8e595957333" RuleParameters="Order=7;PropertyName=FoulingFactor;Value=IfcThermalResistanceMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="60d71b7f-80c2-47b3-96df-0b13cf023f53" RuleParameters="Order=8;PropertyName=ThermalConductivity;Value=IfcThermalConductivityMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="7cc55654-4a40-4aa5-b405-69cf72fbd079" RuleParameters="Order=9;PropertyName=Length;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="cd99e747-d55b-4fcc-8139-abddfefbabe3" RuleParameters="Order=10;PropertyName=Volume;Value=IfcVolumeMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="261ec4b2-b9ca-4c1c-bee7-59e84f3f59ee" RuleParameters="Order=11;PropertyName=NominalDiameter;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="32755832-063b-4ff8-ba4f-2aa9b9898dbe" RuleParameters="Order=12;PropertyName=OutsideDiameter;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="e003419b-87ea-4608-9f7e-7ed8947b0f6c" RuleParameters="Order=13;PropertyName=InsideDiameter;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="e6e775ed-75d9-4744-b0ed-4e0dca973ea1" RuleParameters="Order=14;PropertyName=HorizontalSpacing;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="6b5a55b6-8a53-4b78-8979-f011412da277" RuleParameters="Order=15;PropertyName=VerticalSpacing;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="0dc3fbe7-efe3-43c0-9c20-86ec4d303720" RuleParameters="Order=16;PropertyName=HasTurbulator;Value=IfcBoolean;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="bd2c8835-9057-4000-bb68-7533e29fe10f">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="363fbd0e-73b9-45f2-906a-bb59a55392a3" RuleParameters="Order=2;PropertyName=Status;Value=IfcLabel;Reference=PEnum_ElementStatus;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="06d8b726-edd1-4f95-8196-48d6853ff095">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="64306bf1-b8f1-4b16-b76e-53f09eb65020" RuleParameters="QsetName=Qto_TubeBundleBaseQuantities;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Quantities" UniqueId="2dd4682b-b82a-4b34-a59a-902eed30601a">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Weight Quantity_3X0MvMF8bFGfPv1_7RF0hx" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="cef75f6a-e88d-4044-98e6-bcc167ebb473" RuleParameters="Order=1;QuantityName=GrossWeight;" Order="0" />
+								<DocTemplateItem UniqueId="d492f6ab-a3a3-46e9-bc28-00108f4b8fd0" RuleParameters="Order=2;QuantityName=NetWeight;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="2b3b16d9-c771-4563-b9fe-dd5dd337f2a4" Type="IfcTubeBundle" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

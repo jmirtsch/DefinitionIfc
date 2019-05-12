@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="5cf4d0a2-d1eb-4291-b7eb-ae1efa94b5f1">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcPlane" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="e527433e-52a0-43d8-a328-fb35fa55afae" Type="IfcPlane" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

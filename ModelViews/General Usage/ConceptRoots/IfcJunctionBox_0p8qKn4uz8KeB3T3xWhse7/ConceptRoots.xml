@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0p8qKn4uz8KeB3T3xWhse7">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcJunctionBox" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="2VuCsnkyb8M8n0FGpss1bR">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="988cf383-e190-4a58-9d04-df72cebf24a5" RuleParameters="RelatingType=IfcJunctionBoxType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="0IOQZEgP9B4wmCw5y5HE_B">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="146261d5-1bdb-4e03-99a4-5c8a57e84a78" RuleParameters="PsetName=Pset_JunctionBoxTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="5c12be0e-5598-4ec4-a643-25fd296f06cf">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="df0e182d-f0af-490e-b39f-de5ec5c622cc" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="debbf37d-bb23-4ca2-8d4c-b80d2d4cdb3b" RuleParameters="PropertyName=NumberOfGangs;Value=IfcInteger;" Order="0" />
+								<DocTemplateItem UniqueId="10b4bf38-63ad-4a77-b223-0692d7d19395" RuleParameters="PropertyName=ClearDepth;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="ddb3dd98-a26d-4de8-a3a0-c67009bfbe64" RuleParameters="PropertyName=IsExternal;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="7e678bc4-1634-49c7-a8be-051c93a034da" RuleParameters="PropertyName=IP_Code;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="46de46d7-fc3e-45be-bd0a-fb3cd2cbe2cf">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="b51be044-bdb8-4a45-a897-5865d50eeb81" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="f5726c90-8384-4664-bf70-c95309f75b48" RuleParameters="PropertyName=ShapeType;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="1d298fb3-eed9-49f7-94da-2e23218b9627" RuleParameters="PropertyName=PlacingType;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="f4a86b79-f4c0-470b-8a2d-3206b88f2159" RuleParameters="PropertyName=MountingType;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="3hmIc2_arENO1i0SaBctj8">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="99af2a0f-1d5b-4f46-95f1-e4f27bda9c60" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_JunctionBoxBaseQuantities;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material" UniqueId="3Mmku8wg95A9V9_pIaAtQH">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="84244110-f659-4f43-a42e-f80587ca8eee" RuleParameters="Name=Casing;" Order="0">
+					<Documentation>Material from which the casing is constructed.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Element Connectivity" UniqueId="3ce18h629C9h75Qyw0Rt5A">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Element Connectivity_0Nv2C1Ibb9HROhB6JsocmI" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="2d15c728-17ed-45a8-ae81-c7f626f6235b" RuleParameters="Type=IfcDiscreteAccessory;" Order="0">
+					<Documentation>Indicates a cover plate for the junction box, having ObjectType &apos;JunctionBoxCoverPlate&apos;.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Filling" UniqueId="0_zMVT3vv7c84dCjjS1uXw">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Element Filling_06PqYJUYn9Euwrw5e5XmUp" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="f9ffeb58-7aa8-4b7b-8a51-cd28796e2f6c" RuleParameters="Type=IfcCovering;" Order="0">
+					<Documentation>Covering such as drywall applied to a wall or ceiling, for which the junction box fills.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Element Nesting" UniqueId="80279657-50f8-4938-9946-9e7b20ffc37b">
+			<Documentation>&lt;blockquote class=&quot;change-ifc4&quot;&gt;IFC4 ADD1 CHANGE&amp;nbsp; Junction boxes no longer have ports defined, but rely on element nesting for indicating containment of electrical devices.&lt;/blockquote&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Element Nesting_3xyZPOf2b4W9j1Ne1PH7WR" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="8a37a89e-60ea-49a4-878c-331626c9e3cb" RuleParameters="Type=IfcDistributionFlowElement;" Order="0">
+					<Documentation>A switch, outlet, light fixture, or other component that may fit within one of the gangs of the junction box. Property sets may further define compatible objects based on form factor, voltage, and current.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="57422b1f-421d-4e22-a2c8-5676cbc2c9d3" Type="IfcJunctionBox" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

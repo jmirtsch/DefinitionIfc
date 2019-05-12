@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="33d7cc59-98b6-425a-82ba-ce4e0aebf084">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcRectangleHollowProfileDef" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="333545c1-b11c-489e-8f57-33fde2ff29c8" Type="IfcRectangleHollowProfileDef" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

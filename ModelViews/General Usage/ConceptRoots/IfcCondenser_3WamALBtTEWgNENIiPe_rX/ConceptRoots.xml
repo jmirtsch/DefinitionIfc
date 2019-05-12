@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3WamALBtTEWgNENIiPe_rX">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcCondenser" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="3okJLaToD1KxV$eSYSmYVA">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="0230fe14-b9c7-4b19-b7c8-3351d190268c" RuleParameters="RelatingType=IfcCondenserType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="2SZq5qQhfA_9aEBskilGcj">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="609d5754-9f63-4e8e-9259-8f50b41aff0a" RuleParameters="PsetName=Pset_CondenserTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="92db6189-b31f-401e-9e4b-50638b7cbddd">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="d0afc486-6044-4de8-950c-e5634438e2b2" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="45dc7f59-d02f-4305-8fee-9fb6b057632e" RuleParameters="PropertyName=ExternalSurfaceArea;Value=IfcAreaMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="78e7cf08-c7bd-4c59-9a8f-1970698d3389" RuleParameters="PropertyName=InternalSurfaceArea;Value=IfcAreaMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="d87b4b03-99f6-4575-ac91-4c18a6379754" RuleParameters="PropertyName=InternalRefrigerantVolume;Value=IfcVolumeMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="b7cc05a8-8bc0-4e5b-9955-83721b4df952" RuleParameters="PropertyName=InternalWaterVolume;Value=IfcVolumeMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="a8319968-f39b-4728-91a6-4d7234726750" RuleParameters="PropertyName=NominalHeatTransferArea;Value=IfcAreaMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="70c37b74-6203-486b-973a-3cab71869614" RuleParameters="PropertyName=NominalHeatTransferCoefficient;Value=IfcThermalTransmittanceMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="a4000e35-9bd3-4dca-9684-dadd28c3e828">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="eb07cf32-5552-4066-941f-7c9d68c70858" RuleParameters="PropertyName=RefrigerantClass;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="0$6UJ_q7PCuf0S0l9SCQxM">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="6f288b8a-12d3-47ad-8eee-67720d72a66c" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_CondenserBaseQuantities;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material" UniqueId="2fxfarJhjA785OhPY5_Ka$">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="c11938a3-b262-4290-b3a1-d374b78fba13" RuleParameters="Name=Casing;" Order="0">
+					<Documentation>Material from which the casing is constructed.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="639cd09f-fcfe-4ccb-81dd-c03c5f9473cb" RuleParameters="Name=Refrigerant;" Order="0">
+					<Documentation>Refrigerant material.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Port" UniqueId="0LnADaRwT7keQMzioRA5K7">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="8d6acbee-8389-4551-b4a1-e7ad74d95fea" RuleParameters="PredefinedType=AIRCOOLED;PortName=RefrigerantIn;SystemType=REFRIGERATION;Flow=SINK;" Order="0">
+					<Documentation>Vapor refrigerant entering the condenser.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="6586a1ef-2715-4c6d-8880-f2839598b17f" RuleParameters="PredefinedType=AIRCOOLED;PortName=RefrigerantOut;SystemType=REFRIGERATION;Flow=SOURCE;" Order="0">
+					<Documentation>Liquid refrigerant leaving the condenser.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="09bf9eda-89a9-4b1d-bf7a-a6ecd7abd91e" RuleParameters="PredefinedType=AIRCOOLED;PortName=CompressedAirIn;SystemType=COMPRESSEDAIR;Flow=SINK;" Order="0">
+					<Documentation>Cooler air entering the condenser.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="aac525cf-866b-40b7-a34c-101034c5ee9d" RuleParameters="PredefinedType=AIRCOOLED;PortName=CompressedAirOut;SystemType=COMPRESSEDAIR;Flow=SOURCE;" Order="0">
+					<Documentation>Warmer air leaving the condenser.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="f1393a2b-8f2d-4606-9aca-9f9239e8e3fd" RuleParameters="PredefinedType=EVAPORATIVECOOLED;PortName=RefrigerantIn;SystemType=REFRIGERATION;Flow=SINK;" Order="0">
+					<Documentation>Vapor refrigerant entering the condenser.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="826142a5-ee8d-40e3-85bf-add486bcf22b" RuleParameters="PredefinedType=EVAPORATIVECOOLED;PortName=RefrigerantOut;SystemType=REFRIGERATION;Flow=SOURCE;" Order="0">
+					<Documentation>Liquid refrigerant leaving the condenser.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="1534c4aa-5f1b-4077-ae3c-8fbfb33e3c5d" RuleParameters="PredefinedType=EVAPORATIVECOOLED;PortName=CondenserWaterIn;SystemType=CONDENSERWATER;Flow=SINK;" Order="0">
+					<Documentation>Makeup water entering the condenser.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="1c9696be-0676-4912-80da-95b20a805449" RuleParameters="PredefinedType=EVAPORATIVECOOLED;PortName=CondenserWaterOut;SystemType=CONDENSERWATER;Flow=SOURCE;" Order="0">
+					<Documentation>Purged water leaving the condenser.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="8387fbe6-462b-4222-bbfc-598df28df574" RuleParameters="PredefinedType=EVAPORATIVECOOLED;PortName=VentilationIn;SystemType=VENTILATION;Flow=SINK;" Order="0">
+					<Documentation>Air entering the condenser.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="4a598eb7-557f-4b52-bac3-c44f1e52cb58" RuleParameters="PredefinedType=EVAPORATIVECOOLED;PortName=VentilationOut;SystemType=VENTILATION;Flow=SOURCE;" Order="0">
+					<Documentation>Air leaving the condenser.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="8c8fcfbb-8c01-4e7f-8dd0-e9d1100fd36d" RuleParameters="PredefinedType=WATERCOOLED;PortName=RefrigerantIn;SystemType=REFRIGERATION;Flow=SINK;" Order="0">
+					<Documentation>Vapor refrigerant entering the condenser.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="5e5cae23-109e-47ca-8659-33fb1b0351f9" RuleParameters="PredefinedType=WATERCOOLED;PortName=RefrigerantOut;SystemType=REFRIGERATION;Flow=SOURCE;" Order="0">
+					<Documentation>Liquid refrigerant leaving the condenser.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="55db4119-52ff-423e-8d6c-9fc572cacee3" RuleParameters="PredefinedType=WATERCOOLED;PortName=CondenserWaterIn;SystemType=CONDENSERWATER;Flow=SINK;" Order="0">
+					<Documentation>Cooler water entering the condenser, optionally from cooling tower.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="117988da-cd1a-4373-92f6-096f7611cc3d" RuleParameters="PredefinedType=WATERCOOLED;PortName=CondenserWaterOut;SystemType=CONDENSERWATER;Flow=SOURCE;" Order="0">
+					<Documentation>Warmer water leaving the condenser, optionally to cooling tower.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="edc3c3d4-6ae8-4b46-ad77-d1da32c10647" Type="IfcCondenser" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

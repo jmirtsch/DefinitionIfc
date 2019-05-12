@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="6ada544b-3f82-49df-bd7c-a3f1adfdcffc">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcConnectionCurveGeometry" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="316efa36-e60f-4ee4-ac0c-d8846c935aa4" Type="IfcConnectionCurveGeometry" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="48530f0f-7c56-46c2-8314-ea5eb73c73d5">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcGridAxis" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="6100ffed-d368-49af-b180-46b36d01ae56" Type="IfcGridAxis" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

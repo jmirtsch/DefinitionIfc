@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0w_VU6KtPCxv7c10dafCaF">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcConstructionResource" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Document" UniqueId="3b0XYWEVn9Xv2$NQZ0g40d">
+			<Documentation>&lt;p&gt;Documents may be published for work plans consisting of schedules, calendars, tasks, and resources. The relationship &lt;em&gt;IfcRelAssociatesDocument&lt;/em&gt; may be used to preserve mappings to such document where &lt;em&gt;RelatingDocument&lt;/em&gt; points to an &lt;em&gt;IfcDocumentReference&lt;/em&gt; and &lt;em&gt;RelatedObjects&lt;/em&gt; includes the &lt;em&gt;IfcConstructionResource&lt;/em&gt; as shown in Figure 184.
+&lt;em&gt;IfcDocumentReference.ItemReference&lt;/em&gt; identifies the resource within the scope of the document, such as an integer or guid. The &lt;em&gt;IfcDocumentReference.ReferencedDocument&lt;/em&gt; corresponds to the document which is uniquely identified by &lt;em&gt;IfcDocumentInformation.DocumentId&lt;/em&gt; and/or &lt;em&gt;IfcDocumentInformation.PublicationLocation&lt;/em&gt;. Such document mapping allows items in the document to be updated from the building information model and vice-versa.&lt;/p&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt=&quot;Document Use Definition&quot; src=&quot;../../../figures/ifcconstructionresource-document.png&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 295 &amp;mdash; Construction resource document use&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Document Association_1zhQwS02P4qwtdceG$ukyB" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Constraint" UniqueId="3B6B1BP1z33gZk4WKDk0q0">
+			<Documentation>&lt;p&gt;Constraints may be applied to a resource to indicate fixed work (such as total person-hours) or fixed usage (such as simultaneous workers).&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Constraint Association_30YoPCzyP7dwz$NMHS4mwe" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="6b9ae183-03b7-4baf-8c29-728e86f4b5d4" RuleParameters="DataValue=IfcPositiveRatioMeasure;Attribute1=Usage;Attribute2=ScheduleUsage;" Order="0">
+					<Documentation>Indicate fixed usage (such as simultaneous workers) such that changes to ScheduleWork should impact the assigned IfcTask.TaskTime.ScheduleDuration and vice-versa.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="a5c1d8f3-7e8a-4ac3-b8d7-65cc46bd0466" RuleParameters="DataValue=IfcDuration;Attribute1=Usage;Attribute2=ScheduleWork;" Order="0">
+					<Documentation>Indicate fixed work (such as total person-hours) such that changes to ScheduleUsage should impact the assigned IfcTask.TaskTime.ScheduleDuration and vice-versa.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Object Typing" UniqueId="2oaNf1nY93sh5f8vmSvHzz">
+			<Documentation>&lt;p&gt;The resource type may provide shared productivity and cost information, allowing tasks and resources to be selected according to lowest cost and/or shortest duration. Given an &lt;em&gt;IfcProduct&lt;/em&gt; of a particular &lt;em&gt;IfcTypeProduct&lt;/em&gt; type, an &lt;em&gt;IfcTypeProcess&lt;/em&gt; may be selected from those assigned to the product type using &lt;em&gt;IfcRelAssignsToProduct&lt;/em&gt;, and an &lt;em&gt;IfcTypeResource&lt;/em&gt; may be selected from those assigned to the process type using &lt;em&gt;IfcRelAssignsToProcess&lt;/em&gt;. Then &lt;em&gt;IfcTask&lt;/em&gt; and &lt;em&gt;IfcConstructionResource&lt;/em&gt; occurrences may be instantiated from the type definitions, applying productivitity and rate information to assigned quantities to calculate &lt;em&gt;ResourceTime.ScheduleWork&lt;/em&gt;. Task durations can then be calculated by dividing &lt;em&gt;ResourceTime.ScheduleWork&lt;/em&gt; by &lt;em&gt;ResourceTime.ScheduleUsage&lt;/em&gt;.&lt;/p&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt=&quot;Type Use Definition&quot; src=&quot;../../../figures/ifcconstructionresource-type.png&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 296 &amp;mdash; Construction resource type use&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="ff3b225c-e989-4825-8596-2027f95be99b" RuleParameters="RelatingType=IfcConstructionResourceType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="3zDd5p44v1XQFEYBLBL_YP">
+			<Documentation>&lt;p&gt;For time series properties as shown in Figure 180, each &lt;em&gt;IfcTimeSeriesValue&lt;/em&gt; indicates a LIST of values, where the sequence of the value corresponds to the &lt;em&gt;IfcCostValue&lt;/em&gt; at &lt;em&gt;IfcConstructionResource.CostRatesConsumed&lt;/em&gt;. For example, if &lt;em&gt;CostRatesConsumed&lt;/em&gt; has two &lt;em&gt;IfcCostValue&lt;/em&gt; items in the LIST, &quot;Standard&quot; and &quot;Overtime&quot;, then &lt;em&gt;IfcTimeSeriesValue(IfcDuration(&apos;T8H0M0S&apos;),IfcDuration(&apos;T2H0M0S&apos;))&lt;/em&gt; would indicate 8 hours at Standard rate and 2 hours at Overtime rate. If the list of values at &lt;em&gt;IfcTimeSeriesValue.ListValues&lt;/em&gt; is less than the size of &lt;em&gt;CostRatesConsumed&lt;/em&gt;, then subsequent values are considered to be zero.&lt;/p&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt=&quot;Time Series Use Definition&quot; src=&quot;../../../figures/ifcconstructionresource-timeseries.png&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 297 &amp;mdash; Construction resource time series use&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="8a49362b-03d3-4a52-81b0-191ac6592786" RuleParameters="PsetName=Pset_ConstructionResource;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Nesting" UniqueId="2hPphHy8b0B9tcO8L1lQ_3">
+			<Documentation>&lt;p&gt;Resources may be decomposed into allocation pools using the &lt;em&gt;IfcRelNests&lt;/em&gt; relationship as shown in Figure 181. For example, an &lt;em&gt;IfcLaborResource&lt;/em&gt; for &quot;Electrician&quot; may be decomposed into three task-specific &lt;em&gt;IfcLaborResource&lt;/em&gt; objects: &quot;Electrical Rough-in&quot;, &quot;First Floor Circuits&quot;, and &quot;Second Floor Circuits&quot;. Both relating and related sides may represent the same &lt;em&gt;ResourceTime.ScheduleUsage&lt;/em&gt; quantity (for example, 6 workers time-shared), or the related side may break out &lt;em&gt;ResourceTime.ScheduleUsage&lt;/em&gt; quantities for reserved use (for example, 4 workers and 2 workers).&lt;/p&gt; 
+&lt;p&gt;A common scenario is two nesting levels where the first-level resources have no task assignments; while second-level resources have specific task assignments indicating that the resource is subdivided into allocations for specific tasks. While the model allows unlimited nesting of resources, implementer agreements may restrict to two nesting levels with task assignments specifically at the second level.&lt;/p&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt=&quot;Composition Use Definition&quot; src=&quot;../../../figures/ifcconstructionresource-composition.png&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 298 &amp;mdash; Construction resource composition use&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Nesting_0uoeU8NaT178AKrM_UcbQH" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="32cccc43-3eba-4c37-aa69-6fa2faef37ea" RuleParameters="Type=IfcConstructionResource;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="5b618fa2-d7c3-4ebb-88c6-65489acdd346" Type="IfcConstructionResource" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

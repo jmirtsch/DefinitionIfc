@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="PEnum_DamperOperation" UniqueId="30b586f6-08b7-471d-892e-9542401d30e9">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="AUTOMATIC_0dzGl4n$P6IfgyC0zgUJVD" />
+		<DocPropertyConstant xsi:nil="true" href="MANUAL_1Sy3L_MMv9yOKfxX20WmeG" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0i6d4Ufj14tharyXJziMBU" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0c$aLa4rD9FPGAeIp5efMv" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3gBcmXa5rCx94eAgiLpRWt" />
+	</Constants>
+</DocPropertyEnumeration>
+

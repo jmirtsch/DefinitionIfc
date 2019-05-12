@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1q28YTOErF6fSdS$eXi7nI">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcReinforcingBar" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="0estx9NSv2Re_7m4neJAhm">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="05c9735f-4186-4776-b004-beabc3c48af3" RuleParameters="RelatingType=IfcReinforcingBarType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Property Sets" UniqueId="0hwLdAQVP7xvA4QyljVRrk">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Quantity Sets" UniqueId="1x8WcySbH7whl1f0wH9nZ1">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="98346163-0244-4f2b-96e6-af52de208a28" RuleParameters="QsetName=Qto_ReinforcingElementBaseQuantities;TemplateType=QTO_TYPEDRIVENOVERRIDE;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material Profile Set Usage" UniqueId="2dlWB0dvX6$xaj9UUKacUg">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set Usage_1ge1GfjMPBDeTQCM88YfWn" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="34d47834-5a0e-4bfe-93c4-8ec68414905e" RuleParameters="Name=Core;" Order="0">
+					<Documentation>Material from which the rebar is constructed, such as steel.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="abb2bae7-a79d-44cf-ba0a-1ecda2ca83f1" RuleParameters="Name=Coating;" Order="0">
+					<Documentation>Outer coating, if applicable.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body Geometry" UniqueId="1ls9lIuR17Qx5LFOA7P$Rk">
+			<Documentation>&lt;p&gt;The representation map referenced by a &apos;Body&apos; &apos;MappedRepresentation&apos; should contain a representation of type &apos;AdvancedSweptSolid&apos; which holds an &lt;em&gt;IfcSweptDiskSolid&lt;/em&gt; (including subtype &lt;em&gt;IfcSweptDiskSolidPolygonal&lt;/em&gt;). Multiple &lt;em&gt;IfcMappedItem&lt;/em&gt;&apos;s can be used to represent several bars as one occurrence of &lt;em&gt;IfcReinforcingBar&lt;/em&gt;.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body Geometry_34HhqMBUDBbxDFH4Qi2wt2" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="67597266-1a4c-46cd-b643-baa1a932dcf0" RuleParameters="RepresentationType=AdvancedSweptSolid;Geometry=IfcSweptDiskSolid;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="44ba40fc-3a48-487f-89e9-29081fb62bd5" Type="IfcReinforcingBar" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

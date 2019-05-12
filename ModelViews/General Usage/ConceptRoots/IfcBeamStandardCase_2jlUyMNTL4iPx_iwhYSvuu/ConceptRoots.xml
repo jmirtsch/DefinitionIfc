@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2jlUyMNTL4iPx_iwhYSvuu">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcBeamStandardCase" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Material Profile Set Usage" UniqueId="2fbnNyPA50kByv1WHt8JGJ">
+			<Documentation>&lt;p&gt;The &lt;em&gt;IfcBeamStandardCase&lt;/em&gt; defines in addition that the
+ &lt;em&gt;IfcBeamType&lt;/em&gt; should have a unique
+ &lt;em&gt;IfcMaterialProfileSet&lt;/em&gt;, that is referenced by the 
+&lt;em&gt;IfcMaterialProfileSetUsage&lt;/em&gt; that is assigned to all
+occurrences of this &lt;em&gt;IfcBeamType&lt;/em&gt;.&lt;/p&gt;
+
+&lt;table&gt;
+
+ &lt;tr&gt;
+  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcbeamstandardcase-01.png&quot; height=&quot;500&quot; width=&quot;500&quot;  alt=&quot;Material profile set and usage&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 196 illustrates assignment of &lt;em&gt;IfcMaterialProfileSetUsage&lt;/em&gt; and &lt;em&gt;IfcMaterialProfileSet&lt;/em&gt; to the &lt;em&gt;IfcBeamStandardCase&lt;/em&gt; as the beam occurrence and to the &lt;em&gt;IfcBeamType&lt;/em&gt;. The same &lt;em&gt;IfcMaterialProfileSet&lt;/em&gt; shall be shared by many occurrences of &lt;em&gt;IfcMaterialProfileSetUsage&lt;/em&gt;. This relationship shall be consistent to the relationship between the &lt;em&gt;IfcBeamType&lt;/em&gt; and the &lt;em&gt;IfcBeamStandardCase&lt;/em&gt;.&lt;/blockquote&gt;
+
+ &lt;/td&gt;
+ &lt;/tr&gt;
+ 
+&lt;tr&gt;
+  &lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 196 &amp;mdash; Beam profile usage&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+ &lt;/tr&gt;
+
+&lt;/table&gt;
+
+
+
+&lt;table&gt;
+
+ &lt;tr&gt;
+  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcbeamstandardcase_cardinalpoint.png&quot; height=&quot;250&quot; width=&quot;500&quot; alt=&quot;Cardinal point usage&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;
+
+    &lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 197 illustrates alignment of cardinal points.&lt;/blockquote&gt;
+    
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; It has to be guaranteed that the use of &lt;em&gt;IfcCardinalPointEnum&lt;/em&gt; is consistent to the placement of the extrusion body provided by &lt;em&gt;IfcExtrudedAreaSolid.Position&lt;/em&gt;&lt;/blockquote&gt;
+    
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The cardinal points &lt;b&gt;8&lt;/b&gt; (top centre) and &lt;b&gt;6&lt;/b&gt; (mid-depth right) are assigned according to the definition at &lt;em&gt;IfcCardinalPointReference&lt;/em&gt;&lt;/blockquote&gt; &lt;/td&gt;
+ &lt;/tr&gt;
+ 
+&lt;tr&gt;
+  &lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 197 &amp;mdash; Beam cardinal points&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+ &lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;table&gt;
+ 
+&lt;tr&gt;
+  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcbeamstandardcase-02.png&quot; height=&quot;550&quot; width=&quot;500&quot; alt=&quot;Material profile set and usage&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;
+&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 198 illustrates assignment of a composite profile by using &lt;em&gt;IfcCompositeProfile&lt;/em&gt; for geometric representation and several &lt;em&gt;IfcMaterialProfile&lt;/em&gt;&apos;s within the &lt;em&gt;IfcMaterialProfileSet&lt;/em&gt;.&lt;/blockquote&gt;
+
+ &lt;/td&gt;
+ &lt;/tr&gt;
+
+ &lt;tr&gt;
+  &lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 198 &amp;mdash; Beam composite profiles&lt;/p&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set Usage_1ge1GfjMPBDeTQCM88YfWn" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Placement" UniqueId="0gEM_o_HHF7vpUIJjOYTxB">
+			<Documentation>&lt;p&gt;The following restriction is imposed:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The local placement shall provide the location and directions 
+for the standard beam, the x/y plane is the plane for the start 
+profile, and the z-axis is the extrusion axis for the beam body (in
+case of rotation, the tangent direction).&lt;/li&gt;
+&lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Axis 3D Geometry" UniqueId="cb4a7cf7-710b-4d92-beb0-f247c525dfe6">
+			<Documentation>&lt;p&gt;The following additional constraints apply to the &apos;Axis&apos;
+representation, if the &apos;Body&apos; shape representation has the
+&lt;em&gt;RepresentationType&lt;/em&gt; : &apos;SweptSolid&apos;:&lt;/p&gt;
+
+&lt;ul&gt;
+
+&lt;li&gt;&lt;em&gt;Axis&lt;/em&gt;
+&lt;ul&gt;
+
+&lt;li&gt;&lt;em&gt;IfcPolyline&lt;/em&gt; having two &lt;em&gt;Points&lt;/em&gt;, or
+&lt;em&gt;IfcTrimmedCurve&lt;/em&gt; with &lt;em&gt;BasisCurve&lt;/em&gt; of Type
+&lt;em&gt;IfcLine&lt;/em&gt; for &apos;SweptSolid&apos; provided as
+&lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt;. The axis curve lies on the z axis of
+the object coordinate system.&lt;/li&gt;
+
+&lt;li&gt;&lt;em&gt;IfcTrimmedCurve&lt;/em&gt; with &lt;em&gt;BasisCurve&lt;/em&gt; of Type
+&lt;em&gt;IfcCircle&lt;/em&gt; for &apos;SweptSolid&apos; provided as
+&lt;em&gt;IfcRevolvedAreaSolid&lt;/em&gt;. The axis curve lies on the x/z plane
+of the object coordinate system, the tangent at the start is along
+the positive z-axis.&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;/li&gt;
+
+&lt;/ul&gt;
+
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+
+&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot; cellspacing=&quot;2&quot; summary=&quot;Axis&quot;&gt;
+
+&lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot; width=&quot;350&quot;&gt;
+&lt;img src=&quot;../../../figures/ifcbeamstandardcase_axis-01.png&quot; alt=&quot;Axis&quot; height=&quot;300&quot; width=&quot;400&quot; border=&quot;1&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; As shown in Figure 76, the axis shall be defined along the z axis of the object coordinate system. The axis representation can be used to represent the system length of a beam that may extent the body length of the beam.&lt;/blockquote&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 198 &amp;mdash; Beam axis representation&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;/table&gt;
+
+
+&lt;table&gt;
+
+&lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot; width=&quot;350&quot;&gt;
+&lt;img src=&quot;../../../figures/ifcbeamstandardcase_axis-02.png&quot; alt=&quot;Axis&quot; height=&quot;300&quot;
+width=&quot;400&quot; border=&quot;1&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; As shown in Figure 77, the axis representation shall be used to represent the cardinal point as the offset between the &apos;Axis&apos; and the extrusion path of the beam. The extrusion path is provided as &lt;em&gt;IfcExtrudedAreaSolid.ExtrudedDirection&lt;/em&gt; and should be parallel to the &apos;Axis&apos; and the z axis. It has to be guaranteed that the value provided by
+&lt;em&gt;IfcMaterialProfileSetUsage.CardinalPoint&lt;/em&gt; is consistent to the &lt;em&gt;IfcExtrudedAreaSolid.Position&lt;/em&gt;.&lt;/blockquote&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 199 &amp;mdash; Beam axis cardinal point&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Axis 3D Geometry_2ubDZB_q55xBeOSih6klyq" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body SweptSolid Geometry" UniqueId="f46e3ec0-d156-494e-86b8-90fab2e50513">
+			<Documentation>&lt;p&gt;The following additional constraints apply to the &apos;SweptSolid&apos;
+representation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;Solid&lt;/u&gt;: &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt;,
+&lt;em&gt;IfcRevolvedAreaSolid&lt;/em&gt; shall be supported&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Solid Position&lt;/u&gt; : The &lt;em&gt;IfcSweptAreaSolid.Position&lt;/em&gt;
+shall exclusively been used to correspond to the cardinal point.
+The x/y offset of the &lt;em&gt;Position&lt;/em&gt; represents the cardinal
+point offset of the profile against the axis. No rotation shall be
+allowed.&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Profile&lt;/u&gt;: All subtypes of
+&lt;em&gt;IfcParameterizedProfileDef&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Profile Position&lt;/u&gt; : For all single profiles, the
+&lt;em&gt;IfcParameterizedProfileDef.Position&lt;/em&gt; shall be NIL, or having
+&lt;em&gt;Location&lt;/em&gt; = 0.,0. and &lt;em&gt;RefDirection&lt;/em&gt; = 1.,0.&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Extrusion&lt;/u&gt;:&amp;nbsp;Perpendicular to the profile direction.
+The &lt;em&gt;IfcExtrudedAreaSolid.ExtrudedDirection&lt;/em&gt; shall be
+[0.,0.,1.].&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Orientation&lt;/u&gt;: The y-axis of the profile, as determined by
+&lt;em&gt;IfcSweptAreaSolid.Position.P[2]&lt;/em&gt; shall point upwards. It
+indicates the &quot;role&quot; of the beam, a role=0&amp;deg; means y-axis of
+profile pointing upwards.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Figure 199 illustrates a standard geometric representation with cardinal point applied as &lt;b&gt;1&lt;/b&gt; (bottom left).&lt;/p&gt;
+&lt;p&gt;The following interpretation of dimension parameter applies for rectangular beams with linear extrusions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;IfcRectangleProfileDef.YDim&lt;/em&gt; interpreted as beam height&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;IfcRectangleProfileDef.XDim&lt;/em&gt; interpreted as beam width&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following interpretation of dimension parameter applies for circular beams:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;IfcCircleProfileDef.Radius&lt;/em&gt; interpreted as beam radius.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table cellpadding=&quot;2&quot; cellspacing=&quot;2&quot;&gt;
+&lt;tr valign=&quot;top&quot;&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../../figures/ifcbeamstandardcase_sweptsolid-01.png&quot; alt=&quot;standard beam&quot; border=&quot;1&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 199 &amp;mdash; Beam body extrusion&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body AdvancedSweptSolid Geometry" UniqueId="2f06485f-48e1-41c6-86ce-ef478cd410f0">
+			<Documentation>&lt;p&gt;The following additional constraints apply to the
+&apos;AdvancedSweptSolid&apos; representation type:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;Solid&lt;/u&gt;: &lt;em&gt;IfcSurfaceCurveSweptAreaSolid&lt;/em&gt;,
+&lt;em&gt;IfcFixedReferenceSweptAreaSolid&lt;/em&gt;,
+&lt;em&gt;IfcExtrudedAreaSolidTapered&lt;/em&gt;,
+&lt;em&gt;IfcRevolvedAreaSolidTapered&lt;/em&gt; shall be supported.
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; View definitions and implementer agreement
+can further constrain the allowed swept solid
+types.&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Solid Position&lt;/u&gt; : see &apos;SweptSolid&apos; geometric
+representation&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Profile&lt;/u&gt;: see &apos;SweptSolid&apos; geometric representation&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Profile Position&lt;/u&gt; : see &apos;SweptSolid&apos; geometric
+representation&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Extrusion&lt;/u&gt;:&amp;nbsp;not applicable&lt;/li&gt;
+&lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body AdvancedSweptSolid Geometry_1KP7XTvT5FTPxCRBEI571U" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body Clipping Geometry" UniqueId="73108d59-5678-4e77-851c-fefd8a2c2312">
+			<Documentation>&lt;p&gt;The following constraints apply to the &apos;Clipping&apos;
+representation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;Solid&lt;/u&gt; : see &apos;SweptSolid&apos; geometric representation&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Solid Position&lt;/u&gt; : see &apos;SweptSolid&apos; geometric
+representation&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Profile&lt;/u&gt; : see &apos;SweptSolid&apos; geometric representation&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Profile Position&lt;/u&gt; : see &apos;SweptSolid&apos; geometric
+representation&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Extrusion&lt;/u&gt; : see &apos;SweptSolid&apos; geometric
+representation&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Orientation&lt;/u&gt; : see &apos;SweptSolid&apos; geometric
+representation&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Boolean result&lt;/u&gt;: The &lt;em&gt;IfcBooleanClippingResult&lt;/em&gt;
+shall be supported, allowing for Boolean differences between the
+swept solid (here &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt;) and one or several
+&lt;em&gt;IfcHalfSpaceSolid&lt;/em&gt; (or its subtypes).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Figure 200 illustrates a &apos;Clipping&apos; geometric representation with use of &lt;em&gt;IfcBooleanClippingResult&lt;/em&gt; between an &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt; and an &lt;em&gt;IfcHalfSpaceSolid&lt;/em&gt; to create a clipped body, with cardinal point applied as &lt;b&gt;4&lt;/b&gt; (mid-depth left)&lt;/p&gt;
+
+&lt;table cellpadding=&quot;2&quot; cellspacing=&quot;2&quot;&gt;
+&lt;tr valign=&quot;top&quot;&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../../figures/ifcbeamstandardcase_clipping-01.png&quot; alt=&quot;clipped beam&quot;
+border=&quot;1&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 200 &amp;mdash; Beam body clipping&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body Clipping Geometry_0isyBrcmn3wfqgdNBG57u0" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="fa9e9eef-111e-4d82-8e4f-cacd588d7e7b" Type="IfcBeamStandardCase" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

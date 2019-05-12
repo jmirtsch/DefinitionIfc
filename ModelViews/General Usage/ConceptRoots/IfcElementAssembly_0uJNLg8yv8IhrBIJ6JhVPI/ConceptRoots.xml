@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0uJNLg8yv8IhrBIJ6JhVPI">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcElementAssembly" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="1AXj0XIW924RNrVJ4sYLdC">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="f3bc25c9-0d40-47e6-b8be-cb68361ce162" RuleParameters="RelatingType=IfcElementAssemblyType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Aggregation" UniqueId="0oauVMQRP7TxukCU32hE2K">
+			<Documentation>&lt;p&gt;The &lt;em&gt;IfcElementAssembly&lt;/em&gt; shall represent an aggregate,
+i.e. it should have other elements, being subtypes of
+&lt;em&gt;IfcElement&lt;/em&gt;, 
+as contained (sub)parts. The table above only represents a selection of subtypes of &lt;em&gt;IfcElement&lt;/em&gt; that are legitimate as parts in an 
+&lt;em&gt;IfcElementAssembly&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+  
+&lt;li&gt;The &lt;em&gt;IfcElementAssembly&lt;/em&gt; is an aggregate i.e. being
+composed by other elements and acting as an assembly using the
+objectified relationship &lt;em&gt;IfcRelAggregates&lt;/em&gt;, refering to it
+by its inverse attribute
+&lt;em&gt;SELF\IfcObjectDefinition.IsDecomposedBy&lt;/em&gt;. Components of an
+assembly are described by instances of subtypes of
+&lt;em&gt;IfcElement&lt;/em&gt;.&lt;/li&gt;
+  
+&lt;li&gt;In this case, the contained subtypes of &lt;em&gt;IfcElement&lt;/em&gt;
+shall not be additionally contained in the project spatial
+hierarchy, i.e. the inverse attribute
+&lt;em&gt;SELF\IfcElement.ContainedInStructure&lt;/em&gt; of those
+&lt;em&gt;IfcElement&lt;/em&gt;&apos;s shall be &lt;em&gt;NIL.&lt;/em&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+
+
+&lt;p&gt;Figure 148 illustrates spatial containment and element aggregation relationships.&lt;/p&gt;
+
+&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot; cellspacing=&quot;2&quot; summary=
+&quot;containment&quot;&gt;
+
+ &lt;tr&gt;
+  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcelementassembly-containment.png&quot; alt=&quot;containment relationships&quot; width=&quot;500&quot; height=&quot;250&quot; border=&quot;0&quot;&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 148 &amp;mdash; Element assembly containment&lt;/p&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="b8a09ed6-7212-4b8e-ad88-980df644e58a" RuleParameters="PredefinedType=;RelatedObjects=IfcMember;" Order="0">
+					<Documentation>Members within the assembly.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="fb3a2d42-c663-42b5-855c-89b04d0d037e" RuleParameters="PredefinedType=;RelatedObjects=IfcPlate;" Order="0">
+					<Documentation>Plates within the assembly.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="b04a9d69-33b9-4932-a3a4-11c914833ba9" RuleParameters="PredefinedType=;RelatedObjects=IfcElementComponent;" Order="0">
+					<Documentation>Components within the assembly.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Spatial Containment" UniqueId="1CBQXEAJ14APv02tpByS5c">
+			<Documentation>&lt;p&gt;The &lt;em&gt;IfcElementAssembly&lt;/em&gt; should have a relationship for its 
+containment in the hierachical spatial structure of the project. Only if the &lt;em&gt;IfcElementAssembly&lt;/em&gt; is itself a part of another assembly this relationship should be omitted.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Spatial Containment_3Pe$WY01HBmesKdP1dTP15" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="bda4a85f-9e78-4137-bf79-5bd3b5984660" RuleParameters="RelatingStructure=IfcBuildingStorey;" Order="0">
+					<Documentation>Default spatial container</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="8e3aad58-a518-481f-a709-4b7ef198f9c5" RuleParameters="RelatingStructure=IfcBuilding;" Order="0">
+					<Documentation>Spatial container for element assemblies not assignable to a building storey</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="60076275-b49b-4e1f-95c3-589a2d9ebfa6" RuleParameters="RelatingStructure=IfcSite;" Order="0">
+					<Documentation>Spatial container for element assemblies that are placed on site (outside of building)</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="55325719-c534-419c-8b6b-68017d5af41f" Type="IfcElementAssembly" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

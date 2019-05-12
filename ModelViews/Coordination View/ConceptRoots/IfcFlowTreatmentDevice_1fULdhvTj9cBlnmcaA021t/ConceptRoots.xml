@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="697959eb-e5db-4998-bbf1-c2690a002077">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcFlowTreatmentDevice" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="d604c2bf-df3c-4af4-b9fc-1e4a316e5cc8" Type="IfcFlowTreatmentDevice" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

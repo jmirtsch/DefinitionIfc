@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcCovering" Name="IfcCovering" UniqueId="71cd9964-d26e-4857-81b8-de24c4651a85" DiagramNumber="2" BaseDefinition="IfcBuildingElement" EntityFlags="237">
+	<Localization>
+		<DocLocalization Name="Bekleidung / Belag" Locale="de" />
+		<DocLocalization Name="Covering" Locale="en" />
+		<DocLocalization Name="Revêtement" Locale="fr" />
+	</Localization>
+	<DiagramRectangle>
+		<DocRectangle X="1865.4062" Y="1849.8359" Width="228" Height="268" />
+	</DiagramRectangle>
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="1c0df8fd-2a8e-4b75-a68e-22fa8c279270" DefinedType="IfcCoveringTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Predefined types to define the particular type of the covering. There may be property set definitions available for each predefined type.
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The &lt;em&gt;PredefinedType&lt;/em&gt; shall only be used, if no &lt;em&gt;IfcCoveringType&lt;/em&gt; is assigned, providing its own &lt;em&gt;IfcCoveringType.PredefinedType&lt;/em&gt;.&lt;/blockquote&gt;</Documentation>
+			<DiagramLine>
+				<DocPoint X="2093.4062" Y="1876.6359" />
+				<DocPoint X="2506.7062" Y="1876.6359" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="2093.4062" Y="1876.6359" Width="182" Height="35" />
+			</DiagramLabel>
+		</DocAttribute>
+		<DocAttribute Name="CoversSpaces" UniqueId="84a19b72-c5f8-40f0-8380-e4989bb7d407" DefinedType="IfcRelCoversSpaces" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="RelatedCoverings">
+			<Documentation>Reference to the objectified relationship that handles the relationship of the covering to the covered space.</Documentation>
+			<DiagramLine>
+				<DocPoint X="2093.4062" Y="1977.8316" />
+				<DocPoint X="2643.83323" Y="1977.8316" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="2066.739533" Y="2004.498267" Width="443" Height="70" />
+			</DiagramLabel>
+		</DocAttribute>
+		<DocAttribute Name="CoversElements" UniqueId="1e41a6ca-9e36-4047-a656-34a282811332" DefinedType="IfcRelCoversBldgElements" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="RelatedCoverings">
+			<Documentation>Reference to the objectified relationship that handles the relationship of the covering to the covered element.
+&lt;blockquote class=&quot;change-ifc2x4&quot;&gt;IFC4 CHANGE  Renamed into &lt;em&gt;CoversElements&lt;/em&gt; for consistency.
+&lt;/blockquote&gt;</Documentation>
+			<DiagramLine>
+				<DocPoint X="2093.4062" Y="2082.5025" />
+				<DocPoint X="2650.87287" Y="2082.5025" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="2093.4062" Y="2109.169167" Width="512" Height="70" />
+			</DiagramLabel>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="CorrectPredefinedType" UniqueId="f36f9357-8f70-41ef-a279-831ef626fbfb">
+			<Documentation>Either the &lt;em&gt;PredefinedType&lt;/em&gt; attribute is unset (e.g. because an &lt;em&gt;IfcCoveringType&lt;/em&gt; is associated), or the inherited attribute &lt;em&gt;ObjectType&lt;/em&gt; shall be given, if the &lt;em&gt;PredefinedType&lt;/em&gt; is set to USERDEFINED.</Documentation>
+			<Expression>NOT(EXISTS(PredefinedType)) OR 
+ (PredefinedType &lt;&gt; IfcCoveringTypeEnum.USERDEFINED) OR 
+ ((PredefinedType = IfcCoveringTypeEnum.USERDEFINED) AND EXISTS (SELF\IfcObject.ObjectType))</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="CorrectTypeAssigned" UniqueId="4a117468-46c7-4ce2-93da-d40c9e6a2860">
+			<Documentation>Either there is no covering type object associated, i.e. the &lt;em&gt;IsTypedBy&lt;/em&gt; inverse relationship is not provided, or the associated type object has to be of type &lt;em&gt;IfcCoveringType&lt;/em&gt;.</Documentation>
+			<Expression>(SIZEOF(IsTypedBy) = 0) OR
+  (&apos;IFCSHAREDBLDGELEMENTS.IFCCOVERINGTYPE&apos; IN TYPEOF(SELF\IfcObject.IsTypedBy[1].RelatingType))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

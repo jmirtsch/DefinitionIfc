@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocChangeSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IFC2x3 to IFC4" UniqueId="8d4c589b-4941-4c7a-a327-9cf75aa45473" VersionBaseline="IFC2x3TC1">
+	<ChangesEntities>
+		<DocChangeAction Name="Shared element data schemas" UniqueId="feb3f797-585f-437c-aafe-2fa6f3f025b5" />
+		<DocChangeAction Name="Domain specific data schemas" UniqueId="282351eb-9cae-4d22-b06e-3e57907d063c" />
+		<DocChangeAction Name="Resource definition data schemas" UniqueId="b5a1d920-dc9c-40da-8c65-2d2688eb8790" />
+	</ChangesEntities>
+</DocChangeSet>
+

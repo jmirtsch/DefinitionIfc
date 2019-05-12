@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1oi3oPd1b1PhR8HGgQQjTW">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcMedicalDevice" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="10EHMVg2jE0944mkuw6RrO">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="78975654-2488-4b82-889d-c1881b39f1ee" RuleParameters="RelatingType=IfcMedicalDeviceType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="3QQS405er6bR2BvqCctY11">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="1f51c17c-37f0-4a3e-a2cc-4d6063fb41a7" RuleParameters="PsetName=Pset_MedicalDeviceTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="3ad2c5d6-9933-4d34-bac2-0dfcf3aaea8d">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="3ec0d4d0-b276-4a4c-858c-b0a702be4841" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="e679be2d-05e2-4548-bf6a-eac9445ee72c">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="e4029e14-0227-4434-b8af-f89ba93088ae" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material" UniqueId="3b6CahAL945OGDv6YUiWYS">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="8c54924c-5c15-4122-b675-8b6bb0beb201" RuleParameters="Name=Casing;" Order="0">
+					<Documentation>Material from which the casing is constructed.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Port" UniqueId="25hLEzORn9mwSH7zW5CiLj">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="e0b23169-5543-4581-a4ae-2abd84e66451" RuleParameters="PredefinedType=VACUUMSTATION;PortName=Power;SystemType=ELECTRICAL;Flow=SINK;" Order="0">
+					<Documentation>Receives electrical power.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="abd203d1-d02b-4972-ae75-9b001c6d0e93" RuleParameters="PredefinedType=VACUUMSTATION;PortName=Vacuum;SystemType=VACUUM;Flow=SOURCE;" Order="0">
+					<Documentation>Provides suction.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Quantity Sets" UniqueId="c943f8e1-e856-4d00-9bd3-7040c8f40e39">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="2c876cf3-4949-47f5-9157-c7ef5b0f8099" RuleParameters="QsetName=Qto_MedicalDeviceBaseQuantities;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="8328ea46-489f-4bce-a7a7-6e4b7fb86d9e" Type="IfcMedicalDevice" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

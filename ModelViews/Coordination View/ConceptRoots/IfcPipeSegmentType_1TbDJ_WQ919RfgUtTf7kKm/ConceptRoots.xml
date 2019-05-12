@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="5d94d4fe-81a2-4125-ba6a-7b77691ee530">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcPipeSegmentType" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="72dcdac5-67a6-4bc0-b3aa-ea713515d16a" Type="IfcPipeSegmentType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

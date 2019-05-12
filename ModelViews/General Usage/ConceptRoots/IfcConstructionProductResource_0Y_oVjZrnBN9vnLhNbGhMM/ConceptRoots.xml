@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0Y_oVjZrnBN9vnLhNbGhMM">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcConstructionProductResource" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="3xpFIoIR5AywfrijG_1Lgy">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="5f4a9145-de79-4107-bd7c-210b7b39d9db" RuleParameters="RelatingType=IfcConstructionProductResourceType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Resource Assignment" UniqueId="0xvjcXZMv3pfAcbw_qoYz8">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Resource Assignment_0cKfk8v5r86A7E0heIa1j_" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="13ccafe1-a01c-497d-b167-30e4248a2eb0" RuleParameters="Type=IfcElement;" Order="0">
+					<Documentation>Indicates a physical element manifesting the resource such as nails (in bulk).</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Resource Cost" UniqueId="38$o5n9F96ze1weycXOy5Q">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Resource Cost_1dWH7vLbvC7RZ3qXZ4pD1M" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="74e3eb44-50d7-43df-ba13-8b684a738413" RuleParameters="CostType=IfcCostValue;CostName=Product;ValueType=IfcMonetaryMeasure;" Order="0">
+					<Documentation>The unit cost for purchasing the product.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="99166082-d3b5-4ed3-ab4a-248435c2978c" RuleParameters="CostType=IfcCostValue;CostName=Shipping;ValueType=IfcMonetaryMeasure;" Order="0">
+					<Documentation>The unit cost for transporting the product.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Resource Quantity" UniqueId="0pNaO7fKv21emoahKZoGxw">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Resource Quantity_2WLzS88zH7qgXDYV$9FO$e" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="27e96d7a-95a8-43d5-abf0-f85f5de84e03" RuleParameters="QuantityType=IfcQuantityCount;QuantityName=Product;" Order="0">
+					<Documentation>The unit count of the product used such as 1 for each or 12 for a dozen.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="40880de8-01e3-4fb2-bb89-8afccd99a6eb" Type="IfcConstructionProductResource" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

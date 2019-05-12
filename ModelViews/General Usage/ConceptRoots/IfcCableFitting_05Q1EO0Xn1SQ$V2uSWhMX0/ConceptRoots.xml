@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="05Q1EO0Xn1SQ$V2uSWhMX0">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcCableFitting" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="3iqhr1T_j9ahuRAsdhmPQG">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="4a57b392-1540-4827-9624-7f6bf2b95ef6" RuleParameters="RelatingType=IfcCableFittingType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="0n$em4hOD99A4DkwsmMT5E">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="4aaf3b83-f6b3-4cb2-89ca-3261dd283473" RuleParameters="PsetName=Pset_CableFittingTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="bb0b6165-13f6-4901-9596-d264e250f405">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="5aaf4973-ae53-4768-9082-cb4959dd6eff" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="68d2478b-b0a4-4857-9686-bbbdee41f5bd">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="130a0d90-1a28-4665-9c70-bf39cb7f99af" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="2kWxoIiKbBHBRuworIR68O">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="8d12214a-18af-4d75-ad61-a680c9a660d2" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_CableFittingBaseQuantities;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material" UniqueId="1nSHUh4Fv5DhBE4Ug0$l8s">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Layer Set Usage_1jNxXlFor9_vKe1tXLtSn7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="1038e326-f28d-4547-9573-1ec12a64efb2" RuleParameters="Name=Casing;" Order="0">
+					<Documentation>Material from which the casing is constructed.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="82a56393-a65f-483d-a589-3ba87f6acf2b" RuleParameters="Name=Conductor;" Order="0">
+					<Documentation>Material from which the conductors are constructed, such as Aluminium or Copper.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Connection" UniqueId="2DZHTFPov3ceZFPml7C8La">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Connectivity_0bAb_cp5jDCBqCDU8kCsIP" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="c287c694-eab8-4cc7-855c-fc363d669aea" RuleParameters="PredefinedType=ENTRY;Type=IfcPipeSegment;Relation=IfcRelConnectsElements" Order="0">
+					<Documentation>For equipotential bonding, may represent a clamp that is attached from a pipe or other conducting element of an earthing system.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="13939eeb-6a47-4cd5-95dc-d90679495580" RuleParameters="PredefinedType=EXIT;Type=IfcPipeSegment;Relation=IfcRelConnectsElements" Order="0">
+					<Documentation>For equipotential bonding, may represent a clamp that is attached from a pipe or other conducting element of an earthing system.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Port" UniqueId="2YMeSwO5X8NgoVbnzSecc2">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="a965340e-ef40-4edb-a288-4f08a918269f" RuleParameters="PredefinedType=CONNECTOR;PortName=Input;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>The input of the connector.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="41d6907a-a98f-45c1-9cda-fb3be1b0b13d" RuleParameters="PredefinedType=CONNECTOR;PortName=Output;SystemType=NOTDEFINED;Flow=SOURCE;" Order="0">
+					<Documentation>The output of the connector.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="91451606-2dde-45df-9a00-4afd04b58c45" RuleParameters="PredefinedType=ENTRY;PortName=Output;SystemType=NOTDEFINED;Flow=SOURCE;" Order="0">
+					<Documentation>The output of the connector.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="7de8a660-fc42-4bb4-9ef0-121d31c22ba2" RuleParameters="PredefinedType=EXIT;PortName=Input;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>The input of the connector.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="fbb31e0f-6ae4-4baf-9fe3-f0dcbe5bf5e6" RuleParameters="PredefinedType=JUNCTION;PortName=Input;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>The input of the connector.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="0f65bc9e-f535-457c-bffe-ea72f0638ba3" RuleParameters="PredefinedType=JUNCTION;PortName=Output#1;SystemType=NOTDEFINED;Flow=SOURCE;" Order="0">
+					<Documentation>An output of the connector.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="5dc35dbd-99eb-4891-bbd7-1e50e1680b9a" RuleParameters="PredefinedType=JUNCTION;PortName=Output#2;SystemType=NOTDEFINED;Flow=SOURCE;" Order="0">
+					<Documentation>An output of the connector.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="259df9ee-b424-4604-92a1-88249725b050" RuleParameters="PredefinedType=CONNECTOR;PortName=Input;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>The input of the connector.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="c105d44c-8bbd-4fd9-938d-488d4b361c05" RuleParameters="PredefinedType=CONNECTOR;PortName=Output;SystemType=NOTDEFINED;Flow=SOURCE;" Order="0">
+					<Documentation>The output of the connector.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="68023a7d-9029-4ea8-b7a4-3343d4fef6ef" Type="IfcCableFitting" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

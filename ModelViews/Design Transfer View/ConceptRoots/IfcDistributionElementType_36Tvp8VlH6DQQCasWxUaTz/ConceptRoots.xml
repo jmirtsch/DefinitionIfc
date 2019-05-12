@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="c6779cc8-7ef4-4635-a68c-93683b7a477d">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcDistributionElementType" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Type Clearance Geometry" UniqueId="f883a270-f7f3-4cb0-9247-1ecf965345a9">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Type Clearance Geometry_3nwx3pbib94gHrq1AYFu5v" />
+			</Definition>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="6e392ca6-fb2c-42de-b25a-977e274a84f3" Type="IfcDistributionElementType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

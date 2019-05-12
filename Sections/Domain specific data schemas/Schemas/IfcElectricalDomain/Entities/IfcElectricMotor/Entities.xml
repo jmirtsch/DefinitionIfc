@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcElectricMotor" Name="IfcElectricMotor" UniqueId="71aa25c6-a4a6-41fc-aca4-a67875c0775c" DiagramNumber="4" BaseDefinition="IfcEnergyConversionDevice" EntityFlags="229">
+	<Localization>
+		<DocLocalization Name="Elektromotor" Locale="de" />
+		<DocLocalization Name="Electric Motor" Locale="en" />
+		<DocLocalization Name="Moteur électrique" Locale="fr" />
+	</Localization>
+	<DiagramRectangle>
+		<DocRectangle X="5636.2133" Y="725.08667" Width="679.7" Height="103.2" />
+	</DiagramRectangle>
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="35fb17f7-400f-49bf-88fa-2fb770bf4a14" DefinedType="IfcElectricMotorTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<DiagramLine>
+				<DocPoint X="6312.0633" Y="828.28667" />
+				<DocPoint X="6312.0633" Y="882.729985" />
+				<DocPoint X="5858.7268" Y="882.729985" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="6312.0633" Y="882.729985" Width="182" Height="35" />
+			</DiagramLabel>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="CorrectPredefinedType" UniqueId="a3ea410e-3b59-4120-9905-897f55c92cf3">
+			<Documentation>Either the &lt;em&gt;PredefinedType&lt;/em&gt; attribute is unset (e.g. because an &lt;em&gt;IfcElectricMotorType&lt;/em&gt; is associated), or the inherited attribute &lt;em&gt;ObjectType&lt;/em&gt; shall be provided, if the &lt;em&gt;PredefinedType&lt;/em&gt; is set to USERDEFINED.</Documentation>
+			<Expression>NOT(EXISTS(PredefinedType)) OR 
+ (PredefinedType &lt;&gt; IfcElectricMotorTypeEnum.USERDEFINED) OR 
+ ((PredefinedType = IfcElectricMotorTypeEnum.USERDEFINED) AND EXISTS (SELF\IfcObject.ObjectType))</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="CorrectTypeAssigned" UniqueId="c3499fca-e75d-4fb1-b9a2-60838daf9bbf">
+			<Documentation>Either there is no electric motor type object associated, i.e. the &lt;em&gt;IsTypedBy&lt;/em&gt; inverse relationship is not provided, or the associated type object has to be of type &lt;em&gt;IfcElectricMotorType&lt;/em&gt;.</Documentation>
+			<Expression>(SIZEOF(IsTypedBy) = 0) OR 
+  (&apos;IFCELECTRICALDOMAIN.IFCELECTRICMOTORTYPE&apos; IN TYPEOF(SELF\IfcObject.IsTypedBy[1].RelatingType))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

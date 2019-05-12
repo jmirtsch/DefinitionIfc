@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="PEnum_CooledBeamIntegratedLightingType" UniqueId="fc7b9844-9221-4d73-b261-846e24ec045e">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="NONE_1qyKngqXX6iR4P$ZJqCrk_" />
+		<DocPropertyConstant xsi:nil="true" href="DIRECT_2ryGgxR3X5XwCt4bxDQnX_" />
+		<DocPropertyConstant xsi:nil="true" href="INDIRECT_2Ca5Zdr0D8d9LomxAmkNdI" />
+		<DocPropertyConstant xsi:nil="true" href="DIRECTANDINDIRECT_2BsdR$o_bFSOvT7SsYocJc" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_1yvBrj4y17hA9urbPc3ip_" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_2Gk4$GJcXAsxf5dMY9Au$c" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_1XA0M8CsP42ALOkrmsN5nh" />
+	</Constants>
+</DocPropertyEnumeration>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="d9f1f8d0-9640-4eeb-a045-bf54cb68956a">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcCartesianTransformationOperator2DnonUniform" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="b1c3f7fe-7f6c-472a-8f5b-2ec65d82186e" Type="IfcCartesianTransformationOperator2DnonUniform" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

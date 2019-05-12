@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcTextStyle" Name="IfcTextStyle" UniqueId="a79b1274-8b81-4827-baa7-03f278dc7a39" DiagramNumber="4" BaseDefinition="IfcPresentationStyle" EntityFlags="237">
+	<Localization>
+		<DocLocalization Name="Textstil" Locale="de" />
+		<DocLocalization Name="Text Style" Locale="en" />
+		<DocLocalization Name="Style de texte" Locale="fr" />
+	</Localization>
+	<DiagramRectangle>
+		<DocRectangle X="4887.66748046875" Y="254.954686482747" Width="296" Height="572" />
+	</DiagramRectangle>
+	<Attributes>
+		<DocAttribute Name="TextCharacterAppearance" UniqueId="f5bd01b9-4639-4066-8a62-d1d8a355a2f5" DefinedType="IfcTextStyleForDefinedFont" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
+			<Documentation>A character style to be used for presented text.
+&lt;blockquote class=&quot;change-ifc2x4&quot;&gt;IFC4 CHANGE&amp;nbsp; Superfluous select type IfcCharacterStyleSelect has been removed.
+&lt;/blockquote&gt;</Documentation>
+			<DiagramLine>
+				<DocPoint X="5183.66748046875" Y="470.138042845052" />
+				<DocPoint X="5183.66748046875" Y="470.138042845052" />
+				<DocPoint X="5537.130859375" Y="470.138042845052" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="5183.66748046875" Y="450.138042845052" Width="298" Height="35" />
+			</DiagramLabel>
+		</DocAttribute>
+		<DocAttribute Name="TextStyle" UniqueId="edc9e2db-5005-4bcf-ac88-0a7ee0830fe0" DefinedType="IfcTextStyleTextModel" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
+			<Documentation>The style applied to the text block for its visual appearance.
+&lt;blockquote class=&quot;change-ifc2x3&quot;&gt;IFC2x3 CHANGE&amp;nbsp; The attribute &lt;em&gt;TextBlockStyle&lt;/em&gt; has been changed from SET[1:?] to a non-aggregated optional and renamed into &lt;em&gt;TextStyles&lt;/em&gt;.&lt;/blockquote&gt;
+&lt;blockquote class=&quot;change-ifc2x4&quot;&gt;IFC4 CHANGE&amp;nbsp; The IfcTextStyleWithBoxCharacteristics and the now superfluous select type IfcTextStyleSelect have been removed.
+&lt;/blockquote&gt;</Documentation>
+			<DiagramLine>
+				<DocPoint X="5035.66748046875" Y="826.954686482747" />
+				<DocPoint X="5035.66748046875" Y="826.954686482747" />
+				<DocPoint X="5035.66748046875" Y="965.471232096354" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="5035.66748046875" Y="945.471232096354" Width="109" Height="35" />
+			</DiagramLabel>
+		</DocAttribute>
+		<DocAttribute Name="TextFontStyle" UniqueId="c335c62d-bf07-439a-afb9-033418fa2050" DefinedType="IfcTextFontSelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The style applied to the text font for its visual appearance. It defines the font family, font style, weight and size.
+  &lt;blockquote class=&quot;change-ifc2x2&quot;&gt;IFC2x2 Add2 CHANGE The attribute &lt;em&gt;TextFontStyle&lt;/em&gt; is a new attribute attached to &lt;em&gt;IfcTextStyle&lt;/em&gt;.
+  &lt;/blockquote&gt;</Documentation>
+			<DiagramLine>
+				<DocPoint X="5183.66748046875" Y="302.288029988607" />
+				<DocPoint X="5183.66748046875" Y="302.288029988607" />
+				<DocPoint X="5905.0009765625" Y="302.288029988607" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="5183.66748046875" Y="282.288029988607" Width="159" Height="35" />
+			</DiagramLabel>
+		</DocAttribute>
+		<DocAttribute Name="ModelOrDraughting" UniqueId="de6e20b2-8381-4b2e-b44e-399c8a61345d" DefinedType="IfcBoolean" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Indication whether the length measures provided for the presentation style are model based, or draughting based.
+&lt;blockquote class=&quot;change-ifc2x4&quot;&gt;IFC4 CHANGE&amp;nbsp; New attribute.
+&lt;/blockquote&gt;</Documentation>
+			<DiagramLine>
+				<DocPoint X="5183.66748046875" Y="751.621378580729" />
+				<DocPoint X="5183.66748046875" Y="751.621378580729" />
+				<DocPoint X="5522.33414713542" Y="751.621378580729" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="5183.66748046875" Y="731.621378580729" Width="223" Height="35" />
+			</DiagramLabel>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

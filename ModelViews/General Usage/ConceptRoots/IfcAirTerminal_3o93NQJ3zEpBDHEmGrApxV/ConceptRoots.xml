@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3o93NQJ3zEpBDHEmGrApxV">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcAirTerminal" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="1jt9xEa990gAeKJAQYIPDZ">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="89ecc379-f8e3-4c0e-88c2-112957382aba" RuleParameters="RelatingType=IfcAirTerminalType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="1Axwr5tCL4e9ChgGXTqaL7">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="66c1ac38-2e36-467d-a5fa-c4d29036c076" RuleParameters="PsetName=Pset_AirTerminalOccurrence;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="81e1afd2-4548-4ae3-86f2-a9a5badebdc2">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="dc152736-e00d-408d-94d4-f3307647d08e" RuleParameters="PropertyName=AirflowType;Value=PEnum_AirTerminalAirflowType;" Order="0" />
+								<DocTemplateItem UniqueId="094a9e5a-9501-4086-8970-00bd65c316ea" RuleParameters="PropertyName=Location;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="7348fe8b-e431-4d44-92af-1f65dfe07c83">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="23a1b1fe-1c16-434c-8c97-291370089624" RuleParameters="PropertyName=AirFlowRate;Value=IfcVolumetricFlowRateMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="c1e3d059-b9bc-4f4a-9d34-ac2190634c04" RuleParameters="PsetName=Pset_AirTerminalTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="c07be48d-bf2c-41da-9155-c094fcf1787c">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="6c38b43c-075a-4ae6-b750-f9c894e0f350" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="22c8fa32-f0c1-40eb-bb09-fc96da48a891" RuleParameters="PropertyName=SlotWidth;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="93c01973-78c7-4d85-b66a-463b48587c92" RuleParameters="PropertyName=SlotLength;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="f6516a4a-232b-4bb5-bfd2-6987a0755118" RuleParameters="PropertyName=NumberOfSlots;Value=IfcInteger;" Order="0" />
+								<DocTemplateItem UniqueId="3dbeabf0-2286-4185-8d73-2704cf4d0ca8" RuleParameters="PropertyName=ThrowLength;Value=IfcLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="d8ae853a-f7ad-420b-8408-9ae58a15f2be" RuleParameters="PropertyName=AirDiffusionPerformanceIndex;Value=IfcReal;" Order="0" />
+								<DocTemplateItem UniqueId="c661aefc-072b-483d-b4e3-e77694a2b38d" RuleParameters="PropertyName=FinishColor;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="a5b65038-a849-40bf-923a-a9c52d8b1682" RuleParameters="PropertyName=CoreSetHorizontal;Value=IfcPlaneAngleMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="7e0de70d-1e45-4a4c-90d7-f9a00ded57d2" RuleParameters="PropertyName=CoreSetVertical;Value=IfcPlaneAngleMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="c2071949-2166-471a-9ea8-e2cb700da0d5" RuleParameters="PropertyName=HasIntegralControl;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="3d53648a-a589-4dab-b52e-2f48f2d61bfe" RuleParameters="PropertyName=HasSoundAttenuator;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="658d65e9-39a0-4a01-ab14-a0ea59e4bcbc" RuleParameters="PropertyName=HasThermalInsulation;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="3106f20a-05d3-4845-9030-bc2ac687deaf" RuleParameters="PropertyName=NeckArea;Value=IfcAreaMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="2e4413ea-4f65-4375-a0a7-3638ae4b0997" RuleParameters="PropertyName=EffectiveArea;Value=IfcAreaMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="4aba2fcc-031d-47c7-bef0-a7c345499824">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="bcebe64f-ea2a-4734-bff9-bfd8d8ca9c5b" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="afa908e2-7933-48f4-9db2-84d97788752d" RuleParameters="PropertyName=Shape;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="8177778e-6b22-4639-9394-1171b0718cb1" RuleParameters="PropertyName=FaceType;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="eccc7141-4d5c-4d1a-8f09-0feedc9033ae" RuleParameters="PropertyName=FlowPattern;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="53f66120-3626-4809-a0b3-266990046d15" RuleParameters="PropertyName=DischargeDirection;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="5527f954-8683-4ebf-885b-5c9ec1d71c77" RuleParameters="PropertyName=FinishType;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="4438d430-8a11-42d1-8ed7-35ed68aa3aab" RuleParameters="PropertyName=MountingType;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="c84f5397-6894-426d-8f11-f8a90a458c04" RuleParameters="PropertyName=CoreType;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="af0b77e1-1b10-4f52-8dd2-d76478f006b1" RuleParameters="PropertyName=FlowControlType;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="06b1e23a-60ed-42b5-8cc6-5d05d5b8c849">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="f2ee236b-2de4-4557-9478-bc4407e213bd" RuleParameters="PropertyName=AirFlowrateRange;SetValue=IfcVolumetricFlowRateMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="3b36f1bb-c067-45b1-88ad-226eacb53199" RuleParameters="PropertyName=TemperatureRange;SetValue=IfcThermodynamicTemperatureMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="28OyjIK5r1r9jNArFOYj2c">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="d027521e-e859-4ac9-80fb-5a69670258d0" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_AirTerminalBaseQuantities;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material" UniqueId="0KXMjMSfT4ovKe6HlvoR9p">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="89069fb1-e903-499c-a0ee-44cd0af2d317" RuleParameters="Name=Casing;" Order="0">
+					<Documentation>Material from which the casing is constructed.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Port" UniqueId="0Cjuw6JD1A6fS9huiFA8$z">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="833c0699-5e91-46df-8208-abb33058b41f" RuleParameters="PredefinedType=DIFFUSER;PortName=Air;Flow=SINK;SystemType=AIRCONDITIONING;" Order="0">
+					<Documentation>Supply air, typically connected from a duct segment or fitting.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="e648f96d-bffb-48d5-881a-f7ec01a7b61d" RuleParameters="PredefinedType=GRILLE;PortName=Air;SystemType=VENTILATION;Flow=SOURCE;" Order="0">
+					<Documentation>Return air, typically connected to a duct segment or fitting.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="dc5a5d7b-b4ba-4d53-bf0f-5c7841424d78" RuleParameters="PredefinedType=REGISTER;PortName=Air;SystemType=AIRCONDITIONING;Flow=SINK;" Order="0">
+					<Documentation>Supply air, typically connected from a duct segment or fitting.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="74dbed58-4332-4f61-b997-17024e67717a" Type="IfcAirTerminal" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

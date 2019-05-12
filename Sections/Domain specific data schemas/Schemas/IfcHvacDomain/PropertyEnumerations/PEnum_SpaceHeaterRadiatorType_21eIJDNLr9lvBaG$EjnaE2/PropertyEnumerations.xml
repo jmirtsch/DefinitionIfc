@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="PEnum_SpaceHeaterRadiatorType" UniqueId="81a124cd-5d5d-49bf-92e4-43f3adc64382">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="FINNEDTUBE_3oJVh9FwzFcPeiJRCv8BaU" />
+		<DocPropertyConstant xsi:nil="true" href="PANEL_0Lqz92W4D6qPrawXTjnz3g" />
+		<DocPropertyConstant xsi:nil="true" href="SECTIONAL_3rSRpuAN55rAIPNKv0aLNP" />
+		<DocPropertyConstant xsi:nil="true" href="TUBULAR_3K1WMZHpz5D8Qww387f2ee" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_2MaLt3dhLEvgLfBCe14AED" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0JmQEJPwP2WQR1dBqrV_Q1" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3F69zneZ1CqOGkGBmDHsGp" />
+	</Constants>
+</DocPropertyEnumeration>
+

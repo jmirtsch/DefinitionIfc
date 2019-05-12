@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="PEnum_ControllerTypeProgrammable" UniqueId="e31af7c5-1711-430e-87c1-1d03dfdadd86">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="PRIMARY_3UsgNY5iHFAuHLLYaig2AS" />
+		<DocPropertyConstant xsi:nil="true" href="SECONDARY_2iQP$DIN9BiRkn4Grc69dK" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_1AP8AajrP6QxFn60p3t1_T" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_2yVyrwEgfBJfFIHtc2Frxy" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_2kVbCjaA94RRZaySUq$BB_" />
+	</Constants>
+</DocPropertyEnumeration>
+

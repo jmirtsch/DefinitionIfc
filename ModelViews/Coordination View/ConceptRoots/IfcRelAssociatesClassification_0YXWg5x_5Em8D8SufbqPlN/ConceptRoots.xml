@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="22860a85-efe1-4ec0-8348-738a65d19bd7">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcRelAssociatesClassification" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="4e4b940f-ecf6-43b9-9786-f608469b76c6" Type="IfcRelAssociatesClassification" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

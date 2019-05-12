@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="84f28bf9-759c-485e-b866-56a6f3455abe">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcWasteTerminalType" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="76fd636c-d9ce-4e26-88bd-e82b04340077" Type="IfcWasteTerminalType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

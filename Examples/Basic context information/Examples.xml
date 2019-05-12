@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocExample xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Basic context information" UniqueId="2176eecc-2542-44c7-94a4-cf7730d0237b">
+	<Views>
+		<DocModelView xsi:nil="true" href="Design Transfer View" />
+		<DocModelView xsi:nil="true" href="General Usage" />
+		<DocModelView xsi:nil="true" href="Reference View" />
+	</Views>
+</DocExample>
+

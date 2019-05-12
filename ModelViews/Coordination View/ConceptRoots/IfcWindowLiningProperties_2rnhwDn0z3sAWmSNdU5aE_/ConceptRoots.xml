@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="b5c6be8d-c40f-43d8-a830-7179de1643be">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcWindowLiningProperties" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="2c89415a-6bb3-4657-ae1e-ebf8adf50d5b" Type="IfcWindowLiningProperties" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

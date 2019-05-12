@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="a0aa83b0-c490-4b07-9df0-2b767b105f8f">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcPresentationLayerAssignment" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="05d18501-a4fc-4aff-b30f-5afbe446db57" Type="IfcPresentationLayerAssignment" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

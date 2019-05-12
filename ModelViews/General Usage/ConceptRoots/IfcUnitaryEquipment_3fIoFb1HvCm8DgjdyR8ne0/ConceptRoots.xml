@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3fIoFb1HvCm8DgjdyR8ne0">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcUnitaryEquipment" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="1q7XLlznf3lxfQV2Os2cHx">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="cf351def-9c00-47e4-88a7-a7d182d588e7" RuleParameters="RelatingType=IfcUnitaryEquipmentType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="2Q5S1wmOnChgTZZydkuARq">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="1279f362-48e5-4c91-afa8-eb98951116a2" RuleParameters="PsetName=Pset_UnitaryEquipmentTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="828871e2-b0ac-445c-be68-3480848eaa5a">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="14b40cbe-75c8-4430-a743-80c4eb789f24" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="6ce75186-e669-4db4-8cbf-7989f5a38fa1">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="0bf9a02d-be5d-4eb8-b9ba-5c4980db84df" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="2sSYgSWQP1$wkZXWXajGfL">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="f072e5ae-4dce-4cfe-a080-d6d723ee97c8" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_UnitaryEquipmentBaseQuantities;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material" UniqueId="2XYv8Y_pfAQuU6SQcUbimt">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="3c5bdb2d-4fe7-449a-9533-481daa1d9819" RuleParameters="Name=Casing;" Order="0">
+					<Documentation>Material from which the casing is constructed.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Composition" UniqueId="0YpKdVqBf5rv698UglqaAr">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="5a17ae88-ea68-4d32-8ecb-7bf2ab038a4b" RuleParameters="RelatedObjects=IfcDistributionElement;" Order="0">
+					<Documentation>Unitary equipment (air handlers in particular) may elaborate contained elements such as dampers, fans, coils, sensors, actuators, and controllers. Such breakdown provides access to component information and tracking of performance history for embedded elements.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Port" UniqueId="2J3DPsbCP2nf6SfV4AQ1mV">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="157dd6d2-695c-43bb-a465-fc70c67a957b" RuleParameters="PredefinedType=AIRHANDLER;PortName=ReturnAirIn;SystemType=AIRCONDITIONING;Flow=SINK;" Order="0">
+					<Documentation>Return air entering mixture or exhausted.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="58a1f607-3bb5-4a04-91f1-78237d58377f" RuleParameters="PredefinedType=AIRHANDLER;PortName=SupplyAirOut;SystemType=AIRCONDITIONING;Flow=SOURCE;" Order="0">
+					<Documentation>Chilled supply air.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="772baecd-f2c2-430e-a58a-4450a931abc2" RuleParameters="PredefinedType=AIRHANDLER;PortName=OutsideAirIn;SystemType=VENTILATION;Flow=SINK;" Order="0">
+					<Documentation>Outside air entering mixture.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="f837e13d-9681-46fd-8e1c-76f6d4531ca2" RuleParameters="PredefinedType=AIRHANDLER;PortName=ExhaustAirOut;SystemType=EXHAUST;Flow=SOURCE;" Order="0">
+					<Documentation>Exhaust air leaving to outside.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="910d36ec-12f2-4645-8f8c-b21d16aae031" RuleParameters="PredefinedType=AIRHANDLER;PortName=ChilledWaterIn;SystemType=CHILLEDWATER;Flow=SINK;" Order="0">
+					<Documentation>Chilled water entering cooling coil.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="c4121637-259d-4a72-a11c-b1d365021a88" RuleParameters="PredefinedType=AIRHANDLER;PortName=ChilledWaterOut;SystemType=CHILLEDWATER;Flow=SOURCE;" Order="0">
+					<Documentation>Chilled water leaving cooling coil.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="fec993ac-0535-4b8d-a214-0dbeb722fdd1" RuleParameters="PredefinedType=AIRHANDLER;PortName=HeatingIn;SystemType=HEATING;Flow=SINK;" Order="0">
+					<Documentation>Steam entering heating coil.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="85652c37-e760-4ec1-8fb5-f664b8380434" RuleParameters="PredefinedType=AIRHANDLER;PortName=HeatingOut;SystemType=HEATING;Flow=SOURCE;" Order="0">
+					<Documentation>Steam leaving heating coil.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="7ad70e1d-7739-470e-92fd-399ad3aa38ae" RuleParameters="PredefinedType=AIRHANDLER;PortName=Power;SystemType=ELECTRICAL;Flow=SINK;" Order="0">
+					<Documentation>Electrical power source.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="3f98fb65-e3f4-4525-82f9-50437dd8489b" RuleParameters="PredefinedType=AIRHANDLER;PortName=Control;SystemType=CONTROL;Flow=SINK;" Order="0">
+					<Documentation>Control system communication.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="949668b2-f6ce-4de6-9215-92642a19ebff" Type="IfcUnitaryEquipment" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

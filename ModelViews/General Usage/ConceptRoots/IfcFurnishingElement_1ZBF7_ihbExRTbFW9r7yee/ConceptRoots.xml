@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1ZBF7_ihbExRTbFW9r7yee">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcFurnishingElement" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Spatial Containment" UniqueId="09LvaB_3nE0eui$PfwtS$D">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Spatial Containment_3Pe$WY01HBmesKdP1dTP15" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="67cd9f1b-0107-49e2-914c-a6a4a3e27c03" RuleParameters="RelatingStructure=IfcSpace;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="bbf1daaf-234e-4716-9789-422e4c09256e" Type="IfcFurnishingElement" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

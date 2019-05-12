@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2fqzP3f0LAoQD$ME_3QpOR">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcPump" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="2kv5cNygHBXefAZ1I3gC4Q">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="4538a874-78af-4db5-ba1a-fdb3dca193e9" RuleParameters="RelatingType=IfcPumpType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="1Ur09wnFX59vAGTwQKGQ05">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="7a8236ac-a590-412e-b8af-a900926745cf" RuleParameters="PsetName=Pset_PumpOccurrence;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="c8b0ad92-3674-41ba-9cfa-154b7b3615de">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="12437df6-92d2-473c-818f-a38b1c57b94f" RuleParameters="PropertyName=ImpellerDiameter;Value=IfcPositiveLengthMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="f811f60f-3558-43cd-a812-a1cef7afd5c4">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="1b33fcc4-65cd-4e2c-83cf-c0f4db36bc4b" RuleParameters="PropertyName=BaseType;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="b3af901e-ef93-4610-879b-755cb9e24de6" RuleParameters="PropertyName=DriveConnectionType;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="e917aa8c-3ff8-4bce-95e8-ef02f9dd6643" RuleParameters="PsetName=Pset_PumpTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="d1310482-9377-4154-ab5d-9366d085390f">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="49604588-1cde-45de-8f6b-e295c47dc8ba" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="e33be69e-7c43-433f-9709-944f2e72d689" RuleParameters="PropertyName=ConnectionSize;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="b98e564f-18c7-49ea-a945-ab3fcf35bbbb" RuleParameters="PropertyName=NetPositiveSuctionHead;Value=IfcPressureMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="f9b9dadd-e288-4230-ad7e-593c1c4daf5f" RuleParameters="PropertyName=NominalRotationSpeed;Value=IfcRotationalFrequencyMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="cc49d920-8b1c-4d93-96e5-456c6f627d89">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="1852effd-08c8-4473-a674-0d1d829a506f" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="d9e13376-bc49-4859-bd7a-6bb3f38ec63d">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="717121a4-8420-4036-80ab-a3fc90d4aac1" RuleParameters="PropertyName=FlowRateRange;SetValue=IfcMassFlowRateMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="925a5832-6c28-4161-bfe1-5607b95829c6" RuleParameters="PropertyName=FlowResistanceRange;SetValue=IfcPressureMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="78285302-345b-45fd-beb2-8b0df848fd39" RuleParameters="PropertyName=TemperatureRange;SetValue=IfcThermodynamicTemperatureMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="3eBzUlZ0PBVucWuAyfRqJi">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="31bfb8b5-2557-4d49-b498-0f610d1575f9" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_PumpBaseQuantities;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material" UniqueId="3UNwN4OVX2Kf47hZ54mwtT">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="b3397f9d-27d9-4e09-9c1e-0fac4a8945c8" RuleParameters="Name=Casing;" Order="0">
+					<Documentation>Material from which the casing is constructed.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="61a9d28c-95d7-4ea1-8452-5d6f347f0dff" RuleParameters="Name=Impeller;" Order="0">
+					<Documentation>Material from which the impeller of the pump is constructed. In the case of a positive displacement pump, the piston acts as the impeller.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="ea091b28-ce25-458f-b41d-c77f167800d4" RuleParameters="Name=Seal;" Order="0">
+					<Documentation>Material from which the impeller shaft seal of the pump is constructed.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Port" UniqueId="0wwDhbGjnFzBmSw$cU7s9O">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="62164f00-e5c6-46a8-b46d-3f13948ea9e9" RuleParameters="PortName=Power;SystemType=ELECTRICAL;Flow=SINK;" Order="0">
+					<Documentation>Receives electrical power.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="5d8f521d-3fea-4036-afbc-cefa679b9bb5" RuleParameters="PortName=Inlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Fluid entering pump.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="4c790a21-b6a5-487c-ad9c-dba7e2db112e" RuleParameters="PortName=Outlet;SystemType=NOTDEFINED;Flow=SOURCE;" Order="0">
+					<Documentation>Fluid leaving pump.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="b738f7e2-a022-49a7-9007-9c54edd1d97d" Type="IfcPump" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

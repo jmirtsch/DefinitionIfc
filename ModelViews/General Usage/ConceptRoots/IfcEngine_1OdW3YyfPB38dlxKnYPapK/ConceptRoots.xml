@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1OdW3YyfPB38dlxKnYPapK">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcEngine" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="1hU$pXRJjEh9bZpIZs_WYS">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="e2beebe7-a8b5-4b79-ab83-4e36d54b6afc" RuleParameters="RelatingType=IfcEngineType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="0YSxuRJ2D5ouF_TYFmExsw">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="c4483f8b-3d0e-4e7b-a439-bdc25eaa4311" RuleParameters="PsetName=Pset_EngineTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="24ccc03a-5a10-4d6e-a4a6-b5a350310a6a">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="9d5cfbff-3dd1-45b2-b968-fb840f5135db" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="a5f55e1d-8434-40b0-9ed2-4f9f1ce576bc">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="89f39392-2423-4d7a-9bdf-eb7098bed25f" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="d5d580e3-995d-4641-a4e6-03a2ef6cee69" RuleParameters="PropertyName=EnergySource;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Quantity Sets" UniqueId="2_1ubJpaD13eR4ghONpIOO">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="0b8e94ba-606c-4338-bb23-ba8f99d420bd" RuleParameters="QsetName=Qto_EngineBaseQuantities;TemplateType=QTO_OCCURRENCEDRIVEN;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material" UniqueId="0OKO97OurEfuky8tqH4v9M">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="8d195514-2019-4a52-880c-82e6cbfa214d" RuleParameters="Name=Casing;" Order="0">
+					<Documentation>Material from which the casing is constructed.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Port" UniqueId="2PspwpU$H3JhDiO3d4ajqk">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="ee69ee24-0c91-46f2-9afe-52f69f17a0c2" RuleParameters="PortName=Fuel;SystemType=GAS;Flow=SINK;" Order="0">
+					<Documentation>The fuel inlet.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="5762a0f9-19be-4821-96bb-8c40d806bf5d" RuleParameters="PortName=Drive;SystemType=NOTDEFINED;Flow=SOURCE;" Order="0">
+					<Documentation>Connection to the driven source.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="c95a7e32-4e7f-451e-bef7-cf6a93de8a74" Type="IfcEngine" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

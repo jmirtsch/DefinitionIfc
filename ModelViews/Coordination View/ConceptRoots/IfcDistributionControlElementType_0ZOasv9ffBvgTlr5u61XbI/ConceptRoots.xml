@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="23624db9-269a-4be6-a76f-d45e06061952">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcDistributionControlElementType" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="3ee38036-ae2e-45ab-8360-1afb190dfe2a" Type="IfcDistributionControlElementType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

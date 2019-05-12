@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1vlKbcpoLBcxgc875vuHA2">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcWorkSchedule" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Property Sets" UniqueId="8d612617-ca34-4f6c-89c0-941c9c22c159">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Document" UniqueId="1zEYLKXxv4YenTK2ueleWI">
+			<Documentation>&lt;p&gt;
+      The documents of the
+      &lt;em&gt;IfcWorkSchedule&lt;/em&gt; can be referenced by the
+      &lt;em&gt;IfcRelAssociatesDocuments&lt;/em&gt; relationship. &lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Document Association_1zhQwS02P4qwtdceG$ukyB" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Control Assignment" UniqueId="05XGYgZlL6mfnYslFD7UhG">
+			<Documentation>&lt;p&gt;
+      An &lt;em&gt;IfcWorkSchedule&lt;/em&gt; controls a set of tasks and
+      resources defined through &lt;em&gt;IfcRelAssignsToControl&lt;/em&gt;.
+      Additionally, through the &lt;em&gt;IfcWorkControl&lt;/em&gt; abstract
+      supertype, the actors creating the schedule can be
+      specified and schedule time information such as start time,
+      finish time, and total float of the schedule can also be
+      specified.
+    &lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Control Assignment_21FdF_La56IAQ0Y8VFGrdn" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Nesting" UniqueId="3hJLmCPGX7sBFjPm_phR36">
+			<Documentation>&lt;p&gt;A work schedule can include other work schedules as sub-items
+      through &lt;em&gt;IfcRelNests&lt;/em&gt; relationship. 
+    &lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Nesting_0uoeU8NaT178AKrM_UcbQH" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Aggregation" UniqueId="16fQqePjnE88BJHFtlSJ7s">
+			<Documentation>&lt;p&gt;A work schedule can include other work schedules as sub-items. 
+      If not included in another work schedule it might be a part of a work plan
+      (&lt;em&gt;IfcWorkPlan&lt;/em&gt;) defined through &lt;em&gt;IfcRelAggregates&lt;/em&gt; relationship.
+    &lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="423ff327-1bf2-41a3-a373-e07df63c875e" Type="IfcWorkSchedule" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

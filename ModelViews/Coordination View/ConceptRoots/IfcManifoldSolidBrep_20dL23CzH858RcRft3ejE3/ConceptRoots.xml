@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="809d5083-33d4-4814-86e6-6e9dc3a2d383">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcManifoldSolidBrep" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="daa75a58-d7c9-43bb-a26d-a991e7e140d5" Type="IfcManifoldSolidBrep" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

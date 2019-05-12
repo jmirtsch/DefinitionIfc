@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2NGnM1HvT65Ay7j7xBl_J3">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcSlabElementedCase" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Aggregation" UniqueId="2Rr0gTFiL4XgmWWufUL9dZ">
+			<Documentation>&lt;p&gt;The following guidance is provided for the components of the
+&lt;em&gt;IfcSlabElementedCase&lt;/em&gt;. The following component entity types
+should be used:&lt;/p&gt;
+&lt;ul style=&quot;list-style-type:none&quot;&gt;
+&lt;li&gt;Precast hollow core slabs
+&lt;ul style=&quot;list-style-type:square&quot;&gt;
+&lt;li&gt;double tee or plank components : &lt;em&gt;IfcBeam&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;topping : &lt;em&gt;IfcBuildingElementPart&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;others : &lt;em&gt;IfcBuildingElementPart&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="f7c16e38-6012-4e94-b388-6ce613349cc0" RuleParameters="PredefinedType=;RelatedObjects=IfcBeam;" Order="0">
+					<Documentation>Slabs may be aggregated into beams for joists.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="a9a0ca82-2d89-470e-aff0-e1e730fcea69" RuleParameters="PredefinedType=;RelatedObjects=IfcPlate;" Order="0">
+					<Documentation>Slabs may be aggregated into plates for decking.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="60eb8e6e-bb69-40a3-9568-a00f133bccda" RuleParameters="PredefinedType=;RelatedObjects=IfcBuildingElementPart;" Order="0">
+					<Documentation>Slabs may be aggregated into parts for other elements.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Placement" UniqueId="3rHdUsMF9CSQ_26blaJxNx">
+			<Documentation>&lt;p&gt;The use of local placement is defined at the supertype
+&lt;em&gt;IfcSlab&lt;/em&gt;. The local placement of the
+&lt;em&gt;IfcSlabElementedCase&lt;/em&gt; defines the parent coordinate systems
+for the parts within the decomposition. All parts shall be
+positioned relative to the &lt;em&gt;IfcSlabElementedCase&lt;/em&gt;.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Surface Geometry" UniqueId="0BnnX$e6jBQ9QVN5IS$4zn">
+			<Documentation>&lt;p&gt;A three-dimensional surface being a subtype
+of &lt;em&gt;IfcBoundedSurface&lt;/em&gt; defining the reference surface for
+the elemented slab. It maybe used as a simplified representation
+directly at the elemented slab.&lt;/p&gt;
+
+
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; It is invalid to exhange a &apos;Body&apos; shape 
+representation of an &lt;em&gt;IfcSlabElementedCase&lt;/em&gt;. The body
+geometry is defined by the parts within the 
+decomposition.&lt;/blockquote&gt;
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The &apos;Surface&apos; can be used to define a
+surfacic model of the building (e.g. for analytical purposes, or
+for reduced Level of Detail representation). It should suppress
+the geometric details of the parts in the
+decomposition.&lt;/blockquote&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Surface Geometry_0kcTvm_tD7ZvlAJ_tzwqwb" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="fa99823f-2eb7-4a70-97ba-33b8b0558329" Type="IfcSlabElementedCase" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

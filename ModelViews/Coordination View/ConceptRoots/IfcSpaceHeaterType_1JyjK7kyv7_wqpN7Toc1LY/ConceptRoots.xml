@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="53f2d507-bbce-47fb-ad33-5c7772981562">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcSpaceHeaterType" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="bcc68713-73b5-40f0-ba0c-e03a12d72fcf" Type="IfcSpaceHeaterType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

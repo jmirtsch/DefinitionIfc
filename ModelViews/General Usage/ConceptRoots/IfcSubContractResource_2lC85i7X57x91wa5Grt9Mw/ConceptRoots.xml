@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2lC85i7X57x91wa5Grt9Mw">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcSubContractResource" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="3iPayMoZf8GRooHcRNtduq">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Resource Assignment" UniqueId="31vxQvth521Or1clOQw7Ff">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Resource Assignment_0cKfk8v5r86A7E0heIa1j_" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="9fbebbfa-3c32-468b-af94-3bfbe63789bf" RuleParameters="Type=IfcActor;" Order="0">
+					<Documentation>Indicates a specific organization to be considered to fulfill the resource or invited to bid on the resource.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="e758152a-0135-4f40-91ca-552e623aa707" Type="IfcSubContractResource" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

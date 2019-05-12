@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1S$HuIM5f1VeDqWoSIYv6$">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcInterceptor" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="3gjeGj1iP1$eGDLDMkpRb9">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="e3999167-298e-4c0b-842c-efee00c659ec" RuleParameters="RelatingType=IfcInterceptorType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="06rcx1YCfFhRhRjx$cVRRc">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="974453f2-6ebb-40c5-8f18-d654c9dd6e9c" RuleParameters="PsetName=Pset_InterceptorTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="d50c6eb0-04b8-46b0-a14d-afadf133e310">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="647e1769-bdb1-42ec-b4a1-b549c06df103" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="6c356b61-0442-44eb-958b-cabea15f7046" RuleParameters="PropertyName=NominalBodyLength;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="8aa0abc6-531a-4a4e-9763-f618caf83473" RuleParameters="PropertyName=NominalBodyWidth;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="d26657b0-52fa-4d9e-b86b-78bcd86a17b8" RuleParameters="PropertyName=NominalBodyDepth;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="17c86885-35fa-44d0-bb29-d38ec2ebb09a" RuleParameters="PropertyName=InletConnectionSize;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="8e3578b9-bed2-4345-917b-4989aac39f57" RuleParameters="PropertyName=OutletConnectionSize;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="26d16f2a-7293-4d8f-ace6-243fcd59e4df" RuleParameters="PropertyName=CoverLength;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="91907f12-1a88-4c9d-8f20-128aa0f17661" RuleParameters="PropertyName=CoverWidth;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="7efeffef-d41e-49fa-8363-87cf7551f40d" RuleParameters="PropertyName=VentilatingPipeSize;Value=IfcPositiveLengthMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="fbe6ec18-4ef2-4600-b908-96106175c5fe">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="b304e71e-9e10-4430-aa3f-3fd54d4d77c8" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="06vuGN3CT0xevgFrExl2Xj">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="0547e9a5-0447-4cea-aead-41a8888efde9" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_InterceptorBaseQuantities;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material" UniqueId="2yZkpsAEj7igko0U_n8quJ">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="5f799c77-26d9-4dbd-aaf9-b318994b9afa" RuleParameters="Name=Casing;" Order="0">
+					<Documentation>Material from which the casing is constructed.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="8791244d-9323-4acf-834d-5d14638e6316" RuleParameters="Name=Cover;" Order="0">
+					<Documentation>Material from which the cover or grating is constructed.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="67f80c34-314c-4889-a8d0-5a508b3fbeee" RuleParameters="Name=Strainer;" Order="0">
+					<Documentation>Material from which the strainer is constructed.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Port" UniqueId="0THLDgT8b5WPJfow8xT7e4">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="a1ac3dec-5040-4ce4-916f-cbd67042b0ec" RuleParameters="PortName=Inlet;SystemType=DRAINAGE;Flow=SINK;" Order="0">
+					<Documentation>Inlet drainage.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="6ca18182-d2c6-4895-bc77-e7dcbd32ce5b" RuleParameters="PortName=Outlet;SystemType=DRAINAGE;Flow=SOURCE;" Order="0">
+					<Documentation>Outlet drainage.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="7eb99a11-2384-43d3-aabb-fb757d1e3371" Type="IfcInterceptor" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

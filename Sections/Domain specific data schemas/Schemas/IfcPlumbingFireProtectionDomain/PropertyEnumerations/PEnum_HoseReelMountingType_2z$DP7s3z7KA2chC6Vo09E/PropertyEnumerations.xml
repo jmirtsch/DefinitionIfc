@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="PEnum_HoseReelMountingType" UniqueId="bdfcd647-d83f-4750-a0a6-acc19fc8024e">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="CABINET_RECESSED_1lMZYdY49DZfPdLYNKAMME" />
+		<DocPropertyConstant xsi:nil="true" href="CABINET_SEMIRECESSED_0_HAq$Xn9AkPIPn_Zm9tGd" />
+		<DocPropertyConstant xsi:nil="true" href="SURFACE_282ybriTT2Sg0uWoQ$6o1N" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_1n0U4vTHf3rewywYSgRtiR" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_175w_5niTF7AmTt1B2TFYA" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_0u8D8L4UbALwgr9WlZzRsG" />
+	</Constants>
+</DocPropertyEnumeration>
+

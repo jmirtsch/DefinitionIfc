@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1TroneRM13EP68c_n2oocW">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcElementComponent" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage UniqueId="2CaoFNse1F_R4pdX3_i9ZA">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="f0b363f6-a036-4b41-82d2-895b67852d3d" RuleParameters="PsetName=Pset_ElementComponentCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="f28bbd78-e4d7-4389-ae39-df2a9028c4c0">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="787b86cf-edb8-4f33-80d7-564d7bdc30f2" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="465b016a-4a9c-4ff7-b2f5-9e5e152eb63f">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="08f63568-0b74-4ed3-b49e-8b7d7fc47170" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="aa1f90eb-7305-4b89-a57f-76f0baee01a1" RuleParameters="PropertyName=DeliveryType;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="73891b53-f764-4780-971e-440398b1b4c6" RuleParameters="PropertyName=CorrosionTreatment;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Mapped Geometry" UniqueId="03a4f14f-e3a7-43d8-8ecf-44561c984578">
+			<Documentation>&lt;p&gt;The mapped item, &lt;em&gt;IfcMappedItem&lt;/em&gt;, should be used if appropriate as it allows for reusing the geometry definition of a type at all occurrences of the same type.&lt;/p&gt;
+
+&lt;p&gt;A single instance of a subtype of &lt;em&gt;IfcElementComponent&lt;/em&gt; can stand for several 
+actual element components at once.  In this case, the &lt;em&gt;IfcShapeRepresentation&lt;/em&gt;
+contains as many mapped items as there are element components combined within this
+ occurrence object.&lt;/p&gt;
+
+
+
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table&gt;
+
+ &lt;tr&gt;
+  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcelementcomponent_multiple.png&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 268 illustrates multiple components modeled as a single occurrence object (here: &lt;em&gt;IfcFastener&lt;/em&gt;)&lt;/p&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+&lt;tr&gt;
+  &lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 268 &amp;mdash; Element component mapped representation&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;p&gt;&amp;nbsp;&lt;/td&gt;
+ &lt;/tr&gt;
+
+&lt;/table&gt;
+
+
+
+&lt;p&gt;Representation identifier and type are the same as in single mapped representation.
+The number of mapped items in the representation corresponds with the count of
+element components in the &lt;em&gt;IfcElementQuantity&lt;/em&gt;.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Mapped Geometry_3i$TV8STL4dxyWvZebtBcw" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="3282aef3-e26f-48e3-b7d0-6ec5f227cf12" Type="IfcElementComponent" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

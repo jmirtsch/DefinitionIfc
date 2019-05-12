@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2Yi7D_7$P78xR3C1pTAwEA">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcCurtainWall" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="3E88VxAgD6VfplBhYzXFUs">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="54c3fb43-8d80-4725-8cba-6409cfbd5ec2" RuleParameters="RelatingType=IfcCurtainWallType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="2rkeMCMlz3APcwcFYFIqu3">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="02b16ebd-4b88-4ee6-9a4d-dc4b58ea24e3" RuleParameters="PsetName=Pset_CurtainWallCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="d476f2ac-e15b-4a00-8feb-0d05277accfe">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="d007f1c2-a137-4bdd-835b-b03b6e725018" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="7229dfb4-bae1-41fc-ac43-4e67e0d939ed" RuleParameters="PropertyName=AcousticRating;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="2a190a16-090a-49ea-bed4-1aecf06283ea" RuleParameters="PropertyName=FireRating;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="c55691cd-ebce-4f4c-ae5f-006ef14cbb2a" RuleParameters="PropertyName=Combustible;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="ce457964-ba8a-472f-8829-b68921c80849" RuleParameters="PropertyName=SurfaceSpreadOfFlame;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="6efe08f0-7f8c-4163-9882-e54b40e03e23" RuleParameters="PropertyName=ThermalTransmittance;Value=IfcThermalTransmittanceMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="00aff034-ec2a-45bb-bbc6-f40dea7ae817" RuleParameters="PropertyName=IsExternal;Value=IfcBoolean;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="81c50bba-4572-4202-a6b1-81c104cdf2e5">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="40a4ac9b-d17e-4a5a-b89a-8e66f736a6f0" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="3rk4GWtCj9KQrUHQGQUcgI">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="554f4737-9ac4-4001-9c6d-345a8e1b4e58" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_CurtainWallQuantities;TemplateType=QTO_OCCURRENCEDRIVEN;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Spatial Containment" UniqueId="7cbd5f96-fbd4-46ac-9544-0a0a00366214">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Spatial Containment_3Pe$WY01HBmesKdP1dTP15" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="a3ff47da-78cb-48ca-8f68-377a9020206e" RuleParameters="RelatingStructure=IfcBuildingStorey;" Order="0">
+					<Documentation>Default spatial container</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="b24868f8-cee6-4d11-b690-72955e8a7a25" RuleParameters="RelatingStructure=IfcBuilding;" Order="0">
+					<Documentation>Spatial container for the element if it cannot be assigned to a building storey - curtain wall facades may be assigned directly to the building</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="6d72e844-5c71-44c1-a465-000988f41143" RuleParameters="RelatingStructure=IfcSite;" Order="0">
+					<Documentation>Spatial container for the element in case that it is placed on site (outside of building)</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Placement" UniqueId="2WwkHYOKDFyxaH_e527kbi">
+			<Documentation>&lt;p&gt;The following restriction may be imposed by view definitions or implementer agreements:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;If the &lt;em&gt;IfcCurtainWall&lt;/em&gt; establishes an aggregate, then
+all contained elements shall be placed relative to the
+&lt;em&gt;IfcCurtainWall.ObjectPlacement&lt;/em&gt;.&lt;/li&gt;&lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Axis 2D Geometry" UniqueId="05ce60f3-e203-4c86-9eb3-ae9dba04e770">
+			<Documentation>&lt;p&gt;The following additional constraints apply to the &apos;Axis&apos; 
+representation:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;Geometry&lt;/u&gt; : &lt;em&gt;IfcPolyline&lt;/em&gt; having two &lt;em&gt;Points&lt;/em&gt;, or
+&lt;em&gt;IfcTrimmedCurve&lt;/em&gt; with &lt;em&gt;BasisCurve&lt;/em&gt; of type 
+&lt;em&gt;IfcLine&lt;/em&gt; or &lt;em&gt;IfcCircle&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Axis 2D Geometry_1u94Jere57Mf0qgUVrF6rb" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="a3755271-a2a8-4471-96f7-ddaff8d4742a" Type="IfcCurtainWall" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

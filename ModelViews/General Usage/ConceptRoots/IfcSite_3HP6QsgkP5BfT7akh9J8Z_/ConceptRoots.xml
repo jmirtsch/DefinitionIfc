@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3HP6QsgkP5BfT7akh9J8Z_">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcSite" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Spatial Composition" UniqueId="a7ebd0cc-b9f8-40f6-9f9e-53e24c4c1278">
+			<Documentation>&lt;p&gt;By using the inverse relationship &lt;em&gt;IfcSite.Decomposes&lt;/em&gt; it references &lt;em&gt;IfcProject&lt;/em&gt; ||
+&lt;em&gt;IfcSite&lt;/em&gt; through &lt;em&gt;IfcRelAggregates.RelatingObject&lt;/em&gt;, If it 
+refers to another instance of &lt;em&gt;IfcSite&lt;/em&gt;, the referenced
+ &lt;em&gt;IfcSite&lt;/em&gt; needs to have a different and higher 
+&lt;em&gt;CompositionType&lt;/em&gt;, i.e. COMPLEX (if the other &lt;em&gt;IfcSite&lt;/em&gt;
+ has ELEMENT), or ELEMENT (if the other &lt;em&gt;IfcSite&lt;/em&gt; has 
+PARTIAL).&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Spatial Composition_2C3zBtSRjERe$R30ApKl5A" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Spatial Decomposition" UniqueId="7afd1725-9992-4b62-b6da-6f2c9bae8177">
+			<Documentation>&lt;p&gt;By using the inverse relationship &lt;em&gt;IfcSite.IsDecomposedBy&lt;/em&gt; it references (em&gt;IfcSite&lt;/em&gt; ||
+&lt;em&gt;IfcBuilding&lt;/em&gt; || &lt;em&gt;IfcSpace&lt;/em&gt; by
+ &lt;em&gt;IfcRelAggregates.RelatedObjects&lt;/em&gt;. If it refers to another
+instance of &lt;em&gt;IfcSite&lt;/em&gt;, the referenced &lt;em&gt;IfcSite&lt;/em&gt; needs to 
+have a different and lower &lt;em&gt;CompositionType&lt;/em&gt;, i.e. ELEMENT (if the
+ other &lt;em&gt;IfcSite&lt;/em&gt; has COMPLEX), or PARTIAL (if the other
+&lt;em&gt;IfcSite&lt;/em&gt; has ELEMENT).&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Spatial Decomposition_1cVuH3xCvAZQO$an_h15FW" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Spatial Container" UniqueId="8c4c40f5-f6ce-4a82-9ac3-1632962f9a75">
+			<Documentation>&lt;p&gt;If there are building elements and/or other elements directly
+ related to the &lt;em&gt;IfcSite&lt;/em&gt; (like a fence, or a shear wall), they 
+are associated with the &lt;em&gt;IfcSite&lt;/em&gt; by using the objectified
+ relationship &lt;em&gt;IfcRelContainedInSpatialStructure&lt;/em&gt;. The
+ &lt;em&gt;IfcIfcSite&lt;/em&gt; references them by its inverse relationship:&lt;/p&gt;
+
+&lt;ul&gt;
+ 
+&lt;li&gt;&lt;em&gt;IfcSite.ContainsElements&lt;/em&gt; -- referencing any subtype of
+&lt;em&gt;IfcProduct&lt;/em&gt; (with the exception of other spatial structure
+element) by
+&lt;em&gt;IfcRelContainedInSpatialStructure.RelatedElements&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Spatial Container_1XtGZj$G59LPCtYlqeIWvl" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="0meLZbemf0qhWVGqd3Uv6r">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="e0840e32-f120-4a11-bf2f-63fc90cb7267" RuleParameters="PsetName=Pset_LandRegistration;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="63d6d72e-a1e7-413c-9643-e01cd941873a">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="9d93bcc3-6272-42d4-b5fe-dbfd0ba890e7" RuleParameters="PropertyName=LandID;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="fd8120f3-c047-4cbb-8266-448eb7228bcb" RuleParameters="PropertyName=IsPermanentID;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="b7ce38a0-19b9-4e98-8f6b-0aa9be26c183" RuleParameters="PropertyName=LandTitleID;Value=IfcIdentifier;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="87101b75-cd80-4a32-b5b4-10c8e613b8c5" RuleParameters="PsetName=Pset_SiteCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="5caef365-ba30-480e-a19d-326c4e21f06f">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="38d55b4f-6850-4540-91df-5a19d3ae4c8e" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="192a11d7-6a55-40e9-973e-7a7751f0f2e4" RuleParameters="PropertyName=BuildableArea;Value=IfcAreaMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="bfcf1d5c-965e-4a26-a30c-34ef61a75499" RuleParameters="PropertyName=SiteCoverageRatio;Value=IfcPositiveRatioMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="568564b0-cd2d-4bd9-a490-6e368353fc7a" RuleParameters="PropertyName=FloorAreaRatio;Value=IfcPositiveRatioMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="88c77418-1639-433d-aeb8-e17374794d8b" RuleParameters="PropertyName=BuildingHeightLimit;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="44e012a7-e432-4a9f-ad8c-37010257074e" RuleParameters="PropertyName=TotalArea;Value=IfcAreaMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="0kBCb3dVf67g$VzholYYqO">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="411e23c0-6557-4b2f-9856-91ad478933f8" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_SiteBaseQuantities;TemplateType=QTO_OCCURRENCEDRIVEN;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Placement" UniqueId="0p9uoKL79EtuRQPNa9uWiO">
+			<Documentation>&lt;p&gt;The local placement for &lt;em&gt;IfcSite&lt;/em&gt; is defined in its
+supertype &lt;em&gt;IfcProduct&lt;/em&gt;. It is defined by the
+&lt;em&gt;IfcLocalPlacement&lt;/em&gt;, which defines the local coordinate system
+that is referenced by all geometric representations.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;em&gt;PlacementRelTo&lt;/em&gt; relationship of
+&lt;em&gt;IfcLocalPlacement&lt;/em&gt; shall point to the
+&lt;em&gt;IfcSpatialStructureElement&lt;/em&gt; of type &quot;&lt;em&gt;IfcSite&lt;/em&gt;&quot;, if
+relative placement is used (e.g. to position a site relative a a
+site complex, or a site section to a site).&lt;/li&gt;
+&lt;li&gt;If the relative placement is not used, the absolute placement
+is defined within the world coordinate system. If there is only one
+site object, then this is the default situation.&lt;/li&gt;
+&lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="FootPrint GeomSet Geometry" UniqueId="4edce3c7-a773-463d-8d0c-2e720b16fe38">
+			<Documentation>&lt;p&gt;The foot print representation of &lt;em&gt;IfcSite&lt;/em&gt; is given by
+either a single 2D curve (such as &lt;em&gt;IfcPolyline&lt;/em&gt; or
+&lt;em&gt;IfcCompositeCurve&lt;/em&gt;), or by a list of 2D curves (in case of
+inner boundaries).&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="FootPrint GeomSet Geometry_2KLjRMfYf8jBh$lYuukgoS" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Survey Points Geometry" UniqueId="2tDySYmDTFGhe7QvfgwmeA">
+			<Documentation>&lt;p&gt;The survey point representation of &lt;em&gt;IfcSite&lt;/em&gt; is defined
+using a set of survey points and optionally breaklines. The
+breaklines are restricted to only connect points given in the set
+of survey points. Breaklines, if given, are used to constrain the
+triangulation.&lt;/p&gt;
+&lt;p&gt;The representation identifier and type of this geometric
+representation of &lt;em&gt;IfcSite&lt;/em&gt; is:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;IfcShapeRepresentation.RepresentationIdentifier&lt;/em&gt; =
+&apos;SurveyPoints&apos;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;IfcShapeRepresentation.RepresentationType&lt;/em&gt; =
+&apos;GeometricCurveSet&apos;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Figure 177 shows a set of survey points, given as 3D Cartesian points within the object coordinate system of the site.  Figure 178 shows the result after facetation.&lt;/p&gt;
+&lt;p&gt;The set of &lt;em&gt;IfcCartesianPoint&lt;/em&gt; is included in the set of &lt;em&gt;IfcGeometricCurveSet.Elements&lt;/em&gt;.&lt;/p&gt;
+
+&lt;table cellpadding=&quot;2&quot; cellspacing=&quot;2&quot; summary=&quot;survey points representation&quot;&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;../../../figures/ifcsite-standard-points.gif&quot; alt=&quot;points only&quot; border=&quot;0&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;../../../figures/ifcsite-standard-facets-points.gif&quot; alt=&quot;facetation of points&quot; border=&quot;0&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width=&quot;400&quot;&gt;&lt;p class=&quot;figure&quot;&gt;Figure 177 &amp;mdash; Site survey points&lt;/p&gt;&lt;/td&gt;
+&lt;td width=&quot;400&quot;&gt;&lt;p class=&quot;figure&quot;&gt;Figure 178 &amp;mdash; Site survey points facetation&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Figure 179 shows A set of survey points, given as 3D Cartesian points, and a set of break points, given as a set of lines, connecting some survey points, within the object coordinate system of the site.  Figure 180 shows the result after facetation.&lt;/p&gt;
+&lt;p&gt;The set of &lt;em&gt;IfcCartesianPoint&lt;/em&gt; and the set of &lt;em&gt;IfcPolyline&lt;/em&gt; are included in the set of &lt;em&gt;IfcGeometricCurveSet.Elements&lt;/em&gt;.&lt;/p&gt;
+
+&lt;table cellpadding=&quot;2&quot; cellspacing=&quot;2&quot; summary=&quot;survey points representation&quot;&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&quot;../../../figures/ifcsite-standard-breaklines.gif&quot; alt=&quot;breaklines&quot; border=&quot;0&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;../../../figures/ifcsite-standard-facets-breaklines.gif&quot; alt=&quot;facetation with breakpoints&quot; border=&quot;0&quot; height=&quot;300&quot; width=
+&quot;400&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td width=&quot;400&quot;&gt;&lt;p class=&quot;figure&quot;&gt;Figure 179 &amp;mdash; Site breaklines&lt;/p&gt;&lt;/td&gt;
+&lt;td width=&quot;400&quot;&gt;&lt;p class=&quot;figure&quot;&gt;Figure 180 &amp;mdash; Site breaklines facetation&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The geometric representation of the site has been based on the ARM level description of the site_shape_representation given within the ISO 10303-225 &quot;Building Elements using explicit shape representation&quot;.&lt;/blockquote&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Survey Points Geometry_0gaFKlUM5DlOLWL6uj2tEx" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="3b89bb6c-e046-46a4-9b02-dd8065062c22" RuleParameters="RepresentationType=GeometricCurveSet;Geometry=IfcGeometricCurveSet;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body Geometry" UniqueId="2TbHaVOgL8i9RMYRyndbNU">
+			<Documentation>&lt;p&gt;The body representation of &lt;em&gt;IfcSite&lt;/em&gt; is defined using a
+solid or surface model. Applicable solids are the
+&lt;em&gt;IfcFacetedBrep&lt;/em&gt; or on the &lt;em&gt;IfcFacetedBrepWithVoids&lt;/em&gt;,
+applicable surface models are the &lt;em&gt;IfcFaceBasedSurfaceModel&lt;/em&gt;
+and the &lt;em&gt;IfcShellBasedSurfaceModel&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The representation identifier and type of this representation of
+&lt;em&gt;IfcSite&lt;/em&gt; is:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;IfcShapeRepresentation.RepresentationIdentifier&lt;/em&gt; =
+&apos;Body&apos;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;IfcShapeRepresentation.RepresentationType&lt;/em&gt; = &apos;Brep&apos;, or
+&apos;SurfaceModel&apos;&lt;/li&gt;
+&lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body Geometry_34HhqMBUDBbxDFH4Qi2wt2" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="41464663-1983-4039-8d14-e89360b4a5c2" RuleParameters="RepresentationType=Brep;Geometry=IfcFacetedBrep;" Order="0" />
+				<DocTemplateItem UniqueId="29984848-6e13-4373-a2c8-30532cf4980a" RuleParameters="RepresentationType=SurfaceModel;Geometry=IfcFaceBasedSurfaceModel;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="f80e96bc-724b-4d7d-9267-70b14214a02e" Type="IfcSite" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

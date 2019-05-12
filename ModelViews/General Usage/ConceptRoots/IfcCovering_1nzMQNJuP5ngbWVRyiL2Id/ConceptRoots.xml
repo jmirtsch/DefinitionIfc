@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1nzMQNJuP5ngbWVRyiL2Id">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcCovering" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="3YnYxSVz11v9w9N3IBPKal">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="09V3_HkZzCa9K3I7FbRdM7">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="e739f404-4cc5-46b5-9c5e-153d5792835a" RuleParameters="PsetName=Pset_CoveringCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="7a31d64f-5649-4f3e-b77f-293112eebd7a">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="7358a7ba-4726-49d0-98d5-c429ee4c4fd3" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="990c91b9-ebe9-4b47-879e-8377f7115445" RuleParameters="PropertyName=FireRating;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="48f6e65f-8ca2-4ced-8c6a-2611b060871a" RuleParameters="PropertyName=AcousticRating;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="0d46245b-8378-421a-adf4-4e48b5d0037b" RuleParameters="PropertyName=FlammabilityRating;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="12cbc436-97c1-4c84-997b-c475419cb495" RuleParameters="PropertyName=FragilityRating;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="963214a8-dfc6-4ae1-9bd7-6305704a1a38" RuleParameters="PropertyName=SurfaceSpreadOfFlame;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="39db1ada-cfab-46ee-92f4-02d57129d49f" RuleParameters="PropertyName=Combustible;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="5f9a6921-86ee-4178-861a-41cdf005de9d" RuleParameters="PropertyName=IsExternal;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="c2fad6cd-23c4-4777-89ee-543cf352cd4d" RuleParameters="PropertyName=ThermalTransmittance;Value=IfcThermalTransmittanceMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="b27f1227-45c2-4253-bf88-78fcf15f1498" RuleParameters="PropertyName=Finish;Value=IfcText;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="4863a06b-3169-437f-9ef3-415bb4dce34c">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="b04b8ed5-528a-4793-9603-6cc8fb471c86" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="0vTIEnZCL1SgwiqTS$Yh01">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="336ef34e-b2ff-4fe1-b56e-e01da43ef0db" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_CoveringBaseQuantities;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Spatial Containment" UniqueId="32JzPSCN92ZwuW1uXh6Uok">
+			<Documentation>&lt;p&gt;The &lt;em&gt;IfcCovering&lt;/em&gt; has a containment relationship within the
+hierarchical spatial structure.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;em&gt;IfcCovering&lt;/em&gt; is places within the project spatial
+hierarchy using the objectified relationship
+&lt;em&gt;IfcRelContainedInSpatialStructure&lt;/em&gt;, referring to it by its
+inverse attribute &lt;em&gt;SELF\IfcElement.ContainedInStructure&lt;/em&gt;.
+Subtypes of &lt;em&gt;IfcSpatialStructureElement&lt;/em&gt; are valid spatial
+containers, with &lt;em&gt;IfcSpace&lt;/em&gt; being the default container.&lt;/li&gt;
+&lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Spatial Containment_3Pe$WY01HBmesKdP1dTP15" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="2a2296c1-866e-4658-994a-6664f50a9fc4" RuleParameters="RelatingStructure=IfcSpace;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material Layer Set Usage" UniqueId="0J5ygHHYjB$gbHYnuClGgb">
+			<Documentation>&lt;p&gt;Coverings for surfaces (CEILING, FLOORING, CLADDING, CEILING, ROOFING) may have materials defined according to layers.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Layer Set Usage_1jNxXlFor9_vKe1tXLtSn7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="dff0070f-8a06-425f-8e00-cca108892eb6" RuleParameters="Name=Front;" Order="0">
+					<Documentation>Optional front-facing material of layer-based coverings such as drywall paper.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="c6a372d4-0382-48fa-bc3c-18b8918e2fa0" RuleParameters="Name=Fill;" Order="0">
+					<Documentation>The solid material of layer-based coverings such as drywall gypsum.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="9405f34e-8890-4fbe-b545-058c93a6afc8" RuleParameters="Name=Back;" Order="0">
+					<Documentation>Optional back-facing material of layer-based coverings such as drywall paper.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material Profile Set Usage" UniqueId="2U2yE2Kfv0oOEFlu7Ac9We">
+			<Documentation>&lt;p&gt;Coverings for edges (MOLDING, SKIRTINGBOARD) may have materials defined according to profiles.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set Usage_1ge1GfjMPBDeTQCM88YfWn" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="6888fab9-eae0-4353-9cf2-1c4ec563ec35" RuleParameters="Name=Trim;" Order="0">
+					<Documentation>Profile of trim such as crown molding or base molding.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Surface Geometry" UniqueId="3fuqys6dHAvAfPf22C$SvZ">
+			<Documentation>&lt;p&gt;The following additional constraints apply to the &apos;GeometricSet&apos;
+representation of &lt;em&gt;IfcCovering&lt;/em&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+
+&lt;li&gt;for planar base surfaces - bounded surface representation&lt;/li&gt;
+
+&lt;li&gt;for cylindrical base surfaces - swept surface
+representation&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;table&gt;
+
+ &lt;tr&gt;
+
+  &lt;td&gt;&lt;img src=&quot;../../../figures/ifccovering_standard-1-layout1.gif&quot; alt=
+&quot;standard planar covering&quot; border=&quot;0&quot; height=&quot;274&quot; width=
+&quot;399&quot;&gt;&lt;/td&gt;
+
+  &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 212 illustrates a planar surface representation where the
+area of &lt;em&gt;IfcCovering&lt;/em&gt; is given by an &lt;em&gt;IfcPolyLoop&lt;/em&gt; for
+planar base surfaces (here provided by the
+&lt;em&gt;IfcRelSpaceBoundary&lt;/em&gt;). The implicit planar surface of the &lt;em&gt;IfcPolyLoop&lt;/em&gt; shall be
+identical with the planar surface defined by the
+&lt;em&gt;IfcRelSpaceBoundary&lt;/em&gt;.&lt;/p&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+
+ &lt;tr&gt;
+
+  &lt;td&gt;
+&lt;p class=&quot;figure&quot;&gt;Figure 212 &amp;mdash; Covering surface planar&lt;/p&gt;
+&lt;/td&gt;
+
+ &lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;table&gt;
+
+ &lt;tr&gt;
+
+  &lt;td&gt;&lt;img src=&quot;../../../figures/ifccovering_standard-2-layout1.gif&quot; alt=
+&quot;standard cylindrical covering&quot; border=&quot;0&quot; height=&quot;274&quot; width=
+&quot;399&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 213 illustrates a cylindrical surface representation where
+the area of the &lt;em&gt;IfcCovering&lt;/em&gt; is given by an
+&lt;em&gt;IfcSurfaceOfLinearExtrusion&lt;/em&gt; for cylindrical base surfaces
+(here given by the &lt;em&gt;IfcRelSpaceBoundary&lt;/em&gt;, such as caused by a
+round wall).&lt;/blockquote&gt;
+  &lt;blockquote&gt;
+
+   &lt;ul&gt;
+    
+&lt;li class=&quot;small&quot;&gt;The geometry representation of the &lt;em&gt;IfcCovering&lt;/em&gt; is given
+by the &lt;em&gt;IfcTrimmedCurved&lt;/em&gt; (the Curve parameter of the
+&lt;em&gt;IfcArbitraryOpenProfileDef&lt;/em&gt; - in cases of faceted
+representation also an &lt;em&gt;IfcPolyline&lt;/em&gt;). It is extruded within
+the plane of the base surface using the &lt;em&gt;Depth&lt;/em&gt; parameter of
+the &lt;em&gt;IfcSurfaceOfLinearExtrusion&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;/td&gt;
+ 
+&lt;/tr&gt;
+ 
+&lt;tr&gt;
+
+  &lt;td&gt;
+&lt;p class=&quot;figure&quot;&gt;Figure 213 &amp;mdash; Covering surface
+cylindrical&lt;/p&gt;
+&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+
+&lt;/tr&gt;
+
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Surface Geometry_0kcTvm_tD7ZvlAJ_tzwqwb" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body SweptSolid Geometry" UniqueId="57fa00e6-30ca-4650-8686-9f8fc8fbb90b">
+			<Documentation>&lt;p&gt;The following additional constraints apply to the &apos;SweptSolid&apos;
+representation of &lt;em&gt;IfcCovering&lt;/em&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+
+&lt;li&gt;for planar base surfaces - swept area representation&lt;/li&gt;
+
+&lt;li&gt;for cylindrical base surfaces - swept area representation&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;table&gt;
+ 
+&lt;tr&gt;
+  
+&lt;td&gt;&lt;img src=&quot;../../../figures/ifccovering_advanced-1-layout1.gif&quot; alt=
+&quot;advanded solid covering&quot; border=&quot;0&quot; height=&quot;274&quot; width=&quot;399&quot;&gt;&lt;/td&gt;
+
+  &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 214 illustrates a body representation where the volume of
+&lt;em&gt;IfcCovering&lt;/em&gt; is given by an &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt; for
+planar base surfaces (here given by the
+&lt;em&gt;IfcRelSpaceBoundary&lt;/em&gt;). The extruded area (&lt;em&gt;IfcArbitraryClosedProfileDef&lt;/em&gt;) shall 
+be coplanar to the surface defined by the
+&lt;em&gt;IfcRelSpaceBoundary&lt;/em&gt;.
+&lt;/blockquote&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+
+ &lt;tr&gt;
+  
+&lt;td&gt;
+&lt;p class=&quot;figure&quot;&gt;Figure 214 &amp;mdash; Covering body planar&lt;/p&gt;
+&lt;/td&gt;
+
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+ &lt;/tr&gt;
+
+&lt;/table&gt;
+
+
+&lt;table&gt;
+ 
+&lt;tr&gt;
+  
+&lt;td&gt;&lt;img src=&quot;../../../figures/ifccovering_advanced-2-layout1.gif&quot; alt=
+&quot;advanced solid covering&quot; border=&quot;0&quot; height=&quot;274&quot; width=&quot;399&quot;&gt;&lt;/td&gt;
+
+  &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 215 illustrates a body representation where the volume of
+the &lt;em&gt;IfcCovering&lt;/em&gt; is given by an &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt;
+for cylindrical base surfaces (here given by the
+&lt;em&gt;IfcRelSpaceBoundary&lt;/em&gt; - such as caused by a round wall).&lt;/blockquote&gt;
+  &lt;blockquote&gt;
+   
+&lt;ul&gt;
+&lt;li class=&quot;small&quot;&gt;The geometry representation of the &lt;em&gt;IfcCovering&lt;/em&gt; is given
+by the &lt;em&gt;IfcCompositeCurve&lt;/em&gt; (the &lt;em&gt;OuterCurve&lt;/em&gt; parameter of
+the &lt;em&gt;IfcArbitraryClosedProfileDef&lt;/em&gt; - in cases of faceted
+representation also a closed &lt;em&gt;IfcPolyline&lt;/em&gt;). It is extruded
+along the plane of the base surface using the &lt;em&gt;Depth&lt;/em&gt;
+parameter of the &lt;em&gt;IfcSurfaceOfLinearExtrusion&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/blockquote&gt;
+ &lt;/td&gt;
+ &lt;/tr&gt;
+ 
+&lt;tr&gt;
+  
+&lt;td&gt;
+&lt;p class=&quot;figure&quot;&gt;Figure 215 &amp;mdash; Covering body circular&lt;/p&gt;
+&lt;/td&gt;
+
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+ &lt;/tr&gt;
+
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="a4547d8d-9cf6-4580-8d3c-4f5a8da0febf" Type="IfcCovering" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

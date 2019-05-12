@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0ef29a62-58a8-47c1-8412-35ebc9ba4d90">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcWindow" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Property Sets for Objects" UniqueId="c0aacca3-18cd-4c20-bcac-acd4fce97d89">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="a2409e72-02fa-43fb-954f-aceec40b3259" RuleParameters="PsetName=Pset_WindowCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="f26f959f-42e3-4883-b97b-5d634437d0b9">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="e485e88a-6636-4d56-b53b-d76e19d3b8ad" RuleParameters="Order=1;PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="b3d5f1ad-3c9c-40f1-9673-c61647d4e9e0" RuleParameters="Order=3;PropertyName=AcousticRating;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="73237e6d-c96a-44d2-876f-88ccadebd895" RuleParameters="Order=4;PropertyName=FireRating;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="00b6df0b-7e51-4932-bc39-c187ec26d31a" RuleParameters="Order=5;PropertyName=SecurityRating;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="c982be51-a790-48b8-9d27-aaf4d5fb6741" RuleParameters="Order=6;PropertyName=IsExternal;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="5bec499e-21cb-4400-a026-31e2273a3326" RuleParameters="Order=7;PropertyName=Infiltration;Value=IfcVolumetricFlowRateMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="325fa0ee-2867-4cf7-a38a-7c460d593ceb" RuleParameters="Order=8;PropertyName=ThermalTransmittance;Value=IfcThermalTransmittanceMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="1796c302-0165-4cb3-84c4-c44d2aabe8cc" RuleParameters="Order=9;PropertyName=GlazingAreaFraction;Value=IfcPositiveRatioMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="4a13422a-32fa-4d79-8610-995602e825e7" RuleParameters="Order=10;PropertyName=HasSillExternal;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="57b44cfd-5c23-4141-ab4a-d9276a704d27" RuleParameters="Order=11;PropertyName=HasSillInternal;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="25ee63ea-09bd-4745-9f32-7ec47856673c" RuleParameters="Order=12;PropertyName=HasDrive;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="3d949d67-e481-48a1-b60e-e02b8db6da9d" RuleParameters="Order=13;PropertyName=SmokeStop;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="58ce4db7-ec97-49a2-acb0-dfb3b6329cd0" RuleParameters="Order=14;PropertyName=FireExit;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="c9d3d15c-3a02-4cad-aa01-7703be895f01" RuleParameters="Order=15;PropertyName=WaterTightnessRating;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="952d1f77-612d-4f77-8289-0318eb8ee96e" RuleParameters="Order=16;PropertyName=MechanicalLoadRating;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="98a0005b-6674-4018-8709-ab5f7bc0abbd" RuleParameters="Order=17;PropertyName=WindLoadRating;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="a9fb6786-e4bd-48ee-8924-9db80e640347">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="afa9c065-aaff-4a69-8ba5-ffae48bbd5e2" RuleParameters="Order=2;PropertyName=Status;Value=IfcLabel;Reference=PEnum_ElementStatus;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Window Attributes" UniqueId="42256660-4da8-4ebb-95f1-2718953b4cf9">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Window Attributes_3u3TY$$5b1EAe5Nj0iIslY" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Object Typing" UniqueId="5e520c0e-42a4-44b8-a026-6e6543b269ec">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="1e8056a6-0a5c-426f-bb28-afcf9236579b" RuleParameters="RelatingType=IfcWindowType;" Order="0" />
+			</Items>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Quantity Sets" UniqueId="068f1dde-2371-433c-9150-f5f6b4414e81">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="f2de08ac-acbc-46ad-979e-3ae03ab7c49e" RuleParameters="QsetName=Qto_WindowBaseQuantities;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Quantities" UniqueId="8a20d5d1-bdb2-4902-8622-b9de40df5097">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Length Quantity_3TXdZXum1FS9rZvJdRIz4S" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="1ca6947f-fab0-4b12-b426-4bcd0df445a5" RuleParameters="Order=1;QuantityName=Width;" Order="0" />
+								<DocTemplateItem UniqueId="7f4b51eb-4660-49f3-977e-aff57d0bc924" RuleParameters="Order=2;QuantityName=Height;" Order="0" />
+								<DocTemplateItem UniqueId="210e834c-93ce-4772-beea-98c0c18df264" RuleParameters="Order=3;QuantityName=Perimeter;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Quantities" UniqueId="3f6c8a39-0157-4870-a60c-876bca3ce4e1">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Area Quantity_1bh4T7Rlz3VfJYP3$Kux_6" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="66e72f27-eb85-4152-8ac3-3ba3a88a3d22" RuleParameters="Order=4;QuantityName=Area;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material Constituent Set" UniqueId="1780f7fa-27be-45e2-9d13-bde8c5fda23e">
+			<Documentation>&lt;p&gt;The material of the &lt;em&gt;IfcWindow&lt;/em&gt; is defined by the
+ &lt;em&gt;IfcMaterialConstituentSet&lt;/em&gt; or as fall back by
+ &lt;em&gt;IfcMaterial&lt;/em&gt; and attached by the
+&lt;em&gt;IfcRelAssociatesMaterial&lt;/em&gt; relationship.</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="5b877cb0-ac1e-4584-b02d-7cc1a77ae5c4" Type="IfcWindow" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

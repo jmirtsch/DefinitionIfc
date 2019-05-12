@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1228bb98-7fa4-4fbf-b0b6-88fa2a151b3c">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcElementType" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="e859ac9b-f4b6-4c3a-8151-317490b79b65" Type="IfcElementType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="dbf79b70-b259-406e-b738-a6491e2c5cb3">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcPipeFitting" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="c1241a2a-321a-4e2d-9a7b-d94be05afa89">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="ff34af38-f974-46de-853b-1d637e0ceeb8" RuleParameters="RelatingType=IfcPipeFittingType;" Order="0" />
+			</Items>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="da764a4c-4566-407d-9da5-ef1a44a11f63">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="73eaf373-7339-4af1-8dbe-6ce540968c41" RuleParameters="PsetName=Pset_PipeFittingOccurrence;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="bf3a0233-b8d9-4dee-8a38-1956ce34ed14">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="df906b28-29f5-4453-a205-9aeca3fc53ad" RuleParameters="Order=1;PropertyName=InteriorRoughnessCoefficient;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="c89b32ba-29ae-4862-96cb-505765ebd6b9" RuleParameters="Order=2;PropertyName=Color;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="4997b645-e5d2-4977-a927-58d6cf990c60" RuleParameters="PsetName=Pset_PipeFittingTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="16d37784-41f0-492d-8f71-0a23cca5a1b5">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="0dccbc7b-def8-4edf-ba7f-0bbc65ca1d41" RuleParameters="Order=1;PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="c8329411-1c4d-481f-bb20-410a43f6a4a0" RuleParameters="Order=3;PropertyName=PressureClass;Value=IfcPressureMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="8f6f1060-5aa5-43a5-b302-98101674f844" RuleParameters="Order=6;PropertyName=FittingLossFactor;Value=IfcReal;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="5b152718-89d8-4cd0-9755-03a26f72faa2">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="208f9ead-4e91-4e32-8aa8-049a8ce2c0c1" RuleParameters="Order=2;PropertyName=Status;Value=IfcLabel;Reference=PEnum_ElementStatus;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="94cf1036-a6eb-4033-aa8a-4b974a781cd8">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="6632335d-d8bb-4b8f-b9bf-3956b142ac76" RuleParameters="Order=4;PropertyName=PressureRange;SetValue=IfcPressureMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="fc0ed77c-c11f-4685-9c42-6c6efdf8df07" RuleParameters="Order=5;PropertyName=TemperatureRange;SetValue=IfcThermodynamicTemperatureMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="bfe5b78e-084e-4164-8236-06a077db5bc4">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="1f39ca5d-a08e-4fd4-be8c-426cfa727554" RuleParameters="QsetName=Qto_PipeFittingBaseQuantities;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Quantities" UniqueId="28d1752e-840c-4d31-8886-a6df7be7916e">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Length Quantity_3TXdZXum1FS9rZvJdRIz4S" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="878e3aa6-f412-4a75-937b-48d46491b1c7" RuleParameters="Order=1;QuantityName=Length;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Quantities" UniqueId="48f3c8c2-d454-4038-b96d-ff2313596b4a">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Area Quantity_1bh4T7Rlz3VfJYP3$Kux_6" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="df024704-7d00-40f9-9ed4-d52158075f52" RuleParameters="Order=2;QuantityName=GrossCrossSectionArea;" Order="0" />
+								<DocTemplateItem UniqueId="a47f621c-d14a-47d7-8f49-cb853b7940a8" RuleParameters="Order=3;QuantityName=NetCrossSectionArea;" Order="0" />
+								<DocTemplateItem UniqueId="42d02ddb-dbf4-45c3-babc-c80b8b1f7ed6" RuleParameters="Order=4;QuantityName=OuterSurfaceArea;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Quantities" UniqueId="8452015c-5f87-4d08-a98f-6c4bc4447822">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Weight Quantity_3X0MvMF8bFGfPv1_7RF0hx" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="bcdccfbb-fd75-4e46-9b00-288be01412e9" RuleParameters="Order=5;QuantityName=GrossWeight;" Order="0" />
+								<DocTemplateItem UniqueId="fb625949-288b-4378-9a3a-8959e6a2c643" RuleParameters="Order=6;QuantityName=NetWeight;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="f26b0ce0-a7db-4fb7-bfa2-5ba81af10e11" Type="IfcPipeFitting" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

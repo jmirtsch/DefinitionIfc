@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3SP1KzroD6CvrWkEPlOPA0">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcMemberType" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Material Profile Set" UniqueId="3pmrH8yf9Fa81t3B8ewh5A">
+			<Documentation>&lt;p&gt;The material of the &lt;em&gt;IfcMemberType&lt;/em&gt; is defined by the
+&lt;em&gt;IfcMaterialProfileSet&lt;/em&gt; or as fall back by
+&lt;em&gt;IfcMaterial&lt;/em&gt; and attached by the
+&lt;em&gt;IfcRelAssociatesMaterial&lt;/em&gt;&lt;em&gt;.RelatingMaterial&lt;/em&gt;. It is
+accessible by the inverse &lt;em&gt;HasAssociations&lt;/em&gt;
+relationship.&lt;/p&gt;
+
+&lt;blockquote class=&quot;note&quot;&gt;
+NOTE&amp;nbsp; It is illegal to assign an &lt;em&gt;IfcMaterial&lt;/em&gt; to an &lt;em&gt;IfcMemberType&lt;/em&gt;, if there is at least one occurrences of &lt;em&gt;IfcMemberStandardCase&lt;/em&gt; for this type.
+&lt;/blockquote&gt;
+
+&lt;p&gt;The shared profile definition is defined by assigning an
+&lt;em&gt;IfcMaterialProfileSet&lt;/em&gt; (see material use definition above).
+The &lt;em&gt;IfcMaterialProfile&lt;/em&gt; refers to the subtype of
+&lt;em&gt;IfcProfileDef&lt;/em&gt; that is the common profile for all member
+occurrence, if used. It is only applicable if the
+&lt;em&gt;IfcMemberType&lt;/em&gt; has only occurrences of type
+&lt;em&gt;IfcMemberStandardCase&lt;/em&gt; (see definition of
+&lt;em&gt;IfcMemberStandardCase&lt;/em&gt; for further information).&lt;/p&gt;
+
+&lt;blockquote class=&quot;note&quot;&gt;
+NOTE&amp;nbsp; The attribute &lt;em&gt;ProfileName&lt;/em&gt; of the
+&lt;em&gt;IfcProfileDef&lt;/em&gt; subtype, referenced in
+&lt;em&gt;IfcMaterialProfile&lt;/em&gt; should contain a standardized profile
+name according to local standards. However, an additional
+geometric representation of the profile is necessary (e.g. as
+&lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt;). An importing application is allowed
+to check for the existence of the profile name: in case of
+identifying it as a standardized name, the corresponding profile
+geometry and possibly other cross sectional properties can be
+read from a library. Otherwise the geometric representation and
+possible non geometric &lt;em&gt;IfcProfileProperties&lt;/em&gt; have to be
+used.&lt;/blockquote&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set_12Ui1LAd52mgGZSMYVfrnP" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body Geometry" UniqueId="3gfakZ6$D10eIDpQ1VcDHv">
+			<Documentation>&lt;p&gt;The &lt;em&gt;IfcMemberType&lt;/em&gt; may define the shared geometric representation for all member occurrences. The &lt;em&gt;RepresentationMaps&lt;/em&gt; attribute refers to a list of &lt;em&gt;IfcRepresentationMap&lt;/em&gt;&apos;s, that allow for multiple geometric representations (e.g. with &lt;em&gt;IfcShaperepresentation&lt;/em&gt;&apos;s having an &lt;em&gt;RepresentationIdentifier&lt;/em&gt; &apos;Box&apos;, &apos;Axis&apos;, or &apos;Body&apos;). It is only applicable if the &lt;em&gt;IfcMemberType&lt;/em&gt; has only occurrences of type &lt;em&gt;IfcMember&lt;/em&gt; (See geometric use definition of &lt;em&gt;IfcMember&lt;/em&gt; for further information).&lt;/p&gt;
+
+&lt;blockquote class=&quot;note&quot;&gt;
+NOTE&amp;nbsp; If the &lt;em&gt;IfcMemberType&lt;/em&gt; has an associated &lt;em&gt;IfcMaterialProfileSet&lt;/em&gt;, then no shared geometric representation shall be provided.
+&lt;/blockquote&gt;
+
+&lt;blockquote class=&quot;note&quot;&gt;
+NOTE&amp;nbsp; The product shape representations are defined as &lt;em&gt;RepresentationMaps&lt;/em&gt; (attribute of the supertype &lt;em&gt;IfcTypeProduct&lt;/em&gt;), which get assigned by an element occurrence instance through the &lt;em&gt;IfcShapeRepresentation.Item[n]&lt;/em&gt; being an &lt;em&gt;IfcMappedItem&lt;/em&gt;. See &lt;em&gt;IfcTypeProduct&lt;/em&gt; for further information.
+&lt;/blockquote&gt;
+
+&lt;blockquote class=&quot;note&quot;&gt;
+NOTE&amp;nbsp; The values of attributes &lt;em&gt;RepresentationIdentifier&lt;/em&gt; and &lt;em&gt;RepresentationType&lt;/em&gt; of &lt;em&gt;IfcShapeRepresentation&lt;/em&gt; are restricted in the same way as those for &lt;em&gt;IfcMember&lt;/em&gt; and &lt;em&gt;IfcMemberStandardCase&lt;/em&gt;
+&lt;/blockquote&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Type Body Geometry_0wx2q0jBj7QgWX$2AubRKn" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="59c2e5d1-da00-4ab2-b6d6-7d75b61cc637" Type="IfcMemberType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="PEnum_TemperatureSensorType" UniqueId="20be3613-7be0-4e87-a88e-a17bc606bb3f">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="HIGHLIMIT_2APpnWvqLAdPQ5Hq5p6mEc" />
+		<DocPropertyConstant xsi:nil="true" href="LOWLIMIT_2nf6wb7l1EUfdDHBS$lklL" />
+		<DocPropertyConstant xsi:nil="true" href="OUTSIDETEMPERATURE_1cDD5Pv$f4oOZRVdMSHt1T" />
+		<DocPropertyConstant xsi:nil="true" href="OPERATINGTEMPERATURE_3nb359H2jFvxUX02OgWnBM" />
+		<DocPropertyConstant xsi:nil="true" href="ROOMTEMPERATURE_1RkJwrfm5DwQHh6Wn7C1Yy" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_3MVgM7amX8LueAtbJ7r7lQ" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_015l7tCE1FH9vu1ZwXq_NU" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_1KT0l5uOfARw68lu3KEBsC" />
+	</Constants>
+</DocPropertyEnumeration>
+

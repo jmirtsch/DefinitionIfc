@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPowerMeasure" UniqueId="cdee142f-f950-4122-a016-05b0ef2e3b32" DiagramNumber="4" DefinedType="REAL" Length="0">
+	<Localization>
+		<DocLocalization Name="Power Measure" Locale="en" />
+		<DocLocalization Name="Mesure de puissance" Locale="fr" />
+	</Localization>
+	<DiagramRectangle>
+		<DocRectangle X="5665.1342" Y="1526.3075" Width="456.7" Height="53.00186" />
+	</DiagramRectangle>
+	<Definition>
+		<DocPrimitive xsi:nil="true" href="REAL_3D5XRz7RbFreELNJe4U2AN" />
+	</Definition>
+	<DiagramLine>
+		<DocPoint X="6121.8342" Y="1552.8084" />
+		<DocPoint X="6232.67794" Y="1552.8084" />
+	</DiagramLine>
+</DocDefined>
+

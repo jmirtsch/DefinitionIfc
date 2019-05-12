@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3334ca53-2094-46a0-b7c8-1c7adacc1d69">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcReinforcingElement" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Body AdvancedSwept DiskSolid PolyCurve Geometry" UniqueId="89a66378-b01c-4745-86f1-5a6da4f5099f">
+			<Documentation>&lt;p&gt;The default geometric item to exchange the body shape representation of reinforcing elements is the &lt;em&gt;IfcSweptDiskSolid&lt;/em&gt; using the &lt;em&gt;IfcIndexedPolyCurve&lt;/em&gt; to describe the &lt;em&gt;Directrix&lt;/em&gt;.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body AdvancedSwept DiskSolid PolyCurve Geometry_0S8aGf5H900B$$6VqnAV6h" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Element Voiding" UniqueId="a3745e10-c5a3-4e2e-9767-a333db83162f" Override="true" Suppress="true">
+			<Documentation>&lt;p&gt;The various subtypes of &lt;em&gt;IfcReinforcingElement&lt;/em&gt; do not support the concept of voiding - there shall no voids (openings, cut-outs, recesses) being defined as shape features for reinforcing elements.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Element Voiding_2v05vvjSLC2vs616mXhK8D" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="e3665990-c9bc-4d43-8a66-2c6670547914">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="04db4878-4c66-4866-b3f2-35b82bcaf4f0" RuleParameters="QsetName=Qto_ReinforcingElementBaseQuantities;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Quantities" UniqueId="6436f335-027b-461d-b9cd-d6d0f256f16e">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Count Quantity_2AhlyoLonFQgnauXKMOyln" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="e0bc4fd2-7f3b-4f7b-ae79-d3801c2cb27c" RuleParameters="Order=1;QuantityName=Count;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Quantities" UniqueId="5a6c920e-be5b-4619-8a38-a7a289a94de3">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Length Quantity_3TXdZXum1FS9rZvJdRIz4S" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="c1d74557-8982-4ed2-b597-f7b43c43a429" RuleParameters="Order=2;QuantityName=Length;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Quantities" UniqueId="ca94b30e-ba3b-4a9a-8bd8-1604d4c6e5d6">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Weight Quantity_3X0MvMF8bFGfPv1_7RF0hx" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="3f4b4bf7-568e-4859-acb1-42984d93c70a" RuleParameters="Order=3;QuantityName=Weight;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="e66a579a-a1cc-40d6-866b-a8c33ba8b4e9" Type="IfcReinforcingElement" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

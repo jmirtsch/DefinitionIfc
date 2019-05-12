@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="6f5e81e5-13c4-4afc-8fa6-d5641f1e0259">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcCompressor" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="f11f6186-30f2-4f27-ab7a-c5b7e5780dc9">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="36d974ae-81b2-4214-8ea8-8e77ac48617c" RuleParameters="RelatingType=IfcCompressorType;" Order="0" />
+			</Items>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="9e13ac0c-6379-470a-8223-e01872a6d28b">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="9ecdb78e-53cd-4f3f-b723-0445036a7f9f" RuleParameters="PsetName=Pset_CompressorTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="e93f43bc-956b-46ba-80b3-1f4cf3a754f7">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="c6c89c74-725d-4e6a-9e71-069335f0ad8a" RuleParameters="Order=1;PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="590f583f-b6e1-44f6-bfb8-d34c609fdd1c" RuleParameters="Order=5;PropertyName=MinimumPartLoadRatio;Value=IfcPositiveRatioMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="7d0f24f6-f596-4f4c-8281-204c4f6cbf40" RuleParameters="Order=6;PropertyName=MaximumPartLoadRatio;Value=IfcPositiveRatioMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="5a574198-f858-4c50-94ee-fdec3283e821" RuleParameters="Order=7;PropertyName=CompressorSpeed;Value=IfcRotationalFrequencyMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="c6c4c753-3ce5-462b-bbd8-bf86f73e0d45" RuleParameters="Order=8;PropertyName=NominalCapacity;Value=IfcPowerMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="c00009e9-9943-4c8d-a9bc-8bfc3129854b" RuleParameters="Order=9;PropertyName=IdealCapacity;Value=IfcPowerMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="333efe6e-5fb0-4675-81cd-0cb3b1963598" RuleParameters="Order=10;PropertyName=IdealShaftPower;Value=IfcPowerMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="c7097bdc-2af8-4bd5-9d72-f1e5e996b306" RuleParameters="Order=11;PropertyName=HasHotGasBypass;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="e54ea40e-e34a-4baa-b6a6-8ad3ec5d1895" RuleParameters="Order=12;PropertyName=ImpellerDiameter;Value=IfcPositiveLengthMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="c228bf5e-112a-4c94-bc89-2e75b085feb3">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="487c3c05-0576-4542-87cc-8902399ea052" RuleParameters="Order=2;PropertyName=Status;Value=IfcLabel;Reference=PEnum_ElementStatus;" Order="0" />
+								<DocTemplateItem UniqueId="dc861e45-559e-47fd-9ce0-53cddc072f7f" RuleParameters="Order=3;PropertyName=PowerSource;Value=IfcLabel;Reference=PEnum_CompressorTypePowerSource;" Order="0" />
+								<DocTemplateItem UniqueId="9a2fea8a-ef50-40d5-86ba-e43f4dbc39af" RuleParameters="Order=4;PropertyName=RefrigerantClass;Value=IfcLabel;Reference=PEnum_RefrigerantClass;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="6ace7c4f-7584-4e05-abdd-6636c7eaf0f2">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="2c530381-e51a-4266-b812-736177188e28" RuleParameters="QsetName=Qto_CompressorBaseQuantities;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Quantities" UniqueId="ab52fcfc-e6cb-4732-804f-c4193baf967e">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Weight Quantity_3X0MvMF8bFGfPv1_7RF0hx" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="72b34c89-7183-43db-bde9-0f1b013f98d1" RuleParameters="Order=1;QuantityName=GrossWeight;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="90002539-59ea-4cf3-ac66-49525fd42058" Type="IfcCompressor" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1GkBpegBrEchBtAqHYT1hk">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcConstructionMaterialResource" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="0g_NWoCwf6q9EY5XmSv5Wv">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="f83c1b96-1b3d-451e-8257-7a9389771991" RuleParameters="RelatingType=IfcConstructionMaterialResourceType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="1PIhFXpzf7Bu$xlyRxNRvq">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="06c1ba96-f272-482e-8fdb-04aa4a6da8a4" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_ConstructionMaterialResourceBaseQuantities;TemplateType=QTO_OCCURRENCEDRIVEN;" Order="0" />
+				<DocTemplateItem UniqueId="281feff6-c98f-4d3b-abd4-4d04a793a240" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_ConstructionMaterialResourceBaseQuantities;TemplateType=QTO_OCCURRENCEDRIVEN;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Resource Type Assignment" UniqueId="1sxUhYoED3Z8TUTeb9NrN4">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Resource Type Assignment_3O6NtkIznAkhjNJ6Pupd3S" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="df6e8fd3-db99-4d94-b6ac-e2c96bac532f" RuleParameters="Type=IfcGeographicElement;" Order="0">
+					<Documentation>Indicates a physical element manifesting the resource such as a pile of sand.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Resource Cost" UniqueId="3DGONQO5LClPd3MFjOQZLl">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Resource Cost_1dWH7vLbvC7RZ3qXZ4pD1M" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="b830841a-373c-4f76-82e0-89b855fce9f0" RuleParameters="CostType=IfcCostValue;CostName=Material;ValueType=IfcMonetaryMeasure;" Order="0">
+					<Documentation>The amount incurred per unit volume of the material.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Resource Quantity" UniqueId="2hwBd0O_f0$uZn0w$_Cy7q">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Resource Quantity_2WLzS88zH7qgXDYV$9FO$e" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="574d9e5d-b8be-4b47-b256-f1a3e3b73417" RuleParameters="QuantityType=IfcQuantityVolume;QuantityName=GrossVolume;" Order="0">
+					<Documentation>The unit volume of material used, such as cubic meters of concrete.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="adfb2c51-8ca9-4cc6-8ba5-d5189bc82e13" Type="IfcConstructionMaterialResource" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="PEnum_AudioVisualDisplayTouchScreen" UniqueId="e94e14dd-4f2d-4662-a3f3-15530035dcb7">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="SINGLETOUCH_1SJzWGT7PB3Bj95LEnPhmc" />
+		<DocPropertyConstant xsi:nil="true" href="MULTITOUCH_3u1VP0gPn7nxfg_PbQIdgG" />
+		<DocPropertyConstant xsi:nil="true" href="NONE_1lpzpkaOz2cQVbjYEBU8$U" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_1UZQWDqQfBufrW9fh5uzv8" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_2MJtZPeJrAi9yWl2qfST6S" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3K7kQ81SvB9vCMKDUTCrN3" />
+	</Constants>
+</DocPropertyEnumeration>
+

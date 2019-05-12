@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcIdentifier" UniqueId="bd364cd7-2838-47de-a013-ccdbbc4e57c5" DiagramNumber="2" DefinedType="STRING" Length="255">
+	<Localization>
+		<DocLocalization Name="Identifier" Locale="en" />
+		<DocLocalization Name="Identifiant" Locale="fr" />
+	</Localization>
+	<DiagramRectangle>
+		<DocRectangle X="2496.2937" Y="1117.5061" Width="187.10357" Height="53.752326" />
+	</DiagramRectangle>
+	<Definition>
+		<DocPrimitive xsi:nil="true" href="STRING_0lM2VmW5H3P87es76xiZCb" />
+	</Definition>
+	<DiagramLine>
+		<DocPoint X="2683.3973" Y="1144.3823" />
+		<DocPoint X="2862.508" Y="1144.3823" />
+	</DiagramLine>
+</DocDefined>
+

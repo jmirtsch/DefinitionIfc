@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="d014756a-f2ec-4750-8a68-ffcb18c293da">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcActuatorType" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="11705777-5848-4d4e-9a2f-534e337ce9c2" Type="IfcActuatorType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

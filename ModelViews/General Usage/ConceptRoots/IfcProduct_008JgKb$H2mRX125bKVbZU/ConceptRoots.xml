@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="00213a94-97f4-42c1-b841-0859547e58de">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcProduct" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Product Placement" UniqueId="b21ef8c6-394a-476c-a700-1e6558158893">
+			<Documentation>&lt;p&gt;The &lt;em&gt;Product Placement&lt;/em&gt; establishes the object coordinate system and is required, if a geometric shape representation is provided for this product.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Product Placement_2j9t32aKvAifqvl0t$Ftia" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Product Geometric Representation" UniqueId="297857a0-8351-434d-9a08-96e1ae5e9259">
+			<Documentation>&lt;p&gt;The geometric representation of any &lt;em&gt;IfcProduct&lt;/em&gt; is provided by the &lt;em&gt;IfcProductDefinitionShape&lt;/em&gt; allowing multiple geometric representations. It uses the &lt;em&gt;Product Placement&lt;/em&gt; concept utilizing &lt;em&gt;IfcLocalPlacement&lt;/em&gt; to establish an object coordinate system, within all geometric representations are founded.&lt;/p&gt;
+
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; A detailed specification of how to apply the local placement and which shape representaions are applicable is provided at the level of subtypes of &lt;em&gt;IfcProduct&lt;/em&gt; and is further determined by the model view definition and implementer agreements.&lt;/blockquote&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Product Geometric Representation_0J_MaK6jH1rBgPGHgUo$Ld" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="250b3522-f1d5-4c0a-8261-407662b2a33e" Type="IfcProduct" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

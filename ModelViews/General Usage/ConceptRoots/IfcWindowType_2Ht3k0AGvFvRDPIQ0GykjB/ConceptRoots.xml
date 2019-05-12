@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="91dc3b80-290e-4fe5-b359-49a010f2eb4b">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcWindowType" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Body Geometry" UniqueId="c9170a8f-396e-427d-aec3-5c7206da3860">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Type Body Geometry_0wx2q0jBj7QgWX$2AubRKn" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Property Sets for Types" UniqueId="2dae2d1f-f980-4015-b7ef-a2f0b63e9253">
+			<Documentation>&lt;p&gt;Two subtypes of &lt;em&gt;IfcPreDefinedPropertySet&lt;/em&gt; are applicable
+to &lt;em&gt;IfcWindowType&lt;/em&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;IfcWindowLiningProperties&lt;/em&gt; - a single instance to
+define the shape parameters of the window lining&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;IfcWindowPanelProperties&lt;/em&gt; - one or several instances to
+define the shape parameters of the window panel(s)&lt;/li&gt;
+&lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Types_1Bup4gCPb9Bh84oi8YcfhU" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="a1bebbe5-98cd-4abe-bf4e-46b5280d204e" Type="IfcWindowType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

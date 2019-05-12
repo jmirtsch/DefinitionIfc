@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="98dcd5b3-fb09-400e-aa28-29b41f8b98e6">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcFeatureElementSubtraction" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="56b1399f-cc2a-4ef4-a898-92ade9b85b01" Type="IfcFeatureElementSubtraction" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

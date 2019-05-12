@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3QjbZzTCTEXwKGNlRWrewl">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcDamper" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="1c8UraGfj4YvjexJDVQ8rR">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="0096e731-cdce-47f7-a2b8-29aee6f93f67" RuleParameters="RelatingType=IfcDamperType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="2ucSODpbnFUhzrjBuDOYcu">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="c080eb27-3b32-4cdf-a8d1-1971b36a6af5" RuleParameters="PsetName=Pset_DamperOccurrence;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="08a5203b-be8f-44d8-a984-fad6468eb3a9">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="59ae76b8-fd89-41e4-8a6d-e3c35e7c4974" RuleParameters="PropertyName=SizingMethod;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="bebfaf07-b5e3-4e98-9c39-2ecddaa4d11a" RuleParameters="PsetName=Pset_DamperTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="e39b5bf8-857e-4e18-9563-85d7f553fb3e">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="d60dd71f-13c3-4bdf-a530-79b2274dcdaf" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="d3b040ae-b0cf-4029-8323-ce7e6e33565d" RuleParameters="PropertyName=BladeThickness;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="c9a798e7-c3d8-4618-86c1-c6b07468ee7f" RuleParameters="PropertyName=NumberofBlades;Value=IfcInteger;" Order="0" />
+								<DocTemplateItem UniqueId="b8804abf-e55d-4741-a47f-70c80e48a12f" RuleParameters="PropertyName=FaceArea;Value=IfcAreaMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="754c2260-39d7-405d-926c-76c3fe785ea9" RuleParameters="PropertyName=MaximumAirFlowRate;Value=IfcVolumetricFlowRateMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="ea893624-856f-4189-89e2-cf56830299ad" RuleParameters="PropertyName=MaximumWorkingPressure;Value=IfcPressureMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="7afa1839-3a05-46c0-ad6e-73aaaf2b8001" RuleParameters="PropertyName=TemperatureRating;Value=IfcThermodynamicTemperatureMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="7bcd7449-fa65-45a8-8b50-911d3c47fa88" RuleParameters="PropertyName=NominalAirFlowRate;Value=IfcVolumetricFlowRateMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="66914cbf-0b13-41cd-87c6-8dad5d784b3f" RuleParameters="PropertyName=OpenPressureDrop;Value=IfcPressureMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="ac0b5f58-4bb0-4523-8275-8d3e6df13d24" RuleParameters="PropertyName=LeakageFullyClosed;Value=IfcVolumetricFlowRateMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="a75a141e-4704-4333-a441-25be924c2988" RuleParameters="PropertyName=FrameType;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="ba955569-064f-4724-b2fd-7308267c9696" RuleParameters="PropertyName=FrameDepth;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="67bd0287-6571-4e2f-8d0f-268b53fb6259" RuleParameters="PropertyName=FrameThickness;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="5726d07e-cdca-4f68-9453-6c0cc02903f6" RuleParameters="PropertyName=CloseOffRating;Value=IfcPressureMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="d43c9b53-3fe5-4e39-b349-d2700e73bae9">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="cd481c03-9f67-49a5-8c9d-ef0ca8c68f5a" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="55ceca4a-96bd-4aa2-9f5f-9042d168f550" RuleParameters="PropertyName=Operation;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="72d08926-f52e-4608-85ff-45a14af83963" RuleParameters="PropertyName=Orientation;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="2eb0f258-2c14-431d-aec0-ac20a166cd17" RuleParameters="PropertyName=BladeAction;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="1776936b-7559-4c97-b6fd-38ed2ff29640" RuleParameters="PropertyName=BladeShape;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="da14c357-2729-4ad0-ba18-d080590d4900" RuleParameters="PropertyName=BladeEdge;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="28d3e47a-042f-4d35-b2de-5906375c7ab5">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="25a2894c-2872-4b26-b841-c630bc51ea3f" RuleParameters="PropertyName=TemperatureRange;SetValue=IfcThermodynamicTemperatureMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="3giEosAnn1QvfdM$fnx4VM">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="f56ba880-a6f6-41c8-b403-2e3155760561" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_DamperBaseQuantities;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material" UniqueId="28uVolNkj3Yxw$NmcQd$Bv">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="db41081e-7ad7-4cef-88f5-08e750539057" RuleParameters="Name=Blade;" Order="0">
+					<Documentation>The material from which the damper blades are constructed.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="f539a0cc-366c-41f8-975b-9f49d4b75a00" RuleParameters="Name=Frame;" Order="0">
+					<Documentation>The material from which the damper frame is constructed.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="07c051b2-30bc-4429-b225-c7fe75f00a73" RuleParameters="Name=Seal;" Order="0">
+					<Documentation>The material from which the damper seals are constructed.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Port" UniqueId="3rP6A4G7fAVetXBsKTxDHk">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="9c3cb1a7-5b18-4f42-b74b-9ee4b2ff0c71" RuleParameters="PortName=AirIn;SystemType=AIRCONDITIONING;Flow=SINK;" Order="0">
+					<Documentation>Air entering damper.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="045b277d-349c-4a29-87d3-8c8cce0d073e" RuleParameters="PortName=AirOut;SystemType=AIRCONDITIONING;Flow=SOURCE;" Order="0">
+					<Documentation>Air leaving damper, with flow regulated according to position of damper.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="8e6b45cd-1b19-42f5-982e-95363d5a8057" Type="IfcDamper" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

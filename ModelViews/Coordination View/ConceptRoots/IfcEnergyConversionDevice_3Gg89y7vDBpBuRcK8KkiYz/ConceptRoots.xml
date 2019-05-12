@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="d0a8827c-1f93-4bcc-be1b-994214bac8bd">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcEnergyConversionDevice" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="bee2c458-2b6b-4600-a8a5-a65c83f66de9" Type="IfcEnergyConversionDevice" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

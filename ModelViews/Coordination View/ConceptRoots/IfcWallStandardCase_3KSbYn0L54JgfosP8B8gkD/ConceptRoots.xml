@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="d47258b1-0151-444e-aa72-d9920b22ab8d">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcWallStandardCase" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="7f8f65ec-51bc-4f7c-8ea9-63e5455a2fbd" Type="IfcWallStandardCase" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="469041a5-b8f2-4319-8fef-9c585a3169dd">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcDuctSilencerType" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="dc75b834-61c2-48e7-abae-8ce351e1fe0d" Type="IfcDuctSilencerType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3SHb5nwtD3muGvE$6jN6Yl">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcProject" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Project Template Definitions" UniqueId="f7aa9726-a69e-4dde-b8cb-c6338cb5ad15">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Project Template Definitions_3MxTphmG92Hux09EVKnTgR" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="9c0ae5bc-0a88-4749-bdbf-c1c9543c050d" Type="IfcProject" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

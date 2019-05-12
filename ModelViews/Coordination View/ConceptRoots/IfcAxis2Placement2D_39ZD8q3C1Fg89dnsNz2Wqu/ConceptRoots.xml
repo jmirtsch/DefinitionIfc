@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="c98cd234-0cc0-4fa8-8267-c765fd0a0d38">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcAxis2Placement2D" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="e8803f7f-3f8d-4325-b7a1-5f9003276b75" Type="IfcAxis2Placement2D" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

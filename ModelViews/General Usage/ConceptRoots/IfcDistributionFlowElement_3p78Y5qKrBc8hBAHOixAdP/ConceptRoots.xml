@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3p78Y5qKrBc8hBAHOixAdP">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcDistributionFlowElement" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="0PkQ0ggszFZwamPySqefS1">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="e8d62ace-98d1-4129-9369-4a860d3bf5e2" RuleParameters="RelatingType=IfcDistributionFlowElementType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="0SvTAnXh5AnBfzumO64WJM">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="82e7d489-1f3d-4681-97fb-9130ec6bae7f" RuleParameters="PsetName=Pset_SoundGeneration;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Axis Geometry" UniqueId="136TlBI753uxeb607cZHMo">
+			<Documentation>&lt;p&gt;This represents the 3D flow path of the item having &lt;em&gt;IfcShapeRepresentation.RepresentationType&lt;/em&gt; of &apos;Curve3D&apos; and containing a single &lt;em&gt;IfcBoundedCurve&lt;/em&gt; subtype such as &lt;em&gt;IfcPolyline&lt;/em&gt;, &lt;em&gt;IfcTrimmedCurve&lt;/em&gt;, or &lt;em&gt;IfcCompositeCurve&lt;/em&gt;.  For elements containing directional ports (&lt;em&gt;IfcDistributionPort&lt;/em&gt; with &lt;em&gt;FlowDirection&lt;/em&gt; of &lt;em&gt;SOURCE&lt;/em&gt; or &lt;em&gt;SINK&lt;/em&gt;), the direction of the curve indicates direction of flow where a &lt;em&gt;SINK&lt;/em&gt; port is positioned at the start of the curve and a &lt;em&gt;SOURCE&lt;/em&gt; port is positioned at the end of the curve.  This representation is most applicable to flow segments (pipes, ducts, cables), however may be used at other elements to define a primary flow path if applicable.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Axis Geometry_0xznRVEP1B$815da0HoROY" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="33e0154d-5864-4c1b-b57a-7e0cbd0de1f8" RuleParameters="RepresentationType=Curve3D;Geometry=IfcBoundedCurve;" Order="0" />
+				<DocTemplateItem UniqueId="f4290be2-c4a6-4793-a771-5b377b5c57f7" RuleParameters="RepresentationType=MappedRepresentation;Geometry=IfcMappedItem;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Clearance Geometry" UniqueId="2TU9LT6Oz2Og1q3iXzlg7$">
+			<Documentation>&lt;p&gt;This represents the 3D clearance volume of the item having RepresentationType of &apos;Surface3D&apos;. Such clearance region indicates space that should not intersect with the &apos;Body&apos; representation of other elements, though may intersect with the &apos;Clearance&apos; representation of other elements. The particular use of clearance space may be for safety, maintenance, or other purposes.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Clearance Geometry_0Ft2E0dl11wR3Sy1$Iztvi" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="5b7d4892-ea55-4066-b98e-02ae2d656f9d" RuleParameters="RepresentationType=Surface3D;Geometry=IfcBoundedSurface;" Order="0" />
+				<DocTemplateItem UniqueId="890f7a04-d768-4edf-a30c-1244713c0060" RuleParameters="RepresentationType=MappedRepresentation;Geometry=IfcMappedItem;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="68ba49d1-817e-48ac-80b9-ccfed8248945" Type="IfcDistributionFlowElement" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

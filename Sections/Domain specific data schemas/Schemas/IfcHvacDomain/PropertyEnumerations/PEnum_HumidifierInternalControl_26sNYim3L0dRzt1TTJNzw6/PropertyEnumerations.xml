@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="PEnum_HumidifierInternalControl" UniqueId="86d978ac-c035-409d-bf77-05d7535fde86">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="ONOFF_2d25c8$PbDqg$sZyVlcSQ3" />
+		<DocPropertyConstant xsi:nil="true" href="STEPPED_2$lfvw0Cn6G8a_lxcW7WkD" />
+		<DocPropertyConstant xsi:nil="true" href="MODULATING_0jY6g67I17egO9xqcJakaj" />
+		<DocPropertyConstant xsi:nil="true" href="NONE_0iqZ3Yxt14u9UXZxdZelLX" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_1xaSgKWOD0VPqi4zdV7Xf3" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0MzDFRlR122vowbHhsJLMj" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3_crJ8cQf5PuRlPYSPnXra" />
+	</Constants>
+</DocPropertyEnumeration>
+

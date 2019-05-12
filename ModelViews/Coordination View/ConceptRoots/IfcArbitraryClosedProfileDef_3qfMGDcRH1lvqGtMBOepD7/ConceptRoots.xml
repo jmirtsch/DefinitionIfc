@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="f4a5640d-99b4-41bf-9d10-dd62d8a33347">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcArbitraryClosedProfileDef" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="21f61c99-f0be-4e45-86d5-b36e9a36fc0e" Type="IfcArbitraryClosedProfileDef" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

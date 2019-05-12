@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="031f0758-728b-4c66-8a76-ffc8e2bd53fe">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcDoorStandardCase" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Profile 3D Geometry" UniqueId="d0e968af-22c6-4d49-8d08-855b9709cd62">
+			<Documentation>&lt;p&gt;The door profile is represented by a three-dimensional closed
+curve within a particular shape representation. The profile is used 
+to apply the parameter of the parametric door representation. The
+ following attribute values for the &lt;em&gt;IfcShapeRepresentation&lt;/em&gt; 
+holding this geometric representation shall be used:&lt;/p&gt;
+
+&lt;ul&gt;
+
+ &lt;li&gt;&lt;em&gt;RepresentationIdentifier&lt;/em&gt; : &apos;Profile&apos;&lt;/li&gt;
+ 
+&lt;li&gt;&lt;em&gt;RepresentationType&lt;/em&gt; : &apos;Curve3D&apos; or &apos;GeometricCurveSet&apos;,
+in case of &apos;GeometricCurveSet&apos; only a single closed curve shall be 
+contained in the set of &lt;em&gt;IfcShapeRepresentation.Items&lt;/em&gt;.&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;p&gt;The following additional constraints apply to the &apos;Profile&apos;
+representation type:&lt;/p&gt;
+
+&lt;ul&gt;
+ 
+&lt;li&gt;&lt;u&gt;Curve&lt;/u&gt;: being an &lt;em&gt;IfcPolyline&lt;/em&gt; defining a
+rectangle.&lt;/li&gt;
+ 
+&lt;li&gt;&lt;u&gt;Position&lt;/u&gt;: The curve shall lie in the xz plane of the
+ object placement coordinate (the y coordinate values of the
+&lt;em&gt;IfcCartesianPoint&lt;/em&gt;&apos;s shall be 0.).&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;table summary=&quot;&quot;&gt;
+ 
+&lt;tr valign=&quot;top&quot;&gt;
+
+  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcdoorstandardcase-01.png&quot; alt=
+&quot;standard door&quot; border=&quot;0&quot; width=&quot;500&quot; height=&quot;500&quot;&gt;&lt;/td&gt;
+
+  &lt;td&gt;
+&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 212 illustrates applying the door lining parameters to the
+door profile shape representation. The profile defines the outer
+boundary to which the door lining parameters relate as:&lt;/blockquote&gt;
+   &lt;blockquote&gt;
+&lt;ul&gt;
+
+    &lt;li class=&quot;small&quot;&gt;&lt;em&gt;IfcDoorLiningProperties.LiningDepth&lt;/em&gt; starting at distance
+defined by &lt;em&gt;LiningOffset&lt;/em&gt; going into the positive y
+direction.&lt;/li&gt;
+
+    &lt;li class=&quot;small&quot;&gt;&lt;em&gt;IfcDoorLiningProperties.LiningThickness&lt;/em&gt; offset into the
+inner side of the rectangle.&lt;/li&gt;
+    &lt;li class=&quot;small&quot;&gt;&lt;em&gt;IfcDoorLiningProperties.LiningOffset&lt;/em&gt; distance along the
+positive y direction to where the &lt;em&gt;LiningDepth&lt;/em&gt; applies.&lt;/li&gt;
+    
+&lt;li class=&quot;small&quot;&gt;&lt;em&gt;IfcDoorLiningProperties.ThresholdThickness&lt;/em&gt; starting at
+the bottom edge of the rectangle into the inner side of the
+rectangle&lt;/li&gt;
+
+    &lt;li class=&quot;small&quot;&gt;&lt;em&gt;IfcDoorLiningProperties.ThresholdDepth&lt;/em&gt; starting at
+distance defined by &lt;em&gt;LiningOffset&lt;/em&gt; going into the positive y
+direction.&lt;/li&gt;
+  
+    &lt;li class=&quot;small&quot;&gt;&lt;em&gt;IfcDoorLiningProperties.TransomOffset&lt;/em&gt; starting at the 
+bottom edge of the rectangle (along local x axis) into the inner
+side of the rectangle, distance provided as percentage of overall
+height. Distance to the centre line of the transom.&lt;/li&gt;
+   
+&lt;/ul&gt;&lt;/blockquote&gt;
+  
+&lt;/td&gt;
+
+ &lt;/tr&gt;
+
+ &lt;tr valign=&quot;top&quot;&gt;
+  
+&lt;td&gt;
+&lt;p class=&quot;figure&quot;&gt;Figure 212 &amp;mdash; Door profile&lt;/p&gt;
+&lt;/td&gt;
+  
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+
+ &lt;/tr&gt;
+
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Profile 3D Geometry_0TYN8WT0r7avgDNITqnxm0" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="e837b60b-b9cb-407a-8591-5dd4fa530d4f" Type="IfcDoorStandardCase" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

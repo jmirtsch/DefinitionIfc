@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="f6db8e4f-4276-4054-9f8c-81ee38e767d3">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcCircleProfileDef" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="e9022828-3491-45f9-bc92-3ce4fe826630" Type="IfcCircleProfileDef" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

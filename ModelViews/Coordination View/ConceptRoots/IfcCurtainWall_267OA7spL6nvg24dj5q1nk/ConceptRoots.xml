@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="861d8287-db35-46c7-9a82-127b45d01c6e">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcCurtainWall" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="8d339fd9-aafe-4d76-9c45-a471141d2071" Type="IfcCurtainWall" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

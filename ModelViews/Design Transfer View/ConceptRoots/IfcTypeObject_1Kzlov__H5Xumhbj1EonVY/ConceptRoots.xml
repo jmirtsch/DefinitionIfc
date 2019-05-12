@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="54f6fcb9-fbe4-4587-8c2b-96d04ecb17e2">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcTypeObject" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Library Association" UniqueId="c14dae11-8132-48ae-ae57-ad0fbd6521b2">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Library Association_0zTXy98w9C0Ol5XsAgahmZ" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="fbe88d1a-19d5-4f16-a1a1-e06db89c3470" Type="IfcTypeObject" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

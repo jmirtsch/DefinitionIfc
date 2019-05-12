@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="PEnum_PressureGaugeType" UniqueId="ef996acf-4022-4e0c-a747-d2f2c1ebca42">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="DIAL_35s56D4kT7CuAWCV$5YPvW" />
+		<DocPropertyConstant xsi:nil="true" href="DIGITAL_1PpC6KoILEcw0n09Eo90_d" />
+		<DocPropertyConstant xsi:nil="true" href="MANOMETER_1Wnjf4PzrDQQDM2enXuddS" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_3M4lFe0LTEXPM1euK7Abfw" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_02pN_icF58MQ1EDxp_wWzA" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_2z$j92Stb0KAuOCTW2VziT" />
+	</Constants>
+</DocPropertyEnumeration>
+

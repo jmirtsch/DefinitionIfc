@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3736f6c2-956f-44e3-b296-9aae2202df70">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcBuildingElementPart" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="a6e5e024-793f-470a-83ad-843db37277bb">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="0516f89e-aa8e-41bc-a8e0-1e11d2191a9d" RuleParameters="RelatingType=IfcBuildingElementPartType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="feb5dd47-c2f0-4747-bd79-12fb56138d68" Type="IfcBuildingElementPart" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcIndexedPolygonalFaceWithVoids" UniqueId="d2c744de-ffd9-4239-a7cb-245b41b80a33" DiagramNumber="9" BaseDefinition="IfcIndexedPolygonalFace" EntityFlags="32">
+	<DiagramRectangle>
+		<DocRectangle X="13989.3330078125" Y="1725.33337402344" Width="376" Height="100" />
+	</DiagramRectangle>
+	<Attributes>
+		<DocAttribute Name="InnerCoordIndices" UniqueId="f6139048-1730-4c6e-91f6-239c4a5c0ca2" DefinedType="IfcPositiveInteger" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="?" XsdFormat="attribute">
+			<Documentation>Two-dimensional list, where the first dimension represents each inner loop (from 1 to N) and the second dimension the indices to three or more points that define the vertices of each inner loop. If the tessellated face set is closed, indicated by &lt;em&gt;SELF\IfcTessellatedFaceSet.Closed&lt;/em&gt;, then the points, defining the inner loops, shall connect clockwise, as seen from the outside of the body.
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The coordinates of the vertices are provided by the indexed list of &lt;em&gt;SELF\IfcTessellatedFaceSet.Coordinates.CoordList&lt;/em&gt;. If the  &lt;em&gt;SELF\IfcTessellatedFaceSet.PnIndex&lt;/em&gt; is provided, the indices point into it, otherwise directly into the &lt;em&gt;IfcCartesianPointList3D&lt;/em&gt;.&lt;/blockquote&gt;</Documentation>
+			<AggregationAttribute>
+				<DocAttribute UniqueId="ea55f708-469d-45d2-9905-ed83269d63e8" AttributeFlags="0" AggregationType="1" AggregationFlag="2" AggregationLower="3" AggregationUpper="?" />
+			</AggregationAttribute>
+			<DiagramLine>
+				<DocPoint X="13989.3330078125" Y="1825.33337402344" />
+				<DocPoint X="13989.3330078125" Y="1933.653465271" />
+				<DocPoint X="13859.2913208008" Y="1933.653465271" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="13989.3330078125" Y="1913.653465271" Width="400" Height="100" />
+			</DiagramLabel>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

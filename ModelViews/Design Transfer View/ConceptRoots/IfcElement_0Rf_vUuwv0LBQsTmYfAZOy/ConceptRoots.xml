@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0Rf_vUuwv0LBQsTmYfAZOy">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcElement" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Product Grid Placement" UniqueId="b25546fb-9338-4344-a9d3-80cd240a4485">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Product Grid Placement_3Xr$C7kR9FHODwhtlgqpHa" />
+			</Definition>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="mandatory">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body SurfaceModel Geometry" UniqueId="731cd346-6fc2-4d4a-8258-419a06c0ac7e">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body SurfaceModel Geometry_0NqqeIb0D0zB_2PJcRuZnL" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body CSG Geometry" UniqueId="c79f8ed9-f582-4a4a-8b0c-143f010e9f5a">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body CSG Geometry_2WgtOmQML9NhwFqGRz9Pd2" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body Clipping Geometry" UniqueId="8fe0b3f8-a8c4-4acb-b8dc-e18d87105f12">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body Clipping Geometry_0isyBrcmn3wfqgdNBG57u0" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="54ca22fe-34f4-4284-b1bb-4bc478fdb1d9" RuleParameters="Identifier=Body;Type=Clipping;Items=IfcBooleanClippingResult;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body Brep Geometry" UniqueId="fa16b6e8-4f1c-4048-b3a7-01659d262492">
+			<Documentation>&lt;p&gt;Any &lt;em&gt;IfcElement&lt;/em&gt; (so far no further constraints are
+ defined at the level of its subtypes) may be represented as a
+ single or multiple Boundary Representation models (which are 
+restricted to be faceted Brep&apos;s with or without voids). The Brep 
+representation allows for the representation of complex element 
+shape.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+
+&lt;table&gt;
+ 
+&lt;tr&gt;
+  
+&lt;td&gt;&lt;img src=&quot;../../../figures/ifcbuildingelement-brep-layout1.gif&quot; alt=
+&quot;Brep representation&quot; border=&quot;0&quot; height=&quot;275&quot; width=&quot;400&quot;&gt;&lt;/td&gt;
+
+  &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; As shown in Figure 174, the Brep representation is given by an
+ &lt;em&gt;IfcShapeRepresentation&lt;/em&gt;, which includes one or more 
+items, all of type &lt;em&gt;IfcFacetedBrep&lt;/em&gt;. In some cases it may be useful to also expose a simple 
+representation as a bounding box representation of the same complex 
+shape.&lt;/blockquote&gt; &lt;/td&gt;
+ &lt;/tr&gt;
+
+ &lt;tr&gt;
+  
+&lt;td&gt;
+&lt;p class=&quot;figure&quot;&gt;Figure 174 &amp;mdash; Building element body boundary
+representation&lt;/p&gt;
+&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+ &lt;/tr&gt;
+
+
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body Brep Geometry_2FkIFrk2r8qgqfrdZAHp$Q" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body AdvancedBrep Geometry" UniqueId="7ae12532-8b84-4a4b-9835-98cccfc8c7f6">
+			<Documentation>&lt;p&gt;&lt;p&gt;An &lt;em&gt;IfcElement&lt;/em&gt; (so far no further constraints are
+ defined at the level of its subtypes or by view definitions) may be 
+represented as a single or multiple boundary representation models, which include advanced surfaces, usually refered to 
+as NURBS surfaces. The &apos;AdvancedBrep&apos; representation allows for the 
+representation of complex free-form element shape.&lt;/p&gt;
+
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; View definitions or implementer agreements may restrict or disallow the use of &apos;AdvancedBrep&apos; geometry.&lt;/blockquote&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body AdvancedBrep Geometry_3yTZLrKF5BmBloE2E05I17" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Element Projecting" UniqueId="026111d9-54de-4a78-b528-a10cf0cadf6a">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Element Projecting_0KYHuPBgf6GOaJOfkvfWW1" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Element Interference" UniqueId="534519dd-aebb-4f94-9a9d-e897017916de">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Element Interference_0UOOBy7qT4qvju5rLb0FE6" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="f681126d-ef61-45d8-a5b8-5c7f6bfed5c5" Type="IfcElement" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

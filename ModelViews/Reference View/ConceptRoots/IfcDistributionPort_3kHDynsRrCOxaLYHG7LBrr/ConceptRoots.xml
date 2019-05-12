@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3kHDynsRrCOxaLYHG7LBrr">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcDistributionPort" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Product Local Placement" UniqueId="0s77$0PljA_QKSwan_dboD">
+			<Documentation>&lt;p&gt;The placement of a port indicates the position and orientation of how it may connect to a compatible port on another product.  
+The placement shall be relative to the nesting &lt;i&gt;IfcDistributionElement&lt;/i&gt;, &lt;i&gt;IfcDistributionElementType&lt;/i&gt;, or enclosing &lt;i&gt;IfcDistributionPort&lt;/i&gt;.&lt;/p&gt;
+
+
+&lt;p&gt;
+The &lt;i&gt;Location&lt;/i&gt; is the midpoint of the physical connection, unless otherwise indicated by cardinal point on a material profile.&lt;/p&gt;
+
+
+&lt;p&gt;The &lt;i&gt;Axis&lt;/i&gt; points in the direction of the physical connection away from the product if &lt;i&gt;FlowDirection&lt;/i&gt; equals &lt;i&gt;SOURCE&lt;/i&gt; (or &lt;i&gt;SOURCEANDSINK&lt;/i&gt; or &lt;i&gt;NOTDEFINED&lt;/i&gt;), or points opposite direction (to the product) if the &lt;i&gt;FlowDirection&lt;/i&gt; equals &lt;i&gt;SINK&lt;/i&gt;. &lt;/p&gt;
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The rationale for positioning the &lt;i&gt;Axis&lt;/i&gt; in the direction of flow is to allow for the same geometry to be used, such as for connectors with polarized cross-section.&lt;/blockquote&gt;
+
+&lt;p&gt;The &lt;i&gt;RefDirection&lt;/i&gt; points in the direction of the local X axis of the material profile, where the local Y axis points up if looking towards the &lt;i&gt;Axis&lt;/i&gt; where the local X axis points right.&lt;/p&gt;
+
+&lt;p&gt;Upon connecting elements through ports with rigid connections, each object shall be aligned such that the effective &lt;i&gt;Location&lt;/i&gt;, &lt;i&gt;Axis&lt;/i&gt;, and &lt;i&gt;RefDirection&lt;/i&gt; of each port is aligned to be equal (with exception for circular profiles where the &lt;i&gt;RefDirection&lt;/i&gt; need not be equal).&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Port Connectivity" UniqueId="2bo4X9H8b9_xqkX$agnm9E">
+			<Documentation>&lt;p&gt;&lt;b&gt;IfcDistributionPort&lt;/b&gt; may be connected to other objects as follows using the indicated relationship:&lt;/p&gt;
+
+
+&lt;ul&gt;
+
+
+
+&lt;li&gt;&lt;b&gt;IfcDistributionPort&lt;/b&gt; (&lt;em&gt;IfcRelConnectsPorts&lt;/em&gt;) : Indicates a connection to another port having the same type and opposite flow direction.  
+For port connections between elements, the &lt;em&gt;RelatingPort&lt;/em&gt; is set to a port having &lt;em&gt;FlowDirection=SOURCE&lt;/em&gt; and the &lt;em&gt;RelatedPort&lt;/em&gt; is set to a port having &lt;em&gt;FlowDirection=SINK&lt;/em&gt;.  
+For aggregation scenarios, ports on a device may be mapped to aggregated devices within, in which case ports on the outer device indicate a single &lt;em&gt;FlowDirection&lt;/em&gt; but have an additional connection internally to a port on an aggregated inner device.  
+Refer to &lt;a href=&quot;../../ifchvacdomain/lexical/ifcunitaryequipment.htm&quot;&gt;IfcUnitaryEquipment&lt;/a&gt; for an example.&lt;/li&gt;
+
+
+
+&lt;li&gt;&lt;em&gt;IfcDistributionElement&lt;/em&gt; (&lt;em&gt;IfcRelConnectsPortToElement&lt;/em&gt;): For dynamic ports, indicates the containing element.
+
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+&lt;p&gt;Figure 140 illustrates distribution port connectivity.&lt;/p&gt;
+
+
+
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt=&quot;Connection Use Definition&quot; src=&quot;../../../figures/ifcdistributionport-connection.png&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 140 &amp;mdash; Distribution port connectivity&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Port Connectivity_0M$eHlCh55bRkmnAq5FQia" />
+			</Definition>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="80891b54-d030-4a2d-b73d-e8bf00722ca8">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="17b59d9d-6b92-4d3f-bbe3-2ab16ad02861" RuleParameters="PsetName=Pset_DistributionPortCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="4b3ac2d8-501f-46d8-a98e-b4ba4003267a">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="5c7a8e42-f19f-45a4-940d-36e6400f9438" RuleParameters="Order=1;PropertyName=PortNumber;Value=IfcInteger;" Order="0" />
+								<DocTemplateItem UniqueId="5b5e015c-2d3a-483a-bf29-cd44fc117546" RuleParameters="Order=2;PropertyName=ColorCode;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material Profile Set" UniqueId="6c4c186c-3602-48a8-a3bf-502c1912beb1">
+			<Documentation>&lt;p&gt;The cross-section and materials of a port may be indicated using &lt;i&gt;IfcMaterialProfileSet&lt;/i&gt;. The material profile may indicate the connection and optionally the flow substance if applicable. If provided, for a port to be able to connect to another port on another object, applications may require asserted attributes of material profiles to be identical. For example, the port for a pipe connection may indicate a circular profile of a nominal diameter, particular piping material such as copper, and an optional flow substance such as water, where properties may be indicated on such materials indicating flow characteristics.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set_12Ui1LAd52mgGZSMYVfrnP" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Port to Distribution System" UniqueId="89e757b8-3d97-43c2-a57b-6e0afb4a2992">
+			<Documentation>&lt;p&gt;The &lt;em&gt;IfcDistributionPort&lt;/em&gt; is assigned to the distribution system where it plays its role as inlet or outlet.</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Port to Distribution System_0bzWNJWzHC4A90p5chge$C" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="1215ea3a-5d3a-4d6e-add4-a8d4790dbf20" Type="IfcDistributionPort" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

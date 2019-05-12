@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="efbef08e-58a7-47f5-a67d-032612b9a789">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcFilterType" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="61431e9e-8aef-44cb-9507-f64863aca41b" Type="IfcFilterType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

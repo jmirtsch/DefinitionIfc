@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="9a40b1f8-c468-4e17-80fd-c3f28f3c66ed">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcWallElementedCase" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Element Decomposition" UniqueId="2193a8c8-63e5-4625-8e44-2ec9ac40635a">
+			<Documentation>&lt;p&gt;An elemented wall is decomposed into parts for particular components such as framing and panels on each side. There must be an object corresponding to each type of part, however there may be single object instance indicating multiple placements (via mapping geometry) for each part, or multiple instances corresponding to each placement. For minimizing file size, it is recommended to use a single object with multiple placement unless there are specific connectivity relationships indicated (e.g. a junction box connected to a specific stud).
+&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Element Decomposition_2A9y5QnEfCgOpEVxkXoRpW" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="146f304f-b18d-4afc-971c-4954e79d3a19" RuleParameters="RelatedObjects=IfcElementAssembly;" Order="0">
+					<Documentation>Frame containing studs, tracks, and possibly insulation</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="204036b7-9825-4b7f-a445-6f13af4e5e98" RuleParameters="RelatedObjects=IfcBuildingElementPart;" Order="0">
+					<Documentation>Panels on each side such as gypsum (drywall) or cement board (tile backing) with fasteners</Documentation>
+				</DocTemplateItem>
+			</Items>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="mandatory">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material Layer Set Usage" UniqueId="b049741f-7515-461c-aecb-09438a854734">
+			<Documentation>&lt;p&gt;Similar to standard walls (&lt;i&gt;IfcWallStandardCase&lt;/i&gt;), elemented walls are defined parametrically with &lt;i&gt;IfcMaterialLayerSetUsage&lt;/i&gt;, but go into further detail, where each material layer corresponds to an aggregated part of a particular type, where such parts may be further decomposed and/or use parametric material definitions.
+&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Layer Set Usage_1jNxXlFor9_vKe1tXLtSn7" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Axis 2D Geometry" UniqueId="2ae73f28-4064-4b13-acf1-78bac1b3827c">
+			<Documentation>&lt;p&gt;The wall axis is represented by a two-dimensional open curve 
+within a particular shape representation. The wall axis is used to 
+apply the material layer set usage parameter to the wall geometry.
+&lt;/p&gt;
+&lt;ul&gt;
+
+ &lt;li&gt;&lt;em&gt;Axis&lt;/em&gt;
+  &lt;ul&gt;
+   &lt;li&gt;&lt;em&gt;IfcPolyline&lt;/em&gt; having two &lt;em&gt;Points&lt;/em&gt;, or 
+&lt;em&gt;IfcTrimmedCurve&lt;/em&gt; with &lt;em&gt;BasisCurve&lt;/em&gt; of Type
+&lt;em&gt;IfcLine&lt;/em&gt; for the &apos;SweptSolid&apos; provided as 
+&lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt;. The axis curve lies on the x/y plane and is parallel to the x-axis of
+ the object coordinate system.&lt;/li&gt;
+
+   &lt;li&gt;&lt;em&gt;IfcTrimmedCurve&lt;/em&gt; with &lt;em&gt;BasisCurve&lt;/em&gt; of Type
+&lt;em&gt;IfcCircle&lt;/em&gt; for &apos;SweptSolid&apos; provided as
+ &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt;. The axis curve lies on the x/y plane
+ of the object coordinate system, the tangent at the start is along 
+the positive x-axis.&lt;/li&gt;
+
+  &lt;/ul&gt;
+ &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;table cellpadding=&quot;2&quot; cellspacing=&quot;2&quot;&gt;
+
+ &lt;tr&gt;
+
+  &lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../../figures/ifcwallstandard_straigthwall_01-layout1.gif&quot; alt=&quot;straight wall axis&quot; border=&quot;0&quot; height=&quot;299&quot; width=&quot;393&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 235 illustrates an axis representation for a straight wall. In case of a straight wall, the set of items shall
+include a single geometric representation item of type &lt;em&gt;IfcPolyline&lt;/em&gt; or &lt;em&gt;IfcTrimmedCurve&lt;/em&gt; with the &lt;em&gt;BasisCurve&lt;/em&gt; being an &lt;em&gt;IfcLine&lt;/em&gt;. The &lt;em&gt;IfcPolyline&lt;/em&gt; or &lt;em&gt;IfcTrimmedCurve&lt;/em&gt; shall be parallel (here in a special case co-linear) to the x-axis
+of the object coordinate system. The direction shall be identical to the direction of the x-axis.&lt;/blockquote&gt;
+
+ &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width=&quot;393&quot;&gt;&lt;p class=&quot;figure&quot;&gt;Figure 235 &amp;mdash; Wall axis straight&lt;/p&gt;&lt;/td&gt;
+
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+ &lt;/tr&gt;
+&lt;/table&gt;
+&lt;table cellpadding=&quot;2&quot; cellspacing=&quot;2&quot;&gt;
+
+ &lt;tr&gt;
+
+  &lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../../figures/ifcwallstandard_curvedwall_01-layout1.gif&quot; alt=&quot;curved wall axis&quot; border=&quot;0&quot; height=&quot;299&quot; width=&quot;393&quot;&gt;&lt;/td&gt;
+
+  &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 236 illustrates an axis representation for a curved wall. In case of a curved wall, the set of items shall include
+a single geometric representation item of type &lt;em&gt;IfcTrimmedCurve&lt;/em&gt;. The curve shall have a &lt;em&gt;BasisCurve&lt;/em&gt; of type &lt;em&gt;IfcCircle&lt;/em&gt;. The tangent of the &lt;em&gt;IfcTrimmedCurve&lt;/em&gt; shall be parallel at start to the x-axis of the object coordinate system. The direction shall be identical to the direction of the x-axis.&lt;/blockquote&gt;
+ &lt;/tr&gt;
+ 
+&lt;tr&gt;
+  &lt;td width=&quot;393&quot;&gt;&lt;p class=&quot;figure&quot;&gt;Figure 236 &amp;mdash; Wall axis curved&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+ 
+&lt;/tr&gt;
+
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Axis 2D Geometry_1u94Jere57Mf0qgUVrF6rb" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="f1594971-c04e-4266-8ba6-78986998249f" Type="IfcWallElementedCase" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

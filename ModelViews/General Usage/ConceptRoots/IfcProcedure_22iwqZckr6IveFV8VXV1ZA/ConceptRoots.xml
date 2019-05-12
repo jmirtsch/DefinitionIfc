@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="22iwqZckr6IveFV8VXV1ZA">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcProcedure" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="2XOA$EVUnCxe8MY1o2mTvS">
+			<Documentation>&lt;p&gt;&lt;em&gt;IfcProcedure&lt;/em&gt; defines the anticipated or actual
+ occurrence of any procedure; common information about
+      procedure types is handled by &lt;em&gt;IfcProcedureType&lt;/em&gt;.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="2368e23a-9e04-42d7-8758-afe5e0294c19" RuleParameters="RelatingType=IfcProcedureType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Property Sets" UniqueId="312hhOdxD2PB3Ix46JanRA">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Nesting" UniqueId="1Z7zHz6wLBWxWKh$$vqgCQ">
+			<Documentation>&lt;p&gt;The &lt;em&gt;IfcProcedure&lt;/em&gt; may be contained within an
+ &lt;em&gt;IfcTask&lt;/em&gt; or &lt;em&gt;IfcProcedure&lt;/em&gt; using the
+ &lt;em&gt;IfcRelNests&lt;/em&gt; relationship. An &lt;em&gt;IfcProcedure&lt;/em&gt; may
+ in turn nest other &lt;em&gt;IfcProcedure&lt;/em&gt; or &lt;em&gt;IfcEvent&lt;/em&gt;
+ entities. Such nesting indicates decomposed level of
+ detail.
+&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Nesting_0uoeU8NaT178AKrM_UcbQH" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Sequential Connectivity" UniqueId="0Yx2JVk3H4ef8_r83Dritv">
+			<Documentation>&lt;p&gt;
+The relationship &lt;em&gt;IfcRelSequence&lt;/em&gt; is used to indicate
+ control flow. An &lt;em&gt;IfcProcedure&lt;/em&gt; as a successor to an
+ &lt;em&gt;IfcEvent&lt;/em&gt; indicates that the procedure should be
+ performed in response to the event. An &lt;em&gt;IfcProcedure&lt;/em&gt;
+ as a predecessor to an &lt;em&gt;IfcEvent&lt;/em&gt; indicates that the
+  event should be trigerred following the procedure. As
+ procedures have arbitrary duration, the
+ &lt;em&gt;IfcRelSequence.SequenceType&lt;/em&gt; attribute has no effect
+ on an &lt;em&gt;IfcProcedure&lt;/em&gt; but still applies to the opposite
+ end of the relationship if &lt;em&gt;IfcTask&lt;/em&gt; is used.
+&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Sequential Connectivity_39yHY0ZFP7$gki1SSxG46n" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Process Assignment" UniqueId="0sMWz7oL93bePJklTBJvMg">
+			<Documentation>&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; A particular type of &lt;em&gt;IfcProcedure&lt;/em&gt; is a
+ caution, warning or other form of advisory note. Typically,
+ it is anticipated that such a procedure would be assigned
+ to the specific &lt;em&gt;IfcProcess&lt;/em&gt; for which it gives advice
+ using &lt;em&gt;IfcRelAssignsToProcess&lt;/em&gt;.
+&lt;/blockquote&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Process Assignment_3eGT0hpFrD7vGpsa24POHe" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Control Assignment" UniqueId="3TZkagRUL93QJuMqzVYMaJ">
+			<Documentation>&lt;p&gt;An &lt;em&gt;IfcProcedure&lt;/em&gt; may be assigned to an
+ &lt;em&gt;IfcWorkCalendar&lt;/em&gt; to indicate times when such
+ procedure may be performed using
+ &lt;em&gt;IfcRelAssignsToControl&lt;/em&gt;; otherwise the effective
+ calendar is determined by the nearest &lt;em&gt;IfcProcess&lt;/em&gt;
+      ancestor with a calendar assigned. Advisory notes should be
+ assigned to the specific &lt;em&gt;IfcProcess&lt;/em&gt; for which it
+ gives advice using &lt;em&gt;IfcRelAssignsToProcess&lt;/em&gt;.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Control Assignment_21FdF_La56IAQ0Y8VFGrdn" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Product Assignment" UniqueId="0MSw4PrDD6YPQfgQYZqmTN">
+			<Documentation>&lt;p&gt;
+For building operation scenarios, &lt;em&gt;IfcProcedure&lt;/em&gt; may
+ be assigned to a product (&lt;em&gt;IfcElement&lt;/em&gt; subtype) using
+      &lt;em&gt;IfcRelAssignsToProduct&lt;/em&gt; to indicate a specific
+ product occurrence that performs the procedure.&lt;/p&gt;
+
+&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; An &lt;em&gt;IfcActuator&lt;/em&gt; may have a &quot;Close&quot;
+ procedure. If the &lt;em&gt;IfcProcedure&lt;/em&gt; is defined by an
+ &lt;em&gt;IfcProcedureType&lt;/em&gt; and the &lt;em&gt;IfcProcedureType&lt;/em&gt; is
+ assigned to a product type (using
+ &lt;em&gt;IfcRelAssignsToProduct&lt;/em&gt;), then the
+ &lt;em&gt;IfcProcedure&lt;/em&gt; must be assigned to one or more
+ occurrences of the specified product type using
+ &lt;em&gt;IfcRelAssignsToProduct&lt;/em&gt;.&lt;/blockquote&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Product Assignment_3idFi4hVv8Q85eru$fbQaJ" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="5756f47f-7e56-468b-b0a8-b5160b4c51e2" Type="IfcProcedure" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

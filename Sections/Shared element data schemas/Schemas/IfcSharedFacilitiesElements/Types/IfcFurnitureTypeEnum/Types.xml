@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFurnitureTypeEnum" UniqueId="b0721a11-753e-44ee-b595-bc550b79b1c3" DiagramNumber="1">
+	<Localization>
+		<DocLocalization Name="Furniture Type Enum" Locale="en" />
+		<DocLocalization Name="Enumération des types de mobilier" Locale="fr" />
+	</Localization>
+	<DiagramRectangle>
+		<DocRectangle X="514.79502" Y="910.03183" Width="574.94051" Height="58.11045" />
+	</DiagramRectangle>
+	<Constants>
+		<DocConstant xsi:nil="true" href="CHAIR_00jdSuRMT0K8n4DUHr7pYO" />
+		<DocConstant xsi:nil="true" href="TABLE_1wPRvrh7DDGwQpWqFlzSb7" />
+		<DocConstant xsi:nil="true" href="DESK_1_8sh2NDb2zPjIKaGFwHE7" />
+		<DocConstant xsi:nil="true" href="BED_1JFydLi$16wxcH2QcAonZz" />
+		<DocConstant xsi:nil="true" href="FILECABINET_3xZ3ZmAxH2LeNHl7$20m18" />
+		<DocConstant xsi:nil="true" href="SHELF_1$62FHh5X8sAfRnTcQdVat" />
+		<DocConstant xsi:nil="true" href="SOFA_2UWO$WWB96aRK87lmOkOZj" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_0AFt21ebr1Wf5G00WMJ7zX" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1OGVNaxDT9dOuKS1Ia46Hm" />
+	</Constants>
+</DocEnumeration>
+

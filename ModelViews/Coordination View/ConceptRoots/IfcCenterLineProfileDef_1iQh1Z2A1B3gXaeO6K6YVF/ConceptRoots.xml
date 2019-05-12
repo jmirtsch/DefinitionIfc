@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="6c6ab063-08a0-4b0e-a864-a181941a27cf">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcCenterLineProfileDef" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="f267624c-b768-4fdf-b915-e1257846ea2a" Type="IfcCenterLineProfileDef" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

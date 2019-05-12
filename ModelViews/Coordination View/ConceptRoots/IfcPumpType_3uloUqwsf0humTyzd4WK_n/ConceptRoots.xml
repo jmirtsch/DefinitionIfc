@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="f8bf27b4-eb6a-40af-8c1d-f3d9c4814fb1">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcPumpType" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="f0cadc06-43a4-4e43-8e5c-913c58e12a78" Type="IfcPumpType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

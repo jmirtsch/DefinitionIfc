@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="f8876db1-3197-439f-a6a3-44329c088170">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcPostalAddress" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="00405e7a-08fd-4c36-9028-3d3730277939" Type="IfcPostalAddress" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

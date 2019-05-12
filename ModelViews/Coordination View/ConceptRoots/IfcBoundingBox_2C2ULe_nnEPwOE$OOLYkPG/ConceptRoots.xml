@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="8c09e568-fb1c-4e67-a60e-fd86158ae650">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcBoundingBox" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="d8239e79-f9cd-44cd-ae46-4a507d365c92" Type="IfcBoundingBox" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

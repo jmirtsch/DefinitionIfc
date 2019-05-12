@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="ea51cb3e-7680-4975-9450-2b8eaa5cf1d0">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcColourRgb" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="a906498c-59eb-482d-8395-0b3c85215966" Type="IfcColourRgb" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="efd24e0e-169a-48c6-be75-18dd7c1c0c03">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcProject" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="4229ed78-c96c-4a8d-8c46-d99c19fae3b4" Type="IfcProject" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3f63a4f6-a609-4199-9a57-8d28790869b1">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcHeatExchangerType" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="8d1fa97c-7e85-44ac-a131-ad358c7edc00" Type="IfcHeatExchangerType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="59f204f5-48c7-41ce-a621-6be302fb1f60">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcFaceOuterBound" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="cc2f279a-dacf-4e34-a432-fe59d2c79352" Type="IfcFaceOuterBound" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

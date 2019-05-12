@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="RefrigerantClass_2KxZm0qSmHuO00025QrE$V" Name="RefrigerantClass" UniqueId="2KxZm0qSmHuO00025QrE$V" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Localization>
+		<DocLocalization Name="Refrigerant Class" Locale="en" />
+	</Localization>
+</DocProperty>
+

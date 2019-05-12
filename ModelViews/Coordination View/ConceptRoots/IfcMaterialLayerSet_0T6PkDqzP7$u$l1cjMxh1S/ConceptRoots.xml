@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1d199b8d-d3d6-47ff-8fef-066b56eeb05c">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcMaterialLayerSet" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="75976f7a-dd41-4919-9fb9-95ab53a92d94" Type="IfcMaterialLayerSet" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

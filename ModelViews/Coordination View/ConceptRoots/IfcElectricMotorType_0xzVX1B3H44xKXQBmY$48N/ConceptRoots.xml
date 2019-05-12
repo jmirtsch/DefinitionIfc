@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3bf5f841-2c34-4413-b521-68bc22fc4217">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcElectricMotorType" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="ab6b7109-2635-4ebb-81bd-8728be3aadad" Type="IfcElectricMotorType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

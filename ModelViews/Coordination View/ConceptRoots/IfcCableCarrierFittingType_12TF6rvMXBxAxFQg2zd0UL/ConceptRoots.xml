@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="4274f1b5-e568-4bec-aecf-6aa0bd9c0795">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcCableCarrierFittingType" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="12fa6f16-b83a-4781-aecd-707d7e8c4fd7" Type="IfcCableCarrierFittingType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

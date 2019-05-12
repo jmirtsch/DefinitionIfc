@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0skn7qPa10WuPjzp1NFNrG">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcWindow" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="3gNwjaPS1ASAmJ1cjuximq">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="73dbe941-f2df-4e89-9018-fdee8c0973f5" RuleParameters="RelatingType=IfcWindowType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="1lBRqRlVX8nxuOVNG14xLS">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="d0abcf37-e02f-4607-a697-a00638e6871d" RuleParameters="PsetName=Pset_WindowCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="a267ff36-5b90-4f54-9514-6aff8ae1de67">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="a0810b7c-ee36-4659-9f06-f3746d7d7a8a" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="d9df3583-be83-47a6-8fb4-a0d9b391fdbf" RuleParameters="PropertyName=AcousticRating;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="c4c8817d-23e1-4ac4-bca9-7014b8f1485b" RuleParameters="PropertyName=FireRating;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="b9724731-580d-44ac-b239-269a5586d7d4" RuleParameters="PropertyName=SecurityRating;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="ecf4621f-6bcb-4eaa-82aa-2e55f0460a71" RuleParameters="PropertyName=IsExternal;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="637f9ae8-2368-4c5f-8725-78a0a069f53e" RuleParameters="PropertyName=Infiltration;Value=IfcVolumetricFlowRateMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="a2525360-6956-47bd-9c9b-878b5d0cd8db" RuleParameters="PropertyName=ThermalTransmittance;Value=IfcThermalTransmittanceMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="ad63fa88-cd63-47ab-91b8-2ade84660465" RuleParameters="PropertyName=GlazingAreaFraction;Value=IfcPositiveRatioMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="84cccb20-8051-4096-be2a-6afce51cb7f1" RuleParameters="PropertyName=HasSillExternal;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="881a2162-fc0e-454c-aacb-d9d58ef9cb3f" RuleParameters="PropertyName=HasSillInternal;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="ade8ab4b-e46e-4d06-94c9-d6ae8a5c5fe8" RuleParameters="PropertyName=HasDrive;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="a562e272-cab1-4814-beb0-a80f29da712b" RuleParameters="PropertyName=SmokeStop;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="211b3f1b-cf1e-42d5-b768-945da45d690d" RuleParameters="PropertyName=FireExit;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="38d1252f-1600-41d9-81e2-ce0de8ee6e8b" RuleParameters="PropertyName=WaterTightnessRating;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="9f614524-e246-4314-b89a-e7a7ddf97fda" RuleParameters="PropertyName=MechanicalLoadRating;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="08134f9b-9973-4b46-bcf7-1b50ae162f89" RuleParameters="PropertyName=WindLoadRating;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="1839be32-8672-4be1-8cc9-2f50dae8031c">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="a35f0be2-951d-4a98-95b3-29e62e48637c" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="2cAf3BQuL1yfmuVIVqRWsx">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="13a21085-2a1b-4c78-82ed-607a49a35d50" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_WindowBaseQuantities;TemplateType=QTO_OCCURRENCEDRIVEN;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material Constituents" UniqueId="2d2Q0fle55fRR5NKwGvAMC">
+			<Documentation>&lt;p&gt;The material of the &lt;em&gt;IfcWindow&lt;/em&gt; is defined by the
+&lt;em&gt;IfcMaterialConstituentSet&lt;/em&gt; or as fall back by
+&lt;em&gt;IfcMaterial&lt;/em&gt; and attached by the
+&lt;em&gt;IfcRelAssociatesMaterial&lt;/em&gt;&lt;em&gt;.RelatingMaterial&lt;/em&gt;. It is
+accessible by the inverse &lt;em&gt;HasAssociations&lt;/em&gt;
+relationship.&lt;/p&gt;
+&lt;p&gt;If the fall back single &lt;em&gt;IfcMaterial&lt;/em&gt; is referenced, it
+applies to the lining and framing of the window.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="9f31d66a-abaf-4b43-982c-c363d88415cf" RuleParameters="Name=Lining;" Order="0">
+					<Documentation>Indicates that the material constituent applies to the window lining.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="3a8fa361-740b-4b0a-9049-2b8146cd8e19" RuleParameters="Name=Framing;" Order="0">
+					<Documentation>Indicates that the material constituent applies to the windows panels(s); if not provided, the &apos;Lining&apos; material information applies to panel(s) as well.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="4622dc53-7de3-4637-abf4-ba722d4ac316" RuleParameters="Name=Glazing;" Order="0">
+					<Documentation>Indicates that the material constituent applies to the glazing part.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Spatial Containment" UniqueId="1FTX9G6016zOcE_$hAxTiV">
+			<Documentation>&lt;p&gt;The &lt;em&gt;IfcWindow&lt;/em&gt;, as any subtype of &lt;em&gt;IfcBuildingElement&lt;/em&gt;, 
+may participate alternatively in one of the two different containment relationships:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the &lt;em&gt;Spatial Containment&lt;/em&gt; (defined here), or&lt;/li&gt;
+&lt;li&gt;the &lt;em&gt;Element Composition&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The &lt;em&gt;IfcWindow&lt;/em&gt; may also be connected to the &lt;em&gt;IfcOpeningElement&lt;/em&gt; in which it is placed as a filler. In this case, the spatial containment relationship shall be provided, see Figure 262.&lt;/p&gt;
+
+
+&lt;table&gt;
+ 
+&lt;tr valign=&quot;bottom&quot;&gt;
+  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcwindow_containment-01.png&quot; alt=
+&quot;Containment&quot; width=&quot;600&quot; height=&quot;550&quot; border=&quot;0&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;
+   &lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The containment shall be defined independently of the filling relationship, that is, even if the 
+    &lt;em&gt;IfcWindow&lt;/em&gt; is a filling of an opening established by &lt;em&gt;IfcRelFillsElement&lt;/em&gt;, it is also contained in the spatial structure 
+    by an &lt;em&gt;IfcRelContainedInSpatialStructure&lt;/em&gt;.&lt;/blockquote&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+ 
+&lt;tr&gt;
+  &lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 262 &amp;mdash; Window spatial containment&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+ &lt;/tr&gt;
+
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Spatial Containment_3Pe$WY01HBmesKdP1dTP15" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="1229a1cf-e9b2-4733-98b3-8abd5b7f5f00" RuleParameters="RelatingStructure=IfcBuildingStorey;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Placement" UniqueId="0VUfa0_Aj9NRqMxRimUijb">
+			<Documentation>&lt;p&gt;The following restriction is imposed:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The &lt;em&gt;PlacementRelTo&lt;/em&gt; relationship of
+&lt;em&gt;IfcLocalPlacement&lt;/em&gt; shall point to the local placement of
+the same element (if given), in which the &lt;em&gt;IfcWindow&lt;/em&gt; is
+used as a filling (normally an &lt;em&gt;IfcOpeningElement&lt;/em&gt;), as
+provided by the &lt;em&gt;IfcRelFillsElement&lt;/em&gt; relationship.&lt;/li&gt;
+&lt;li&gt;If the &lt;em&gt;IfcWindow&lt;/em&gt; is not inserted into an
+&lt;em&gt;IfcOpeningElement&lt;/em&gt;, then the &lt;em&gt;PlacementRelTo&lt;/em&gt;
+relationship of &lt;em&gt;IfcLocalPlacement&lt;/em&gt; shall point (if given)
+to the local placement of the same
+&lt;em&gt;IfcSpatialStructureElement&lt;/em&gt; that is used in the
+&lt;em&gt;ContainedInStructure&lt;/em&gt; inverse attribute or to a referenced
+spatial structure element at a higher level.&lt;/li&gt;
+&lt;li&gt;If the relative placement is not used, the absolute placement
+is defined within the world coordinate system.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The product placement is used to determine the opening direction of the window.&lt;/blockquote&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Profile Geometry" UniqueId="1dcjjFXVD7gf5LNRynDZ1j">
+			<Documentation>&lt;p&gt;The window profile is represented by a three-dimensional
+closed curve within a particular shape representation. The
+profile is used to apply the parameter of the parametric window
+representation. The following attribute values for the
+&lt;em&gt;IfcShapeRepresentation&lt;/em&gt; holding this geometric
+representation shall be used:&lt;/p&gt;
+
+&lt;ul&gt;
+
+&lt;li&gt;&lt;em&gt;RepresentationIdentifier&lt;/em&gt; : &apos;Profile&apos;&lt;/li&gt;
+
+&lt;li&gt;&lt;em&gt;RepresentationType&lt;/em&gt; : &apos;Curve3D&apos;, only a single closed
+curve shall be contained in the set of
+&lt;em&gt;IfcShapeRepresentation.Items&lt;/em&gt;.&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;p&gt;A &apos;Profile&apos; representation has to be provided if:&lt;/p&gt;
+
+&lt;ul&gt;
+
+&lt;li&gt;a parametric representation shall be applied to the
+ window AND&lt;/li&gt;
+&lt;li style=&quot;list-style: none&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;the window is &apos;free standing&apos;, or&lt;/li&gt;
+&lt;li&gt;the opening into which the window is inserted is not extruded
+horizontally (i.e. where the opening profile does not match the
+window profile)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Profile Geometry_3nRhE_$uXFCvVVrLhjEW_L" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="7a9f4358-7fb3-43ce-8044-3258ed6b428c" RuleParameters="RepresentationType=Curve3D;Geometry=IfcBoundedCurve;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Profile 3D Geometry" UniqueId="ca942783-7fe2-4844-9e7f-836b96aa30ab">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Profile 3D Geometry_0TYN8WT0r7avgDNITqnxm0" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="c1855fc9-e8c4-4862-afeb-0b17a048bddd" Type="IfcWindow" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

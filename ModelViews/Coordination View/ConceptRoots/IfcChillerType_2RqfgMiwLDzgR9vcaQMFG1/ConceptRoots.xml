@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="9bd29a96-b3a5-4df6-a6c9-e6691a58f401">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcChillerType" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="f8c7bc7e-db5a-4a4f-bd56-247881b73150" Type="IfcChillerType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

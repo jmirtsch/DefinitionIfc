@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3PwYcPlA1EvRTG8_Q5Rjsj">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcAnnotation" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage UniqueId="3iraqLoTX0AuBdokgdqg9j">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="35696030-7a62-4ba8-996a-450dd49ca094" RuleInstanceID="IfcPropertySet" RuleParameters="PredefinedType=ContourLine;PsetName=Pset_AnnotationContourLine;" Order="0" />
+				<DocTemplateItem UniqueId="2d4b6e2f-b1cf-4c7a-af50-09311ff457cc" RuleInstanceID="IfcPropertySet" RuleParameters="PredefinedType=LineOfSight;PsetName=Pset_AnnotationLineOfSight;TemplateType=PSET_OCCURRENCEDRIVEN;" Order="0" />
+				<DocTemplateItem UniqueId="d297a159-882c-4e20-be51-78fab802c18c" RuleInstanceID="IfcPropertySet" RuleParameters="PredefinedType=SurveyArea;PsetName=Pset_AnnotationSurveyArea;TemplateType=PSET_OCCURRENCEDRIVEN;" Order="0" />
+				<DocTemplateItem UniqueId="e0508c94-a2f1-4a3c-86c9-0ec2975a85a1" RuleInstanceID="IfcPropertySet" RuleParameters="PredefinedType=Sound;PsetName=Pset_SoundAttenuation;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Annotation 2D Geometry" UniqueId="b17d6670-1ba5-41f2-a71f-c2df1b699aa9">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Annotation 2D Geometry_01GMQdxoj86B$B4IYcaS_V" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="0558c9be-51bb-4752-a075-b7697217a305" RuleParameters="Identifier=Annotation;Type=Annotation2D;Items=IfcGeometricCurveSet;" Order="0">
+					<Documentation>Any point or curve</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="cd9ec821-7b52-4ebc-856e-ea077418dc9f" RuleParameters="Identifier=Annotation;Type=Annotation2D;Items=IfcAnnotationFillArea;" Order="0">
+					<Documentation>Area for hatching</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="9a516434-849a-40dc-8444-f1d7417cd6c3" RuleParameters="Identifier=Annotation;Type=Annotation2D;Items=IfcTextLiteral;" Order="0">
+					<Documentation>Text literal for applying text</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Annotation 3D Geometry" UniqueId="9bb86507-e646-4b69-ab5e-c2d0bd15b771">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Annotation 3D Geometry_0F8JX6$XL61wPgipwOorY7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="ee8a18ee-f45b-4b07-ac4f-d11fd1b40bfa" RuleParameters="Identifier=Annotation;Type=GeometricSet;Items=IfcGeometricSet;" Order="0">
+					<Documentation>Any point, curve or surface representing the annotation.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="dd112d69-fc2d-4e67-b99a-8be12a41f0e1" Type="IfcAnnotation" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

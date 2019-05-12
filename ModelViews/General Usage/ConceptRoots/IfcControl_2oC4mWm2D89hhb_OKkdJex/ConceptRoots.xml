@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="b2304c20-c023-4826-bae5-f9852e9d3a3b">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcControl" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Control Assignment" UniqueId="4ade6079-f2ca-47c8-ae0a-f416f40fc429">
+			<Documentation>&lt;p&gt;Controls have assignments from products, processes, or other objects by using the relationship object &lt;em&gt;IfcRelAssignsToControl&lt;/em&gt;.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Control Assignment_21FdF_La56IAQ0Y8VFGrdn" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="5aa9cd04-ed09-4c60-83f1-ebca439fecd9" Type="IfcControl" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

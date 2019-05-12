@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1oD5WhFZD4$guc8VZYI$ne">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcWallElementedCase" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Product Local Placement" UniqueId="2OBjzYEIH3vPdmuJmGPfeb">
+			<Documentation>&lt;p&gt;The use of local placement is defined at the supertype
+&lt;em&gt;IfcWall&lt;/em&gt;. The local placement of the
+&lt;em&gt;IfcWallElementedCase&lt;/em&gt; defines the parent coordinate systems
+for the parts within the decomposition. All parts shall be
+positioned relative to the &lt;em&gt;IfcWallElementedCase&lt;/em&gt;.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Surface Geometry" UniqueId="3vwetbQLL7hgdSq4yGbaxE">
+			<Documentation>&lt;p&gt;The &apos;Surface Geometry&apos; shape representation can be used to define a
+ surfacic model of the building (e.g. for analytical purposes, or 
+for reduced Level of Detail representation). It could suppress 
+the geometric details of the parts in the
+ decomposition.&lt;/p&gt;
+
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; It is invalid to exchange a &apos;Body&apos; shape representation of an &lt;em&gt;IfcWallElementedCase&lt;/em&gt;. The body geometry is defined by the parts within the decomposition.&lt;/blockquote&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Surface Geometry_0kcTvm_tD7ZvlAJ_tzwqwb" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Element Decomposition" UniqueId="690cfae5-8fb2-4c83-800a-9a793f0c0c8e">
+			<Documentation>&lt;p&gt;An elemented wall is decomposed into parts for particular components such as framing and panels on each side. There must be an object corresponding to each type of part, however there may be single object instance indicating multiple placements (via mapping geometry) for each part, or multiple instances corresponding to each placement. For minimizing file size, it is recommended to use a single object with multiple placement unless there are specific connectivity relationships indicated (e.g. a junction box connected to a specific stud).
+&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Element Decomposition_2A9y5QnEfCgOpEVxkXoRpW" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="11bac958-5044-4f05-8378-83ac9ba1d537" RuleParameters="RelatedObjects=IfcElementAssembly;" Order="0">
+					<Documentation>Frame containing studs, tracks, and possibly insulation</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="3b6d6daa-c814-4e15-a1f2-b7c83890da83" RuleParameters="RelatedObjects=IfcBuildingElementPart;" Order="0">
+					<Documentation>Panels on each side such as gypsum (drywall) or cement board (tile backing) with fasteners</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Element Voiding" UniqueId="79db20d2-4de5-4dd3-9394-8804b48a6ff2">
+			<Documentation>&lt;p&gt;As shown in Figure 250, openings within the composite wall are directly assigned to &lt;em&gt;IfcWallElementedCase&lt;/em&gt; using &lt;em&gt;IfcRelVoidsElement&lt;/em&gt; pointing to &lt;em&gt;IfcOpeningElement&lt;/em&gt; and apply to all aggregated parts. If individual parts have cutting and other voiding features, then the decomposed parts have a separate voiding relationship &lt;em&gt;IfcRelVoidsElement&lt;/em&gt; pointing to &lt;em&gt;IfcVoidingFeature&lt;/em&gt;.&lt;/p&gt;
+
+&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot; cellspacing=&quot;2&quot; summary=&quot;voiding&quot;&gt;
+&lt;tr&gt;&lt;td valign=&quot;top&quot;&gt;&lt;img src=&quot;../../../figures/ifcwallelementedcase_fig01.png&quot; alt=&quot;voiding&quot; border=&quot;0&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 250 &amp;mdash; Wall elemented voiding&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Element Voiding_2v05vvjSLC2vs616mXhK8D" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="532773a7-ac33-4d8f-a569-9343abf6ed68" Type="IfcWallElementedCase" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

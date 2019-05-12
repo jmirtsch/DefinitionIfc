@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="a6510f06-e9d8-4332-89ff-d140ae87eeb7">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcStructuralSurfaceAction" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Structural Activity" UniqueId="c855400b-6927-474f-90c3-5f09d6dc6191">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Structural Activity_2JaCfosE98Avc6uE7HNd6K" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="71c1ad9a-2266-4bed-8847-5743b085cb51" RuleParameters="AppliedLoad=IfcStructuralLoadPlanarForce;RelatingElement=IfcStructuralSurfaceMember;" Order="0">
+					<Documentation>Force and moment within a surface member.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="9003fe81-855c-4ddc-94d0-0747864583a5" Type="IfcStructuralSurfaceAction" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="05aw44Cnj1ge$yC_5UMatY">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcElementType" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Material Constituents" UniqueId="6ec6b5c3-af3f-4791-8d5d-a6e1aebaa167">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material Single" UniqueId="d59f0b28-eb83-4d79-b39c-e4b32c7c262e">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Single_1VEQWKHA1Fiut6tQe5OFnK" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Type Body CSG Geometry" UniqueId="cd2d595e-1cba-41d2-85d9-cdf87657ee36">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Type Body CSG Geometry_3$cgCgF6P4XAWUmEZvj5eg" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="2c8b2518-6b58-4992-a8a7-86ef36c9893f" RuleParameters="RepresentationType=CSG;Geometry=IfcBlock;" Order="0" />
+				<DocTemplateItem UniqueId="90a34506-8f20-4083-a12c-d97afa37d34e" RuleParameters="RepresentationType=CSG;Geometry=IfcRectangularPyramid;" Order="0" />
+				<DocTemplateItem UniqueId="baf64c65-424b-4f5b-a1e2-9027b01e0bcc" RuleParameters="RepresentationType=CSG;Geometry=IfcRightCircularCone;" Order="0" />
+				<DocTemplateItem UniqueId="490f80d1-90df-476b-a650-f6dd889ae68c" RuleParameters="RepresentationType=CSG;Geometry=IfcRightCircularCylinder;" Order="0" />
+				<DocTemplateItem UniqueId="acc5ba5f-d3e2-411f-a2db-2e0a3f7b7764" RuleParameters="RepresentationType=CSG;Geometry=IfcSphere;" Order="0" />
+				<DocTemplateItem UniqueId="4bb917f2-9508-4f34-b4f6-4af22c7479d6" RuleParameters="RepresentationType=CSG;Geometry=IfcBooleanResult;" Order="0" />
+				<DocTemplateItem UniqueId="af71e37b-2b5b-4fe6-b8b6-0bd6282e35d5" RuleParameters="RepresentationType=CSG;Geometry=IfcExtrudedAreaSolid;" Order="0" />
+				<DocTemplateItem UniqueId="4a2b653b-bede-427b-88fc-86ec0463a670" RuleParameters="RepresentationType=CSG;Geometry=IfcExtrudedAreaSolidTapered;" Order="0" />
+				<DocTemplateItem UniqueId="f9ffe19a-f3f7-4278-826a-afa85417342f" RuleParameters="RepresentationType=CSG;Geometry=IfcRevolvedAreaSolid;" Order="0" />
+				<DocTemplateItem UniqueId="e5bb1743-b923-4c97-9698-0c5c5c30a0ef" RuleParameters="RepresentationType=CSG;Geometry=IfcRevolvedAreaSolidTapered;" Order="0" />
+				<DocTemplateItem UniqueId="57906c7d-ef0d-421c-a900-107f030b16fb" RuleParameters="RepresentationType=CSG;Geometry=IfcSurfaceCurveSweptAreaSolid;" Order="0" />
+			</Items>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Type Body Brep Geometry" UniqueId="02dc636f-1be8-4e9e-aa22-e03c2bc551dd">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Type Body Brep Geometry_36BsAIvPH5tA_1VlqIZzbp" />
+			</Definition>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Type Body AdvancedBrep Geometry" UniqueId="f0a70cd6-80aa-4f19-b2aa-5381ddecf667">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Type Body AdvancedBrep Geometry_0SdQ8dAVPFjwqlicymUhFZ" />
+			</Definition>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Element Type Aggregation" UniqueId="d4e584cf-be32-4ed1-8f43-d63febc92e70">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Type Element Aggregation_2Vp5fc8gT1h9CeCNMOHT5I" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Property Sets for Types" UniqueId="2e2b6c5d-f0e1-4501-80a2-5cab74825cda">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Types_1Bup4gCPb9Bh84oi8YcfhU" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="d5e924f6-22cc-4bc6-97e5-e654aa194ff0" Type="IfcElementType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

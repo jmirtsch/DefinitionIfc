@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="PEnum_SwitchingDeviceEmergencyStopType" UniqueId="12885876-df2a-45b3-9591-872fe41e80fa">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="MUSHROOM_2GAnGyWcH9xwsCV06k3SAC" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0hJMgTaPn9NuhVZaxklsJH" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_03ArknrkjAwe3EzE5RBeku" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3i_zw4$RH8Nu$x_IrrWmjg" />
+	</Constants>
+</DocPropertyEnumeration>
+

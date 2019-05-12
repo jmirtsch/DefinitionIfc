@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="5fb9e3e8-a818-4a25-842e-f1f97d62d20c">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcStructuralLoadCase" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Group Assignment" UniqueId="b1dd0c8b-0d72-4055-be8d-67e7eae5f26d">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Group Assignment_3rPvP$L9D4sQnHatm9h2M3" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="8658340a-5582-426b-bc2d-ae0c28ab71fb" RuleParameters="Type=IfcStructuralAction;" Order="0">
+					<Documentation>Structural actions for the load case.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="95abc395-588e-4824-8612-619f3bf2432d" Type="IfcStructuralLoadCase" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

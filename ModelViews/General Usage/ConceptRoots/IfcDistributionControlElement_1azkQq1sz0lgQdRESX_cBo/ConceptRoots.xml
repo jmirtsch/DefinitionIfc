@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1azkQq1sz0lgQdRESX_cBo">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcDistributionControlElement" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="1SqwfoIvX1oxSPJEt4gpKc">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="5e07f09a-69f4-4c65-aa65-5f989646c89e" RuleParameters="RelatingType=IfcDistributionControlElementType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Object Classification" UniqueId="10Z2Bgp1r4gR_IoZFVB3oY">
+			<Documentation>&lt;p&gt;In addition to general product and project classification (UniFormat, etc.), classifications may also be applied to indicate a device address or addressing scheme according to system-based device instance classification.&lt;/p&gt;
+
+&lt;p&gt;Figure 265 illustrates classification usage.&lt;/p&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img alt=&quot;Classification Use Definition&quot; src=&quot;../../../figures/ifcdistributioncontrolelement-classification.png&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 265 &amp;mdash; Distribution control classification&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Classification Association_1A8aO9PNXCTQ$FYl_eRbxo" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="75372851-3506-4b5d-aa38-38fe13822643" RuleParameters="Source=ASHRAE;Name=BACnet;Tokens=(&apos;{D:0..65535},&apos;.&apos;,&apos;{D:0..65535}&apos;);" Order="0">
+					<Documentation>32-bit decimal BACnetObjectIdentifier indicating type ID and instance ID (e.g.&apos;12.15&apos; for Digital Input #15).</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="3021b7e8-7c16-4470-8d9c-8996d606ae94" RuleParameters="Source=IETF;Name=IPv4;Tokens=(‘{D:0..255}’,’.’,’{D:0..255}’,’.’, ’{D:0..255}’,’.’, ’{D:0..255}’);" Order="0">
+					<Documentation>32-bit decimal address for an IPv4 network (e.g.&apos;192.168.1.1&apos;).</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="394de2b0-fdcd-4e75-a072-2bd38af7e735" RuleParameters="Source=IETF;Name=IPv6;Tokens=(&apos;{X:0000..FFFF}&apos;,&apos;:&apos;,{X:0000..FFFF}&apos;,&apos;:&apos;,{X:0000..FFFF}&apos;,&apos;:&apos;,{X:0000..FFFF}&apos;,&apos;:&apos;,{X:0000..FFFF}&apos;,&apos;:&apos;,{X:0000..FFFF}&apos;,&apos;:&apos;,{X:0000..FFFF}&apos;,&apos;:&apos;,{X:0000..FFFF}&apos;);" Order="0">
+					<Documentation>128-bit hexadecimal address for an IPv6 network.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="7e954682-e978-467a-830e-6af3d983a64a" RuleParameters="Source=IETF;Name=MAC;Tokens=(‘{X:00..FF}’,’-‘,{X:00-FF}’, ’-‘,{X:00-FF}’, ’-‘,{X:00-FF}’, ’-‘,{X:00-FF}’, ’-‘,{X:00-FF}’);" Order="0">
+					<Documentation>48-bit hexadecimal form of MAC address.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="9ce400c2-80f4-43a1-8ef2-dc1abd76dec1" RuleParameters="Source=OPC Foundation;Name=OPC;Tokens=(’.’,’{S}’,’{*}’);" Order="0">
+					<Documentation>Hierarchical ItemID in alphanumeric form (i.e. &apos;B204.Tank2.Temperature)</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="3659d42c-7b02-40f6-9686-a69e13093782" RuleParameters="Source=SmartLabs;Name=Insteon;Tokens=(&apos;{X:00..FF}&apos;,&apos;.&apos;,&apos;{X:00..FF}&apos;,&apos;.&apos;,&apos;{X:00..FF}&apos;);" Order="0">
+					<Documentation>24-bit hexadecimal instance address.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="59f9de38-42f2-4115-968f-7e2bc91eeaef" RuleParameters="Source=ISO/IEC;Name=LonTalk;Tokens=(&apos;{X:00..FF}&apos;,&apos;:&apos;,&apos;{X:00..FF}&apos;,&apos;:&apos;,&apos;{X:00..FF}&apos;,&apos;:&apos;,&apos;{X:00..FF}&apos;,&apos;:&apos;,&apos;{X:00..FF}&apos;,&apos;:&apos;,&apos;{X:00..FF}&apos;,&apos;:&apos;,&apos;{X:00..FF}&apos;);" Order="0">
+					<Documentation>48-bit hexadecimal neuron ID.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Product Assignment" UniqueId="3_sx4o6cr4oAB2$XzNdkgY">
+			<Documentation>&lt;p&gt;The &lt;b&gt;IfcDistributionControlElement&lt;/b&gt; may be assigned to the following entities using relationships as indicated:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;../../ifcsharedbldgserviceelements/lexical/ifcdistributionsystem.htm&quot;&gt;IfcDistributionSystem&lt;/a&gt; (&lt;a href=&quot;../../ifckernel/lexical/ifcrelassignstogroup.htm&quot;&gt;IfcRelAssignsToGroup&lt;/a&gt;): Indicates a system containing interconnected devices, where control elements are typically part of a control system having &lt;em&gt;PredefinedType=CONTROL&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;../../ifccontrolextension/lexical/ifcperformancehistory.htm&quot;&gt;IfcPerformanceHistory&lt;/a&gt; (&lt;a href=&quot;../../ifckernel/lexical/ifcrelassignstocontrol.htm&quot;&gt;IfcRelAssignsToControl&lt;/a&gt;): Indicates realtime or historical infomation captured for the device.&lt;/li&gt;
+&lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Product Assignment_3idFi4hVv8Q85eru$fbQaJ" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="0fb6595c-a479-46d5-8399-b7db1579245c" RuleParameters="Type=IfcTask;" Order="0">
+					<Documentation>Indicates tasks used to purchase, install, renovate, demolish, operate, or otherwise act upon the element.  If the element has a type, available task types are assigned to the element type.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="141fa64e-fff3-4770-b172-dda14b8d39f1" RuleParameters="Type=IfcProcedure;" Order="0">
+					<Documentation>Indicates procedures used to operate the element.  If the element has a type, available procedure types are assigned to the element type.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="448736f7-73d3-4a04-967d-067735942178" RuleParameters="Type=IfcEvent;" Order="0">
+					<Documentation>Indicates events to be handled by the element, sequenced by procedures to be followed.  If the element has a type, available event types are assigned to the element type.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="876809ed-f21e-4a0a-8137-b332c386112e" Type="IfcDistributionControlElement" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

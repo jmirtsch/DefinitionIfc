@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="PEnum_AudioVisualProjectorType" UniqueId="a798a3b0-8564-4dc0-9757-1fff858d83c1">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0grZ74muP4DQXRsEsGrYUd" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_39lYHnazD0AAFYrNa2pFec" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET._3oSoeZ4zDCK87Tm$i3HCk1" />
+	</Constants>
+</DocPropertyEnumeration>
+

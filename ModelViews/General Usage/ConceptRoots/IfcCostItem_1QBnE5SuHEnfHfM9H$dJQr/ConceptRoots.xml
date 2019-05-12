@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1QBnE5SuHEnfHfM9H$dJQr">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcCostItem" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Classification" UniqueId="0qhnmiSP96OeGBVEtPipnT">
+			<Documentation>&lt;p&gt;Instances of &lt;em&gt;IfcCostItem&lt;/em&gt; are used for cost estimates, budgets, and other forms, where a variety of identification codes are used extensively to identify the meaning of the cost. Examples include project phase codes, CSI codes, takeoff sequence numbers, and cost accounts. The model allows for all classes that are ultimately subtypes of &lt;em&gt;IfcObject&lt;/em&gt; to inherit the ability to have one or more instances of &lt;em&gt;IfcClassificationReference&lt;/em&gt; to be assigned. Where identification codes are required, the generic &lt;em&gt;IfcRelAssociatesClassification&lt;/em&gt; facility should be used.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Classification Association_1A8aO9PNXCTQ$FYl_eRbxo" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Nesting" UniqueId="0tyd0PV4vDl9GyOAIyC6AB">
+			<Documentation>&lt;p&gt;An &lt;em&gt;IfcCostItem&lt;/em&gt; can nest other instances of &lt;em&gt;IfcCostItem&lt;/em&gt; through its relationships to &lt;em&gt;IfcRelNests&lt;/em&gt;. This can be used to enable the development of complex groups of costs as may be found in cost schedules through to pages, sections and complete cost schedules.&lt;/p&gt;
+
+&lt;p&gt;There is always a summary cost item as the root item of the tree representing the cost item nesting. Subsequent instances of &lt;em&gt;IfcCostItem&lt;/em&gt; are assigned to the summary cost item using &lt;em&gt;IfcRelNests&lt;/em&gt;.  The summary cost item itself is assigned to &lt;em&gt;IfcCostSchedule&lt;/em&gt; through the &lt;em&gt;IfcRelAssignsToControl&lt;/em&gt; relationship.&lt;/p&gt;
+
+&lt;p&gt;Figure 274 illustrates a cost item composition used for a cost schedule.  Each line item has a quantity and separate unit costs where &lt;em&gt;IfcCostValue.CostType&lt;/em&gt; indicates the category of cost.  The summary item has a hierarchy of costs calculated according to &lt;em&gt;IfcAppliedValueRelationship.ArithmeticOperator&lt;/em&gt;, where &lt;em&gt;IfcCostValue.CostType&lt;/em&gt; identifies the category to be totalled.  The Tax component has &lt;em&gt;IfcCostValue.CostType&lt;/em&gt; set to &apos;Material&apos; which indicates it is the sum of all nested values of the &apos;Material&apos; category ($3 x 3000 + $118 x 100 = $20800).  The Subtotal component has &lt;em&gt;IfcCostValue.CostType&lt;/em&gt; set to an asterisk (&apos;*&apos;) which indicates it is the sum of all nested values of all categories.&lt;/p&gt;
+
+&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot; cellspacing=&quot;2&quot; summary=&quot;use definition&quot;&gt;
+&lt;tr&gt;&lt;td valign=&quot;bottom&quot;&gt;&lt;img src=&quot;../../../figures/ifccostitem-composition.png&quot; alt=&quot;cost item&quot; border=&quot;0&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 274 &amp;mdash; Cost composition&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Nesting_0uoeU8NaT178AKrM_UcbQH" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="993ffa62-25f5-41a4-900b-07436b65f916" RuleParameters="Type=IfcCostItem;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Control Assignment" UniqueId="1Wf8VjiBD268_$RdZ$INwE">
+			<Documentation>&lt;p&gt;An &lt;em&gt;IfcCostItem&lt;/em&gt; can be calculated based on quantities from objects through its relationship to &lt;em&gt;IfcRelAssignsToControl&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;For quantity-based costing, &lt;em&gt;IfcElement&lt;/em&gt;, &lt;em&gt;IfcTask&lt;/em&gt;, or &lt;em&gt;IfcResource&lt;/em&gt; occurrence subtypes may be used.  Multiple elements may be assigned of the same or different types, using &lt;em&gt;IfcPhysicalQuantity&lt;/em&gt; entities defined at each object.  Each &lt;em&gt;IfcPhysicalQuantity&lt;/em&gt; type must be identical (for example, all values are &lt;em&gt;IfcAreaQuantity&lt;/em&gt;) such that they can be added together.&lt;p&gt;
+
+&lt;p&gt;For rate-based costing (specifically for &lt;em&gt;IfcCostScheduleTypeEnum.SCHEDULEOFRATES&lt;/em&gt;), a single &lt;em&gt;IfcTypeProduct&lt;/em&gt;, &lt;em&gt;IfcTypeProcess&lt;/em&gt;, or &lt;em&gt;IfcTypeResource&lt;/em&gt; subtype may be used to reflect rates for occurrences of such types.  This enables the possibility to generate a quantity-based cost schedule for occurrences based on types with rate-based cost schedules.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;IfcRelAssignsToControl&lt;/em&gt; is also used in the opposite direction to link the root &lt;em&gt;IfcCostItem&lt;/em&gt; to an &lt;em&gt;IfcCostSchedule&lt;/em&gt; where &lt;em&gt;RelatingControl&lt;/em&gt; is the &lt;em&gt;IfcCostSchedule&lt;/em&gt;. 
+
+&lt;p&gt;Figure 275 illustrates cost item assignment derived from building elements.  The &lt;em&gt;IfcRelAssignsToControl&lt;/em&gt; relationship indicates building elements for which quantities are derived.  Not shown, costs may also be derived from building elements by traversing assignment relationships from the assigned &lt;em&gt;IfcProduct&lt;/em&gt; to &lt;em&gt;IfcProcess&lt;/em&gt; to &lt;em&gt;IfcResource&lt;/em&gt;, where all costs ultimately originate at resources.  It is also possible for cost items to have assignments from processes or resources directly.&lt;/p&gt;
+
+&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot; cellspacing=&quot;2&quot; summary=&quot;use definition&quot;&gt;
+&lt;tr&gt;&lt;td valign=&quot;bottom&quot;&gt;&lt;img src=&quot;../../../figures/ifccostitem-assignment.png&quot; alt=&quot;cost item&quot; border=&quot;0&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 275 &amp;mdash; Cost assignment&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Control Assignment_21FdF_La56IAQ0Y8VFGrdn" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="e50dcc60-5553-47cf-8fd3-0a8191e29b6d" RuleParameters="Type=IfcProduct;" Order="0">
+					<Documentation>For quantity-based costs based on product occurrences, spatial structures, or other physical artifacts.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="e1531551-c879-40ed-bd83-695bb20203a6" RuleParameters="Type=IfcProcess;" Order="0">
+					<Documentation>For quantity-based costs based on tasks, procedures, or events.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="a8a818c6-d967-433f-8f4b-db2b09b67d6b" RuleParameters="Type=IfcResource;" Order="0">
+					<Documentation>For quantity-based costs based on resource allocations.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="f617af66-b6e8-4dff-bf24-9bb5ae5b4cf9" RuleParameters="Type=IfcTypeProduct;" Order="0">
+					<Documentation>For cost rates based on product models.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="f382c705-4dce-4ae8-bffb-5f1c63247224" RuleParameters="Type=IfcTypeProcess;" Order="0">
+					<Documentation>For cost rates based on process models of historical or projected duration.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="11f81e43-325b-4714-a698-ef728f5dca7e" RuleParameters="Type=IfcTypeResource;" Order="0">
+					<Documentation>For cost rates based on resource models of historical or projected productivity.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="7f59110a-bdc4-4949-8e78-89743d1fc28e" Type="IfcCostItem" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

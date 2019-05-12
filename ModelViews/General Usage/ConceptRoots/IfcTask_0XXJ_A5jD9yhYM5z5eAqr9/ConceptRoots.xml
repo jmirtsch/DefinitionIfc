@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0XXJ_A5jD9yhYM5z5eAqr9">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcTask" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="0qHI_BhnnAuBoqsuSrfGyY">
+			<Documentation>&lt;p&gt;
+The &lt;em&gt;IfcTask&lt;/em&gt; defines the anticipated or actual occurrence
+ of any task; common information about task types is handled
+ by &lt;em&gt;IfcTaskType&lt;/em&gt;.&lt;/p&gt;
+&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; It includes fixed
+ duration, fixed unit or fixed work. An &lt;em&gt;IfcTask&lt;/em&gt; can be
+      aggregated to a task type in order to specify a task
+ sequence or any time related information, e.g. the duration
+ of a task. Please see the documentation of
+ &lt;em&gt;IfcTaskType&lt;/em&gt; for further information.&lt;/blockquote&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="dd91c9cd-d804-4e17-b321-4edcfe50789a" RuleParameters="RelatingType=IfcTaskType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Property Sets" UniqueId="2TD_JWixf46Qfq8q8q5LDm">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="2ee7139c-4b35-43b6-9b05-45b1787f15b0" RuleParameters="PredefinedType=MOVE;PsetName=Pset_PackingInstructions;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Nesting" UniqueId="1oofwNxUrERQ7mFIGssTJr">
+			<Documentation>&lt;p&gt;
+      &lt;em&gt;IfcTask&lt;/em&gt; may be contained within an &lt;em&gt;IfcTask&lt;/em&gt;
+      using the &lt;em&gt;IfcRelNests&lt;/em&gt; relationship. An
+      &lt;em&gt;IfcTask&lt;/em&gt; may in turn nest other &lt;em&gt;IfcTask&lt;/em&gt;,
+      &lt;em&gt;IfcProcedure&lt;/em&gt; or &lt;em&gt;IfcEvent&lt;/em&gt; entities. Such
+      nesting indicates decomposed level of detail. From IFC4
+      onwards it is required to have a summary task (root of all
+      tasks), which is used to define a link to the work plan or
+      work schedule. All subtasks of the summary tasks are then
+      implicitly linked to this work plan or work schedule.
+      Please note that the summary task is used for data
+      organization and not meant to store typical task
+      information as defined by the user. It is therefore
+      recommended that the summary task is hidden from the user
+      to avoid confusion. Please also note that
+      &lt;em&gt;IfcRelNests&lt;/em&gt; is used to show the dependency between
+      regular tasks and recurring task definitions (please see
+      the section about time and duration use definitions).
+    &lt;/p&gt;
+
+    &lt;p&gt;
+      As shown in Figure 136, the installation of a number of items of equipment within a
+      particular space may be the subject of a single task which
+      is identified as &apos;fix equipment in space 123&apos;.
+      &lt;em&gt;IfcTask&lt;/em&gt; represents the occurrence of a work
+      performance of a type of process in a construction plan.
+    &lt;/p&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;../../../figures/ifctask_example.png&quot; alt=&quot;task example&quot; border=&quot;0&quot;&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 136 &amp;mdash; Task visualization&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+    &lt;p&gt;
+      A task may nest other tasks as sub-items; the nesting
+      relationship is modeled by &lt;em&gt;IfcRelNests&lt;/em&gt; as shown in Figure 137. For example,
+      the construction of a stud wall may be designated as a
+      nesting task named &apos;install wall #1&apos; including other tasks
+      such as &apos;install dry wall&apos;, &apos;install studs&apos;, &apos;wall taping&apos;,
+      and &apos;erect wall&apos; as sub-processes. A value that indicates
+      the relative tree view position of the task (in comparison
+      to the tree view position of other tasks and the task
+      hierarchy defined by &lt;em&gt;IfcRelNests&lt;/em&gt;).
+    &lt;p&gt;The task order information that is used for viewing
+      purposes is derived from the order defined by the
+      &lt;em&gt;IfcRelNests&lt;/em&gt; relationship and thus is independent of
+      the logical task order defined through
+      &lt;em&gt;IfcRelSequence&lt;/em&gt;. The hierarchy and order defined
+      through &lt;em&gt;IfcRelNests&lt;/em&gt; enables to order the tasks in a
+      tree view or list view structure.
+    &lt;/p&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;../../../figures/ifctask_instantiation_diagram.png&quot; alt=&quot;task instantiation diagram&quot; border=&quot;0&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 137 &amp;mdash; Task nesting relationships&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+    
+&lt;/p&gt;
+
+
+&lt;p&gt;A top-level task is declared within the &lt;i&gt;IfcProject&lt;/i&gt; using the &lt;i&gt;IfcRelDeclares&lt;/i&gt; relationship.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Nesting_0uoeU8NaT178AKrM_UcbQH" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Sequential Connectivity" UniqueId="0XlQ3k$xLBPQ5try4jkuHp">
+			<Documentation>&lt;p&gt;
+      The relationship &lt;em&gt;IfcRelSequence&lt;/em&gt; is used to indicate
+      control flow. An &lt;em&gt;IfcTask&lt;/em&gt; as a successor to an
+      &lt;em&gt;IfcTask&lt;/em&gt; indicates logical sequence how these tasks
+      should be performed. &lt;em&gt;IfcTask&lt;/em&gt;&apos;s can be triggered or
+      can trigger &lt;em&gt;IfcEvent&lt;/em&gt;&apos;s, which is also defined
+      through the relationship &lt;em&gt;IfcRelSequence&lt;/em&gt;.
+    &lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Sequential Connectivity_39yHY0ZFP7$gki1SSxG46n" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Control Assignment" UniqueId="3bDDmky092_9wBIsOAaqJy">
+			<Documentation>&lt;p&gt;
+      Occurrences of &lt;em&gt;IfcTask&lt;/em&gt; may be assigned to an
+      &lt;em&gt;IfcWorkControl&lt;/em&gt; (either a work plan or a work
+      schedule) through &lt;em&gt;IfcRelAssignsToControl&lt;/em&gt;. Please note that the
+      &lt;em&gt;IfcRelAssignsTasks&lt;/em&gt; relationship class has been
+      removed in IFC4 and is no longer available.
+    &lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Control Assignment_21FdF_La56IAQ0Y8VFGrdn" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Process Assignment" UniqueId="0SNtt6wlz59BW965xKPvio">
+			<Documentation>&lt;p&gt;
+It is suggested to use the &apos;summary task&apos;
+ (root element of the task hierarchy that is required for
+ task management purposes) to assign all subtask to a work
+ plan or work schedule. Resources used by tasks are assigned by &lt;em&gt;IfcRelAssignsToProcess&lt;/em&gt;.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Process Assignment_3eGT0hpFrD7vGpsa24POHe" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Product Assignment" UniqueId="a5dbb564-e023-4ec6-9730-06c2a2450fd0">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Product Assignment_3idFi4hVv8Q85eru$fbQaJ" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Classification" UniqueId="1vsqiZMqDEeP1esMzhDqpK">
+			<Documentation>&lt;p&gt;
+An &lt;em&gt;IfcTask&lt;/em&gt; may be assigned a Work Breakdown
+ Structure (WBS) code. A WBS code is dealt with as a
+ classification of task and is associated to a task
+ occurrence using the &lt;em&gt;IfcRelAssociatesClassification&lt;/em&gt;
+ relationship class. As well as being to designate the code,
+ the classification structure also enables
+ the source of the work breakdown structure classification
+ to be identified.
+&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Classification Association_1A8aO9PNXCTQ$FYl_eRbxo" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Constraint" UniqueId="0XRU61RGb2Ge$LGh4T_YmL">
+			<Documentation>&lt;p&gt;
+Constraints may be applied to a task to indicate fixed task duration, fixed start or fixed finish, where &lt;i&gt;IfcMetric&lt;/i&gt;.ReferencePath is set to the corresponding attribute on the &lt;i&gt;IfcTaskTime&lt;/i&gt; entity.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Constraint Association_30YoPCzyP7dwz$NMHS4mwe" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="cd2a098f-3034-40dd-a143-8322b4b15ba2" RuleParameters="Constrained Attribute=TaskTime.ScheduleDuration;" Order="0">
+					<Documentation>Indicate fixed duration of task with ConstraintGrade=HARD and Benchmark=EQUALTO such that changes to an assigned &lt;i&gt;IfcConstructionResource.ResourceTime.ScheduleWork&lt;/i&gt; should impact &lt;i&gt;IfcConstructionResource.ResourceTime.ScheduleUsage&lt;/i&gt;, and vice-versa.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="8444e5e0-68f8-44ad-9966-dbb8d7a5ef91" RuleParameters="Constrained Attribute=TaskTime.ScheduleStart;" Order="0">
+					<Documentation>Indicate constrained start date with ConstraintGrade=HARD and Benchmark of EQUALTO, GREATERTHANOREQUALTO, or LESSTHANOREQUALTO to indicate &quot;must start on&quot;, &quot;start no earlier than&quot; or &quot;start no later than&quot; respectively where &lt;i&gt;IfcMetric.DataValue&lt;/i&gt; indicates the specific &lt;i&gt;IfcDateTime&lt;/i&gt;. Use SOFT constraint having LESSTHAN benchmark to indicate &quot;start as soon as possible&quot;.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="26199da9-db5d-4a07-8f75-e935eb1d4e15" RuleParameters="Constrained Attribute=TaskTime.ScheduleFinish;" Order="0">
+					<Documentation>Indicate constrained finish date with ConstraintGrade=HARD and Benchmark of EQUALTO, GREATERTHANOREQUALTO, or LESSTHANOREQUALTO to indicate &quot;must finish on&quot;, &quot;finish no earlier than&quot; or &quot;finish no later than&quot; respectively where &lt;i&gt;IfcMetric.DateValue&lt;/i&gt; indicates the specific &lt;i&gt;IfcDateTime&lt;/i&gt;. Use SOFT constraint having GREATERTHAN benchmark to indicate &quot;finish as late as possible&quot;.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="d0de36f6-5769-4ac1-a2ba-392eba9cbb0f" Type="IfcTask" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

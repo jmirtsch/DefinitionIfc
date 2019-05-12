@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1093eabd-e032-43a2-b38d-977682a8b00e">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcTrimmedCurve" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="16aeb3a4-fed4-477c-9f40-a220d9877ddb" Type="IfcTrimmedCurve" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

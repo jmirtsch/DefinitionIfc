@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1tcwKBumf6_BfAmC83k_XH">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcPlateType" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Material Layer Set" UniqueId="3ox3lt8vPDPRB_ysvPBUE2">
+			<Documentation>&lt;p&gt;The material of the &lt;em&gt;IfcPlateType&lt;/em&gt; is defined by the
+&lt;em&gt;IfcMaterialLayerSet&lt;/em&gt; or as fall back by &lt;em&gt;IfcMaterial&lt;/em&gt;
+and attached by the
+&lt;em&gt;IfcRelAssociatesMaterial&lt;/em&gt;&lt;em&gt;.RelatingMaterial&lt;/em&gt;. It is
+accessible by the inverse &lt;em&gt;HasAssociations&lt;/em&gt; relationship.&lt;/p&gt;
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; It is illegal to assign an
+&lt;em&gt;IfcMaterial&lt;/em&gt; to an &lt;em&gt;IfcPlateType&lt;/em&gt;, if there is at least
+one occurrences of &lt;em&gt;IfcPlateStandardCase&lt;/em&gt; for this
+type.&lt;/blockquote&gt;
+
+&lt;p&gt;The shared material layer set definition is defined by assigning
+an &lt;em&gt;IfcMaterialLayerSet&lt;/em&gt; (see material use definition above).
+The &lt;em&gt;IfcMaterialLayer&lt;/em&gt; refers to one or several of
+&lt;em&gt;IfcMaterial&lt;/em&gt; that is the common for all plate occurrence, if
+used. It is only applicable if the &lt;em&gt;IfcPlateType&lt;/em&gt; has only
+occurrences of type &lt;em&gt;IfcPlateStandardCase&lt;/em&gt; (see definition of
+&lt;em&gt;IfcPlateStandardCase&lt;/em&gt; for further information).&lt;/p&gt;
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; Since each individual instance of
+&lt;em&gt;IfcPlateStandardCase&lt;/em&gt; defines its own
+&lt;em&gt;IfcMaterialLayerSetUsage&lt;/em&gt; including the offset from the
+reference plane, the same &lt;em&gt;IfcPlateType&lt;/em&gt; can be used
+independently of the reference plane alignment of its
+occurrences.&lt;/blockquote&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Layer Set_3VjREfKED6ueKO7mFdpzY6" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body Geometry" UniqueId="77463910-2de2-43ae-bac3-5f9796c3a16a">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Type Body Geometry_0wx2q0jBj7QgWX$2AubRKn" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="44f310d7-ac1e-4442-ba6f-5589a6fd9c27" Type="IfcPlateType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

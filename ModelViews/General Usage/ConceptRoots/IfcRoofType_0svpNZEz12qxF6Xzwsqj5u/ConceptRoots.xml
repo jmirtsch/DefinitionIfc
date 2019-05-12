@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="36e735e3-3bd0-42d3-b3c6-87deb6d2d178">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcRoofType" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Body Geometry" UniqueId="54f64b7e-87ea-4ab6-bec7-3fddc5df5c26">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Type Body Geometry_0wx2q0jBj7QgWX$2AubRKn" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="afe9e1bd-c598-4cd0-a282-4d4673483485" Type="IfcRoofType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

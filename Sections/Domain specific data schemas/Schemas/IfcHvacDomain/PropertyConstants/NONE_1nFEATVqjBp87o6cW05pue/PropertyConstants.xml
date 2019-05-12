@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyConstant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="NONE_1nFEATVqjBp87o6cW05pue" Name="NONE" UniqueId="713ce29d-7f4b-4bcc-81f2-1a6800173e28">
+	<Localization>
+		<DocLocalization Name="None" Locale="en">
+			<Documentation>There is no pump base, such as an inline pump</Documentation>
+		</DocLocalization>
+	</Localization>
+</DocPropertyConstant>
+

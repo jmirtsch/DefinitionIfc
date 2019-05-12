@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="e982bc39-4444-482f-9aec-b630d923c633">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcCableCarrierSegment" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Port" UniqueId="172f08ce-3aeb-4d99-bf29-d7394fc162ec">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="8a5c7e47-b0a8-42e0-9b1f-b224a854a698" RuleParameters="PortName=Head;Flow=SINK;SystemType=NOTDEFINED;" Order="0">
+					<Documentation>Head connection.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="1cb49665-3a35-4a9f-a0df-d7fd31fca976" RuleParameters="PortName=Tail;SystemType=NOTDEFINED;Flow=SOURCE;" Order="0">
+					<Documentation>Tail connection.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="08fa99e2-3170-45a2-93f7-dcd47fbea7b1" Type="IfcCableCarrierSegment" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

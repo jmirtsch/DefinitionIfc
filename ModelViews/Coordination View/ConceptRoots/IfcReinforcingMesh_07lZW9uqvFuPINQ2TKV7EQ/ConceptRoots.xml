@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="07be3809-e34e-4fe1-9497-6827547c739a">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcReinforcingMesh" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="07f40837-8cdb-4dfa-b874-c23dd9e0626f" Type="IfcReinforcingMesh" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="a4b5db29-b55a-4df4-afa0-d57b37756932">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcBoiler" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="df665887-a67e-4fe8-b4c6-e57813e30bad">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="4f4d62a0-00ca-496b-a1b0-264fb6157592" RuleParameters="RelatingType=IfcBoilerType;" Order="0" />
+			</Items>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="cda2c316-e9ed-46c8-8bda-eb37bf2d6f39">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="28438ab2-d9a5-4658-bf2a-9c80b87d525f" RuleParameters="PsetName=Pset_BoilerTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="94d77f8b-6f7b-4b7e-a2a9-6ba3e3b99208">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="f654fbd5-b799-4189-aec2-45dee4e38350" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="da1d7a0c-409a-499d-a7f9-d7c8bd334c57" RuleParameters="Order=3;PropertyName=PressureRating;Value=IfcPressureMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="24c37181-e5e3-4f40-a7e4-70480b8aa073" RuleParameters="Order=5;PropertyName=HeatTransferSurfaceArea;Value=IfcAreaMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="65891e2c-afa4-457b-b64e-89831f1ab696" RuleParameters="Order=8;PropertyName=WaterStorageCapacity;Value=IfcVolumeMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="d32e1870-f82b-4716-9a77-2e84ac791a07" RuleParameters="Order=9;PropertyName=IsWaterStorageHeater;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="3ac0c8a6-fa34-4673-ae70-b8c34e220581" RuleParameters="Order=12;PropertyName=NominalEnergyConsumption;Value=IfcPowerMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="07ddd424-25a0-4bd0-83ef-2f963b432271">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="ac3c6177-1084-45a8-a4c8-1836b542e8fb" RuleParameters="Order=2;PropertyName=Status;Value=IfcLabel;Reference=PEnum_ElementStatus;" Order="0" />
+								<DocTemplateItem UniqueId="7da595c4-6f17-4252-8055-add86d276424" RuleParameters="Order=4;PropertyName=OperatingMode;Value=IfcLabel;Reference=PEnum_BoilerOperatingMode;" Order="0" />
+								<DocTemplateItem UniqueId="ae97a382-b522-409e-9370-d1a8f77acf2d" RuleParameters="Order=13;PropertyName=EnergySource;Value=IfcLabel;Reference=PEnum_EnergySource;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="d206fb76-6ef6-46b5-aaa6-50164190f205">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="b634130e-470d-407e-b47c-b7d68206d7c1" RuleParameters="Order=6;PropertyName=NominalPartLoadRatio;SetValue=IfcReal;" Order="0" />
+								<DocTemplateItem UniqueId="cb91f1a3-640d-4da0-a33f-bce00412889c" RuleParameters="Order=7;PropertyName=WaterInletTemperatureRange;SetValue=IfcThermodynamicTemperatureMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="89b59dc2-3253-4caa-b9c0-648a146a84fe" RuleParameters="Order=11;PropertyName=OutletTemperatureRange;SetValue=IfcThermodynamicTemperatureMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="b52aa891-625a-4375-8e35-ecb204bbfdde">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Table Value_0roKUmQhnB4ux7QMxo11SX" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="58ea7fc0-f3a2-4672-9bc9-ceb16da10a90" RuleParameters="Order=10;PropertyName=PartialLoadEfficiencyCurves;Value=IfcPositiveRatioMeasure;Reference=IfcNormalisedRatioMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="2d0bdb6e-6133-4800-8a08-3a18a3f13989">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="3730d9ae-886e-4e2a-91ed-e865d0ba9bd8" RuleParameters="QsetName=Qto_BoilerBaseQuantities;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Quantities" UniqueId="a41eb1df-72eb-48bf-8faf-0a164a712b84">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Weight Quantity_3X0MvMF8bFGfPv1_7RF0hx" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="e80473ce-860e-4587-a582-b975cb1baecc" RuleParameters="Order=1;QuantityName=GrossWeight;" Order="0" />
+								<DocTemplateItem UniqueId="7f1ee8d4-5ca4-4466-bf88-eb3649dfe152" RuleParameters="Order=2;QuantityName=NetWeight;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Quantities" UniqueId="1d420478-803d-44d4-b0f8-e40956d255b7">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Area Quantity_1bh4T7Rlz3VfJYP3$Kux_6" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="f9c44a97-fc46-44a3-aded-65c4cdfbc62b" RuleParameters="Order=3;QuantityName=TotalSurfaceArea;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="266baf80-81d6-444c-a743-3274ec0e002a" Type="IfcBoiler" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

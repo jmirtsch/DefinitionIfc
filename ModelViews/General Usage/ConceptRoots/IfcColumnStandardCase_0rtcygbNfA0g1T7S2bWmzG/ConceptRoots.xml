@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0rtcygbNfA0g1T7S2bWmzG">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcColumnStandardCase" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Material Profile Set Usage" UniqueId="0VFQdrrgL4ox8fqdrRqA$b">
+			<Documentation>&lt;p&gt;The &lt;em&gt;IfcColumnStandardCase&lt;/em&gt; defines in addition that the
+&lt;em&gt;IfcColumnType&lt;/em&gt; should have a unique
+ &lt;em&gt;IfcMaterialProfileSet&lt;/em&gt;, that is referenced by the 
+&lt;em&gt;IfcMaterialProfileSetUsage&lt;/em&gt; assigned to all occurrences of 
+this &lt;em&gt;IfcColumnType&lt;/em&gt;. 
+Composite profile columns can be represented by refering to
+several &lt;em&gt;IfcMaterialProfile&lt;/em&gt;&apos;s within the
+&lt;em&gt;IfcMaterialProfileSet&lt;/em&gt; that is referenced from the
+&lt;em&gt;IfcMaterialProfileSetUsage&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Figure 206 illustrates assignment of &lt;em&gt;IfcMaterialProfileSetUsage&lt;/em&gt; and &lt;em&gt;IfcMaterialProfileSet&lt;/em&gt; to the &lt;em&gt;IfcColumnStandardCase&lt;/em&gt; as the column occurrence and to the &lt;em&gt;IfcColumnType&lt;/em&gt;. The same &lt;em&gt;IfcMaterialProfileSet&lt;/em&gt; shall be shared by many occurrences of &lt;em&gt;IfcMaterialProfileSetUsage&lt;/em&gt;. This relationship shall be consistent to the relationship between the &lt;em&gt;IfcColumnType&lt;/em&gt; and the &lt;em&gt;IfcColumnStandardCase&lt;/em&gt;.&lt;/p&gt;
+
+
+&lt;table&gt;
+ 
+&lt;tr&gt;
+  &lt;td&gt;&lt;img src=&quot;../../../figures/ifccolumnstandardcase-01.png&quot; alt=&quot;Material profile set and usage&quot; height=&quot;500&quot; width=&quot;500&quot;&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+&lt;tr&gt;
+  &lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 206 &amp;mdash; Column profile usage&lt;/p&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+
+&lt;/table&gt;
+
+
+
+&lt;p&gt;Figure 207 illustrates cardinal point alignment.&lt;/p&gt;
+&lt;blockquote class=&quot;note&quot;&gt;NOTE  It has to be guaranteed that the use of &lt;em&gt;IfcCardinalPointEnum&lt;/em&gt; is consistent to the placement of the
+extrusion body provided by &lt;em&gt;IfcExtrudedAreaSolid.Position&lt;/em&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&quot;note&quot;&gt;NOTE  The cardinal points &lt;b&gt;7&lt;/b&gt; (top left), and &lt;b&gt;6&lt;/b&gt; (mid-depth right) are assigned according to the
+definition at &lt;em&gt;IfcCardinalPointReference&lt;/em&gt;&lt;/blockquote&gt;
+
+
+&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot; cellspacing=&quot;2&quot;&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../../figures/ifccolumnstandardcase_cardinalpoint.png&quot; alt=&quot;Cardinal point usage&quot; height=&quot;250&quot; width=&quot;500&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 207 &amp;mdash; Column cardinal points&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+
+
+&lt;p&gt;Figure 208 illustrates assignment of a composite profile by using &lt;em&gt;IfcCompositeProfile&lt;/em&gt; for geometric representation and several &lt;em&gt;IfcMaterialProfile&lt;/em&gt;&apos;s within the &lt;em&gt;IfcMaterialProfileSet&lt;/em&gt;. The number of &lt;em&gt;IfcMaterialProfile&lt;/em&gt;&apos;s within the &lt;em&gt;IfcMaterialProfileSet&lt;/em&gt; is restricted to maximal 2 and requires the use of &lt;em&gt;IfcExtrudedAreaSolidTapered&lt;/em&gt;, or &lt;em&gt;IfcRevolvedAreaSolidTapered&lt;/em&gt; for the correct &apos;Body&apos; shape representation.&lt;/p&gt;
+
+
+&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot; cellspacing=&quot;2&quot;&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;../../../figures/ifccolumnstandardcase-02.png&quot; alt=&quot;Material profile set and usage&quot; height=&quot;550&quot; width=&quot;500&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 208 &amp;mdash; Column composite profiles&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set Usage_1ge1GfjMPBDeTQCM88YfWn" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Product Placement" UniqueId="faee9ed5-99e8-46a8-8200-6cffff73e6f8">
+			<Documentation>&lt;p&gt;The following restriction is imposed:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The local placement shall provide the location and directions 
+for the standard column, the x/y plane is the plane for the start 
+profile, and the z-axis is the extrusion axis for the column body (in
+case of rotation, the tangent direction).&lt;/li&gt;
+&lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Axis 3D Geometry" UniqueId="92140617-d5b1-4aef-96e8-5c0eab296a14">
+			<Documentation>&lt;p&gt;The following additional constraints apply to the &apos;Axis&apos;
+representation, if the &apos;Body&apos; shape representation has the
+&lt;em&gt;RepresentationType&lt;/em&gt; : &apos;SweptSolid&apos;:&lt;/p&gt;
+
+&lt;ul&gt;
+
+ &lt;li&gt;&lt;em&gt;Axis&lt;/em&gt;
+  &lt;ul&gt;
+   &lt;li&gt;&lt;em&gt;IfcPolyline&lt;/em&gt; having two &lt;em&gt;Points&lt;/em&gt;, or
+&lt;em&gt;IfcTrimmedCurve&lt;/em&gt; with &lt;em&gt;BasisCurve&lt;/em&gt; of Type
+&lt;em&gt;IfcLine&lt;/em&gt; for &apos;SweptSolid&apos; provided as
+&lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt;. The axis curve lies on the z axis of
+the object coordinate system.&lt;/li&gt;
+
+   &lt;li&gt;&lt;em&gt;IfcTrimmedCurve&lt;/em&gt; with &lt;em&gt;BasisCurve&lt;/em&gt; of Type
+&lt;em&gt;IfcCircle&lt;/em&gt; for &apos;SweptSolid&apos; provided as
+&lt;em&gt;IfcRevolvedAreaSolid&lt;/em&gt;. The axis curve lies on the x/z plane
+of the object coordinate system, the tangent at the start is along
+the positive z-axis.&lt;/li&gt;
+
+  &lt;/ul&gt;
+ &lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot; cellspacing=&quot;2&quot; summary=&quot;Axis&quot;&gt;
+
+ &lt;tr&gt;
+  &lt;td align=&quot;left&quot; valign=&quot;top&quot; width=&quot;300&quot;&gt;&lt;img src=&quot;../../../figures/ifccolumnstandardcase_axis-01.png&quot; alt=&quot;Axis&quot; border=&quot;1&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;
+&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; As shown in Figure 208, the axis shall be defined along the z axis of
+the object coordinate system. The axis representation can be used to
+represent the system length of a column that may extent the body
+length of the column.&lt;/blockquote&gt;
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+&lt;tr&gt;
+  &lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 208 &amp;mdash; Column axis representation&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+ &lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot; cellspacing=&quot;2&quot; summary=&quot;Axis&quot;&gt;
+ 
+&lt;tr&gt;
+  &lt;td align=&quot;left&quot; valign=&quot;top&quot; width=&quot;300&quot;&gt;&lt;img src=&quot;../../../figures/ifccolumnstandardcase_axis-02.png&quot; alt=&quot;Axis&quot; border=&quot;1&quot;&gt;&lt;/td&gt;
+
+  &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; As shown in Figure 209, the axis representation shall be used to represent the cardinal point as the offset between the &apos;Axis&apos; and the extrusion path of the column. The extrusion path is provided as &lt;em&gt;IfcExtrudedAreaSolid.ExtrudedDirection&lt;/em&gt; and should be parallel to the &apos;Axis&apos;. It has to be guaranteed that the value provided by &lt;em&gt;IfcMaterialProfileSetUsage.CardinalPoint&lt;/em&gt; is consistent to the &lt;em&gt;IfcExtrudedAreaSolid.Position&lt;/em&gt;.&lt;/blockquote&gt;
+ &lt;/tr&gt;
+
+ &lt;tr&gt;
+  &lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 209 &amp;mdash; Column axis cardinal point&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+ &lt;/tr&gt;
+
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Axis 3D Geometry_2ubDZB_q55xBeOSih6klyq" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body SweptSolid Geometry" UniqueId="1a39bb06-a204-46d0-a7b5-49a58973aa4f">
+			<Documentation>&lt;p&gt;The following additional constraints apply to the &apos;SweptSolid&apos;
+representation:&lt;/p&gt;
+
+&lt;ul&gt;
+ 
+&lt;li&gt;&lt;u&gt;Solid&lt;/u&gt;: &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt;,
+&lt;em&gt;IfcRevolvedAreaSolid&lt;/em&gt; shall be supported&lt;/li&gt;
+ 
+&lt;li&gt;&lt;u&gt;Profile&lt;/u&gt;: all subtypes of &lt;em&gt;IfcProfileDef&lt;/em&gt; (with
+exception of &lt;em&gt;IfcArbitraryOpenProfileDef&lt;/em&gt;)&lt;/li&gt;
+ 
+&lt;li&gt;&lt;u&gt;Profile Position&lt;/u&gt; : For all single profiles, the
+&lt;em&gt;IfcParameterizedProfileDef.Position&lt;/em&gt; shall be NIL, or
+having &lt;em&gt;Location&lt;/em&gt; = 0.,0. and &lt;em&gt;RefDirection&lt;/em&gt; =
+1.,0.&lt;/li&gt;
+ &lt;li&gt;&lt;u&gt;Extrusion&lt;/u&gt;: perpendicular to the profile direction. The
+&lt;em&gt;IfcExtrudedAreaSolid.ExtrudedDirection&lt;/em&gt; shall be
+[0.,0.,1.].&lt;/li&gt;
+
+ &lt;li&gt;&lt;u&gt;Orientation&lt;/u&gt;: The y-axis of the profile, as determined
+by &lt;em&gt;IfcSweptAreaSolid.Position.P[2]&lt;/em&gt; shall point to the 
+Y-Axis. It indicates the &quot;role&quot; of the column, a role=0&amp;deg;
+means y-axis of profile = Y-axis of reference coordinate
+system.&lt;/li&gt;
+
+&lt;/ul&gt;
+
+
+&lt;p&gt;Figure 209 illustrates a standard geometric representation with cardinal point applied as &lt;b&gt;5&lt;/b&gt; (mid-depth centre).&lt;/p&gt;
+&lt;p&gt;The following interpretation of dimension parameter applies for rectangular columns:&lt;/p&gt;
+
+&lt;ul&gt;
+
+ &lt;li&gt;&lt;em&gt;IfcRectangleProfileDef.YDim&lt;/em&gt; interpreted as column width&lt;/li&gt;
+
+ &lt;li&gt;&lt;em&gt;IfcRectangleProfileDef.XDim&lt;/em&gt; interpreted as column depth&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;p&gt;The following interpretation of dimension parameter applies for circular columns:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;IfcCircleProfileDef.Radius&lt;/em&gt; interpreted as column radius.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;table cellpadding=&quot;2&quot; cellspacing=&quot;2&quot;&gt;
+&lt;tr valign=&quot;top&quot;&gt;
+&lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../../figures/ifccolumnstandardcase_sweptsolid-01.png&quot; alt=&quot;standard column&quot; border=&quot;1&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 209 &amp;mdash; Column body extrusion&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body AdvancedSweptSolid Geometry" UniqueId="8b261a0a-3d31-49d4-a214-8e672ec7d965">
+			<Documentation>&lt;p&gt;The following additional constraints apply to the
+&apos;AdvancedSweptSolid&apos; representation type:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;Solid&lt;/u&gt;: &lt;em&gt;IfcSurfaceCurveSweptAreaSolid&lt;/em&gt;,
+&lt;em&gt;IfcFixedReferenceSweptAreaSolid&lt;/em&gt;,
+&lt;em&gt;IfcExtrudedAreaSolidTapered&lt;/em&gt;,
+&lt;em&gt;IfcRevolvedAreaSolidTapered&lt;/em&gt; shall be supported.
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; View definitions and implementer
+agreement can further constrain the allowed swept solid
+types.&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Profile&lt;/u&gt;: see &apos;SweptSolid&apos; geometric
+representation&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Profile Position&lt;/u&gt; : see &apos;SweptSolid&apos; geometric
+representation&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Extrusion&lt;/u&gt;: not applicable&lt;/li&gt;
+&lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body AdvancedSweptSolid Geometry_1KP7XTvT5FTPxCRBEI571U" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body Clipping Geometry" UniqueId="d3f57034-f244-446f-ab05-cb94c52faea1">
+			<Documentation>&lt;p&gt;The following constraints apply to the &apos;Clipping&apos; 
+representation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;Solid&lt;/u&gt;: see &apos;SweptSolid&apos; geometric representation&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Profile&lt;/u&gt;: see &apos;SweptSolid&apos; geometric
+representation&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Profile Position&lt;/u&gt; : see &apos;SweptSolid&apos; geometric
+representation&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Extrusion&lt;/u&gt;: see &apos;SweptSolid&apos; geometric
+representation&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Orientation&lt;/u&gt;: see &apos;SweptSolid&apos; geometric
+representation&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Boolean result&lt;/u&gt;: The &lt;em&gt;IfcBooleanClippingResult&lt;/em&gt;
+shall be supported, allowing for Boolean differences between the
+swept solid (here &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt;) and one or several
+&lt;em&gt;IfcHalfSpaceSolid&lt;/em&gt; (or its subtypes).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Figure 210 illustrates a &apos;Clipping&apos; geometric representation with use of &lt;em&gt;IfcBooleanClippingResult&lt;/em&gt; between
+an &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt; and an &lt;em&gt;IfcHalfSpaceSolid&lt;/em&gt; to create a clipped body, with cardinal point applied as &lt;b&gt;2&lt;/b&gt; (bottom centre).&lt;/p&gt;
+
+&lt;table cellpadding=&quot;2&quot; cellspacing=&quot;2&quot;&gt;
+&lt;tr valign=&quot;top&quot;&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../../figures/ifccolumnstandardcase_clipping-01.png&quot; alt=&quot;clipped column&quot; border=&quot;1&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 210 &amp;mdash; Column body clipping&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body Clipping Geometry_0isyBrcmn3wfqgdNBG57u0" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="9fd29707-5879-4668-9d2d-12c6f1457998" Type="IfcColumnStandardCase" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

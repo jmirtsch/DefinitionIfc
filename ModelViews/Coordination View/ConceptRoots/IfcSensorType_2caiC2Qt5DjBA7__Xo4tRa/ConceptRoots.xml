@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="a692c302-6b71-4db4-b287-fbe8721376e4">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcSensorType" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="2a7ac0ad-2b2a-4b0c-acac-e491918b1ef8" Type="IfcSensorType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

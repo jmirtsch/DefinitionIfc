@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="b2e4715e-d97f-4f70-a618-72462f4c2498">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcStair" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="e9935114-fec3-4726-afc8-8c7ead234d71" Type="IfcStair" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

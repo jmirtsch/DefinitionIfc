@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="5d0ec648-62c2-408f-81b0-15b4a963885f">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcShellBasedSurfaceModel" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="833a3535-f890-4356-ac0c-97105b35b3b1" Type="IfcShellBasedSurfaceModel" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

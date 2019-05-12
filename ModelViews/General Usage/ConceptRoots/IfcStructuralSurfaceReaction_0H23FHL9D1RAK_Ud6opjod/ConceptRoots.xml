@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="110833d1-5493-416c-a53e-7a71b2cedca7">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcStructuralSurfaceReaction" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Structural Activity" UniqueId="e5f977ec-687c-407b-9ced-a30221d083f8">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Structural Activity_2JaCfosE98Avc6uE7HNd6K" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="baeba88e-01d1-42db-ae5b-3ee4868a9119" RuleParameters="AppliedLoad=IfcStructuralLoadConfiguration;RelatingElement=IfcStructuralSurfaceMember;" Order="0">
+					<Documentation>Resulting stresses within a surface member.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="bdc394a2-15cd-4e47-920a-d8638ec92164" Type="IfcStructuralSurfaceReaction" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

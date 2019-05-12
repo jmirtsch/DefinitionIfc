@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="ba41ca4b-f59e-4ab3-aba9-e4050cd1cc8f">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcSweptAreaSolid" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="82cebe47-86ee-47e8-acb6-40ebd6b933a5" Type="IfcSweptAreaSolid" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

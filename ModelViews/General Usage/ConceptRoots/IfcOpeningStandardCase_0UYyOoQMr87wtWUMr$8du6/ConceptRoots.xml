@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0UYyOoQMr87wtWUMr$8du6">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcOpeningStandardCase" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Placement" UniqueId="3nMQNXf1L8fRONjKxcp992">
+			<Documentation>&lt;p&gt;The following constraint is mandatory for
+&lt;em&gt;IfcOpeningStandardCase&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;em&gt;PlacementRelTo&lt;/em&gt; relationship of
+&lt;em&gt;IfcLocalPlacement&lt;/em&gt; should point to the local placement of
+the same element, which is voided by the opening, i.e. referred
+to by &lt;em&gt;VoidsElement.RelatingBuildingElement&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body Geometry" UniqueId="0_m1K1kAf4iguIPeZTHB8B">
+			<Documentation>&lt;p&gt;The geometric representation of &lt;em&gt;IfcOpeningStandardCase&lt;/em&gt;
+is defined using the following multiple shape representations for
+its definition:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Body: A SweptSolid representation defining the 3D subtraction
+shape of the standard opening&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;b&gt;Body Representation&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;The body representation of &lt;em&gt;IfcOpeningStandardCase&lt;/em&gt; is
+represented using the representation type &apos;SweptSolid&apos;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Swept Solid Representation Type with Horizontal
+Extrusion&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The standard geometric representation of
+&lt;em&gt;IfcOpeningStandardCase&lt;/em&gt; is defined using the &apos;SweptSolid&apos;
+representation. The following attribute values for the
+&lt;em&gt;IfcShapeRepresentation&lt;/em&gt; holding this geometric
+representation shall be used::&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;RepresentationIdentifier&lt;/em&gt; : &apos;Body&apos;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;RepresentationType&lt;/em&gt; : &apos;SweptSolid&apos;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following additional constraints apply to the swept solid
+representation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;Solid&lt;/u&gt;: a single &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt; is
+required&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Profile&lt;/u&gt;: &lt;em&gt;IfcRectangleProfileDef&lt;/em&gt;,
+&lt;em&gt;IfcCircleProfileDef&lt;/em&gt; and
+&lt;em&gt;IfcArbitraryClosedProfileDef&lt;/em&gt; shall be supported.&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Extrusion&lt;/u&gt;: The profile shall be extruded horizontally
+(i.e. perpendicular to the extrusion direction of the voided
+element) for wall openings, or vertically (i.e. in the extrusion
+direction of the voided element), for slab openings.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As shown in Figure 36, the orientation of the opening profile that is extruded
+for the opening body shall guarantee the following interpretation
+of dimension parameter for rectangular openings:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;IfcRectangleProfileDef.YDim&lt;/em&gt; interpreted as
+opening width&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;IfcRectangleProfileDef.XDim&lt;/em&gt; interpreted as
+opening height&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table border=&quot;0&quot; cellpadding=&quot;2&quot; cellspacing=&quot;2&quot;&gt;
+&lt;tr valign=&quot;top&quot;&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot; width=&quot;600&quot;&gt;&lt;img src=
+&quot;../../../figures/ifcopeningstandardcase_wall-layout1.png&quot; alt=
+&quot;standard opening&quot; border=&quot;0&quot; height=&quot;400&quot; width=&quot;600&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 158 &amp;mdash; Opening standard representation&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body Geometry_34HhqMBUDBbxDFH4Qi2wt2" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="2dc3dbc8-d259-4b8b-8af9-5195bebd8d6c" RuleParameters="Identifier=Body;Type=SweptSolid;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="b7a1225f-ff0e-4e17-ba5b-815172905d60" Type="IfcOpeningStandardCase" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

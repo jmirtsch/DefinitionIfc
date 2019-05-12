@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2MNmrlNeDBBOGJREZ_jY3n">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcSensor" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="348jYeikv9MRrH7OcdNFWC">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="79ad597b-4177-45ea-87b7-56fa89ae7498" RuleParameters="RelatingType=IfcSensorType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="3bLV_IZV994gukh1455nGw">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="fdeee583-83a4-4f1f-89e0-ff18720524c9" RuleParameters="PsetName=Pset_SensorTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="2c49813e-bb78-4a1c-b8d2-6f19c8662173">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="681c9865-c687-4d63-8528-601c6ef51a5d" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="6c42ff28-42fd-493f-b75a-4baeac1195a0">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="58e65cfc-311b-4b37-881f-c28c5b57675c" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="3S26n4euf3o8ejSjhmMIxP">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="98799b92-2fa9-4188-af0b-742ac42fb450" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_SensorBaseQuantities;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material" UniqueId="2Kuv$EHY10neBizmeGcPFK">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="42382f26-2a21-48cc-a2e9-904933188d18" RuleParameters="Name=Casing;" Order="0">
+					<Documentation>Material from which the casing is constructed.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Port" UniqueId="2a_ZICe2LA0glzn2$Ga1L0">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="e701ca39-f8d4-4c47-b85d-340b0385bf36" RuleParameters="PortName=Output;SystemType=SIGNAL;Flow=SOURCE;" Order="0">
+					<Documentation>Transmits signal.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Control Flow" UniqueId="1UCqWgUCDA2epFLm_vGYXV">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Control Flow_3Hs22BKULAZvAwuwBgAykS" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="ec53c797-46d7-48f6-a60f-35f93a5f5282" RuleParameters="Type=IfcDistributionFlowElement;" Order="0">
+					<Documentation>Sensors may be connected to a flow element for which an aspect of the fluid or flow is measured.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="c04d29e3-160d-4e4b-aac3-d9ed89fe4ad6" Type="IfcSensor" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

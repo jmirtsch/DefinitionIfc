@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="91f944fb-abde-4175-a3db-42bf45ae4c7f">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcTendon" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="5dd50404-3c82-49fa-a637-7ebf1a64d195">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="5cc37d33-85c6-44af-8cd6-91a1f32afafe" RuleParameters="RelatingType=IfcTendonType;" Order="0" />
+			</Items>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Quantity Sets" UniqueId="0881ba38-3437-43fe-a257-b7609616ef9c">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="2fc99a0c-1df8-495e-84fd-14d3caa7e074" RuleParameters="QsetName=Qto_ReinforcingElementBaseQuantities;TemplateType=QTO_TYPEDRIVENOVERRIDE;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Tendon Attributes" UniqueId="6d90d94a-7e16-445c-8931-9dbcd11fd61c">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Tendon Attributes_3x5qh1NID9FhOiWhNMBMWq" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="d84ce0ce-ca90-409c-b193-c30badf13d1d" Type="IfcTendon" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

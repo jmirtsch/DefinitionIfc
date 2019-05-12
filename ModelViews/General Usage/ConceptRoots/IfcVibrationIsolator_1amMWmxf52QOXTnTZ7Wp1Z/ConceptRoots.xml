@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1amMWmxf52QOXTnTZ7Wp1Z">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcVibrationIsolator" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="2Tow5KsErFrOkPK2sjPaiO">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="8a4dd690-7a8d-4e6f-98fd-7e395015a7fe" RuleParameters="RelatingType=IfcVibrationIsolatorType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="3bo8HsFeb0XwT9bW0Q3LEu">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="00e6ae27-a534-43e6-811a-0a2bc55847d5" RuleParameters="PsetName=Pset_VibrationIsolatorTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="a6324333-a57e-4013-8064-0cff6f07cd6a">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="713762b9-3717-4bf0-b1be-6cbec07adeda" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="13213d73-3e63-43ca-9748-a2acbcf531ea" RuleParameters="PropertyName=VibrationTransmissibility;Value=IfcPositiveRatioMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="7328eb25-98b6-4955-b801-3f305e6ea521" RuleParameters="PropertyName=IsolatorStaticDeflection;Value=IfcLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="3ea7529f-efde-451b-89b4-38c02a145896" RuleParameters="PropertyName=IsolatorCompressibility;Value=IfcRatioMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="1aa9c8a8-1423-4251-b7c7-9d123736f9cf" RuleParameters="PropertyName=Height;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="c7202aad-6df7-4bd8-b0b6-0ab446c6a5f5" RuleParameters="PropertyName=MaximumSupportedWeight;Value=IfcMassMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="1V1cWpD3vBFOeYCEEx2b9H">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="7098cdc1-edfc-4d7c-96eb-fe4b5a0f8b5b" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_VibrationIsolatorBaseQuantities;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material" UniqueId="2Lr7xSqf18Sw0dQk8SuF8J">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="4080c22d-8ac4-4b66-b00d-63097a3cc61f" RuleParameters="Name=Casing;" Order="0">
+					<Documentation>Material from which the casing is constructed.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="4dadb975-72ae-4970-a3b3-fa13379f3110" RuleParameters="Name=Damping;" Order="0">
+					<Documentation>Material from which the damping element of the vibration isolator is constructed.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="70fb32d1-0825-4b65-86d3-f1779c6215db" Type="IfcVibrationIsolator" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

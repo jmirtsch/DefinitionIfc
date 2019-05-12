@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="PEnum_EvaporativeCoolerFlowArrangement" UniqueId="926ef1b9-d816-4ccf-83ce-a185d431e010">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="COUNTERFLOW_0rQFhTAJXFwvGWoY$BT_fd" />
+		<DocPropertyConstant xsi:nil="true" href="CROSSFLOW_1n9zKuq9v9q9wktrumTovM" />
+		<DocPropertyConstant xsi:nil="true" href="PARALLELFLOW_2uCTEGkjD0IQY3HhgQTXt2" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0msxOr9lbFaQbAbolKZ_6D" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_3xzQeSeZrEexPS5Ir7AJwy" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_0QX8cL7djDVfxIU3edSthe" />
+	</Constants>
+</DocPropertyEnumeration>
+

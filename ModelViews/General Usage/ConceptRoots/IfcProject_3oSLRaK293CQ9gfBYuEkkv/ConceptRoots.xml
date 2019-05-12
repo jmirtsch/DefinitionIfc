@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3oSLRaK293CQ9gfBYuEkkv">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcProject" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Spatial Decomposition" UniqueId="17049e53-9983-47f9-a14f-43b5fc479bab">
+			<Documentation>&lt;p&gt;The &lt;em&gt;IfcProject&lt;/em&gt; is used to reference the root of the spatial structure of a building or other construction project (that serves as the primary project breakdown and is required to be hierarchical). The spatial structure elements are linked together, and to the &lt;em&gt;IfcProject&lt;/em&gt;, by using the objectified relationship &lt;em&gt;IfcRelAggregates&lt;/em&gt;. 
+&lt;p&gt;The following constraints are applied to using the relationshio &lt;em&gt;IfcRelAggregates&lt;/em&gt; in context of &lt;em&gt;IfcProject&lt;/em&gt;&lt;/p&gt;
+
+
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The anomaly to use the composition structure through &lt;em&gt;IfcRelAggregates&lt;/em&gt; for assigning the uppermost spatial container to &lt;em&gt;IfcProject&lt;/em&gt; is due to upward compatibility reasons with earlier releases of this standard.&lt;/blockquote&gt;
+
+
+&lt;ul&gt;
+ &lt;li&gt;&lt;em&gt;IfcProject&lt;/em&gt;.Decomposes -- it shall be NIL, i.e. the &lt;em&gt;IfcProject&lt;/em&gt; shall be on top of the root of the spatial structure tree.&lt;/li&gt;
+ &lt;li&gt;&lt;em&gt;IfcProject&lt;/em&gt;.IsDecomposedBy -- referencing (&lt;em&gt;IfcSite&lt;/em&gt; || &lt;em&gt;IfcBuilding&lt;/em&gt; || &lt;em&gt;IfcSpatialZone&lt;/em&gt;) by using &lt;em&gt;IfcRelAggregates&lt;/em&gt;.RelatedObjects. The &lt;em&gt;IfcSite&lt;/em&gt;, &lt;em&gt;IfcBuilding&lt;/em&gt;, or &lt;em&gt;IfcSpatialZone&lt;/em&gt; being referenced shall be the root of the spatial structure.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Figure 125 illustrates project relationships with spatial structures, elements, and element type libraries.&lt;/p&gt;
+
+
+&lt;table summary=&quot;project relationships&quot;&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;../../../figures/ifcproject_fig-2.png&quot; alt=&quot;spatial decomposition relationships&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 125 &amp;mdash; Project spatial structure, products and product type library&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Spatial Decomposition_1cVuH3xCvAZQO$an_h15FW" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="535b1916-6e1f-4dec-a8f1-a546d4bae2e7" RuleParameters="Spatial Parts=IfcSite;" Order="0">
+					<Documentation>If referenced, the site is the root of the spatial structure.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="69280ed3-7519-4f8e-b7e4-a8b1bc7c7aa0" RuleParameters="Spatial Parts=IfcBuilding;" Order="0">
+					<Documentation>If referenced, the building is the root of the spatial structure (no explicit site information included).</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="447c5e1f-ebae-4a1b-bd98-d14fc6d57770" RuleParameters="Spatial Parts=IfcSpatialZone;" Order="0">
+					<Documentation>If referenced, the spatial zone is the root of the spatial structure (to be used as a stub for non-building related projects).</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Project Declaration" UniqueId="3Rglqub31Aix7ffwYIChP3">
+			<Documentation>&lt;p&gt;The &lt;em&gt;IfcProject&lt;/em&gt; is also the context for other information about the construction project such as a work plan. Non-product structures are assigned by their first level object to &lt;em&gt;IfcProject&lt;/em&gt; using the &lt;em&gt;IfcRelDeclares&lt;/em&gt; relationship. The &lt;em&gt;IfcProject&lt;/em&gt; provides the context for work plans (or other non-product based) descriptions of the construction project. It is handled by the objectified relationship &lt;em&gt;IfcRelDeclares&lt;/em&gt;.&lt;/p&gt;
+
+
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The spatial structure and the schedule structure can be decomposed. For example the &lt;em&gt;IfcBuilding&lt;/em&gt; can be decomposed into &lt;em&gt;IfcBuildingStorey&lt;/em&gt;&apos;s, and the &lt;em&gt;IfcWorkPlan&lt;/em&gt; can be decomposed into &lt;em&gt;IfcWorkSchedule&lt;/em&gt;&apos;s.&lt;/blockquote&gt;
+
+
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The products and tasks can be decomposed further. For example the &lt;em&gt;IfcCurtainWall&lt;/em&gt; can be decomposed into &lt;em&gt;IfcMember&lt;/em&gt; and &lt;em&gt;IfcPlate&lt;/em&gt;, the &lt;em&gt;IfcTask&lt;/em&gt; can be decomposed into other &lt;em&gt;IfcTask&lt;/em&gt;&apos;s.&lt;/blockquote&gt;
+
+
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The products and tasks can have direct linking relationships. For example the &lt;em&gt;IfcCurtainWall&lt;/em&gt; can be assigned to a &lt;em&gt;IfcTask&lt;/em&gt; as an input or output for a construction schedule.&lt;/blockquote&gt;
+
+
+&lt;p&gt;Figure 126 illustrates the use of &lt;em&gt;IfcProject&lt;/em&gt; as context for work plans or work schedules.&lt;/p&gt;
+
+
+&lt;table summary=&quot;project relationships&quot;&gt;
+&lt;tr valign=&quot;top&quot;&gt;&lt;td&gt;&lt;img src=&quot;../../../figures/ifcproject_fig-1.png&quot; alt=&quot;project relationships&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr valign=&quot;top&quot;&gt;&lt;td colspan=&quot;2&quot;&gt;
+&lt;p class=&quot;figure&quot;&gt;Figure 126 &amp;mdash; Project spatial and work plan structure&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Project Declaration_2h7Ypzdo5FIhQlp2ROJaMi" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="372f58c0-0a9f-4572-b712-c710e0acbc37" RuleParameters="Type=IfcProjectLibrary;" Order="0">
+					<Documentation>Referenced projects incorporated into this project.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="b809119e-364d-4a51-a7bf-26f337e38892" RuleParameters="Type=IfcPropertySetTemplate;" Order="0">
+					<Documentation>Property set templates defined by this project.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="072d332a-f03c-47a9-add5-66509251c0b0" RuleParameters="Type=IfcTypeObject;" Order="0">
+					<Documentation>Type definition defined by this project.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="1345fafc-2140-470d-9c5e-cbecfba9182e" RuleParameters="Type=IfcActor;" Order="0">
+					<Documentation>Actors participating in this project.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="3478df85-6bfd-4b24-9503-1f6bd468699c" RuleParameters="Type=IfcControl;" Order="0">
+					<Documentation>Controls issued within this project.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="7d9b72dd-d60d-4b43-9330-d2663f1e1d73" RuleParameters="Type=IfcGroup;" Order="0">
+					<Documentation>Groups defined by this project.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="adf450ff-fe1b-46b0-bf58-ec3e4b0fa0ec" RuleParameters="Type=IfcProcess;" Order="0">
+					<Documentation>Processes defined by this project.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="4092df30-56c1-4709-b593-c3ae7283494d" RuleParameters="Type=IfcResource;" Order="0">
+					<Documentation>Resources defined by this project.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Project Units" UniqueId="3Vl6VKGiXCZBtA8ht6A7Sg">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Project Units_1CogmCYFXC7P7z8XJGvHF4" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="c6a0ef15-f48f-4c86-976f-1af5767a7b38" RuleParameters="NamedUnitType=LENGTHUNIT;" Order="0">
+					<Documentation>Length unit as meters, millimeters, or inches.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="6285f993-36bf-4532-bffe-6a6d1a14e75b" RuleParameters="NamedUnitType=PLANEANGLEUNIT;" Order="0">
+					<Documentation>Angle unit as degrees or radians.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Project Context" UniqueId="06xo1mPkj8AQGMi369hcMt">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Project Representation Context_0usiRmcNn5H9lAjZ9hcZvB" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="8b2ee625-6f83-4c83-ac00-70b497c35c4d" RuleParameters="ContextIdentifier=Model;ContextType=3D;" Order="0">
+					<Documentation>Context for all 3D geometry.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="d36560c4-0689-4d06-8168-bb475f992e79" RuleParameters="ContextIdentifier=Plan;ContextType=2D;" Order="0">
+					<Documentation>Context for all 2D annotations.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Project Classification Information" UniqueId="27ruolyzb9zPTF5$6xHNrg">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Project Classification Information_21ZAMZHNH9iPbHhdkjN3D1" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Project Document Information" UniqueId="02tVnxF454PhWDJ9QPcXJ1">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Project Document Information_1YVnduqkvB6Q4yvHIG6Bbs" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Project Library Information" UniqueId="0wtLNV4vX6Eusj1GMtO4ew">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Project Library Information_3t7UAEGr9F3PWmJw4rDAS5" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="b8668c2a-e852-4548-a603-41bd537db0c2" Type="IfcProject" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

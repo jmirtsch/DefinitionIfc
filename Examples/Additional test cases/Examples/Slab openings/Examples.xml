@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocExample xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Slab openings" UniqueId="d882e861-e731-4568-a0a4-c7ce6f7b1943" ApplicableType="IfcSlabStandardCase,IfcOpeningStandardCase,IfcArbitraryClosedProfileDef,IfcRectangleProfileDef,IfcCircleProfileDef,IfcRelVoidsElement">
+	<ApplicableTemplates>
+		<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid ParameterizedProfile Geometry_0TW7c_cFjCFg82IViXY$wn" />
+		<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid PolyCurve Geometry_0uSGpDZ$L1ke$Q23091w0k" />
+		<DocTemplateDefinition xsi:nil="true" href="Element Voiding_2v05vvjSLC2vs616mXhK8D" />
+	</ApplicableTemplates>
+	<Views>
+		<DocModelView xsi:nil="true" href="Design Transfer View" />
+		<DocModelView xsi:nil="true" href="General Usage" />
+	</Views>
+</DocExample>
+

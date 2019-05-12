@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2k1yjs1bn9MeCkm8LDZext">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcProjectLibrary" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Project Library Information" UniqueId="1O7$TlV310w9xZsxTAiZ3b">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Project Library Information_3t7UAEGr9F3PWmJw4rDAS5" />
+			</Definition>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Object Type Definitions" UniqueId="7b2421bb-0311-414b-ae45-6a551c60e047">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Project Type Definitions_1ZJYVtVjjE8hZC9V7DnsNE" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Property Template Definitions" UniqueId="5fefb1c9-1031-4001-b664-9f4b44f78607">
+			<Documentation>&lt;p&gt;If a project includes custom properties for which end users should be able to view and/or edit, then backing property templates must be defined. 
+Such templates define applicable data types and values. Applications should not allow modification of any custom properties (other than those defined within this specification) for which no template is available. 
+&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Project Template Definitions_3MxTphmG92Hux09EVKnTgR" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="30944597-8d8c-42b0-8f65-5298f697c89e" Type="IfcProjectLibrary" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

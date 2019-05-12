@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1JOdTWEDfCUA4R5qC1sv4o">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcEvaporator" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="2NvaznbcL4hhEZQPFuY89$">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="47f6d245-e5e0-4657-9fa2-d4daf20e7960" RuleParameters="RelatingType=IfcEvaporatorType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="3pN8ojrY17TBeTk4IwzF2m">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="b8551034-0300-4f08-92be-c611c390686c" RuleParameters="PsetName=Pset_EvaporatorTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="4e96d222-70f5-4eaa-ad07-7b84ee8e2e37">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="5302d213-3675-462c-b941-d31537fd56b1" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="2adaf86d-0d6a-463e-af62-8182a4aeeae3" RuleParameters="PropertyName=ExternalSurfaceArea;Value=IfcAreaMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="9cfaa258-66d2-4bab-b297-07ac9334e440" RuleParameters="PropertyName=InternalSurfaceArea;Value=IfcAreaMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="b6b72ad3-b33e-426c-b428-459d97d7b7c9" RuleParameters="PropertyName=InternalRefrigerantVolume;Value=IfcVolumeMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="97461141-9ea2-4683-ab09-020cc82730b3" RuleParameters="PropertyName=InternalWaterVolume;Value=IfcVolumeMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="96f17dfd-c14e-4724-924e-1c28f058ced3" RuleParameters="PropertyName=NominalHeatTransferArea;Value=IfcAreaMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="8c8058cc-6bff-4068-a70c-d1df0317d8e8" RuleParameters="PropertyName=NominalHeatTransferCoefficient;Value=IfcThermalTransmittanceMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="45426eff-e8dd-43b9-b23a-5cbc034e82e1">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="51584419-a3a7-42d1-b014-05677509356e" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="a7a309a6-6279-4d75-bc5c-c0cfdd56b126" RuleParameters="PropertyName=EvaporatorMediumType;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="00609e1f-ec71-40a3-a58a-7abf7dfa8d70" RuleParameters="PropertyName=EvaporatorCoolant;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="04f55862-2c2b-4de9-8182-db4fb20638ca" RuleParameters="PropertyName=RefrigerantClass;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="1I45kKK6L8Yg9zyr0X6o4l">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="c3385868-d3d4-4fae-821f-1bf3a619168a" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_EvaporatorBaseQuantities;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material" UniqueId="3Fu7lPpGrD7xsjXA5bXeAU">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="6a641f29-889d-4638-82f7-2320c555efd5" RuleParameters="Name=Casing;" Order="0">
+					<Documentation>Material from which the casing is constructed.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="d74bcbde-156f-4964-b8dd-ef31e8dc39ca" RuleParameters="Name=Refrigerant;" Order="0">
+					<Documentation>Refrigerant material.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Port" UniqueId="2ymJe7Vsr3LgbDynobNh8b">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="1ce50ef5-bdb3-4a1d-84a2-d5167c3ce194" RuleParameters="PredefinedType=DIRECTEXPANSION;PortName=RefrigerantIn;SystemType=REFRIGERATION;Flow=SINK;" Order="0">
+					<Documentation>Liquid refrigerant entering the evaporator.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="951aa5a1-9c93-494f-a3eb-7449d32efffa" RuleParameters="PredefinedType=DIRECTEXPANSION;PortName=RefrigerantOut;SystemType=REFRIGERATION;Flow=SINK;" Order="0">
+					<Documentation>Liquid refrigerant entering the evaporator.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="8007e223-3305-4edf-a891-dfde1e4fabc6" RuleParameters="PredefinedType=DIRECTEXPANSION;PortName=AirIn;SystemType=AIRCONDITIONING;Flow=SINK;" Order="0">
+					<Documentation>Air return entering the evaporator.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="4682c5ae-9aa3-4c54-a234-7152c9760739" RuleParameters="PredefinedType=DIRECTEXPANSION;PortName=AirOut;SystemType=AIRCONDITIONING;Flow=SOURCE;" Order="0">
+					<Documentation>Air supply leaving the evaporator.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="90149c87-6f7f-4522-abba-330825966e23" RuleParameters="PredefinedType=FLOODEDSHELLANDTUBE;PortName=RefrigerantIn;SystemType=REFRIGERATION;Flow=SINK;" Order="0">
+					<Documentation>Liquid refrigerant entering the evaporator.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="6266f678-e78b-446d-884b-d78c053eafcc" RuleParameters="PredefinedType=FLOODEDSHELLANDTUBE;PortName=RefrigerantOut;SystemType=REFRIGERATION;Flow=SINK;" Order="0">
+					<Documentation>Liquid refrigerant entering the evaporator.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="df70cc51-d8c0-4dc7-b530-a3c023a25a2b" RuleParameters="PredefinedType=FLOODEDSHELLANDTUBE;PortName=ChilledWaterIn;SystemType=CHILLEDWATER;Flow=SINK;" Order="0">
+					<Documentation>Chilled water return entering the evaporator.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="41adc9a2-40b2-4c5f-97e7-51cd55c2ff89" RuleParameters="PredefinedType=FLOODEDSHELLANDTUBE;PortName=ChilledWaterOut;SystemType=CHILLEDWATER;Flow=SOURCE;" Order="0">
+					<Documentation>Chilled water supply leaving the evaporator.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="8df58ee0-1861-4f99-a65c-2fd665dfc39c" RuleParameters="PredefinedType=SHELLANDCOIL;PortName=RefrigerantIn;SystemType=REFRIGERATION;Flow=SINK;" Order="0">
+					<Documentation>Liquid refrigerant entering the evaporator.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="701f134d-7f8d-4f78-93a1-f7a8ad615d4b" RuleParameters="PredefinedType=SHELLANDCOIL;PortName=RefrigerantOut;SystemType=REFRIGERATION;Flow=SINK;" Order="0">
+					<Documentation>Vapor refrigerant leaving the evaporator.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="e15f1962-3603-4611-bd6d-53d9cfa7efdc" RuleParameters="PredefinedType=FLOODEDSHELLANDTUBE;PortName=ChilledWaterIn;SystemType=CHILLEDWATER;Flow=SINK;" Order="0">
+					<Documentation>Chilled water return entering the evaporator.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="37ef37f1-f28c-4ff2-8c3b-793413e28c22" RuleParameters="PredefinedType=FLOODEDSHELLANDTUBE;PortName=ChilledWaterOut;SystemType=CHILLEDWATER;Flow=SOURCE;" Order="0">
+					<Documentation>Chilled water supply leaving the evaporator.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="d85909f3-35d7-4f8e-b4f9-4a87abc773a0" Type="IfcEvaporator" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

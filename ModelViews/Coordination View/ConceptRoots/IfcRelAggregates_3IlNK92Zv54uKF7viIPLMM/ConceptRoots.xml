@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="d2bd7509-0a3e-4513-850f-1f9b12655596">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcRelAggregates" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="bc4f21c7-4a00-451d-8e5c-6745481ceaa7" Type="IfcRelAggregates" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

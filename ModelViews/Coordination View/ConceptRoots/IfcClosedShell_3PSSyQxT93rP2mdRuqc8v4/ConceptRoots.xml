@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="d971cf1a-edd2-43d5-90b0-9dbe34988e44">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcClosedShell" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="46a507bd-aee5-45b4-825c-021f8a435d1f" Type="IfcClosedShell" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcFlowInstrument" Name="IfcFlowInstrument" UniqueId="67624ad3-5d2e-4f19-abe4-c8abfa34fd54" DiagramNumber="1" BaseDefinition="IfcDistributionControlElement" EntityFlags="229">
+	<Localization>
+		<DocLocalization Name="Messinstrument (allgemein)" Locale="de" />
+		<DocLocalization Name="Flow Instrument" Locale="en" />
+		<DocLocalization Name="Instrument d&apos;installation fluides" Locale="fr" />
+	</Localization>
+	<DiagramRectangle>
+		<DocRectangle X="862.93333" Y="295.12" Width="674.63333" Height="108" />
+	</DiagramRectangle>
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="5b774128-e349-4ff3-8ae3-28adab4523b1" DefinedType="IfcFlowInstrumentTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<DiagramLine>
+				<DocPoint X="1530.9167" Y="403.12" />
+				<DocPoint X="1530.9167" Y="455.22667" />
+				<DocPoint X="1092.48003" Y="455.22667" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="1439.698365" Y="397.7866667" Width="182" Height="35" />
+			</DiagramLabel>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="CorrectPredefinedType" UniqueId="d1f989d5-1966-4fa0-9a97-5b3e69c876db">
+			<Documentation>Either the &lt;em&gt;PredefinedType&lt;/em&gt; attribute is unset (e.g. because an &lt;em&gt;IfcFlowInstrumentType&lt;/em&gt; is associated), or the inherited attribute &lt;em&gt;ObjectType&lt;/em&gt; shall be provided, if the &lt;em&gt;PredefinedType&lt;/em&gt; is set to USERDEFINED.</Documentation>
+			<Expression>NOT(EXISTS(PredefinedType)) OR 
+ (PredefinedType &lt;&gt; IfcFlowInstrumentTypeEnum.USERDEFINED) OR 
+ ((PredefinedType = IfcFlowInstrumentTypeEnum.USERDEFINED) AND EXISTS (SELF\IfcObject.ObjectType))</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="CorrectTypeAssigned" UniqueId="c3ef3818-0410-4b7a-9b54-65cca7b14203">
+			<Documentation>Either there is no flow instrument type object associated, i.e. the &lt;em&gt;IsTypedBy&lt;/em&gt; inverse relationship is not provided, or the associated type object has to be of type &lt;em&gt;IfcFlowInstrumentType&lt;/em&gt;.</Documentation>
+			<Expression>(SIZEOF(IsTypedBy) = 0) OR 
+(&apos;IFCBUILDINGCONTROLSDOMAIN.IFCFLOWINSTRUMENTTYPE&apos; IN TYPEOF(SELF\IfcObject.IsTypedBy[1].RelatingType))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

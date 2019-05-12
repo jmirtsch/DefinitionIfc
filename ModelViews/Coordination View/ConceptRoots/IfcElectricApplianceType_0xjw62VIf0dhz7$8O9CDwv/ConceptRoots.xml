@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3bb7a182-7d2a-409e-bf47-fc860930deb9">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcElectricApplianceType" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="90e22002-d912-4cdc-aa2d-67f728f150cd" Type="IfcElectricApplianceType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3ndGlMHl9EuvXQ0yPJAH83">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcFastener" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="3dea3rxPjD7OiNgw9xntWn">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="26b72798-7806-4ecb-86fd-c9817f2235a3" RuleParameters="RelatingType=IfcFastenerType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="0Xp_DUOELA6eTzGHRLDfK5">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="98c70dd6-b4fc-4a3d-bff4-70aaeadbc509" RuleInstanceID="IfcPropertySet" RuleParameters="PredefinedType=WELD;PsetName=Pset_FastenerWeld;TemplateType=PSET_OCCURRENCEDRIVEN;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="1ca3a446-84b8-4abb-8944-724b815364c4" Type="IfcFastener" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

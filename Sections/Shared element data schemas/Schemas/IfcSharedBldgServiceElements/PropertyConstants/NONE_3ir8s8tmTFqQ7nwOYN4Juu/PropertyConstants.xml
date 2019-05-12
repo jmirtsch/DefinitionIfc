@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyConstant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="NONE_3ir8s8tmTFqQ7nwOYN4Juu" Name="NONE" UniqueId="ecd48d88-df07-4fd1-a1f1-e98897113e38">
+	<Localization>
+		<DocLocalization Name="None" Locale="en">
+			<Documentation>No end-style has been applied</Documentation>
+		</DocLocalization>
+	</Localization>
+</DocPropertyConstant>
+

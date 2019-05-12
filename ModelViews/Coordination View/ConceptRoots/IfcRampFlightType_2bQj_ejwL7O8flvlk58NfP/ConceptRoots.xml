@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="a56adfa8-b7a5-4760-8a6f-e6fb85217a59">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcRampFlightType" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="2766a93e-f0d0-42a5-9090-bd5e684a3c2d" Type="IfcRampFlightType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

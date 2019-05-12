@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcRelServicesBuildings" Name="IfcRelServicesBuildings" UniqueId="db89d737-4bde-4aef-bb04-156d8b2c8097" DiagramNumber="11" BaseDefinition="IfcRelConnects" EntityFlags="237">
+	<Localization>
+		<DocLocalization Name="Zuordnung Anlage zu räumlicher Gliederung - Relation" Locale="de" />
+		<DocLocalization Name="Rel Services Buildings" Locale="en" />
+	</Localization>
+	<DiagramRectangle>
+		<DocRectangle X="7283.6707" Y="3981.3044" Width="438.66667" Height="103.33333" />
+	</DiagramRectangle>
+	<Attributes>
+		<DocAttribute Name="RelatingSystem" UniqueId="ef4ac800-94ab-4c07-9262-b7e44d13f6a3" DefinedType="IfcSystem" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
+			<Documentation>System that services the Buildings.</Documentation>
+			<DiagramLine>
+				<DocPoint X="7283.6707" Y="4027.6377" />
+				<DocPoint X="6748.30393" Y="4027.6377" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="7198.537365" Y="4019.351779" Width="179" Height="35" />
+			</DiagramLabel>
+		</DocAttribute>
+		<DocAttribute Name="RelatedBuildings" UniqueId="9e2d6247-93c2-4b4c-87e7-0a35aec4c0e1" DefinedType="IfcSpatialElement" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>Spatial structure elements (including site, building, storeys) that are serviced by the system.
+&lt;blockquote class=&quot;change-ifc2x&quot;&gt;
+  IFC2x CHANGE&amp;nbsp; The data type has been changed from &lt;em&gt;IfcBuilding&lt;/em&gt; to &lt;em&gt;IfcSpatialStructureElement&lt;/em&gt; with upward compatibility for file based exchange.
+&lt;/blockquote&gt;
+&lt;blockquote class=&quot;change-ifc2x4&quot;&gt;
+  IFC4 CHANGE&amp;nbsp; The data type has been changed from &lt;em&gt;IfcSpatialStructureElement&lt;/em&gt; to &lt;em&gt;IfcSpatialElement&lt;/em&gt; with upward compatibility for file based exchange.
+&lt;/blockquote&gt;</Documentation>
+			<DiagramLine>
+				<DocPoint X="7503.0041" Y="3981.3044" />
+				<DocPoint X="7503.0041" Y="3854.63777" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="7656.33743" Y="3991.971067" Width="271" Height="35" />
+			</DiagramLabel>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

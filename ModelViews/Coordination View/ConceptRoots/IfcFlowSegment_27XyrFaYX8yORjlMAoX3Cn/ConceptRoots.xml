@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="8787cd4f-9228-48f1-86ed-bd62b2843331">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcFlowSegment" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="442604b4-7602-429e-ad72-c4c274e5916c" Type="IfcFlowSegment" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

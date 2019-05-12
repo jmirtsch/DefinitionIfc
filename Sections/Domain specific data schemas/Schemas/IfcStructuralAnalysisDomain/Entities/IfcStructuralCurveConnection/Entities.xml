@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcStructuralCurveConnection" Name="IfcStructuralCurveConnection" UniqueId="d75c0a83-a50e-4591-aa6f-d4c2dad98451" DiagramNumber="3" BaseDefinition="IfcStructuralConnection" EntityFlags="237">
+	<Localization>
+		<DocLocalization Name="stabförmiger Knoten" Locale="de">
+			<Documentation>linienförmige statische Verbindung zur Verbindung flächiger Bauteile, oder Auflagerung</Documentation>
+		</DocLocalization>
+		<DocLocalization Name="Structural Curve Connection" Locale="en" />
+	</Localization>
+	<DiagramRectangle>
+		<DocRectangle X="3498.9682" Y="500.19339" Width="290.91603" Height="124" />
+	</DiagramRectangle>
+	<Attributes>
+		<DocAttribute Name="Axis" UniqueId="7ab9edfa-dde7-4c6c-8c6a-ce1cd8fc527c" DefinedType="IfcDirection" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
+			<Documentation>Direction which is used in the definition of the local z axis.  &lt;em&gt;Axis&lt;/em&gt; is specified relative to the so-called global coordinate system, i.e. the &lt;em&gt;SELF\IfcProduct.ObjectPlacement&lt;/em&gt;.
+
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; It is desirable and usually possible that many instances of &lt;em&gt;IfcStructuralCurveConnection&lt;/em&gt; and &lt;em&gt;IfcStructuralCurveMember&lt;/em&gt; share a common instance of &lt;em&gt;IfcDirection&lt;/em&gt; as their &lt;em&gt;Axis&lt;/em&gt; attribute.&lt;/blockquote&gt;</Documentation>
+			<DiagramLine>
+				<DocPoint X="3789.8842" Y="562.19339" />
+				<DocPoint X="4022.0009" Y="562.19339" />
+				<DocPoint X="4022.0009" Y="562.262772476" />
+				<DocPoint X="4254.1176" Y="562.262772476" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="3776.669011" Y="557.1585306" Width="52" Height="35" />
+			</DiagramLabel>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

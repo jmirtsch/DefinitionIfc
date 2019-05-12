@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="8f451adc-a552-4575-99de-337ed79332b2">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcFlowMovingDeviceType" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="dbf11178-4cc2-4460-adc8-a699bd78408f" Type="IfcFlowMovingDeviceType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

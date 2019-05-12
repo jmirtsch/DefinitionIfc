@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2Ke6esXq14sf2mvKJWeKsd">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcTaskType" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Nesting" UniqueId="1znKyvUYX0qO5jv08moCl_">
+			<Documentation>&lt;p&gt;
+      &lt;em&gt;IfcTaskType&lt;/em&gt; may nest other &lt;em&gt;IfcTaskType&lt;/em&gt; or
+      &lt;em&gt;IfcTask&lt;/em&gt; entities using the &lt;em&gt;IfcRelNests&lt;/em&gt;
+      relationship. Such nesting indicates decomposed level of
+      detail. Nesting of &lt;em&gt;IfcTask&lt;/em&gt; entities is used if a
+      task type shall be detailed by a sequence of tasks or if
+      there is a need to include additional time information such
+      as the duration of subtasks. Please note that
+      &lt;em&gt;IfcTask&lt;/em&gt; entities being contained within an
+      &lt;em&gt;IfcTaskType&lt;/em&gt; are linked with their task occurrences
+      via &lt;em&gt;IfcRelDefinesByObject&lt;/em&gt; relationships. It is also
+      possible to define a task type for these &lt;em&gt;IfcTask&lt;/em&gt;
+      entities via &lt;em&gt;IfcRelDefinesByType&lt;/em&gt; relationships. For
+      further information please see the documentation of
+      &lt;em&gt;IfcRelDefinesByObject&lt;/em&gt;.
+    &lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Nesting_0uoeU8NaT178AKrM_UcbQH" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="a39c073a-73be-45a6-9485-36545a86e007" Type="IfcTaskType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

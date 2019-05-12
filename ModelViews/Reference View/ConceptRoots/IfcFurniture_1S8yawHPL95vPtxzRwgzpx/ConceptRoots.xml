@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="5c23c93a-4595-4917-9677-efd6faabdcfb">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcFurniture" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="69b40f53-fc1f-43fd-91e8-a406f216c638">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="7da19e6f-aad7-45c0-a1d0-6e864721172b" RuleParameters="RelatingType=IfcFurnitureType;" Order="0" />
+			</Items>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="619dc1dd-0657-4369-9cb8-5197f1e952e6">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="1dcc71d2-4b43-46d2-bd99-572f07b14253" RuleParameters="PsetName=Pset_FurnitureTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="e3945205-f25d-4b34-aff6-5016c33cd500">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="00969dec-3a9b-4a38-abd9-67b415b86cd2" RuleParameters="Order=1;PropertyName=Description;Value=IfcText;" Order="0" />
+								<DocTemplateItem UniqueId="39f3c5fe-e950-42c3-9ad4-73a8dc87cf7d" RuleParameters="Order=2;PropertyName=Style;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="69644aed-805b-44e8-a612-c3d7009d428c" RuleParameters="Order=3;PropertyName=NominalHeight;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="64be480e-deab-419b-9130-fd918f7f82e1" RuleParameters="Order=4;PropertyName=NominalLength;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="ad823e66-5c20-4a3f-a6d4-a8ecc85d6f0e" RuleParameters="Order=5;PropertyName=NominalDepth;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="6f99928f-3327-40fc-8437-aa4bea170f56" RuleParameters="Order=6;PropertyName=MainColor;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="9b91d9c4-4d3c-442e-9f62-197478487597" RuleParameters="Order=7;PropertyName=IsBuiltIn;Value=IfcBoolean;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="56a3fc24-f3b2-41c2-9ae4-c54b5e854b64">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="c0bfc08e-275d-4701-9e99-d15a3a78be8a" Type="IfcFurniture" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

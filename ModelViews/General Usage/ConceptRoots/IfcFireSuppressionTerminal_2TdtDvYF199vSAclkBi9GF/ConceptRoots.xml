@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2TdtDvYF199vSAclkBi9GF">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcFireSuppressionTerminal" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="3AL4JhcVfDhuJR0x$mACVN">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="5a72d8af-1742-4b55-a55b-10ca28baf6b6" RuleParameters="RelatingType=IfcFireSuppressionTerminalType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="0CRuUtaSb4URGrv$HGMqSj">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="5fe8351a-5bf5-4625-b571-5e71349bb54d" RuleParameters="PsetName=Pset_FireSuppressionTerminalTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="40a8389a-87f0-47ff-85dd-c29f7f88fe98">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="7a560e1f-f380-4f88-959f-7a4cccc08115" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="a7582bcf-9144-48b5-8c60-62d685dfb121">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="afd81f10-91d8-4678-921b-914cb7c2550e" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="2rEWYggAb1pf8SuNoT_$QY">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="c8c9ed29-8f9d-4aa7-9e54-bb523e1f16fa" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_FireSuppressionTerminalBaseQuantities;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material" UniqueId="2aXFAz6mL3ABdd$LRFZwDa">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="29b6e4fc-ca2e-46f3-980f-234d951d65d0" RuleParameters="Name=Casing;" Order="0">
+					<Documentation>Material from which the casing is constructed.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="bf2b7cb2-4407-4ebf-8b22-7f55ffc2d804" RuleParameters="Name=Damping;" Order="0">
+					<Documentation>The material used to construct the deflector plate.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Port" UniqueId="1xFGg6lYb1UOOMWq52PZtd">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="a6e50d9a-d7f5-4792-8085-21b2136f52d3" RuleParameters="PredefinedType=FIREHYDRANT;PortName=Line;SystemType=FIREPROTECTION;Flow=SINK;" Order="0">
+					<Documentation>Supply line.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="bd73c4a9-07dd-4f56-ab0d-302bbebf4a13" RuleParameters="PredefinedType=FIREHYDRANT;PortName=Hose;SystemType=FIREPROTECTION;Flow=SOURCE;" Order="0">
+					<Documentation>Connection to hose.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="d20e5c8a-63ab-4e04-94fd-76d426b0b855" RuleParameters="PredefinedType=SPRINKLER;PortName=Line;SystemType=FIREPROTECTION;Flow=SINK;" Order="0">
+					<Documentation>Supply line.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="9ebd74c1-85fb-4e6b-bc27-826ba8c9f03d" Type="IfcFireSuppressionTerminal" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

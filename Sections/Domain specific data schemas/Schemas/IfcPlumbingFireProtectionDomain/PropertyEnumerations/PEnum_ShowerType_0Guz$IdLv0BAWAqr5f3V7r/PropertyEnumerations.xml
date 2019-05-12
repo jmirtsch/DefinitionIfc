@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="PEnum_ShowerType" UniqueId="10e3dfd2-9d5e-402c-a80a-d351690df1f5">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="DRENCH_1MifE4_QP1IgMzaOdBPYnE" />
+		<DocPropertyConstant xsi:nil="true" href="INDIVIDUAL_2FaGDXFgLBhPZDZ8GgTifE" />
+		<DocPropertyConstant xsi:nil="true" href="TUNNEL_3mPe2aZEX7491_bqqTdnsv" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_2kSXh8qfj9IfPMUjVa0$Mo" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0reQJdAlv54OkdtZiZDMam" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3bNhyV$K54Dw5Ugzfm6mFe" />
+	</Constants>
+</DocPropertyEnumeration>
+

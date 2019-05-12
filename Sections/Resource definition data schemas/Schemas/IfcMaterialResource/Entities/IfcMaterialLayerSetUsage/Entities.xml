@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcMaterialLayerSetUsage" Name="IfcMaterialLayerSetUsage" UniqueId="2e823b55-2b4a-4eb3-ab29-2daa31a0e9d2" DiagramNumber="2" BaseDefinition="IfcMaterialUsageDefinition" EntityFlags="237">
+	<Localization>
+		<DocLocalization Name="Gruppe von Materialschichten - Verwendung" Locale="de" />
+		<DocLocalization Name="Material Layer Set Usage" Locale="en" />
+		<DocLocalization Name="Mise en place d&apos;un ensemble de couches de matériau homogène" Locale="fr" />
+	</Localization>
+	<DiagramRectangle>
+		<DocRectangle X="1665.0136" Y="167.3111" Width="434.93529" Height="232.93359" />
+	</DiagramRectangle>
+	<Attributes>
+		<DocAttribute Name="ForLayerSet" UniqueId="6270a84c-a47e-49e8-ad70-df7255d002ec" DefinedType="IfcMaterialLayerSet" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
+			<Documentation>The &lt;em&gt;IfcMaterialLayerSet&lt;/em&gt; set to which the usage is applied.</Documentation>
+			<DiagramLine>
+				<DocPoint X="1882.4812" Y="400.24469" />
+				<DocPoint X="1882.4812" Y="773.52199" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="1971.335663" Y="398.2034101" Width="143" Height="35" />
+			</DiagramLabel>
+		</DocAttribute>
+		<DocAttribute Name="LayerSetDirection" UniqueId="61658062-7a41-4e62-a4ac-e22ff1cacbdb" DefinedType="IfcLayerSetDirectionEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Orientation of the material layer set relative to element reference geometry. The meaning of the value of this attribute shall be specified in the geometry use section for each element. For extruded shape representation, direction can be given along the extrusion path (e.g. for slabs) or perpendicular to it (e.g. for walls).
+
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The &lt;em&gt;LayerSetDirection&lt;/em&gt; for &lt;em&gt;IfcWallStandardCase&lt;/em&gt; shall be AXIS2 (i.e. the y-axis) and for &lt;em&gt;IfcSlabStandardCase&lt;/em&gt; and &lt;em&gt;IfcPlateStandardCase&lt;/em&gt; it shall be AXIS3 (i.e. the z-axis).&lt;/blockquote&gt;
+
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; Whether the material layers of the set being used shall &apos;grow&apos; into the positive or negative direction of the given axis, shall be defined by &lt;em&gt;DirectionSense&lt;/em&gt; attribute.&lt;/blockquote&gt;</Documentation>
+			<DiagramLine>
+				<DocPoint X="2099.9489" Y="206.26306" />
+				<DocPoint X="2567.32045" Y="206.26306" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="2050.224142" Y="198.3546828" Width="203" Height="35" />
+			</DiagramLabel>
+		</DocAttribute>
+		<DocAttribute Name="DirectionSense" UniqueId="ce6589dc-d71f-450a-a1c0-378bb4d6f066" DefinedType="IfcDirectionSenseEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Denotes whether the material layer set is oriented in positive or negative sense along the specified axis (defined by LayerSetDirection). &quot;Positive&quot; means that the consecutive layers (the &lt;em&gt;IfcMaterialLayer&lt;/em&gt; instances in the list of &lt;em&gt; IfcMaterialLayerSet.MaterialLayers&lt;/em&gt;) are placed face-by-face in the direction of the positive axis as established by LayerSetDirection: for AXIS2 it would be in +y, for AXIS3 it would be +z. &quot;Negative&quot; means that the layers are placed face-by-face in the direction of the negative LayerSetDirection. In both cases,  starting at the material layer set base line.
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; the material layer set base line (MlsBase) is located by OffsetFromReferenceLine, and may be on the positive or negative side of the element reference line (or plane); positive or negative for MlsBase placement does not depend on the DirectionSense attribute, but on the relevant element axis.&lt;/blockquote&gt;</Documentation>
+			<DiagramLine>
+				<DocPoint X="2099.9489" Y="285.73084" />
+				<DocPoint X="2567.29375" Y="285.73084" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="2034.905283" Y="278.0444443" Width="174" Height="35" />
+			</DiagramLabel>
+		</DocAttribute>
+		<DocAttribute Name="OffsetFromReferenceLine" UniqueId="03479fcc-0ce0-4ce2-87e2-23dca844ee1c" DefinedType="IfcLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Offset of the material layer set base line (MlsBase) from reference geometry (line or plane) of element. The offset can be positive or negative, unless restricted for a particular building element type in its use definition or by implementer agreement. A positive value means, that the MlsBase is placed on the positive side of the reference line or plane, on the axis established by LayerSetDirection (in case of AXIS2 into the direction of +y, or in case of AXIS2 into the direction of +z). A negative value means that the MlsBase is placed on the negative side, as established by LayerSetDirection (in case of AXIS2 into the direction of -y). &lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; the positive or negative sign in the offset only affects the MlsBase placement, it does not have any effect on the application of DirectionSense for orientation of the material layers; also DirectionSense does not change the MlsBase placement.&lt;/small&gt;&lt;/blockquote&gt;</Documentation>
+			<DiagramLine>
+				<DocPoint X="2099.9489" Y="373.51757" />
+				<DocPoint X="2567.24325" Y="373.51757" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="2091.3754167" Y="366.0276386" Width="292" Height="35" />
+			</DiagramLabel>
+		</DocAttribute>
+		<DocAttribute Name="ReferenceExtent" UniqueId="05463889-9d39-40f7-a51d-64d1eae28a58" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Extent of the extrusion of the elements body shape representation to which the &lt;em&gt;IfcMaterialLayerSetUsage&lt;/em&gt; applies. It is used as the reference value for the upper &lt;em&gt;OffsetValues[2]&lt;/em&gt; provided by the &lt;em&gt;IfcMaterialLayerSetWithOffsets&lt;/em&gt; subtype for included material layers.
+
+&lt;blockquote class=&quot;change-ifc2x4&quot;&gt;IFC4 CHANGE&amp;nbsp; New attribute added to the end of attribute list.&lt;/blockquote&gt;
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The attribute &lt;em&gt;ReferenceExtent&lt;/em&gt; shall be asserted, if an &lt;em&gt;IfcMaterialLayerSetWithOffsets&lt;/em&gt; is included in the &lt;em&gt;ForLayerSet.MaterialLayers&lt;/em&gt; list of material layers.&lt;/blockquote&gt;
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The &lt;em&gt;ReferenceExtent&lt;/em&gt; for &lt;em&gt;IfcWallStandardCase&lt;/em&gt; is the reference height starting at z=0 being the XY plane of the object coordinate system.&lt;/blockquote&gt;</Documentation>
+			<DiagramLine>
+				<DocPoint X="2038.4792" Y="400.24469" />
+				<DocPoint X="2038.4792" Y="491.03994" />
+				<DocPoint X="2567.26083" Y="491.03994" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="2013.467692" Y="479.947757" Width="192" Height="35" />
+			</DiagramLabel>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

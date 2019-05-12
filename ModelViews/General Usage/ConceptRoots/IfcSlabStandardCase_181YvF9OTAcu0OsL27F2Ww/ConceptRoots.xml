@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="181YvF9OTAcu0OsL27F2Ww">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcSlabStandardCase" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Material Layer Set Usage" UniqueId="2ibFQKZ8j5AOczlvrpLo1d">
+			<Documentation>&lt;p&gt;
+Multi-layer slabs can be represented by refering to several
+&lt;em&gt;IfcMaterialLayer&lt;/em&gt;&apos;s within the &lt;em&gt;IfcMaterialLayerSet&lt;/em&gt;
+that is referenced from the
+&lt;em&gt;IfcMaterialLayerSetUsage&lt;/em&gt;.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Material information can also be given at the
+&lt;em&gt;IfcSlabType&lt;/em&gt;, defining the common attribute data for all
+occurrences of the same type. It is then accessible by the 
+inverse &lt;em&gt;IsDefinedBy&lt;/em&gt; relationship pointing to
+&lt;em&gt;IfcSlabType.HasAssociations&lt;/em&gt; and via
+&lt;em&gt;IfcRelAssociatesMaterial.RelatingMaterial&lt;/em&gt;. The &lt;em&gt;IfcSlabStandardCase&lt;/em&gt; defines in addition that the
+&lt;em&gt;IfcSlabType&lt;/em&gt; should have a unique &lt;em&gt;IfcMaterialLayerSet&lt;/em&gt;,
+that is referenced by the&amp;nbsp;&lt;em&gt;IfcMaterialLayerSetUsage&lt;/em&gt;
+assigned to all occurrences of this &lt;em&gt;IfcSlabType&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;table&gt;
+
+ &lt;tr&gt;
+  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcslab_materialusage-01.png&quot; alt=&quot;Material layer set and usage&quot; height=&quot;220&quot; width=&quot;501&quot;&gt;&lt;/td&gt;
+  
+&lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 242 illustrates assignment of &lt;em&gt;IfcMaterialLayerSetUsage&lt;/em&gt; and &lt;em&gt;IfcMaterialLayerSet&lt;/em&gt; to the &lt;em&gt;IfcSlabStandardCase&lt;/em&gt; as the slab occurrence and to the &lt;em&gt;IfcSlabType&lt;/em&gt;. The same &lt;em&gt;IfcMaterialLayerSet&lt;/em&gt; shall be shared by many occurrences of &lt;em&gt;IfcMaterialLayerSetUsage&lt;/em&gt;. This relationship shall be consistent to the relationship between the &lt;em&gt;IfcSlabType&lt;/em&gt; and the &lt;em&gt;IfcSlabStandardCase&lt;/em&gt;.&lt;/blockquote&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ 
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 242 &amp;mdash; Slab type definition&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+ &lt;/tr&gt;
+
+&lt;/table&gt;
+
+
+
+
+
+&lt;p&gt;Figure 243 illustrates slab material usage, where the following conventions shall be met:&lt;/p&gt;
+
+&lt;ul&gt;
+
+ &lt;li&gt;The reference coordinate system is the coordinate system established by the &lt;em&gt;IfcExtrudedAreaSolid.Position&lt;/em&gt;.&lt;/li&gt;
+ 
+&lt;li&gt;The reference plane is the plane defined by the extruded profile of &lt;em&gt;IfcExtrudedAreaSolid.SweptSolid&lt;/em&gt;. The &lt;em&gt;IfcMaterialLayerSetUsage.OffsetFromReferenceLine&lt;/em&gt; is given as a distance from this plane.&lt;/li&gt;
+
+ &lt;li&gt;The &lt;em&gt;IfcMaterialLayerSetUsage.DirectionSense&lt;/em&gt; defines how the &lt;em&gt;IfcMaterialLayer&lt;/em&gt;&apos;s are assigned to the reference plane. POSITIVE means in direction to the positive z-axis of the reference coordinate system.&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;IfcMaterialLayerSetUsage.OffsetFromReferenceLine&lt;/em&gt; is the distance parallel to the reference plane and always perpendicular to the base (XY) plane of the reference coordinate system. This is independent of a potential non-perpendicular extrusion given by &lt;em&gt;IfcExtrudedAreaSolid.ExtrudedDirection&lt;/em&gt; &amp;lt;&amp;gt; 0.,0.,1. A positive value of &lt;em&gt;IfcMaterialLayerSetUsage.OffsetFromReferenceLine&lt;/em&gt; would then point into the positive z-axis of the reference coordinate system.&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;Thickness&lt;/em&gt; of each &lt;em&gt;IfcMaterialLayer&lt;/em&gt; shall be the parallel distance (measured perpendicular to the base plane). The &lt;em&gt;TotalThickness&lt;/em&gt; of the &lt;em&gt;IfcMaterialLayerSet&lt;/em&gt; is the sum of all layer thicknesses and in case of a perpendicular extrusion identical with &lt;em&gt;IfcExtrudedAreaSolid.Depth&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;The &lt;em&gt;IfcMaterialLayerSetUsage.LayerSetDirection&lt;/em&gt; is always AXIS3.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+&lt;table summary=&quot;material use definition for standard slabs&quot;&gt;
+
+ &lt;tr&gt;
+  &lt;td align=&quot;left&quot; valign=&quot;top&quot; width=&quot;610&quot;&gt;
+&lt;img src=&quot;../../../figures/ifcmateriallayersetusage_slab-01.png&quot; alt=
+&quot;slab material layer set&quot; width=&quot;601&quot; height=&quot;321&quot; border=&quot;0&quot;&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot; width=&quot;610&quot;&gt;
+&lt;img src=&quot;../../../figures/ifcmateriallayersetusage_roofslab-01.png&quot; alt=
+&quot;roof slab material layer set&quot; width=&quot;600&quot; height=&quot;400&quot; border=
+&quot;0&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 243 &amp;mdash; Slab material layers&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Layer Set Usage_1jNxXlFor9_vKe1tXLtSn7" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Product Placement" UniqueId="a0b3d9e6-c41d-4492-83d0-61cc701d0ee6">
+			<Documentation>&lt;p&gt;The following restriction is imposed:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The local placement shall provide the location and directions 
+for the standard slab, the x/y plane is the plane for the 
+profile, and the z-axis is the extrusion axis for the slab body.&lt;/li&gt;
+&lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body SweptSolid Geometry" UniqueId="0dc72568-a7ee-451c-a4ca-df85da09a127">
+			<Documentation>&lt;p&gt;The following additional constraints apply to the swept solid
+representation:&lt;/p&gt;
+
+&lt;ul&gt;
+
+ &lt;li&gt;&lt;u&gt;Solid&lt;/u&gt;: &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt; is required,&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Profile&lt;/u&gt;: &lt;em&gt;IfcArbitraryClosedProfileDef,
+IfcRectangleProfileDef, IfcCircleProfileDef,
+IfcEllipseProfileDef&lt;/em&gt; shall be supported.&lt;/li&gt;
+
+ &lt;li&gt;&lt;u&gt;Extrusion&lt;/u&gt;: The profile can be extruded perpendicularly
+or non-perpendicularly to the plane of the swept profile.&lt;/li&gt;
+ &lt;li&gt;&lt;u&gt;Material&lt;/u&gt;: The definition of the
+&lt;em&gt;IfcMaterialLayerSetUsage&lt;/em&gt;, particularly of the
+&lt;em&gt;OffsetFromReferenceLine&lt;/em&gt; and the
+&lt;em&gt;ForLayerSet.TotalThickness&lt;/em&gt;, has to be consistent to the
+&apos;SweptSolid&apos; representation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+
+&lt;table&gt;
+ 
+&lt;tr&gt;
+  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcslab_standard-layout1.gif&quot; alt=&quot;standard slab&quot; border=&quot;0&quot; height=&quot;274&quot; width=&quot;399&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;
+
+&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 243 illustrates a &apos;SweptSolid&apos; geometric representation. The following interpretation of dimension parameter applies for polygonal slabs (in ground floor view):
+ &lt;em&gt;IfcArbitraryClosedProfileDef.OuterCurve&lt;/em&gt;: closed bounded curve interpreted as area (or foot print) of the slab.&lt;/blockquote&gt;
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+
+ &lt;tr&gt;
+  &lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 243 &amp;mdash; Slab body extrusion&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+ &lt;/tr&gt;
+
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body Clipping Geometry" UniqueId="181cb8b7-a85b-4bcb-bd23-692ce0652d01">
+			<Documentation>&lt;p&gt;The following constraints apply to the &apos;Clipping&apos;
+representation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;Solid&lt;/u&gt;: see &apos;SweptSolid&apos; shape representation,&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Profile&lt;/u&gt;:&amp;nbsp;see &apos;SweptSolid&apos; shape
+representation,&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Extrusion&lt;/u&gt;:&amp;nbsp;see &apos;SweptSolid&apos; shape
+representation,&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Material&lt;/u&gt;:&amp;nbsp;see &apos;SweptSolid&apos; shape
+representation,&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Boolean result&lt;/u&gt;: The &lt;em&gt;IfcBooleanClippingResult&lt;/em&gt;
+shall be supported, allowing for Boolean differences between the
+swept solid (here &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt;) and one or several
+&lt;em&gt;IfcHalfSpaceSolid&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table&gt;
+
+ &lt;tr&gt;
+  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcslab_advanced-layout1.gif&quot; alt=&quot;advanced slab&quot; border=
+&quot;0&quot; height=&quot;274&quot; width=&quot;399&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;
+
+&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 244 illustrates a &apos;Clipping&apos; geometric representation with definition of a roof slab using advanced geometric representation. The profile is extruded non-perpendicular and the slab body is clipped at the eave.&lt;/blockquote&gt;
+
+&lt;/td&gt;
+ &lt;/tr&gt;
+
+ &lt;tr&gt;
+  &lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 244 &amp;mdash; Slab body clipping&lt;/p&gt;&lt;/td&gt;
+  &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+ &lt;/tr&gt;
+
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body Clipping Geometry_0isyBrcmn3wfqgdNBG57u0" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="125a31e2-714e-472f-88da-30e029e3e4c1" Type="IfcSlabStandardCase" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="PEnum_SprinklerBulbLiquidColor" UniqueId="6b230fe1-4a12-4ad9-87cf-5414feeadf5e">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="ORANGE_0AsuIZzqr8pelfL8tC2R2X" />
+		<DocPropertyConstant xsi:nil="true" href="RED_0bJCpR2yj8XuACUZlZjfrF" />
+		<DocPropertyConstant xsi:nil="true" href="YELLOW_3mZ8wWW7T47Rz9GuW_iopo" />
+		<DocPropertyConstant xsi:nil="true" href="GREEN_0CfwzWTBb5W8z3woxY6g2z" />
+		<DocPropertyConstant xsi:nil="true" href="BLUE_3TarOkPvfBlPdnxGmYTlTM" />
+		<DocPropertyConstant xsi:nil="true" href="MAUVE_3kBiuGdQD0i9hP3Cu0m_Eu" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_1bm7AcLb9BTfedis6Ter5Y" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0UIJ_tgZb1ORuhE5ZRkxBD" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_33iD9qUI1C$P7kvfi42GNI" />
+	</Constants>
+</DocPropertyEnumeration>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="PEnum_SwitchingDeviceMomentarySwitchType" UniqueId="25d52ba1-987f-4ac7-bec8-8b23e8d1de1b">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="BUTTON_03ZOlxoPLAoxe2rtbainGB" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_2G_3maypnDSf2prdNW6TBU" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_262rL1ZFPAqQS$TpaxKuzZ" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_0j0ZvnUNnAQ93Jm_szViK4" />
+	</Constants>
+</DocPropertyEnumeration>
+

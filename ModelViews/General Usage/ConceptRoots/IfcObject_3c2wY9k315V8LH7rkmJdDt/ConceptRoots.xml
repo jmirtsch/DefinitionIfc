@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="e60ba889-b830-457c-8551-1f5bb04e7377">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcObject" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Occurrence Predefined Type" UniqueId="db7acf12-3ad4-4476-8e64-803b35fe8431">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Predefined Type_0b989XcDzD2fDaLbDNNAGX" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="a2f51c4a-345b-4c46-b605-b1deeea7a694" Type="IfcObject" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

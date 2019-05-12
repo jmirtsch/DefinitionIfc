@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="c41446d9-54a3-4ac8-a99a-80311d0749c7">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcPropertyBoundedValue" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="8a465ae7-2606-452c-bfe8-c2ac7401719c" Type="IfcPropertyBoundedValue" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

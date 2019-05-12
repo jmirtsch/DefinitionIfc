@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="15qFrn62HDTBWu_BojS38X">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcProject" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Project Units" UniqueId="3xAVsZHKH72PdzwGly6N06">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Project Units_1CogmCYFXC7P7z8XJGvHF4" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="b07d5fb2-f68d-434f-9c7f-eb6b14922c4d" RuleParameters="NamedUnitType=LENGTHUNIT;" Order="0">
+					<Documentation>Length unit as meters, millimeters, or inches.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="57cc687a-df39-4097-8529-fbac8138427f" RuleParameters="NamedUnitType=PLANEANGLEUNIT;" Order="0">
+					<Documentation>Angle unit as degrees or radians.</Documentation>
+				</DocTemplateItem>
+			</Items>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Project Representation Context 3D" UniqueId="85e713ac-599b-453c-bfda-29a78246924f">
+			<Documentation>&lt;p&gt;The main representation context defined at the &lt;em&gt;IfcProject&lt;/em&gt; shall be a 3D representation concept.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Project Representation Context 3D_0Ca_B2ooD6g8kQntB2WFmc" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="05cc7eb2-732e-4df6-8ec6-499633fdd1ed" RuleParameters="ContextType=Model;" Order="0">
+					<Documentation>Main representation context for all sub contexts defining geometric representations in 3D coordinate space.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="0c3b4136-b4ad-4435-ac65-3f72ee419666" RuleParameters="ContextType=Model;SubContextIdentifier=Body;SubContextType=Model;" Order="0">
+					<Documentation>Main representation subcontext for all 3D body geometry of model elements</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="2d338cb0-f595-418f-ac1b-920f2ca696c3" RuleParameters="ContextType=Model;SubContextIdentifier=Axis;SubContextType=Model;" Order="0">
+					<Documentation>Representation subcontext for curve-based axis representation of model elements (wall axis, beam axis, etc.)</Documentation>
+				</DocTemplateItem>
+			</Items>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="notrelevant">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="notrelevant">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Project Global Positioning" UniqueId="7cdc703f-2081-43d1-ba70-453801409dd1">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Global Positioning_3J9e0D0k14GeJdkFjFtWG0" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Project Classification Information" UniqueId="1f3d17a8-cfd2-4b20-ab7f-ec4414926c83">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Project Classification Information_21ZAMZHNH9iPbHhdkjN3D1" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Project Type Definitions" UniqueId="d999fd8d-6987-4ee9-8416-d11b96836fcf">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Project Type Definitions_1ZJYVtVjjE8hZC9V7DnsNE" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="0FrsODsE91oxbPKKndZw$f">
+			<Documentation>&lt;p&gt;The &lt;em&gt;IfcProject&lt;/em&gt; is used to reference the root of the spatial structure of a building or other construction project (that serves as the primary project breakdown and is required to be hierarchical). The spatial structure elements are linked together, and to the &lt;em&gt;IfcProject&lt;/em&gt;, by using the objectified relationship &lt;em&gt;IfcRelAggregates&lt;/em&gt;. 
+
+&lt;ul&gt;
+ &lt;li&gt;&lt;em&gt;IfcProject&lt;/em&gt;.Decomposes -- shall be NIL, i.e. the &lt;em&gt;IfcProject&lt;/em&gt; shall be on top of the root of the spatial structure tree.&lt;/li&gt;
+ &lt;li&gt;&lt;em&gt;IfcProject&lt;/em&gt;.IsDecomposedBy -- referencing (&lt;em&gt;IfcSite&lt;/em&gt; || &lt;em&gt;IfcBuilding&lt;/em&gt; || &lt;em&gt;IfcSpatialZone&lt;/em&gt;) by using &lt;em&gt;IfcRelAggregates&lt;/em&gt;.RelatedObjects. The &lt;em&gt;IfcSite&lt;/em&gt;, &lt;em&gt;IfcBuilding&lt;/em&gt;, or &lt;em&gt;IfcSpatialZone&lt;/em&gt; being referenced shall be the root of the spatial structure.&lt;/li&gt;
+&lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Spatial Decomposition_1cVuH3xCvAZQO$an_h15FW" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="1eacdeb9-91bf-4990-b7f9-76b63898df87" Order="0">
+					<Documentation>If referenced, the site is the root of the spatial structure.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="284d25ce-fff6-4fcb-96b0-8292b9f367d1" RuleParameters="Spatial Parts=IfcBuilding;" Order="0">
+					<Documentation>If referenced, the building is the root of the spatial structure (no explicit site information included).</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="06701950-0e55-4767-8eda-e6d6ca2f9718" RuleParameters="Spatial Parts=IfcSpatialZone;" Order="0">
+					<Documentation>If referenced, the spatial zone is the root of the spatial structure (to be used as a stub for non-building related projects).</Documentation>
+				</DocTemplateItem>
+			</Items>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="21015546-c7f6-44ea-973b-db6d19bf6fc5" Type="IfcProject" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

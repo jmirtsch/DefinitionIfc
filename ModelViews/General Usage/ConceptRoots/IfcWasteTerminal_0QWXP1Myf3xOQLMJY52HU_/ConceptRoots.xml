@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0QWXP1Myf3xOQLMJY52HU_">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcWasteTerminal" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="0$B_Gs4of4$AHu0tcdENXW">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="e72dd718-1a7f-4e3e-89f8-fedba9350460" RuleParameters="RelatingType=IfcWasteTerminalType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="0tn8C6EEnAbgjF8KDNFF7E">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="1f6a88ec-3f84-41f2-b841-4cdfe2fcffa6" RuleParameters="PsetName=Pset_WasteTerminalTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="6bdde11a-14e3-4c9d-9133-b327746a55a4">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="e9e54287-ee08-4d2f-bd6c-37c8bcdc2135" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="875ad58d-0c79-4b25-8444-b24dea198acf">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="8db202fa-3cf7-4e37-b6a2-64e618158bcd" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="2b7NNROKz5qex44KYaclXh">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="f3f0c05c-ebf3-40b0-80d7-7420ea51c637" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_WasteTerminalBaseQuantities;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material" UniqueId="0TbWIQ2dfDzuT9CfMiCUh2">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="6d01c1f4-7f96-435c-9cfc-d102e0ef18c1" RuleParameters="Name=Casing;" Order="0">
+					<Documentation>Material from which the casing is constructed.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="d21dcc33-a765-40ea-a54c-7e429d7d3238" RuleParameters="Name=Cover;" Order="0">
+					<Documentation>Material from which the cover or grating is constructed.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Port" UniqueId="2WaA4WXgbAxfRcV7do9ETg">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="0d3def84-25fd-41df-9f23-2db2f0a0c4e0" RuleParameters="PredefinedType=FLOORTRAP;PortName=Inlet;SystemType=DRAINAGE;Flow=SINK;" Order="0">
+					<Documentation>Drainage inlet.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="ec744401-b22d-41c5-93d4-ad3775373885" RuleParameters="PredefinedType=FLOORTRAP;PortName=Outlet;SystemType=DRAINAGE;Flow=SOURCE;" Order="0">
+					<Documentation>Drainage outlet.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="30f6f0af-5211-4602-af1d-d1efd58cb80e" RuleParameters="PredefinedType=FLOORWASTE;PortName=Inlet;SystemType=WASTE;Flow=SINK;" Order="0">
+					<Documentation>Waste inlet.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="325a5b67-d48a-4060-85b8-0e6b04d64065" RuleParameters="PredefinedType=FLOORWASTE;PortName=Outlet;SystemType=WASTE;Flow=SOURCE;" Order="0">
+					<Documentation>Waste outlet.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="a798e589-1c21-44cf-a074-121e75fe1d39" RuleParameters="PredefinedType=GULLYSUMP;PortName=Inlet;SystemType=WASTE;Flow=SINK;" Order="0">
+					<Documentation>Inlet.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="28ab963d-853d-49e2-a814-1c8383925201" RuleParameters="PredefinedType=GULLYSUMP;PortName=Inlet;SystemType=WASTE;Flow=SOURCE;" Order="0">
+					<Documentation>Outlet.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="5b7042bd-de80-48bf-a08d-ed5ddf975f31" RuleParameters="PredefinedType=GULLYTRAP;PortName=Inlet;SystemType=WASTE;Flow=SINK;" Order="0">
+					<Documentation>Inlet.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="0da9fa21-b87b-4499-87e9-63d822222522" RuleParameters="PredefinedType=GULLYTRAP;PortName=Inlet;SystemType=WASTE;Flow=SOURCE;" Order="0">
+					<Documentation>Outlet.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="12723446-eef3-4d8b-8825-25bb0aa7e252" RuleParameters="PredefinedType=ROOFDRAIN;PortName=Outlet;SystemType=RAINWATER;Flow=SOURCE;" Order="0">
+					<Documentation>Rainwater.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="ff2a4528-5ebb-4b3f-ae0a-f1100a0e922e" RuleParameters="PredefinedType=WASTEDISPOSALUNIT;PortName=Inlet;SystemType=WASTE;Flow=SINK;" Order="0">
+					<Documentation>Inlet.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="ca7daf97-7b13-4ce2-8a4f-64bf160ddf96" RuleParameters="PredefinedType=WASTEDISPOSALUNIT;PortName=Outlet;SystemType=WASTE;Flow=SOURCE;" Order="0">
+					<Documentation>Outlet.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="c36b7984-e5e0-4b9e-ad33-4e455704ea2e" RuleParameters="PredefinedType=WASTETRAP;PortName=Inlet;SystemType=WASTE;Flow=SINK;" Order="0">
+					<Documentation>Inlet.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="14de49ca-9210-4102-bf70-397f8456c8c9" RuleParameters="PredefinedType=WASTETRAP;PortName=Outlet;SystemType=WASTE;Flow=SOURCE;" Order="0">
+					<Documentation>Outlet.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="34da373f-7637-4bfe-aaf5-c67310c772f6" Type="IfcWasteTerminal" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

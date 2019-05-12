@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="PEnum_HoseNozzleType" UniqueId="8ffb5beb-5c6a-49c7-85f0-8728da4bca57">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="FOG_3TNORUupz20Q2BCX276J3N" />
+		<DocPropertyConstant xsi:nil="true" href="STRAIGHTSTREAM_3Tul6l9wr6OB3L4EAVggYz" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_11NOVCH457KBQeF_r5rWT8" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0Zhlto5ezDXRDihnwlvmRm" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_20nZxaDsvAAeQdsFSLRccc" />
+	</Constants>
+</DocPropertyEnumeration>
+

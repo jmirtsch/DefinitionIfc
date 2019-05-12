@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcSlab" Name="IfcSlab" UniqueId="8f561139-3792-4723-b343-700785092d40" DiagramNumber="1" BaseDefinition="IfcBuildingElement" EntityFlags="229">
+	<Localization>
+		<DocLocalization Name="Decke / Dachfläche / Bodenplatte" Locale="de" />
+		<DocLocalization Name="Slab" Locale="en" />
+		<DocLocalization Name="Dalle" Locale="fr" />
+	</Localization>
+	<DiagramRectangle>
+		<DocRectangle X="484.71656" Y="2046.9" Width="249.9" Height="214.66667" />
+	</DiagramRectangle>
+	<Subtypes>
+		<DocSubtype UniqueId="0524d9fa-38b9-4116-beb3-29bf18a8f541" DefinedType="IfcSlabStandardCase" />
+		<DocSubtype UniqueId="27225375-f497-4c90-a318-b910905ba064" DefinedType="IfcSlabElementedCase" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="5f3dcc3b-0c4a-4603-b6c1-2aa940b83049" DefinedType="IfcSlabTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Predefined generic type for a slab that is specified in an enumeration. There may be a property set given specifically for the predefined types.
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The &lt;em&gt;PredefinedType&lt;/em&gt; shall only be used, if no &lt;em&gt;IfcSlabType&lt;/em&gt; is assigned, providing its own &lt;em&gt;IfcSlabType.PredefinedType&lt;/em&gt;.&lt;/blockquote&gt;
+&lt;blockquote  class=&quot;change-ifc2x&quot;&gt;IFC2x CHANGE The attribute has been changed into an OPTIONAL attribute.&lt;/blockquote&gt;</Documentation>
+			<DiagramLine>
+				<DocPoint X="484.71656" Y="2217.6555" />
+				<DocPoint X="77.23319" Y="2217.6555" />
+				<DocPoint X="77.23319" Y="2121.6667" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="482.0498933" Y="2206.988833" Width="182" Height="35" />
+			</DiagramLabel>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="CorrectPredefinedType" UniqueId="e6f637df-626b-40b4-81bc-2ebe13ecbb3d">
+			<Documentation>Either the &lt;em&gt;PredefinedType&lt;/em&gt; attribute is unset (e.g. because an &lt;em&gt;IfcSlabType&lt;/em&gt; is associated), or the inherited attribute &lt;em&gt;ObjectType&lt;/em&gt; shall be provided, if the &lt;em&gt;PredefinedType&lt;/em&gt; is set to USERDEFINED.</Documentation>
+			<Expression>NOT(EXISTS(PredefinedType)) OR
+ (PredefinedType &lt;&gt; IfcSlabTypeEnum.USERDEFINED) OR
+ ((PredefinedType = IfcSlabTypeEnum.USERDEFINED) AND EXISTS (SELF\IfcObject.ObjectType))</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="CorrectTypeAssigned" UniqueId="0e1854fd-984a-47e8-91e9-2642df22a8b3">
+			<Documentation>Either there is no slab type object associated, i.e. the &lt;em&gt;IsTypedBy&lt;/em&gt; inverse relationship is not provided, or the associated type object has to be of type &lt;em&gt;IfcSlabType&lt;/em&gt;.</Documentation>
+			<Expression>(SIZEOF(IsTypedBy) = 0) OR
+  (&apos;IFCSHAREDBLDGELEMENTS.IFCSLABTYPE&apos; IN TYPEOF(SELF\IfcObject.IsTypedBy[1].RelatingType))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+	<Tree>
+		<DocLine>
+			<DiagramLine>
+				<DocPoint X="734.61656" Y="2108.8999" />
+				<DocPoint X="1006.92496" Y="2108.8999" />
+			</DiagramLine>
+			<Tree>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="1006.925" Y="2107.5133" />
+						<DocPoint X="1113.9" Y="2107.5133" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="1006.925" Y="2217.8667" />
+						<DocPoint X="1113.93337" Y="2217.8667" />
+					</DiagramLine>
+				</DocLine>
+			</Tree>
+		</DocLine>
+	</Tree>
+</DocEntity>
+

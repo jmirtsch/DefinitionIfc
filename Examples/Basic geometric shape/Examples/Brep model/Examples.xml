@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocExample xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Brep model" UniqueId="51eff5a5-b575-4e5b-a40c-6d7a2bd3b3ef" ApplicableType="IfcShapeRepresentation,IfcFacetedBrep">
+	<ApplicableTemplates>
+		<DocTemplateDefinition xsi:nil="true" href="Body Brep Geometry_2FkIFrk2r8qgqfrdZAHp$Q" />
+	</ApplicableTemplates>
+	<Views>
+		<DocModelView xsi:nil="true" href="Design Transfer View" />
+		<DocModelView xsi:nil="true" href="General Usage" />
+	</Views>
+</DocExample>
+

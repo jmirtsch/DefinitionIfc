@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="330b2b25-c4ef-4a8e-a87f-89b7350b3516">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcTransformer" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="9499eb7e-f6ac-471b-8d9c-019e4d4f2471">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="03b31751-b4a1-426a-9621-1c99030bda3a" RuleParameters="RelatingType=IfcTransformerType;" Order="0" />
+			</Items>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="973629e8-92a9-41ae-8fe1-a674c5642c6c">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="3de9a8a1-74af-46e7-bdfd-fee1a133c796" RuleParameters="PsetName=Pset_TransformerTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="bb71f380-e964-4f03-b55f-74f07ae6b015">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="1c0c9f8b-33d9-449a-abc2-c5ffb7043641" RuleParameters="Order=1;PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="bb074026-436f-4e21-89f5-9ad30ea16cfd" RuleParameters="Order=3;PropertyName=PrimaryVoltage;Value=IfcElectricVoltageMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="d66b7706-46ae-40b6-a333-2ed7cd0731e5" RuleParameters="Order=4;PropertyName=SecondaryVoltage;Value=IfcElectricVoltageMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="570611cc-06e2-4ac4-b6af-1eb741aec45a" RuleParameters="Order=5;PropertyName=PrimaryCurrent;Value=IfcElectricCurrentMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="22eb6c1e-bc8e-455f-aa7c-549d842dd174" RuleParameters="Order=6;PropertyName=SecondaryCurrent;Value=IfcElectricCurrentMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="80a5b743-7d77-4ef2-9152-658ed82a95b6" RuleParameters="Order=7;PropertyName=PrimaryFrequency;Value=IfcFrequencyMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="1229002a-0579-4d31-9549-5b43ef464167" RuleParameters="Order=8;PropertyName=SecondaryFrequency;Value=IfcFrequencyMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="d0ec9423-2286-4b84-96d3-95d682990e87" RuleParameters="Order=9;PropertyName=PrimaryApparentPower;Value=IfcPowerMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="e261c092-f089-4ccc-a7e0-18cfab977f96" RuleParameters="Order=10;PropertyName=SecondaryApparentPower;Value=IfcPowerMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="0a545428-2a18-4018-b6ce-5f6b565c0332" RuleParameters="Order=11;PropertyName=MaximumApparentPower;Value=IfcPowerMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="71ac11cd-ea4d-4df8-9dff-6b296456e57b" RuleParameters="Order=13;PropertyName=ShortCircuitVoltage;Value=IfcComplexNumber;" Order="0" />
+								<DocTemplateItem UniqueId="b85277fa-b920-42fa-8c77-aa92ce485be8" RuleParameters="Order=14;PropertyName=RealImpedanceRatio;Value=IfcRatioMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="2e25d88f-7a30-4bfe-9b8e-2feac4dfcf62" RuleParameters="Order=15;PropertyName=ImaginaryImpedanceRatio;Value=IfcRatioMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="db0471da-fed0-47e6-863f-2f95bc2476aa" RuleParameters="Order=17;PropertyName=IsNeutralPrimaryTerminalAvailable;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="b53ead15-a2c2-4128-b1e9-48002d895f8e" RuleParameters="Order=18;PropertyName=IsNeutralSecondaryTerminalAvailable;Value=IfcBoolean;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="d802c2b1-b039-4df5-8994-dc1b02402e31">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="7909e000-aafa-406d-9b10-949069879155" RuleParameters="Order=2;PropertyName=Status;Value=IfcLabel;Reference=PEnum_ElementStatus;" Order="0" />
+								<DocTemplateItem UniqueId="fcd8318c-0fb2-4742-b9d8-718be9d960a8" RuleParameters="Order=12;PropertyName=SecondaryCurrentType;Value=IfcLabel;Reference=PEnum_SecondaryCurrentType;" Order="0" />
+								<DocTemplateItem UniqueId="105cbfd7-8fcc-4079-b82a-e90352bc2170" RuleParameters="Order=16;PropertyName=TransformerVectorGroup;Value=IfcLabel;Reference=PEnum_TransformerVectorGroup;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="d74ef05a-77f4-4720-9527-c7970ebc8255">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="6d796e34-8f12-4739-a4d8-0fc6cb1534da" RuleParameters="QsetName=Qto_TransformerBaseQuantities;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Quantities" UniqueId="8231e451-cf16-483e-b912-48ca4554c510">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Weight Quantity_3X0MvMF8bFGfPv1_7RF0hx" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="4b98d50d-2939-4ab1-9eda-d15bfc31489e" RuleParameters="Order=1;QuantityName=GrossWeight;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="d64485a4-fa9d-47eb-a9ac-1b1172824aa8" Type="IfcTransformer" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

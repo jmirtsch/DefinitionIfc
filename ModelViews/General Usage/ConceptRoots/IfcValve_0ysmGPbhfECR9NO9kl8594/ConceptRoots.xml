@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0ysmGPbhfECR9NO9kl8594">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcValve" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="0uSIQXg5D6nvG8nz6o7xhz">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="fa2acb2d-475f-42d5-9937-39e143ec103a" RuleParameters="RelatingType=IfcValveType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="281kWAcWzDHQcTpSnoMUPw">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="fb958914-7677-4306-bfed-827d4da22291" RuleParameters="PsetName=Pset_ValveTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="ec18aa58-c9f2-425b-ae90-7b2229c68b31">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="7b04bd1e-6b99-472f-9da2-fbc1742dfac3" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="e93a1fc0-564f-4763-bfa4-0c2f8f752c17" RuleParameters="PropertyName=Size;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="f6771ebd-b475-42f5-926f-4652dcd3afe6" RuleParameters="PropertyName=TestPressure;Value=IfcPressureMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="e2be4b1a-5384-4aec-8332-b5c91673bfcd" RuleParameters="PropertyName=WorkingPressure;Value=IfcPressureMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="16b236bf-0bf6-4c2d-9c4b-3a3cdd449969" RuleParameters="PropertyName=FlowCoefficient;Value=IfcReal;" Order="0" />
+								<DocTemplateItem UniqueId="cf51b26d-37ad-4405-8e5f-fb3a485c4ede" RuleParameters="PropertyName=CloseOffRating;Value=IfcPressureMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="23933f22-f690-4b58-9681-7d141bfc1f14">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="acc923a2-2501-466a-84e9-4d997777d347" RuleParameters="PropertyName=ValvePattern;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="589e7384-c85d-4e21-bb5a-7b1267410f09" RuleParameters="PropertyName=ValveOperation;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="144ab22e-db61-44d1-9e4d-72b0acf0772b" RuleParameters="PropertyName=ValveMechanism;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="0NX2ULLknC9em8Y3Kfpo7i">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="fa1f1b0d-824e-4577-859e-d53040bdc196" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_ValveBaseQuantities;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material" UniqueId="2x6tgVtkb8H8VRJ_dDLf8l">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="2aa89fd6-5c5b-4677-8119-081db60c7a51" RuleParameters="Name=Casing;" Order="0">
+					<Documentation>Material from which the casing is constructed.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="47b0ed2b-4dd0-4c4c-a971-cef3d4cda437" RuleParameters="Name=Operation;" Order="0">
+					<Documentation>Material from which the operating mechanism (such as gate, globe, plug, needle, or clack) of the valve is constructed.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Connection" UniqueId="0BBAvsBcfEIh$phIVxwvpH">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Connectivity_0bAb_cp5jDCBqCDU8kCsIP" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="974d3c43-d418-482c-990e-447d323e0de7" RuleParameters="Type=IfcActuator;Relation=IfcRelFlowControlElements;" Order="0">
+					<Documentation>Indicates an actuator operating on the valve.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Port" UniqueId="0tX4mFXnX95uL3qtcC8eSP">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="c8252780-9d80-4cf4-b9f1-cc6a5695ac64" RuleParameters="PredefinedType=AIRHANDLER;PortName=Inlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Incoming fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="4fea4a3f-2657-45ed-8e9f-dd0611ac7479" RuleParameters="PredefinedType=ANTIVACUUM;PortName=Outlet;SystemType=NOTDEFINED;Flow=SOURCE;" Order="0">
+					<Documentation>Outgoing fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="603316a3-1c0c-4c36-abd1-89805cb11344" RuleParameters="PredefinedType=CHANGEOVER;PortName=Inlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Incoming fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="b8671ef1-8923-4718-ae3a-fd2194c3e50a" RuleParameters="PredefinedType=CHANGEOVER;PortName=Outlet#1;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Switched outgoing fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="12893fea-b6c7-4236-95af-a34029652276" RuleParameters="PredefinedType=CHANGEOVER;PortName=Outlet#2;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Switched outgoing fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="b13ac4c5-13e8-4b2f-bef6-56d6eff909d8" RuleParameters="PredefinedType=CHECK;PortName=Inlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Incoming fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="57623791-2c9c-4fb3-910f-4290acf4ded8" RuleParameters="PredefinedType=CHECK;PortName=Outlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Outgoing fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="43943af5-260f-4f7e-b115-38e65d5541f6" RuleParameters="PredefinedType=COMMISSIONING;PortName=Inlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Incoming fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="eb8fb59b-c3e9-442e-bfd5-53801847b643" RuleParameters="PredefinedType=COMMISSIONING;PortName=Outlet;SystemType=NOTDEFINED;Flow=SOURCE;" Order="0">
+					<Documentation>Outgoing fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="33eb68e5-e773-4d6c-b8dd-4abcd46fa841" RuleParameters="PredefinedType=DIVERTING;PortName=Inlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Incoming fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="3d669d72-0eec-49fa-9565-03dd2b464bf6" RuleParameters="PredefinedType=DIVERTING;PortName=Outlet#1;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Outgoing fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="2a13d2e6-16a2-49d9-84ce-3a22e58f2022" RuleParameters="PredefinedType=DIVERTING;PortName=Outlet#2;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Outgoing fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="79eba06a-8d6a-4ab4-8b59-05d7d2f784a8" RuleParameters="PredefinedType=DOUBLECHECK;PortName=Inlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Incoming fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="ca3780dc-4d12-461b-846c-a3278866e8e5" RuleParameters="PredefinedType=DOUBLECHECK;PortName=Outlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Outgoing fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="055d07e1-acdb-4668-a16a-331a50c5ddee" RuleParameters="PredefinedType=DOUBLEREGULATING;PortName=Inlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Incoming fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="871aae70-6793-4d20-85f1-28f00d68ad9c" RuleParameters="PredefinedType=DOUBLEREGULATING;PortName=Outlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Outgoing fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="957b7006-97d9-4d5f-8bf7-06b6c4ebb9d3" RuleParameters="PredefinedType=DRAWOFFCOCK;PortName=Inlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Incoming fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="b5dcf4dc-b632-40a5-b03e-aecd3094240f" RuleParameters="PredefinedType=FAUCET;PortName=Inlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Incoming fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="86aa2153-0b0f-48c4-b8b5-126853251918" RuleParameters="PredefinedType=FLUSHING;PortName=Inlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Incoming fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="4b08cf4b-8776-433f-a51e-cf3a83395106" RuleParameters="PredefinedType=FLUSHING;PortName=Outlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Outgoing fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="f1e8013a-616e-4d92-95ba-a736c67a9d06" RuleParameters="PredefinedType=GASCOCK;PortName=Inlet;SystemType=GAS;Flow=SINK;" Order="0">
+					<Documentation>Incoming fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="55dd4af6-1485-4c25-9116-87bb8bfd9b26" RuleParameters="PredefinedType=GASTAP;PortName=Inlet;SystemType=GAS;Flow=SINK;" Order="0">
+					<Documentation>Incoming fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="e65ed9c7-4be7-4556-a1b1-0cdc286acee3" RuleParameters="PredefinedType=ISOLATING;PortName=Inlet;SystemType=GAS;Flow=SINK;" Order="0">
+					<Documentation>Incoming fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="6ad454bf-f731-4bea-bcc8-bf21190ff86d" RuleParameters="PredefinedType=ISOLATING;PortName=Outlet;SystemType=GAS;Flow=SOURCE;" Order="0">
+					<Documentation>Outgoing fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="9ff75ff0-248c-4cd3-bd44-6ea5501d3024" RuleParameters="PredefinedType=MIXING;PortName=Inlet#1;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Incoming fluid to be mixed.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="6bdc3f1b-b394-45c0-8a07-72f7633f905a" RuleParameters="PredefinedType=MIXING;PortName=Inlet#2;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Incoming fluid to be mixed.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="e96958fc-84b1-4ceb-9770-e5e5715e002f" RuleParameters="PredefinedType=MIXING;PortName=Outlet;SystemType=NOTDEFINED;Flow=SOURCE;" Order="0">
+					<Documentation>Outgoing fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="a8ec2a0d-af45-4d7d-baf0-836c12988a98" RuleParameters="PredefinedType=PRESSUREREDUCING;PortName=Inlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Incoming fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="5a22e32b-8c97-4df4-811f-440ce0acad83" RuleParameters="PredefinedType=PRESSUREREDUCING;PortName=Outlet;SystemType=NOTDEFINED;Flow=SOURCE;" Order="0">
+					<Documentation>Outgoing fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="6af8d3fc-53b6-471b-9f6c-44f898c1ac28" RuleParameters="PredefinedType=PRESSURERELIEF;PortName=Inlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Incoming fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="0c5a32cc-56d3-4a14-9e31-4dd43475623a" RuleParameters="PredefinedType=REGULATING;PortName=Inlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Incoming fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="64b6927c-79b8-4ca2-ba2a-7c0b02cff5ff" RuleParameters="PredefinedType=REGULATING;PortName=Inlet;SystemType=NOTDEFINED;Flow=SOURCE;" Order="0">
+					<Documentation>Outgoing fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="78295950-1642-497a-96eb-b746db80348e" RuleParameters="PredefinedType=SAFETYCUTOFF;PortName=Inlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Incoming fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="cfb79424-c602-4e47-82dc-b7cb5e46d762" RuleParameters="PredefinedType=SAFETYCUTOFF;PortName=Outlet;SystemType=NOTDEFINED;Flow=SOURCE;" Order="0">
+					<Documentation>Outgoing fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="7dfa84ed-9c64-40be-bc9c-3cdf064dfe11" RuleParameters="PredefinedType=STEAMTRAP;PortName=Inlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Incoming fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="cdc5c4cd-24e9-4464-8fee-fd5182de233e" RuleParameters="PredefinedType=STEAMTRAP;PortName=Outlet;SystemType=NOTDEFINED;Flow=SOURCE;" Order="0">
+					<Documentation>Outgoing fluid.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="42797c68-176b-43c5-88f9-305a17136dce" RuleParameters="PredefinedType=STOPCOCK;PortName=Inlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>Incoming fluid.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="1b602e7f-e1ec-4900-b279-c42e4fe0e74a" Type="IfcValve" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

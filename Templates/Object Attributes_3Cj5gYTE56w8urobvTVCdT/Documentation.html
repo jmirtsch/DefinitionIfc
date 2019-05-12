@@ -1,0 +1,74 @@
+<p>
+
+All entities having semantic significance derive from <i>IfcRoot</i>, where instances are identifiable within a data set using a
+
+ compressed globally unique identifier (IFC-GUID). This identifier must never change during the lifetime of an
+
+ object, which allows data to be merged, versioned, or referenced from other locations.
+
+</p>
+
+
+<p>
+
+Resource-level instances (not deriving from <i>IfcRoot</i>) do not have any identity, such that two instances
+
+ having identical state are considered equal. For example, if an object has coordinates described by an
+
+ <i>IfcCartesianPoint</i> instance, another object with the same coordinates may have a separate instance of
+
+ <i>IfcCartesianPoint</i> or share the same instance; such difference is a matter of data storage optimization
+
+ and does not imply any semantic relationship. This also implies that non-rooted instances may only exist if
+
+ referenced by at least one rooted instance through either a direct attribute or inverse attribute, or following
+
+ a chain of attribute references on instances.
+
+</p>
+
+
+<p>
+
+The distinction between rooted and non-rooted (resource-level) entities achieves several goals:
+
+</p>
+
+
+<ul class="ref">
+
+
+ <li>File size may be reduced by interning (sharing) non-rooted data instances;
+
+</li>
+
+
+ <li>Database retrieval may be more efficient by storing non-rooted data local to rooted data
+
+ instances;
+
+</li>
+
+
+ <li>Storage size may be reduced by avoiding IFC-GUID storage for items not requiring direct
+
+ retrieval;
+
+</li>
+
+
+ <li>Comparisons of differences may be done at a higher level where the context of such change is
+
+ apparent;
+
+</li>
+
+
+ <li>Implementations may treat non-rooted data instances as immutable for efficiency or simplified
+
+ usage.
+
+</li>
+
+
+</ul>

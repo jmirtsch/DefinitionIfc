@@ -1,0 +1,29 @@
+<p class="std">The first Addendum of the IFC4 release has the main scope to provide documentation improvements, resolve issues that had occurred since the official release of IFC4 in March 2013, and to addresses implementation issues and concerns.</p>
+
+<p>The main change incorporated into IFC4 ADD1 schema is:</p>
+<ul>
+ <li>Improvement and simplification of the explicit geometric representation of composite curves: addition of a new geometric item for indexed based poly curves. It requires the addition of the following entities and types:
+  <ul>
+   <li>entities <em>IfcIndexedPolyCurve</em>, <em>IfcCartesianPointList2D</em></li>
+   <li>select type <em>IfcSegmentIndexSelect</em></li>
+   <li>defined types <em>IfcArcIndex</em>, <em>IfcLineIndex</em></li>
+  </ul>
+ </li>
+</ul>
+
+<p>Minor corrections and improvements to the IFC4 ADD1 schema include:</p>
+<ul>
+ <li>Use of defined types throughout the schema, i.e. using <em>IfcInteger</em> instead of <emINTEGER</em>, including the addition of <em>IfcBinary</em></li>
+ <li>Use of the new type <em>IfcPositiveInteger</em> to restrict the indices used e.g. for tessellated items to positive, one-based integers</li>
+ <li>Adding the missing attribute <em>LongName</em> to <em>IfcBuildingSystem</em> in order to make it consistent with <em>IfcDistributionSystem</em>.</li>
+
+ <li>Promoting the inverse attribute <em>HasCoverings</em> from <em>IfcBuildingElement</em> to <em>IfcElement</em> to enable the inverse navigation also for <em>IfcDistributionElement</em></li>
+ <li>Adding the inverse attribute <em>HasCoordinateOperation</em> to <em>IfcGeometricRepresentationSystem</em> and <em>IfcCoordinateReferenceSystem</em> to enable the inverse navigation to the GIS coordinate transformation</li>
+ <li>Making the indespensible <em>Name</em> attribute mandatory at <em>IfcCoordinateReferenceSystem</em> while making the <em>GeodeticDatum</em> optional</li>
+ <li>Changing the cardinality of the inverse attribute <em>DefinesOccurrence</em> at <em>IfcPropertySetDefinition</em> to allow property sets to be shared by many such relationships</li>
+ <li>Adding the where rule <em>NoCoordOperation</em> to <em>IfcGeometricRepresentationSubContext</em> to prevent the use of conflicting GIS transformations of sub contexts</li>
+ <li>Adding the where rule <em>UnboundedSurface</em> to <em>IfcBoxedHalfSpace</em> to prevent the use of bounded surfaces as clipping planes</li>
+ <li>Adding the where rule <em>UniquePropertySetNames</em> at <em>IfcObject</em> and <em>IfcTypeObject</em> to enforce property sets attached to a single object to have unique names</li>
+ <li>Remove the where rule <em>HasOwnerHistory</em> at <em>IfcProject</em> to enable model views not using owner history information</li>
+ <li>Remove the where rule <em>CorrectShapeDecomposition</em> at <em>IfcRamp</em>, <em>IfcRoof</em>, <em>IfcStair</em> to enable model views to determine correct use of geometric shape representations</li>
+</ul>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcOutlet" Name="IfcOutlet" UniqueId="323a5119-6f96-4712-87e3-abaf2ac04b6f" DiagramNumber="1" BaseDefinition="IfcFlowTerminal" EntityFlags="101">
+	<Localization>
+		<DocLocalization Name="Dose / Steckdose" Locale="de" />
+		<DocLocalization Name="Outlet" Locale="en" />
+		<DocLocalization Name="Prise" Locale="fr" />
+	</Localization>
+	<DiagramRectangle>
+		<DocRectangle X="841.76" Y="311.62" Width="679.9" Height="100" />
+	</DiagramRectangle>
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="2cebd4c7-66f7-413f-9775-7bd96039018c" DefinedType="IfcOutletTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<DiagramLine>
+				<DocPoint X="1515.0433" Y="411.62" />
+				<DocPoint X="1515.0433" Y="462.137898" />
+				<DocPoint X="1094.17683" Y="462.137898" />
+			</DiagramLine>
+			<DiagramLabel>
+				<DocRectangle X="1419.276732" Y="406.2866667" Width="182" Height="35" />
+			</DiagramLabel>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="CorrectPredefinedType" UniqueId="c3f8b907-b0d4-424b-b85b-cad4570671df">
+			<Documentation>Either the &lt;em&gt;PredefinedType&lt;/em&gt; attribute is unset (e.g. because an &lt;em&gt;IfcOutletType&lt;/em&gt; is associated), or the inherited attribute &lt;em&gt;ObjectType&lt;/em&gt; shall be provided, if the &lt;em&gt;PredefinedType&lt;/em&gt; is set to USERDEFINED.</Documentation>
+			<Expression>NOT(EXISTS(PredefinedType)) OR 
+ (PredefinedType &lt;&gt; IfcOutletTypeEnum.USERDEFINED) OR 
+ ((PredefinedType = IfcOutletTypeEnum.USERDEFINED) AND EXISTS (SELF\IfcObject.ObjectType))</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="CorrectTypeAssigned" UniqueId="3cb27c0b-acbf-4ee6-a8e8-f54c29a3188a">
+			<Documentation>Either there is no outlet type object associated, i.e. the &lt;em&gt;IsTypedBy&lt;/em&gt; inverse relationship is not provided, or the associated type object has to be of type &lt;em&gt;IfcOutletType&lt;/em&gt;.</Documentation>
+			<Expression>(SIZEOF(IsTypedBy) = 0) OR 
+  (&apos;IFCELECTRICALDOMAIN.IFCOUTLETTYPE&apos; IN TYPEOF(SELF\IfcObject.IsTypedBy[1].RelatingType))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

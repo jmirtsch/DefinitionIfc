@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1EnJIIG0v1guHHyoveg7_g">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcProjectionElement" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Property Sets" UniqueId="3laAx1tlbBVQ8$ubEyj072">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="3Bf6Sh7mzAvAvr3ogKROr6">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="bebd3cb6-c0de-4dc3-b201-57876b2487dc" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_ProjectionElementBaseQuantities;TemplateType=QTO_OCCURRENCEDRIVEN;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Placement" UniqueId="3$Jtk1WkfCPu0Lzsy91jP7">
+			<Documentation>&lt;p&gt;The local placement for &lt;em&gt;IfcOpeningRecess&lt;/em&gt; is defined in
+its supertype &lt;em&gt;IfcProduct&lt;/em&gt;. It is defined by the
+&lt;em&gt;IfcLocalPlacement&lt;/em&gt;, which defines the local coordinate system
+that is referenced by all geometric representations.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;em&gt;PlacementRelTo&lt;/em&gt; relationship of
+&lt;em&gt;IfcLocalPlacement&lt;/em&gt; should point to the local placement of the
+same element, to which the projection adds, i.e. referred to by
+&lt;em&gt;ProjectsElement.RelatingBuildingElement&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body Geometry" UniqueId="3xRBdaxtzCleU2Cbof2KA3">
+			<Documentation>&lt;p&gt;The geometric representation of &lt;em&gt;IfcProjectionElement&lt;/em&gt; is
+defined using the swept area solid geometry. The following
+attribute values for the &lt;em&gt;IfcShapeRepresentation&lt;/em&gt; holding this
+geometric representation shall be used:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;RepresentationIdentifier&lt;/em&gt; : &apos;Body&apos;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;RepresentationType&lt;/em&gt; : &apos;SweptSolid&apos;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following additional constraints apply to the swept solid
+representation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;Solid&lt;/u&gt;: &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt; is required.&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Profile&lt;/u&gt;: &lt;em&gt;IfcRectangleProfileDef&lt;/em&gt;,
+&lt;em&gt;IfcCircleProfileDef&lt;/em&gt; and &lt;em&gt;IfcArbitraryClosedProfileDef&lt;/em&gt;
+shall be supported.&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Extrusion&lt;/u&gt;: The profile shall be extruded horizontally
+(that is, perpendicular to the extrusion direction of the modified
+element), such as for wall projections, or vertically (that is, in the
+extrusion direction of the projected element), such as for floor
+projections.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As shown in Figure 159, the following interpretation of dimension parameter applies for
+rectangular projection:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;IfcRectangleProfileDef.YDim&lt;/em&gt; interpreted as projection
+width&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;IfcRectangleProfileDef.XDim&lt;/em&gt; interpreted as projection
+height&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;IfcExtrudedAreaSolid.Depth&lt;/em&gt; is interpreted as projection
+depth&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; Rectangles are now defined centric, the placement location has to be set:
+&lt;ul&gt;&lt;li&gt;&lt;em&gt;IfcCartesianPoint&lt;/em&gt;(XDim/2,YDim/2)&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The local placement directions for the &lt;em&gt;IfcProjectionElement&lt;/em&gt; are only given as an example, other directions are valid as well.&lt;/blockquote&gt;
+
+&lt;table cellpadding=&quot;2&quot; cellspacing=&quot;2&quot; summary=&quot;geometry use&quot;&gt;
+&lt;tr valign=&quot;top&quot;&gt;&lt;td valign=&quot;top&quot; align=&quot;left&quot;&gt;&lt;img src=&quot;../../../figures/ifcprojectionelement-layout1.png&quot; alt=&quot;projection&quot; width=
+&quot;400&quot; height=&quot;300&quot; border=&quot;0&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 159 &amp;mdash; Projection representation&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;The general b-rep geometric representation of
+&lt;em&gt;IfcProjectionElement&lt;/em&gt; is defined using the Brep geometry. The
+Brep representation allows for the representation of complex
+element shape. The following attribute values for the
+&lt;em&gt;IfcShapeRepresentation&lt;/em&gt; holding this geometric representation
+shall be used:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;RepresentationIdentifier&lt;/em&gt; : &apos;Body&apos;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;RepresentationType&lt;/em&gt; : &apos;Brep&apos;&lt;/li&gt;
+&lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body Geometry_34HhqMBUDBbxDFH4Qi2wt2" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="deb0c6ed-6801-42b1-8645-1340694f557d" RuleParameters="RepresentationType=SweptSolid;Geometry=IfcExtrudedAreaSolid;" Order="0" />
+				<DocTemplateItem UniqueId="e773eb15-3da7-4add-86cb-79d5295f3bd9" RuleParameters="RepresentationType=Brep;Geometry=IfcFacetedBrep;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="60125970-88d8-4589-afd7-79ac14e24b4f" Type="IfcProjectionElement" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

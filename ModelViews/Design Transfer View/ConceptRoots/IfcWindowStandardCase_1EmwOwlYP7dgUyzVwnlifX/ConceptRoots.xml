@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="4ec3a63a-be26-479e-a7bc-f5feb1beca61">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcWindowStandardCase" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Profile Geometry" UniqueId="6359e739-90d9-4845-b5bd-f8eb3f884dd2">
+			<Documentation>&lt;p&gt;The following additional constraints apply to the &apos;Profile&apos;
+representation type:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;Curve&lt;/u&gt;: being an &lt;em&gt;IfcPolyline&lt;/em&gt; defining a
+rectangle.&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Position&lt;/u&gt;: The curve shall lie in the xz plane of the
+object placement coordinate (the y coordinate values of the
+&lt;em&gt;IfcCartesianPoint&lt;/em&gt;&apos;s shall be 0.).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As shown in Figure 247, the profile defines the outer boundary to which the window
+lining parameters relate as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;IfcWindowLiningProperties.LiningDepth&lt;/em&gt; starting at
+distance defined by &lt;em&gt;LiningOffset&lt;/em&gt; going into the positive y
+direction.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;IfcWindowLiningProperties.LiningThickness&lt;/em&gt; offset into
+the inner side of the rectangle.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;IfcWindowLiningProperties.LiningOffset&lt;/em&gt; distance along
+the positive y direction to where the &lt;em&gt;LiningDepth&lt;/em&gt;
+applies.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;IfcWindowLiningProperties.FirstTransomOffset&lt;/em&gt; starting
+at the bottom edge of the rectangle (along local x axis) into the
+inner side of the rectangle, distance provided as percentage of
+overall height. Distance to the centre line of the transom.
+&lt;em&gt;SecondTransomOffset&lt;/em&gt; defined accordingly.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;IfcWindowLiningProperties.FirstMullionOffset&lt;/em&gt; starting
+at the left edge of the rectangle (along local z-axis) into the
+inner side of the rectangle, distance provided as percentage of
+overall width. Distance to the centre line of the mullion.
+&lt;em&gt;SecondMullionOffset&lt;/em&gt; defined accordingly.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;../../../figures/ifcwindowstandardcase-01.png&quot; alt=
+&quot;standard window&quot; border=&quot;0&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 247 &amp;mdash; Window profile&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Profile Geometry_3nRhE_$uXFCvVVrLhjEW_L" />
+			</Definition>
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
+					</Exchange>
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="mandatory">
+					<Exchange>
+						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
+					</Exchange>
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="733fe1a3-06e3-45b0-a8de-96d0965c520d" Type="IfcWindowStandardCase" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

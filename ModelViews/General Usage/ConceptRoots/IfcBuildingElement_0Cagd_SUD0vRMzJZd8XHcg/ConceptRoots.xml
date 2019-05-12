@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0Cagd_SUD0vRMzJZd8XHcg">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcBuildingElement" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage UniqueId="1vypUBxL1F5w0gKEycEz_x">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Product Assignment" UniqueId="1Cehqy4ZjCJfCVRRZfKROF">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Product Assignment_3idFi4hVv8Q85eru$fbQaJ" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="4c9c33f9-aab8-4a36-aeac-7e4d66adf126" RuleParameters="Type=IfcTask;" Order="0">
+					<Documentation>Task for operating upon the building element.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Spatial Containment" UniqueId="28p6Tr6t9BNB$qNPQZ1O6W">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Spatial Containment_3Pe$WY01HBmesKdP1dTP15" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="c0ced485-17b8-41d6-ad4a-4c70b7e1b672" RuleParameters="RelatingStructure=IfcBuildingStorey;" Order="0" />
+				<DocTemplateItem UniqueId="87d6d069-236a-4e1e-915a-8b44f1e71414" RuleParameters="RelatingStructure=IfcBuilding;" Order="0" />
+				<DocTemplateItem UniqueId="8cdf709a-dcdb-4d7c-859a-fe962a6ca62d" RuleParameters="RelatingStructure=IfcSite;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Surface 3D Geometry" UniqueId="e18a7464-340a-445f-ab6c-3d1fe994c8e4">
+			<Documentation>&lt;p&gt;Some &lt;em&gt;IfcBuildingElement&lt;/em&gt; may be represented by an surface 
+as an abstract geometric representation. See each subtype for
+ specific guidance.&lt;/p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Surface 3D Geometry_2zWfWzETL1ifxeyxs7TzCL" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="0802d4a7-0569-4a23-94f2-4712ea0f1697" Type="IfcBuildingElement" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

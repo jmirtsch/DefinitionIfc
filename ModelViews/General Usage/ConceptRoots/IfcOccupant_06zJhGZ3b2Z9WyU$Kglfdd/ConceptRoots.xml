@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="06zJhGZ3b2Z9WyU$Kglfdd">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcOccupant" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Actor Assignment" UniqueId="0WFshy1IvAUw9XkPadZeB6">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Actor Assignment_04W7d1TDrBsRCmHveKZIEF" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="795b4991-5796-4ac7-a1a9-18977e39a89c" RuleParameters="Type=IfcSpatialStructureElement;" Order="0">
+					<Documentation>Indicates the property to be occupied. Particular details of the agreement relating to the occupancy of a property are dealt within the &lt;em&gt;Pset_PropertyAgreement&lt;/em&gt; that is defined for the instance of &lt;em&gt;IfcSpatialStructureElement&lt;/em&gt;. This means that an occupant may be related to a site, building, building storey or space through the &lt;em&gt;IfcSpatialStructureElement.ElementComposition&lt;/em&gt; attribute. For instance, if the property concerned is several office spaces on a building storey, it might be appropriate to reference &lt;em&gt;IfcBuildingStorey.ElementComposition=PARTIAL&lt;/em&gt;.  Occupants of a property may be considered to be the parties to an agreement. The roles that the occupant may play in respect to an agreement are defined in the &lt;em&gt;IfcOccupantTypeEnum&lt;/em&gt; enumeration. If the role is not specified by the predefined contents of this enumeration, the value &lt;em&gt;USERDEFINED&lt;/em&gt; may be set and the &lt;em&gt;ObjectType&lt;/em&gt; attribute asserted.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="40db9c1d-38dd-4ab1-a532-3fe47169a37a" Type="IfcOccupant" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="23ImlBY9X1UuUMv9pfO3fv">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcPlate" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="0i0_UknTj7M85KPcLa6o$R">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="716ffd4e-1d89-4b5a-aac5-653d3ffe40ac" RuleParameters="RelatingType=IfcPlateType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="3mv_ydf0X6PPKu1qeJg_Ty">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="1cba9382-d3e8-4d1f-9472-ee52ddb46a81" RuleParameters="PsetName=Pset_PlateCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="bf2b29c4-d1dd-4066-8260-0c6f80cc10e5">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="786275ba-32ef-49e7-aaec-300d4d9fe63c" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="7db1c44f-401b-478a-beee-cc9ec039a4fa" RuleParameters="PropertyName=IsExternal;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="0a5a0177-9295-4b1d-a962-a7b696f901cf" RuleParameters="PropertyName=LoadBearing;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="8b061095-6023-4dd9-9f43-c6ba1c52b39a" RuleParameters="PropertyName=AcousticRating;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="5a50bb3f-008a-4720-9514-812ab1162ac0" RuleParameters="PropertyName=FireRating;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="c3b51e82-56fd-489c-9d0f-39af915fbfb2" RuleParameters="PropertyName=ThermalTransmittance;Value=IfcThermalTransmittanceMeasure;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="66513e84-5e30-4490-8c37-8f69ea05a9f0">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="bc7b1b3c-2844-434a-887d-0cd173d035aa" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="6acfdb84-ded5-4044-92b2-1e9ada842522" RuleParameters="PsetName=Pset_ConcreteElementGeneral;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="f88e5ae5-f9a1-4c42-abc3-92fa3c2ca389">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="bdc353d0-f9be-4948-bfee-95b03b110bfd" RuleParameters="PropertyName=ConstructionMethod;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="807d6e1e-8fa5-4db3-994b-68539d72e36e" RuleParameters="PropertyName=StructuralClass;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="82579723-bfc2-439c-bfb6-bbb9d394c1fd" RuleParameters="PropertyName=StrengthClass;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="b8723587-0589-48c8-9a1b-85a848576d00" RuleParameters="PropertyName=ExposureClass;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="372015c0-cdfd-4402-af64-d75989a4bdfa" RuleParameters="PropertyName=ReinforcementVolumeRatio;Value=IfcMassDensityMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="ceeb17ca-68bf-4f8c-8108-c6f51adf2af7" RuleParameters="PropertyName=ReinforcementAreaRatio;Value=IfcAreaDensityMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="9f769a0a-15cc-4fae-88b7-502b63076e97" RuleParameters="PropertyName=DimensionalAccuracyClass;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="e73c50a8-b173-4739-b43a-d6b36dfa25b9" RuleParameters="PropertyName=ConstructionToleranceClass;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="13f6ebd1-5d88-483b-ae36-9c4f106926c2" RuleParameters="PropertyName=ConcreteCover;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="0808d8ce-aae7-4215-9be6-8eb0127804de" RuleParameters="PropertyName=ConcreteCoverAtMainBars;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="c9850eaa-6d5a-45a5-8bb9-d6f2eee602e4" RuleParameters="PropertyName=ConcreteCoverAtLinks;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="a76ad5b8-75be-4c30-8bd3-eca780c71193" RuleParameters="PropertyName=ReinforcementStrengthClass;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="78f07c0d-ef49-4d51-a08b-b9b349f5fd66" RuleParameters="PsetName=Pset_PrecastConcreteElementFabrication;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="1ed05e82-6c21-4273-8eaf-84e224e86ea7">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="904cd021-ae9c-482e-a83c-a149ac4ebafb" RuleParameters="PropertyName=TypeDesignator;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="913d73c7-2806-465b-af30-259ea4f618a3" RuleParameters="PropertyName=ProductionLotId;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="0ea919d9-02d7-4c1d-89c0-fc1b515dfb6f" RuleParameters="PropertyName=SerialNumber;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="8848b4d0-f018-47f0-bfdb-ff4689ab6491" RuleParameters="PropertyName=PieceMark;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="6792ec38-e828-42ca-8de7-dfdae9cd39c9" RuleParameters="PropertyName=AsBuiltLocationNumber;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="727aaa28-975a-49ad-89e7-2f2eae4ce845" RuleParameters="PropertyName=ActualProductionDate;Value=IfcDateTime;" Order="0" />
+								<DocTemplateItem UniqueId="d8c5d1a3-72b8-451e-a718-1e221b3d27d6" RuleParameters="PropertyName=ActualErectionDate;Value=IfcDateTime;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="ea14f99b-c63c-40f5-b0de-ac8a64aa39e4" RuleParameters="PsetName=Pset_PrecastConcreteElementGeneral;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="dfe7fa7f-fd11-40a8-8e61-6f021b55718c">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="fa93fdaa-a154-4a7a-9cdb-82b589446feb" RuleParameters="PropertyName=TypeDesignator;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="6c776653-aa9e-47b0-bddd-c30df5355fdf" RuleParameters="PropertyName=CornerChamfer;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="1cda1d84-195d-416b-a2ab-ac20814b3cc5" RuleParameters="PropertyName=ManufacturingToleranceClass;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="204972f0-aefa-4a1b-8af5-7d5896ae91bb" RuleParameters="PropertyName=FormStrippingStrength;Value=IfcPressureMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="a8504acc-b081-4aaf-854d-b5708ffd98a7" RuleParameters="PropertyName=LiftingStrength;Value=IfcPressureMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="ed39ca45-ca67-4242-abb8-eb909e039532" RuleParameters="PropertyName=ReleaseStrength;Value=IfcPressureMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="6e54cc53-bb64-4c51-aff6-74c691e4f82e" RuleParameters="PropertyName=MinimumAllowableSupportLength;Value=IfcPositiveLengthMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="df2dc742-2aa6-492e-b174-7027adcc83ca" RuleParameters="PropertyName=InitialTension;Value=IfcPressureMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="43abb2bd-077d-43cc-8429-afdd15f364d7" RuleParameters="PropertyName=TendonRelaxation;Value=IfcPositiveRatioMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="4aaaab52-b4ff-4e2c-af89-a06cb26793a3" RuleParameters="PropertyName=TransportationStrength;Value=IfcPressureMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="affd80fe-5e60-4f1e-9a69-1d0b4468f78f" RuleParameters="PropertyName=SupportDuringTransportDescription;Value=IfcText;" Order="0" />
+								<DocTemplateItem UniqueId="8191d834-5d62-41e2-8063-3faaeb4900e0" RuleParameters="PropertyName=HollowCorePlugging;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="fc25798d-9adc-4257-ad8d-7e7e56971451" RuleParameters="PropertyName=CamberAtMidspan;Value=IfcRatioMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="56552a78-4807-4405-83cd-1135e17125e2" RuleParameters="PropertyName=BatterAtStart;Value=IfcPlaneAngleMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="10357a50-e3d8-4e86-b3c8-3e3767322486" RuleParameters="PropertyName=BatterAtEnd;Value=IfcPlaneAngleMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="efa6f289-b769-4058-9a01-b904828317b8" RuleParameters="PropertyName=Twisting;Value=IfcPlaneAngleMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="26322305-4b2a-49bd-bdf0-4b851246f73d" RuleParameters="PropertyName=Shortening;Value=IfcRatioMeasure;" Order="0" />
+								<DocTemplateItem UniqueId="d2a0c65b-4dda-4945-8114-11d99c741f67" RuleParameters="PropertyName=PieceMark;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="33ca004f-6a51-49ff-9936-f2270e634f5e" RuleParameters="PropertyName=DesignLocationNumber;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="2D$7U9K6j3i9cinMrCi3EA">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="1b20d71e-dc75-4a86-813c-1910078e03e1" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_PlateBaseQuantities;TemplateType=QTO_OCCURRENCEDRIVEN;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material Layer Set" UniqueId="4d0e6c0d-3568-4f84-aa2a-74e41a268e61">
+			<Documentation>&lt;p&gt;The material of the &lt;em&gt;IfcPlate&lt;/em&gt; is defined by
+ &lt;em&gt;IfcMaterialLayerSet&lt;/em&gt;, or by &lt;em&gt;IfcMaterial&lt;/em&gt;, and it is attached either directly or at the &lt;em&gt;IfcPlateType&lt;/em&gt;.&lt;/p&gt;
+
+
+
+&lt;blockquote class=&quot;note&quot;&gt;
+NOTE&amp;nbsp; It is illegal to assign an &lt;em&gt;IfcMaterialLayerSetUsage&lt;/em&gt; to an &lt;em&gt;IfcPlate&lt;/em&gt;. Only the subtype &lt;em&gt;IfcPlateStandardCase&lt;/em&gt; supports this concept.
+&lt;/blockquote&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Layer Set_3VjREfKED6ueKO7mFdpzY6" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Spatial Containment" UniqueId="1B7$9Pmb161upnOOYM$Vcb">
+			<Documentation>&lt;p&gt;The &lt;em&gt;IfcPlate&lt;/em&gt;, as any subtype of &lt;em&gt;IfcBuildingElement&lt;/em&gt;, 
+may participate alternatively in one of the two different containment relationships:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the &lt;em&gt;Spatial Containment&lt;/em&gt; (defined here), or&lt;/li&gt;
+&lt;li&gt;the &lt;em&gt;Element Composition&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Spatial Containment_3Pe$WY01HBmesKdP1dTP15" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="8563eb99-cd74-4d11-a6d6-6ec4d555bf10" RuleParameters="RelatingStructure=IfcBuildingStorey;" Order="0">
+					<Documentation>Default spatial container</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="c4c7c297-833f-431f-81f8-04832359d006" RuleParameters="RelatingStructure=IfcBuilding;" Order="0">
+					<Documentation>Spatial container for the element if it cannot be assigned to a building storey</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="119b92ea-2041-4c83-b812-8b8b4c87b312" RuleParameters="RelatingStructure=IfcSite;" Order="0">
+					<Documentation>Spatial container for the element in case that it is placed on site (outside of building)</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Surface 3D Geometry" UniqueId="05af2451-fa7b-4a95-a137-a711589ba0c5">
+			<Documentation>&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The &apos;Surface&apos; can be used to define a
+surfacic model of the building (e.g. for analytical purposes, or
+for reduced Level of Detail representation).&lt;/blockquote&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Surface 3D Geometry_2zWfWzETL1ifxeyxs7TzCL" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body SweptSolid Geometry" UniqueId="723555d9-81d4-44e0-b110-141797e9963e">
+			<Documentation>&lt;p&gt;The following additional constraints apply to the &apos;SweptSolid&apos; 
+representation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;Solid&lt;/u&gt;: &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt; is required,&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Profile&lt;/u&gt;: &lt;em&gt;IfcArbitraryClosedProfileDef,
+IfcArbitraryProfileDefWithVoids, IfcRectangleProfileDef,
+IfcCircleProfileDef, IfcEllipseProfileDef&lt;/em&gt; shall be
+supported.&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Extrusion&lt;/u&gt;: The profile can be extruded perpendicularly
+or non-perpendicularly to the plane of the swept profile.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;</Documentation>
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Body Clipping Geometry" UniqueId="a577ea40-6d39-4437-87c6-ac91929d44f6">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Body Clipping Geometry_0isyBrcmn3wfqgdNBG57u0" />
+			</Definition>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Product Assignment" UniqueId="09UNB0jvv6EenihLxCLljF">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Product Assignment_3idFi4hVv8Q85eru$fbQaJ" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="2e14b868-544d-4dfb-b064-9c7ac1a7baca" RuleParameters="Type=IfcStructuralSurfaceMember;" Order="0">
+					<Documentation>An idealized structural member corresponding to the plate.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="68ce2ef7-766d-4c18-a00b-e17169ae3257" RuleParameters="Type=IfcTask;" Order="0">
+					<Documentation>A task for operating on the plate.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="d5cefecc-4ded-4abc-b176-d37f28f2a011" Type="IfcPlate" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

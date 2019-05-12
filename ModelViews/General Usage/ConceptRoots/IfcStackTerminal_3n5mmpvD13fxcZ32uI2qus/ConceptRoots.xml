@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3n5mmpvD13fxcZ32uI2qus">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcStackTerminal" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="35uiUOId10tfyUwehvSleo">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="8cd14c95-eade-4f49-9ec1-f27a2ec6a2f6" RuleParameters="RelatingType=IfcStackTerminalType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="1$r2voA_5C1QES$YuyuXJD">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="039152c2-c17b-423b-b6a4-7268f2b13ae5" RuleParameters="PsetName=Pset_StackTerminalTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="a861f80b-ba90-4e01-9c8a-3f86793e3e11">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="13644d7f-f44b-4efd-9759-c7cab9a451fd" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="dadc9728-a1dc-4dee-b909-1c2d35c7b332">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="14fbe366-567f-4b6d-976c-d1a740c02261" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="3BqGkHUbn4DftdflMdtkRb">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="b8e51c74-5544-489c-ad34-b7c18bc147f3" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_StackTerminalBaseQuantities;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material" UniqueId="0zIqE0ZRb8U8orwcXp$LMb">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="dd213a21-896d-4d82-8455-01befeaae00d" RuleParameters="Name=Casing;" Order="0">
+					<Documentation>Material from which the casing is constructed.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Port" UniqueId="1eCavkun1CuediqONEd70P">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="de5d8654-127d-41ce-a69d-66619a10d5cd" RuleParameters="PredefinedType=BIRDCAGE;PortName=Exhaust;SystemType=EXHAUST;Flow=SINK;" Order="0">
+					<Documentation>Exhaust inlet.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="3ea85400-fd24-4668-8383-2a0b64e7ecc3" RuleParameters="PredefinedType=COWL;PortName=Exhaust;SystemType=EXHAUST;Flow=SINK;" Order="0">
+					<Documentation>Exhaust inlet.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="1123fc76-28e9-44e1-af62-0bed946f8b4f" RuleParameters="PredefinedType=RAINWATERHOPPER;PortName=Rain;SystemType=RAINWATER;Flow=SINK;" Order="0">
+					<Documentation>Rainwater outlet.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="f1ed72d9-1d62-4de2-b2f2-95bb00a4c741" Type="IfcStackTerminal" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

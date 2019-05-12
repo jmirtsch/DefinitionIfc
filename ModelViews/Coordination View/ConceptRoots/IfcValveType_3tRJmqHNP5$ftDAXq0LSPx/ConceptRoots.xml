@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="f76d3c34-4576-45fe-9dcd-2a1d0055c67b">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcValveType" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="c794c716-3ef4-4ac5-9e97-dfa0c0e9ade9" Type="IfcValveType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

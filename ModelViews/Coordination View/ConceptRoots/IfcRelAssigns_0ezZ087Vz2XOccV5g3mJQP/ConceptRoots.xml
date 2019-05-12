@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="28f63008-1dff-4285-89a6-7c5a83c13699">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcRelAssigns" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="fd7b1b2e-e15b-4104-be38-c86339ea5de0" Type="IfcRelAssigns" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

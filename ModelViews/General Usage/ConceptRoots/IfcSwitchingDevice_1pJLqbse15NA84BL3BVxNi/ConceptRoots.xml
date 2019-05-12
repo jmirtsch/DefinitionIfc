@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1pJLqbse15NA84BL3BVxNi">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcSwitchingDevice" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Object Typing" UniqueId="10GLPOMVP70PVfNryCXauM">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="c7d5c5bc-8fb9-4143-b87c-7eec87107999" RuleParameters="RelatingType=IfcSwitchingDeviceType;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="21YURWCm56nRbXEv9XrrBK">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="35667cbc-ada6-4e52-8d5f-6fb57fd0b532" RuleParameters="PsetName=Pset_SwitchingDeviceTypeCommon;" Order="0">
+					<Concepts>
+						<DocTemplateUsage Name="Properties" UniqueId="9defb6be-b30c-418c-a902-7176b4cf3394">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="67f49476-60c3-42f4-987b-10d45068b85b" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
+								<DocTemplateItem UniqueId="263d3fc9-c1dc-4357-a483-2385de81000f" RuleParameters="PropertyName=NumberOfGangs;Value=IfcInteger;" Order="0" />
+								<DocTemplateItem UniqueId="ffc46524-23ef-410d-9a8b-7dc2d606b95b" RuleParameters="PropertyName=HasLock;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="b8174856-b5b4-45b5-bf6c-b80ee610ba93" RuleParameters="PropertyName=IsIlluminated;Value=IfcBoolean;" Order="0" />
+								<DocTemplateItem UniqueId="2581b7a1-8a7b-41ea-956b-3e41bdc7c49a" RuleParameters="PropertyName=Legend;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+						<DocTemplateUsage Name="Properties" UniqueId="1eb427c3-016a-4c5d-9c19-ab324301c56d">
+							<Definition>
+								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+							</Definition>
+							<Items>
+								<DocTemplateItem UniqueId="26c027c0-1079-464d-afb7-633c72ce04d4" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
+								<DocTemplateItem UniqueId="d00d8968-3bd0-4236-b6bd-02cc16f934e1" RuleParameters="PropertyName=SwitchFunction;Value=IfcLabel;" Order="0" />
+							</Items>
+						</DocTemplateUsage>
+					</Concepts>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage UniqueId="1ZYLf$$kf1awD$4_FwSz_s">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="4b6f77dc-5993-4606-9c5c-dfee257a97ab" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_SwitchingDeviceBaseQuantities;" Order="0" />
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material" UniqueId="2tbkKZL4j4h9QXYaI0FID2">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="dac4cee5-13f6-4834-90d1-0a20df89a08d" RuleParameters="Name=Casing;" Order="0">
+					<Documentation>Material from which the casing is constructed.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="5d4cd79c-237f-4928-9b38-d0d0f2082ef5" RuleParameters="Name=Conductor;" Order="0">
+					<Documentation>Material from which the conductors are constructed.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="1b66f5b2-60fd-4328-8943-a3240c485177" RuleParameters="Name=Surface;" Order="0">
+					<Documentation>Material from which the switch surface is constructed.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Port" UniqueId="1SXGHChPbCcfRMMsZLmvUt">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="a8efbec0-1518-40bd-aab5-4de17112b5f0" RuleParameters="PortName=Line;SystemType=ELECTRICAL;Flow=SINK;" Order="0">
+					<Documentation>The supply line.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="2fedeef0-09cf-4a19-b609-18bc1b64e779" RuleParameters="PortName=Load;SystemType=ELECTRICAL;Flow=SOURCE;" Order="0">
+					<Documentation>The load controlled by the switch.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="15a3c691-3dad-407f-b81c-ac2d005f219d" Type="IfcSwitchingDevice" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

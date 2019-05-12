@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="d5ab5388-caf1-40b1-b8bd-952570c13795">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcDistributionControlElement" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Control Flow" UniqueId="3f4b3d17-ce7c-447f-9e5b-0acacd7972a9">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Control Flow_3Hs22BKULAZvAwuwBgAykS" />
+			</Definition>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="22f84be4-5ef2-4ed6-be8a-c95ac36692ac" Type="IfcDistributionControlElement" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

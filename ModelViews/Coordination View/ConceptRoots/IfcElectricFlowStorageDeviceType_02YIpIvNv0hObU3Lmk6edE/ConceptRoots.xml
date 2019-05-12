@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="02892cd2-e57e-40ad-895e-0d5c2e1a89ce">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcElectricFlowStorageDeviceType" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="31259f8c-c93d-4646-a711-24235cc2d8e6" Type="IfcElectricFlowStorageDeviceType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

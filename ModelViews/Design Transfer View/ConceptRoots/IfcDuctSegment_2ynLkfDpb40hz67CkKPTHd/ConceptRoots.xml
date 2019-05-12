@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="bcc55ba9-3739-4402-bf46-1ccb9465d467">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcDuctSegment" />
+	</ApplicableEntity>
+	<Concepts>
+		<DocTemplateUsage Name="Port" UniqueId="c4dd0fe5-4948-4337-9de4-37f8422ab2bd">
+			<Definition>
+				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
+			</Definition>
+			<Items>
+				<DocTemplateItem UniqueId="948966c7-f1d9-438a-86c5-35c0e621d8c2" RuleParameters="PortName=Inlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
+					<Documentation>The flow inlet.</Documentation>
+				</DocTemplateItem>
+				<DocTemplateItem UniqueId="0343b867-5d6f-4a76-b953-e88bcecc97d2" RuleParameters="PortName=Outlet;SystemType=NOTDEFINED;Flow=SOURCE;" Order="0">
+					<Documentation>The flow outlet.</Documentation>
+				</DocTemplateItem>
+			</Items>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="4946dbad-f0e0-4879-8fd2-4b3213f7f205" Type="IfcDuctSegment" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

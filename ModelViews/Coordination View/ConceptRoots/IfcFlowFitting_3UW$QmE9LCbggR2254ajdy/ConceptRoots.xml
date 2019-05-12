@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="de83f6b0-3895-4c96-aa9b-08214492d9fc">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcFlowFitting" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="368284d1-550c-4d75-9c79-c27ecf46db18" Type="IfcFlowFitting" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

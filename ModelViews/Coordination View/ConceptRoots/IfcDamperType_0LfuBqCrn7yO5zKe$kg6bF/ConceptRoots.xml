@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="15a782f4-335c-47f1-817d-528feea8694f">
+	<ApplicableEntity>
+		<DocEntity xsi:nil="true" href="IfcDamperType" />
+	</ApplicableEntity>
+	<ApplicableTemplate>
+		<DocTemplateDefinition UniqueId="09e6117d-4353-4245-a8e3-dc7e1257b3f2" Type="IfcDamperType" />
+	</ApplicableTemplate>
+</DocConceptRoot>
+

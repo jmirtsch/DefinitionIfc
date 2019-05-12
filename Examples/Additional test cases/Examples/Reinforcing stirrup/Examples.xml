@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocExample xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Reinforcing stirrup" UniqueId="5f6a2022-cae6-4c1e-9570-5b10ac235cdf" ApplicableType="IfcReinforcingBar,IfcReinforcingBarType,IfcSweptDiskSolid,IfcIndexedPolyCurve">
+	<ApplicableTemplates>
+		<DocTemplateDefinition xsi:nil="true" href="Body AdvancedSwept DiskSolid PolyCurve Geometry_0S8aGf5H900B$$6VqnAV6h" />
+	</ApplicableTemplates>
+	<Views>
+		<DocModelView xsi:nil="true" href="Design Transfer View" />
+		<DocModelView xsi:nil="true" href="General Usage" />
+	</Views>
+</DocExample>
+
