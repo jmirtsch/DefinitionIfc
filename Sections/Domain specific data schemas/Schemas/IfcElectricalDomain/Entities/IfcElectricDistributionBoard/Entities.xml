@@ -5,9 +5,7 @@
 		<DocLocalization Name="Electric Distribution Board" Locale="en" />
 		<DocLocalization Name="Tableau de distribution électrique" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4036.4" Y="727.85333" Width="679.8" Height="103.2" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4036.4" Y="727.85333" Width="679.8" Height="103.2" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="920c3b35-1613-4cf1-9d02-d2deba60e55d" DefinedType="IfcElectricDistributionBoardTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
@@ -15,9 +13,7 @@
 				<DocPoint X="4706.9667" Y="881.434947" />
 				<DocPoint X="4298.01663" Y="881.434947" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="4611.824997" Y="828.3866633" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="4611.824997" Y="828.3866633" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1dee38bb-0dbe-42b3-a685-23ec6e4f8262">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcDoorPanelProperties" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="60511b91-f830-48e5-ae58-9d44f934ca6d" Type="IfcDoorPanelProperties" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcDoorPanelProperties" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="df9548cc-6b93-42c4-9881-d5d5e639decf" Type="IfcDoorPanelProperties" />
 </DocConceptRoot>
 

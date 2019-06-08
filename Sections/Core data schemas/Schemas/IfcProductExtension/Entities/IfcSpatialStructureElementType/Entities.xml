@@ -5,9 +5,7 @@
 		<DocLocalization Name="Spatial Structure Element Type" Locale="en" />
 		<DocLocalization Name="Type d&apos;élément de la structure spatiale" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6628.3959" Y="1857.9594" Width="420" Height="146.66666" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="6628.3959" Y="1857.9594" Width="420" Height="146.66666" />
 	<Subtypes>
 		<DocSubtype UniqueId="706d456c-e65c-4320-962a-e2a1d437ed5a" DefinedType="IfcSpaceType" />
 	</Subtypes>

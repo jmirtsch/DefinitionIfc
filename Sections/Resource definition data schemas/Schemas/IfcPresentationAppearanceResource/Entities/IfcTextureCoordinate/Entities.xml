@@ -5,9 +5,7 @@
 		<DocLocalization Name="Texture Coordinate" Locale="en" />
 		<DocLocalization Name="Coordonnées de texture" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5033.0583" Y="2539.65" Width="353.26667" Height="118.66666" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="5033.0583" Y="2539.65" Width="353.26667" Height="118.66666" />
 	<Subtypes>
 		<DocSubtype UniqueId="39c223c6-78b1-4784-8316-e74c7e9221ab" DefinedType="IfcTextureCoordinateGenerator" />
 		<DocSubtype UniqueId="48ca0d09-e927-410d-a5a7-11eaaaff0e5a" DefinedType="IfcTextureMap" />
@@ -20,9 +18,7 @@
 				<DocPoint X="5386.325" Y="2577.2087" />
 				<DocPoint X="6044.3583" Y="2577.2087" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5346.325" Y="2561.2087" Width="144" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5346.325" Y="2561.2087" Width="144" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

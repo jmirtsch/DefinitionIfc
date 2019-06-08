@@ -5,9 +5,7 @@
 		<DocLocalization Name="Reinforcing Bar" Locale="en" />
 		<DocLocalization Name="barre d&apos;armature" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1940.9097" Y="291.50139" Width="250.39157" Height="433.3243" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1940.9097" Y="291.50139" Width="250.39157" Height="433.3243" />
 	<Attributes>
 		<DocAttribute Name="NominalDiameter" UniqueId="260a1ee8-911e-47fc-8ccf-0980dc39e2f6" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Deprecated.
@@ -17,9 +15,7 @@
 				<DocPoint X="2191.3013" Y="335.59152" />
 				<DocPoint X="2535.42281" Y="335.59152" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2191.3013" Y="330.6926938" Width="197" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2191.3013" Y="330.6926938" Width="197" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="CrossSectionArea" UniqueId="f50fc626-ccf9-4b2a-b313-1352b0d7b6a7" DefinedType="IfcAreaMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The effective cross-section area of the reinforcing bar or group of bars.
@@ -29,9 +25,7 @@
 				<DocPoint X="2191.3013" Y="421.8657" />
 				<DocPoint X="2535.41311" Y="421.8657" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2191.3013" Y="421.8657" Width="205" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2191.3013" Y="421.8657" Width="205" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="BarLength" UniqueId="0a8da1b1-a7c6-40d4-bc0c-9c921133a8ba" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Deprecated.
@@ -41,9 +35,7 @@
 				<DocPoint X="2191.3013" Y="512.10842" />
 				<DocPoint X="2535.40245" Y="512.10842" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2188.0354159" Y="507.2095938" Width="122" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2188.0354159" Y="507.2095938" Width="122" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="PredefinedType" UniqueId="777b8b8b-390b-48ec-b779-37083964afa6" DefinedType="IfcReinforcingBarTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The role, purpose or usage of the bar, i.e. the kind of loads and stresses it is intended to carry.
@@ -53,9 +45,7 @@
 				<DocPoint X="2191.3013" Y="597.46506" />
 				<DocPoint X="2535.46571" Y="597.46506" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2191.3013" Y="597.46506" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2191.3013" Y="597.46506" Width="182" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="BarSurface" UniqueId="a9f1a5ea-5f63-40f2-b00d-c12c43572c1b" DefinedType="IfcReinforcingBarSurfaceEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Deprecated.
@@ -65,9 +55,7 @@
 				<DocPoint X="2191.3013" Y="686.02936" />
 				<DocPoint X="2535.43443" Y="686.02936" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2191.3013" Y="686.02936" Width="130" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2191.3013" Y="686.02936" Width="130" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

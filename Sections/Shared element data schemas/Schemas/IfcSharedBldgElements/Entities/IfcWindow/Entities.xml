@@ -5,9 +5,7 @@
 		<DocLocalization Name="Window" Locale="en" />
 		<DocLocalization Name="Fenêtre" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4829.5166015625" Y="1287.55338541667" Width="279.93333" Height="745.333343505859" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4829.5166015625" Y="1287.55338541667" Width="279.93333" Height="745.333343505859" />
 	<Subtypes>
 		<DocSubtype UniqueId="16d8db66-d8ad-437b-b95e-2c49eb5db9ac" DefinedType="IfcWindowStandardCase" />
 		<DocSubtype UniqueId="9fcdce23-6665-447a-8d11-a6d1749974f7" DefinedType="IfcWindowStandardCase" />
@@ -22,9 +20,7 @@
 				<DocPoint X="5109.4499315625" Y="1810.55334472656" />
 				<DocPoint X="5383.21318692708" Y="1810.55334472656" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5109.4499315625" Y="1790.55334472656" Width="156" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5109.4499315625" Y="1790.55334472656" Width="156" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="OverallWidth" UniqueId="0fe5fb49-9b5f-4384-ba1c-6afa2219013c" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Overall measure of the width, it reflects the X Dimension of a bounding box, enclosing the window opening. If omitted, the &lt;em&gt;OverallWidth&lt;/em&gt; should be taken from the geometric representation of the &lt;em&gt;IfcOpening&lt;/em&gt; in which the window is inserted. 
@@ -35,9 +31,7 @@
 				<DocPoint X="5109.4499315625" Y="1709.02931966146" />
 				<DocPoint X="5383.21318692708" Y="1709.02931966146" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5109.4499315625" Y="1689.02931966146" Width="147" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5109.4499315625" Y="1689.02931966146" Width="147" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="PredefinedType" UniqueId="42be76e4-d473-45aa-bb93-7e6f581f5e07" DefinedType="IfcWindowTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined generic type for a window that is specified in an enumeration. There may be a property set given specificly for the predefined types.
@@ -48,9 +42,7 @@
 				<DocPoint X="5109.4499315625" Y="1350.46655290104" />
 				<DocPoint X="5434.34651692708" Y="1350.46655290104" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5109.4499315625" Y="1330.46655290104" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5109.4499315625" Y="1330.46655290104" Width="182" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="PartitioningType" UniqueId="3d62e476-3cc2-4402-b026-b1a0b07db425" DefinedType="IfcWindowTypePartitioningEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Type defining the general layout of the window in terms of the partitioning of panels. 
@@ -62,9 +54,7 @@
 				<DocPoint X="5109.4499315625" Y="1433.64057796615" />
 				<DocPoint X="5346.09651692708" Y="1433.64057796615" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5109.4499315625" Y="1413.64057796615" Width="185" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5109.4499315625" Y="1413.64057796615" Width="185" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="UserDefinedPartitioningType" UniqueId="39c8c84f-d708-4cd3-bba2-6ae6d2e950d6" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Designator for the user defined partitioning type, shall only be provided, if the value of &lt;em&gt;PartitioningType&lt;/em&gt; is set to USERDEFINED.</Documentation>
@@ -73,9 +63,7 @@
 				<DocPoint X="5109.4499315625" Y="1520.98126953125" />
 				<DocPoint X="5497.17985192708" Y="1520.98126953125" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5109.4499315625" Y="1500.98126953125" Width="323" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5109.4499315625" Y="1500.98126953125" Width="323" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

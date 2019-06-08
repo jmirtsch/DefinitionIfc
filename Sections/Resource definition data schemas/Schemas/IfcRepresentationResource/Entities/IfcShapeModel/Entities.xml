@@ -5,9 +5,7 @@
 		<DocLocalization Name="Shape Model" Locale="en" />
 		<DocLocalization Name="Modèle de forme" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2377.005" Y="1187.0357" Width="331.32829" Height="122.4219" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2377.005" Y="1187.0357" Width="331.32829" Height="122.4219" />
 	<Subtypes>
 		<DocSubtype UniqueId="fe948891-ecb4-44f3-9bfa-ef2cff5ee112" DefinedType="IfcShapeRepresentation" />
 		<DocSubtype UniqueId="bc3960f4-14b5-44c7-9d74-cb9ab5b662b9" DefinedType="IfcTopologyRepresentation" />
@@ -21,9 +19,7 @@
 				<DocPoint X="3049.63729" Y="1248.24669" />
 				<DocPoint X="2708.33329" Y="1248.24669" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2534.5227807" Y="2100.126384" Width="323" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2534.5227807" Y="2100.126384" Width="323" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

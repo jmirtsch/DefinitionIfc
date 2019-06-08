@@ -4,9 +4,7 @@
 		<DocLocalization Name="Verbindet Steuer- / Regeltechnik mit Komponente - Relation" Locale="de" />
 		<DocLocalization Name="Rel Flow Control Elements" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="570.8837" Y="563.13579" Width="462.68435" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="570.8837" Y="563.13579" Width="462.68435" Height="100" />
 	<Attributes>
 		<DocAttribute Name="RelatedControlElements" UniqueId="ee7741ae-f207-410e-a37d-fca605de1cfa" DefinedType="IfcDistributionControlElement" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
 			<Documentation>References control elements which may be used to impart control on the Distribution Element.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="1370.77588" Y="613.13579" />
 				<DocPoint X="1370.77588" Y="872.90115" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1018.212635" Y="735.59711" Width="354" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1018.212635" Y="735.59711" Width="354" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="RelatingFlowElement" UniqueId="7dccb4a5-b41e-4572-9f90-7a9b7a5f6f94" DefinedType="IfcDistributionFlowElement" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Relationship to a distribution flow element</Documentation>
@@ -26,9 +22,7 @@
 				<DocPoint X="221.68478" Y="611.75809" />
 				<DocPoint X="221.68478" Y="870.21673" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="542.137437" Y="734.14691" Width="240" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="542.137437" Y="734.14691" Width="240" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

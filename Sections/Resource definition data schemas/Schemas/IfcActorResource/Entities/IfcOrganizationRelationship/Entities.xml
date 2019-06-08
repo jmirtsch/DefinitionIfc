@@ -5,9 +5,7 @@
 		<DocLocalization Name="Organization Relationship" Locale="en" />
 		<DocLocalization Name="Relation entre organisations" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="161.98032" Y="2171.5846" Width="468.45926" Height="159.76609" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="161.98032" Y="2171.5846" Width="468.45926" Height="159.76609" />
 	<Attributes>
 		<DocAttribute Name="RelatingOrganization" UniqueId="6942a3a9-9978-476a-8476-de4c734c3086" DefinedType="IfcOrganization" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Organization which is the relating part of the relationship between organizations.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="205.05879" Y="2171.5846" />
 				<DocPoint X="205.05879" Y="1802.6366" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="341.76251" Y="2080.467002" Width="238" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="341.76251" Y="2080.467002" Width="238" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="RelatedOrganizations" UniqueId="daa9c417-c4bd-4262-82ed-c9a9676f0e18" DefinedType="IfcOrganization" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
 			<Documentation>The other, possibly dependent, organizations which are the related parts of the relationship between organizations.</Documentation>
@@ -25,9 +21,7 @@
 				<DocPoint X="497.09457" Y="2171.5846" />
 				<DocPoint X="497.09457" Y="1802.6366" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="689.89394" Y="2263.394528" Width="324" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="689.89394" Y="2263.394528" Width="324" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

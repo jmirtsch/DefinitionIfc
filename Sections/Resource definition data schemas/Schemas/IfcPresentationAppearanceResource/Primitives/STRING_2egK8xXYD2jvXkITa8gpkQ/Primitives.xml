@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocPrimitive xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="STRING_2egK8xXYD2jvXkITa8gpkQ" Name="STRING" UniqueId="a8a9423b-8623-42b7-986e-49d908ab3b9a" DiagramNumber="5">
-	<DiagramRectangle>
-		<DocRectangle X="7655.3667" Y="1408.14" Width="153" Height="311" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="7655.3667" Y="1408.14" Width="153" Height="311" />
 </DocPrimitive>
 

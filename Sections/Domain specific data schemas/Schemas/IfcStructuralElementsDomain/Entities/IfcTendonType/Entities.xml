@@ -5,9 +5,7 @@
 		<DocLocalization Name="Tendon Type" Locale="en" />
 		<DocLocalization Name="Type de cable" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3541.3005" Y="1858.9208" Width="251.92929" Height="348.51337" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3541.3005" Y="1858.9208" Width="251.92929" Height="348.51337" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="c3673c95-2686-4e5e-9e7a-0046b947ff94" DefinedType="IfcTendonTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Subtype of tendon.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="3793.2298" Y="1891.3684" />
 				<DocPoint X="4285.64338" Y="1891.3684" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3798.8430383" Y="1881.6728066" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3798.8430383" Y="1881.6728066" Width="182" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="NominalDiameter" UniqueId="e68ea63d-b611-4993-ac7c-486784151c1e" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The nominal diameter defining the cross-section size of the prestressed part of the tendon.</Documentation>
@@ -25,9 +21,7 @@
 				<DocPoint X="3793.2298" Y="1985.3959" />
 				<DocPoint X="4285.62675" Y="1985.3959" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3795.781272" Y="1977.7414841" Width="197" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3795.781272" Y="1977.7414841" Width="197" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="CrossSectionArea" UniqueId="7cbdd29f-faaa-4ef5-92ff-d2b870e89f86" DefinedType="IfcAreaMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The effective cross-section area of the prestressed part of the tendon.</Documentation>
@@ -35,9 +29,7 @@
 				<DocPoint X="3793.2298" Y="2070.9343" />
 				<DocPoint X="4285.55028" Y="2070.9343" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3790.678328" Y="2063.2798841" Width="205" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3790.678328" Y="2063.2798841" Width="205" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="SheathDiameter" UniqueId="558f7ecf-0e60-4557-abf4-3eb909d17bc2" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Diameter of the sheeth (duct) around the tendon, if there is one with this type of tendon.</Documentation>
@@ -45,9 +37,7 @@
 				<DocPoint X="3793.2298" Y="2155.6482" />
 				<DocPoint X="4285.55323" Y="2155.6482" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3793.2298" Y="2155.6482" Width="186" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3793.2298" Y="2155.6482" Width="186" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

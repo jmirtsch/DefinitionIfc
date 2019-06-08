@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="107c7de7-f39d-4086-8eef-0ecbebdf234d">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcArbitraryProfileDefWithVoids" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcArbitraryProfileDefWithVoids" />
 	<Concepts>
 		<DocTemplateUsage Name="Profile" UniqueId="aad60486-a969-4624-a298-07e06fad99b9">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Profile Definition_3hCQazBmX9NwnoRtrW8wdR" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Profile_Definition_3hCQazBmX9NwnoRtrW8wdR" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="2f0e32bc-1eda-4863-a15e-4f5071b45db8">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="9c44d5f7-e77c-4877-8753-ac9656c6b9fe" RuleParameters="PsetName=Pset_ProfileArbitraryHollowCore;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="69c692e6-7fe3-4cdf-b906-fa945293fb0f">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="29b593c6-92f7-43bf-aed4-9438e042c46d" RuleParameters="Order=1;PropertyName=OverallWidth;Value=IfcPositiveLengthMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="d6b079d3-7fa4-4b8a-a528-96105457462a" RuleParameters="Order=2;PropertyName=OverallDepth;Value=IfcPositiveLengthMeasure;" Order="0" />
@@ -51,8 +43,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="52c76fd3-2419-480e-8251-61b140436cf4" Type="IfcArbitraryProfileDefWithVoids" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="e4804339-6424-4154-9cff-75a161aa9e09" Type="IfcArbitraryProfileDefWithVoids" />
 </DocConceptRoot>
 

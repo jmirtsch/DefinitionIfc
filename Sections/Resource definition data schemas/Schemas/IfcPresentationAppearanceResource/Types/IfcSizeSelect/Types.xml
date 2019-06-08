@@ -4,9 +4,7 @@
 		<DocLocalization Name="Size Select" Locale="en" />
 		<DocLocalization Name="Sélection de taille" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="401.037556966146" Y="4878.60563151042" Width="281.96667" Height="88.333333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="401.037556966146" Y="4878.60563151042" Width="281.96667" Height="88.333333" />
 	<Selects>
 		<DocSelectItem Name="IfcRatioMeasure" UniqueId="aff05d19-ca5a-4700-8e9b-910a38282401" />
 		<DocSelectItem Name="IfcLengthMeasure" UniqueId="61da3245-95a7-4c71-ae6a-e4e58b78f888" />

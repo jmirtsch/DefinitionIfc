@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="f92b5d48-c98b-48cd-bee5-fe5e8b6a384f">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcPipeSegment" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcPipeSegment" />
 	<Concepts>
 		<DocTemplateUsage Name="Port" UniqueId="d72b5121-09fb-44d1-90d5-6adb1685e5e9">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Port_Nesting_2w9EtqE92s8JFNQ8EuKWA" />
 			<Items>
 				<DocTemplateItem UniqueId="235782d6-3121-44b4-baf2-c7918cd00823" RuleParameters="PortName=Inlet;Flow=SINK;SystemType=NOTDEFINED;" Order="0">
 					<Documentation>The flow inlet.</Documentation>
@@ -18,8 +14,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="0f5ad476-0b7e-47fd-9cce-106b1147abd5" Type="IfcPipeSegment" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="eae1d8c1-6f78-41b1-aaa7-010acc22d5a5" Type="IfcPipeSegment" />
 </DocConceptRoot>
 

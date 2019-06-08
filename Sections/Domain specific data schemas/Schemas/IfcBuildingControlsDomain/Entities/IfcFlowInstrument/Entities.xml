@@ -5,9 +5,7 @@
 		<DocLocalization Name="Flow Instrument" Locale="en" />
 		<DocLocalization Name="Instrument d&apos;installation fluides" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="862.93333" Y="295.12" Width="674.63333" Height="108" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="862.93333" Y="295.12" Width="674.63333" Height="108" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="5b774128-e349-4ff3-8ae3-28adab4523b1" DefinedType="IfcFlowInstrumentTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
@@ -15,9 +13,7 @@
 				<DocPoint X="1530.9167" Y="455.22667" />
 				<DocPoint X="1092.48003" Y="455.22667" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1439.698365" Y="397.7866667" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1439.698365" Y="397.7866667" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="188c9cc6-9b32-4932-9f1d-f66cc498a232">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcFlowSegmentType" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="a2d24926-c87c-4bad-8b2e-d5ec6ac72f07" Type="IfcFlowSegmentType" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcFlowSegmentType" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="343c78d0-c5b1-4968-98a3-8d036b5a10c1" Type="IfcFlowSegmentType" />
 </DocConceptRoot>
 

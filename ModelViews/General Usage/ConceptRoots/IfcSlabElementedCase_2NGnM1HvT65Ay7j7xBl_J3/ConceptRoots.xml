@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2NGnM1HvT65Ay7j7xBl_J3">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcSlabElementedCase" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcSlabElementedCase" />
 	<Concepts>
 		<DocTemplateUsage Name="Aggregation" UniqueId="2Rr0gTFiL4XgmWWufUL9dZ">
 			<Documentation>&lt;p&gt;The following guidance is provided for the components of the
@@ -17,9 +15,7 @@ should be used:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
 			<Items>
 				<DocTemplateItem UniqueId="f7c16e38-6012-4e94-b388-6ce613349cc0" RuleParameters="PredefinedType=;RelatedObjects=IfcBeam;" Order="0">
 					<Documentation>Slabs may be aggregated into beams for joists.</Documentation>
@@ -38,9 +34,7 @@ should be used:&lt;/p&gt;
 &lt;em&gt;IfcSlabElementedCase&lt;/em&gt; defines the parent coordinate systems
 for the parts within the decomposition. All parts shall be
 positioned relative to the &lt;em&gt;IfcSlabElementedCase&lt;/em&gt;.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Surface Geometry" UniqueId="0BnnX$e6jBQ9QVN5IS$4zn">
 			<Documentation>&lt;p&gt;A three-dimensional surface being a subtype
@@ -58,13 +52,9 @@ surfacic model of the building (e.g. for analytical purposes, or
 for reduced Level of Detail representation). It should suppress
 the geometric details of the parts in the
 decomposition.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Surface Geometry_0kcTvm_tD7ZvlAJ_tzwqwb" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Surface_Geometry_0kcTvm_tD7ZvlAJ_tzwqwb" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="fa99823f-2eb7-4a70-97ba-33b8b0558329" Type="IfcSlabElementedCase" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="790e5dbb-bbdc-4981-b5fa-96a7a329af99" Type="IfcSlabElementedCase" />
 </DocConceptRoot>
 

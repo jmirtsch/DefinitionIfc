@@ -4,9 +4,7 @@
 		<DocLocalization Name="Hinzufügen / Addition von Teil zu Element - Relation" Locale="de" />
 		<DocLocalization Name="Rel Projects Element" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1699.1958" Y="4093.5427" Width="387.73333" Height="120" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1699.1958" Y="4093.5427" Width="387.73333" Height="120" />
 	<Attributes>
 		<DocAttribute Name="RelatingElement" UniqueId="9ca4732c-313e-419b-91c9-d6570d18f0b8" DefinedType="IfcElement" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="hidden">
 			<Documentation>Element at which a projection is created by the associated &lt;em&gt;IfcProjectionElement&lt;/em&gt;.</Documentation>
@@ -14,9 +12,7 @@
 				<DocPoint X="1893.0625" Y="4093.5427" />
 				<DocPoint X="1893.0625" Y="4001.209367" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1999.0625" Y="4098.0427" Width="188" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1999.0625" Y="4098.0427" Width="188" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="RelatedFeatureElement" UniqueId="c95715df-11cc-4fae-8d0b-2e578e90f0ab" DefinedType="IfcFeatureElementAddition" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Reference to the &lt;em&gt;IfcFeatureElementAddition&lt;/em&gt; that defines an addition to the volume of the element, by using a Boolean addition operation. An example is a projection at the associated element.</Documentation>
@@ -24,9 +20,7 @@
 				<DocPoint X="2086.9291" Y="4153.5427" />
 				<DocPoint X="2457.88654" Y="4153.5427" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2093.7776367" Y="4144.1360937" Width="269" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2093.7776367" Y="4144.1360937" Width="269" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

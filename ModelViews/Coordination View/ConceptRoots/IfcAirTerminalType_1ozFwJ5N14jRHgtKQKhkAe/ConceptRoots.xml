@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="72f4fe93-1570-44b5-b46a-dd4694aee2a8">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcAirTerminalType" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="2390599a-a5b4-4377-8a2d-c635bf297f26" Type="IfcAirTerminalType" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcAirTerminalType" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="a1396683-a812-46b1-9516-eb9c2356a18d" Type="IfcAirTerminalType" />
 </DocConceptRoot>
 

@@ -4,9 +4,7 @@
 		<DocLocalization Name="Object Reference Select" Locale="en" />
 		<DocLocalization Name="Sélection de référence d&apos;entité de type ressource" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3330.6333" Y="559.56657" Width="382.33333" Height="106" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3330.6333" Y="559.56657" Width="382.33333" Height="106" />
 	<Selects>
 		<DocSelectItem Name="IfcMaterialDefinition" UniqueId="2e921260-5ed7-4cb5-959a-558c168c1fbc" />
 		<DocSelectItem Name="IfcPerson" UniqueId="6c3c44e2-eb52-474d-b2ef-c41f01fec281" />

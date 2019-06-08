@@ -5,9 +5,7 @@
 		<DocLocalization Name="Product" Locale="en" />
 		<DocLocalization Name="Produit" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="11319.398" Y="354.09249" Width="454.1" Height="133.33333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="11319.398" Y="354.09249" Width="454.1" Height="133.33333" />
 	<Subtypes>
 		<DocSubtype UniqueId="db048e60-831b-4fab-90e8-a45d39fa6975" DefinedType="IfcProxy" />
 	</Subtypes>
@@ -18,9 +16,7 @@
 				<DocPoint X="11377.112" Y="487.42582" />
 				<DocPoint X="11377.112" Y="858.84161" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="11502.08191" Y="467.514789" Width="194" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="11502.08191" Y="467.514789" Width="194" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Representation" UniqueId="dc4c6d0f-4308-4e92-8224-93d3b8194102" DefinedType="IfcProductRepresentation" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Reference to the representations of the product, being either a representation (IfcProductRepresentation) or as a special case a shape representations (IfcProductDefinitionShape). The product definition shape provides for multiple geometric representations of the shape property of the object within the same object coordinate system, defined by the object placement.</Documentation>
@@ -28,9 +24,7 @@
 				<DocPoint X="11501.061" Y="487.42582" />
 				<DocPoint X="11501.061" Y="557.775833" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="11620.73927" Y="501.79665" Width="176" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="11620.73927" Y="501.79665" Width="176" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ReferencedBy" UniqueId="4672f05f-d72b-42d4-880c-01367391c23f" DefinedType="IfcRelAssignsToProduct" AttributeFlags="0" AggregationType="3" AggregationFlag="0" Inverse="RelatingProduct">
 			<Documentation>Reference to the &lt;em&gt;IfcRelAssignsToProduct&lt;/em&gt; relationship, by which other products, processes, controls, resources or actors (as subtypes of &lt;em&gt;IfcObjectDefinition&lt;/em&gt;) can be related to this product.</Documentation>
@@ -38,9 +32,7 @@
 				<DocPoint X="11773.498" Y="415.42582" />
 				<DocPoint X="12287.985" Y="415.42582" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="11780.0748333" Y="396.807486" Width="461" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="11780.0748333" Y="396.807486" Width="461" Height="70" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

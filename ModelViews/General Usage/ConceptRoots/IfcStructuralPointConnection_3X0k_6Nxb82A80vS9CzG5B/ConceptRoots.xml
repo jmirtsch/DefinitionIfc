@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3X0k_6Nxb82A80vS9CzG5B">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcStructuralPointConnection" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcStructuralPointConnection" />
 	<Concepts>
 		<DocTemplateUsage Name="Reference Topology" UniqueId="38lROr_dL4Bw2CntUO3Tgj">
 			<Documentation>&lt;p&gt;Instances of &lt;em&gt;IfcStructuralPointConnection&lt;/em&gt; shall have a topology representation which consists of one &lt;em&gt;IfcVertexPoint&lt;/em&gt;, representing the reference point of the point connection.  See definitions at &lt;em&gt;IfcStructuralItem&lt;/em&gt; for further specifications.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Reference Topology_1vtMCN8v14oeZ2SDHirRbf" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Reference_Topology_1vtMCN8v14oeZ2SDHirRbf" />
 			<Items>
 				<DocTemplateItem UniqueId="3807d16b-c4d9-414f-a0f0-2cf57d37e690" RuleParameters="RepresentationType=Vertex;Topology=IfcVertexPoint;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="faf43ef1-76c8-4377-adcf-4ab365d62d69" Type="IfcStructuralPointConnection" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="bd12fb56-b158-45b1-aaec-02fab662d23a" Type="IfcStructuralPointConnection" />
 </DocConceptRoot>
 

@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="225d79f3-4257-452b-9f51-54e2dc2c2cb1">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcCableSegmentType" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="db402646-2383-4b98-8ea7-60f7fc10e39e" Type="IfcCableSegmentType" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcCableSegmentType" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="bb5c2712-5d24-4616-a5d1-84e461b06376" Type="IfcCableSegmentType" />
 </DocConceptRoot>
 

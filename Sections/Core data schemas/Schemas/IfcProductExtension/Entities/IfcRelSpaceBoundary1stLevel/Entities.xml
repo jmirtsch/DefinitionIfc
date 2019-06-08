@@ -5,9 +5,7 @@
 		<DocLocalization Name="Rel Space Boundary1st Level" Locale="en" />
 		<DocLocalization Name="Limites d&apos;espace de premier niveau" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="325.44" Y="3407.3867" Width="333.33333" Height="124" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="325.44" Y="3407.3867" Width="333.33333" Height="124" />
 	<Subtypes>
 		<DocSubtype UniqueId="fcf3f77d-c44e-4c6a-88d7-98eb4dff7d35" DefinedType="IfcRelSpaceBoundary2ndLevel" />
 	</Subtypes>
@@ -21,9 +19,7 @@
 				<DocPoint X="406.77333" Y="3307.38667" />
 				<DocPoint X="406.77333" Y="3407.38667" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="811.4399967" Y="3296.720003" Width="186" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="811.4399967" Y="3296.720003" Width="186" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="InnerBoundaries" UniqueId="17fdcd0c-9332-432d-9933-30d0938105e8" DefinedType="IfcRelSpaceBoundary1stLevel" AttributeFlags="8" AggregationType="3" AggregationFlag="0" Inverse="ParentBoundary">
 			<Documentation>Reference to the inner boundaries of the space boundary. Inner boundaries are defined by the space boundaries of openings, doors and windows.</Documentation>
@@ -34,9 +30,7 @@
 				<DocPoint X="406.77333" Y="3307.38667" />
 				<DocPoint X="406.77333" Y="3407.38667" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="811.4399967" Y="3353.053337" Width="332" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="811.4399967" Y="3353.053337" Width="332" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

@@ -4,9 +4,7 @@
 		<DocLocalization Name="Geometrische Gruppe - Punkte und Kurven" Locale="de" />
 		<DocLocalization Name="Geometric Curve Set" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="12438.1731770833" Y="982.679992675781" Width="224" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="12438.1731770833" Y="982.679992675781" Width="224" Height="100" />
 	<WhereRules>
 		<DocWhereRule Name="NoSurfaces" UniqueId="1ea78696-7a9e-4998-b89f-96bbd6473e2d">
 			<Documentation>No surface shall be included in this geometric set.</Documentation>

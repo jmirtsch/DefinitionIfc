@@ -5,18 +5,14 @@
 		<DocLocalization Name="Fan" Locale="en" />
 		<DocLocalization Name="Ventilateur" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4432.8186" Y="558.84565" Width="324.92855" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4432.8186" Y="558.84565" Width="324.92855" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="78b04d8e-a13f-425e-a5b9-e2649b1d5639" DefinedType="IfcFanTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
 				<DocPoint X="4432.8186" Y="608.84565" />
 				<DocPoint X="4237.36159" Y="608.84565" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="4438.1873093" Y="595.423877" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="4438.1873093" Y="595.423877" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

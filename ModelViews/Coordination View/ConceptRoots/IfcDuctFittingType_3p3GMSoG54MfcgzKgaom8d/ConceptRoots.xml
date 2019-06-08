@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="f30d059c-c901-445a-99aa-f54aa4cb0227">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcDuctFittingType" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="6cf02cc6-7c4b-4848-9270-5093abfb4128" Type="IfcDuctFittingType" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcDuctFittingType" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="dd001157-ab32-4715-97a7-792ee5caf4a0" Type="IfcDuctFittingType" />
 </DocConceptRoot>
 

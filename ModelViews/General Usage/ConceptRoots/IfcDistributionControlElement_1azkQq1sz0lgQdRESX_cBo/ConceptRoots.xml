@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1azkQq1sz0lgQdRESX_cBo">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcDistributionControlElement" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcDistributionControlElement" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="1SqwfoIvX1oxSPJEt4gpKc">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="5e07f09a-69f4-4c65-aa65-5f989646c89e" RuleParameters="RelatingType=IfcDistributionControlElementType;" Order="0" />
 			</Items>
@@ -20,9 +16,7 @@
 &lt;tr&gt;&lt;td&gt;&lt;img alt=&quot;Classification Use Definition&quot; src=&quot;../../../figures/ifcdistributioncontrolelement-classification.png&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 265 &amp;mdash; Distribution control classification&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Classification Association_1A8aO9PNXCTQ$FYl_eRbxo" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Classification_Association_1A8aO9PNXCTQFYl_eRbxo" />
 			<Items>
 				<DocTemplateItem UniqueId="75372851-3506-4b5d-aa38-38fe13822643" RuleParameters="Source=ASHRAE;Name=BACnet;Tokens=(&apos;{D:0..65535},&apos;.&apos;,&apos;{D:0..65535}&apos;);" Order="0">
 					<Documentation>32-bit decimal BACnetObjectIdentifier indicating type ID and instance ID (e.g.&apos;12.15&apos; for Digital Input #15).</Documentation>
@@ -53,9 +47,7 @@
 &lt;li&gt;&lt;a href=&quot;../../ifcsharedbldgserviceelements/lexical/ifcdistributionsystem.htm&quot;&gt;IfcDistributionSystem&lt;/a&gt; (&lt;a href=&quot;../../ifckernel/lexical/ifcrelassignstogroup.htm&quot;&gt;IfcRelAssignsToGroup&lt;/a&gt;): Indicates a system containing interconnected devices, where control elements are typically part of a control system having &lt;em&gt;PredefinedType=CONTROL&lt;/em&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;../../ifccontrolextension/lexical/ifcperformancehistory.htm&quot;&gt;IfcPerformanceHistory&lt;/a&gt; (&lt;a href=&quot;../../ifckernel/lexical/ifcrelassignstocontrol.htm&quot;&gt;IfcRelAssignsToControl&lt;/a&gt;): Indicates realtime or historical infomation captured for the device.&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Assignment_3idFi4hVv8Q85eru$fbQaJ" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Assignment_3idFi4hVv8Q85erufbQaJ" />
 			<Items>
 				<DocTemplateItem UniqueId="0fb6595c-a479-46d5-8399-b7db1579245c" RuleParameters="Type=IfcTask;" Order="0">
 					<Documentation>Indicates tasks used to purchase, install, renovate, demolish, operate, or otherwise act upon the element.  If the element has a type, available task types are assigned to the element type.</Documentation>
@@ -69,8 +61,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="876809ed-f21e-4a0a-8137-b332c386112e" Type="IfcDistributionControlElement" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="09beb5b0-27b1-4ac0-9145-d47ba6046bc8" Type="IfcDistributionControlElement" />
 </DocConceptRoot>
 

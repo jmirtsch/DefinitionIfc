@@ -5,8 +5,6 @@
 		<DocLocalization Name="Energy Conversion Device" Locale="en" />
 		<DocLocalization Name="Dispositif de conversion d&apos;énergie" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="180.08966" Y="1188.746" Width="518.36265" Height="102.34881" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="180.08966" Y="1188.746" Width="518.36265" Height="102.34881" />
 </DocEntity>
 

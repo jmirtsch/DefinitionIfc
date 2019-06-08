@@ -5,9 +5,7 @@
 		<DocLocalization Name="Spatial Element" Locale="en" />
 		<DocLocalization Name="Element spatial" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6628.4375" Y="110.60937" Width="413.33333" Height="423.33333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="6628.4375" Y="110.60937" Width="413.33333" Height="423.33333" />
 	<Subtypes>
 		<DocSubtype UniqueId="0ed853b4-90ea-4543-8134-fc97d0cb8032" DefinedType="IfcSpatialZone" />
 		<DocSubtype UniqueId="3c4af36b-6e02-48aa-9641-68a1f1ee9b01" DefinedType="IfcSpatialStructureElement" />
@@ -23,9 +21,7 @@
 				<DocPoint X="7041.7708" Y="168.80757" />
 				<DocPoint X="7467.4982" Y="168.80757" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="7041.7708" Y="152.140903" Width="129" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="7041.7708" Y="152.140903" Width="129" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ContainsElements" UniqueId="ba25c1df-d29f-4d55-8f38-2390bf48ba41" DefinedType="IfcRelContainedInSpatialStructure" AttributeFlags="0" AggregationType="3" AggregationFlag="0" Inverse="RelatingStructure" XsdFormat="element">
 			<Documentation>Set of spatial containment relationships, that holds those elements, which are contained within this element of the project spatial structure.
@@ -35,9 +31,7 @@
 				<DocPoint X="6845.3512" Y="705.76263" />
 				<DocPoint X="7472.93155" Y="705.76263" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="6852.8943575" Y="731.852663" Width="587" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="6852.8943575" Y="731.852663" Width="587" Height="70" />
 		</DocAttribute>
 		<DocAttribute Name="ServicedBySystems" UniqueId="15e959b7-d280-49c7-84da-b6470edf05ac" DefinedType="IfcRelServicesBuildings" AttributeFlags="0" AggregationType="3" AggregationFlag="0" Inverse="RelatedBuildings">
 			<Documentation>Set of relationships to systems, that provides a certain service to the spatial element for which it is defined. The relationship is handled by the objectified relationship &lt;em&gt;IfcRelServicesBuildings&lt;/em&gt;.
@@ -47,9 +41,7 @@
 				<DocPoint X="7656.53754" Y="491.85245" />
 				<DocPoint X="7656.53754" Y="540.60937" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="7011.7709" Y="520.519116" Width="463" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="7011.7709" Y="520.519116" Width="463" Height="70" />
 		</DocAttribute>
 		<DocAttribute Name="ReferencesElements" UniqueId="b2b6b73c-8240-478f-94ac-454a8fb0cbd7" DefinedType="IfcRelReferencedInSpatialStructure" AttributeFlags="0" AggregationType="3" AggregationFlag="0" Inverse="RelatingStructure" XsdFormat="element">
 			<Documentation>Set of spatial reference relationships, that holds those elements, which are referenced, but not contained, within this element of the project spatial structure.
@@ -62,9 +54,7 @@
 				<DocPoint X="7722.2542" Y="294.56924" />
 				<DocPoint X="7722.2542" Y="350.60937" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="7044.1125667" Y="322.902573" Width="602" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="7044.1125667" Y="322.902573" Width="602" Height="70" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

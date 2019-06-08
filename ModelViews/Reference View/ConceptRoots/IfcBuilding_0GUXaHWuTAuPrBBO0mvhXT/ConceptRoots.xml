@@ -1,33 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0GUXaHWuTAuPrBBO0mvhXT">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcBuilding" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcBuilding" />
 	<Concepts>
 		<DocTemplateUsage Name="Building Identity" UniqueId="463257ee-325e-4306-9791-b883b0b8ec4d">
 			<Documentation>&lt;p&gt;The usage of building address, elevation measures and composition type is governed by this concept.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Building Attributes_1040yDtLX7yucQjgMcjFLo" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Building_Attributes_1040yDtLX7yucQjgMcjFLo" />
 			<Exchanges>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Spatial Composition" UniqueId="3dc5b493-557d-482d-8191-406e5e9cf962">
 			<Documentation>&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; By using the inverse relationship &lt;em&gt;IfcBuilding.Decomposes&lt;/em&gt; it references &lt;em&gt;IfcProject&lt;/em&gt; || &lt;em&gt;IfcSite&lt;/em&gt; || &lt;em&gt;IfcBuilding&lt;/em&gt; through &lt;em&gt;IfcRelAggregates.RelatingObject&lt;/em&gt;. If it refers to another instance of &lt;em&gt;IfcBuilding&lt;/em&gt;, the referenced &lt;em&gt;IfcBuilding&lt;/em&gt; needs to have a different and higher &lt;em&gt;CompositionType&lt;/em&gt;, i.e. COMPLEX (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has ELEMENT), or 
 ELEMENT (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has PARTIAL).&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Composition_2C3zBtSRjERe$R30ApKl5A" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Composition_2C3zBtSRjEReR30ApKl5A" />
 			<Items>
 				<DocTemplateItem UniqueId="de28f014-ffc3-42ab-adbc-aaa2cdf6323d" RuleParameters="Spatial Composite=IfcProject;" Order="0">
 					<Documentation>Direct assignment to project, if the building is the outermost spatial container, and no site information is provided for building projects</Documentation>
@@ -46,9 +36,7 @@ ELEMENT (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has PARTIAL).&lt;/blockqu
 If it refers to another instance of&amp;nbsp;&lt;em&gt;IfcBuilding&lt;/em&gt;, the referenced &lt;em&gt;IfcBuilding&lt;/em&gt; needs 
 to have a different and lower &lt;em&gt;CompositionType&lt;/em&gt;, i.e. ELEMENT (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; 
 has COMPLEX), or PARTIAL (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has ELEMENT).&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Decomposition_1cVuH3xCvAZQO$an_h15FW" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Decomposition_1cVuH3xCvAZQOan_h15FW" />
 			<Items>
 				<DocTemplateItem UniqueId="2a199714-2d7c-4938-a277-777aae8da996" RuleParameters="Spatial Parts=IfcBuildingStorey;" Order="0">
 					<Documentation>Spatial decomposition into building stories.</Documentation>
@@ -59,22 +47,16 @@ has COMPLEX), or PARTIAL (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has ELEM
 			</Items>
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="3Jr573wEv2tf73AZphU9qa">
 			<Documentation>&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; If there are building elements and/or other elements directly related to the &lt;em&gt;IfcBuilding&lt;/em&gt; (like a curtain wall spanning several stories), they are associated with the &lt;em&gt;IfcBuilding&lt;/em&gt; by using the objectified relationship &lt;em&gt;IfcRelContainedInSpatialStructure&lt;/em&gt;. The &lt;em&gt;IfcBuilding&lt;/em&gt; references them by its inverse relationship &lt;em&gt;IfcBuilding.ContainsElements&lt;/em&gt;, referencing any subtype of &lt;em&gt;IfcProduct&lt;/em&gt; (with the  exception of other spatial structure element) by &lt;em&gt;IfcRelContainedInSpatialStructure.RelatedElements&lt;/em&gt;.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Container_1XtGZj$G59LPCtYlqeIWvl" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Container_1XtGZjG59LPCtYlqeIWvl" />
 			<Items>
 				<DocTemplateItem UniqueId="a8d5196d-fb7e-4ffe-b2ea-d3d1d08f2086" RuleParameters="Type=IfcElement;" Order="0">
 					<Documentation>The building may contain elements directly (if those are not assigned to the individual building stories or spaces.</Documentation>
@@ -82,29 +64,21 @@ has COMPLEX), or PARTIAL (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has ELEM
 			</Items>
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Property Sets for Objects" UniqueId="a8d8b5f8-9088-4534-8a5a-179242f7706b">
 			<Documentation>&lt;p&gt;The following standard property sets are defined for &lt;em&gt;IfcBuilding&lt;/em&gt;.</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="cb54fdbb-9d1f-46f5-84fc-7add354f4cc2" RuleParameters="PsetName=Pset_BuildingCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="6ed7a9df-ee62-4763-9d84-0cc24184d645">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="fa9bfc4b-d71f-49b5-93f8-d3c3eca65849" RuleParameters="Order=1;PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="0b90f56b-de08-4a33-8d97-b80abd9a8b51" RuleParameters="Order=2;PropertyName=BuildingID;Value=IfcIdentifier;" Order="0" />
@@ -127,9 +101,7 @@ has COMPLEX), or PARTIAL (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has ELEM
 				<DocTemplateItem UniqueId="26dcdfcb-80f6-4fa3-9361-7e0f9a59f6bd" RuleParameters="PsetName=Pset_BuildingUse;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="532e7f13-cb3f-40d6-8b2b-d649e9538310">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="9b99387d-c790-4e86-aef2-6ca3e9c07a7a" RuleParameters="Order=1;PropertyName=MarketCategory;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="86e652d0-8776-439c-a45f-839be4974dc7" RuleParameters="Order=2;PropertyName=MarketSubCategory;Value=IfcLabel;" Order="0" />
@@ -140,9 +112,7 @@ has COMPLEX), or PARTIAL (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has ELEM
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="b609df6e-85fe-42d2-8c4d-c488951fd940">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="List Value_2E4BQ8aNbEEesoQhog$fKj" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="List_Value_2E4BQ8aNbEEesoQhogfKj" />
 							<Items>
 								<DocTemplateItem UniqueId="4c016f98-e663-4fe2-8330-3ee71bebd320" RuleParameters="Order=6;PropertyName=TenureModesAvailableNow;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="67af83b4-0250-4c85-964d-e29e4c5de427" RuleParameters="Order=7;PropertyName=MarketSubCategoriesAvailableNow;Value=IfcLabel;" Order="0" />
@@ -151,9 +121,7 @@ has COMPLEX), or PARTIAL (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has ELEM
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="295b1a54-de4f-46e3-a9a8-5d45e88459cd">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Bounded_Value_0zPwBITXr4sQ2Ujkn_bOo" />
 							<Items>
 								<DocTemplateItem UniqueId="96454ad2-c5a0-40a2-b3b4-2223f916e698" RuleParameters="Order=8;PropertyName=RentalRatesInCategoryNow;SetValue=IfcMonetaryMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="2abbef86-3ab2-43fe-a005-1b8a1ba29f5e" RuleParameters="Order=12;PropertyName=RentalRatesInCategoryFuture;SetValue=IfcMonetaryMeasure;" Order="0" />
@@ -164,9 +132,7 @@ has COMPLEX), or PARTIAL (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has ELEM
 				<DocTemplateItem UniqueId="4f05a72b-c1dc-43d8-a831-f42ed3531216" RuleParameters="PsetName=Pset_BuildingUseAdjacent;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="eafbf102-36ce-478e-a986-fc946866a914">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="ac9b35e0-96f3-4ff4-8776-abaaf872732a" RuleParameters="Order=1;PropertyName=MarketCategory;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="41ec8246-6285-4d50-a06f-e24875bb95a0" RuleParameters="Order=2;PropertyName=MarketSubCategory;Value=IfcLabel;" Order="0" />
@@ -179,9 +145,7 @@ has COMPLEX), or PARTIAL (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has ELEM
 				<DocTemplateItem UniqueId="7bc6dcfd-d41f-4625-b80a-667be207e9e9" RuleParameters="PsetName=Pset_OutsideDesignCriteria;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="eab8946d-a6a3-4523-b5f6-2ce79cf61cf7">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="39f40199-a0a9-4cbd-a00c-3860613ac5f2" RuleParameters="Order=1;PropertyName=HeatingDryBulb;Value=IfcThermodynamicTemperatureMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="ad738565-88cb-4a8c-bc3f-899c537e76e7" RuleParameters="Order=2;PropertyName=HeatingWetBulb;Value=IfcThermodynamicTemperatureMeasure;" Order="0" />
@@ -196,9 +160,7 @@ has COMPLEX), or PARTIAL (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has ELEM
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="28cfac7e-b8cd-4214-842f-74424e30447a">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="f6d70e2f-9160-43f6-8e8a-c323a5e65cae" RuleParameters="Order=9;PropertyName=BuildingThermalExposure;Value=IfcLabel;Reference=PEnum_BuildingThermalExposure;" Order="0" />
 							</Items>
@@ -209,25 +171,19 @@ has COMPLEX), or PARTIAL (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has ELEM
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Quantity Sets" UniqueId="31tbsTp2n4xAEGG2M1uxUo">
 			<Documentation>&lt;p&gt;The following base quantities are defined for &lt;em&gt;IfcBuilding&lt;/em&gt;.</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="66e6dc3b-fa05-4a18-8bef-986feb1dc055" RuleParameters="QsetName=Qto_BuildingBaseQuantities;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Quantities" UniqueId="be420d2d-f20f-4ea8-89e7-45c73e8baa47">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Length Quantity_3TXdZXum1FS9rZvJdRIz4S" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Length_Quantity_3TXdZXum1FS9rZvJdRIz4S" />
 							<Items>
 								<DocTemplateItem UniqueId="1580ac2c-e366-4f5d-b5ac-65e1a86666f5" RuleParameters="Order=1;QuantityName=Height;" Order="0" />
 								<DocTemplateItem UniqueId="222f7ccb-df42-48f2-9880-6559ce7430ed" RuleParameters="Order=2;QuantityName=EavesHeight;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Quantities" UniqueId="ba8a2dfc-a3c8-43f9-9568-a8b9088c5424">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Area Quantity_1bh4T7Rlz3VfJYP3$Kux_6" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Area_Quantity_1bh4T7Rlz3VfJYP3Kux_6" />
 							<Items>
 								<DocTemplateItem UniqueId="7e922615-a15f-44bd-adf0-594b34c7a099" RuleParameters="Order=3;QuantityName=FootprintArea;" Order="0" />
 								<DocTemplateItem UniqueId="d0c7cc6d-c01f-4f88-bc51-0e24882f4709" RuleParameters="Order=4;QuantityName=GrossFloorArea;" Order="0" />
@@ -235,9 +191,7 @@ has COMPLEX), or PARTIAL (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has ELEM
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Quantities" UniqueId="5b687fd0-4e84-42a8-9df5-4d06bea616a4">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Volume Quantity_1aaQEmj_b1Ae8clDaSAmiE" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Volume_Quantity_1aaQEmj_b1Ae8clDaSAmiE" />
 							<Items>
 								<DocTemplateItem UniqueId="1b7a090d-cab7-4751-b5eb-b6f6475b805c" RuleParameters="Order=6;QuantityName=GrossVolume;" Order="0" />
 								<DocTemplateItem UniqueId="1e9a82a0-d578-4741-b3b0-e747f39eb2e3" RuleParameters="Order=7;QuantityName=NetVolume;" Order="0" />
@@ -248,14 +202,10 @@ has COMPLEX), or PARTIAL (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has ELEM
 			</Items>
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
@@ -273,9 +223,7 @@ The local placement for &lt;em&gt;IfcBuilding&lt;/em&gt; is defined by its
  &lt;em&gt;IfcLocalPlacement&lt;/em&gt; shall point to the subtype of &lt;em&gt;IfcSpatialStructureElement&lt;/em&gt; that is referenced by the &lt;em&gt;Spatial Decomposition&lt;/em&gt; concept (usually of type &lt;em&gt;IfcSite&lt;/em&gt;).&lt;/li&gt;
  &lt;li&gt;If the &lt;em&gt;IfcBuilding&lt;/em&gt; is the uppermost spatial structure element, the &lt;em&gt;PlacementRelTo&lt;/em&gt; shall not be set.&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 			<Items>
 				<DocTemplateItem UniqueId="fef8deea-598f-4b35-88ad-5769c4ab2da6" RuleParameters="HasPlacement=IfcLocalPlacement;" Order="0">
 					<Documentation>The &lt;em&gt;IfcBuilding&lt;/em&gt; shall be placed relative to another &lt;em&gt;IfcBuilding&lt;/em&gt; or an &lt;em&gt;IfcSite&lt;/em&gt;.</Documentation>
@@ -283,45 +231,29 @@ The local placement for &lt;em&gt;IfcBuilding&lt;/em&gt; is defined by its
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="0f6cd84b-a507-4ff4-b4f3-4d1bd1c19b0d">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="FootPrint GeomSet Geometry_2KLjRMfYf8jBh$lYuukgoS" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="FootPrint_GeomSet_Geometry_2KLjRMfYf8jBhlYuukgoS" />
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Structure Service Connectivity" UniqueId="d08fc317-691e-4ca0-9af9-501223fa0123">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Service Connectivity_3ZHXQIzCLD_gZr1pIWQOzh" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Service_Connectivity_3ZHXQIzCLD_gZr1pIWQOzh" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="d7ab2ac7-add2-4bbd-85a1-917df69b13d7" Suppress="true">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="ac74e260-02f0-4ab2-b914-b10c1e40d2a0" Suppress="true">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Predefined Type_0b989XcDzD2fDaLbDNNAGX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Predefined_Type_0b989XcDzD2fDaLbDNNAGX" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="440a3888-d68d-43de-baee-5209bca0149c" Suppress="true">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object User Identity_31di66dFr7$AJKdxDG2D1A" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_User_Identity_31di66dFr7AJKdxDG2D1A" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="819ec826-5712-40bc-8283-393ef9293b3f" Type="IfcBuilding" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="9bdb4737-a30b-44e3-bf1e-5e2e32dbcb1a" Type="IfcBuilding" />
 </DocConceptRoot>
 

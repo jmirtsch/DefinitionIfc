@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="71d85d00-51cf-46ee-b518-af6d8f89f39d">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcStructuralResultGroup" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcStructuralResultGroup" />
 	<Concepts>
 		<DocTemplateUsage Name="Group Assignment" UniqueId="219083b9-f5cc-4595-a1ab-3cf8f5924841">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Group Assignment_3rPvP$L9D4sQnHatm9h2M3" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Group_Assignment_3rPvPL9D4sQnHatm9h2M3" />
 			<Items>
 				<DocTemplateItem UniqueId="c60d74fa-e9f4-46df-bb1a-3fa328b7880a" RuleParameters="Type=IfcStructuralReaction;" Order="0">
 					<Documentation>Structural reactions of the result group.</Documentation>
@@ -15,8 +11,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="56cc2c09-6c22-4ae4-8000-0b6bc6205893" Type="IfcStructuralResultGroup" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="39c4ad30-5af4-4057-8066-6d3b3cde6968" Type="IfcStructuralResultGroup" />
 </DocConceptRoot>
 

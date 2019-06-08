@@ -5,9 +5,7 @@
 		<DocLocalization Name="Presentation Layer With Style" Locale="en" />
 		<DocLocalization Name="Assignation de calque avec style" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="40.833376566569" Y="942.373372395833" Width="439.333333333333" Height="513.999979654948" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="40.833376566569" Y="942.373372395833" Width="439.333333333333" Height="513.999979654948" />
 	<Attributes>
 		<DocAttribute Name="LayerOn" UniqueId="c35508db-bb0f-4b65-8ebe-1263d8d30880" DefinedType="IfcLogical" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>A logical setting, TRUE indicates that the layer is set to &apos;On&apos;, FALSE that the layer is set to &apos;Off&apos;, UNKNOWN that such information is not available.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="480.166709899902" Y="1203.46691894531" />
 				<DocPoint X="1031.16660563151" Y="1203.46691894531" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="480.166709899902" Y="1183.46691894531" Width="102" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="480.166709899902" Y="1183.46691894531" Width="102" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="LayerFrozen" UniqueId="cd1d47f4-0d9b-443b-99a8-e11337ce2807" DefinedType="IfcLogical" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>A logical setting, TRUE indicates that the layer is set to &apos;Frozen&apos;, FALSE that the layer is set to &apos;Not frozen&apos;, UNKNOWN that such information is not available.</Documentation>
@@ -27,9 +23,7 @@
 				<DocPoint X="480.166709899902" Y="1261.21691894531" />
 				<DocPoint X="1031.16660563151" Y="1261.21691894531" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="480.166709899902" Y="1241.21691894531" Width="146" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="480.166709899902" Y="1241.21691894531" Width="146" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="LayerBlocked" UniqueId="30057b28-65bc-49de-8333-f563a5910322" DefinedType="IfcLogical" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>A logical setting, TRUE indicates that the layer is set to &apos;Blocked&apos;, FALSE that the layer is set to &apos;Not blocked&apos;, UNKNOWN that such information is not available.</Documentation>
@@ -38,9 +32,7 @@
 				<DocPoint X="480.166709899902" Y="1318.96691894531" />
 				<DocPoint X="1031.16660563151" Y="1318.96691894531" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="480.166709899902" Y="1298.96691894531" Width="156" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="480.166709899902" Y="1298.96691894531" Width="156" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="LayerStyles" UniqueId="e8b3dbe7-1765-4f94-95ef-729981109562" DefinedType="IfcPresentationStyle" AttributeFlags="0" AggregationType="3" AggregationFlag="0">
 			<Documentation>Assignment of presentation styles to the layer to provide a default style for representation items.
@@ -54,9 +46,7 @@ IFC4 CHANGE&amp;nbsp; The data type has been changed from &lt;em&gt;IfcPresentat
 				<DocPoint X="480.166709899902" Y="1037.60005442301" />
 				<DocPoint X="692.499918619792" Y="1037.60005442301" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="480.166709899902" Y="1017.60005442301" Width="214" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="480.166709899902" Y="1017.60005442301" Width="214" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

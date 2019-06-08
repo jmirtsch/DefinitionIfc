@@ -5,9 +5,7 @@
 		<DocLocalization Name="Complex Property" Locale="en" />
 		<DocLocalization Name="Propriété complexe" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="469.50003" Y="1567.7999" Width="453.23334" Height="104.1" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="469.50003" Y="1567.7999" Width="453.23334" Height="104.1" />
 	<Attributes>
 		<DocAttribute Name="UsageName" UniqueId="f21a5e51-7581-416f-943f-25398d2e3c4d" DefinedType="IfcIdentifier" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Usage description of the &lt;em&gt;IfcComplexProperty&lt;/em&gt; within the property set which references the &lt;em&gt;IfcComplexProperty&lt;/em&gt;.
@@ -16,9 +14,7 @@
 				<DocPoint X="696.1167" Y="1671.8999" />
 				<DocPoint X="696.1167" Y="1812.01657" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="782.783367" Y="1687.233233" Width="145" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="782.783367" Y="1687.233233" Width="145" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="HasProperties" UniqueId="6321203a-4666-4064-aa58-167b85c5935f" DefinedType="IfcProperty" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
 			<Documentation>Set of properties that can be used within this complex property (may include other complex properties).</Documentation>
@@ -27,9 +23,7 @@
 				<DocPoint X="493.50928" Y="1378.49094" />
 				<DocPoint X="679.60001" Y="1378.49094" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="448.463915" Y="1482.49094" Width="242" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="448.463915" Y="1482.49094" Width="242" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

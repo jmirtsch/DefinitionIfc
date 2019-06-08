@@ -5,9 +5,7 @@
 		<DocLocalization Name="Colour Specification" Locale="en" />
 		<DocLocalization Name="Spécification de couleur" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="7303.7001" Y="2838.1332" Width="383.23333" Height="123.33333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="7303.7001" Y="2838.1332" Width="383.23333" Height="123.33333" />
 	<Subtypes>
 		<DocSubtype UniqueId="9a19f3b7-db67-46bc-ad58-bf9f6a7d5c26" DefinedType="IfcColourRgb" />
 	</Subtypes>
@@ -20,9 +18,7 @@
 				<DocPoint X="7303.7001" Y="2899.7999" />
 				<DocPoint X="7166.36677" Y="2899.7999" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="7303.7001" Y="2899.7999" Width="73" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="7303.7001" Y="2899.7999" Width="73" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

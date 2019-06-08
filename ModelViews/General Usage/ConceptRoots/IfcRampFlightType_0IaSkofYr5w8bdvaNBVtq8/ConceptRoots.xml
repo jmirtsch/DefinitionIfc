@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1291cbb2-a62d-45e8-8967-e645cb7f7d08">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcRampFlightType" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcRampFlightType" />
 	<Concepts>
 		<DocTemplateUsage Name="Body Geometry" UniqueId="148211f5-ee8b-4092-8a1b-b3c7070daaab">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Type Body Geometry_0wx2q0jBj7QgWX$2AubRKn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Type_Body_Geometry_0wx2q0jBj7QgWX2AubRKn" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="9fbe2a47-1b0d-450d-85da-cb2efe4882db" Type="IfcRampFlightType" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="bd6b0498-580c-4915-9701-4ab8fd339e79" Type="IfcRampFlightType" />
 </DocConceptRoot>
 

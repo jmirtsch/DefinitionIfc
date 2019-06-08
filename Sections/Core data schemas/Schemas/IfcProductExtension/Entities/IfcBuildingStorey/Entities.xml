@@ -5,9 +5,7 @@
 		<DocLocalization Name="Building Storey" Locale="en" />
 		<DocLocalization Name="Niveau" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="8211.1209" Y="1631.976" Width="303.33333" Height="169.23334" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="8211.1209" Y="1631.976" Width="303.33333" Height="169.23334" />
 	<Attributes>
 		<DocAttribute Name="Elevation" UniqueId="367e04fb-f522-45f0-b033-d5dc9b3f433d" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>&lt;p&gt;Elevation of the base of this storey, relative to the 0,00 internal reference height of the building. The 0.00 level is given by the absolute above sea level height by the &lt;i&gt;ElevationOfRefHeight&lt;/i&gt; attribute given at &lt;i&gt;IfcBuilding&lt;/i&gt;.&lt;/p&gt;
@@ -17,9 +15,7 @@
 				<DocPoint X="8514.4542" Y="1712.7364" />
 				<DocPoint X="9073.4539" Y="1712.7364" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="8511.1208667" Y="1706.0697333" Width="108" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="8511.1208667" Y="1706.0697333" Width="108" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

@@ -4,9 +4,7 @@
 		<DocLocalization Name="Metric Value Select" Locale="en" />
 		<DocLocalization Name="Sélection du type de valeur associé à une métrique" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1671.3795" Y="111.1156" Width="412.00601" Height="66" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1671.3795" Y="111.1156" Width="412.00601" Height="66" />
 	<Selects>
 		<DocSelectItem Name="IfcMeasureWithUnit" UniqueId="99f1194a-05cc-4feb-b96c-7d15823dab12" />
 		<DocSelectItem Name="IfcTable" UniqueId="f35b785b-8eb9-4501-b07d-f5d32c0b8254" />

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3FYgCCY_9DZ8p8AG8Polvx">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcBuildingStorey" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcBuildingStorey" />
 	<Concepts>
 		<DocTemplateUsage Name="Spatial Composition" UniqueId="dee418f3-e5ea-4ade-914e-69e111bb4147">
 			<Documentation>&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; By using the inverse relationship &lt;em&gt;IfcBuildingStorey.Decomposes&lt;/em&gt; it references
@@ -12,9 +10,7 @@ instance of &lt;em&gt;IfcBuildingStorey&lt;/em&gt;, the referenced
 &lt;em&gt;IfcBuildingStorey&lt;/em&gt; needs to have a different and higher
  &lt;em&gt;CompositionType&lt;/em&gt;, i.e. COMPLEX (if the other &lt;em&gt;IfcBuildingStorey&lt;/em&gt; has ELEMENT), or ELEMENT (if the other
  &lt;em&gt;IfcBuildingStorey&lt;/em&gt; has PARTIAL).&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Composition_2C3zBtSRjERe$R30ApKl5A" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Composition_2C3zBtSRjEReR30ApKl5A" />
 			<Items>
 				<DocTemplateItem UniqueId="ca844e99-1ea7-4505-b620-2a560a94397f" RuleParameters="Spatial Composite=IfcBuilding;" Order="0">
 					<Documentation>Assignment to the building, where the building storey is a part of.</Documentation>
@@ -34,9 +30,7 @@ instance of &lt;em&gt;IfcBuildingStorey&lt;/em&gt;, the referenced
 &lt;em&gt;IfcBuildingStorey&lt;/em&gt; has COMPLEX), or PARTIAL (if the other 
 &lt;em&gt;IfcBuildingStorey&lt;/em&gt; has ELEMENT).&lt;/blockquote&gt;
 &lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; Multi storey spaces shall be spatially contained by only a single building storey, usually it is the building storey where the base of the space lies.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Decomposition_1cVuH3xCvAZQO$an_h15FW" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Decomposition_1cVuH3xCvAZQOan_h15FW" />
 			<Items>
 				<DocTemplateItem UniqueId="02b9d18d-e010-4964-8f8b-01cd0ec3b241" RuleParameters="Spatial Parts=IfcSpace;" Order="0">
 					<Documentation>Reference to the spaces that are assigned to this storey.</Documentation>
@@ -69,21 +63,15 @@ building service or electrical distribution systems, zonal
 systems, or structural analysis systems, relate to
 &lt;em&gt;IfcBuildingStorey&lt;/em&gt; by using the objectified relationship
 &lt;em&gt;IfcRelServicesBuildings&lt;/em&gt;.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Container_1XtGZj$G59LPCtYlqeIWvl" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Container_1XtGZjG59LPCtYlqeIWvl" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="2YwY859Z96LvDt411YvoVz">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="3f1ce069-fb03-41ce-aee9-a9647bc03d02" RuleParameters="PsetName=Pset_BuildingStoreyCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="b77a02eb-337d-4611-ab10-ff74a58fa8e7">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="cf6bb5a2-f799-452e-a619-9d10eb9efe53" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="722ddea7-dc0b-4f4f-8967-c4c390ca2395" RuleParameters="PropertyName=EntranceLevel;Value=IfcBoolean;" Order="0" />
@@ -100,9 +88,7 @@ systems, or structural analysis systems, relate to
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="0i0ewFkArBNvcYwQ_FlKWR">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="4e50ed6f-e69a-42e9-9e47-bfcc3112f660" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_BuildingStoreyBaseQuantities;TemplateType=QTO_OCCURRENCEDRIVEN;" Order="0" />
 			</Items>
@@ -126,9 +112,7 @@ or a partial building storey to a building storey).&lt;/li&gt;
 is defined within the world coordinate system.&lt;/li&gt;
 
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="FootPrint GeomSet Geometry" UniqueId="3a7d8b5a-2c60-41a2-9b5f-2d47186b577b">
 			<Documentation>&lt;p&gt;The foot print representation of &lt;em&gt;IfcBuildingStorey&lt;/em&gt; is
@@ -137,9 +121,7 @@ given by either a single 2D curve (such as &lt;em&gt;IfcPolyline&lt;/em&gt; or
 inner boundaries), if the building storey has an independent
 geometric representation.&lt;/p&gt;
 &lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The independent geometric representation of &lt;em&gt;IfcBuildingStorey&lt;/em&gt; may not be allowed in certain model view definitions. In those cases only the contained elements and spaces have an independent geometric representation.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="FootPrint GeomSet Geometry_2KLjRMfYf8jBh$lYuukgoS" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="FootPrint_GeomSet_Geometry_2KLjRMfYf8jBhlYuukgoS" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Geometry" UniqueId="0w8y3xmUDD7xphdW$xi_aL">
 			<Documentation>&lt;p&gt;The body (or solid model) geometric representation (if the
@@ -153,16 +135,12 @@ capabilities (with or without voids), based on the
  exterior building elements, an independent shape representation 
 shall only be given, if the building storey is exposed 
 independently from its constituting elements and such independent geometric representation may be prohibited in model view definitions.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Geometry_34HhqMBUDBbxDFH4Qi2wt2" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Geometry_34HhqMBUDBbxDFH4Qi2wt2" />
 			<Items>
 				<DocTemplateItem UniqueId="119a63e6-5c20-45ee-8f09-1da310210473" RuleParameters="RepresentationType=Brep;Geometry=IfcFacetedBrep;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="460ad6e8-0ed4-4849-a26f-b7e31f22d47a" Type="IfcBuildingStorey" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="69d27b47-dbf4-4fbc-ac14-13f7a4b76c21" Type="IfcBuildingStorey" />
 </DocConceptRoot>
 

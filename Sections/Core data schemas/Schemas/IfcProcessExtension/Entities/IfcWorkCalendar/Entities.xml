@@ -5,9 +5,7 @@
 		<DocLocalization Name="Work Calendar" Locale="en" />
 		<DocLocalization Name="Calendrier de travail" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3236.5201" Y="1991.9867" Width="455.96667" Height="249.26667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3236.5201" Y="1991.9867" Width="455.96667" Height="249.26667" />
 	<Attributes>
 		<DocAttribute Name="WorkingTimes" UniqueId="f600c372-69d7-44f2-ad5a-450a9dd1e34a" DefinedType="IfcWorkTime" AttributeFlags="1" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
 			<Documentation>Set of times periods that are regarded as an initial set-up
@@ -18,9 +16,7 @@
 				<DocPoint X="3692.48677" Y="2036.03111325521" />
 				<DocPoint X="4081.74658203125" Y="2036.03111325521" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3692.48677" Y="2016.03111325521" Width="242" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3692.48677" Y="2016.03111325521" Width="242" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ExceptionTimes" UniqueId="2a68f57c-be31-4ee2-acee-aa80e15467f6" DefinedType="IfcWorkTime" AttributeFlags="1" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
 			<Documentation>Set of times periods that define exceptions (non-working
@@ -31,9 +27,7 @@
 				<DocPoint X="3692.48677" Y="2087.47555658854" />
 				<DocPoint X="4081.74658203125" Y="2087.47555658854" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3692.48677" Y="2067.47555658854" Width="260" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3692.48677" Y="2067.47555658854" Width="260" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="PredefinedType" UniqueId="4343392e-ed01-4af4-931f-7be994806a87" DefinedType="IfcWorkCalendarTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of a work calendar from which 
@@ -44,9 +38,7 @@
 				<DocPoint X="3692.48677" Y="2219.7561850625" />
 				<DocPoint X="4081.84448242188" Y="2219.7561850625" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3692.48677" Y="2199.7561850625" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3692.48677" Y="2199.7561850625" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

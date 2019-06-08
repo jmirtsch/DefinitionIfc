@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="d91834a7-d0d1-4c19-9564-44eecf31cd9c">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcGroup" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcGroup" />
 	<Concepts>
 		<DocTemplateUsage Name="Group Assignment" UniqueId="90d7d5e3-5561-4236-8a58-6cf1a7b284eb">
 			<Documentation>&lt;p&gt;The &lt;em&gt;IfcGroup&lt;/em&gt; establishes an arbitrary collection of objects by utilizing this concept.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Group Assignment_3rPvP$L9D4sQnHatm9h2M3" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Group_Assignment_3rPvPL9D4sQnHatm9h2M3" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="c2791887-a909-4aa0-8d12-8c37b925968a" Type="IfcGroup" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="5a013fa0-5963-4e35-92fd-933c9baa3005" Type="IfcGroup" />
 </DocConceptRoot>
 

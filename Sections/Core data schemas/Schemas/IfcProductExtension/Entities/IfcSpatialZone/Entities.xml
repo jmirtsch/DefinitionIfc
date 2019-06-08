@@ -5,9 +5,7 @@
 		<DocLocalization Name="Spatial Zone" Locale="en" />
 		<DocLocalization Name="Zone spatiale" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="7467.5375" Y="850.10938" Width="430" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="7467.5375" Y="850.10938" Width="430" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="2dfe36e4-06f5-40ff-bcfb-4976d2cfada4" DefinedType="IfcSpatialZoneTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined types to define the particular type of the spatial zone. There may be property set definitions available for each predefined type.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="7522.5375" Y="950.10941" />
 				<DocPoint X="7522.5375" Y="1142.60935" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="7639.17083" Y="963.442743" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="7639.17083" Y="963.442743" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

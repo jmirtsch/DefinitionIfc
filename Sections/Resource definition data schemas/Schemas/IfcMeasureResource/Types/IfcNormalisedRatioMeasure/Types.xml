@@ -4,12 +4,8 @@
 		<DocLocalization Name="Normalised Ratio Measure" Locale="en" />
 		<DocLocalization Name="Mesure de ratio normé" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4163.1866" Y="1600.5784" Width="396.07221" Height="66.545168" />
-	</DiagramRectangle>
-	<Definition>
-		<DocDefined xsi:nil="true" href="IfcRatioMeasure" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="4163.1866" Y="1600.5784" Width="396.07221" Height="66.545168" />
+	<Definition xsi:type="DocDefined" xsi:nil="true" href="IfcRatioMeasure" />
 	<WhereRules>
 		<DocWhereRule Name="WR1" UniqueId="b03beb5c-511a-4e9b-bbd9-7370f611c6dc">
 			<Documentation>Normalized ratio shall be a non-negative value less than or equal to 1.0</Documentation>

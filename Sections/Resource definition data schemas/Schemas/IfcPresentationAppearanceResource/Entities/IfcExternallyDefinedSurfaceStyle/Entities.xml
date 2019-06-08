@@ -4,8 +4,6 @@
 		<DocLocalization Name="Extern definiert - Oberflächenstil" Locale="de" />
 		<DocLocalization Name="Externally Defined Surface Style" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="694.766672770182" Y="2962.29988606771" Width="488" Height="124.33333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="694.766672770182" Y="2962.29988606771" Width="488" Height="124.33333" />
 </DocEntity>
 

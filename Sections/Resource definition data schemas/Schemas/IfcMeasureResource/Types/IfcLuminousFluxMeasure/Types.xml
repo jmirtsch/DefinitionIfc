@@ -4,12 +4,8 @@
 		<DocLocalization Name="Luminous Flux Measure" Locale="en" />
 		<DocLocalization Name="Mesure du flux lumineux" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5665.2334" Y="1100.6368" Width="456.65334" Height="54.923051" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_1SddBbMCTC3A60DhixqP6k" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5665.2334" Y="1100.6368" Width="456.65334" Height="54.923051" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_1SddBbMCTC3A60DhixqP6k" />
 	<DiagramLine>
 		<DocPoint X="6121.8868" Y="1128.0983" />
 		<DocPoint X="6232.6302" Y="1128.0983" />

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Rel Associates Approval" Locale="en" />
 		<DocLocalization Name="Association à approbation" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="917.33334" Y="1690.6" Width="493.3" Height="129.33333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="917.33334" Y="1690.6" Width="493.3" Height="129.33333" />
 	<Attributes>
 		<DocAttribute Name="RelatingApproval" UniqueId="aa4a0a9b-1b67-4b7f-9fae-73e5c2b4d0cb" DefinedType="IfcApproval" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Reference to approval that is being applied using this relationship.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="1163.9833" Y="1819.9333" />
 				<DocPoint X="1163.9833" Y="1968.03321" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1291.48329" Y="1839.266619" Width="195" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1291.48329" Y="1839.266619" Width="195" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

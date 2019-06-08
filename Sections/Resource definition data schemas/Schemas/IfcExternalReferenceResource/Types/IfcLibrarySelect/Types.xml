@@ -4,9 +4,7 @@
 		<DocLocalization Name="Library Select" Locale="en" />
 		<DocLocalization Name="Sélection de bibliothèque" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="464.5" Y="1232.7667" Width="305" Height="76.633333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="464.5" Y="1232.7667" Width="305" Height="76.633333" />
 	<Selects>
 		<DocSelectItem Name="IfcLibraryReference" UniqueId="73f2584d-e3ae-47c7-84e9-afa19540e2a6" />
 		<DocSelectItem Name="IfcLibraryInformation" UniqueId="582b47c0-9ac4-42c1-b746-f88b7207638a" />

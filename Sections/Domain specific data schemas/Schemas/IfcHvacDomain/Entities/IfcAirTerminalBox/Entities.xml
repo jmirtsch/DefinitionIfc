@@ -5,18 +5,14 @@
 		<DocLocalization Name="Air Terminal Box" Locale="en" />
 		<DocLocalization Name="Diffuseur d&apos;air" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6016.212" Y="411.6905" Width="330.30065" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="6016.212" Y="411.6905" Width="330.30065" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="5a851e83-1420-4838-b101-36c0f6996d1d" DefinedType="IfcAirTerminalBoxTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
 				<DocPoint X="6016.212" Y="461.6905" />
 				<DocPoint X="5764.81784" Y="461.6905" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="6016.212" Y="461.6905" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="6016.212" Y="461.6905" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

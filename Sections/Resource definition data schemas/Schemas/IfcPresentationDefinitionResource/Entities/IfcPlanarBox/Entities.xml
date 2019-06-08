@@ -5,9 +5,7 @@
 		<DocLocalization Name="Planar Box" Locale="en" />
 		<DocLocalization Name="Boite planaire" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1948.5333" Y="1662.2624" Width="296.63333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1948.5333" Y="1662.2624" Width="296.63333" Height="100" />
 	<Attributes>
 		<DocAttribute Name="Placement" UniqueId="7ac3fdb9-4687-4617-b7e8-001ca67aca70" DefinedType="IfcAxis2Placement" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The &lt;em&gt;IfcAxis2Placement&lt;/em&gt; positions a local coordinate system for the definition of the rectangle. The origin of this local coordinate system serves as the lower left corner of the rectangular box.
@@ -18,9 +16,7 @@
 				<DocPoint X="3060.71511" Y="255.5787" />
 				<DocPoint X="2955.58007" Y="255.5787" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2229.429147" Y="1699.106001" Width="123" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2229.429147" Y="1699.106001" Width="123" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

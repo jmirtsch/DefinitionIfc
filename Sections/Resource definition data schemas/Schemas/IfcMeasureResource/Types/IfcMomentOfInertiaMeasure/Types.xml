@@ -4,12 +4,8 @@
 		<DocLocalization Name="Moment Of Inertia Measure" Locale="en" />
 		<DocLocalization Name="Mesure du moment d&apos;inertie" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5060.3078" Y="1257.7986" Width="529.22278" Height="54.923051" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_38xoHF$LTCs9HH8X1mmZaz" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5060.3078" Y="1257.7986" Width="529.22278" Height="54.923051" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_38xoHFLTCs9HH8X1mmZaz" />
 	<DiagramLine>
 		<DocPoint X="5060.3078" Y="1283.7048" />
 		<DocPoint X="4971.288323" Y="1283.7048" />

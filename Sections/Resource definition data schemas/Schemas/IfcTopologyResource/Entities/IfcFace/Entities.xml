@@ -5,9 +5,7 @@
 		<DocLocalization Name="Face" Locale="en" />
 		<DocLocalization Name="Face" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1904.3563" Y="651.05" Width="283.3" Height="499.999989827474" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1904.3563" Y="651.05" Width="283.3" Height="499.999989827474" />
 	<Subtypes>
 		<DocSubtype UniqueId="b9d64425-37d9-4d0d-847d-e6891f7d83c8" DefinedType="IfcFaceSurface" />
 	</Subtypes>
@@ -19,9 +17,7 @@
 				<DocPoint X="2046.022965" Y="1151.04998982747" />
 				<DocPoint X="2046.022965" Y="1358.1166" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2046.022965" Y="1338.1166" Width="170" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2046.022965" Y="1338.1166" Width="170" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="HasTextureMaps" UniqueId="f4c1aa64-ef3e-4267-a0e3-47c4bfc89b38" DefinedType="IfcTextureMap" AttributeFlags="32" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="MappedTo">
 			<DiagramLine>
@@ -29,9 +25,7 @@
 				<DocPoint X="2187.6563" Y="1060.38002522786" />
 				<DocPoint X="2554.18693033854" Y="1060.38002522786" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2187.6563" Y="1040.38002522786" Width="338" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2187.6563" Y="1040.38002522786" Width="338" Height="70" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Junction Box" Locale="en" />
 		<DocLocalization Name="Boite de jonction" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2453.4333" Y="1552.6667" Width="679.86667" Height="103.2" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2453.4333" Y="1552.6667" Width="679.86667" Height="103.2" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="8b9b6ddd-65f0-4293-b930-a9a80d0d7606" DefinedType="IfcJunctionBoxTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
@@ -15,9 +13,7 @@
 				<DocPoint X="3127.4844" Y="1704.588067" />
 				<DocPoint X="2687.6" Y="1704.588067" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3034.05886" Y="1651.5560166" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3034.05886" Y="1651.5560166" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

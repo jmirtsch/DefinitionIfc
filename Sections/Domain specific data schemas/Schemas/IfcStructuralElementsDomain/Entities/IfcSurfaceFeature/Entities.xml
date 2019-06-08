@@ -5,9 +5,7 @@
 		<DocLocalization Name="Surface Feature" Locale="en" />
 		<DocLocalization Name="Traitement de surface" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="165.74927" Y="935.63488" Width="317.36771" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="165.74927" Y="935.63488" Width="317.36771" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="324c2136-9ea8-40b8-b332-c28ff31d3c3a" DefinedType="IfcSurfaceFeatureTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Indicates the kind of surface feature.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="483.11698" Y="985.63488" />
 				<DocPoint X="724.50914" Y="985.63488" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="483.11698" Y="985.63488" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="483.11698" Y="985.63488" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

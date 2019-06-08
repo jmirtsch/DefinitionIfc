@@ -5,9 +5,7 @@
 		<DocLocalization Name="Element Component" Locale="en" />
 		<DocLocalization Name="Composant d&apos;élément" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="46.550238" Y="251.37608" Width="438.3893" Height="133.06816" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="46.550238" Y="251.37608" Width="438.3893" Height="133.06816" />
 	<Subtypes>
 		<DocSubtype UniqueId="421f611c-afed-406e-bbff-320fb493bc28" DefinedType="IfcFastener" />
 		<DocSubtype UniqueId="2166b5f6-86c1-4ed5-a989-beeee0c870b3" DefinedType="IfcDiscreteAccessory" />

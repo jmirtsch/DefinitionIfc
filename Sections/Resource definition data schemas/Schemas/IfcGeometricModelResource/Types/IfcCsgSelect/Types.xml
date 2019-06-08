@@ -5,9 +5,7 @@
 		<DocLocalization Name="Csg Select" Locale="en" />
 		<DocLocalization Name="Sélection Csg" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2129.8027" Y="90.866667" Width="233" Height="86" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2129.8027" Y="90.866667" Width="233" Height="86" />
 	<Selects>
 		<DocSelectItem Name="IfcBooleanResult" UniqueId="0c6d7c35-8ae1-4e1c-b864-af220e153b7b" />
 		<DocSelectItem Name="IfcCsgPrimitive3D" UniqueId="ede54832-eb2f-4bd0-8527-ca8d8473d678" />

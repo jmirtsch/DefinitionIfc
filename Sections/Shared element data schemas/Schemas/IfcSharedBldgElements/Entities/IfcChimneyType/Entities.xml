@@ -5,9 +5,7 @@
 		<DocLocalization Name="Chimney Type" Locale="en" />
 		<DocLocalization Name="Type de cheminée" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3629.58" Y="1819.44" Width="326.63333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3629.58" Y="1819.44" Width="326.63333" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="47cbdf81-ca52-4762-8fab-f869e72a8172" DefinedType="IfcChimneyTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of a chimney element from which the type required may be set.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="3956.21333" Y="1868.1899335" />
 				<DocPoint X="4184.6066" Y="1868.1899335" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3956.21333" Y="1848.1899335" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3956.21333" Y="1848.1899335" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

@@ -4,12 +4,8 @@
 		<DocLocalization Name="Vapor Permeability Measure" Locale="en" />
 		<DocLocalization Name="Mesure de perméabilité à la vapeur" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5060.3464" Y="1783.8431" Width="529.2193" Height="54.923051" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_1iR9KQ92TAL9ilnwNM48BV" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5060.3464" Y="1783.8431" Width="529.2193" Height="54.923051" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_1iR9KQ92TAL9ilnwNM48BV" />
 	<DiagramLine>
 		<DocPoint X="5060.3464" Y="1811.3046" />
 		<DocPoint X="4971.2839" Y="1811.3046" />

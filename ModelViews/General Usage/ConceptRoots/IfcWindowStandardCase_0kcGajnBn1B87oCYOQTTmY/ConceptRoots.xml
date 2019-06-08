@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0kcGajnBn1B87oCYOQTTmY">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcWindowStandardCase" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcWindowStandardCase" />
 	<Concepts>
 		<DocTemplateUsage Name="Profile Geometry" UniqueId="2JaK2vU3z5_wiCeXroBcNO">
 			<Documentation>&lt;p&gt;The following additional constraints apply to the &apos;Profile&apos;
@@ -42,13 +40,9 @@ overall width. Distance to the centre line of the mullion.
 &quot;standard window&quot; border=&quot;0&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 263 &amp;mdash; Window profile&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Profile Geometry_3nRhE_$uXFCvVVrLhjEW_L" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Profile_Geometry_3nRhE_uXFCvVVrLhjEW_L" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="9b72684c-6abc-44eb-b14c-4a297e4b7da4" Type="IfcWindowStandardCase" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="68e584f9-f551-4eec-9aec-ebdf61f693d8" Type="IfcWindowStandardCase" />
 </DocConceptRoot>
 

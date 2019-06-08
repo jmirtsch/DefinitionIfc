@@ -5,9 +5,7 @@
 		<DocLocalization Name="Light Source Spot" Locale="en" />
 		<DocLocalization Name="Source de lumière ponctuelle" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2915.26635742188" Y="55.8667297363281" Width="256.66667" Height="1094.0000406901" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2915.26635742188" Y="55.8667297363281" Width="256.66667" Height="1094.0000406901" />
 	<Attributes>
 		<DocAttribute Name="Orientation" UniqueId="d9869222-c492-48b1-97b8-646a9e1e60f9" DefinedType="IfcDirection" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Definition from ISO/CD 10303-46:1992: This is the direction of the axis of the cone of the light source specified in the coordinate space of the representation being projected..
@@ -17,9 +15,7 @@ Definition from VRML97 - ISO/IEC 14772-1:1997: The direction field specifies the
 				<DocPoint X="2915.26635742188" Y="628.533323923747" />
 				<DocPoint X="2647.96695963542" Y="628.533323923747" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2915.26635742188" Y="608.533323923747" Width="128" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2915.26635742188" Y="608.533323923747" Width="128" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ConcentrationExponent" UniqueId="faca732f-be60-468f-82dd-cf078ecb985b" DefinedType="IfcReal" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Definition from ISO/CD 10303-46:1992: This real is the exponent on the cosine of the angle between the line that starts at the position of the spot light source and is in the direction of the orientation of the spot light source and a line that starts at the position of the spot light source and goes through a point on the surface being shaded.
@@ -29,9 +25,7 @@ NOTE&amp;nbsp; This attribute does not exists in ISO/IEC 14772-1:1997.</Document
 				<DocPoint X="2915.26635742188" Y="1046.16703542074" />
 				<DocPoint X="2647.96695963542" Y="1046.16703542074" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2915.26635742188" Y="1026.16703542074" Width="267" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2915.26635742188" Y="1026.16703542074" Width="267" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="SpreadAngle" UniqueId="3abd8fa5-f5cb-4075-a2f2-2f6396defd8f" DefinedType="IfcPositivePlaneAngleMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Definition from ISO/CD 10303-46:1992: This planar angle measure is the angle between the line that starts at the position of the spot light source and is in the direction of the spot light source and any line on the boundary of the cone of influence.
@@ -41,9 +35,7 @@ Definition from VRML97 - ISO/IEC 14772-1:1997: The cutOffAngle (name of spread a
 				<DocPoint X="2915.26635742188" Y="87.3111122979058" />
 				<DocPoint X="2647.96695963542" Y="87.3111122979058" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2915.26635742188" Y="67.3111122979058" Width="150" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2915.26635742188" Y="67.3111122979058" Width="150" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="BeamWidthAngle" UniqueId="d1bbe032-d2ef-436a-98fa-1380e580ff1c" DefinedType="IfcPositivePlaneAngleMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Definition from VRML97 - ISO/IEC 14772-1:1997: The beamWidth field specifies an inner solid angle in which the light source emits light at uniform full intensity. The light source&apos;s emission intensity drops off from the inner solid angle (beamWidthAngle) to the outer solid angle (spreadAngle).</Documentation>
@@ -52,9 +44,7 @@ Definition from VRML97 - ISO/IEC 14772-1:1997: The cutOffAngle (name of spread a
 				<DocPoint X="2915.26635742188" Y="123.422207302517" />
 				<DocPoint X="2647.96695963542" Y="123.422207302517" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2915.26635742188" Y="103.422207302517" Width="197" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2915.26635742188" Y="103.422207302517" Width="197" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

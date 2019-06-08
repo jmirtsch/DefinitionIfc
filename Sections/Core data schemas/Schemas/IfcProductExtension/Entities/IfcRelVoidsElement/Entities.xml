@@ -5,9 +5,7 @@
 		<DocLocalization Name="Rel Voids Element" Locale="en" />
 		<DocLocalization Name="Relation de percement" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1838.1806" Y="2903.0556" Width="323.23333" Height="103.33333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1838.1806" Y="2903.0556" Width="323.23333" Height="103.33333" />
 	<Attributes>
 		<DocAttribute Name="RelatingBuildingElement" UniqueId="6088c92a-4578-4341-b20d-3690feb149af" DefinedType="IfcElement" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="hidden">
 			<Documentation>Reference to element in which a void is created by associated feature subtraction element.
@@ -16,9 +14,7 @@
 				<DocPoint X="2119.7972" Y="2903.0556" />
 				<DocPoint X="2119.7972" Y="2677.7223" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2274.46387" Y="2958.722267" Width="275" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2274.46387" Y="2958.722267" Width="275" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="RelatedOpeningElement" UniqueId="edbe00f6-c081-41e2-a32e-32ab51af7a0a" DefinedType="IfcFeatureElementSubtraction" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Reference to the feature subtraction element which defines a void in the associated element.
@@ -27,9 +23,7 @@
 				<DocPoint X="2161.414" Y="2954.7223" />
 				<DocPoint X="2685.8871" Y="2954.7223" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2161.414" Y="2944.7223" Width="277" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2161.414" Y="2944.7223" Width="277" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

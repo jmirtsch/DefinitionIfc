@@ -4,12 +4,8 @@
 		<DocLocalization Name="Linear Velocity Measure" Locale="en" />
 		<DocLocalization Name="Mesure de vitesse linéaire" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5060.3302" Y="915.98618" Width="529.26667" Height="66" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_2Q84yp6BH0dPSho6$P_FSs" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5060.3302" Y="915.98618" Width="529.26667" Height="66" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_2Q84yp6BH0dPSho6P_FSs" />
 	<DiagramLine>
 		<DocPoint X="5060.3302" Y="948.98618" />
 		<DocPoint X="4971.319623" Y="948.98618" />

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Spatial Structure Element" Locale="en" />
 		<DocLocalization Name="Elément de la structure spatiale" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6625.6982" Y="1270.4294" Width="515.66667" Height="123.33333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="6625.6982" Y="1270.4294" Width="515.66667" Height="123.33333" />
 	<Subtypes>
 		<DocSubtype UniqueId="ae2170bb-ceb9-4c49-8ff9-845a434b1169" DefinedType="IfcBuilding" />
 		<DocSubtype UniqueId="f270dacf-366f-4ffe-9b9b-f9c781521fef" DefinedType="IfcBuildingStorey" />
@@ -22,9 +20,7 @@
 				<DocPoint X="7141.3649" Y="1329.4437" />
 				<DocPoint X="7464.8083" Y="1329.4437" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="7144.6982333" Y="1316.110367" Width="199" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="7144.6982333" Y="1316.110367" Width="199" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

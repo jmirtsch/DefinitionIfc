@@ -4,9 +4,7 @@
 		<DocSchemaRef Name="IFCSHAREDBLDGSERVICEELEMENTS" UniqueId="737e2f49-3232-4ebe-8cd4-e4ea54afff93">
 			<Definitions>
 				<DocDefinitionRef Name="IfcDistributionControlElementType" UniqueId="cb00280e-b0ad-41c5-b9a9-eae23d368b0a" DiagramNumber="1">
-					<DiagramRectangle>
-						<DocRectangle X="18.900007" Y="23.066663" Width="541.33333" Height="228" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="18.900007" Y="23.066663" Width="541.33333" Height="228" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -56,9 +54,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcDistributionControlElement" UniqueId="018925fa-0662-469d-a698-329efca90fee" DiagramNumber="1">
-					<DiagramRectangle>
-						<DocRectangle X="1029.6667" Y="24.5" Width="544" Height="229" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="1029.6667" Y="24.5" Width="544" Height="229" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -110,19 +106,99 @@
 			</Definitions>
 		</DocSchemaRef>
 	</SchemaRefs>
+	<Types>
+		<DocEnumeration xsi:nil="true" href="IfcActuatorTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcAlarmTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcControllerTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcFlowInstrumentTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcSensorTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcUnitaryControlElementTypeEnum" />
+	</Types>
+	<PropertySets>
+		<DocPropertySet xsi:nil="true" href="Pset_ActuatorPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_ActuatorTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_ActuatorTypeElectricActuator" />
+		<DocPropertySet xsi:nil="true" href="Pset_ActuatorTypeHydraulicActuator" />
+		<DocPropertySet xsi:nil="true" href="Pset_ActuatorTypeLinearActuation" />
+		<DocPropertySet xsi:nil="true" href="Pset_ActuatorTypePneumaticActuator" />
+		<DocPropertySet xsi:nil="true" href="Pset_ActuatorTypeRotationalActuation" />
+		<DocPropertySet xsi:nil="true" href="Pset_AlarmPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_AlarmTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_ControllerPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_ControllerTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_ControllerTypeFloating" />
+		<DocPropertySet xsi:nil="true" href="Pset_ControllerTypeMultiPosition" />
+		<DocPropertySet xsi:nil="true" href="Pset_ControllerTypeProgrammable" />
+		<DocPropertySet xsi:nil="true" href="Pset_ControllerTypeProportional" />
+		<DocPropertySet xsi:nil="true" href="Pset_ControllerTypeTwoPosition" />
+		<DocPropertySet xsi:nil="true" href="Pset_FlowInstrumentPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_FlowInstrumentTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_FlowInstrumentTypePressureGauge" />
+		<DocPropertySet xsi:nil="true" href="Pset_FlowInstrumentTypeThermometer" />
+		<DocPropertySet xsi:nil="true" href="Pset_SensorPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_SensorTypeCO2Sensor" />
+		<DocPropertySet xsi:nil="true" href="Pset_SensorTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_SensorTypeConductanceSensor" />
+		<DocPropertySet xsi:nil="true" href="Pset_SensorTypeContactSensor" />
+		<DocPropertySet xsi:nil="true" href="Pset_SensorTypeFireSensor" />
+		<DocPropertySet xsi:nil="true" href="Pset_SensorTypeFlowSensor" />
+		<DocPropertySet xsi:nil="true" href="Pset_SensorTypeFrostSensor" />
+		<DocPropertySet xsi:nil="true" href="Pset_SensorTypeGasSensor" />
+		<DocPropertySet xsi:nil="true" href="Pset_SensorTypeHeatSensor" />
+		<DocPropertySet xsi:nil="true" href="Pset_SensorTypeHumiditySensor" />
+		<DocPropertySet xsi:nil="true" href="Pset_SensorTypeIdentifierSensor" />
+		<DocPropertySet xsi:nil="true" href="Pset_SensorTypeIonConcentrationSensor" />
+		<DocPropertySet xsi:nil="true" href="Pset_SensorTypeLevelSensor" />
+		<DocPropertySet xsi:nil="true" href="Pset_SensorTypeLightSensor" />
+		<DocPropertySet xsi:nil="true" href="Pset_SensorTypeMoistureSensor" />
+		<DocPropertySet xsi:nil="true" href="Pset_SensorTypeMovementSensor" />
+		<DocPropertySet xsi:nil="true" href="Pset_SensorTypePHSensor" />
+		<DocPropertySet xsi:nil="true" href="Pset_SensorTypePressureSensor" />
+		<DocPropertySet xsi:nil="true" href="Pset_SensorTypeRadiationSensor" />
+		<DocPropertySet xsi:nil="true" href="Pset_SensorTypeRadioactivitySensor" />
+		<DocPropertySet xsi:nil="true" href="Pset_SensorTypeSmokeSensor" />
+		<DocPropertySet xsi:nil="true" href="Pset_SensorTypeSoundSensor" />
+		<DocPropertySet xsi:nil="true" href="Pset_SensorTypeTemperatureSensor" />
+		<DocPropertySet xsi:nil="true" href="Pset_SensorTypeWindSensor" />
+		<DocPropertySet xsi:nil="true" href="Pset_UnitaryControlElementPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_UnitaryControlElementTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_UnitaryControlElementTypeIndicatorPanel" />
+		<DocPropertySet xsi:nil="true" href="Pset_UnitaryControlElementTypeThermostat" />
+	</PropertySets>
+	<QuantitySets>
+		<DocQuantitySet xsi:nil="true" href="Qto_ActuatorBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_AlarmBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_ControllerBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_FlowInstrumentBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_SensorBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_UnitaryControlElementBaseQuantities" />
+	</QuantitySets>
 	<Comments>
 		<DocComment UniqueId="2cad666c-69f3-406d-9c8e-9b7b8b1c3b65" DiagramNumber="1">
 			<Documentation>Occurrences added in IFC 2x4</Documentation>
-			<DiagramRectangle>
-				<DocRectangle X="1096.2667" Y="1579.12" Width="454.66667" Height="89.666667" />
-			</DiagramRectangle>
+			<DiagramRectangle xsi:type="DocRectangle" X="1096.2667" Y="1579.12" Width="454.66667" Height="89.666667" />
 		</DocComment>
 		<DocComment UniqueId="b3c8d0f0-3a73-4334-8591-022ca1781aaa" DiagramNumber="1">
 			<Documentation>New entity in IFC 2x4</Documentation>
-			<DiagramRectangle>
-				<DocRectangle X="46.93334" Y="1580.9333" Width="332" Height="55" />
-			</DiagramRectangle>
+			<DiagramRectangle xsi:type="DocRectangle" X="46.93334" Y="1580.9333" Width="332" Height="55" />
 		</DocComment>
 	</Comments>
+	<PropertyEnumerations>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ActuatorApplication_0yQeVe0UfBrAQ1kGReIAW" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ControllerApplication_3M1EZh7eL4LQ4gH_8vR9wB" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ControllerMultiPositionType_3o4FGiTOb2LfU4WdF3_kYO" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ControllerProportionalType_00m8S3gH3zQJ3jACl_67q" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ControllerTwoPositionType_3qSQM2e4n5kO1Ks57jqHuY" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ControllerTypeFloating_2WdehL1kz1IxtKbvaCiGFe" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ControllerTypeProgrammable_3Z6lV55n533eV17GFVsjs6" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ElectricActuatorType_1LHohyT897oeFPsCCVMQq0" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FailPosition_0W5NhLkbnEDQemPK7A2EEb" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_MovementSensingType_0FhcvkFMXByAKblLmE2pGy" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_PressureGaugeType_3lcMhFG29E3AT7qlB1wyf2" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_TemperatureSensorType_0WlZOJU_1EXwYEeNl61hi" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ThermometerType_2UIS_A0XEgRqqCKt4yFoE" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_UnitaryControlElementApplication_2IVFYpxrDMQk5pOSuMWZ" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_WindSensorType_0imP9hub6QOeZMGl4Y9EE" />
+	</PropertyEnumerations>
 </DocSchema>
 

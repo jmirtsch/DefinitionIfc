@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1QBnE5SuHEnfHfM9H$dJQr">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcCostItem" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcCostItem" />
 	<Concepts>
 		<DocTemplateUsage Name="Classification" UniqueId="0qhnmiSP96OeGBVEtPipnT">
 			<Documentation>&lt;p&gt;Instances of &lt;em&gt;IfcCostItem&lt;/em&gt; are used for cost estimates, budgets, and other forms, where a variety of identification codes are used extensively to identify the meaning of the cost. Examples include project phase codes, CSI codes, takeoff sequence numbers, and cost accounts. The model allows for all classes that are ultimately subtypes of &lt;em&gt;IfcObject&lt;/em&gt; to inherit the ability to have one or more instances of &lt;em&gt;IfcClassificationReference&lt;/em&gt; to be assigned. Where identification codes are required, the generic &lt;em&gt;IfcRelAssociatesClassification&lt;/em&gt; facility should be used.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Classification Association_1A8aO9PNXCTQ$FYl_eRbxo" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Classification_Association_1A8aO9PNXCTQFYl_eRbxo" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Nesting" UniqueId="0tyd0PV4vDl9GyOAIyC6AB">
 			<Documentation>&lt;p&gt;An &lt;em&gt;IfcCostItem&lt;/em&gt; can nest other instances of &lt;em&gt;IfcCostItem&lt;/em&gt; through its relationships to &lt;em&gt;IfcRelNests&lt;/em&gt;. This can be used to enable the development of complex groups of costs as may be found in cost schedules through to pages, sections and complete cost schedules.&lt;/p&gt;
@@ -21,9 +17,7 @@
 &lt;tr&gt;&lt;td valign=&quot;bottom&quot;&gt;&lt;img src=&quot;../../../figures/ifccostitem-composition.png&quot; alt=&quot;cost item&quot; border=&quot;0&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 274 &amp;mdash; Cost composition&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Nesting_0uoeU8NaT178AKrM_UcbQH" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Nesting_0uoeU8NaT178AKrM_UcbQH" />
 			<Items>
 				<DocTemplateItem UniqueId="993ffa62-25f5-41a4-900b-07436b65f916" RuleParameters="Type=IfcCostItem;" Order="0" />
 			</Items>
@@ -43,9 +37,7 @@
 &lt;tr&gt;&lt;td valign=&quot;bottom&quot;&gt;&lt;img src=&quot;../../../figures/ifccostitem-assignment.png&quot; alt=&quot;cost item&quot; border=&quot;0&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 275 &amp;mdash; Cost assignment&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Control Assignment_21FdF_La56IAQ0Y8VFGrdn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Control_Assignment_21FdF_La56IAQ0Y8VFGrdn" />
 			<Items>
 				<DocTemplateItem UniqueId="e50dcc60-5553-47cf-8fd3-0a8191e29b6d" RuleParameters="Type=IfcProduct;" Order="0">
 					<Documentation>For quantity-based costs based on product occurrences, spatial structures, or other physical artifacts.</Documentation>
@@ -68,8 +60,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="7f59110a-bdc4-4949-8e78-89743d1fc28e" Type="IfcCostItem" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="5780afb6-7e18-441a-8570-596c73471c03" Type="IfcCostItem" />
 </DocConceptRoot>
 

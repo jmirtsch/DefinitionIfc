@@ -5,9 +5,7 @@
 		<DocLocalization Name="Tank Type" Locale="en" />
 		<DocLocalization Name="Type de réservoir" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4842.254" Y="1509.3449" Width="362.55033" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4842.254" Y="1509.3449" Width="362.55033" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="5b6ea321-df4c-44d0-b5b1-4fb2fe31c4d5" DefinedType="IfcTankTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines the type of tank.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="5204.8043" Y="1559.345" />
 				<DocPoint X="5458.91868" Y="1559.345" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5204.91636131" Y="1551.2919361" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5204.91636131" Y="1551.2919361" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

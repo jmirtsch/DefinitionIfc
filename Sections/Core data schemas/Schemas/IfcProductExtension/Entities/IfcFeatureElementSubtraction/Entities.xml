@@ -4,9 +4,7 @@
 		<DocLocalization Name="Modifikator (geometrischer Körper) - Subtraktion" Locale="de" />
 		<DocLocalization Name="Feature Element Subtraction" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2685.8871" Y="2869.2319" Width="302.58346" Height="137.18756" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2685.8871" Y="2869.2319" Width="302.58346" Height="137.18756" />
 	<Subtypes>
 		<DocSubtype UniqueId="134ba1d7-27ea-4af4-aedb-8bf6b9431a32" DefinedType="IfcOpeningElement" />
 	</Subtypes>
@@ -17,9 +15,7 @@
 				<DocPoint X="2161.414" Y="2954.7223" />
 				<DocPoint X="2685.8871" Y="2954.7223" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2161.414" Y="2989.7223" Width="234" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2161.414" Y="2989.7223" Width="234" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

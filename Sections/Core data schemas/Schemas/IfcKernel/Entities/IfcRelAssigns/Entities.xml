@@ -5,9 +5,7 @@
 		<DocLocalization Name="Rel Assigns" Locale="en" />
 		<DocLocalization Name="Assignation" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6539.1333" Y="1507.7791" Width="454.1" Height="171.6625" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="6539.1333" Y="1507.7791" Width="454.1" Height="171.6625" />
 	<Subtypes>
 		<DocSubtype UniqueId="d118468e-eabe-45fa-b20c-ab90dd626245" DefinedType="IfcRelAssignsToProcess" />
 		<DocSubtype UniqueId="51866591-25ad-4694-b8d2-583ccb483eea" DefinedType="IfcRelAssignsToProduct" />
@@ -23,9 +21,7 @@
 				<DocPoint X="6993.2333" Y="1540.277" />
 				<DocPoint X="7616.79997" Y="1540.277" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="6993.2333" Y="1526.943667" Width="255" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="6993.2333" Y="1526.943667" Width="255" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="RelatedObjectsType" UniqueId="7dd9a03b-e83d-4bde-a7cc-99502633620b" DefinedType="IfcObjectTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Particular type of the assignment relationship. It can constrain the applicable object types, used within the role of &lt;em&gt;RelatedObjects&lt;/em&gt;.
@@ -34,9 +30,7 @@
 				<DocPoint X="6993.2333" Y="1648.2944" />
 				<DocPoint X="7616.7333" Y="1648.2944" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="6980.4333" Y="1639.7610667" Width="231" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="6980.4333" Y="1639.7610667" Width="231" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

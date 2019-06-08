@@ -4,9 +4,7 @@
 		<DocLocalization Name="Festkörper - aus extrudierter Fläche" Locale="de" />
 		<DocLocalization Name="Extruded Area Solid" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4905.9832" Y="890.45837" Width="486.66667" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4905.9832" Y="890.45837" Width="486.66667" Height="100" />
 	<Subtypes>
 		<DocSubtype UniqueId="4026540e-c8cb-4e22-ae2e-531a1737df72" DefinedType="IfcExtrudedAreaSolidTapered" />
 	</Subtypes>
@@ -17,9 +15,7 @@
 				<DocPoint X="5031.9832" Y="990.45837" />
 				<DocPoint X="5031.9832" Y="1258.45837" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5149.31653" Y="953.125037" Width="203" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5149.31653" Y="953.125037" Width="203" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Depth" UniqueId="a0e24ce6-15a3-49a4-827b-25a7987a23f7" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The distance the surface is to be swept along the &lt;em&gt;ExtrudedDirection&lt;/em&gt;.</Documentation>
@@ -27,9 +23,7 @@
 				<DocPoint X="5357.9832" Y="990.45837" />
 				<DocPoint X="5357.9832" Y="1361.39154" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5308.433201" Y="940.525116" Width="74" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5308.433201" Y="940.525116" Width="74" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

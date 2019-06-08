@@ -5,9 +5,7 @@
 		<DocLocalization Name="Text Style" Locale="en" />
 		<DocLocalization Name="Style de texte" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4887.66748046875" Y="254.954686482747" Width="296" Height="572" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4887.66748046875" Y="254.954686482747" Width="296" Height="572" />
 	<Attributes>
 		<DocAttribute Name="TextCharacterAppearance" UniqueId="f5bd01b9-4639-4066-8a62-d1d8a355a2f5" DefinedType="IfcTextStyleForDefinedFont" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>A character style to be used for presented text.
@@ -18,9 +16,7 @@
 				<DocPoint X="5183.66748046875" Y="470.138042845052" />
 				<DocPoint X="5537.130859375" Y="470.138042845052" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5183.66748046875" Y="450.138042845052" Width="298" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5183.66748046875" Y="450.138042845052" Width="298" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="TextStyle" UniqueId="edc9e2db-5005-4bcf-ac88-0a7ee0830fe0" DefinedType="IfcTextStyleTextModel" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>The style applied to the text block for its visual appearance.
@@ -32,9 +28,7 @@
 				<DocPoint X="5035.66748046875" Y="826.954686482747" />
 				<DocPoint X="5035.66748046875" Y="965.471232096354" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5035.66748046875" Y="945.471232096354" Width="109" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5035.66748046875" Y="945.471232096354" Width="109" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="TextFontStyle" UniqueId="c335c62d-bf07-439a-afb9-033418fa2050" DefinedType="IfcTextFontSelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The style applied to the text font for its visual appearance. It defines the font family, font style, weight and size.
@@ -45,9 +39,7 @@
 				<DocPoint X="5183.66748046875" Y="302.288029988607" />
 				<DocPoint X="5905.0009765625" Y="302.288029988607" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5183.66748046875" Y="282.288029988607" Width="159" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5183.66748046875" Y="282.288029988607" Width="159" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ModelOrDraughting" UniqueId="de6e20b2-8381-4b2e-b44e-399c8a61345d" DefinedType="IfcBoolean" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Indication whether the length measures provided for the presentation style are model based, or draughting based.
@@ -58,9 +50,7 @@
 				<DocPoint X="5183.66748046875" Y="751.621378580729" />
 				<DocPoint X="5522.33414713542" Y="751.621378580729" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5183.66748046875" Y="731.621378580729" Width="223" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5183.66748046875" Y="731.621378580729" Width="223" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Beam Standard Case" Locale="en" />
 		<DocLocalization Name="Poutre standard" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1114" Y="357.05333" Width="438.63333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1114" Y="357.05333" Width="438.63333" Height="100" />
 	<WhereRules>
 		<DocWhereRule Name="HasMaterialProfileSetUsage" UniqueId="4c834c12-aeb9-4a15-856b-88ee40b7c7f2">
 			<Documentation>A valid instance of &lt;em&gt;IfcBeamStandardCase&lt;/em&gt; relies on the provision of an &lt;em&gt;IfcMaterialProfileSetUsage&lt;/em&gt;.</Documentation>

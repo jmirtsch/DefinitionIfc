@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="b27dfe36-f218-4483-8168-4f1c54efb98d">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcStructuralCurveReaction" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcStructuralCurveReaction" />
 	<Concepts>
 		<DocTemplateUsage Name="Structural Activity" UniqueId="301077d6-1235-4aba-8c11-c03550a448fa">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Structural Activity_2JaCfosE98Avc6uE7HNd6K" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Structural_Activity_2JaCfosE98Avc6uE7HNd6K" />
 			<Items>
 				<DocTemplateItem UniqueId="57e0c028-0596-4920-bd34-4e9f3516b092" RuleParameters="AppliedLoad=IfcStructuralLoadConfiguration;RelatingElement=IfcStructuralCurveMember;" Order="0">
 					<Documentation>Resulting shear and moment along a curve member.</Documentation>
@@ -15,8 +11,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="463082ee-78bb-4a44-9a4a-6366985147fe" Type="IfcStructuralCurveReaction" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="83cfaee9-21ad-4ae7-849c-51495ae6d02f" Type="IfcStructuralCurveReaction" />
 </DocConceptRoot>
 

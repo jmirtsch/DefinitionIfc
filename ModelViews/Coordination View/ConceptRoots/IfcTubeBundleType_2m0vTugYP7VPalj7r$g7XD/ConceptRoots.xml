@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="b0039778-aa26-477d-992f-b47d7fa8784d">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcTubeBundleType" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="be26dd3a-b90e-47a2-bb21-6f7a087a33d7" Type="IfcTubeBundleType" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcTubeBundleType" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="4bdce489-b89f-45e1-a4f9-0906b0a8b89a" Type="IfcTubeBundleType" />
 </DocConceptRoot>
 

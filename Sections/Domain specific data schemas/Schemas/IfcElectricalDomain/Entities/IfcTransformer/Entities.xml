@@ -5,9 +5,7 @@
 		<DocLocalization Name="Transformer" Locale="en" />
 		<DocLocalization Name="Transformateur" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5636.2133" Y="305.38667" Width="679.66667" Height="103.2" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="5636.2133" Y="305.38667" Width="679.66667" Height="103.2" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="10a2e1d6-97a4-4744-a279-02cce93bdaac" DefinedType="IfcTransformerTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
@@ -15,9 +13,7 @@
 				<DocPoint X="6306.7133" Y="464.043287" />
 				<DocPoint X="5858.76667" Y="464.043287" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="6306.7133" Y="464.043287" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="6306.7133" Y="464.043287" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

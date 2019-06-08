@@ -5,8 +5,6 @@
 		<DocLocalization Name="Flow Moving Device" Locale="en" />
 		<DocLocalization Name="Dispositif de circulation de fluide" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="179.99487" Y="1568.6512" Width="518.40786" Height="102.34881" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="179.99487" Y="1568.6512" Width="518.40786" Height="102.34881" />
 </DocEntity>
 

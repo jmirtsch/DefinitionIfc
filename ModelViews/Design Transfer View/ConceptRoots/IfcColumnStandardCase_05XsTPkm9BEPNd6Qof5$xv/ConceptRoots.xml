@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="05876759-bb02-4b39-95e7-19aca917fef9">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcColumnStandardCase" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcColumnStandardCase" />
 	<Concepts>
 		<DocTemplateUsage Name="Material Profile Set Usage" UniqueId="dedce70c-2541-4425-a021-f8e6203e28e3">
 			<Documentation>&lt;p&gt;The &lt;em&gt;IfcColumnStandardCase&lt;/em&gt; defines in addition that the
@@ -53,19 +51,13 @@ definition at &lt;em&gt;IfcCardinalPointReference&lt;/em&gt;&lt;/blockquote&gt;
 &lt;tr&gt;&lt;td&gt;&lt;img src=&quot;../../../figures/ifccolumnstandardcase-02.png&quot; alt=&quot;Material profile set and usage&quot; height=&quot;550&quot; width=&quot;500&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 208 &amp;mdash; Column composite profiles&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set Usage_1ge1GfjMPBDeTQCM88YfWn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Profile_Set_Usage_1ge1GfjMPBDeTQCM88YfWn" />
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="mandatory">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Design_Transfer_Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="mandatory">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Design_Transfer_Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
@@ -131,19 +123,13 @@ length of the column.&lt;/blockquote&gt;
  &lt;/tr&gt;
 
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Axis 3D Geometry_2ubDZB_q55xBeOSih6klyq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Axis_3D_Geometry_2ubDZB_q55xBeOSih6klyq" />
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="mandatory">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Design_Transfer_Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="mandatory">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Design_Transfer_Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
@@ -200,14 +186,10 @@ system.&lt;/li&gt;
 &lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../../figures/ifccolumnstandardcase_sweptsolid-01.png&quot; alt=&quot;standard column&quot; border=&quot;1&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 209 &amp;mdash; Column body extrusion&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid ParameterizedProfile Geometry_0TW7c_cFjCFg82IViXY$wn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_ParameterizedProfile_Geometry_0TW7c_cFjCFg82IViXYwn" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body SweptSolid Composite Geometry" UniqueId="31e9779f-f646-4c80-88d5-0c3c37788933">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid Composite Geometry_1kUSVCuZX0NOyEXxJwlpPh" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_Composite_Geometry_1kUSVCuZX0NOyEXxJwlpPh" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body AdvancedSwept Directrix Geometry" UniqueId="ecb9102f-7309-459d-be8b-8944f7f9dc33">
 			<Documentation>&lt;p&gt;The following additional constraints apply to the
@@ -228,9 +210,7 @@ exception of &lt;em&gt;IfcArbitraryOpenProfileDef&lt;/em&gt;)&lt;/li&gt;
 having &lt;em&gt;Location&lt;/em&gt; = 0.,0. and &lt;em&gt;RefDirection&lt;/em&gt; =
  1.,0.&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body AdvancedSwept Directrix Geometry_1rhoOTsFz6le0t01amD9y7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_AdvancedSwept_Directrix_Geometry_1rhoOTsFz6le0t01amD9y7" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body AdvancedSwept Tapered Geometry" UniqueId="d6473840-b06f-476e-b550-8c13b76d6c2a">
 			<Documentation>&lt;p&gt;The following additional constraints apply to the
@@ -259,9 +239,7 @@ or &lt;em&gt;IfcRevolvedAreaSolidTapered&lt;/em&gt; requires the use of two
 &lt;em&gt;IfcMaterialProfile&lt;/em&gt;&apos;s within the
 &lt;em&gt;IfcMaterialProfileSetUsageTapering&lt;/em&gt; assinged to the
 &lt;em&gt;IfcColumnStandardCase&lt;/em&gt;&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body AdvancedSwept Tapered Geometry_1nHIAqI8v9NRg1yGfUGR7S" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_AdvancedSwept_Tapered_Geometry_1nHIAqI8v9NRg1yGfUGR7S" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Clipping Geometry" UniqueId="42430896-d460-4183-8f42-d492db5d7ce4">
 			<Documentation>&lt;p&gt;The following constraints apply to the &apos;Clipping&apos; 
@@ -289,63 +267,39 @@ an &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt; and an &lt;em&gt;IfcHalfSpaceSolid&
 &lt;tr valign=&quot;top&quot;&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../../figures/ifccolumnstandardcase_clipping-01.png&quot; alt=&quot;clipped column&quot; border=&quot;1&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 210 &amp;mdash; Column body clipping&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Clipping Geometry_0isyBrcmn3wfqgdNBG57u0" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Clipping_Geometry_0isyBrcmn3wfqgdNBG57u0" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="e611e104-e8a1-4af3-a263-58504cc2be7c" Suppress="true">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Single_1VEQWKHA1Fiut6tQe5OFnK" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Single_1VEQWKHA1Fiut6tQe5OFnK" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="6c2ef04e-e447-4706-8a28-eba7b55cb28d" Suppress="true">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Element Decomposition_2A9y5QnEfCgOpEVxkXoRpW" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Element_Decomposition_2A9y5QnEfCgOpEVxkXoRpW" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="415aa731-db0e-45bf-91ec-e222e4db42b8" Suppress="true">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Mapped Geometry_3i$TV8STL4dxyWvZebtBcw" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Mapped_Geometry_3iTV8STL4dxyWvZebtBcw" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="26d69847-c582-4929-a771-af03ebcc847a" Suppress="true">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid PolyCurve Geometry_0uSGpDZ$L1ke$Q23091w0k" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_PolyCurve_Geometry_0uSGpDZL1keQ23091w0k" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="496bf84f-c576-4114-9d79-2a6e0b8429ca" Suppress="true">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Tessellation Geometry_1S$KG3PKLCRRmd2fMZq9bG" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Tessellation_Geometry_1SKG3PKLCRRmd2fMZq9bG" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="acb10ce9-8129-4300-88fa-964b6c1e2f66" Suppress="true">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body CSG Geometry_2WgtOmQML9NhwFqGRz9Pd2" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_CSG_Geometry_2WgtOmQML9NhwFqGRz9Pd2" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="bbfac067-d718-4faa-8845-81d71e95685c" Suppress="true">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body SurfaceModel Geometry_0NqqeIb0D0zB_2PJcRuZnL" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SurfaceModel_Geometry_0NqqeIb0D0zB_2PJcRuZnL" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="b118047e-26f2-420d-8aed-b2fc24e56f20" Suppress="true">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set_12Ui1LAd52mgGZSMYVfrnP" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Profile_Set_12Ui1LAd52mgGZSMYVfrnP" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="c4c25b92-557c-4875-bd3d-379ad9e9d71f" Suppress="true">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body AdvancedBrep Geometry_3yTZLrKF5BmBloE2E05I17" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_AdvancedBrep_Geometry_3yTZLrKF5BmBloE2E05I17" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="642ae387-033c-47e8-8c4d-137c177b825a" Suppress="true">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Brep Geometry_2FkIFrk2r8qgqfrdZAHp$Q" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Brep_Geometry_2FkIFrk2r8qgqfrdZAHpQ" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="0a60a3a6-94e0-4174-ac47-87185eaa1127" Type="IfcColumnStandardCase" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="8901886f-3dbc-455e-971e-91886c182705" Type="IfcColumnStandardCase" />
 </DocConceptRoot>
 

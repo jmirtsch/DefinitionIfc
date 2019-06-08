@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1TxXKpeMP5mBnZmT1GkFSf">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcBeamType" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcBeamType" />
 	<Concepts>
 		<DocTemplateUsage Name="Material Profile Set" UniqueId="1CJwS_WLHAUveXLpPsIddo">
 			<Documentation>&lt;p&gt;The material of the &lt;em&gt;IfcBeamType&lt;/em&gt; is defined by the &lt;em&gt;IfcMaterialProfileSet&lt;/em&gt; or as fall back by &lt;em&gt;IfcMaterial&lt;/em&gt; and attached by the &lt;em&gt;IfcRelAssociatesMaterial&lt;/em&gt;&lt;em&gt;.RelatingMaterial&lt;/em&gt;. It is accessible by the inverse &lt;em&gt;HasAssociations&lt;/em&gt; relationship.&lt;/p&gt;
@@ -16,9 +14,7 @@ NOTE&amp;nbsp; It is illegal to assign an &lt;em&gt;IfcMaterial&lt;/em&gt; to an
 &lt;blockquote class=&quot;note&quot;&gt;
 NOTE&amp;nbsp; The attribute &lt;em&gt;ProfileName&lt;/em&gt; of the &lt;em&gt;IfcProfileDef&lt;/em&gt; subtype, referenced in &lt;em&gt;IfcMaterialProfile&lt;/em&gt; should contain a standardized profile name according to local standards. However, an additional geometric representation of the profile is necessary (such as &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt;). An importing application is allowed to check for the existence of the profile name: in case of identifying it as a standardized name, the corresponding profile geometry and possibly other cross sectional properties can be read from a library. Otherwise the geometric representation and possible non geometric &lt;em&gt;IfcProfileProperties&lt;/em&gt; have to be used.
 &lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set_12Ui1LAd52mgGZSMYVfrnP" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Profile_Set_12Ui1LAd52mgGZSMYVfrnP" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Geometry" UniqueId="2UoKFrq8j7MxIV7gLQlM5z">
 			<Documentation>&lt;p&gt;The &lt;em&gt;IfcBeamType&lt;/em&gt; may define the shared geometric representation for all beam occurrences. The &lt;em&gt;RepresentationMaps&lt;/em&gt; attribute refers to a list of &lt;em&gt;IfcRepresentationMap&lt;/em&gt;&apos;s, that allow for multiple geometric representations (e.g. with &lt;em&gt;IfcShaperepresentation&lt;/em&gt;&apos;s having an &lt;em&gt;RepresentationIdentifier&lt;/em&gt; &apos;Box&apos;, &apos;Axis&apos;, or &apos;Body&apos;). It is only applicable if the &lt;em&gt;IfcBeamType&lt;/em&gt; has only occurrences of type &lt;em&gt;IfcBeam&lt;/em&gt; (See geometric use definition of &lt;em&gt;IfcBeam&lt;/em&gt; for further information).&lt;/p&gt;
@@ -33,17 +29,13 @@ NOTE&amp;nbsp; The product shape representations are defined as &lt;em&gt;Repres
 &lt;blockquote class=&quot;note&quot;&gt;
 NOTE&amp;nbsp; The values of attributes &lt;em&gt;RepresentationIdentifier&lt;/em&gt; and &lt;em&gt;RepresentationType&lt;/em&gt; of &lt;em&gt;IfcShapeRepresentation&lt;/em&gt; are restricted in the same way as those for &lt;em&gt;IfcBeam&lt;/em&gt; and &lt;em&gt;IfcBeamStandardCase&lt;/em&gt;
 &lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Type Body Geometry_0wx2q0jBj7QgWX$2AubRKn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Type_Body_Geometry_0wx2q0jBj7QgWX2AubRKn" />
 			<Items>
 				<DocTemplateItem UniqueId="7542abdb-b371-4171-88fc-c272628dff81" RuleParameters="RepresentationType=SweptSolid;Geometry=IfcExtrudedAreaSolid;" Order="0" />
 				<DocTemplateItem UniqueId="3e2f31b4-5ffa-437b-a53f-945d81977a04" RuleParameters="RepresentationType=Brep;Geometry=IfcFacetedBrep;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="2169a4f2-4a94-41f9-b0de-036f676bde5c" Type="IfcBeamType" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="4eaedcf5-254f-4d61-b90a-ba78324c1526" Type="IfcBeamType" />
 </DocConceptRoot>
 

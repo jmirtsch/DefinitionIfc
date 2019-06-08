@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3$PtrESmT6y9Gaa6EiDgXd">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcSpatialElement" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcSpatialElement" />
 	<Concepts>
 		<DocTemplateUsage Name="Spatial Element Type Predefined Type" UniqueId="40593df6-210e-4d98-af69-4430577704c0">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Element Type Predefined Type_0Qcs2UefLAFwxOM8SIhSuH" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Element_Type_Predefined_Type_0Qcs2UefLAFwxOM8SIhSuH" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="2c2e67b0-ce73-4abb-a426-d73e9bcfbc98">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="b9f842ca-7f23-44ff-b285-80a78b441855" RuleParameters="PsetName=Pset_ThermalLoadAggregate;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="7d7f72cb-ed1a-4b9b-a8c8-5770ea36ba0d">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="0b3136b6-d093-4bfa-9361-1ca95c989849" RuleParameters="Order=1;PropertyName=TotalCoolingLoad;Value=IfcPowerMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="6f31cb0a-01a1-4cb9-a8bc-8ee3e15b2386" RuleParameters="Order=2;PropertyName=TotalHeatingLoad;Value=IfcPowerMeasure;" Order="0" />
@@ -35,9 +27,7 @@
 				<DocTemplateItem UniqueId="b8b31a82-864c-4e28-9aa2-bc5448303d83" RuleParameters="PsetName=Pset_ThermalLoadDesignCriteria;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="a61a1c16-8e3e-47dc-b18e-ca6028471c40">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="3de9a622-f209-4afc-923a-0a8a659f75c2" RuleParameters="Order=1;PropertyName=OccupancyDiversity;Value=IfcPositiveRatioMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="b4eee135-1366-4180-8a4e-ae1dfa3821e1" RuleParameters="Order=2;PropertyName=OutsideAirPerPerson;Value=IfcVolumetricFlowRateMeasure;" Order="0" />
@@ -52,8 +42,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="37c35933-7dab-4b81-ad80-512830996d02" Type="IfcSpatialElement" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="7b1584bf-eae8-4fc7-9ed6-936ff8722322" Type="IfcSpatialElement" />
 </DocConceptRoot>
 

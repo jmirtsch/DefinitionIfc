@@ -5,9 +5,7 @@
 		<DocLocalization Name="Pre Defined Text Font" Locale="en" />
 		<DocLocalization Name="Police de caractères pré-définie" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6470.1667" Y="1126.9666" Width="323.3" Height="123.33333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="6470.1667" Y="1126.9666" Width="323.3" Height="123.33333" />
 	<Subtypes>
 		<DocSubtype UniqueId="5ed3bc9a-ce9b-4e37-8c70-1ded96ca3da6" DefinedType="IfcTextStyleFontModel" />
 	</Subtypes>

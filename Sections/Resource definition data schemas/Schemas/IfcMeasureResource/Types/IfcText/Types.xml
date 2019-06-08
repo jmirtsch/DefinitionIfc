@@ -5,12 +5,8 @@
 		<DocLocalization Name="Text" Locale="en" />
 		<DocLocalization Name="Texte" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2495.1047" Y="1207.4524" Width="187.00743" Height="53.752326" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="STRING_2NlM4StCv1GAAJN13wPS7y" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="2495.1047" Y="1207.4524" Width="187.00743" Height="53.752326" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="STRING_2NlM4StCv1GAAJN13wPS7y" />
 	<DiagramLine>
 		<DocPoint X="2682.11213" Y="1231.3818205" />
 		<DocPoint X="2682.11213" Y="1231.3818205" />

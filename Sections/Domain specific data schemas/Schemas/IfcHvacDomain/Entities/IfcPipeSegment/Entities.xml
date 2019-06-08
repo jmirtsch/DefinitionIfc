@@ -5,18 +5,14 @@
 		<DocLocalization Name="Pipe Segment" Locale="en" />
 		<DocLocalization Name="Tronçon de tuyauterie" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2787.7214" Y="1201.8668" Width="343.85306" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2787.7214" Y="1201.8668" Width="343.85306" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="b5e4efe4-d704-4a26-abca-161eaea57343" DefinedType="IfcPipeSegmentTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
 				<DocPoint X="2787.7214" Y="1251.8668" />
 				<DocPoint X="2573.99635" Y="1251.8668" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2795.7744639" Y="1243.8137361" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2795.7744639" Y="1243.8137361" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

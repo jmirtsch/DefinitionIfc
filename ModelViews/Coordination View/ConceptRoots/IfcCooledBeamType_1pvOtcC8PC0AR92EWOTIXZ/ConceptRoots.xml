@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="73e58de6-3086-4c00-a6c9-08e818752863">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcCooledBeamType" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="384aef6f-2de8-414d-95ae-eaac993e1359" Type="IfcCooledBeamType" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcCooledBeamType" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="d235295f-becb-48de-84fc-a4a0d6e1b34e" Type="IfcCooledBeamType" />
 </DocConceptRoot>
 

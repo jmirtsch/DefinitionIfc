@@ -5,9 +5,7 @@
 		<DocLocalization Name="Rel Assigns To Group" Locale="en" />
 		<DocLocalization Name="Assignation à groupe" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="20084.47" Y="319.72393" Width="356.43333" Height="133.23333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="20084.47" Y="319.72393" Width="356.43333" Height="133.23333" />
 	<Subtypes>
 		<DocSubtype UniqueId="bd60a25e-98bc-4380-94be-31f0ad13ac55" DefinedType="IfcRelAssignsToGroupByFactor" />
 	</Subtypes>
@@ -18,9 +16,7 @@
 				<DocPoint X="20084.47" Y="386.34063" />
 				<DocPoint X="19595.769" Y="386.34063" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="20077.5025" Y="372.512963" Width="167" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="20077.5025" Y="372.512963" Width="167" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

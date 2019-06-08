@@ -4,12 +4,8 @@
 		<DocLocalization Name="Specific Heat Capacity Measure" Locale="en" />
 		<DocLocalization Name="Mesure de capacité thermique massique" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5060.3295" Y="1586.5685" Width="529.20045" Height="54.923051" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_3Ozc6KhPj6xQRt3aLVLnyr" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5060.3295" Y="1586.5685" Width="529.20045" Height="54.923051" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3Ozc6KhPj6xQRt3aLVLnyr" />
 	<DiagramLine>
 		<DocPoint X="5060.3295" Y="1614.03" />
 		<DocPoint X="4971.295223" Y="1614.03" />

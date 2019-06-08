@@ -1,45 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="5e6a6f10-f56e-4495-98a1-392521a4fe2a">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcReinforcingMesh" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcReinforcingMesh" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="8ae17bee-ecd4-4510-928e-23e92233a74a">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="9178460e-71cc-4b5d-aedc-56a96adcc926" RuleParameters="RelatingType=IfcReinforcingMeshType;" Order="0" />
 			</Items>
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Quantity Sets" UniqueId="69f6f5a7-b75d-4d57-bb36-d9e5398a1040">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="a1953c85-9468-412f-be53-14b7feb70387" RuleParameters="QsetName=Qto_ReinforcingElementBaseQuantities;TemplateType=QTO_TYPEDRIVENOVERRIDE;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Reinforcing Mesh Attributes" UniqueId="9a82eb7c-e1fd-481c-8983-d0d232b55c9f">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Reinforcing Mesh Attributes_0QQk0gs89EagPV_gRf3cjg" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Reinforcing_Mesh_Attributes_0QQk0gs89EagPV_gRf3cjg" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="fb161745-4546-4874-8be3-8510e28ddc0a" Type="IfcReinforcingMesh" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="3f494a2d-eea5-43e9-b7b8-8f2318c8c658" Type="IfcReinforcingMesh" />
 </DocConceptRoot>
 

@@ -4,9 +4,7 @@
 		<DocLocalization Name="Vector Or Direction" Locale="en" />
 		<DocLocalization Name="vecteur ou direction" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5003.3383" Y="1736.5532" Width="336.33333" Height="66" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="5003.3383" Y="1736.5532" Width="336.33333" Height="66" />
 	<Selects>
 		<DocSelectItem Name="IfcDirection" UniqueId="9daba0d9-c21c-4cab-9e1a-fe4c11ddc84c" />
 		<DocSelectItem Name="IfcVector" UniqueId="5d5504fb-c77e-4522-baec-48d6880c3b86" />

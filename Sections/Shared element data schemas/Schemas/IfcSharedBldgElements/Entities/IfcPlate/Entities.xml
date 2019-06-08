@@ -5,9 +5,7 @@
 		<DocLocalization Name="Plate" Locale="en" />
 		<DocLocalization Name="Plaque" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="484.69574" Y="1372.3574" Width="249.9" Height="214.6" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="484.69574" Y="1372.3574" Width="249.9" Height="214.6" />
 	<Subtypes>
 		<DocSubtype UniqueId="6478f697-99ce-4282-bd27-c36ba662d83c" DefinedType="IfcPlateStandardCase" />
 	</Subtypes>
@@ -20,9 +18,7 @@
 				<DocPoint X="734.59574" Y="1527.6574" />
 				<DocPoint X="1113.9624" Y="1527.6574" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="729.2624067" Y="1519.6574" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="729.2624067" Y="1519.6574" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

@@ -1,37 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3tvrXMmr1CPAs08_ipYvYu">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcMechanicalFastener" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcMechanicalFastener" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="2NT3ldu198SOLhx0mrtuKb">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="13a55f88-085f-441f-8fb1-dad732d6075e" RuleParameters="RelatingType=IfcMechanicalFastenerType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="1Cbt51GdD2YgwMYkblh8of">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="f37095a0-4444-4155-a95b-aa89f1036a7e" RuleInstanceID="IfcPropertySet" RuleParameters="PredefinedType=ANCHORBOLT;PsetName=Pset_MechanicalFastenerAnchorBolt;TemplateType=PSET_OCCURRENCEDRIVEN;" Order="0" />
 				<DocTemplateItem UniqueId="248d6887-410c-4161-8695-730ae6b2aa66" RuleInstanceID="IfcPropertySet" RuleParameters="PredefinedType=BOLT;PsetName=Pset_MechanicalFastenerBolt;TemplateType=PSET_OCCURRENCEDRIVEN;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Quantity Sets" UniqueId="2Qrhle3Bj2zvXD5K5KGoon">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="4a4f28f1-bd46-407c-9131-eb1d8f8998aa" RuleParameters="QsetName=Qto_MechanicalFastenerBaseQuantities;TemplateType=QTO_OCCURRENCEDRIVEN;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="e83bdbec-dd12-42ee-8125-5e8d73451878" Type="IfcMechanicalFastener" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="b2b9f208-3538-49ee-82de-b29b2234835a" Type="IfcMechanicalFastener" />
 </DocConceptRoot>
 

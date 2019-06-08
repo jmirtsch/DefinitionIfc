@@ -5,9 +5,7 @@
 		<DocLocalization Name="Point" Locale="en" />
 		<DocLocalization Name="Point" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3207.71875" Y="31.4713554382324" Width="202" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3207.71875" Y="31.4713554382324" Width="202" Height="100" />
 	<Subtypes>
 		<DocSubtype UniqueId="42aa582a-f8ff-4ba3-b01e-c855781466d4" DefinedType="IfcCartesianPoint" />
 		<DocSubtype UniqueId="ab143eb1-5253-496c-bd8f-aec9f06b7375" DefinedType="IfcPointOnCurve" />

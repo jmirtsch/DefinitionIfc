@@ -1,52 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="03WFCu_anCXwM9vs1a94vW">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcObject" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcObject" />
 	<Concepts>
 		<DocTemplateUsage Name="Object User Identity" UniqueId="bee60286-4b6c-47c3-9294-e7161749bf49">
 			<Documentation>&lt;p&gt;An attribute &lt;em&gt;Name&lt;/em&gt; and optionally &lt;em&gt;Description&lt;/em&gt; can be used for all subypes of &lt;em&gt;IfcObject&lt;/em&gt;. For those subtypes, that have an object type definition, such as ifcBeam - IfcBeamType, the common &lt;em&gt;Name&lt;/em&gt; and optionally &lt;em&gt;Description&lt;/em&gt; is associated with the object type.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object User Identity_31di66dFr7$AJKdxDG2D1A" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_User_Identity_31di66dFr7AJKdxDG2D1A" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="0QEbl_wsLDaPPQeB9BYToc">
 			<Documentation>&lt;p&gt;This concepts utilizes the additional level of specializing objects. At the level of subtypes, an &lt;em&gt;PredefinedType&lt;/em&gt; enumeration attribute is introduced to select a more specific object occurrence category. If the current precompiled enumeration does not include the specific category, a user defined value can be set.&lt;/em&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Predefined Type_0b989XcDzD2fDaLbDNNAGX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Predefined_Type_0b989XcDzD2fDaLbDNNAGX" />
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Object Typing" UniqueId="ed2ff5fb-f5ee-434d-91ce-a218ce5108b6">
 			<Documentation>&lt;p&gt;Any object occurrence can be typed by being assigned to a common object type utilizing this concept. A particular rule, restricting the applicable subtypes of &lt;em&gt;IfcTypeObject&lt;/em&gt; that can be assigned, is introduced by overriding this concept at the level of subtypes of &lt;em&gt;IfcObject&lt;/em&gt;.&lt;p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Property Sets for Objects" UniqueId="df4ac537-480d-49d7-9839-a7e50aa31a6a">
 			<Documentation>&lt;p&gt;Any object occurrence can hold property sets, each being a set of individual properties having name, description, value(s) and unit(s). A reference to applicable property sets, being part of this specification, is introduced at the level of sub types of &lt;em&gt;IfcObject&lt;/em&gt;.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="b21e6339-fc21-4f91-be8c-1e08f1179954" RuleParameters="PsetName=*;" Order="0">
 					<Documentation>All possible data types are within scope for single value properties</Documentation>
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="9796e0c9-fb4e-403d-9038-0feae2bfbb41">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="36085fb3-4bb3-41fd-99f7-c54263a1113a" RuleParameters="PropertyName=*;Value=IfcAbsorbedDoseMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="0a8d8e42-6e92-4770-9958-27bc76a891ab" RuleParameters="PropertyName=*;Value=IfcAccelerationMeasure;" Order="0" />
@@ -163,8 +147,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="b76b51e1-c271-4f6e-91aa-b161e3b90e8c" Type="IfcObject" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="4491a223-0946-4f52-82f2-8a1b28346608" Type="IfcObject" />
 </DocConceptRoot>
 

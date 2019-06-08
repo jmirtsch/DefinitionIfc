@@ -4,12 +4,8 @@
 		<DocLocalization Name="Ion Concentration Measure" Locale="en" />
 		<DocLocalization Name="Mesure de concentration en ions" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6921.1681" Y="1668.0279" Width="747.90589" Height="70.30186" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_3rbVQZTh9EOu7SnSkHIT3S" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="6921.1681" Y="1668.0279" Width="747.90589" Height="70.30186" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3rbVQZTh9EOu7SnSkHIT3S" />
 	<DiagramLine>
 		<DocPoint X="7669.074" Y="1703.1788" />
 		<DocPoint X="7794.82286" Y="1703.1788" />

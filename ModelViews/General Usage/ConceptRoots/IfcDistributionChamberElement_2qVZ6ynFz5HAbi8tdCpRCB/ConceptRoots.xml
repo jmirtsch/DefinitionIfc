@@ -1,36 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2qVZ6ynFz5HAbi8tdCpRCB">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcDistributionChamberElement" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcDistributionChamberElement" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="03oqUo6Nr1dQV47MD1hY6q">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="1720286c-52ac-4e50-94b4-4feca1ce8553" RuleParameters="RelatingType=IfcDistributionChamberElementType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="08fC9jMxzCOwvzstU_3Tzk">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="df235a89-79b6-4c88-aea2-145d1dd88862" RuleParameters="PsetName=Pset_DistributionChamberElementCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="181273de-37c5-4d50-a191-48661bd622ca">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="20266f81-ede6-4d71-8559-a7df2edd9290" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="ddfaca31-b233-412c-8a00-33729f8500b5">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="2a0fe7e5-ea66-40e1-8391-44f5ea0bc4f4" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
 							</Items>
@@ -40,9 +30,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="3TaOMc6H53XBMozwyavXBA">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="c0b0e32f-8795-49ce-9a88-3b69380da394" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_DistributionChamberElementBaseQuantities;" Order="0" />
 			</Items>
@@ -55,9 +43,7 @@
 &lt;li&gt;&lt;b&gt;&apos;Fill&apos;&lt;/b&gt;: The material that is used to fill the duct (where used).&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;&apos;Wall&apos;&lt;/b&gt;: The material from which the wall of the duct is constructed.&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Constituent_Set_3PRtzzvq9Dk9jT6ADgRVY4" />
 			<Items>
 				<DocTemplateItem UniqueId="4a350fdf-d81a-446f-87b0-25587a62a1bd" RuleParameters="Name=Base;" Order="0">
 					<Documentation>The material from which the base of the duct is constructed.</Documentation>
@@ -74,8 +60,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="5d9ffe96-822a-4284-a1cc-969e580ee5b7" Type="IfcDistributionChamberElement" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="174e8b4a-5d64-4c2d-a3c2-6c9ed3c75d0c" Type="IfcDistributionChamberElement" />
 </DocConceptRoot>
 

@@ -4,12 +4,8 @@
 		<DocLocalization Name="Sound Pressure Level Measure" Locale="en" />
 		<DocLocalization Name="Mesure de niveau de pression sonore" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6921.1192" Y="216.91637" Width="747.86045" Height="70.348335" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_3rbVQZTh9EOu7SnSkHIT3S" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="6921.1192" Y="216.91637" Width="747.86045" Height="70.348335" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3rbVQZTh9EOu7SnSkHIT3S" />
 	<DiagramLine>
 		<DocPoint X="7668.9797" Y="252.09053" />
 		<DocPoint X="7794.8229" Y="252.09053" />

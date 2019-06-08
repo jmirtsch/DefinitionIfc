@@ -4,8 +4,6 @@
 		<DocLocalization Name="Extern definiert - Schraffurstil" Locale="de" />
 		<DocLocalization Name="Externally Defined Hatch Style" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="8044.1009" Y="545.38802" Width="323.33333" Height="123.33333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="8044.1009" Y="545.38802" Width="323.33333" Height="123.33333" />
 </DocEntity>
 

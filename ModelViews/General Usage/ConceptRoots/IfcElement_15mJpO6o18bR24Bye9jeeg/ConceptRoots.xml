@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="15mJpO6o18bR24Bye9jeeg">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcElement" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcElement" />
 	<Concepts>
 		<DocTemplateUsage UniqueId="31TCXEMw9AJuQtLbm69h9o">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="b2a808e4-f558-4411-9736-b5b410e1e817" RuleParameters="PsetName=Pset_EnvironmentalImpactIndicators;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="ee2bd691-31b9-4718-8b02-98222a1ee4b0">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="8887cdf2-aa31-4b5d-bdaa-374c7cde9062" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="697c08d4-527b-4c88-8123-57128e3e55e9" RuleParameters="PropertyName=FunctionalUnitReference;Value=IfcLabel;" Order="0" />
@@ -37,9 +31,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="37d8fc26-259f-4088-92ea-9ca03a5fcf29">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="b47e73c4-0419-42e8-96bd-efa29a5522cd" RuleParameters="PropertyName=LifeCyclePhase;Value=IfcLabel;" Order="0" />
 							</Items>
@@ -49,9 +41,7 @@
 				<DocTemplateItem UniqueId="01031db0-f881-4b48-94ff-1c5c80950640" RuleParameters="PsetName=Pset_EnvironmentalImpactValues;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="1cc97ce6-62bf-4130-91eb-9594c97972e2">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="b2aea67c-6359-436d-98d3-a3b173513f07" RuleParameters="PropertyName=TotalPrimaryEnergyConsumption;Value=IfcEnergyMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="815fd6b9-f81a-44a5-be7c-9a987636be1b" RuleParameters="PropertyName=WaterConsumption;Value=IfcVolumeMeasure;" Order="0" />
@@ -77,9 +67,7 @@
 				<DocTemplateItem UniqueId="1f2b32d4-c683-48e0-99af-a57b84a50f93" RuleParameters="PsetName=Pset_Condition;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="bd19d700-0989-40da-96cc-4841fbb171c7">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="20a46737-144e-40de-8c2b-dc8f6ea86c68" RuleParameters="PropertyName=AssessmentDate;Value=IfcDate;" Order="0" />
 								<DocTemplateItem UniqueId="ccab0cdb-2aa7-4eda-b7ae-38865aae7873" RuleParameters="PropertyName=AssessmentCondition;Value=IfcLabel;" Order="0" />
@@ -91,9 +79,7 @@
 				<DocTemplateItem UniqueId="27810187-15eb-4966-9929-aaee312032aa" RuleParameters="PsetName=Pset_ManufacturerOccurrence;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="aa54c8d3-4a44-4432-b6db-3fcb3ef1d8b6">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="da9220de-be94-49b6-9c1f-2afcde996529" RuleParameters="PropertyName=AcquisitionDate;Value=IfcDate;" Order="0" />
 								<DocTemplateItem UniqueId="26bf59a4-b89b-4413-a6ad-4711f41c04e2" RuleParameters="PropertyName=BarCode;Value=IfcIdentifier;" Order="0" />
@@ -102,9 +88,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="3d38930e-2768-41bf-bf2a-ed983858d4a2">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="6e97069b-afc5-4ab4-a925-7f52fe2d69f1" RuleParameters="PropertyName=AssemblyPlace;Value=IfcLabel;" Order="0" />
 							</Items>
@@ -114,9 +98,7 @@
 				<DocTemplateItem UniqueId="f018fef6-6941-4f68-867b-30113e566c84" RuleParameters="PsetName=Pset_ManufacturerTypeInformation;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="b0e60ebc-c670-41e5-b201-8c409b1d867f">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="def20267-b0b2-4541-86e5-28176efaad80" RuleParameters="PropertyName=GlobalTradeItemNumber;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="3e199e85-ba51-4960-8e70-d284f2416fa3" RuleParameters="PropertyName=ArticleNumber;Value=IfcIdentifier;" Order="0" />
@@ -127,9 +109,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="81c9d9e9-affa-49c1-a3d6-d97b9e3941c8">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="5f5c33fd-b62f-4d73-aabe-8d51447dbad1" RuleParameters="PropertyName=AssemblyPlace;Value=IfcLabel;" Order="0" />
 							</Items>
@@ -139,17 +119,13 @@
 				<DocTemplateItem UniqueId="5c2fb256-8546-42da-a53e-a1130b7d8778" RuleParameters="PsetName=Pset_ServiceLife;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="e2f989c8-5073-4f43-8af5-e6c042002504">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Bounded_Value_0zPwBITXr4sQ2Ujkn_bOo" />
 							<Items>
 								<DocTemplateItem UniqueId="f9e59374-f93d-4342-8b68-6e90827bb689" RuleParameters="PropertyName=ServiceLifeDuration;SetValue=IfcDuration;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="eb3fa4b4-c017-443b-9ec1-437b39caff06">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="1d495bc3-d62e-45cd-a41f-096329b15d07" RuleParameters="PropertyName=MeanTimeBetweenFailure;Value=IfcDuration;" Order="0" />
 							</Items>
@@ -159,9 +135,7 @@
 				<DocTemplateItem UniqueId="ceae4624-79bd-4a11-a9e0-96a653e8b75d" RuleParameters="PsetName=Pset_Warranty;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="6f5c4607-f0b1-40da-9ee9-e29d5332a288">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="2021e6f0-a96e-4d30-9c06-c15fd68f0ccb" RuleParameters="PropertyName=WarrantyIdentifier;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="10987d30-41a9-4a74-85c4-248136cbd297" RuleParameters="PropertyName=WarrantyStartDate;Value=IfcDate;" Order="0" />
@@ -183,9 +157,7 @@
  object coordinate system that is referenced by all geometric
  representations of that &lt;em&gt;IfcElement&lt;/em&gt;.
 &lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 			<Items>
 				<DocTemplateItem UniqueId="32fc8742-37a6-4c8e-a2c9-7a91cd1a015e" RuleParameters="HasPlacement=IfcLocalPlacement;RelativeTo=IfcLocalPlacement;" Order="0">
 					<Documentation>Relative placement according to position and rotation relative to container.</Documentation>
@@ -197,9 +169,7 @@
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="CoG Geometry" UniqueId="5d59ea3a-d1b2-4966-92b2-b6ad32b9cc07">
 			<Documentation>&lt;p&gt;The &apos;CoG&apos;, Center of Gravity, shape representation is used as a means to verify the correct import by comparing the CoG of the imported geometry with the explicily provided CoG created during export.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="CoG Geometry_2XFmxAR4LAbR_c0ynzfgRF" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="CoG_Geometry_2XFmxAR4LAbR_c0ynzfgRF" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Box Geometry" UniqueId="4f15de20-1150-41bf-af4d-998047663946">
 			<Documentation>&lt;table&gt;
@@ -214,14 +184,10 @@
   &lt;td&gt;&amp;nbsp;&lt;/td&gt;
  &lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Box Geometry_2vGiwnk1X6WuSRd9UVeqtL" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Box_Geometry_2vGiwnk1X6WuSRd9UVeqtL" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="FootPrint Geometry" UniqueId="4336ad71-e1b5-4b3c-bda4-85b0fa2f003c">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="FootPrint Geometry_1FLtVNQEb5dAeiHgtpw8qn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="FootPrint_Geometry_1FLtVNQEb5dAeiHgtpw8qn" />
 			<Items>
 				<DocTemplateItem UniqueId="2d2ccb0e-ccff-467d-aa8e-a0457cbdd1a6" RuleParameters="Identifier=FootPrint;Type=GeometricCurveSet;" Order="0">
 					<Documentation>Any collection of points and curves representing the floor plan projection.</Documentation>
@@ -234,9 +200,7 @@
 		<DocTemplateUsage Name="Body SurfaceOrSolidModel Geometry" UniqueId="6774bf6a-01a8-49db-b300-7a90c0ffc9af">
 			<Documentation>&lt;p&gt;Any &lt;em&gt;IfcElement&lt;/em&gt; (so far no further constraints are 
 defined at the level of its subtypes) may be represented as a mixed representation, including surface and solid models.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body SurfaceOrSolidModel Geometry_3xkt3OKkvDa9SkdTjC2X6h" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SurfaceOrSolidModel_Geometry_3xkt3OKkvDa9SkdTjC2X6h" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body SurfaceModel Geometry" UniqueId="4efb9ee0-81a6-48d6-96cc-a9521f03dfd6">
 			<Documentation>&lt;p&gt;Any &lt;em&gt;IfcElement&lt;/em&gt; (so far no further constraints are
@@ -268,18 +232,14 @@ representation&lt;/p&gt;
 &lt;/tr&gt;
 
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body SurfaceModel Geometry_0NqqeIb0D0zB_2PJcRuZnL" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SurfaceModel_Geometry_0NqqeIb0D0zB_2PJcRuZnL" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Tessellation Geometry" UniqueId="1dfabbd4-7bad-45d4-9a80-76a3119b3abf">
 			<Documentation>&lt;p&gt;Any &lt;em&gt;IfcElement&lt;/em&gt; (so far no further constraints are 
 defined at the level of its subtypes) may be represented as a 
 single or multiple tessellated surface models, in particular 
 triangulated surface models.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Tessellation Geometry_1S$KG3PKLCRRmd2fMZq9bG" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Tessellation_Geometry_1SKG3PKLCRRmd2fMZq9bG" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Brep Geometry" UniqueId="a43f9fe1-d853-4f66-856e-b39c8ce0577f">
 			<Documentation>&lt;p&gt;Any &lt;em&gt;IfcElement&lt;/em&gt; (so far no further constraints are
@@ -316,9 +276,7 @@ representation&lt;/p&gt;
 
 
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Brep Geometry_2FkIFrk2r8qgqfrdZAHp$Q" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Brep_Geometry_2FkIFrk2r8qgqfrdZAHpQ" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body AdvancedBrep Geometry" UniqueId="9d50ed78-ea94-47c5-bce5-e5fb4682c713">
 			<Documentation>&lt;p&gt;&lt;p&gt;An &lt;em&gt;IfcElement&lt;/em&gt; (so far no further constraints are
@@ -328,9 +286,7 @@ as NURBS surfaces. The &apos;AdvancedBrep&apos; representation allows for the
 representation of complex free-form element shape.&lt;/p&gt;
 
 &lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; View definitions or implementer agreements may restrict or disallow the use of &apos;AdvancedBrep&apos; geometry.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body AdvancedBrep Geometry_3yTZLrKF5BmBloE2E05I17" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_AdvancedBrep_Geometry_3yTZLrKF5BmBloE2E05I17" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body CSG Geometry" UniqueId="698a7b75-fc38-4233-8afa-5471591a57b9">
 			<Documentation>&lt;p&gt;Any &lt;em&gt;IfcElement&lt;/em&gt; (so far no further constraints are
@@ -338,9 +294,7 @@ representation of complex free-form element shape.&lt;/p&gt;
 representation allows for the representation of complex element 
 shape.&lt;/p&gt;
 &lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; View definitions or implementer agreements may restrict or disallow the use of &apos;CSG&apos; geometry.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body CSG Geometry_2WgtOmQML9NhwFqGRz9Pd2" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_CSG_Geometry_2WgtOmQML9NhwFqGRz9Pd2" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Mapped Geometry" UniqueId="7e839abe-0d85-4c0e-a6b9-feb79842c4fb">
 			<Documentation>&lt;p&gt;
@@ -353,13 +307,9 @@ shape.&lt;/p&gt;
 &lt;p&gt;The same constraints, as given for &apos;SurfaceOrSolidModel&apos;, &apos;SurfaceModel&apos;, &apos;Tessellation&apos;, &apos;Brep&apos;, and
  &apos;AdvancedBrep&apos; geometric representation, shall apply to the
  &lt;em&gt;IfcRepresentationMap&lt;/em&gt;.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Mapped Geometry_3i$TV8STL4dxyWvZebtBcw" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Mapped_Geometry_3iTV8STL4dxyWvZebtBcw" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="50134f57-17a8-4cce-a0ac-b5d23a850aca" Type="IfcElement" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="6d45fd9a-e3c3-4f05-bc41-4434a60b7ac2" Type="IfcElement" />
 </DocConceptRoot>
 

@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="f80e38ff-2667-4d94-b54c-19b918ccb3b9">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcSwitchingDeviceType" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="b762429c-c97a-4bea-abba-53e1ff22c156" Type="IfcSwitchingDeviceType" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcSwitchingDeviceType" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="60fc5b30-db9a-4b57-97bd-4a8aa1a15b4e" Type="IfcSwitchingDeviceType" />
 </DocConceptRoot>
 

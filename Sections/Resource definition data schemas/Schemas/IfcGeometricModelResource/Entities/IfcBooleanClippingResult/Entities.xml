@@ -5,9 +5,7 @@
 		<DocLocalization Name="Boolean Clipping Result" Locale="en" />
 		<DocLocalization Name="Résultat d&apos;opération booléen" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1831.9667" Y="2167.15" Width="473.23333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1831.9667" Y="2167.15" Width="473.23333" Height="100" />
 	<WhereRules>
 		<DocWhereRule Name="FirstOperandType" UniqueId="16e6847d-fb1a-421c-a3f1-7098e6f5f521">
 			<Documentation>The first operand of the Boolean clipping operation shall be either an IfcSweptAreaSolid or (in case of more than one clipping) an IfcBooleanResult.</Documentation>

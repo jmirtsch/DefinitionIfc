@@ -5,9 +5,7 @@
 		<DocLocalization Name="Wall Elemented Case" Locale="en" />
 		<DocLocalization Name="Mur composite" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1114" Y="1818.5333" Width="438.53333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1114" Y="1818.5333" Width="438.53333" Height="100" />
 	<WhereRules>
 		<DocWhereRule Name="HasDecomposition" UniqueId="22ea6846-8a4e-466a-8d9c-fd981045208d">
 			<Documentation>A valid instance of &lt;em&gt;IfcWallElementedCase&lt;/em&gt; has to have parts in a decomposition hierarchy.</Documentation>

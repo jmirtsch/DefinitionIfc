@@ -5,9 +5,7 @@
 		<DocLocalization Name="Table Column" Locale="en" />
 		<DocLocalization Name="Colonne de table" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="601.424580891927" Y="1082.81998697917" Width="298.478963216146" Height="530.970418294271" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="601.424580891927" Y="1082.81998697917" Width="298.478963216146" Height="530.970418294271" />
 	<Attributes>
 		<DocAttribute Name="Identifier" UniqueId="58747f37-ddaf-41c1-8fec-9773e615026d" DefinedType="IfcIdentifier" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The &lt;i&gt;Identifier&lt;/i&gt; identifies the column within the table. If provided, it must be unique within the table. Columns may be cross-referenced across multiple tables by sharing the same column identifier.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="899.903544108073" Y="1268.59674072266" />
 				<DocPoint X="1090.34046996094" Y="1268.59674072266" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="899.903544108073" Y="1248.59674072266" Width="102" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="899.903544108073" Y="1248.59674072266" Width="102" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Name" UniqueId="6dc5612f-9033-42ae-a603-d4b940f2c5e8" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The &lt;i&gt;Name&lt;/i&gt; is a human-readable caption for the table column. It is not necessarilly unique.</Documentation>
@@ -27,9 +23,7 @@
 				<DocPoint X="762.224644978841" Y="1082.81998697917" />
 				<DocPoint X="762.224644978841" Y="1023.29912651042" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="762.224644978841" Y="1003.29912651042" Width="73" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="762.224644978841" Y="1003.29912651042" Width="73" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Description" UniqueId="749535b7-e5ca-4935-bf2d-2e42c04c7972" DefinedType="IfcText" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The &lt;i&gt;Description&lt;/i&gt; provides human-readable text describing the table column.</Documentation>
@@ -38,9 +32,7 @@
 				<DocPoint X="899.903544108073" Y="1474.82455105252" />
 				<DocPoint X="1090.34046996094" Y="1474.82455105252" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="899.903544108073" Y="1454.82455105252" Width="130" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="899.903544108073" Y="1454.82455105252" Width="130" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Unit" UniqueId="006b5097-750b-4881-8007-fabfea21405f" DefinedType="IfcUnit" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The &lt;i&gt;Unit&lt;/i&gt; indicates the unit of measure to be used for this column&apos;s data. If not provided, then project default units are assumed. If &lt;i&gt;ReferencePath&lt;/i&gt; is provided, the the unit must be of the same measure as the referenced attribute.</Documentation>
@@ -49,9 +41,7 @@
 				<DocPoint X="899.903544108073" Y="1577.93845621745" />
 				<DocPoint X="1090.34046996094" Y="1577.93845621745" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="899.903544108073" Y="1557.93845621745" Width="51" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="899.903544108073" Y="1557.93845621745" Width="51" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ReferencePath" UniqueId="e176b358-4817-483a-851e-7d75f75aa4eb" DefinedType="IfcReference" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>The &lt;i&gt;ReferencePath&lt;/i&gt; indicates a relative path to the object and attribute for which data within this column is to be applied. 
@@ -62,9 +52,7 @@ For constraints, such path is relative to the &lt;i&gt;IfcObjectDefinition&lt;/i
 				<DocPoint X="899.903544108073" Y="1371.71064588759" />
 				<DocPoint X="1090.34046996094" Y="1371.71064588759" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="899.903544108073" Y="1351.71064588759" Width="173" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="899.903544108073" Y="1351.71064588759" Width="173" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

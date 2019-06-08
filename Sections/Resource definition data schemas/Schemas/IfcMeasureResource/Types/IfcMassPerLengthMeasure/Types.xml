@@ -4,12 +4,8 @@
 		<DocLocalization Name="Mass Per Length Measure" Locale="en" />
 		<DocLocalization Name="Mesure de masse par unité de longueur" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6921.1228" Y="555.57207" Width="747.84701" Height="70.318214" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_3rbVQZTh9EOu7SnSkHIT3S" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="6921.1228" Y="555.57207" Width="747.84701" Height="70.318214" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3rbVQZTh9EOu7SnSkHIT3S" />
 	<DiagramLine>
 		<DocPoint X="7668.9698" Y="585.08951" />
 		<DocPoint X="7794.82284" Y="585.08951" />

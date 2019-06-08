@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="51ff9316-b231-471f-a956-2044382cc9b5">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcCoilType" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="15814411-b7f3-4476-b669-e8ca19def31e" Type="IfcCoilType" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcCoilType" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="bbc3d5ca-39cb-439f-a773-dc4c6826d376" Type="IfcCoilType" />
 </DocConceptRoot>
 

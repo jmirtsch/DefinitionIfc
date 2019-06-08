@@ -5,8 +5,6 @@
 		<DocLocalization Name="Distribution Circuit" Locale="en" />
 		<DocLocalization Name="Circuit de distribution" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3270.4259" Y="690.29846" Width="562.38787" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3270.4259" Y="690.29846" Width="562.38787" Height="100" />
 </DocEntity>
 

@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTaskDurationEnum" UniqueId="81f1198b-4504-4aff-8721-848f9700ba32" DiagramNumber="2">
 	<Localization>
-		<DocLocalization Name="Task Duration Enum" Locale="en" />
-		<DocLocalization Name="Enumération des types de durée de tâche" Locale="fr" />
+		<DocLocalization xsi:nil="true" href="i43951" />
+		<DocLocalization xsi:nil="true" href="i43952" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2357.24650065104" Y="263.093027750651" Width="409" Height="54.937875" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" xsi:nil="true" href="i43953" />
 	<Constants>
 		<DocConstant xsi:nil="true" href="ELAPSEDTIME_2C7FNvA3L8ABtcS6JfXhBx" />
 		<DocConstant xsi:nil="true" href="WORKTIME_0Iouaoca96zPJN9F5zOBPP" />

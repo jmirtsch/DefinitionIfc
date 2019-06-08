@@ -5,9 +5,7 @@
 		<DocLocalization Name="External Spatial Structure Element" Locale="en" />
 		<DocLocalization Name="Elément de la structure spatiale extérieure" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6628.4" Y="850.05333" Width="410.66667" Height="148" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="6628.4" Y="850.05333" Width="410.66667" Height="148" />
 	<Subtypes>
 		<DocSubtype UniqueId="998c5217-9c4a-4cb9-b147-7e0043f93cba" DefinedType="IfcExternalSpatialElement" />
 	</Subtypes>

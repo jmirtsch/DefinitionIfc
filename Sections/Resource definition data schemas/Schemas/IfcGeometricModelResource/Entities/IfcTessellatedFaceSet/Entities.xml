@@ -5,9 +5,7 @@
 		<DocLocalization Name="Tessellated Face Set" Locale="en" />
 		<DocLocalization Name="Ensemble de faces tessellées" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="12876.4248046875" Y="478.853363037109" Width="353.6" Height="626.399983723958" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="12876.4248046875" Y="478.853363037109" Width="353.6" Height="626.399983723958" />
 	<Subtypes>
 		<DocSubtype UniqueId="35324f0e-ff5e-47d0-9bb4-9a1c2dbaa971" DefinedType="IfcTriangulatedFaceSet" />
 		<DocSubtype UniqueId="44a19664-7c6a-469b-9d7b-b33a533d4279" DefinedType="IfcTriangulatedFaceSet" />
@@ -21,9 +19,7 @@
 				<DocPoint X="12876.4248046875" Y="717.119995117188" />
 				<DocPoint X="12243.353769375" Y="717.119995117188" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="12876.4248046875" Y="697.119995117188" Width="141" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="12876.4248046875" Y="697.119995117188" Width="141" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Dim" UniqueId="43876eff-5b1f-4247-b220-0e835e3f5f0e" DefinedType="IfcDimensionCount" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The space dimensionality of this geometric representation item, it is always 3.</Documentation>
@@ -33,9 +29,7 @@
 				<DocPoint X="13230.0248046875" Y="324.950035" />
 				<DocPoint X="14512.333" Y="324.950035" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="13230.0248046875" Y="478.853363037109" Width="400" Height="100" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="13230.0248046875" Y="478.853363037109" Width="400" Height="100" />
 		</DocAttribute>
 		<DocAttribute Name="HasColours" UniqueId="91135fdb-fb22-4f3b-8316-c13c64b911c0" DefinedType="IfcIndexedColourMap" AttributeFlags="32" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="MappedTo" XsdFormat="attribute">
 			<Documentation>Reference to the indexed colour map providing the corresponding colour RGB values to the faces of the subtypes of &lt;em&gt;IfcTessellatedFaceSet&lt;/em&gt;.</Documentation>
@@ -44,9 +38,7 @@
 				<DocPoint X="13230.0248046875" Y="847.033365885417" />
 				<DocPoint X="13718.9583333333" Y="847.033365885417" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="13230.0248046875" Y="827.033365885417" Width="279" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="13230.0248046875" Y="827.033365885417" Width="279" Height="70" />
 		</DocAttribute>
 		<DocAttribute Name="HasTextures" UniqueId="bc9e2551-f6b9-4d6e-a1ea-83aa87876820" DefinedType="IfcIndexedTextureMap" AttributeFlags="32" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="MappedTo" XsdFormat="element">
 			<Documentation>Reference to the indexed texture map providing the corresponding texture coordinates to the vertices bounding the faces of the subtypes of &lt;em&gt;IfcTessellatedFaceSet&lt;/em&gt;.</Documentation>
@@ -55,9 +47,7 @@
 				<DocPoint X="13230.0248046875" Y="1021.06673177083" />
 				<DocPoint X="13718.9583333333" Y="1021.06673177083" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="13230.0248046875" Y="1001.06673177083" Width="290" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="13230.0248046875" Y="1001.06673177083" Width="290" Height="70" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

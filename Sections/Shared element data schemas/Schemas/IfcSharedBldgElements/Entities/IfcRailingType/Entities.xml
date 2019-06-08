@@ -5,9 +5,7 @@
 		<DocLocalization Name="Railing Type" Locale="en" />
 		<DocLocalization Name="Type de garde corps" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3629.5833" Y="932.5583" Width="326.63333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3629.5833" Y="932.5583" Width="326.63333" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="07835b3b-3d85-4552-97ee-27905ee63e86" DefinedType="IfcRailingTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of a railing element from which the type required may be set.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="3956.21663" Y="984.8666965" />
 				<DocPoint X="4184.6499" Y="984.8666965" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3956.21663" Y="964.8666965" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3956.21663" Y="964.8666965" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

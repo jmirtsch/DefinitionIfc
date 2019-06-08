@@ -5,9 +5,7 @@
 		<DocLocalization Name="Colour" Locale="en" />
 		<DocLocalization Name="Couleur" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="7395.4333" Y="2604.2" Width="195.33333" Height="124" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="7395.4333" Y="2604.2" Width="195.33333" Height="124" />
 	<Selects>
 		<DocSelectItem Name="IfcColourSpecification" UniqueId="789378b7-55ee-411b-b581-ede92c36ea3a" />
 		<DocSelectItem Name="IfcPreDefinedColour" UniqueId="245aeb8d-5b25-4756-b925-e4ded5ee03c7" />

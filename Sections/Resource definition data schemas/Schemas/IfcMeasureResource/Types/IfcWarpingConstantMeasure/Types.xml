@@ -4,12 +4,8 @@
 		<DocLocalization Name="Warping Constant Measure" Locale="en" />
 		<DocLocalization Name="Mesure de la constante de déformation" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6921.139" Y="926.30922" Width="747.85147" Height="70.339405" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_3rbVQZTh9EOu7SnSkHIT3S" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="6921.139" Y="926.30922" Width="747.85147" Height="70.339405" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3rbVQZTh9EOu7SnSkHIT3S" />
 	<DiagramLine>
 		<DocPoint X="7668.9905" Y="958.3966" />
 		<DocPoint X="7794.82288" Y="958.3966" />

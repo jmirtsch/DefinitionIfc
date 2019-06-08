@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="85d75219-28b5-441b-a7df-5978dc67f8e1">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcHumidifierType" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="198026c1-56a9-4bdf-9028-275b14648472" Type="IfcHumidifierType" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcHumidifierType" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="66506c13-e9c5-4b14-b7d8-9c6fb5eed60b" Type="IfcHumidifierType" />
 </DocConceptRoot>
 

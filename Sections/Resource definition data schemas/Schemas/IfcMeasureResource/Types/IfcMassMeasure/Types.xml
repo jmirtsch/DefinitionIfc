@@ -4,12 +4,8 @@
 		<DocLocalization Name="Mass Measure" Locale="en" />
 		<DocLocalization Name="Mesure de masse" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4109.2683" Y="1151.5271" Width="405.42119" Height="53.752326" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_3rgGLNxTz9whM6tTFMepuM" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="4109.2683" Y="1151.5271" Width="405.42119" Height="53.752326" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3rgGLNxTz9whM6tTFMepuM" />
 	<DiagramLine>
 		<DocPoint X="4514.6895" Y="1178.4033" />
 		<DocPoint X="4591.624368" Y="1178.4033" />

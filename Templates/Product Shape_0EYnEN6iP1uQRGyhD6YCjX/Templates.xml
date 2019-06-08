@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Product Shape" UniqueId="0EYnEN6iP1uQRGyhD6YCjX" Type="IfcProduct">
 	<Templates>
-		<DocTemplateDefinition id="Product Placement_2j9t32aKvAifqvl0t$Ftia" Name="Product Placement" UniqueId="ad2770c2-914e-4ab2-9d39-bc0dff3f7b24" Type="IfcProduct">
+		<DocTemplateDefinition id="Product_Placement_2j9t32aKvAifqvl0tFtia" Name="Product Placement" UniqueId="ad2770c2-914e-4ab2-9d39-bc0dff3f7b24" Type="IfcProduct">
 			<Documentation>&lt;p&gt;
 Product occurrences are placed in a right handed Cartesian coordinate system. The &lt;em&gt;Product Placement&lt;/em&gt; is used to establish an object coordinate system that maby be placed relative to a parent object coordinate system, and ultimately to the project coordinate system.&lt;/p&gt;</Documentation>
 			<Templates>
-				<DocTemplateDefinition id="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" Name="Product Local Placement" UniqueId="3Bw5jVUH9AGukt7cE$GB9j" Type="IfcProduct">
+				<DocTemplateDefinition id="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" Name="Product Local Placement" UniqueId="3Bw5jVUH9AGukt7cE$GB9j" Type="IfcProduct">
 					<Documentation>&lt;p&gt;
 Product occurrences can be placed in 3D space relative to
  where they are contained. Placement is defined by a
@@ -104,7 +104,7 @@ Placement follows aggregation and containment relationships
 						</DocModelRuleAttribute>
 					</Rules>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Product Grid Placement_3Xr$C7kR9FHODwhtlgqpHa" Name="Product Grid Placement" UniqueId="e1d7f307-b9b2-4f45-837a-af7bead33464" Type="IfcProduct">
+				<DocTemplateDefinition id="Product_Grid_Placement_3XrC7kR9FHODwhtlgqpHa" Name="Product Grid Placement" UniqueId="e1d7f307-b9b2-4f45-837a-af7bead33464" Type="IfcProduct">
 					<Documentation>&lt;p&gt;Product occurrences may be positioned relative to a grid, where the axes of such grid may be modified such that product occurrences are re-positioned relative to grid axes.&lt;/p&gt;</Documentation>
 					<Rules>
 						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ObjectPlacement">
@@ -181,7 +181,7 @@ Placement follows aggregation and containment relationships
 				</DocTemplateDefinition>
 			</Templates>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Product Geometric Representation_0J_MaK6jH1rBgPGHgUo$Ld" Name="Product Geometric Representation" UniqueId="0J_MaK6jH1rBgPGHgUo$Ld" Type="IfcProduct">
+		<DocTemplateDefinition id="Product_Geometric_Representation_0J_MaK6jH1rBgPGHgUoLd" Name="Product Geometric Representation" UniqueId="0J_MaK6jH1rBgPGHgUo$Ld" Type="IfcProduct">
 			<Documentation>&lt;p&gt;
 
 The shape of products may be represented in multiple ways
@@ -229,7 +229,7 @@ The shape of products may be represented in multiple ways
 				</DocModelRuleAttribute>
 			</Rules>
 			<Templates>
-				<DocTemplateDefinition id="CoG Geometry_2XFmxAR4LAbR_c0ynzfgRF" Name="CoG Geometry" UniqueId="a13f0eca-6c45-4a95-bfa6-03cc7da6a6cf" Type="IfcProduct">
+				<DocTemplateDefinition id="CoG_Geometry_2XFmxAR4LAbR_c0ynzfgRF" Name="CoG Geometry" UniqueId="a13f0eca-6c45-4a95-bfa6-03cc7da6a6cf" Type="IfcProduct">
 					<Documentation>&lt;p&gt;
 Elements may have a &apos;CoG&apos; representation
  describing the Center of Gravity as a point. Such representation may be used for allowing validation checks to verify, that the CoG after import of the &apos;Body&apos; shape representation 
@@ -293,7 +293,7 @@ matches this explicit value created during export, taking acceptable numeric tol
 						</DocModelRuleAttribute>
 					</Rules>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Box Geometry_2vGiwnk1X6WuSRd9UVeqtL" Name="Box Geometry" UniqueId="b942ceb1-b818-4683-871b-9c979fa34dd5" Type="IfcProduct">
+				<DocTemplateDefinition id="Box_Geometry_2vGiwnk1X6WuSRd9UVeqtL" Name="Box Geometry" UniqueId="b942ceb1-b818-4683-871b-9c979fa34dd5" Type="IfcProduct">
 					<Documentation>&lt;p&gt;
 Elements may have a simplified &apos;Box&apos; representation
  describing the dimensions of the smallest box bounding the
@@ -339,19 +339,11 @@ Elements may have a simplified &apos;Box&apos; representation
 																<DocModelRuleEntity id="i29502" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																	<Rules>
 																		<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=Box" Description="Value=Box">
-																			<Expression>
-																				<DocOpStatement Operation="compareequal">
-																					<Reference>
-																						<DocOpReference>
-																							<EntityRule>
-																								<DocModelRuleEntity xsi:nil="true" href="i29502" />
-																							</EntityRule>
-																						</DocOpReference>
-																					</Reference>
-																					<Value>
-																						<DocOpLiteral Literal="Box" />
-																					</Value>
-																				</DocOpStatement>
+																			<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																				<Reference xsi:type="DocOpReference">
+																					<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29502" />
+																				</Reference>
+																				<Value xsi:type="DocOpLiteral" Literal="Box" />
 																			</Expression>
 																		</DocModelRuleConstraint>
 																	</Rules>
@@ -363,19 +355,11 @@ Elements may have a simplified &apos;Box&apos; representation
 																<DocModelRuleEntity id="i29508" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																	<Rules>
 																		<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=BoundingBox" Description="Value=BoundingBox">
-																			<Expression>
-																				<DocOpStatement Operation="compareequal">
-																					<Reference>
-																						<DocOpReference>
-																							<EntityRule>
-																								<DocModelRuleEntity xsi:nil="true" href="i29508" />
-																							</EntityRule>
-																						</DocOpReference>
-																					</Reference>
-																					<Value>
-																						<DocOpLiteral Literal="BoundingBox" />
-																					</Value>
-																				</DocOpStatement>
+																			<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																				<Reference xsi:type="DocOpReference">
+																					<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29508" />
+																				</Reference>
+																				<Value xsi:type="DocOpLiteral" Literal="BoundingBox" />
 																			</Expression>
 																		</DocModelRuleConstraint>
 																	</Rules>
@@ -433,19 +417,11 @@ Elements may have a simplified &apos;Box&apos; representation
 																<DocModelRuleEntity id="i29524" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																	<Rules>
 																		<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=Annotation" Description="Value=Annotation">
-																			<Expression>
-																				<DocOpStatement Operation="compareequal">
-																					<Reference>
-																						<DocOpReference>
-																							<EntityRule>
-																								<DocModelRuleEntity xsi:nil="true" href="i29524" />
-																							</EntityRule>
-																						</DocOpReference>
-																					</Reference>
-																					<Value>
-																						<DocOpLiteral Literal="Annotation" />
-																					</Value>
-																				</DocOpStatement>
+																			<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																				<Reference xsi:type="DocOpReference">
+																					<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29524" />
+																				</Reference>
+																				<Value xsi:type="DocOpLiteral" Literal="Annotation" />
 																			</Expression>
 																		</DocModelRuleConstraint>
 																	</Rules>
@@ -470,7 +446,7 @@ Elements may have a simplified &apos;Box&apos; representation
 						</DocModelRuleAttribute>
 					</Rules>
 					<Templates>
-						<DocTemplateDefinition id="Annotation 2D Geometry_01GMQdxoj86B$B4IYcaS_V" Name="Annotation 2D Geometry" UniqueId="014166a7-ef2b-4818-bfcb-1128a691cf9f" Type="IfcAnnotation">
+						<DocTemplateDefinition id="Annotation_2D_Geometry_01GMQdxoj86BB4IYcaS_V" Name="Annotation 2D Geometry" UniqueId="014166a7-ef2b-4818-bfcb-1128a691cf9f" Type="IfcAnnotation">
 							<Documentation>&lt;p&gt;
 The &apos;Annotation 2D Geometry&apos; is used, when the representation of an annotation includes specific drafting
  representation elements, in particular areas for hatching and text. &lt;/p&gt;
@@ -522,19 +498,11 @@ The &apos;Annotation 2D Geometry&apos; is used, when the representation of an an
 																		<DocModelRuleEntity id="i29541" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																			<Rules>
 																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=Annotation" Description="Value=Annotation">
-																					<Expression>
-																						<DocOpStatement Operation="compareequal">
-																							<Reference>
-																								<DocOpReference>
-																									<EntityRule>
-																										<DocModelRuleEntity xsi:nil="true" href="i29541" />
-																									</EntityRule>
-																								</DocOpReference>
-																							</Reference>
-																							<Value>
-																								<DocOpLiteral Literal="Annotation" />
-																							</Value>
-																						</DocOpStatement>
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29541" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Literal="Annotation" />
 																					</Expression>
 																				</DocModelRuleConstraint>
 																			</Rules>
@@ -546,19 +514,11 @@ The &apos;Annotation 2D Geometry&apos; is used, when the representation of an an
 																		<DocModelRuleEntity id="i29547" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																			<Rules>
 																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=Annotation2D" Description="Value=Annotation2D">
-																					<Expression>
-																						<DocOpStatement Operation="compareequal">
-																							<Reference>
-																								<DocOpReference>
-																									<EntityRule>
-																										<DocModelRuleEntity xsi:nil="true" href="i29547" />
-																									</EntityRule>
-																								</DocOpReference>
-																							</Reference>
-																							<Value>
-																								<DocOpLiteral Literal="Annotation2D" />
-																							</Value>
-																						</DocOpStatement>
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29547" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Literal="Annotation2D" />
 																					</Expression>
 																				</DocModelRuleConstraint>
 																			</Rules>
@@ -615,7 +575,7 @@ The &apos;Annotation 2D Geometry&apos; is used, when the representation of an an
 																									<Rules>
 																										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcFillAreaStyle">
 																											<References>
-																												<DocTemplateDefinition xsi:nil="true" href="Geometry Fill Area Style_1h$QdPNcv98Bs6d7jlRUfS" />
+																												<DocTemplateDefinition xsi:nil="true" href="Geometry_Fill_Area_Style_1hQdPNcv98Bs6d7jlRUfS" />
 																											</References>
 																										</DocModelRuleEntity>
 																									</Rules>
@@ -651,7 +611,7 @@ The &apos;Annotation 2D Geometry&apos; is used, when the representation of an an
 																									<Rules>
 																										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcCurveStyle">
 																											<References>
-																												<DocTemplateDefinition xsi:nil="true" href="Geometry Curve Style_3C4lU9PzX0TwHH51kePqJO" />
+																												<DocTemplateDefinition xsi:nil="true" href="Geometry_Curve_Style_3C4lU9PzX0TwHH51kePqJO" />
 																											</References>
 																										</DocModelRuleEntity>
 																									</Rules>
@@ -692,7 +652,7 @@ The &apos;Annotation 2D Geometry&apos; is used, when the representation of an an
 																									<Rules>
 																										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcTextStyle">
 																											<References>
-																												<DocTemplateDefinition xsi:nil="true" href="Geometry Text Style_0qt3Bw5rr3XvtbD02sZ0fi" />
+																												<DocTemplateDefinition xsi:nil="true" href="Geometry_Text_Style_0qt3Bw5rr3XvtbD02sZ0fi" />
 																											</References>
 																										</DocModelRuleEntity>
 																									</Rules>
@@ -717,7 +677,7 @@ The &apos;Annotation 2D Geometry&apos; is used, when the representation of an an
 								</DocModelRuleAttribute>
 							</Rules>
 						</DocTemplateDefinition>
-						<DocTemplateDefinition id="Annotation 3D Geometry_0F8JX6$XL61wPgipwOorY7" Name="Annotation 3D Geometry" UniqueId="0f213846-fe15-4607-a66a-b33e98cb5887" Type="IfcAnnotation">
+						<DocTemplateDefinition id="Annotation_3D_Geometry_0F8JX6XL61wPgipwOorY7" Name="Annotation 3D Geometry" UniqueId="0f213846-fe15-4607-a66a-b33e98cb5887" Type="IfcAnnotation">
 							<Documentation>&lt;p&gt;
 The &apos;Annotation 3D Geometry&apos; is used, when the representation of the
  annotation does includes surfaces and is not restricted to two-dimensional representation items.&lt;/p&gt;
@@ -764,19 +724,11 @@ The &apos;Annotation 3D Geometry&apos; is used, when the representation of the
 																		<DocModelRuleEntity id="i29605" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																			<Rules>
 																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=Annotation" Description="Value=Annotation">
-																					<Expression>
-																						<DocOpStatement Operation="compareequal">
-																							<Reference>
-																								<DocOpReference>
-																									<EntityRule>
-																										<DocModelRuleEntity xsi:nil="true" href="i29605" />
-																									</EntityRule>
-																								</DocOpReference>
-																							</Reference>
-																							<Value>
-																								<DocOpLiteral Literal="Annotation" />
-																							</Value>
-																						</DocOpStatement>
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29605" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Literal="Annotation" />
 																					</Expression>
 																				</DocModelRuleConstraint>
 																			</Rules>
@@ -788,19 +740,11 @@ The &apos;Annotation 3D Geometry&apos; is used, when the representation of the
 																		<DocModelRuleEntity id="i29611" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																			<Rules>
 																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=GeometricSet" Description="Value=GeometricSet">
-																					<Expression>
-																						<DocOpStatement Operation="compareequal">
-																							<Reference>
-																								<DocOpReference>
-																									<EntityRule>
-																										<DocModelRuleEntity xsi:nil="true" href="i29611" />
-																									</EntityRule>
-																								</DocOpReference>
-																							</Reference>
-																							<Value>
-																								<DocOpLiteral Literal="GeometricSet" />
-																							</Value>
-																						</DocOpStatement>
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29611" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Literal="GeometricSet" />
 																					</Expression>
 																				</DocModelRuleConstraint>
 																			</Rules>
@@ -828,7 +772,7 @@ The &apos;Annotation 3D Geometry&apos; is used, when the representation of the
 						</DocTemplateDefinition>
 					</Templates>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Axis Geometry_0xznRVEP1B$815da0HoROY" Name="Axis Geometry" UniqueId="0xznRVEP1B$815da0HoROY" Type="IfcElement">
+				<DocTemplateDefinition id="Axis_Geometry_0xznRVEP1B815da0HoROY" Name="Axis Geometry" UniqueId="0xznRVEP1B$815da0HoROY" Type="IfcElement">
 					<Documentation>&lt;p&gt;
 Elements following a path provide an &apos;Axis&apos; representation
  indicating a line segment or any arbitrary open bounded curve.
@@ -874,19 +818,11 @@ A two-dimensional bounded curve is used as the wall axis in standard walls, a th
 																<DocModelRuleEntity id="i29629" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																	<Rules>
 																		<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=Axis" Description="Value=Axis">
-																			<Expression>
-																				<DocOpStatement Operation="compareequal">
-																					<Reference>
-																						<DocOpReference>
-																							<EntityRule>
-																								<DocModelRuleEntity xsi:nil="true" href="i29629" />
-																							</EntityRule>
-																						</DocOpReference>
-																					</Reference>
-																					<Value>
-																						<DocOpLiteral Literal="Axis" />
-																					</Value>
-																				</DocOpStatement>
+																			<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																				<Reference xsi:type="DocOpReference">
+																					<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29629" />
+																				</Reference>
+																				<Value xsi:type="DocOpLiteral" Literal="Axis" />
 																			</Expression>
 																		</DocModelRuleConstraint>
 																	</Rules>
@@ -911,7 +847,7 @@ A two-dimensional bounded curve is used as the wall axis in standard walls, a th
 						</DocModelRuleAttribute>
 					</Rules>
 					<Templates>
-						<DocTemplateDefinition id="Axis 2D Geometry_1u94Jere57Mf0qgUVrF6rb" Name="Axis 2D Geometry" UniqueId="782444e8-d681-475a-9034-a9e7f53c6d65" Type="IfcElement">
+						<DocTemplateDefinition id="Axis_2D_Geometry_1u94Jere57Mf0qgUVrF6rb" Name="Axis 2D Geometry" UniqueId="782444e8-d681-475a-9034-a9e7f53c6d65" Type="IfcElement">
 							<Documentation>&lt;p&gt;
 The &apos;Axis&apos; representation using &apos;Curve2D&apos; representation type is predominately used to align material layer sets to geometric representations of standard walls.
 
@@ -953,19 +889,11 @@ The &apos;Axis&apos; representation using &apos;Curve2D&apos; representation typ
 																		<DocModelRuleEntity id="i29646" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																			<Rules>
 																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=Axis" Description="Value=Axis">
-																					<Expression>
-																						<DocOpStatement Operation="compareequal">
-																							<Reference>
-																								<DocOpReference>
-																									<EntityRule>
-																										<DocModelRuleEntity xsi:nil="true" href="i29646" />
-																									</EntityRule>
-																								</DocOpReference>
-																							</Reference>
-																							<Value>
-																								<DocOpLiteral Literal="Axis" />
-																							</Value>
-																						</DocOpStatement>
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29646" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Literal="Axis" />
 																					</Expression>
 																				</DocModelRuleConstraint>
 																			</Rules>
@@ -977,19 +905,11 @@ The &apos;Axis&apos; representation using &apos;Curve2D&apos; representation typ
 																		<DocModelRuleEntity id="i29652" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																			<Rules>
 																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=Curve2D" Description="Value=Curve2D">
-																					<Expression>
-																						<DocOpStatement Operation="compareequal">
-																							<Reference>
-																								<DocOpReference>
-																									<EntityRule>
-																										<DocModelRuleEntity xsi:nil="true" href="i29652" />
-																									</EntityRule>
-																								</DocOpReference>
-																							</Reference>
-																							<Value>
-																								<DocOpLiteral Literal="Curve2D" />
-																							</Value>
-																						</DocOpStatement>
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29652" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Literal="Curve2D" />
 																					</Expression>
 																				</DocModelRuleConstraint>
 																			</Rules>
@@ -1013,7 +933,7 @@ The &apos;Axis&apos; representation using &apos;Curve2D&apos; representation typ
 								</DocModelRuleAttribute>
 							</Rules>
 						</DocTemplateDefinition>
-						<DocTemplateDefinition id="Axis 3D Geometry_2ubDZB_q55xBeOSih6klyq" Name="Axis 3D Geometry" UniqueId="b894d8cb-fb41-45ec-ba18-72cac6baff34" Type="IfcElement">
+						<DocTemplateDefinition id="Axis_3D_Geometry_2ubDZB_q55xBeOSih6klyq" Name="Axis 3D Geometry" UniqueId="b894d8cb-fb41-45ec-ba18-72cac6baff34" Type="IfcElement">
 							<Documentation>&lt;p&gt;
 The &apos;Axis&apos; representation using &apos;Curve3D&apos; representation type is predominately used to align material profile sets to geometric representations of standard beams, columns, members, pipes, ducts and other longitudinal elements.
 
@@ -1055,19 +975,11 @@ The &apos;Axis&apos; representation using &apos;Curve3D&apos; representation typ
 																		<DocModelRuleEntity id="i29668" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																			<Rules>
 																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=Axis" Description="Value=Axis">
-																					<Expression>
-																						<DocOpStatement Operation="compareequal">
-																							<Reference>
-																								<DocOpReference>
-																									<EntityRule>
-																										<DocModelRuleEntity xsi:nil="true" href="i29668" />
-																									</EntityRule>
-																								</DocOpReference>
-																							</Reference>
-																							<Value>
-																								<DocOpLiteral Literal="Axis" />
-																							</Value>
-																						</DocOpStatement>
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29668" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Literal="Axis" />
 																					</Expression>
 																				</DocModelRuleConstraint>
 																			</Rules>
@@ -1079,19 +991,11 @@ The &apos;Axis&apos; representation using &apos;Curve3D&apos; representation typ
 																		<DocModelRuleEntity id="i29674" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																			<Rules>
 																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=Curve3D" Description="Value=Curve3D">
-																					<Expression>
-																						<DocOpStatement Operation="compareequal">
-																							<Reference>
-																								<DocOpReference>
-																									<EntityRule>
-																										<DocModelRuleEntity xsi:nil="true" href="i29674" />
-																									</EntityRule>
-																								</DocOpReference>
-																							</Reference>
-																							<Value>
-																								<DocOpLiteral Literal="Curve3D" />
-																							</Value>
-																						</DocOpStatement>
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29674" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Literal="Curve3D" />
 																					</Expression>
 																				</DocModelRuleConstraint>
 																			</Rules>
@@ -1117,7 +1021,7 @@ The &apos;Axis&apos; representation using &apos;Curve3D&apos; representation typ
 						</DocTemplateDefinition>
 					</Templates>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="FootPrint Geometry_1FLtVNQEb5dAeiHgtpw8qn" Name="FootPrint Geometry" UniqueId="1FLtVNQEb5dAeiHgtpw8qn" Type="IfcProduct">
+				<DocTemplateDefinition id="FootPrint_Geometry_1FLtVNQEb5dAeiHgtpw8qn" Name="FootPrint Geometry" UniqueId="1FLtVNQEb5dAeiHgtpw8qn" Type="IfcProduct">
 					<Documentation>&lt;p&gt;
 Elements filling a boundary provide a &apos;Footprint&apos;
  representation indicating a rectangle or any arbitrary set
@@ -1153,19 +1057,11 @@ Elements filling a boundary provide a &apos;Footprint&apos;
 																<DocModelRuleEntity id="i29688" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																	<Rules>
 																		<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=FootPrint" Description="Value=FootPrint">
-																			<Expression>
-																				<DocOpStatement Operation="compareequal">
-																					<Reference>
-																						<DocOpReference>
-																							<EntityRule>
-																								<DocModelRuleEntity xsi:nil="true" href="i29688" />
-																							</EntityRule>
-																						</DocOpReference>
-																					</Reference>
-																					<Value>
-																						<DocOpLiteral Literal="FootPrint" />
-																					</Value>
-																				</DocOpStatement>
+																			<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																				<Reference xsi:type="DocOpReference">
+																					<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29688" />
+																				</Reference>
+																				<Value xsi:type="DocOpLiteral" Literal="FootPrint" />
 																			</Expression>
 																		</DocModelRuleConstraint>
 																	</Rules>
@@ -1195,7 +1091,7 @@ Elements filling a boundary provide a &apos;Footprint&apos;
 						</DocModelRuleAttribute>
 					</Rules>
 					<Templates>
-						<DocTemplateDefinition id="FootPrint GeomSet Geometry_2KLjRMfYf8jBh$lYuukgoS" Name="FootPrint GeomSet Geometry" UniqueId="9456d6d6-a62a-48b4-baff-be2e38baac9c" Type="IfcProduct">
+						<DocTemplateDefinition id="FootPrint_GeomSet_Geometry_2KLjRMfYf8jBhlYuukgoS" Name="FootPrint GeomSet Geometry" UniqueId="9456d6d6-a62a-48b4-baff-be2e38baac9c" Type="IfcProduct">
 							<Documentation>&lt;p&gt;The &apos;FootPrint GeomSet Geometry&apos; is the standard representation for the floor plan projection of the geometric representation of elements, comprising of mainly 2D curves&lt;/p&gt;
 &lt;p&gt;The following attribute values for the
  &lt;em&gt;IfcShapeRepresentation&lt;/em&gt; holding this geometric representation 
@@ -1222,19 +1118,11 @@ are used:&lt;/p&gt;
 																		<DocModelRuleEntity id="i29705" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																			<Rules>
 																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=FootPrint" Description="Value=FootPrint">
-																					<Expression>
-																						<DocOpStatement Operation="compareequal">
-																							<Reference>
-																								<DocOpReference>
-																									<EntityRule>
-																										<DocModelRuleEntity xsi:nil="true" href="i29705" />
-																									</EntityRule>
-																								</DocOpReference>
-																							</Reference>
-																							<Value>
-																								<DocOpLiteral Literal="FootPrint" />
-																							</Value>
-																						</DocOpStatement>
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29705" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Literal="FootPrint" />
 																					</Expression>
 																				</DocModelRuleConstraint>
 																			</Rules>
@@ -1251,19 +1139,11 @@ are used:&lt;/p&gt;
 																		<DocModelRuleEntity id="i29713" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																			<Rules>
 																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=GeometricCurveSet" Description="Value=GeometricCurveSet">
-																					<Expression>
-																						<DocOpStatement Operation="compareequal">
-																							<Reference>
-																								<DocOpReference>
-																									<EntityRule>
-																										<DocModelRuleEntity xsi:nil="true" href="i29713" />
-																									</EntityRule>
-																								</DocOpReference>
-																							</Reference>
-																							<Value>
-																								<DocOpLiteral Literal="GeometricCurveSet" />
-																							</Value>
-																						</DocOpStatement>
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29713" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Literal="GeometricCurveSet" />
 																					</Expression>
 																				</DocModelRuleConstraint>
 																			</Rules>
@@ -1303,19 +1183,11 @@ are used:&lt;/p&gt;
 																				<DocModelRuleEntity id="i29727" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																					<Rules>
 																						<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=FootPrint" Description="Value=FootPrint">
-																							<Expression>
-																								<DocOpStatement Operation="compareequal">
-																									<Reference>
-																										<DocOpReference>
-																											<EntityRule>
-																												<DocModelRuleEntity xsi:nil="true" href="i29727" />
-																											</EntityRule>
-																										</DocOpReference>
-																									</Reference>
-																									<Value>
-																										<DocOpLiteral Literal="FootPrint" />
-																									</Value>
-																								</DocOpStatement>
+																							<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																								<Reference xsi:type="DocOpReference">
+																									<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29727" />
+																								</Reference>
+																								<Value xsi:type="DocOpLiteral" Literal="FootPrint" />
 																							</Expression>
 																						</DocModelRuleConstraint>
 																					</Rules>
@@ -1332,19 +1204,11 @@ are used:&lt;/p&gt;
 																				<DocModelRuleEntity id="i29735" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																					<Rules>
 																						<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=GeometricCurveSet" Description="Value=GeometricCurveSet">
-																							<Expression>
-																								<DocOpStatement Operation="compareequal">
-																									<Reference>
-																										<DocOpReference>
-																											<EntityRule>
-																												<DocModelRuleEntity xsi:nil="true" href="i29735" />
-																											</EntityRule>
-																										</DocOpReference>
-																									</Reference>
-																									<Value>
-																										<DocOpLiteral Literal="GeometricCurveSet" />
-																									</Value>
-																								</DocOpStatement>
+																							<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																								<Reference xsi:type="DocOpReference">
+																									<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29735" />
+																								</Reference>
+																								<Value xsi:type="DocOpLiteral" Literal="GeometricCurveSet" />
 																							</Expression>
 																						</DocModelRuleConstraint>
 																					</Rules>
@@ -1452,19 +1316,11 @@ are used:&lt;/p&gt;
 																		<DocModelRuleEntity id="i29760" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																			<Rules>
 																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=FootPrint" Description="Value=FootPrint">
-																					<Expression>
-																						<DocOpStatement Operation="compareequal">
-																							<Reference>
-																								<DocOpReference>
-																									<EntityRule>
-																										<DocModelRuleEntity xsi:nil="true" href="i29760" />
-																									</EntityRule>
-																								</DocOpReference>
-																							</Reference>
-																							<Value>
-																								<DocOpLiteral Literal="FootPrint" />
-																							</Value>
-																						</DocOpStatement>
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29760" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Literal="FootPrint" />
 																					</Expression>
 																				</DocModelRuleConstraint>
 																			</Rules>
@@ -1481,19 +1337,11 @@ are used:&lt;/p&gt;
 																		<DocModelRuleEntity id="i29768" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																			<Rules>
 																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=Annotation2D" Description="Value=Annotation2D">
-																					<Expression>
-																						<DocOpStatement Operation="compareequal">
-																							<Reference>
-																								<DocOpReference>
-																									<EntityRule>
-																										<DocModelRuleEntity xsi:nil="true" href="i29768" />
-																									</EntityRule>
-																								</DocOpReference>
-																							</Reference>
-																							<Value>
-																								<DocOpLiteral Literal="Annotation2D" />
-																							</Value>
-																						</DocOpStatement>
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29768" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Literal="Annotation2D" />
 																					</Expression>
 																				</DocModelRuleConstraint>
 																			</Rules>
@@ -1521,7 +1369,7 @@ are used:&lt;/p&gt;
 						</DocTemplateDefinition>
 					</Templates>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Profile Geometry_3nRhE_$uXFCvVVrLhjEW_L" Name="Profile Geometry" UniqueId="3nRhE_$uXFCvVVrLhjEW_L" Type="IfcElement">
+				<DocTemplateDefinition id="Profile_Geometry_3nRhE_uXFCvVVrLhjEW_L" Name="Profile Geometry" UniqueId="3nRhE_$uXFCvVVrLhjEW_L" Type="IfcElement">
 					<Documentation>&lt;p&gt;Elements filling an opening provide a &apos;Profile&apos; representation describing the shape of the cutout.  Examples of such elements include doors and windows.
 &lt;/p&gt;
 &lt;p&gt;The representation identifier of the profile representation
@@ -1574,7 +1422,7 @@ are used:&lt;/p&gt;
 						</DocModelRuleAttribute>
 					</Rules>
 					<Templates>
-						<DocTemplateDefinition id="Profile 3D Geometry_0TYN8WT0r7avgDNITqnxm0" Name="Profile 3D Geometry" UniqueId="1d897220-740d-4793-9a8d-5d2774c7bc00" Type="IfcElement">
+						<DocTemplateDefinition id="Profile_3D_Geometry_0TYN8WT0r7avgDNITqnxm0" Name="Profile 3D Geometry" UniqueId="1d897220-740d-4793-9a8d-5d2774c7bc00" Type="IfcElement">
 							<Documentation>&lt;p&gt;The &lt;em&gt;Profile 3D Geometry&lt;/em&gt; is the standard representation of the outer profile for elements filling an opening.  Examples of such elements include doors and windows.
  In the case of doors and windows the profile geometry is used to apply the parametric definition of lining and panel dimensions to the profile.&lt;/p&gt;
 &lt;p&gt;The following attribute values for the
@@ -1625,19 +1473,11 @@ are used:&lt;/p&gt;
 																		<DocModelRuleEntity id="i29803" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																			<Rules>
 																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=Curve3D" Description="Value=Curve3D">
-																					<Expression>
-																						<DocOpStatement Operation="compareequal">
-																							<Reference>
-																								<DocOpReference>
-																									<EntityRule>
-																										<DocModelRuleEntity xsi:nil="true" href="i29803" />
-																									</EntityRule>
-																								</DocOpReference>
-																							</Reference>
-																							<Value>
-																								<DocOpLiteral Literal="Curve3D" />
-																							</Value>
-																						</DocOpStatement>
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29803" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Literal="Curve3D" />
 																					</Expression>
 																				</DocModelRuleConstraint>
 																			</Rules>
@@ -1663,7 +1503,7 @@ are used:&lt;/p&gt;
 						</DocTemplateDefinition>
 					</Templates>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Surface Geometry_0kcTvm_tD7ZvlAJ_tzwqwb" Name="Surface Geometry" UniqueId="0kcTvm_tD7ZvlAJ_tzwqwb" Type="IfcElement">
+				<DocTemplateDefinition id="Surface_Geometry_0kcTvm_tD7ZvlAJ_tzwqwb" Name="Surface Geometry" UniqueId="0kcTvm_tD7ZvlAJ_tzwqwb" Type="IfcElement">
 					<Documentation>&lt;p&gt;
 Elements may have a &apos;Surface&apos; representation describing the
  outer surface of the object. Such representation may be
@@ -1727,7 +1567,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 						</DocModelRuleAttribute>
 					</Rules>
 					<Templates>
-						<DocTemplateDefinition id="Surface 3D Geometry_2zWfWzETL1ifxeyxs7TzCL" Name="Surface 3D Geometry" UniqueId="bd82983d-39d5-41b2-9ee8-f3bd8777d315" Type="IfcElement">
+						<DocTemplateDefinition id="Surface_3D_Geometry_2zWfWzETL1ifxeyxs7TzCL" Name="Surface 3D Geometry" UniqueId="bd82983d-39d5-41b2-9ee8-f3bd8777d315" Type="IfcElement">
 							<Documentation>&lt;p&gt;The &lt;em&gt;Surface 3D Geometry&lt;/em&gt; is the standard surfacic represenation for elements having a &apos;Surface&apos; representation describing the
  inner or outer surface of the object, e.g. for defining thermal boundaries idealized at the middle plane of an element.
 
@@ -1781,19 +1621,11 @@ Elements may have a &apos;Surface&apos; representation describing the
 																		<DocModelRuleEntity id="i29836" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																			<Rules>
 																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=Surface3D" Description="Value=Surface3D">
-																					<Expression>
-																						<DocOpStatement Operation="compareequal">
-																							<Reference>
-																								<DocOpReference>
-																									<EntityRule>
-																										<DocModelRuleEntity xsi:nil="true" href="i29836" />
-																									</EntityRule>
-																								</DocOpReference>
-																							</Reference>
-																							<Value>
-																								<DocOpLiteral Literal="Surface3D" />
-																							</Value>
-																						</DocOpStatement>
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29836" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Literal="Surface3D" />
 																					</Expression>
 																				</DocModelRuleConstraint>
 																			</Rules>
@@ -1847,19 +1679,11 @@ Elements may have a &apos;Surface&apos; representation describing the
 																		<DocModelRuleEntity id="i29856" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																			<Rules>
 																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Description="Value=&apos;Tessellation&apos;">
-																					<Expression>
-																						<DocOpStatement Operation="compareequal">
-																							<Reference>
-																								<DocOpReference>
-																									<EntityRule>
-																										<DocModelRuleEntity xsi:nil="true" href="i29856" />
-																									</EntityRule>
-																								</DocOpReference>
-																							</Reference>
-																							<Value>
-																								<DocOpLiteral Literal="&apos;Tessellation&apos;" />
-																							</Value>
-																						</DocOpStatement>
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29856" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Literal="&apos;Tessellation&apos;" />
 																					</Expression>
 																				</DocModelRuleConstraint>
 																			</Rules>
@@ -1893,7 +1717,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 																					<Rules>
 																						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPresentationLayerAssignment">
 																							<References>
-																								<DocTemplateDefinition xsi:nil="true" href="Layer_2P$x3KhQ9BUQe1b3_Zs3Jn" />
+																								<DocTemplateDefinition xsi:nil="true" href="Layer_2Px3KhQ9BUQe1b3_Zs3Jn" />
 																							</References>
 																						</DocModelRuleEntity>
 																					</Rules>
@@ -1906,7 +1730,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 																									<Rules>
 																										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcSurfaceStyle">
 																											<References>
-																												<DocTemplateDefinition xsi:nil="true" href="Surface Color Style_3gHpLYmULDnwrr$pIILsus" />
+																												<DocTemplateDefinition xsi:nil="true" href="Surface_Color_Style_3gHpLYmULDnwrrpIILsus" />
 																											</References>
 																										</DocModelRuleEntity>
 																									</Rules>
@@ -1933,7 +1757,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 						</DocTemplateDefinition>
 					</Templates>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Reference Geometry_3MZvyR8ZfAYf4hk3y3AdJo" Name="Reference Geometry" UniqueId="d68f9f1b-223a-4a8a-912b-b83f032a74f2" Type="IfcProduct">
+				<DocTemplateDefinition id="Reference_Geometry_3MZvyR8ZfAYf4hk3y3AdJo" Name="Reference Geometry" UniqueId="d68f9f1b-223a-4a8a-912b-b83f032a74f2" Type="IfcProduct">
 					<Documentation>&lt;p&gt;A specific form of geometry representation is the &apos;Reference&apos; geometry. It is used to provide a geometry used for various forms of assessments (like for quantities, etc.) but not for display and also not for implicit Boolean operations in a voiding relationship.
 
 &lt;/p&gt;
@@ -1976,19 +1800,11 @@ Elements may have a &apos;Surface&apos; representation describing the
 																<DocModelRuleEntity id="i29887" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																	<Rules>
 																		<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
-																			<Expression>
-																				<DocOpStatement Operation="compareequal">
-																					<Reference>
-																						<DocOpReference>
-																							<EntityRule>
-																								<DocModelRuleEntity xsi:nil="true" href="i29887" />
-																							</EntityRule>
-																						</DocOpReference>
-																					</Reference>
-																					<Value>
-																						<DocOpLiteral Operation="loadstring" Literal="Reference" />
-																					</Value>
-																				</DocOpStatement>
+																			<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																				<Reference xsi:type="DocOpReference">
+																					<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29887" />
+																				</Reference>
+																				<Value xsi:type="DocOpLiteral" Operation="loadstring" Literal="Reference" />
 																			</Expression>
 																		</DocModelRuleConstraint>
 																	</Rules>
@@ -2010,7 +1826,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 						</DocModelRuleAttribute>
 					</Rules>
 					<Templates>
-						<DocTemplateDefinition id="Reference Tessellation Geometry_312dpK9_P6NwTksaODhjPW" Name="Reference Tessellation Geometry" UniqueId="c10a7cd4-27e6-465f-a76e-da460daed660" Type="IfcProduct">
+						<DocTemplateDefinition id="Reference_Tessellation_Geometry_312dpK9_P6NwTksaODhjPW" Name="Reference Tessellation Geometry" UniqueId="c10a7cd4-27e6-465f-a76e-da460daed660" Type="IfcProduct">
 							<Documentation>&lt;p&gt;The &lt;em&gt;Reference Tessellation Geometry&lt;/em&gt; is the reference representation of the 3D shape of a product by using tessellated models. Being a reference representation it is normally not displayed and it is not used in a voiding relationship.
 
 &lt;/p&gt;
@@ -2061,19 +1877,11 @@ Elements may have a &apos;Surface&apos; representation describing the
 																		<DocModelRuleEntity id="i29905" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																			<Rules>
 																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
-																					<Expression>
-																						<DocOpStatement Operation="compareequal">
-																							<Reference>
-																								<DocOpReference>
-																									<EntityRule>
-																										<DocModelRuleEntity xsi:nil="true" href="i29905" />
-																									</EntityRule>
-																								</DocOpReference>
-																							</Reference>
-																							<Value>
-																								<DocOpLiteral Operation="loadstring" Literal="Tessellation" />
-																							</Value>
-																						</DocOpStatement>
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29905" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Operation="loadstring" Literal="Tessellation" />
 																					</Expression>
 																				</DocModelRuleConstraint>
 																			</Rules>
@@ -2084,12 +1892,12 @@ Elements may have a &apos;Surface&apos; representation describing the
 																	<Rules>
 																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcTriangulatedFaceSet">
 																			<References>
-																				<DocTemplateDefinition xsi:nil="true" href="Triangulated Geometry_1dUzJEuuj5WRGDoUgYGMbn" />
+																				<DocTemplateDefinition xsi:nil="true" href="Triangulated_Geometry_1dUzJEuuj5WRGDoUgYGMbn" />
 																			</References>
 																		</DocModelRuleEntity>
 																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPolygonalFaceSet">
 																			<References>
-																				<DocTemplateDefinition xsi:nil="true" href="Polygonal Geometry_1omBCMQqX7ZP7wRajQU1i7" />
+																				<DocTemplateDefinition xsi:nil="true" href="Polygonal_Geometry_1omBCMQqX7ZP7wRajQU1i7" />
 																			</References>
 																		</DocModelRuleEntity>
 																	</Rules>
@@ -2165,19 +1973,11 @@ Elements may have a &apos;Surface&apos; representation describing the
 																		<DocModelRuleEntity id="i29925" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																			<Rules>
 																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
-																					<Expression>
-																						<DocOpStatement Operation="compareequal">
-																							<Reference>
-																								<DocOpReference>
-																									<EntityRule>
-																										<DocModelRuleEntity xsi:nil="true" href="i29925" />
-																									</EntityRule>
-																								</DocOpReference>
-																							</Reference>
-																							<Value>
-																								<DocOpLiteral Operation="loadstring" Literal="SweptSolid" />
-																							</Value>
-																						</DocOpStatement>
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29925" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Operation="loadstring" Literal="SweptSolid" />
 																					</Expression>
 																				</DocModelRuleConstraint>
 																			</Rules>
@@ -2199,7 +1999,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 								</DocModelRuleAttribute>
 							</Rules>
 							<Templates>
-								<DocTemplateDefinition id="Reference SweptSolid PolyCurve Geometry_2GFiaqFJ19YAch8O5VnZJN" Name="Reference SweptSolid PolyCurve Geometry" UniqueId="903ec934-3d30-4988-a9ab-21815fc634d7" Type="IfcProduct">
+								<DocTemplateDefinition id="Reference_SweptSolid_PolyCurve_Geometry_2GFiaqFJ19YAch8O5VnZJN" Name="Reference SweptSolid PolyCurve Geometry" UniqueId="903ec934-3d30-4988-a9ab-21815fc634d7" Type="IfcProduct">
 									<Documentation>&lt;p&gt;The &lt;em&gt;Reference SweptSolid PolyCurve Geometry&lt;/em&gt; is the reference representation of the 3D shape of a product by swept solid models, only allowing for the basic extruded area solids and revolved area solids. Being a reference representation it is normally not displayed and it is not used in a voiding relationship.
 
 &lt;/p&gt;
@@ -2280,9 +2080,9 @@ Elements may have a &apos;Surface&apos; representation describing the
 																			<Rules>
 																				<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcSweptAreaSolid">
 																					<References>
-																						<DocTemplateDefinition xsi:nil="true" href="Extruded Area PolyCurve Profile_0vGfUwztz11wdCdiiHT4tc" />
-																						<DocTemplateDefinition xsi:nil="true" href="Extruded Area PolyCurve Profile_0vGfUwztz11wdCdiiHT4tc" />
-																						<DocTemplateDefinition xsi:nil="true" href="Revolved Area PolyCurve Profile_0uocbBGk17xRKfvHXAPS1C" />
+																						<DocTemplateDefinition xsi:nil="true" href="Extruded_Area_PolyCurve_Profile_0vGfUwztz11wdCdiiHT4tc" />
+																						<DocTemplateDefinition xsi:nil="true" href="Extruded_Area_PolyCurve_Profile_0vGfUwztz11wdCdiiHT4tc" />
+																						<DocTemplateDefinition xsi:nil="true" href="Revolved_Area_PolyCurve_Profile_0uocbBGk17xRKfvHXAPS1C" />
 																					</References>
 																				</DocModelRuleEntity>
 																			</Rules>
@@ -2301,7 +2101,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 						</DocTemplateDefinition>
 					</Templates>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Body Geometry_34HhqMBUDBbxDFH4Qi2wt2" Name="Body Geometry" UniqueId="34HhqMBUDBbxDFH4Qi2wt2" Type="IfcElement">
+				<DocTemplateDefinition id="Body_Geometry_34HhqMBUDBbxDFH4Qi2wt2" Name="Body Geometry" UniqueId="34HhqMBUDBbxDFH4Qi2wt2" Type="IfcElement">
 					<Documentation>&lt;p&gt;Elements may have a &apos;Body&apos; representation describing the volumetric shape of the object. Such representation may be used for 3D coordination, rendering or quantity take-off. Geometry may be based on boundary representations describing outer faces, primitives such as spheres or cones, swept solids such as profile extrusions or revolutions, Constructive Solid Geometry (CSG) such as clippings or subtractions of other shapes, or Non-Uniform Rational B-Spline (NURBS) geometry. Surface styles may indicate particular colors, textures, and reflectance for 3D rendering.
 
 &lt;/p&gt;
@@ -2339,19 +2139,11 @@ Elements may have a &apos;Surface&apos; representation describing the
 																<DocModelRuleEntity id="i29955" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																	<Rules>
 																		<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
-																			<Expression>
-																				<DocOpStatement Operation="compareequal">
-																					<Reference>
-																						<DocOpReference>
-																							<EntityRule>
-																								<DocModelRuleEntity xsi:nil="true" href="i29955" />
-																							</EntityRule>
-																						</DocOpReference>
-																					</Reference>
-																					<Value>
-																						<DocOpLiteral Operation="loadstring" Literal="Body" />
-																					</Value>
-																				</DocOpStatement>
+																			<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																				<Reference xsi:type="DocOpReference">
+																					<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29955" />
+																				</Reference>
+																				<Value xsi:type="DocOpLiteral" Operation="loadstring" Literal="Body" />
 																			</Expression>
 																		</DocModelRuleConstraint>
 																	</Rules>
@@ -2375,7 +2167,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 						</DocModelRuleAttribute>
 					</Rules>
 					<Templates>
-						<DocTemplateDefinition id="Body SurfaceOrSolidModel Geometry_3xkt3OKkvDa9SkdTjC2X6h" Name="Body SurfaceOrSolidModel Geometry" UniqueId="fbbb70d8-52ee-4d90-972e-9ddb4c0a11ab" Type="IfcElement">
+						<DocTemplateDefinition id="Body_SurfaceOrSolidModel_Geometry_3xkt3OKkvDa9SkdTjC2X6h" Name="Body SurfaceOrSolidModel Geometry" UniqueId="fbbb70d8-52ee-4d90-972e-9ddb4c0a11ab" Type="IfcElement">
 							<Documentation>&lt;p&gt;The &lt;em&gt;Body SurfaceOrSolidModel Geometry&lt;/em&gt; is the representation of the 3D shape of a product by surface or solid models and allows for a mixed representation.
 
 &lt;/p&gt;
@@ -2424,19 +2216,11 @@ Elements may have a &apos;Surface&apos; representation describing the
 																		<DocModelRuleEntity id="i29973" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																			<Rules>
 																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=SurfaceOrSolidModel" Description="Value=SurfaceOrSolidModel">
-																					<Expression>
-																						<DocOpStatement Operation="compareequal">
-																							<Reference>
-																								<DocOpReference>
-																									<EntityRule>
-																										<DocModelRuleEntity xsi:nil="true" href="i29973" />
-																									</EntityRule>
-																								</DocOpReference>
-																							</Reference>
-																							<Value>
-																								<DocOpLiteral Literal="SurfaceOrSolidModel" />
-																							</Value>
-																						</DocOpStatement>
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29973" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Literal="SurfaceOrSolidModel" />
 																					</Expression>
 																				</DocModelRuleConstraint>
 																			</Rules>
@@ -2461,7 +2245,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 								</DocModelRuleAttribute>
 							</Rules>
 						</DocTemplateDefinition>
-						<DocTemplateDefinition id="Body SurfaceModel Geometry_0NqqeIb0D0zB_2PJcRuZnL" Name="Body SurfaceModel Geometry" UniqueId="17d34a12-9403-40f4-bf82-65399be23c55" Type="IfcElement">
+						<DocTemplateDefinition id="Body_SurfaceModel_Geometry_0NqqeIb0D0zB_2PJcRuZnL" Name="Body SurfaceModel Geometry" UniqueId="17d34a12-9403-40f4-bf82-65399be23c55" Type="IfcElement">
 							<Documentation>&lt;p&gt;The &lt;em&gt;Body SurfaceModel Geometry&lt;/em&gt; is the representation of the 3D shape of a product by surface models.
 
 &lt;/p&gt;
@@ -2510,19 +2294,11 @@ Elements may have a &apos;Surface&apos; representation describing the
 																		<DocModelRuleEntity id="i29992" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																			<Rules>
 																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=SurfaceModel" Description="Value=SurfaceModel">
-																					<Expression>
-																						<DocOpStatement Operation="compareequal">
-																							<Reference>
-																								<DocOpReference>
-																									<EntityRule>
-																										<DocModelRuleEntity xsi:nil="true" href="i29992" />
-																									</EntityRule>
-																								</DocOpReference>
-																							</Reference>
-																							<Value>
-																								<DocOpLiteral Literal="SurfaceModel" />
-																							</Value>
-																						</DocOpStatement>
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i29992" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Literal="SurfaceModel" />
 																					</Expression>
 																				</DocModelRuleConstraint>
 																			</Rules>
@@ -2546,7 +2322,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 								</DocModelRuleAttribute>
 							</Rules>
 						</DocTemplateDefinition>
-						<DocTemplateDefinition id="Body Tessellation Geometry_1S$KG3PKLCRRmd2fMZq9bG" Name="Body Tessellation Geometry" UniqueId="5cfd4403-6545-4c6d-bc27-0a95a3d09950" Type="IfcElement">
+						<DocTemplateDefinition id="Body_Tessellation_Geometry_1SKG3PKLCRRmd2fMZq9bG" Name="Body Tessellation Geometry" UniqueId="5cfd4403-6545-4c6d-bc27-0a95a3d09950" Type="IfcElement">
 							<Documentation>&lt;p&gt;The &lt;em&gt;Body Tessellation Geometry&lt;/em&gt; is the representation of the 3D shape of a product by tessellated surface models.
 
 &lt;/p&gt;
@@ -2595,19 +2371,11 @@ Elements may have a &apos;Surface&apos; representation describing the
 																		<DocModelRuleEntity id="i30010" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																			<Rules>
 																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=Tessellation" Description="Value=Tessellation">
-																					<Expression>
-																						<DocOpStatement Operation="compareequal">
-																							<Reference>
-																								<DocOpReference>
-																									<EntityRule>
-																										<DocModelRuleEntity xsi:nil="true" href="i30010" />
-																									</EntityRule>
-																								</DocOpReference>
-																							</Reference>
-																							<Value>
-																								<DocOpLiteral Literal="Tessellation" />
-																							</Value>
-																						</DocOpStatement>
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i30010" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Literal="Tessellation" />
 																					</Expression>
 																				</DocModelRuleConstraint>
 																			</Rules>
@@ -2618,12 +2386,12 @@ Elements may have a &apos;Surface&apos; representation describing the
 																	<Rules>
 																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcTriangulatedFaceSet">
 																			<References>
-																				<DocTemplateDefinition xsi:nil="true" href="Triangulated Geometry With Textures_2AbkPmnonDtfCwkEc$$Mc3" />
+																				<DocTemplateDefinition xsi:nil="true" href="Triangulated_Geometry_With_Textures_2AbkPmnonDtfCwkEcMc3" />
 																			</References>
 																		</DocModelRuleEntity>
 																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPolygonalFaceSet">
 																			<References>
-																				<DocTemplateDefinition xsi:nil="true" href="Polygonal Geometry_1omBCMQqX7ZP7wRajQU1i7" />
+																				<DocTemplateDefinition xsi:nil="true" href="Polygonal_Geometry_1omBCMQqX7ZP7wRajQU1i7" />
 																			</References>
 																		</DocModelRuleEntity>
 																	</Rules>
@@ -2640,7 +2408,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 								</DocModelRuleAttribute>
 							</Rules>
 						</DocTemplateDefinition>
-						<DocTemplateDefinition id="Body SweptSolid Geometry_3BV1ZwpuDDiRuRm1EwJjPo" Name="Body SweptSolid Geometry" UniqueId="3BV1ZwpuDDiRuRm1EwJjPo" Type="IfcElement">
+						<DocTemplateDefinition id="Body_SweptSolid_Geometry_3BV1ZwpuDDiRuRm1EwJjPo" Name="Body SweptSolid Geometry" UniqueId="3BV1ZwpuDDiRuRm1EwJjPo" Type="IfcElement">
 							<Documentation>&lt;p&gt;The &lt;em&gt;Body SweptSolid Geometry&lt;/em&gt; is the representation of the 3D shape of a product by swept solid models, only allowing for the basic extruded area solids and revolved area solids.
 
 &lt;/p&gt;
@@ -2711,7 +2479,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 								</DocModelRuleAttribute>
 							</Rules>
 							<Templates>
-								<DocTemplateDefinition id="Body SweptSolid PolyCurve Geometry_0uSGpDZ$L1ke$Q23091w0k" Name="Body SweptSolid PolyCurve Geometry" UniqueId="38710ccd-8ff5-41ba-8fda-08300907a02e" Type="IfcElement">
+								<DocTemplateDefinition id="Body_SweptSolid_PolyCurve_Geometry_0uSGpDZL1keQ23091w0k" Name="Body SweptSolid PolyCurve Geometry" UniqueId="38710ccd-8ff5-41ba-8fda-08300907a02e" Type="IfcElement">
 									<Documentation>&lt;p&gt;The &lt;em&gt;Body SweptSolid PolyCurve Geometry&lt;/em&gt; is the representation of the 3D shape of a product by swept solid models, only allowing for the basic extruded area solids and revolved area solids.
 
 &lt;/p&gt;
@@ -2782,8 +2550,8 @@ Elements may have a &apos;Surface&apos; representation describing the
 																			<Rules>
 																				<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcSweptAreaSolid">
 																					<References>
-																						<DocTemplateDefinition xsi:nil="true" href="Extruded Area PolyCurve Profile_0vGfUwztz11wdCdiiHT4tc" />
-																						<DocTemplateDefinition xsi:nil="true" href="Revolved Area PolyCurve Profile_0uocbBGk17xRKfvHXAPS1C" />
+																						<DocTemplateDefinition xsi:nil="true" href="Extruded_Area_PolyCurve_Profile_0vGfUwztz11wdCdiiHT4tc" />
+																						<DocTemplateDefinition xsi:nil="true" href="Revolved_Area_PolyCurve_Profile_0uocbBGk17xRKfvHXAPS1C" />
 																					</References>
 																				</DocModelRuleEntity>
 																			</Rules>
@@ -2829,8 +2597,8 @@ Elements may have a &apos;Surface&apos; representation describing the
 																			<Rules>
 																				<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcSweptAreaSolid">
 																					<References>
-																						<DocTemplateDefinition xsi:nil="true" href="Extruded Area CompositeCurve Profile_0jBaLixr5DIPKOfJ5zpCyU" />
-																						<DocTemplateDefinition xsi:nil="true" href="Revolved Area CompositeCurve Profile_3_6$DGd0591OX2MpMjZYJa" />
+																						<DocTemplateDefinition xsi:nil="true" href="Extruded_Area_CompositeCurve_Profile_0jBaLixr5DIPKOfJ5zpCyU" />
+																						<DocTemplateDefinition xsi:nil="true" href="Revolved_Area_CompositeCurve_Profile_3_6DGd0591OX2MpMjZYJa" />
 																					</References>
 																				</DocModelRuleEntity>
 																			</Rules>
@@ -2847,7 +2615,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 										</DocModelRuleAttribute>
 									</Rules>
 								</DocTemplateDefinition>
-								<DocTemplateDefinition id="Body SweptSolid ParameterizedProfile Geometry_0TW7c_cFjCFg82IViXY$wn" Name="Body SweptSolid ParameterizedProfile Geometry" UniqueId="1d8079be-98fb-4c3e-a202-49fb218bfeb1" Type="IfcElement">
+								<DocTemplateDefinition id="Body_SweptSolid_ParameterizedProfile_Geometry_0TW7c_cFjCFg82IViXYwn" Name="Body SweptSolid ParameterizedProfile Geometry" UniqueId="1d8079be-98fb-4c3e-a202-49fb218bfeb1" Type="IfcElement">
 									<Rules>
 										<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Representation">
 											<Rules>
@@ -2876,10 +2644,10 @@ Elements may have a &apos;Surface&apos; representation describing the
 																			<Rules>
 																				<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcSweptAreaSolid">
 																					<References>
-																						<DocTemplateDefinition xsi:nil="true" href="Extruded Area Standardized Profile_2Vx7PaVVL8bvPqjPaQsAlD" />
-																						<DocTemplateDefinition xsi:nil="true" href="Revolved Area Standardized Profile_3g6nVRNdX4ihQpif6FTGyD" />
-																						<DocTemplateDefinition xsi:nil="true" href="Extruded Area Basic Profile_16jwVc3NnESvENO5g_d_Uv" />
-																						<DocTemplateDefinition xsi:nil="true" href="Revolved Area Basic Profile_0Heb8kC9X7t9hiPvGyuzYJ" />
+																						<DocTemplateDefinition xsi:nil="true" href="Extruded_Area_Standardized_Profile_2Vx7PaVVL8bvPqjPaQsAlD" />
+																						<DocTemplateDefinition xsi:nil="true" href="Revolved_Area_Standardized_Profile_3g6nVRNdX4ihQpif6FTGyD" />
+																						<DocTemplateDefinition xsi:nil="true" href="Extruded_Area_Basic_Profile_16jwVc3NnESvENO5g_d_Uv" />
+																						<DocTemplateDefinition xsi:nil="true" href="Revolved_Area_Basic_Profile_0Heb8kC9X7t9hiPvGyuzYJ" />
 																					</References>
 																				</DocModelRuleEntity>
 																			</Rules>
@@ -2896,7 +2664,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 										</DocModelRuleAttribute>
 									</Rules>
 								</DocTemplateDefinition>
-								<DocTemplateDefinition id="Body SweptSolid Composite Geometry_1kUSVCuZX0NOyEXxJwlpPh" Name="Body SweptSolid Composite Geometry" UniqueId="6e79c7cc-e238-405d-8f0e-87b4fabf366b" Type="IfcElement">
+								<DocTemplateDefinition id="Body_SweptSolid_Composite_Geometry_1kUSVCuZX0NOyEXxJwlpPh" Name="Body SweptSolid Composite Geometry" UniqueId="6e79c7cc-e238-405d-8f0e-87b4fabf366b" Type="IfcElement">
 									<Rules>
 										<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Representation">
 											<Rules>
@@ -2925,7 +2693,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 																			<Rules>
 																				<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcSweptAreaSolid">
 																					<References>
-																						<DocTemplateDefinition xsi:nil="true" href="Extruded Area Composite Profile_1FjllcJcfDNAwKRUDuWEkC" />
+																						<DocTemplateDefinition xsi:nil="true" href="Extruded_Area_Composite_Profile_1FjllcJcfDNAwKRUDuWEkC" />
 																					</References>
 																				</DocModelRuleEntity>
 																			</Rules>
@@ -2944,7 +2712,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 								</DocTemplateDefinition>
 							</Templates>
 						</DocTemplateDefinition>
-						<DocTemplateDefinition id="Body AdvancedSweptSolid Geometry_1KP7XTvT5FTPxCRBEI571U" Name="Body AdvancedSweptSolid Geometry" UniqueId="5464785d-e5d1-4f75-9ecc-6cb39214705e" Type="IfcElement">
+						<DocTemplateDefinition id="Body_AdvancedSweptSolid_Geometry_1KP7XTvT5FTPxCRBEI571U" Name="Body AdvancedSweptSolid Geometry" UniqueId="5464785d-e5d1-4f75-9ecc-6cb39214705e" Type="IfcElement">
 							<Documentation>&lt;p&gt;The &lt;em&gt;Body AdvancedSweptSolid Geometry&lt;/em&gt; is the representation of the 3D shape of a product by swept solid models, including advanced sweeping operations, such as sweeping along any directrix and tapering.
 
 &lt;/p&gt;
@@ -2993,19 +2761,11 @@ Elements may have a &apos;Surface&apos; representation describing the
 																		<DocModelRuleEntity id="i30099" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																			<Rules>
 																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=AdvancedSweptSolid" Description="Value=AdvancedSweptSolid">
-																					<Expression>
-																						<DocOpStatement Operation="compareequal">
-																							<Reference>
-																								<DocOpReference>
-																									<EntityRule>
-																										<DocModelRuleEntity xsi:nil="true" href="i30099" />
-																									</EntityRule>
-																								</DocOpReference>
-																							</Reference>
-																							<Value>
-																								<DocOpLiteral Literal="AdvancedSweptSolid" />
-																							</Value>
-																						</DocOpStatement>
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i30099" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Literal="AdvancedSweptSolid" />
 																					</Expression>
 																				</DocModelRuleConstraint>
 																			</Rules>
@@ -3025,7 +2785,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 								</DocModelRuleAttribute>
 							</Rules>
 							<Templates>
-								<DocTemplateDefinition id="Body AdvancedSwept DiskSolid PolyCurve Geometry_0S8aGf5H900B$$6VqnAV6h" Name="Body AdvancedSwept DiskSolid PolyCurve Geometry" UniqueId="1c224429-1512-4000-bfff-19fd3129f1ab" Type="IfcElement">
+								<DocTemplateDefinition id="Body_AdvancedSwept_DiskSolid_PolyCurve_Geometry_0S8aGf5H900B6VqnAV6h" Name="Body AdvancedSwept DiskSolid PolyCurve Geometry" UniqueId="1c224429-1512-4000-bfff-19fd3129f1ab" Type="IfcElement">
 									<Documentation>&lt;p&gt;The &lt;em&gt;Body AdvancedSwept DiskSolid PolyCurve Geometry&lt;/em&gt; is the representation of the 3D shape of a product by swept disk solid models, where the directrix is created by an indexed poly curve.
 
 &lt;/p&gt;
@@ -3083,19 +2843,11 @@ Elements may have a &apos;Surface&apos; representation describing the
 																				<DocModelRuleEntity id="i30116" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																					<Rules>
 																						<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=AdvancedSweptSolid" Description="Value=AdvancedSweptSolid">
-																							<Expression>
-																								<DocOpStatement Operation="compareequal">
-																									<Reference>
-																										<DocOpReference>
-																											<EntityRule>
-																												<DocModelRuleEntity xsi:nil="true" href="i30116" />
-																											</EntityRule>
-																										</DocOpReference>
-																									</Reference>
-																									<Value>
-																										<DocOpLiteral Literal="AdvancedSweptSolid" />
-																									</Value>
-																								</DocOpStatement>
+																							<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																								<Reference xsi:type="DocOpReference">
+																									<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i30116" />
+																								</Reference>
+																								<Value xsi:type="DocOpLiteral" Literal="AdvancedSweptSolid" />
 																							</Expression>
 																						</DocModelRuleConstraint>
 																					</Rules>
@@ -3106,7 +2858,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 																			<Rules>
 																				<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcSweptDiskSolid">
 																					<References>
-																						<DocTemplateDefinition xsi:nil="true" href="Swept Disk Solid PolyCurve Directrix_1YHNwpPlzBlRK3UKQ8L4ow" />
+																						<DocTemplateDefinition xsi:nil="true" href="Swept_Disk_Solid_PolyCurve_Directrix_1YHNwpPlzBlRK3UKQ8L4ow" />
 																					</References>
 																				</DocModelRuleEntity>
 																			</Rules>
@@ -3123,7 +2875,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 										</DocModelRuleAttribute>
 									</Rules>
 								</DocTemplateDefinition>
-								<DocTemplateDefinition id="Body AdvancedSwept Directrix Geometry_1rhoOTsFz6le0t01amD9y7" Name="Body AdvancedSwept Directrix Geometry" UniqueId="75af261d-d8ff-46be-8037-001930349f07" Type="IfcElement">
+								<DocTemplateDefinition id="Body_AdvancedSwept_Directrix_Geometry_1rhoOTsFz6le0t01amD9y7" Name="Body AdvancedSwept Directrix Geometry" UniqueId="75af261d-d8ff-46be-8037-001930349f07" Type="IfcElement">
 									<Rules>
 										<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Representation">
 											<Rules>
@@ -3148,19 +2900,11 @@ Elements may have a &apos;Surface&apos; representation describing the
 																				<DocModelRuleEntity id="i30134" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																					<Rules>
 																						<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=AdvancedSweptSolid" Description="Value=AdvancedSweptSolid">
-																							<Expression>
-																								<DocOpStatement Operation="compareequal">
-																									<Reference>
-																										<DocOpReference>
-																											<EntityRule>
-																												<DocModelRuleEntity xsi:nil="true" href="i30134" />
-																											</EntityRule>
-																										</DocOpReference>
-																									</Reference>
-																									<Value>
-																										<DocOpLiteral Literal="AdvancedSweptSolid" />
-																									</Value>
-																								</DocOpStatement>
+																							<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																								<Reference xsi:type="DocOpReference">
+																									<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i30134" />
+																								</Reference>
+																								<Value xsi:type="DocOpLiteral" Literal="AdvancedSweptSolid" />
 																							</Expression>
 																						</DocModelRuleConstraint>
 																					</Rules>
@@ -3171,12 +2915,12 @@ Elements may have a &apos;Surface&apos; representation describing the
 																			<Rules>
 																				<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcSurfaceCurveSweptAreaSolid">
 																					<References>
-																						<DocTemplateDefinition xsi:nil="true" href="SurfaceCurve SweptArea PolyCurve Profile_1ORlfaEAf8khYrqVh_QtBo" />
+																						<DocTemplateDefinition xsi:nil="true" href="SurfaceCurve_SweptArea_PolyCurve_Profile_1ORlfaEAf8khYrqVh_QtBo" />
 																					</References>
 																				</DocModelRuleEntity>
 																				<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcFixedReferenceSweptAreaSolid">
 																					<References>
-																						<DocTemplateDefinition xsi:nil="true" href="FixedReference SweptArea PolyCurve Profile_3CGombyED8EBrtzHxAnR3V" />
+																						<DocTemplateDefinition xsi:nil="true" href="FixedReference_SweptArea_PolyCurve_Profile_3CGombyED8EBrtzHxAnR3V" />
 																					</References>
 																				</DocModelRuleEntity>
 																			</Rules>
@@ -3193,7 +2937,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 										</DocModelRuleAttribute>
 									</Rules>
 								</DocTemplateDefinition>
-								<DocTemplateDefinition id="Body AdvancedSwept Tapered Geometry_1nHIAqI8v9NRg1yGfUGR7S" Name="Body AdvancedSwept Tapered Geometry" UniqueId="714522b4-488e-495d-ba81-f10a5e41b1dc" Type="IfcElement">
+								<DocTemplateDefinition id="Body_AdvancedSwept_Tapered_Geometry_1nHIAqI8v9NRg1yGfUGR7S" Name="Body AdvancedSwept Tapered Geometry" UniqueId="714522b4-488e-495d-ba81-f10a5e41b1dc" Type="IfcElement">
 									<Rules>
 										<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Representation">
 											<Rules>
@@ -3218,19 +2962,11 @@ Elements may have a &apos;Surface&apos; representation describing the
 																				<DocModelRuleEntity id="i30153" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																					<Rules>
 																						<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=AdvancedSweptSolid" Description="Value=AdvancedSweptSolid">
-																							<Expression>
-																								<DocOpStatement Operation="compareequal">
-																									<Reference>
-																										<DocOpReference>
-																											<EntityRule>
-																												<DocModelRuleEntity xsi:nil="true" href="i30153" />
-																											</EntityRule>
-																										</DocOpReference>
-																									</Reference>
-																									<Value>
-																										<DocOpLiteral Literal="AdvancedSweptSolid" />
-																									</Value>
-																								</DocOpStatement>
+																							<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																								<Reference xsi:type="DocOpReference">
+																									<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i30153" />
+																								</Reference>
+																								<Value xsi:type="DocOpLiteral" Literal="AdvancedSweptSolid" />
 																							</Expression>
 																						</DocModelRuleConstraint>
 																					</Rules>
@@ -3241,14 +2977,14 @@ Elements may have a &apos;Surface&apos; representation describing the
 																			<Rules>
 																				<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcExtrudedAreaSolidTapered">
 																					<References>
-																						<DocTemplateDefinition xsi:nil="true" href="Extruded Area Tapered PolyCurve Profile_28Pxb2BunEjvG8xK72ZTvZ" />
-																						<DocTemplateDefinition xsi:nil="true" href="Extruded Area Tapered Parameterized Profile_0lOlqnh6P1JuVLJ1151WzZ" />
+																						<DocTemplateDefinition xsi:nil="true" href="Extruded_Area_Tapered_PolyCurve_Profile_28Pxb2BunEjvG8xK72ZTvZ" />
+																						<DocTemplateDefinition xsi:nil="true" href="Extruded_Area_Tapered_Parameterized_Profile_0lOlqnh6P1JuVLJ1151WzZ" />
 																					</References>
 																				</DocModelRuleEntity>
 																				<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcRevolvedAreaSolidTapered">
 																					<References>
-																						<DocTemplateDefinition xsi:nil="true" href="Revolved Area Tapered PolyCurve Profile_0ahGXTXELFz8FfjK6Obt9I" />
-																						<DocTemplateDefinition xsi:nil="true" href="Revolved Area Tapered Parameterized Profile_0Cnl3FPuL1ewvlAFX6M_pj" />
+																						<DocTemplateDefinition xsi:nil="true" href="Revolved_Area_Tapered_PolyCurve_Profile_0ahGXTXELFz8FfjK6Obt9I" />
+																						<DocTemplateDefinition xsi:nil="true" href="Revolved_Area_Tapered_Parameterized_Profile_0Cnl3FPuL1ewvlAFX6M_pj" />
 																					</References>
 																				</DocModelRuleEntity>
 																			</Rules>
@@ -3267,7 +3003,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 								</DocTemplateDefinition>
 							</Templates>
 						</DocTemplateDefinition>
-						<DocTemplateDefinition id="Body Brep Geometry_2FkIFrk2r8qgqfrdZAHp$Q" Name="Body Brep Geometry" UniqueId="8fb923f5-b82d-48d2-ad29-d678ca473fda" Type="IfcElement">
+						<DocTemplateDefinition id="Body_Brep_Geometry_2FkIFrk2r8qgqfrdZAHpQ" Name="Body Brep Geometry" UniqueId="8fb923f5-b82d-48d2-ad29-d678ca473fda" Type="IfcElement">
 							<Documentation>&lt;p&gt;The &lt;em&gt;Body Brep Geometry&lt;/em&gt; is the representation of the 3D shape of a product by faceted boundary representation models.
 
 &lt;/p&gt;
@@ -3316,19 +3052,11 @@ Elements may have a &apos;Surface&apos; representation describing the
 																		<DocModelRuleEntity id="i30172" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																			<Rules>
 																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=Brep" Description="Value=Brep">
-																					<Expression>
-																						<DocOpStatement Operation="compareequal">
-																							<Reference>
-																								<DocOpReference>
-																									<EntityRule>
-																										<DocModelRuleEntity xsi:nil="true" href="i30172" />
-																									</EntityRule>
-																								</DocOpReference>
-																							</Reference>
-																							<Value>
-																								<DocOpLiteral Literal="Brep" />
-																							</Value>
-																						</DocOpStatement>
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i30172" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Literal="Brep" />
 																					</Expression>
 																				</DocModelRuleConstraint>
 																			</Rules>
@@ -3352,7 +3080,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 								</DocModelRuleAttribute>
 							</Rules>
 						</DocTemplateDefinition>
-						<DocTemplateDefinition id="Body AdvancedBrep Geometry_3yTZLrKF5BmBloE2E05I17" Name="Body AdvancedBrep Geometry" UniqueId="fc763575-50f1-4bc0-bbf2-382380152047" Type="IfcElement">
+						<DocTemplateDefinition id="Body_AdvancedBrep_Geometry_3yTZLrKF5BmBloE2E05I17" Name="Body AdvancedBrep Geometry" UniqueId="fc763575-50f1-4bc0-bbf2-382380152047" Type="IfcElement">
 							<Documentation>&lt;p&gt;The &lt;em&gt;Body Brep Geometry&lt;/em&gt; is the representation of the 3D shape of a product by boundary representation models, including NURBS.
 
 &lt;/p&gt;
@@ -3401,19 +3129,11 @@ Elements may have a &apos;Surface&apos; representation describing the
 																		<DocModelRuleEntity id="i30190" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																			<Rules>
 																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=AdvancedBrep" Description="Value=AdvancedBrep">
-																					<Expression>
-																						<DocOpStatement Operation="compareequal">
-																							<Reference>
-																								<DocOpReference>
-																									<EntityRule>
-																										<DocModelRuleEntity xsi:nil="true" href="i30190" />
-																									</EntityRule>
-																								</DocOpReference>
-																							</Reference>
-																							<Value>
-																								<DocOpLiteral Literal="AdvancedBrep" />
-																							</Value>
-																						</DocOpStatement>
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i30190" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Literal="AdvancedBrep" />
 																					</Expression>
 																				</DocModelRuleConstraint>
 																			</Rules>
@@ -3424,12 +3144,12 @@ Elements may have a &apos;Surface&apos; representation describing the
 																	<Rules>
 																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcAdvancedBrep">
 																			<References>
-																				<DocTemplateDefinition xsi:nil="true" href="Advanced Brep Geometry_0xQGJDM59DAREUPBCcfqsm" />
+																				<DocTemplateDefinition xsi:nil="true" href="Advanced_Brep_Geometry_0xQGJDM59DAREUPBCcfqsm" />
 																			</References>
 																		</DocModelRuleEntity>
 																		<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcFacetedBrep">
 																			<References>
-																				<DocTemplateDefinition xsi:nil="true" href="Faceted Brep Geometry_2xLQILa992CA$6_mDWrzHI" />
+																				<DocTemplateDefinition xsi:nil="true" href="Faceted_Brep_Geometry_2xLQILa992CA6_mDWrzHI" />
 																			</References>
 																		</DocModelRuleEntity>
 																	</Rules>
@@ -3446,7 +3166,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 								</DocModelRuleAttribute>
 							</Rules>
 						</DocTemplateDefinition>
-						<DocTemplateDefinition id="Body CSG Geometry_2WgtOmQML9NhwFqGRz9Pd2" Name="Body CSG Geometry" UniqueId="2WgtOmQML9NhwFqGRz9Pd2" Type="IfcElement">
+						<DocTemplateDefinition id="Body_CSG_Geometry_2WgtOmQML9NhwFqGRz9Pd2" Name="Body CSG Geometry" UniqueId="2WgtOmQML9NhwFqGRz9Pd2" Type="IfcElement">
 							<Documentation>&lt;p&gt;The &lt;em&gt;Body CSG Geometry&lt;/em&gt; is the representation of the 3D shape of a product by Constructive Solid Geometry models.
 
 &lt;/p&gt;
@@ -3504,19 +3224,11 @@ Elements may have a &apos;Surface&apos; representation describing the
 																		<DocModelRuleEntity id="i30209" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																			<Rules>
 																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Description="Value=CSG">
-																					<Expression>
-																						<DocOpStatement Operation="compareequal">
-																							<Reference>
-																								<DocOpReference>
-																									<EntityRule>
-																										<DocModelRuleEntity xsi:nil="true" href="i30209" />
-																									</EntityRule>
-																								</DocOpReference>
-																							</Reference>
-																							<Value>
-																								<DocOpLiteral Literal="CSG" />
-																							</Value>
-																						</DocOpStatement>
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i30209" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Literal="CSG" />
 																					</Expression>
 																				</DocModelRuleConstraint>
 																			</Rules>
@@ -3544,7 +3256,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 								</DocModelRuleAttribute>
 							</Rules>
 						</DocTemplateDefinition>
-						<DocTemplateDefinition id="Body Clipping Geometry_0isyBrcmn3wfqgdNBG57u0" Name="Body Clipping Geometry" UniqueId="2cdbc2f5-9b0c-43ea-9d2a-9d72d0147e00" Type="IfcElement">
+						<DocTemplateDefinition id="Body_Clipping_Geometry_0isyBrcmn3wfqgdNBG57u0" Name="Body Clipping Geometry" UniqueId="2cdbc2f5-9b0c-43ea-9d2a-9d72d0147e00" Type="IfcElement">
 							<Documentation>&lt;p&gt;The &lt;em&gt;Body Clipping Geometry&lt;/em&gt; is the representation of the 3D shape of a product by using Constructive Solid Geometry models with difference operations involving half space solids only.
 
 &lt;/p&gt;
@@ -3595,19 +3307,11 @@ Elements may have a &apos;Surface&apos; representation describing the
 																		<DocModelRuleEntity id="i30228" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																			<Rules>
 																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Name="Value=Clipping" Description="Value=Clipping">
-																					<Expression>
-																						<DocOpStatement Operation="compareequal">
-																							<Reference>
-																								<DocOpReference>
-																									<EntityRule>
-																										<DocModelRuleEntity xsi:nil="true" href="i30228" />
-																									</EntityRule>
-																								</DocOpReference>
-																							</Reference>
-																							<Value>
-																								<DocOpLiteral Literal="Clipping" />
-																							</Value>
-																						</DocOpStatement>
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i30228" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Literal="Clipping" />
 																					</Expression>
 																				</DocModelRuleConstraint>
 																			</Rules>
@@ -3677,7 +3381,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 						</DocTemplateDefinition>
 					</Templates>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Clearance Geometry_0Ft2E0dl11wR3Sy1$Iztvi" Name="Clearance Geometry" UniqueId="0Ft2E0dl11wR3Sy1$Iztvi" Type="IfcElement">
+				<DocTemplateDefinition id="Clearance_Geometry_0Ft2E0dl11wR3Sy1Iztvi" Name="Clearance Geometry" UniqueId="0Ft2E0dl11wR3Sy1$Iztvi" Type="IfcElement">
 					<Documentation>&lt;p&gt;Elements requiring surrounding space for clearance provide a &apos;Clearance&apos; representation. The reason for clearance space may be due to ventilation, maintenance, or other purpose.  Examples of such elements include boilers and chillers.  Such representation may be used for interference checks, where the &apos;Clearance&apos; representation must not intersect with the &apos;Body&apos; representation of other objects, though may intersect with the &apos;Clearance&apos; representation of other objects.
 &lt;/p&gt;
 &lt;p&gt;The representation identifier of the clearance representation
@@ -3731,7 +3435,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 						</DocModelRuleAttribute>
 					</Rules>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Lighting Geometry_2W02_BUpX4$vkxXYripLIn" Name="Lighting Geometry" UniqueId="2W02_BUpX4$vkxXYripLIn" Type="IfcElement">
+				<DocTemplateDefinition id="Lighting_Geometry_2W02_BUpX4vkxXYripLIn" Name="Lighting Geometry" UniqueId="2W02_BUpX4$vkxXYripLIn" Type="IfcElement">
 					<Documentation>&lt;p&gt;Elements emitting light provide a &apos;Lighting&apos; representation. Examples of such elements include lamps and light fixtures.  Such representation may be used for 3D rendering or lighting design.
 &lt;/p&gt;
 &lt;p&gt;The representation identifier and type and the only allowed single representation item of the &apos;Lighting&apos; representation
@@ -3807,7 +3511,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 						</DocModelRuleAttribute>
 					</Rules>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Survey Points Geometry_0gaFKlUM5DlOLWL6uj2tEx" Name="Survey Points Geometry" UniqueId="0gaFKlUM5DlOLWL6uj2tEx" Type="IfcSite">
+				<DocTemplateDefinition id="Survey_Points_Geometry_0gaFKlUM5DlOLWL6uj2tEx" Name="Survey Points Geometry" UniqueId="0gaFKlUM5DlOLWL6uj2tEx" Type="IfcSite">
 					<Documentation>&lt;p&gt;Elements may provide a &apos;SurveyPoints&apos; representation for defining a contour such as for &lt;i&gt;IfcSite&lt;/i&gt;. It contains the survey points as a set of Cartesian points and optionally breaklines.&lt;/p&gt;
 &lt;p&gt;The representation identifier and type and the only allowed single representation item of the &apos;SurveyPoints&apos; representation
  are:&lt;/p&gt;
@@ -3883,7 +3587,7 @@ Elements may have a &apos;Surface&apos; representation describing the
 						</DocModelRuleAttribute>
 					</Rules>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Mapped Geometry_3i$TV8STL4dxyWvZebtBcw" Name="Mapped Geometry" UniqueId="3i$TV8STL4dxyWvZebtBcw" Type="IfcProduct">
+				<DocTemplateDefinition id="Mapped_Geometry_3iTV8STL4dxyWvZebtBcw" Name="Mapped Geometry" UniqueId="3i$TV8STL4dxyWvZebtBcw" Type="IfcProduct">
 					<Documentation>&lt;p&gt;
 Elements may have a &apos;Mapped Geometry&apos; representation
  that reuses the concept &lt;em&gt;Product Type Shape&lt;/em&gt; at the corresponding product type, as defined by the concept &lt;em&gt;Object Typing&lt;/em&gt;.&lt;/p&gt; 
@@ -4137,7 +3841,7 @@ The topology of products may be represented in multiple ways
 				</DocModelRuleAttribute>
 			</Rules>
 			<Templates>
-				<DocTemplateDefinition id="Reference Topology_1vtMCN8v14oeZ2SDHirRbf" Name="Reference Topology" UniqueId="1vtMCN8v14oeZ2SDHirRbf" Type="IfcProduct">
+				<DocTemplateDefinition id="Reference_Topology_1vtMCN8v14oeZ2SDHirRbf" Name="Reference Topology" UniqueId="1vtMCN8v14oeZ2SDHirRbf" Type="IfcProduct">
 					<Documentation>&lt;p&gt;Structural activities may have a &apos;Reference&apos; representation
  describing the distribution of a load.
 

@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0pCPjHg2bBFOPO0J_Z7BFK">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcGeographicElement" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcGeographicElement" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="0FkrGTiST24fNIjuKY8nUE">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="4906e704-62b1-480f-b9db-0e5d8ecf7bf2" RuleParameters="RelatingType=IfcGeographicElementType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Property Sets for Objects" UniqueId="2nN_5B77HDwu2Axaql7ger">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Classification Association" UniqueId="1zCYxu8j1FchtkQfr0DGbZ">
 			<Documentation>&lt;p&gt;
@@ -34,14 +28,10 @@
       &lt;li&gt;ElementName: &lt;em&gt;IfcClassificationReference.Name&lt;/em&gt;
       &lt;/li&gt;
     &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Classification Association_1A8aO9PNXCTQ$FYl_eRbxo" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Classification_Association_1A8aO9PNXCTQFYl_eRbxo" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Spatial Containment" UniqueId="1_hnLG9BL8jg7ZidGjlB2E">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Containment_3Pe$WY01HBmesKdP1dTP15" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Containment_3PeWY01HBmesKdP1dTP15" />
 			<Items>
 				<DocTemplateItem UniqueId="ea34fa19-71b8-4bdf-9c3a-6346e63069be" RuleParameters="RelatingStructure=IfcSite;" Order="0">
 					<Documentation>Assignment to a site within a building project context</Documentation>
@@ -52,8 +42,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="ffb9e62f-182a-4569-909b-dff78b9039d2" Type="IfcGeographicElement" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="c8eedc61-9942-4129-b694-7d716fc79caf" Type="IfcGeographicElement" />
 </DocConceptRoot>
 

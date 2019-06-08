@@ -5,9 +5,7 @@
 		<DocLocalization Name="Object" Locale="en" />
 		<DocLocalization Name="Objet" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="336.43333" Y="1485.2333" Width="271.33334" Height="471.2" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="336.43333" Y="1485.2333" Width="271.33334" Height="471.2" />
 	<Subtypes>
 		<DocSubtype UniqueId="98e18a22-dc53-48f4-a980-3e0269144315" DefinedType="IfcActor" />
 		<DocSubtype UniqueId="3527e2dc-dcbc-44db-b9b8-fa0a79fb75a3" DefinedType="IfcControl" />
@@ -24,9 +22,7 @@
 				<DocPoint X="607.76667" Y="1537.8748" />
 				<DocPoint X="1174.01666" Y="1537.8748" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="604.4333367" Y="1524.541467" Width="133" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="604.4333367" Y="1524.541467" Width="133" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="IsDeclaredBy" UniqueId="61731909-a38e-45fe-98b9-b403ef1e803d" DefinedType="IfcRelDefinesByObject" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="RelatedObjects" XsdFormat="attribute">
 			<Documentation>Link to the relationship object pointing to the declaring object that provides the object definitions for this object occurrence. The declaring object has to be part of an object type decomposition. The associated &lt;em&gt;IfcObject&lt;/em&gt;, or its subtypes, contains the specific information (as part of a type, or style, definition), that is common to all reflected instances of the declaring &lt;em&gt;IfcObject&lt;/em&gt;, or its subtypes. 
@@ -35,9 +31,7 @@
 				<DocPoint X="607.76667" Y="1819.0065" />
 				<DocPoint X="1174.02" Y="1819.0065" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="597.100003" Y="1848.339833" Width="438" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="597.100003" Y="1848.339833" Width="438" Height="70" />
 		</DocAttribute>
 		<DocAttribute Name="Declares" UniqueId="8a2b55d8-3bca-45a0-9309-e7c6e2770821" DefinedType="IfcRelDefinesByObject" AttributeFlags="0" AggregationType="3" AggregationFlag="0" Inverse="RelatingObject">
 			<Documentation>Link to the relationship object pointing to the reflected object(s) that receives the object definitions. The reflected object has to be part of an object occurrence decomposition. The associated &lt;em&gt;IfcObject&lt;/em&gt;, or its subtypes, provides the specific information (as part of a type, or style, definition), that is common to all reflected instances of the declaring &lt;em&gt;IfcObject&lt;/em&gt;, or its subtypes. 
@@ -46,9 +40,7 @@
 				<DocPoint X="607.76667" Y="1916.516" />
 				<DocPoint X="1174.0533" Y="1916.516" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="605.6333367" Y="1948.516" Width="431" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="605.6333367" Y="1948.516" Width="431" Height="70" />
 		</DocAttribute>
 		<DocAttribute Name="IsTypedBy" UniqueId="4016c47e-1d15-481e-8a59-b6fb531ad43c" DefinedType="IfcRelDefinesByType" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="RelatedObjects" XsdFormat="attribute">
 			<Documentation>Set of relationships to the object type that provides the type definitions for this object occurrence. The then associated &lt;em&gt;IfcTypeObject&lt;/em&gt;, or its subtypes, contains the specific information (or type, or style), that is common to all instances of &lt;em&gt;IfcObject&lt;/em&gt;, or its subtypes, referring to the same type. 
@@ -57,9 +49,7 @@
 				<DocPoint X="607.76667" Y="1725.0993" />
 				<DocPoint X="1174.1" Y="1725.0993" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="597.100003" Y="1755.4993" Width="422" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="597.100003" Y="1755.4993" Width="422" Height="70" />
 		</DocAttribute>
 		<DocAttribute Name="IsDefinedBy" UniqueId="e2315ec5-85ce-457d-b508-07be258c2138" DefinedType="IfcRelDefinesByProperties" AttributeFlags="0" AggregationType="3" AggregationFlag="0" Inverse="RelatedObjects" XsdFormat="element">
 			<Documentation>Set of relationships to property set definitions attached to this object. Those statically or dynamically defined properties contain alphanumeric information content that further defines the object. 
@@ -68,9 +58,7 @@
 				<DocPoint X="607.76667" Y="1630.1666" />
 				<DocPoint X="1173.9733" Y="1630.1666" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="607.76667" Y="1654.1666" Width="479" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="607.76667" Y="1654.1666" Width="479" Height="70" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

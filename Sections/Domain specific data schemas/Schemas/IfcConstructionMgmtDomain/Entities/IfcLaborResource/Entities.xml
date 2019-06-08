@@ -5,9 +5,7 @@
 		<DocLocalization Name="Labor Resource" Locale="en" />
 		<DocLocalization Name="Ressource en main d&apos;œuvre" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="95.4" Y="1435.3333" Width="658.2" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="95.4" Y="1435.3333" Width="658.2" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="f927db3b-0e45-4370-a0b3-b201cf84b80b" DefinedType="IfcLaborResourceTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines types of labour resources.
@@ -17,9 +15,7 @@
 				<DocPoint X="104.5" Y="1581.973317" />
 				<DocPoint X="467.73333" Y="1581.973317" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="21.833333" Y="1579.3066503" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="21.833333" Y="1579.3066503" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

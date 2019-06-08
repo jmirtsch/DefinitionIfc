@@ -1,40 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="bf4a9caa-928a-4510-87df-d9a7dc0ae5be">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcShadingDevice" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcShadingDevice" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="604ab438-f636-4b34-8638-020680b017fb">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="0319477a-4ea6-4903-aa21-f3d34d873a6a" RuleParameters="RelatingType=IfcShadingDeviceType;" Order="0" />
 			</Items>
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Property Sets for Objects" UniqueId="a4f7a0e5-53d3-4079-9c61-e7cbf144c4fe">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="084db639-5ad6-4559-ab99-b3f8b16cb6a7" RuleParameters="PsetName=Pset_ShadingDeviceCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="4d1d54d1-04c8-4c96-ab31-da321c902493">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="ed3aa542-e5b1-4971-a8aa-554485ec0b20" RuleParameters="Order=1;PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="d7cd8297-7896-416e-82a6-5fe106ae39f9" RuleParameters="Order=4;PropertyName=IsExternal;Value=IfcBoolean;" Order="0" />
@@ -49,9 +37,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="13d3fb3c-c098-4928-8625-6dbb7e8cd7fd">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="2e5c74d5-597e-475b-aaf8-75009571cb52" RuleParameters="Order=2;PropertyName=Status;Value=IfcLabel;Reference=PEnum_ElementStatus;" Order="0" />
 								<DocTemplateItem UniqueId="8a401ecb-8c14-4811-a005-e3616cf5cd96" RuleParameters="Order=3;PropertyName=ShadingDeviceType;Value=IfcLabel;Reference=PEnum_ElementShading;" Order="0" />
@@ -62,25 +48,17 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="b2fd835c-77cd-4f81-aa23-9f05ef7678da">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="226be3e7-6a5c-487e-bdfb-0c3f853d7ac2" Type="IfcShadingDevice" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="22101234-fd25-451a-8466-c3b659ed25f0" Type="IfcShadingDevice" />
 </DocConceptRoot>
 

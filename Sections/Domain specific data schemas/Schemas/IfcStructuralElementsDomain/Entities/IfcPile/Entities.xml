@@ -5,9 +5,7 @@
 		<DocLocalization Name="Pile" Locale="en" />
 		<DocLocalization Name="Pieu" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="135.29402" Y="399.77283" Width="200" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="135.29402" Y="399.77283" Width="200" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="d2a4fc10-ab8a-4025-a09e-59889c12124b" DefinedType="IfcPileTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The predefined generic type of the pile according to function.
@@ -17,9 +15,7 @@
 				<DocPoint X="335.29402" Y="414.81191" />
 				<DocPoint X="597.89673" Y="414.81191" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="319.769499" Y="403.655765" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="319.769499" Y="403.655765" Width="182" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ConstructionType" UniqueId="68d7f08c-9d56-4f95-ae87-2f3278162109" DefinedType="IfcPileConstructionEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Deprecated.
@@ -29,9 +25,7 @@
 				<DocPoint X="335.29402" Y="483.99609" />
 				<DocPoint X="597.94583" Y="483.99609" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="326.9278661" Y="476.3701077" Width="201" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="326.9278661" Y="476.3701077" Width="201" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

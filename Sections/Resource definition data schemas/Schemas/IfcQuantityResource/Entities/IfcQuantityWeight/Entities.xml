@@ -5,9 +5,7 @@
 		<DocLocalization Name="Quantity Weight" Locale="en" />
 		<DocLocalization Name="Quantité de poids" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="559.2" Y="1898.4666" Width="316.6" Height="101.33333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="559.2" Y="1898.4666" Width="316.6" Height="101.33333" />
 	<Attributes>
 		<DocAttribute Name="WeightValue" UniqueId="7e543a81-ddf5-4f31-b2dc-5a8af9e5a77d" DefinedType="IfcMassMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Mass measure value of this quantity.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="875.8" Y="1949.1333" />
 				<DocPoint X="1182.6666" Y="1949.1333" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="875.8" Y="1949.1333" Width="147" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="875.8" Y="1949.1333" Width="147" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Formula" UniqueId="a1fad3f8-8a38-45db-9ab4-754238b3e2ca" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>A formula by which the quantity has been calculated. It can be assigned in addition to the actual value of the quantity. Formulas could be mathematic calculations (like width x height), database links, or a combination. The formula is for informational purposes only.
@@ -27,9 +23,7 @@
 				<DocPoint X="587.15" Y="2071.500002" />
 				<DocPoint X="927.83333" Y="2071.500002" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="568.808333" Y="2067.6500012" Width="97" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="568.808333" Y="2067.6500012" Width="97" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

@@ -4,12 +4,8 @@
 		<DocLocalization Name="Time" Locale="en" />
 		<DocLocalization Name="Temps" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2377.96818033854" Y="2152.05289713542" Width="166.733245849609" Height="132.271208333334" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="STRING_2HfXsVOLrDl8C5xGbudiVH" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="2377.96818033854" Y="2152.05289713542" Width="166.733245849609" Height="132.271208333334" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="STRING_2HfXsVOLrDl8C5xGbudiVH" />
 	<DiagramLine>
 		<DocPoint X="2458.66821797689" Y="2284.32410546875" />
 		<DocPoint X="2458.66821797689" Y="2284.32410546875" />

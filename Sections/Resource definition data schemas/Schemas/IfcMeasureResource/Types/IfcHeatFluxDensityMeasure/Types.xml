@@ -4,12 +4,8 @@
 		<DocLocalization Name="Heat Flux Density Measure" Locale="en" />
 		<DocLocalization Name="Mesure de densité de flux de chaleur" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5665.1004" Y="710.54098" Width="456.65233" Height="54.923051" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_06_LuC651DjQPkcPlCKE8P" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5665.1004" Y="710.54098" Width="456.65233" Height="54.923051" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_06_LuC651DjQPkcPlCKE8P" />
 	<DiagramLine>
 		<DocPoint X="6121.7527" Y="738.00252" />
 		<DocPoint X="6232.62019" Y="738.00252" />

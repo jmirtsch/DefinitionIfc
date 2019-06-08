@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="00256003-509d-4fa0-8324-72ecc92e24a2">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcCurtainWall" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcCurtainWall" />
 	<Concepts>
 		<DocTemplateUsage Name="Property Sets for Objects" UniqueId="a43aee29-33e8-4a8a-a344-282d698333f2">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="64edbe22-468b-4544-90bc-63783e30024d" RuleParameters="PsetName=Pset_CurtainWallCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="f184cc15-5491-4c87-8d9e-e4ed576feec0">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="a175e6c9-7d24-46a9-9d40-78bf2db2b666" RuleParameters="Order=1;PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="19f82279-bcdc-4801-9734-d177afa8cbc7" RuleParameters="Order=3;PropertyName=AcousticRating;Value=IfcLabel;" Order="0" />
@@ -26,9 +20,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="ced66cc8-fd64-46b9-9e89-f4c00991803a">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="23494e67-7a2a-4b9b-ac68-64e6f7a15e97" RuleParameters="Order=2;PropertyName=Status;Value=IfcLabel;Reference=PEnum_ElementStatus;" Order="0" />
 							</Items>
@@ -38,16 +30,12 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Quantity Sets" UniqueId="436fc847-8291-4140-9a5a-3c5efd07575b">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="8e4d68a6-4a7a-49d1-9dea-41a6857b0c3e" RuleParameters="QsetName=Qto_CurtainWallQuantities;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Quantities" UniqueId="2dd99c6a-461e-436d-8bfa-77b7e19e2e3d">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Length Quantity_3TXdZXum1FS9rZvJdRIz4S" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Length_Quantity_3TXdZXum1FS9rZvJdRIz4S" />
 							<Items>
 								<DocTemplateItem UniqueId="a8f5ba42-a9c0-4b16-bf12-b9263c10b33d" RuleParameters="Order=1;QuantityName=Length;" Order="0" />
 								<DocTemplateItem UniqueId="d5828e2c-6243-421a-88de-fa0ac69569af" RuleParameters="Order=2;QuantityName=Height;" Order="0" />
@@ -55,9 +43,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Quantities" UniqueId="1e70a142-acfc-4c6f-b7cb-73c6914a1f75">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Area Quantity_1bh4T7Rlz3VfJYP3$Kux_6" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Area_Quantity_1bh4T7Rlz3VfJYP3Kux_6" />
 							<Items>
 								<DocTemplateItem UniqueId="988feb8c-af71-4da3-a0cd-5934da8f55f8" RuleParameters="Order=4;QuantityName=GrossSideArea;" Order="0" />
 								<DocTemplateItem UniqueId="43649305-dbfd-4a9c-81aa-ca16b08d4b22" RuleParameters="Order=5;QuantityName=NetSideArea;" Order="0" />
@@ -68,40 +54,28 @@
 			</Items>
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Object Typing" UniqueId="7d654b33-a761-4261-9502-b7bdd639c19b">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="ce4afaf7-684a-4b99-b1d5-df20734294d2" RuleParameters="RelatingType=IfcCurtainWallType;" Order="0" />
 			</Items>
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="969233ba-fac3-460b-b44e-d5d624123ad6" Type="IfcCurtainWall" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="d84df495-8ae3-497f-80c6-bf73561536db" Type="IfcCurtainWall" />
 </DocConceptRoot>
 

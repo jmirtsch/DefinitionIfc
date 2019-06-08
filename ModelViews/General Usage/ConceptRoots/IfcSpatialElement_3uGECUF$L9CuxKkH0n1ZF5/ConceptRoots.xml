@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3uGECUF$L9CuxKkH0n1ZF5">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcSpatialElement" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcSpatialElement" />
 	<Concepts>
 		<DocTemplateUsage UniqueId="2YVetfyET1B915No7CET23">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="de491c56-1203-4771-ab1d-1a68421b16de" RuleParameters="PsetName=Pset_ThermalLoadAggregate;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="1b936ecc-624f-4c87-89cb-d4dac0c2e89d">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="08d7d229-8360-4640-bd22-656c68a3ab8b" RuleParameters="PropertyName=TotalCoolingLoad;Value=IfcPowerMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="195b5fcb-c75f-44d6-9b58-b6b2a838b019" RuleParameters="PropertyName=TotalHeatingLoad;Value=IfcPowerMeasure;" Order="0" />
@@ -30,9 +24,7 @@
 				<DocTemplateItem UniqueId="8a47ea7e-23a9-4418-857f-0615b42934bd" RuleParameters="PsetName=Pset_ThermalLoadDesignCriteria;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="3513d3f1-92da-4fd4-9ec9-5b7854872f96">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="bcf62d0c-30aa-49a7-8d3d-0eb02af5aa94" RuleParameters="PropertyName=OccupancyDiversity;Value=IfcPositiveRatioMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="2feb37ba-be0b-4771-b24d-c287f1b8d4e8" RuleParameters="PropertyName=OutsideAirPerPerson;Value=IfcVolumetricFlowRateMeasure;" Order="0" />
@@ -47,9 +39,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="FootPrint GeomSet Geometry" UniqueId="761099d2-e34d-45fe-994e-87cacb80bf8c">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="FootPrint GeomSet Geometry_2KLjRMfYf8jBh$lYuukgoS" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="FootPrint_GeomSet_Geometry_2KLjRMfYf8jBhlYuukgoS" />
 			<Items>
 				<DocTemplateItem UniqueId="7488f04f-a00f-4359-ad70-72df2eb2f0bb" RuleParameters="Identifier=FootPrint;Type=GeometricCurveSet;Items=IfcGeometricCurveSet;" Order="0">
 					<Documentation>Set of curves (outer and inner) representing the floor projection,</Documentation>
@@ -57,8 +47,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="b96664c8-fb38-4e7c-a6e4-2493102f715e" Type="IfcSpatialElement" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="463eac7c-89cb-466d-8577-14bc08ca88a5" Type="IfcSpatialElement" />
 </DocConceptRoot>
 

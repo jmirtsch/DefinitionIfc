@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DocModelView xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Design Transfer View" Name="Design Transfer View" UniqueId="3PQnVXqPDAwhT_YbPSxKai" Code="DesignTransferView_V1-1" Version="1.1" Status="Proposal" Owner="bSI" Copyright="&amp;copy; 1996-2016 buildingSMART International Ltd." BaseView="86aa67de-829b-467b-9cd8-dd364beabe79" XsdUri="http://www.buildingsmart-tech.org/ifcXML/IFC4_ADD1">
+<DocModelView xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Design_Transfer_View" Name="Design Transfer View" UniqueId="3PQnVXqPDAwhT_YbPSxKai" Code="DesignTransferView_V1-1" Version="1.1" Status="Proposal" Owner="bSI" Copyright="&amp;copy; 1996-2016 buildingSMART International Ltd." BaseView="86aa67de-829b-467b-9cd8-dd364beabe79" XsdUri="http://www.buildingsmart-tech.org/ifcXML/IFC4_ADD1">
 	<Icon>"089504E470D0A1A0A0000000D4948445200000010000000100802000000909168360000000467414D410000B18F0BFC6105000000097048597300000EC300000EC301C76FA8640000008749444154384F9552DB1180200CA3AEA493E91C6EE64E5A2E5C89A520FA8531AF5624AD7BFAF3880AEEEB94ED3095BEE26C20230BBE196432B6E07311388D32D8822B944AA13178AE704D68BBB56CE554413B22E676E3BD12C61A287DA5CF1C2F08D7CFADEA9678D9BC65870709BDDF0CBC2B08BB65107769E6FAA1DB28C1B9C03727CCD81BE7010F395301E94440CD0000000049454E44AE426082"</Icon>
 </DocModelView>
 

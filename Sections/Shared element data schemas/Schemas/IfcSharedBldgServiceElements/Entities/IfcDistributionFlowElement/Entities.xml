@@ -5,9 +5,7 @@
 		<DocLocalization Name="Distribution Flow Element" Locale="en" />
 		<DocLocalization Name="Elément de distribution de fluide" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="73.618784" Y="870.21675" Width="594.53334" Height="102.34881" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="73.618784" Y="870.21675" Width="594.53334" Height="102.34881" />
 	<Subtypes>
 		<DocSubtype UniqueId="f2761e58-8ea6-4ce7-89c7-eeda7044812c" DefinedType="IfcFlowFitting" />
 		<DocSubtype UniqueId="b3056760-9469-4687-a002-37c3164e4e42" DefinedType="IfcFlowSegment" />
@@ -27,9 +25,7 @@
 				<DocPoint X="221.68478" Y="611.75809" />
 				<DocPoint X="221.68478" Y="870.21673" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="609.202368" Y="773.62575" Width="376" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="609.202368" Y="773.62575" Width="376" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

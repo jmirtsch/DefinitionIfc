@@ -5,12 +5,8 @@
 		<DocLocalization Name="Text Font Name" Locale="en" />
 		<DocLocalization Name="Nom de police de caractères" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="7204.6334" Y="1409.3" Width="304.86667" Height="66" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="STRING_2egK8xXYD2jvXkITa8gpkQ" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="7204.6334" Y="1409.3" Width="304.86667" Height="66" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="STRING_2egK8xXYD2jvXkITa8gpkQ" />
 	<DiagramLine>
 		<DocPoint X="7509.5001" Y="1446.3067" />
 		<DocPoint X="7655.36677" Y="1446.3067" />

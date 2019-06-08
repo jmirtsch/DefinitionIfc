@@ -5,9 +5,7 @@
 		<DocLocalization Name="Csg Primitive3 D" Locale="en" />
 		<DocLocalization Name="Primitive 3D Csg" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1924.2667" Y="344.13333" Width="380" Height="173.33333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1924.2667" Y="344.13333" Width="380" Height="173.33333" />
 	<Subtypes>
 		<DocSubtype UniqueId="5897d1ea-ba0c-479f-be07-5c0fcb57c467" DefinedType="IfcBlock" />
 		<DocSubtype UniqueId="0f4cb0e9-7d10-4dda-b502-2ab41d683af9" DefinedType="IfcRectangularPyramid" />
@@ -22,9 +20,7 @@
 				<DocPoint X="2304.2667" Y="395.24444" />
 				<DocPoint X="2680.9333" Y="395.24444" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2304.2667" Y="385.24444" Width="94" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2304.2667" Y="385.24444" Width="94" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Dim" UniqueId="6cfd0ff0-72fd-4c55-b168-9bf9801390cf" DefinedType="IfcDimensionCount" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The space dimensionality of this geometric representation item, it is always 3.</Documentation>
@@ -33,9 +29,7 @@
 				<DocPoint X="2304.2667" Y="464.13333" />
 				<DocPoint X="2680.90003" Y="464.13333" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2297.6000333" Y="457.4666633" Width="125" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2297.6000333" Y="457.4666633" Width="125" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

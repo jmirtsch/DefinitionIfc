@@ -1,48 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="64af82fd-fb21-490c-8a19-6799f6e425f5">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcCableCarrierSegment" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcCableCarrierSegment" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="110a3d0d-bda5-48fa-afe4-185c1af78946">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="5de97abc-44c0-498e-8108-d64685166d14" RuleParameters="RelatingType=IfcCableCarrierSegmentType;" Order="0" />
 			</Items>
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="63cf3d26-25ed-4f8c-84aa-b4983c591b06">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="e49e581a-dea7-4f78-8a86-3170cf9f572e" RuleParameters="PsetName=Pset_CableCarrierSegmentTypeCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="dfd756a7-d7a6-415f-8e80-0d5d05936b99">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="8c8e1ba1-35ff-4e9d-9697-b2ff257b2003" RuleParameters="Order=1;PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="b8491597-3cf6-4065-b397-44b4e9ad7e1e">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="80641fac-c9e2-41b8-933a-32b1e9b43806" RuleParameters="Order=2;PropertyName=Status;Value=IfcLabel;Reference=PEnum_ElementStatus;" Order="0" />
 							</Items>
@@ -52,32 +38,24 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="3a35315c-e8a3-4c15-95c1-e85d05d7f695">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="197b6da7-c816-40b5-808c-462e51efbc36" RuleParameters="QsetName=Qto_CableCarrierSegmentBaseQuantities;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Quantities" UniqueId="da4caf8d-0b25-4120-8eb0-b2df73682ea7">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Weight Quantity_3X0MvMF8bFGfPv1_7RF0hx" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Weight_Quantity_3X0MvMF8bFGfPv1_7RF0hx" />
 							<Items>
 								<DocTemplateItem UniqueId="fe00dfc4-af70-4a7e-b95a-c31a2e76801f" RuleParameters="Order=1;QuantityName=GrossWeight;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Quantities" UniqueId="28e86203-543e-47bb-9cdd-42b2f71e867d">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Length Quantity_3TXdZXum1FS9rZvJdRIz4S" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Length_Quantity_3TXdZXum1FS9rZvJdRIz4S" />
 							<Items>
 								<DocTemplateItem UniqueId="45a257fa-1aaf-42fb-a259-9087b546051f" RuleParameters="Order=2;QuantityName=Length;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Quantities" UniqueId="9989bb36-8f28-43cf-94f4-2e590cbdd1e0">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Area Quantity_1bh4T7Rlz3VfJYP3$Kux_6" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Area_Quantity_1bh4T7Rlz3VfJYP3Kux_6" />
 							<Items>
 								<DocTemplateItem UniqueId="7c521cf2-f82f-4308-b80a-512b392c0459" RuleParameters="Order=3;QuantityName=CrossSectionArea;" Order="0" />
 								<DocTemplateItem UniqueId="0147e250-184d-4684-8032-8a029cc2bd3e" RuleParameters="Order=4;QuantityName=OuterSurfaceArea;" Order="0" />
@@ -88,8 +66,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="d83fffa5-a982-444f-a7ec-12865e46ba74" Type="IfcCableCarrierSegment" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="988eed72-0179-448f-8c15-c17c2e925a7e" Type="IfcCableCarrierSegment" />
 </DocConceptRoot>
 

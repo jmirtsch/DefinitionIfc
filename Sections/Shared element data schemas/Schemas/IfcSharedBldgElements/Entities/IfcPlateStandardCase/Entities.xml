@@ -5,9 +5,7 @@
 		<DocLocalization Name="Plate Standard Case" Locale="en" />
 		<DocLocalization Name="Plaque standard" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1113.9334" Y="1378.9667" Width="438.66667" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1113.9334" Y="1378.9667" Width="438.66667" Height="100" />
 	<WhereRules>
 		<DocWhereRule Name="HasMaterialLayerSetUsage" UniqueId="8ccbf936-aef4-4b46-bca4-8834917d96dc">
 			<Documentation>A valid instance of &lt;em&gt;IfcPlateStandardCase&lt;/em&gt; relies on the provision of an &lt;em&gt;IfcMaterialLayerSetUsage&lt;/em&gt;.</Documentation>

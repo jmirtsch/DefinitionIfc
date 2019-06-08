@@ -5,9 +5,7 @@
 		<DocLocalization Name="Surface Texture" Locale="en" />
 		<DocLocalization Name="Texture de surface" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3392.8667" Y="2991.4667" Width="326.66667" Height="681.633321126302" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3392.8667" Y="2991.4667" Width="326.66667" Height="681.633321126302" />
 	<Subtypes>
 		<DocSubtype UniqueId="938dd83a-bdd0-4bd8-9fec-f4f764d2a76c" DefinedType="IfcPixelTexture" />
 		<DocSubtype UniqueId="05e1bef1-0dca-44b9-b273-3300acace959" DefinedType="IfcImageTexture" />
@@ -22,9 +20,7 @@
 				<DocPoint X="3719.53337" Y="3001.98868815104" />
 				<DocPoint X="4135.2998046875" Y="3001.98868815104" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3719.53337" Y="2981.98868815104" Width="104" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3719.53337" Y="2981.98868815104" Width="104" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="RepeatT" UniqueId="b78c2d1e-ade1-4cfe-9ad0-600ac9e65db1" DefinedType="IfcBoolean" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The &lt;em&gt;RepeatT&lt;/em&gt; field specifies how the texture wraps in the T direction. If &lt;em&gt;RepeatT&lt;/em&gt; is TRUE (the default), the texture map is repeated outside the [0.0, 1.0] texture coordinate range in the T direction so that it fills the shape. If &lt;em&gt;RepeatT&lt;/em&gt; is FALSE, the texture coordinates are clamped in the T direction to lie within the [0.0, 1.0] range. 
@@ -34,9 +30,7 @@
 				<DocPoint X="3719.53337" Y="3111.98095703125" />
 				<DocPoint X="4135.2998046875" Y="3111.98095703125" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3719.53337" Y="3091.98095703125" Width="103" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3719.53337" Y="3091.98095703125" Width="103" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Mode" UniqueId="5e362a12-f3aa-4a27-8041-36d45f41f8cf" DefinedType="IfcIdentifier" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The &lt;em&gt;Mode&lt;/em&gt; attribute is provided to control the appearance of a multi textures. The mode then controls the type of blending operation. The mode includes a MODULATE for a lit appearance, a REPLACE for a unlit appearance, and variations of the two.
@@ -47,9 +41,7 @@
 				<DocPoint X="3719.53337" Y="3221.97322591146" />
 				<DocPoint X="4135.2998046875" Y="3221.97322591146" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3719.53337" Y="3201.97322591146" Width="69" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3719.53337" Y="3201.97322591146" Width="69" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="TextureTransform" UniqueId="c1cd6b51-2e24-4a4e-a44f-8b9143988a34" DefinedType="IfcCartesianTransformationOperator2D" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>The &lt;em&gt;TextureTransform&lt;/em&gt; defines a 2D transformation that is applied to the texture coordinates. It affects the way texture coordinates are applied to the surfaces of geometric representation itesm. The 2D transformation supports changes to the size, orientation, and position of textures on shapes. Mirroring is not allowed to be used in the &lt;em&gt;IfcCartesianTransformationOperator&lt;/em&gt;</Documentation>
@@ -58,9 +50,7 @@
 				<DocPoint X="3719.53337" Y="3347.46549479167" />
 				<DocPoint X="4043.76647352946" Y="3347.46549479167" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3719.53337" Y="3327.46549479167" Width="203" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3719.53337" Y="3327.46549479167" Width="203" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Parameter" UniqueId="28993d40-b769-4a0e-ac66-25d2f615f04b" DefinedType="IfcIdentifier" AttributeFlags="1" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0" XsdFormat="content" XsdTagless="true">
 			<Documentation>The &lt;em&gt;Parameter&lt;/em&gt; attribute is provided to control the appearance of a multi textures. The applicable parameters depend on the value of the &lt;em&gt;Mode&lt;/em&gt; attribute.
@@ -72,9 +62,7 @@ By convention, &lt;em&gt;Parameter[1]&lt;/em&gt; shall then hold the source valu
 				<DocPoint X="3719.53337" Y="3472.95776367188" />
 				<DocPoint X="4135.2998046875" Y="3472.95776367188" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3719.53337" Y="3452.95776367188" Width="199" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3719.53337" Y="3452.95776367188" Width="199" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="IsMappedBy" UniqueId="7207873e-b05f-4ab2-9ec8-f54a10670e4d" DefinedType="IfcTextureCoordinate" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="Maps">
 			<Documentation>Texture coordinates, either provided by a corresponding list of texture vertices to vertex-based geometric items or by a texture coordinate generator, that applies the surface texture to the surfaces of the geometric items.
@@ -85,9 +73,7 @@ IFC4 CHANGE&amp;nbsp; New attribute added at the end of the attribute list.&lt;/
 				<DocPoint X="3719.53337" Y="3582.95003255208" />
 				<DocPoint X="4135.2998046875" Y="3582.95003255208" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3719.53337" Y="3562.95003255208" Width="315" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3719.53337" Y="3562.95003255208" Width="315" Height="70" />
 		</DocAttribute>
 		<DocAttribute Name="UsedInStyles" UniqueId="a01b593c-80bc-4abc-851a-3da9bfb93c5d" DefinedType="IfcSurfaceStyleWithTextures" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="Textures">
 			<DiagramLine>
@@ -95,9 +81,7 @@ IFC4 CHANGE&amp;nbsp; New attribute added at the end of the attribute list.&lt;/
 				<DocPoint X="3657.46663411458" Y="2991.4667" />
 				<DocPoint X="3657.46663411458" Y="2691.83325528646" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3657.46663411458" Y="2671.83325528646" Width="295" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3657.46663411458" Y="2671.83325528646" Width="295" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocExample xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Building element elemented case" UniqueId="e4b41ac8-aa4e-41b0-bf26-a7d02d1f01f9">
 	<Views>
-		<DocModelView xsi:nil="true" href="Design Transfer View" />
-		<DocModelView xsi:nil="true" href="General Usage" />
+		<DocModelView xsi:nil="true" href="Design_Transfer_View" />
+		<DocModelView xsi:nil="true" href="General_Usage" />
 	</Views>
 </DocExample>
 

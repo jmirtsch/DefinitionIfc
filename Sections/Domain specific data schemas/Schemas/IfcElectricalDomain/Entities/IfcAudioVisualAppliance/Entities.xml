@@ -5,9 +5,7 @@
 		<DocLocalization Name="Audio Visual Appliance" Locale="en" />
 		<DocLocalization Name="Appareil audiovisuel" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="839.09333" Y="1120.3867" Width="679.93333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="839.09333" Y="1120.3867" Width="679.93333" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="2aa5eecb-56b9-4686-816e-ae3aa1e44546" DefinedType="IfcAudioVisualApplianceTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
@@ -15,9 +13,7 @@
 				<DocPoint X="1512.3933" Y="1270.083365" />
 				<DocPoint X="1091.51334" Y="1270.083365" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1416.619985" Y="1215.0533667" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1416.619985" Y="1215.0533667" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

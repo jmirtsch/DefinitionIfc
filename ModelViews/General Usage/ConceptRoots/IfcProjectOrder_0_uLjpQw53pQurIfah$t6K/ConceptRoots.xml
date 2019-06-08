@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0_uLjpQw53pQurIfah$t6K">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcProjectOrder" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcProjectOrder" />
 	<Concepts>
 		<DocTemplateUsage Name="Approval" UniqueId="0o1DiolFLEOOU0xXFd$RXd">
 			<Documentation>&lt;p&gt;Approvals may be associated to indicate the status of acceptance or rejection using the &lt;a href=&quot;../../ifccontrolextension/lexical/ifcrelassociatesapproval.htm&quot;&gt;IfcRelAssociatesApproval&lt;/a&gt; relationship where &lt;em&gt;RelatingApproval&lt;/em&gt; refers to an &lt;a href=&quot;../../ifcapprovalresource/lexical/ifcapproval.htm&quot;&gt;IfcApproval&lt;/a&gt; and &lt;em&gt;RelatedObjects&lt;/em&gt; contains the &lt;b&gt;IfcProjectOrder&lt;/b&gt;.  Approvals may be split into sub-approvals using &lt;a href=&quot;../../ifcapprovalresource/lexical/ifcapprovalrelationship.htm&quot;&gt;IfcApprovalRelationship&lt;/a&gt; to track approval status separately for each party where &lt;em&gt;RelatingApproval&lt;/em&gt; refers to the higher-level approval and &lt;em&gt;RelatedApprovals&lt;/em&gt; contains one or more lower-level approvals.  The hierarchy of approvals implies sequencing such that a higher-level approval is not executed until all of its lower-level approvals have been accepted.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Approval Association_1ILX$QGe50dQe7saXJ0YIU" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Approval_Association_1ILXQGe50dQe7saXJ0YIU" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="01MSk87K53kwbyVKIfXajx">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="aaf0e6d7-3746-4e3b-9049-7ac87431d6ac" RuleInstanceID="IfcPropertySet" RuleParameters="PredefinedType=CHANGEORDER;PsetName=Pset_ProjectOrderChangeOrder;" Order="0" />
 				<DocTemplateItem UniqueId="b5c5807f-e4ae-4d0b-a790-8dcd98a8f8e1" RuleInstanceID="IfcPropertySet" RuleParameters="PredefinedType=MAINTENANCEWORKORDER;PsetName=Pset_ProjectOrderMaintenanceWorkOrder;TemplateType=PSET_OCCURRENCEDRIVEN;" Order="0" />
@@ -28,9 +22,7 @@
 &lt;tr&gt;&lt;td&gt;&lt;img alt=&quot;Composition Use Definition&quot; src=&quot;../../../figures/ifcprojectorder-composition.png&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 277 &amp;mdash; Project order composition&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
 			<Items>
 				<DocTemplateItem UniqueId="a126e861-2cb1-46fb-9faa-67e282a239a2" RuleParameters="PredefinedType=;RelatedObjects=IfcCostSchedule;" Order="0">
 					<Documentation>A cost schedule may indicate costs and quantities where the cost schedule type may designate whether rates and/or quantities are estimated or final.  Such cost schedule may have assigned cost items indicating detail, where each cost item may have assigned products, processes, or resources.</Documentation>
@@ -41,9 +33,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Nesting" UniqueId="1X0PwVYnb9aACPeSVkfqsd">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Nesting_0uoeU8NaT178AKrM_UcbQH" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Nesting_0uoeU8NaT178AKrM_UcbQH" />
 			<Items>
 				<DocTemplateItem UniqueId="285ec1f1-8bd2-49a9-a33b-3cb425f6e6a9" RuleParameters="Type=IfcProjectOrder;" Order="0">
 					<Documentation>May contain subordinate orders, particularly change orders indicating contract amendment in order of issue.</Documentation>
@@ -63,13 +53,9 @@
 &lt;tr&gt;&lt;td&gt;&lt;img alt=&quot;Assignment Use Definition&quot; src=&quot;../../../figures/ifcprojectorder-assignment.png&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 278 &amp;mdash; Project order assignment&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Control Assignment_21FdF_La56IAQ0Y8VFGrdn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Control_Assignment_21FdF_La56IAQ0Y8VFGrdn" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="334a7a75-7dbf-4f28-a5cf-6b42604296cc" Type="IfcProjectOrder" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="955a3cfe-0a81-45d7-b689-461e162dcbbc" Type="IfcProjectOrder" />
 </DocConceptRoot>
 

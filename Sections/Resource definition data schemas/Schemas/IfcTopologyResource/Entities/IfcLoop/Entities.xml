@@ -5,9 +5,7 @@
 		<DocLocalization Name="Loop" Locale="en" />
 		<DocLocalization Name="Boucle" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1904.4161" Y="1586.4853" Width="283.3" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1904.4161" Y="1586.4853" Width="283.3" Height="100" />
 	<Subtypes>
 		<DocSubtype UniqueId="f158f069-0240-4eb2-950d-b79129c03a9d" DefinedType="IfcPolyLoop" />
 		<DocSubtype UniqueId="b1643e51-38f0-4ec3-9bcc-b0eaa012261a" DefinedType="IfcVertexLoop" />

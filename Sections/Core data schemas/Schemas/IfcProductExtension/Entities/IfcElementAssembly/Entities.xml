@@ -5,9 +5,7 @@
 		<DocLocalization Name="Element Assembly" Locale="en" />
 		<DocLocalization Name="Assemblage d&apos;éléments" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1808.107" Y="1252.4734" Width="363.8411" Height="181.35152" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1808.107" Y="1252.4734" Width="363.8411" Height="181.35152" />
 	<Attributes>
 		<DocAttribute Name="AssemblyPlace" UniqueId="1d9c3c37-5ade-4dce-84eb-639544d907bb" DefinedType="IfcAssemblyPlaceEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>A designation of where the assembly is intended to take place defined by an Enum.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="2171.9481" Y="1385.8158" />
 				<DocPoint X="2694.58563" Y="1385.8158" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2169.4781483" Y="1380.8016327" Width="173" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2169.4781483" Y="1380.8016327" Width="173" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="PredefinedType" UniqueId="52e54ce3-c706-4309-8db3-88ec5a4386ac" DefinedType="IfcElementAssemblyTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined generic types for a element assembly that are specified in an enumeration. There might be property sets defined specifically for each predefined type.
@@ -26,9 +22,7 @@
 				<DocPoint X="2171.9481" Y="1288.262" />
 				<DocPoint X="2694.5609" Y="1288.262" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2166.571165" Y="1274.971995" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2166.571165" Y="1274.971995" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

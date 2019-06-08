@@ -5,9 +5,7 @@
 		<DocLocalization Name="Work Plan" Locale="en" />
 		<DocLocalization Name="Planning de travail" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3353.76245117188" Y="1361.52294921875" Width="205.33333" Height="125.96667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3353.76245117188" Y="1361.52294921875" Width="205.33333" Height="125.96667" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="d78ca6cb-0dfb-4ca5-acbb-8dd5ea6f5a0e" DefinedType="IfcWorkPlanTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of a work plan from which 
@@ -17,9 +15,7 @@
 				<DocPoint X="3464.511069375" Y="1487.48961921875" />
 				<DocPoint X="3464.511069375" Y="1675.58947753906" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3464.511069375" Y="1655.58947753906" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3464.511069375" Y="1655.58947753906" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

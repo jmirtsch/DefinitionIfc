@@ -5,9 +5,7 @@
 		<DocLocalization Name="Simple Property Template" Locale="en" />
 		<DocLocalization Name="Modèle de propriété simple" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3366.2133" Y="1484.2267" Width="287.93333" Height="618.66666" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3366.2133" Y="1484.2267" Width="287.93333" Height="618.66666" />
 	<Attributes>
 		<DocAttribute Name="TemplateType" UniqueId="27ab0dc4-9cf7-46d0-8faf-db2ae107b1c4" DefinedType="IfcSimplePropertyTemplateTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Property type defining whether the property template defines a property with a single value, a bounded value, a list value, a table value, an enumerated value, or a reference value. Or the quantity type defining whether the template defines a quantity with a length, area, volume, weight or time value.
@@ -16,9 +14,7 @@
 				<DocPoint X="3654.1466" Y="1506.0896" />
 				<DocPoint X="4008.86658" Y="1506.0896" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3608.813267" Y="1495.422933" Width="165" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3608.813267" Y="1495.422933" Width="165" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="PrimaryMeasureType" UniqueId="23f2b0c9-3b16-4f38-a416-eb4d1b8a6eb6" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Primary measure type assigned to the definition of the property. It should be provided, if the &lt;em&gt;PropertyType&lt;/em&gt; is set to:
@@ -34,9 +30,7 @@
 				<DocPoint X="3654.1466" Y="1598.5777" />
 				<DocPoint X="4008.9466" Y="1598.5777" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3648.8132667" Y="1593.2443667" Width="241" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3648.8132667" Y="1593.2443667" Width="241" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="SecondaryMeasureType" UniqueId="3d5c231d-ff1d-43b9-8032-e56540c68963" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Secondary measure type assigned to the definition of the property. It should be provided, if the &lt;em&gt;PropertyType&lt;/em&gt; is set to:
@@ -52,9 +46,7 @@ The value range of the measure type is within the select type &lt;em&gt;IfcValue
 				<DocPoint X="3654.1466" Y="1688.1429" />
 				<DocPoint X="4008.77993" Y="1688.1429" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3664.813267" Y="1680.1429" Width="276" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3664.813267" Y="1680.1429" Width="276" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Enumerators" UniqueId="883e5f6b-01e4-4244-a489-be75a31918fe" DefinedType="IfcPropertyEnumeration" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Name of the property enumeration, and list of all valid enumerators being selectable values, assigned to the definition of the property. 
@@ -66,9 +58,7 @@ This attribute shall only be provided, if the &lt;em&gt;PropertyType&lt;/em&gt; 
 				<DocPoint X="3654.1466" Y="1803.0441" />
 				<DocPoint X="4008.93334" Y="1803.0441" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3598.1466" Y="1795.0441" Width="148" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3598.1466" Y="1795.0441" Width="148" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="PrimaryUnit" UniqueId="e67fbcd2-1af8-469f-bfb0-4cda583fb0c6" DefinedType="IfcUnit" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Primary unit assigned to the definition of the property. It should be provided, if the &lt;em&gt;PropertyType&lt;/em&gt; is set to:
@@ -83,9 +73,7 @@ This attribute shall only be provided, if the &lt;em&gt;PropertyType&lt;/em&gt; 
 				<DocPoint X="3654.1466" Y="1896.1703" />
 				<DocPoint X="4008.93327" Y="1896.1703" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3595.479933" Y="1885.503633" Width="134" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3595.479933" Y="1885.503633" Width="134" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="SecondaryUnit" UniqueId="c3750bec-8371-47de-bf41-b9ac5295c1bb" DefinedType="IfcUnit" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Secondary unit assigned to the definition of the property. It should be provided, if the &lt;em&gt;PropertyType&lt;/em&gt; is set to:
@@ -96,9 +84,7 @@ This attribute shall only be provided, if the &lt;em&gt;PropertyType&lt;/em&gt; 
 				<DocPoint X="3654.1466" Y="1986.5759" />
 				<DocPoint X="4008.93327" Y="1986.5759" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3606.1466" Y="1981.2425667" Width="169" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3606.1466" Y="1981.2425667" Width="169" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Expression" UniqueId="2e44a5f9-8aa1-484d-86c1-21a2609f2dcc" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The expression used to store additional information for the property template depending on the &lt;em&gt;PropertyType&lt;/em&gt;. It should the following definitions, if the &lt;em&gt;PropertyType&lt;/em&gt; is set to:
@@ -111,9 +97,7 @@ This attribute shall only be provided, if the &lt;em&gt;PropertyType&lt;/em&gt; 
 				<DocPoint X="3654.1466" Y="2077.3867" />
 				<DocPoint X="4008.81324" Y="2077.3867" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3588.813267" Y="2067.3867" Width="128" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3588.813267" Y="2067.3867" Width="128" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="AccessState" UniqueId="2225a8e6-f09f-47d2-b907-7769a21deed9" DefinedType="IfcStateEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Information about the access state of the property. It determines whether a property be viewed and/or modified by any receiving application without specific knowledge of it. &lt;br&gt;&lt;br&gt;
@@ -135,9 +119,7 @@ This attribute shall only be provided, if the &lt;em&gt;PropertyType&lt;/em&gt; 
 				<DocPoint X="3510.1799" Y="2102.8934" />
 				<DocPoint X="3510.1799" Y="2207.8667" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3612.77489" Y="2114.540098" Width="143" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3612.77489" Y="2114.540098" Width="143" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

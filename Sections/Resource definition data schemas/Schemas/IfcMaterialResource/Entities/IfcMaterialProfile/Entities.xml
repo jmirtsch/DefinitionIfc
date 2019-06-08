@@ -5,9 +5,7 @@
 		<DocLocalization Name="Material Profile" Locale="en" />
 		<DocLocalization Name="Matériau de profil" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3403.2326" Y="1285.1019" Width="403.31633" Height="474.39206" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3403.2326" Y="1285.1019" Width="403.31633" Height="474.39206" />
 	<Subtypes>
 		<DocSubtype UniqueId="7472e833-1ae6-4693-80e1-fc774161b9be" DefinedType="IfcMaterialProfileWithOffsets" />
 	</Subtypes>
@@ -18,9 +16,7 @@
 				<DocPoint X="3806.549" Y="1532.1462" />
 				<DocPoint X="4078.75741" Y="1532.1462" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3777.961132" Y="1517.852266" Width="73" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3777.961132" Y="1517.852266" Width="73" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Description" UniqueId="b84c1f3a-f5f2-49bc-a2ac-049c1bbd8755" DefinedType="IfcText" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Definition of the material profile in descriptive terms.</Documentation>
@@ -28,9 +24,7 @@
 				<DocPoint X="3806.549" Y="1623.3197" />
 				<DocPoint X="4078.79249" Y="1623.3197" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3800.8314259" Y="1617.6021264" Width="130" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3800.8314259" Y="1617.6021264" Width="130" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Material" UniqueId="3e27fe58-b578-432b-9e96-3e6a093b469d" DefinedType="IfcMaterial" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Optional reference to the material from which the profile is constructed.</Documentation>
@@ -38,9 +32,7 @@
 				<DocPoint X="3806.549" Y="1334.7291" />
 				<DocPoint X="4078.79853" Y="1334.7291" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3786.537492" Y="1320.435166" Width="94" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3786.537492" Y="1320.435166" Width="94" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Profile" UniqueId="0724aa33-c5b4-42bb-a9ad-24e0948919a5" DefinedType="IfcProfileDef" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Identification of the profile for which this material profile is associating material.</Documentation>
@@ -48,9 +40,7 @@
 				<DocPoint X="3806.549" Y="1428.8647" />
 				<DocPoint X="4388.33497" Y="1428.8647" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3915.79723" Y="1417.429553" Width="76" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3915.79723" Y="1417.429553" Width="76" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Priority" UniqueId="34b4027d-5a6d-4ca7-9e38-938813104361" DefinedType="IfcInteger" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The relative priority of the profile, expressed as normalised integer range [0..100]. Controls how profiles intersect in connections and corners of building elements: A profile from one element protrudes into (i.e. displaces) a profile from another element in a joint of these elements if the former element&apos;s profile has higher priority than the latter. The priority value for a material profile in an element has to be set and maintained by software applications in relation to the material profiles in connected elements.</Documentation>
@@ -59,9 +49,7 @@
 				<DocPoint X="3403.2326" Y="1868.38380388802" />
 				<DocPoint X="3005.72379557292" Y="1868.38380388802" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3403.2326" Y="1848.38380388802" Width="82" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3403.2326" Y="1848.38380388802" Width="82" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Category" UniqueId="1eae177e-bf43-4c31-8ee1-ead88a469691" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Category of the material profile, e.g. the role it has in the profile set it belongs to. The list of keywords might be extended by model view definitions, however the following keywords shall apply in general:
@@ -74,9 +62,7 @@
 				<DocPoint X="3806.549" Y="1709.8982" />
 				<DocPoint X="4078.72765" Y="1709.8982" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3790.885966" Y="1700.5655047" Width="108" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3790.885966" Y="1700.5655047" Width="108" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ToMaterialProfileSet" UniqueId="5b1cac06-3b41-4dc5-b115-73766008da55" DefinedType="IfcMaterialProfileSet" AttributeFlags="8" AggregationType="0" AggregationFlag="0" Inverse="MaterialProfiles">
 			<Documentation>Material profile set in which this material profile is included.</Documentation>
@@ -84,9 +70,7 @@
 				<DocPoint X="3595.5728" Y="992.84573" />
 				<DocPoint X="3595.5728" Y="1285.10188" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3767.40464" Y="1058.192931" Width="293" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3767.40464" Y="1058.192931" Width="293" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

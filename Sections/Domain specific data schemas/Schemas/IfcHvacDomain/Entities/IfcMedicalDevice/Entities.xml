@@ -5,18 +5,14 @@
 		<DocLocalization Name="Medical Device" Locale="en" />
 		<DocLocalization Name="Equipement médical" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4436.3083" Y="1795.5815" Width="318.1116" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4436.3083" Y="1795.5815" Width="318.1116" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="bf6dacbf-d58a-4995-9f89-c8568c7b0fb3" DefinedType="IfcMedicalDeviceTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
 				<DocPoint X="4436.3083" Y="1845.5815" />
 				<DocPoint X="4239.64185" Y="1845.5815" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="4437.29619851" Y="1834.295155" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="4437.29619851" Y="1834.295155" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

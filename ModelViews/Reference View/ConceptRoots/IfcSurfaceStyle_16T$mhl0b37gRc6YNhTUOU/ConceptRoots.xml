@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="4677fc2b-bc09-431e-a6e6-1a25eb75e61e">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcSurfaceStyle" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcSurfaceStyle" />
 	<Concepts>
 		<DocTemplateUsage Name="Surface Style" UniqueId="da2a7886-9553-4fd7-bc00-9c0380e50739">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Surface Color Style_3gHpLYmULDnwrr$pIILsus" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Surface_Color_Style_3gHpLYmULDnwrrpIILsus" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="8c6b9a71-b822-45e9-9b8e-29180215009f" Type="IfcSurfaceStyle" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="b27fce08-8617-4f5a-8736-ea036c4a0caf" Type="IfcSurfaceStyle" />
 </DocConceptRoot>
 

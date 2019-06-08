@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2c0c23b6-0b58-4bf1-a57d-fcb484a80070">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcSurfaceStyleShading" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="ae284a97-6be8-4c26-9422-55685adc8fa8" Type="IfcSurfaceStyleShading" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcSurfaceStyleShading" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="81c05ae6-5636-4bd2-b16f-86025c08ac88" Type="IfcSurfaceStyleShading" />
 </DocConceptRoot>
 

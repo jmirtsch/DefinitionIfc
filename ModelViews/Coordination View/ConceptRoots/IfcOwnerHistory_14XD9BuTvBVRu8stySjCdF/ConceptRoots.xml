@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="4484d24b-e1de-4b7d-be08-db7f1cb4c9cf">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcOwnerHistory" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="540392ef-3118-4435-986b-23a58b1b0293" Type="IfcOwnerHistory" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcOwnerHistory" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="2942386c-84fa-4117-b53b-4b08108cee4a" Type="IfcOwnerHistory" />
 </DocConceptRoot>
 

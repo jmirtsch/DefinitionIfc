@@ -4,9 +4,7 @@
 		<DocLocalization Name="Elektrisches Speichergerät - Typ" Locale="de" />
 		<DocLocalization Name="Electric Flow Storage Device Type" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1697.5261" Y="2082.2331" Width="679.96667" Height="103.26667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1697.5261" Y="2082.2331" Width="679.96667" Height="103.26667" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="186735ec-129e-418f-976b-fa860a7b2a9f" DefinedType="IfcElectricFlowStorageDeviceTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>&lt;p&gt;Identifies the predefined types of electric flow storage devices from which the type required may be set.&lt;/p&gt;</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="1700.3523" Y="2233.89963" />
 				<DocPoint X="2118.62602" Y="2233.89963" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1610.585666" Y="2230.5329984" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1610.585666" Y="2230.5329984" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="4ee41a09-0e5e-459e-929e-31264ecf87f9">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcTendon" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="58a72c13-16cf-4843-91f5-79bc4a97c9cf" Type="IfcTendon" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcTendon" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="d10655c0-7440-4f59-9d8a-769fd523e9c0" Type="IfcTendon" />
 </DocConceptRoot>
 

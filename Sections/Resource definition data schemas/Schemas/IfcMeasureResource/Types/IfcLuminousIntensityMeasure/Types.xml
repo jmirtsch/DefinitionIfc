@@ -4,12 +4,8 @@
 		<DocLocalization Name="Luminous Intensity Measure" Locale="en" />
 		<DocLocalization Name="Mesure de l&apos;intensité lumineuse" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4109.1274" Y="1036.1595" Width="405.50465" Height="66" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_02v_jX3fL8swKOJA7x6Fs7" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="4109.1274" Y="1036.1595" Width="405.50465" Height="66" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_02v_jX3fL8swKOJA7x6Fs7" />
 	<DiagramLine>
 		<DocPoint X="4514.6321" Y="1069.1595" />
 		<DocPoint X="4591.625558" Y="1069.1595" />

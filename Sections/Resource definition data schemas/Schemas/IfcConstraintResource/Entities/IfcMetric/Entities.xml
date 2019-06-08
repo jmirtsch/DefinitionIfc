@@ -5,9 +5,7 @@
 		<DocLocalization Name="Metric" Locale="en" />
 		<DocLocalization Name="Métrique" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="269.7782" Y="1584.9469" Width="241.85388" Height="228.78116" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="269.7782" Y="1584.9469" Width="241.85388" Height="228.78116" />
 	<Attributes>
 		<DocAttribute Name="Benchmark" UniqueId="f6bf2afd-66d2-4ca3-8497-049c6de0448b" DefinedType="IfcBenchmarkEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Enumeration that identifies the type of benchmark data.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="511.63208" Y="1616.2015" />
 				<DocPoint X="817.40335" Y="1616.2015" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="533.292529" Y="1609.9419721" Width="131" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="533.292529" Y="1609.9419721" Width="131" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ValueSource" UniqueId="b72c1003-2c12-4c5f-89f0-a650f7725700" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Reference source for data values. 
@@ -28,9 +24,7 @@ If &lt;i&gt;DataValue&lt;/i&gt; refers to an &lt;i&gt;IfcTable&lt;/i&gt;, this a
 				<DocPoint X="1442.84781" Y="1676.3387" />
 				<DocPoint X="1442.84781" Y="1250.58405" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="621.94644" Y="1671.6384586" Width="148" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="621.94644" Y="1671.6384586" Width="148" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="DataValue" UniqueId="23f467e3-d669-4627-b39a-f3ea04867950" DefinedType="IfcMetricValueSelect" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The value to be compared on associated objects. A null value indicates comparison to null.
@@ -39,9 +33,7 @@ If &lt;i&gt;DataValue&lt;/i&gt; refers to an &lt;i&gt;IfcTable&lt;/i&gt;, this a
 				<DocPoint X="511.63208" Y="1746.1015" />
 				<DocPoint X="817.4091" Y="1746.1015" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="613.27031" Y="1742.2380654" Width="123" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="613.27031" Y="1742.2380654" Width="123" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ReferencePath" UniqueId="78456c1f-276f-4b88-807b-5f5009c06e6d" DefinedType="IfcReference" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Optional path to an attribute to be constrained on associated objects.
@@ -50,9 +42,7 @@ If provided, the metric may be validated by resolving the path to the current va
 				<DocPoint X="390.70514" Y="1813.7281" />
 				<DocPoint X="390.70514" Y="1927.94274" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="507.83382" Y="1811.7355558" Width="173" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="507.83382" Y="1811.7355558" Width="173" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

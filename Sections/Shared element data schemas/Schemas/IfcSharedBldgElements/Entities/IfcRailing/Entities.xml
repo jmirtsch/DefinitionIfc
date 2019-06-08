@@ -5,9 +5,7 @@
 		<DocLocalization Name="Railing" Locale="en" />
 		<DocLocalization Name="Garde corps" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1865.35" Y="1283.9999" Width="249.9" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1865.35" Y="1283.9999" Width="249.9" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="a41e385b-cc54-4bd0-a2e7-bdc2cd206b45" DefinedType="IfcRailingTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined generic types for a railing that are specified in an enumeration. There may be a property set given for the predefined types.
@@ -17,9 +15,7 @@
 				<DocPoint X="2115.25" Y="1333.9999" />
 				<DocPoint X="2501.38327" Y="1333.9999" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2115.25" Y="1328.6665667" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2115.25" Y="1328.6665667" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

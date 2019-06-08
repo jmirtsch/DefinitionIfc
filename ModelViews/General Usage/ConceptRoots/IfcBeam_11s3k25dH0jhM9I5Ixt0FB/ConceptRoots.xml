@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="11s3k25dH0jhM9I5Ixt0FB">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcBeam" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcBeam" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="3BSyP2EhjF6hZ233rVRG2i">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="71a512f3-0402-4b7e-8d67-d5b8bcdec8bd" RuleParameters="RelatingType=IfcBeamType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="04dzsHOVP8DRMerrOlNrtq">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="bc701572-c539-4695-85f9-79fa3d47eb05" RuleParameters="PsetName=Pset_BeamCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="7cde903e-a863-4a88-b1f8-110e9dda28df">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="68d161ef-adca-4a9a-8214-2ad020ca6078" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="b4b5edcd-ef82-4ab2-b2d7-db0917327dad" RuleParameters="PropertyName=Span;Value=IfcPositiveLengthMeasure;" Order="0" />
@@ -35,9 +27,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="8fbe741b-326c-49af-8b94-6ed75627a4df">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="db5b074b-b9f0-4be6-8a67-cd40d34821a0" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
 							</Items>
@@ -47,9 +37,7 @@
 				<DocTemplateItem UniqueId="e1fdcb69-894a-4ae8-a9ba-5b7861c5ca4a" RuleParameters="PsetName=Pset_ConcreteElementGeneral;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="e757300c-47ad-4097-be7a-e47f30b4c3fa">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="8a42269c-ac95-45b0-838e-97eb940c9f3b" RuleParameters="PropertyName=ConstructionMethod;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="38c433ff-a190-43e9-b78c-71b79ad10fde" RuleParameters="PropertyName=StructuralClass;Value=IfcLabel;" Order="0" />
@@ -70,9 +58,7 @@
 				<DocTemplateItem UniqueId="a03f4749-a809-4fea-8fce-ecdbe5422202" RuleParameters="PsetName=Pset_PrecastConcreteElementFabrication;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="92cbc176-d680-46ab-9bc4-676aad152f76">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="906df75a-086c-4e33-a7c4-6dd9cb77399f" RuleParameters="PropertyName=TypeDesignator;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="c6745ca2-757a-408f-a8ab-d22cb595442d" RuleParameters="PropertyName=ProductionLotId;Value=IfcIdentifier;" Order="0" />
@@ -88,9 +74,7 @@
 				<DocTemplateItem UniqueId="a2a5f0ac-cacb-4d2f-bc7d-25b332bea7cc" RuleParameters="PsetName=Pset_PrecastConcreteElementGeneral;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="b546cd8f-f2b6-4073-8a06-aa180bb5841a">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="1b02ebea-1a41-4ba3-b8fa-56fd4db74859" RuleParameters="PropertyName=TypeDesignator;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="8a9ce0d9-0f1b-46da-8987-79b0d5999119" RuleParameters="PropertyName=CornerChamfer;Value=IfcPositiveLengthMeasure;" Order="0" />
@@ -118,9 +102,7 @@
 				<DocTemplateItem UniqueId="c1dda4f5-e29e-4123-903a-d4bbcc7f2e6e" RuleParameters="PsetName=Pset_ReinforcementBarPitchOfBeam;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="8019a081-11db-4e9e-94f8-aa0cf2e5af6e">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="3192ce8d-33cb-4cbe-991d-abd7ae7dbb8e" RuleParameters="PropertyName=Description;Value=IfcText;" Order="0" />
 								<DocTemplateItem UniqueId="c718b248-949c-4e27-a119-332ae5944afb" RuleParameters="PropertyName=Reference;Value=IfcLabel;" Order="0" />
@@ -133,9 +115,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="17n4YsgsT0VRvFBTKXmeKo">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="718423fc-7f2c-419c-a61c-dbadf0431606" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_BeamBaseQuantities;" Order="0" />
 			</Items>
@@ -147,9 +127,7 @@ may participate alternatively in one of the two different containment relationsh
 &lt;li&gt;the &lt;em&gt;Spatial Containment&lt;/em&gt; (defined here), or&lt;/li&gt;
 &lt;li&gt;the &lt;em&gt;Element Composition&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Containment_3Pe$WY01HBmesKdP1dTP15" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Containment_3PeWY01HBmesKdP1dTP15" />
 			<Items>
 				<DocTemplateItem UniqueId="87c7147f-0f4b-4888-aabf-26e2c526a5bc" RuleParameters="RelatingStructure=IfcBuildingStorey;" Order="0">
 					<Documentation>Default spatial container</Documentation>
@@ -163,9 +141,7 @@ may participate alternatively in one of the two different containment relationsh
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Element Composition" UniqueId="cd50ca8a-4efe-448d-9c89-246e5779935b">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Element Composition_3A3sNYEHDFsue935nw3LGX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Element_Composition_3A3sNYEHDFsue935nw3LGX" />
 			<Items>
 				<DocTemplateItem UniqueId="ab01604a-0b45-47c5-8534-44728cafdb24" RuleParameters="Composite=IfcElementAssembly;" Order="0">
 					<Documentation>Special purpose composite entity</Documentation>
@@ -186,9 +162,7 @@ may participate alternatively in one of the two different containment relationsh
 NOTE&amp;nbsp; It is illegal to assign an &lt;em&gt;IfcMaterialProfileSetUsage&lt;/em&gt; to an &lt;em&gt;IfcBeam&lt;/em&gt;. Only the subtype &lt;em&gt;IfcBeamStandardCase&lt;/em&gt; supports this 
 concept.
 &lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set_12Ui1LAd52mgGZSMYVfrnP" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Profile_Set_12Ui1LAd52mgGZSMYVfrnP" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Axis 3D Geometry" UniqueId="029cde53-81a3-4cd6-aa4e-26e6a962757e">
 			<Documentation>&lt;p&gt;The &apos;Axis&apos; &apos;Curve 3D&apos; geometry can be used to represent the system 
@@ -198,9 +172,7 @@ length.&lt;/p&gt;
 &lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The &apos;Axis&apos; is not used to locate the 
 material profile set, only the subtype &lt;em&gt;IfcBeamStandardCase&lt;/em&gt;
 provides this capability.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Axis 3D Geometry_2ubDZB_q55xBeOSih6klyq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Axis_3D_Geometry_2ubDZB_q55xBeOSih6klyq" />
 			<Items>
 				<DocTemplateItem UniqueId="d0267270-8537-437e-af1b-f8d749cad07b" RuleParameters="Identifier=Axis;Type=Curve3D;Items=IfcBoundedCurve;" Order="0">
 					<Documentation>Three-dimensional reference curve for the beam.</Documentation>
@@ -231,9 +203,7 @@ supported.&lt;/li&gt;
 &lt;tr&gt;&lt;td&gt;&lt;img src=&quot;../../../figures/ifcbeam_advanced-1-layout1.gif&quot; alt=&quot;non-perpendicular extrusion&quot; border=&quot;0&quot; height=&quot;299&quot; width=&quot;393&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 193 &amp;mdash; Beam non-perpendicular extrusion&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body AdvancedSweptSolid Geometry" UniqueId="25a36b91-bad3-4f7d-98b8-1f26b5496cd1">
 			<Documentation>&lt;p&gt;The following additional constraints apply to the &apos;AdvancedSweptSolid&apos; representation type:&lt;/p&gt;
@@ -249,9 +219,7 @@ types.&lt;/blockquote&gt;
 &lt;li&gt;&lt;u&gt;Profile&lt;/u&gt;: see &apos;SweptSolid&apos; geometric representation&lt;/li&gt;
 &lt;li&gt;&lt;u&gt;Extrusion&lt;/u&gt;: not applicable&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body AdvancedSweptSolid Geometry_1KP7XTvT5FTPxCRBEI571U" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_AdvancedSweptSolid_Geometry_1KP7XTvT5FTPxCRBEI571U" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Clipping Geometry" UniqueId="89e37549-18f3-4aa5-87d1-01f5c441a5fd">
 			<Documentation>&lt;p&gt;The following additional constraints apply to the &apos;Clipping&apos; representation type:&lt;/p&gt;
@@ -271,14 +239,10 @@ swept solid (here &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt;) and one or several
 &lt;tr valign=&quot;top&quot;&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../../figures/ifcbeam_advanced-2-layout1.gif&quot; alt=&quot;clipped beam&quot; border=&quot;0&quot; height=&quot;299&quot; width=&quot;393&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 193 &amp;mdash; Beam clipping&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Clipping Geometry_0isyBrcmn3wfqgdNBG57u0" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Clipping_Geometry_0isyBrcmn3wfqgdNBG57u0" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Product Assignment" UniqueId="4ed31bc3-1351-49bd-9848-5e1abd7f964b">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Assignment_3idFi4hVv8Q85eru$fbQaJ" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Assignment_3idFi4hVv8Q85erufbQaJ" />
 			<Items>
 				<DocTemplateItem UniqueId="d3d693de-3068-4e73-a509-da17b5407d04" RuleParameters="Type=IfcStructuralCurveMember;" Order="0">
 					<Documentation>An idealized structural member corresponding to the beam.</Documentation>
@@ -286,8 +250,6 @@ swept solid (here &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt;) and one or several
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="1406cc3d-d836-4d8f-b8da-302a41f8f754" Type="IfcBeam" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="66c0287f-191a-403c-b4db-dc56d69bd1f9" Type="IfcBeam" />
 </DocConceptRoot>
 

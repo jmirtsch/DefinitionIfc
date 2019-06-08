@@ -5,8 +5,6 @@
 		<DocLocalization Name="Pre Defined Properties" Locale="en" />
 		<DocLocalization Name="Propriétés prédéfinies" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="526.26667" Y="803.49333" Width="224" Height="124" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="526.26667" Y="803.49333" Width="224" Height="124" />
 </DocEntity>
 

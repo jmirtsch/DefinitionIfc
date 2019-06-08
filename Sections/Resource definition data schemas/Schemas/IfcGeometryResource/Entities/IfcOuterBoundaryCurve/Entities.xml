@@ -4,8 +4,6 @@
 		<DocLocalization Name="Äußere Begrenzungskurve" Locale="de" />
 		<DocLocalization Name="Outer Boundary Curve" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="9702.7333" Y="649.94666" Width="359.83333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="9702.7333" Y="649.94666" Width="359.83333" Height="100" />
 </DocEntity>
 

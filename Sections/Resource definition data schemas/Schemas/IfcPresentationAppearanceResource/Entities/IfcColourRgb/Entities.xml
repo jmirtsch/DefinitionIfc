@@ -5,9 +5,7 @@
 		<DocLocalization Name="Colour Rgb" Locale="en" />
 		<DocLocalization Name="Couleur RGB" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="7303.7001953125" Y="3034.86669921875" Width="383.33333" Height="496.633336385091" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="7303.7001953125" Y="3034.86669921875" Width="383.33333" Height="496.633336385091" />
 	<Attributes>
 		<DocAttribute Name="Red" UniqueId="f661324a-8271-4245-9e58-ffc0cf863c82" DefinedType="IfcNormalisedRatioMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The intensity of the red colour component.
@@ -17,9 +15,7 @@
 				<DocPoint X="7303.7001953125" Y="3213.44026692708" />
 				<DocPoint X="7202.3671875" Y="3213.44026692708" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="7303.7001953125" Y="3193.44026692708" Width="53" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="7303.7001953125" Y="3193.44026692708" Width="53" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Green" UniqueId="ebc33f4b-fed6-40ff-a92e-a20b033a4a88" DefinedType="IfcNormalisedRatioMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The intensity of the green colour component.
@@ -29,9 +25,7 @@
 				<DocPoint X="7303.7001953125" Y="3336.16666666667" />
 				<DocPoint X="7202.3671875" Y="3336.16666666667" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="7303.7001953125" Y="3316.16666666667" Width="76" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="7303.7001953125" Y="3316.16666666667" Width="76" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Blue" UniqueId="bbdfea63-6f7b-4237-ae70-f0252c880d09" DefinedType="IfcNormalisedRatioMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The intensity of the blue colour component.
@@ -41,9 +35,7 @@
 				<DocPoint X="7303.7001953125" Y="3461.50016276042" />
 				<DocPoint X="7202.3671875" Y="3461.50016276042" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="7303.7001953125" Y="3441.50016276042" Width="56" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="7303.7001953125" Y="3441.50016276042" Width="56" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

@@ -3,9 +3,7 @@
 	<Localization>
 		<DocLocalization Name="Style Assignment Select" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="386.26667" Y="900.66667" Width="475.33333" Height="91.666667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="386.26667" Y="900.66667" Width="475.33333" Height="91.666667" />
 	<Selects>
 		<DocSelectItem Name="IfcPresentationStyleAssignment" UniqueId="41053b4a-0192-4063-8833-217eefb2a132" />
 		<DocSelectItem Name="IfcPresentationStyle" UniqueId="0b5b8b0a-79fe-4df1-bc3c-fc102a71ad25" />

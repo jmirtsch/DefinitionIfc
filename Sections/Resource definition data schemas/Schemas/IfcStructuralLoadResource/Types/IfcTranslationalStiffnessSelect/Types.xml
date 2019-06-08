@@ -4,9 +4,7 @@
 		<DocLocalization Name="Translational Stiffness Select" Locale="en" />
 		<DocLocalization Name="Sélection de rigidité de translation" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3913.6447" Y="368.70337" Width="252.37535" Height="186.92721" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3913.6447" Y="368.70337" Width="252.37535" Height="186.92721" />
 	<Selects>
 		<DocSelectItem Name="IfcBoolean" UniqueId="aa718289-c861-4165-a2cb-68b8de68f314" />
 		<DocSelectItem Name="IfcLinearStiffnessMeasure" UniqueId="542ff5de-c540-4f3f-a102-fbc38ce40f5a" />

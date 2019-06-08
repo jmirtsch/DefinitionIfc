@@ -1,36 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="05BiKdTcv3lOsvfv2CrLnQ">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcCableSegment" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcCableSegment" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="36ZxKBXszB6uOGB4fjjuzd">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="ce385f3b-cdf8-4fcd-940e-4092d27f157c" RuleParameters="RelatingType=IfcCableSegmentType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="3zs_RjXKX8GvgvFSW0ZOq$">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="e9e0f3c6-aa9e-4f55-bafa-cd78a777f394" RuleParameters="PsetName=Pset_CableSegmentOccurrence;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="20c44e44-8f30-4577-a810-0023c5431140">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Bounded_Value_0zPwBITXr4sQ2Ujkn_bOo" />
 							<Items>
 								<DocTemplateItem UniqueId="097cee79-ac90-4e86-a73b-d64ec4eaf1b3" RuleParameters="PropertyName=DesignAmbientTemperature;SetValue=IfcThermodynamicTemperatureMeasure;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="87aab466-5f8d-4b65-a0c3-36397f19f3d5">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="bade7cb7-80d6-4c6a-bcde-3701562fe486" RuleParameters="PropertyName=UserCorrectionFactor;Value=IfcReal;" Order="0" />
 								<DocTemplateItem UniqueId="0e233038-3ede-4bd2-8c32-7b8a5ec722d7" RuleParameters="PropertyName=NumberOfParallelCircuits;Value=IfcInteger;" Order="0" />
@@ -46,9 +36,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="26d4b80b-e963-45f4-905f-a0fa77e18f9a">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="ea27e737-accb-4265-8e9b-d7997af148c3" RuleParameters="PropertyName=InstallationMethodFlagEnum;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="0c7619ee-6e34-4849-bbaf-acfc63b9522a" RuleParameters="PropertyName=MountingMethod;Value=IfcLabel;" Order="0" />
@@ -59,17 +47,13 @@
 				<DocTemplateItem UniqueId="bb720d2c-18f9-41eb-934b-bcedcdf50298" RuleParameters="PsetName=Pset_CableSegmentTypeCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="dfd9b971-699d-4fae-8281-35d0276bcca9">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="94738024-333c-4373-8080-0f4df132e269" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="b87bb8a7-64d3-455e-9393-4aa28112f9b6">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="4dbb55b8-0e3d-4731-b539-6cef9fbc8531" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
 							</Items>
@@ -79,17 +63,13 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="0$dEh7xVPB1OxAgjHwkI_e">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="ff200f13-73dd-430c-ba6c-e1b5d8834ba4" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_CableSegmentBaseQuantities;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Material" UniqueId="3k_FhTlvP7BwX12wU0ngVA">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set Usage_1ge1GfjMPBDeTQCM88YfWn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Profile_Set_Usage_1ge1GfjMPBDeTQCM88YfWn" />
 			<Items>
 				<DocTemplateItem UniqueId="b29274b3-a3f7-4f1b-a462-1f0d0cb5cc31" RuleParameters="Name=Conductor;" Order="0">
 					<Documentation>Material from which the conductors are constructed, such as Aluminium or Copper.</Documentation>
@@ -106,9 +86,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Composition" UniqueId="015qUDaWT7PxHXqY2Xl0wJ">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
 			<Items>
 				<DocTemplateItem UniqueId="00f329f1-a5a0-47cf-a1e6-eda51ec985b2" RuleParameters="PredefinedType=CABLESEGMENT;RelatedObjects=IfcCableSegment;InnerType=CORESEGMENT" Order="0">
 					<Documentation>Cable segments may be aggregated into cable cores.</Documentation>
@@ -119,9 +97,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Port" UniqueId="2RrVpK0Dn7beCnMgbg0Yh2">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Port_Nesting_2w9EtqE92s8JFNQ8EuKWA" />
 			<Items>
 				<DocTemplateItem UniqueId="929f5d02-8ad6-40d8-94d3-e37cfdf14a7f" RuleParameters="PortName=Input;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
 					<Documentation>The input end of the cable. While many cables may be bidirectional, port direction is indicated for connectivity purposes.</Documentation>
@@ -132,8 +108,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="00e5b7d1-aea2-4658-aa76-ada8e2be26db" Type="IfcCableSegment" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="e02ebfef-e6a2-44c3-994a-ca9e2e3f1cea" Type="IfcCableSegment" />
 </DocConceptRoot>
 

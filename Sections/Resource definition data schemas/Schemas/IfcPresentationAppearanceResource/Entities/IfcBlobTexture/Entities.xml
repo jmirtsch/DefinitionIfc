@@ -5,9 +5,7 @@
 		<DocLocalization Name="Blob Texture" Locale="en" />
 		<DocLocalization Name="Blob de texture" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4298.70003255208" Y="4024.66666666667" Width="390" Height="301.33332824707" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4298.70003255208" Y="4024.66666666667" Width="390" Height="301.33332824707" />
 	<Attributes>
 		<DocAttribute Name="RasterFormat" UniqueId="cc5e35b1-16ee-455a-aece-ce1cd7148396" DefinedType="IfcIdentifier" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The format of the &lt;em&gt;RasterCode&lt;/em&gt; often using a compression.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="4298.70003255208" Y="4095.33317057292" />
 				<DocPoint X="4131.33306958333" Y="4095.33317057292" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="4298.70003255208" Y="4075.33317057292" Width="158" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="4298.70003255208" Y="4075.33317057292" Width="158" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="RasterCode" UniqueId="d73b45d5-03ef-42a4-80f8-40956c1ed197" DefinedType="IfcBinary" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Blob, given as a single binary, to capture the texture within one popular file (compression) format. The file format is provided by the &lt;em&gt;RasterFormat&lt;/em&gt; attribute.</Documentation>
@@ -27,9 +23,7 @@
 				<DocPoint X="4298.70003255208" Y="4287.09993489583" />
 				<DocPoint X="4128.7666015625" Y="4287.09993489583" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="4298.70003255208" Y="4267.09993489583" Width="140" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="4298.70003255208" Y="4267.09993489583" Width="140" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

@@ -3,9 +3,7 @@
 	<Localization>
 		<DocLocalization Name="Property Set Definition Select" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5290.6133" Y="1290.5333" Width="450.66667" Height="89.666667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="5290.6133" Y="1290.5333" Width="450.66667" Height="89.666667" />
 	<Selects>
 		<DocSelectItem Name="IfcPropertySetDefinitionSet" UniqueId="ac3d2450-46a8-4cda-b2e0-f253691bf67d" />
 		<DocSelectItem Name="IfcPropertySetDefinition" UniqueId="cb00f9cd-2763-4a01-947f-bd99091abbdd" />

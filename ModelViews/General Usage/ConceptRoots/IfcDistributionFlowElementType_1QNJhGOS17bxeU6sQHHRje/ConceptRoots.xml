@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1QNJhGOS17bxeU6sQHHRje">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcDistributionFlowElementType" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcDistributionFlowElementType" />
 	<Concepts>
 		<DocTemplateUsage Name="Axis Geometry" UniqueId="2BcS5qZHH6RAZeAHU_JMB$">
 			<Documentation>&lt;p&gt;This represents the 3D flow path of the item having &lt;em&gt;IfcShapeRepresentation.RepresentationType&lt;/em&gt; of &apos;Curve3D&apos; and containing a single &lt;em&gt;IfcBoundedCurve&lt;/em&gt; subtype such as &lt;em&gt;IfcPolyline&lt;/em&gt;, &lt;em&gt;IfcTrimmedCurve&lt;/em&gt;, or &lt;em&gt;IfcCompositeCurve&lt;/em&gt;.  For elements containing directional ports (&lt;em&gt;IfcDistributionPort&lt;/em&gt; with &lt;em&gt;FlowDirection&lt;/em&gt; of &lt;em&gt;SOURCE&lt;/em&gt; or &lt;em&gt;SINK&lt;/em&gt;), the direction of the curve indicates direction of flow where a &lt;em&gt;SINK&lt;/em&gt; port is positioned at the start of the curve and a &lt;em&gt;SOURCE&lt;/em&gt; port is positioned at the end of the curve.  This representation is most applicable to flow segment types (pipes, ducts, cables), however may be used at other elements to define a primary flow path if applicable.&lt;/p&gt;
@@ -10,34 +8,26 @@
 &lt;p&gt;If an element type is defined parametrically (such as a flow segment type defining common material profile but no particular length or path), then no representations shall be asserted at the type.&lt;/p&gt;
 
 &lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The product representations are defined as representation maps (at the level of the supertype &lt;em&gt;IfcTypeProduct&lt;/em&gt;, which get assigned by an element occurrence instance through the &lt;em&gt;IfcShapeRepresentation.Item[1]&lt;/em&gt; being an &lt;em&gt;IfcMappedItem&lt;/em&gt;.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Type Axis Geometry_3X3nGB2$XBtfkCYO2N46Fn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Type_Axis_Geometry_3X3nGB2XBtfkCYO2N46Fn" />
 			<Items>
 				<DocTemplateItem UniqueId="32de39af-b40c-4861-9e6e-74692aa4aba9" RuleParameters="Type=Curve3D;Geometry=IfcBoundedCurve;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Clearance Geometry" UniqueId="3_6J16H7f2LujW4zC9KG6i">
 			<Documentation>&lt;p&gt;This represents the 3D clearance volume of the item having &lt;em&gt;RepresentationType&lt;/em&gt; of &apos;Surface3D&apos;.  Such clearance region indicates space that should not intersect with the &apos;Body&apos; representation between element occurrences, though may intersect with the &apos;Clearance&apos; representation of other element occurrences.  The particular use of clearance space may be for safety, maintenance, or other purposes.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Type Clearance Geometry_3nwx3pbib94gHrq1AYFu5v" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Type_Clearance_Geometry_3nwx3pbib94gHrq1AYFu5v" />
 			<Items>
 				<DocTemplateItem UniqueId="4cb274ae-1888-4c08-b61b-26770b87a932" RuleParameters="Type=Surface3D;Geometry=IfcSurface;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Lighting Geometry" UniqueId="0Eui5XBJ166A8dStLe7mIR">
 			<Documentation>&lt;p&gt;This represents the light emission of the item having &lt;em&gt;IfcShapeRepresentation.RepresentationType&lt;/em&gt; of &apos;LightSource&apos; and containing one or more &lt;em&gt;IfcLightSource&lt;/em&gt; subtypes.  This representation is most applicable to lamps and light fixtures, however may be used at other elements that emit light.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Type Lighting Geometry_1hQyn1EIXDiAtRMBTnedqP" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Type_Lighting_Geometry_1hQyn1EIXDiAtRMBTnedqP" />
 			<Items>
 				<DocTemplateItem UniqueId="19466278-42e8-4c2c-9f1a-5f425d43e586" RuleParameters="Type=LightSource;Geometry=IfcLightSource;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="74d3bb17-26a2-4e32-8961-be7d3cfd91e3" Type="IfcDistributionFlowElementType" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="74a11988-70d5-4be5-8e37-3c8bb3f71102" Type="IfcDistributionFlowElementType" />
 </DocConceptRoot>
 

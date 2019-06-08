@@ -1,26 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="9c1f586b-c6cc-496c-b9fc-81e5cb1f9523">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcElementAssembly" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcElementAssembly" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="97c28ab0-d880-440c-b55c-8f3a5bd3866e">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="936be571-e2a7-4963-bd38-535290fd90c9" RuleParameters="RelatingType=IfcElementAssemblyType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Element Decomposition" UniqueId="9c50cefe-63ef-4818-a0d1-4a60d624607f">
 			<Documentation>&lt;p&gt;Any instance of &lt;em&gt;IfcElementAssembly&lt;/em&gt; shall be a composite, defining an assembly. Therefore the inverse relationship &lt;em&gt;IsDecomposedBy&lt;/em&gt; shall be used by at least one instance of &lt;em&gt;IfcRelAggregates&lt;/em&gt;.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Element Decomposition_2A9y5QnEfCgOpEVxkXoRpW" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Element_Decomposition_2A9y5QnEfCgOpEVxkXoRpW" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="9c306ab7-4139-4049-91da-dd8d68ec0f9a" Type="IfcElementAssembly" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="4c751018-06c5-4558-a958-8e27fc7849a1" Type="IfcElementAssembly" />
 </DocConceptRoot>
 

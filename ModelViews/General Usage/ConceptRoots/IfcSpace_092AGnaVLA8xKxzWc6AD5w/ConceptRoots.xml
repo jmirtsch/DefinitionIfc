@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="092AGnaVLA8xKxzWc6AD5w">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcSpace" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcSpace" />
 	<Concepts>
 		<DocTemplateUsage Name="Spatial Composition" UniqueId="ff9baddb-af39-40ee-a10c-663525809342">
 			<Documentation>&lt;p&gt;By using the inverse relationship &lt;em&gt;IfcSpace.IsDecomposedBy&lt;/em&gt; it references &lt;em&gt;IfcSpace&lt;/em&gt; by &lt;em&gt;IfcRelAggregates.RelatedObjects&lt;/em&gt;. If it refers to another
@@ -10,9 +8,7 @@
 to have a different and lower &lt;em&gt;CompositionType&lt;/em&gt;, i.e. ELEMENT 
 (if the other &lt;em&gt;IfcSpace&lt;/em&gt; has COMPLEX), or PARTIAL (if the
  other &lt;em&gt;IfcSpace&lt;/em&gt; has ELEMENT).&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Composition_2C3zBtSRjERe$R30ApKl5A" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Composition_2C3zBtSRjEReR30ApKl5A" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Spatial Decomposition" UniqueId="153728cb-e52f-4863-9ecb-612e831e29c2">
 			<Documentation>&lt;p&gt;By using the inverse relationship &lt;em&gt;IfcSpace.Decomposes&lt;/em&gt; it references &lt;em&gt;IfcSite&lt;/em&gt; ||
@@ -22,9 +18,7 @@ instance of &lt;em&gt;IfcSpace&lt;/em&gt;, the referenced &lt;em&gt;IfcSpace&lt;
 needs to have a different and higher &lt;em&gt;CompositionType&lt;/em&gt;, i.e.
 COMPLEX (if the other &lt;em&gt;IfcSpace&lt;/em&gt; has ELEMENT), or ELEMENT (if 
 the other &lt;em&gt;IfcSpace&lt;/em&gt; has PARTIAL).&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Decomposition_1cVuH3xCvAZQO$an_h15FW" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Decomposition_1cVuH3xCvAZQOan_h15FW" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Spatial Container" UniqueId="b1a346d6-80fe-41d5-9093-d6db3b303405">
 			<Documentation>&lt;p&gt;If there are building elements and/or other elements directly 
@@ -40,21 +34,15 @@ references them by its inverse relationship:&lt;/p&gt;
 element) by
  &lt;em&gt;IfcRelContainedInSpatialStructure.RelatedElements&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Container_1XtGZj$G59LPCtYlqeIWvl" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Container_1XtGZjG59LPCtYlqeIWvl" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="2xk7pA5KX7MvweVEEC_yrS">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="6ca764be-f9de-42e9-b812-85de674b2bb4" RuleParameters="PsetName=Pset_SpaceCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="f1e4ba49-1376-4ffc-892c-77b432062523">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="cb97daf4-d0c0-4e9b-855c-a164311a55bf" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="be3e6e31-4666-4802-bf15-d4d98ef0a170" RuleParameters="PropertyName=IsExternal;Value=IfcBoolean;" Order="0" />
@@ -69,9 +57,7 @@ element) by
 				<DocTemplateItem UniqueId="6565cff6-823b-4b07-899f-b307f2843e1b" RuleParameters="PsetName=Pset_SpaceCoveringRequirements;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="bf047f2d-f98a-440c-a194-1d10e40fde60">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="4b5d26a0-2012-4f59-9367-e900b0e872a1" RuleParameters="PropertyName=FloorCovering;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="d4fd59bf-92d0-4715-8881-7e34331d0fce" RuleParameters="PropertyName=FloorCoveringThickness;Value=IfcPositiveLengthMeasure;" Order="0" />
@@ -92,9 +78,7 @@ element) by
 				<DocTemplateItem UniqueId="0d4fc10b-7b41-4524-88cb-513133befca5" RuleParameters="PsetName=Pset_SpaceFireSafetyRequirements;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="253053bb-2241-42ad-b995-665081aee415">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="9a2f7694-6233-4f37-a031-ca843d3870cf" RuleParameters="PropertyName=FireRiskFactor;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="bf057f26-81d7-45c1-a224-684bf35da116" RuleParameters="PropertyName=FlammableStorage;Value=IfcBoolean;" Order="0" />
@@ -109,9 +93,7 @@ element) by
 				<DocTemplateItem UniqueId="dc190134-2d13-4453-80bc-1fee7ecc908b" RuleParameters="PsetName=Pset_SpaceLightingRequirements;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="53b7f546-0157-4f1e-a013-6b762a2fe878">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="bb8a83a9-f2a1-4a5f-a71a-c744226bb089" RuleParameters="PropertyName=ArtificialLighting;Value=IfcBoolean;" Order="0" />
 								<DocTemplateItem UniqueId="00806f07-7661-4482-9564-8b5c07128bfe" RuleParameters="PropertyName=Illuminance;Value=IfcIlluminanceMeasure;" Order="0" />
@@ -122,9 +104,7 @@ element) by
 				<DocTemplateItem UniqueId="f085a37a-cae9-4235-b74b-186e57271eec" RuleParameters="PsetName=Pset_SpaceOccupancyRequirements;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="de7ccdc7-520f-4c06-8965-9918dd79bf0e">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="c509016a-bfdf-46d1-9ec2-3cf435c6e1ba" RuleParameters="PropertyName=OccupancyType;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="04182c62-ca15-4e0b-bc8f-4e9b64fb8b6c" RuleParameters="PropertyName=OccupancyNumber;Value=IfcCountMeasure;" Order="0" />
@@ -140,9 +120,7 @@ element) by
 				<DocTemplateItem UniqueId="484d047e-e687-4834-afba-3813936eca05" RuleParameters="PsetName=Pset_SpaceThermalRequirements;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="20c66cab-f508-4f4c-8979-09daeecdc3d5">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="00cc5281-2350-41b9-ac70-4728dd3b5fd0" RuleParameters="PropertyName=SpaceTemperature;Value=IfcThermodynamicTemperatureMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="e1ab9b5e-cb0f-4dfe-b676-9d7ac15bbbc7" RuleParameters="PropertyName=SpaceTemperatureMax;Value=IfcThermodynamicTemperatureMeasure;" Order="0" />
@@ -169,9 +147,7 @@ element) by
 				<DocTemplateItem UniqueId="95f3f464-c531-4ed2-bee0-2207669da97c" RuleParameters="PsetName=Pset_AirSideSystemInformation;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="b08e945e-8c20-457c-bdba-6d976cd98fb6">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="822cd9e5-b951-4b7f-8850-b296ce3b475d" RuleParameters="PropertyName=Name;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="1297ab89-54ce-44f4-acb0-8be113973132" RuleParameters="PropertyName=Description;Value=IfcLabel;" Order="0" />
@@ -192,9 +168,7 @@ element) by
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="f67edb8a-ac4e-4830-9189-a6d5ae5998e3">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="ae84e2d1-2b80-4444-bcf2-f814e38bbb81" RuleParameters="PropertyName=AirSideSystemType;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="3f37a10d-12c8-4978-9ef2-62b7a2edd0a0" RuleParameters="PropertyName=AirSideSystemDistributionType;Value=IfcLabel;" Order="0" />
@@ -205,9 +179,7 @@ element) by
 				<DocTemplateItem UniqueId="0adc6e90-c186-43d9-bdee-66cfdd042f75" RuleParameters="PsetName=Pset_SpaceThermalDesign;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="7d69c6ad-2f64-4537-beef-9b1ac249ce18">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="900a1ae0-63f6-4025-9493-d976bfb79956" RuleParameters="PropertyName=CoolingDesignAirflow;Value=IfcVolumetricFlowRateMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="01602592-1546-4a77-99c9-a481db4732dc" RuleParameters="PropertyName=HeatingDesignAirflow;Value=IfcVolumetricFlowRateMeasure;" Order="0" />
@@ -229,9 +201,7 @@ element) by
 				<DocTemplateItem UniqueId="45d14c39-526c-498b-9474-d2c2d1258601" RuleParameters="PsetName=Pset_SpaceThermalLoad;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="30f27ea2-7218-49ac-8736-d7596456e768">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Bounded_Value_0zPwBITXr4sQ2Ujkn_bOo" />
 							<Items>
 								<DocTemplateItem UniqueId="fd00be71-1a4d-494a-9418-7bf3e2c895bf" RuleParameters="PropertyName=People;SetValue=IfcPowerMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="90767539-c1fb-4ded-a60d-6235053ea07b" RuleParameters="PropertyName=Lighting;SetValue=IfcPowerMeasure;" Order="0" />
@@ -254,17 +224,13 @@ element) by
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="1YwNY00bz9i9apUrYVP9TW">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="1a38fada-782f-430c-a9fe-f443f6418c50" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_SpaceBaseQuantities;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Space Boundaries" UniqueId="3dPS15cln9SQTBCwqb48bi">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Space Boundaries 1st Level_1gujKKuhrA9Bc4cn5oNyVR" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Space_Boundaries_1st_Level_1gujKKuhrA9Bc4cn5oNyVR" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Placement" UniqueId="1d7DE8d8zBGukO0CHCny4D">
 			<Documentation>&lt;p&gt;The local placement for &lt;em&gt;IfcSpace&lt;/em&gt; is defined at its 
@@ -284,9 +250,7 @@ that is referenced by all geometric representations.&lt;/p&gt;
  &lt;/li&gt;
 
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="FootPrint GeomSet Geometry" UniqueId="4479fc6b-1c26-4cb4-8418-8290d497aa78">
 			<Documentation>&lt;p&gt;The following constraints apply to the 2D representation:&lt;/p&gt;
@@ -320,9 +284,7 @@ foot print of &lt;em&gt;IfcSpace&lt;/em&gt;.&lt;/example&gt;&lt;/td&gt;
  &lt;/tr&gt;
 
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="FootPrint GeomSet Geometry_2KLjRMfYf8jBh$lYuukgoS" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="FootPrint_GeomSet_Geometry_2KLjRMfYf8jBhlYuukgoS" />
 			<Items>
 				<DocTemplateItem UniqueId="e7797b70-9e04-4c88-ae1a-ab74221e2731" RuleParameters="Identifier=FootPrint;Type=Curve2D;Items=IfcBoundedCurve;" Order="0">
 					<Documentation>A single curve defining the outer boundary</Documentation>
@@ -362,9 +324,7 @@ containing spatial structure element.&lt;/li&gt;
  &lt;/tr&gt;
 
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Clipping Geometry" UniqueId="bd69adee-801d-44bf-88e3-d3b3c2191ee7">
 			<Documentation>&lt;p&gt;The following additional constraints apply to the advanced
@@ -400,19 +360,13 @@ subtypes) shall be supported.&lt;/li&gt;
   &lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 182 &amp;mdash; Space body clipping&lt;/p&gt;&lt;/td&gt;
  &lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Clipping Geometry_0isyBrcmn3wfqgdNBG57u0" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Clipping_Geometry_0isyBrcmn3wfqgdNBG57u0" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Brep Geometry" UniqueId="2d2ec04e-6389-4b15-abdb-6a67db1f6202">
 			<Documentation>&lt;p&gt;The space can be represented by a brep geometry representation&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Brep Geometry_2FkIFrk2r8qgqfrdZAHp$Q" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Brep_Geometry_2FkIFrk2r8qgqfrdZAHpQ" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="fa975edc-8bd8-43fd-b9c7-bbc2f593ad2a" Type="IfcSpace" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="d06fd651-a423-4ece-a238-c43b64f4bbef" Type="IfcSpace" />
 </DocConceptRoot>
 

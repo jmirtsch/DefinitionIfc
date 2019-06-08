@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1AIO0bYXz0EAC3rK6xTDBy">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcStair" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcStair" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="2Wn6O0z4jF28eZ8JAeh1VK">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="4d3b54b9-388a-447a-b21e-607a23814cef" RuleParameters="RelatingType=IfcStairType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="2TEyRL1ODDwhTVyo1sl62x">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="cd52da52-8b80-45dd-b222-a1ca31bfb072" RuleParameters="PsetName=Pset_StairCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="afecdc35-d4c6-400b-aa2d-7fdb3be67d11">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="2cfa44f2-166f-4e39-a3b0-3a8b57d1fb2b" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="f9cbfe18-1bb3-481c-a84d-5e8a048411c7" RuleParameters="PropertyName=NumberOfRiser;Value=IfcCountMeasure;" Order="0" />
@@ -43,9 +35,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="ef78a763-d437-4857-aa18-17426b5482fb">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="5155bf5b-f519-4a0d-b02e-707fc015d2e4" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
 							</Items>
@@ -55,9 +45,7 @@
 				<DocTemplateItem UniqueId="7d7de02d-d820-4bb7-bfce-f06df342f03c" RuleParameters="PsetName=Pset_ConcreteElementGeneral;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="c36b5261-78b0-4fd3-b732-511cb6d230dc">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="9d254130-f07f-4142-947c-4c23d59890cb" RuleParameters="PropertyName=ConstructionMethod;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="a991158d-0f33-41c9-9735-9def24ed0fc9" RuleParameters="PropertyName=StructuralClass;Value=IfcLabel;" Order="0" />
@@ -78,9 +66,7 @@
 				<DocTemplateItem UniqueId="331ebb08-b7d5-42bf-b82c-64717d09387b" RuleParameters="PsetName=Pset_PrecastConcreteElementFabrication;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="cd4ada09-488e-4af1-8af6-dea6bc6e072f">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="3e5e2fc9-5180-4568-8544-48e696bcffea" RuleParameters="PropertyName=TypeDesignator;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="fe132b28-faf3-437c-a7bd-08203d7a5a4c" RuleParameters="PropertyName=ProductionLotId;Value=IfcIdentifier;" Order="0" />
@@ -96,9 +82,7 @@
 				<DocTemplateItem UniqueId="a322e3a4-7991-4ac8-8910-07d0380cff3c" RuleParameters="PsetName=Pset_PrecastConcreteElementGeneral;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="a28ad211-3cd5-405c-9781-5fd6db68b521">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="3cf04618-74e2-4fa3-91c8-e166db806bc4" RuleParameters="PropertyName=TypeDesignator;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="a78ff55e-5194-40cf-90c0-b3b9ae7380f8" RuleParameters="PropertyName=CornerChamfer;Value=IfcPositiveLengthMeasure;" Order="0" />
@@ -139,9 +123,7 @@ occurrences of the same type. It is then accessible by the inverse
 &lt;em&gt;IfcMaterial&lt;/em&gt;. If both are given, then the material directly
 assigned to &lt;em&gt;IfcStair&lt;/em&gt; overrides the material assigned to
 &lt;em&gt;IfcStairType&lt;/em&gt;.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Single_1VEQWKHA1Fiut6tQe5OFnK" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Single_1VEQWKHA1Fiut6tQe5OFnK" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Spatial Containment" UniqueId="0K8URHoPD0wx5PIXHehUK9">
 			<Documentation>&lt;p&gt;The &lt;em&gt;IfcStair&lt;/em&gt;, as any subtype of &lt;em&gt;IfcBuildingElement&lt;/em&gt;, 
@@ -150,9 +132,7 @@ may participate alternatively in one of the two different containment relationsh
 &lt;li&gt;the &lt;em&gt;Spatial Containment&lt;/em&gt; (defined here), or&lt;/li&gt;
 &lt;li&gt;the &lt;em&gt;Element Composition&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Containment_3Pe$WY01HBmesKdP1dTP15" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Containment_3PeWY01HBmesKdP1dTP15" />
 			<Items>
 				<DocTemplateItem UniqueId="9a664d59-f26e-436b-a311-e2ec170a9745" RuleParameters="RelatingStructure=IfcBuildingStorey;" Order="0">
 					<Documentation>Default spatial container</Documentation>
@@ -181,9 +161,7 @@ accessed via
 &lt;tr&gt;&lt;td&gt;&lt;img src=&quot;../../../figures/ifcstair-layout1.png&quot; alt=&quot;stair&quot; border=&quot;0&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 245 &amp;mdash; Stair placement&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Element Decomposition_2A9y5QnEfCgOpEVxkXoRpW" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Element_Decomposition_2A9y5QnEfCgOpEVxkXoRpW" />
 			<Items>
 				<DocTemplateItem UniqueId="8f5a9693-50ce-4d48-81f8-e47877d624a4" RuleParameters="RelatedObjects=IfcStairFlight;" Order="0">
 					<Documentation>Stairs may be decomposed into stair flights.</Documentation>
@@ -203,9 +181,7 @@ accessed via
 &lt;li&gt;If the &lt;em&gt;IfcStair&lt;/em&gt; establishes an aggregate, then
 all contained elements shall be placed relative to the
 &lt;em&gt;IfcStair.ObjectPlacement&lt;/em&gt;.&lt;/li&gt;&lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Axis 2D Geometry" UniqueId="1873b460-0c20-4f13-9529-b4ef73ee4309">
 			<Documentation>&lt;p&gt;The walking line is represented by a two-dimensional open curve 
@@ -216,18 +192,12 @@ as the axis. The curve is directed into the upward direction
 &lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The &apos;Axis&apos; representation of &lt;em&gt;IfcStair&lt;/em&gt; 
 may be provided even if the &lt;em&gt;IfcStair&lt;/em&gt; has components with own
  shape representations.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Axis 2D Geometry_1u94Jere57Mf0qgUVrF6rb" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Axis_2D_Geometry_1u94Jere57Mf0qgUVrF6rb" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body SweptSolid Geometry" UniqueId="f28febf8-dfe1-4c7d-8a8f-d23c9ebf5849">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="8a47f126-80a5-4677-8100-4b8b226e8724" Type="IfcStair" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="d277dca8-ad75-469c-8390-d6699acafc81" Type="IfcStair" />
 </DocConceptRoot>
 

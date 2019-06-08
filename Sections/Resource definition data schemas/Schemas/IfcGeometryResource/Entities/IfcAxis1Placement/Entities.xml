@@ -5,9 +5,7 @@
 		<DocLocalization Name="Axis1 Placement" Locale="en" />
 		<DocLocalization Name="Position et direction d&apos;un axe" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3496.86531575521" Y="836.737935384115" Width="267.333323160807" Height="374.666646321614" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3496.86531575521" Y="836.737935384115" Width="267.333323160807" Height="374.666646321614" />
 	<Attributes>
 		<DocAttribute Name="Axis" UniqueId="c014a489-c24c-47b9-980e-1ccb8510c66b" DefinedType="IfcDirection" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>The direction of the local Z axis.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="3764.19863891602" Y="843.47129313151" />
 				<DocPoint X="3875.45190429688" Y="843.47129313151" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3764.19863891602" Y="823.47129313151" Width="52" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3764.19863891602" Y="823.47129313151" Width="52" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Z" UniqueId="a00a3506-65a7-4932-9af4-43e2d794394c" DefinedType="IfcDirection" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The normalized direction of the local Z axis. It is either identical with the Axis value, if given, or it defaults to [0.,0.,1.]</Documentation>
@@ -28,9 +24,7 @@
 				<DocPoint X="3764.19863891602" Y="924.804626464844" />
 				<DocPoint X="3875.45190429688" Y="924.804626464844" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3764.19863891602" Y="904.804626464844" Width="97" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3764.19863891602" Y="904.804626464844" Width="97" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

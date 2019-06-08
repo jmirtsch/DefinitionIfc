@@ -5,8 +5,6 @@
 		<DocLocalization Name="Plane" Locale="en" />
 		<DocLocalization Name="Plan" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="12378.4677734375" Y="1010.44494628906" Width="212.66667" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="12378.4677734375" Y="1010.44494628906" Width="212.66667" Height="100" />
 </DocEntity>
 

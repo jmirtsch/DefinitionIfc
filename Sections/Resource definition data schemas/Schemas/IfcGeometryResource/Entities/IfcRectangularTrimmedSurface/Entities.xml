@@ -4,9 +4,7 @@
 		<DocLocalization Name="Rechteckig begrenzte Oberfläche" Locale="de" />
 		<DocLocalization Name="Rectangular Trimmed Surface" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="13652.2923177083" Y="1327.85314941406" Width="271.966654459637" Height="610.666666666667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="13652.2923177083" Y="1327.85314941406" Width="271.966654459637" Height="610.666666666667" />
 	<Attributes>
 		<DocAttribute Name="BasisSurface" UniqueId="2b292506-6136-479a-9255-a02ef4d16fa9" DefinedType="IfcSurface" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Surface being trimmed.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="13924.2589721679" Y="1088.02" />
 				<DocPoint X="14099.717" Y="1088.02" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="13924.2589721679" Y="1068.02" Width="151" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="13924.2589721679" Y="1068.02" Width="151" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="U1" UniqueId="15237180-8fcc-4bed-a1ef-26b540fe861e" DefinedType="IfcParameterValue" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>First u parametric value.</Documentation>
@@ -26,9 +22,7 @@
 				<DocPoint X="13924.2589721679" Y="1350.02001122656" />
 				<DocPoint X="14034.8916015625" Y="1350.02001122656" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="13924.2589721679" Y="1330.02001122656" Width="39" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="13924.2589721679" Y="1330.02001122656" Width="39" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="V1" UniqueId="f0aaaef2-f79e-42d5-85f8-c8494f5a575b" DefinedType="IfcParameterValue" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>First v parametric value.</Documentation>
@@ -37,9 +31,7 @@
 				<DocPoint X="13924.2589721679" Y="1566.07328271094" />
 				<DocPoint X="14034.8916015625" Y="1566.07328271094" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="13924.2589721679" Y="1546.07328271094" Width="37" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="13924.2589721679" Y="1546.07328271094" Width="37" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="U2" UniqueId="1f5188e3-40dc-4708-9067-d8ce2a75609e" DefinedType="IfcParameterValue" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Second u parametric value.</Documentation>
@@ -48,9 +40,7 @@
 				<DocPoint X="13924.2589721679" Y="1458.04664696875" />
 				<DocPoint X="14034.8916015625" Y="1458.04664696875" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="13924.2589721679" Y="1438.04664696875" Width="39" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="13924.2589721679" Y="1438.04664696875" Width="39" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="V2" UniqueId="fdec4f9a-ac75-4d58-8ca8-70266df5c502" DefinedType="IfcParameterValue" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Second v parametric value.</Documentation>
@@ -59,9 +49,7 @@
 				<DocPoint X="13924.2589721679" Y="1674.09991845312" />
 				<DocPoint X="14034.8916015625" Y="1674.09991845312" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="13924.2589721679" Y="1654.09991845312" Width="37" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="13924.2589721679" Y="1654.09991845312" Width="37" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Usense" UniqueId="84dd552c-ed43-4b01-ad77-9d47469c7b67" DefinedType="IfcBoolean" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Flag to indicate whether the direction of the first parameter of the trimmed surface agrees with or opposes the sense of u in the basis surface.</Documentation>
@@ -70,9 +58,7 @@
 				<DocPoint X="13924.2589721679" Y="1891.36873245239" />
 				<DocPoint X="14033.591796875" Y="1891.36873245239" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="13924.2589721679" Y="1871.36873245239" Width="91" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="13924.2589721679" Y="1871.36873245239" Width="91" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Vsense" UniqueId="3236b0bf-0d50-4b41-a891-8356e96558f8" DefinedType="IfcBoolean" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Flag to indicate whether the direction of the second parameter of the trimmed surface agrees with or opposes the sense of v in the basis surface.</Documentation>
@@ -81,9 +67,7 @@
 				<DocPoint X="13924.2589721679" Y="1783.1865234375" />
 				<DocPoint X="14033.591796875" Y="1783.1865234375" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="13924.2589721679" Y="1763.1865234375" Width="89" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="13924.2589721679" Y="1763.1865234375" Width="89" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

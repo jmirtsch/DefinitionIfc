@@ -5,9 +5,7 @@
 		<DocLocalization Name="Planar Extent" Locale="en" />
 		<DocLocalization Name="Extension planaire" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1948.4834" Y="1304.6333" Width="296.66667" Height="231.56667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1948.4834" Y="1304.6333" Width="296.66667" Height="231.56667" />
 	<Subtypes>
 		<DocSubtype UniqueId="56c6312e-c85f-465c-8c60-5bf000ab1009" DefinedType="IfcPlanarBox" />
 	</Subtypes>
@@ -18,9 +16,7 @@
 				<DocPoint X="2245.15" Y="1360.4166" />
 				<DocPoint X="2559.6334" Y="1360.4166" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2245.15" Y="1350.4166" Width="91" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2245.15" Y="1350.4166" Width="91" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="SizeInY" UniqueId="3408c0ce-a4db-4fbb-8425-e56b5aa384ea" DefinedType="IfcLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The extent in the direction of the y-axis.</Documentation>
@@ -28,9 +24,7 @@
 				<DocPoint X="2245.15" Y="1467.0833" />
 				<DocPoint X="2559.6334" Y="1467.0833" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2245.15" Y="1460.416633" Width="91" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2245.15" Y="1460.416633" Width="91" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

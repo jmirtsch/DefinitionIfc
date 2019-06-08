@@ -4,9 +4,7 @@
 		<DocLocalization Name="Elektrische Zeitsteuerung - Typ" Locale="de" />
 		<DocLocalization Name="Electric Time Control Type" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3278.6635" Y="934.96251" Width="679.8" Height="103.2" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3278.6635" Y="934.96251" Width="679.8" Height="103.2" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="6390956e-1cd2-4033-9c94-ea41642eeaa8" DefinedType="IfcElectricTimeControlTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>&lt;p&gt;Identifies the predefined types of electrical time control from which the type required may be set.&lt;/p&gt;</Documentation>
@@ -17,9 +15,7 @@
 				<DocPoint X="3284.5256199" Y="1097.145826" />
 				<DocPoint X="3714.3968299" Y="1097.145826" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3383.1089499" Y="1053.9747726" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3383.1089499" Y="1053.9747726" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

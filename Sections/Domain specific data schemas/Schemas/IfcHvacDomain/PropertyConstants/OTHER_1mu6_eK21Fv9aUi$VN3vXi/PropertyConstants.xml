@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<DocPropertyConstant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="OTHER_1mu6_eK21Fv9aUi$VN3vXi" Name="OTHER" UniqueId="70e06fa8-5020-4fe4-991e-b3f7d70f986c">
-	<Localization>
-		<DocLocalization Name="(other)" Locale="en">
-			<Documentation>Value is not listed.</Documentation>
-		</DocLocalization>
-	</Localization>
-</DocPropertyConstant>
-

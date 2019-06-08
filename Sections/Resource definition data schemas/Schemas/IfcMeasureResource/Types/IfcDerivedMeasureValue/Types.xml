@@ -4,9 +4,7 @@
 		<DocLocalization Name="Derived Measure Value" Locale="en" />
 		<DocLocalization Name="Sélection de mesure dérivée" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5215.6117" Y="51.505021" Width="361.9065" Height="53.099891" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="5215.6117" Y="51.505021" Width="361.9065" Height="53.099891" />
 	<Selects>
 		<DocSelectItem Name="IfcVolumetricFlowRateMeasure" UniqueId="7457187b-5d48-4c11-9999-f42dafc47bbd" />
 		<DocSelectItem Name="IfcThermalTransmittanceMeasure" UniqueId="1e89b714-29aa-4fac-8965-5ac10c4a5a6b" />

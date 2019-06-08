@@ -5,9 +5,7 @@
 		<DocLocalization Name="Physical Quantity" Locale="en" />
 		<DocLocalization Name="Quantité physique" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="22.0000203450521" Y="40.4999885559082" Width="351.333323160807" Height="323.83332824707" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="22.0000203450521" Y="40.4999885559082" Width="351.333323160807" Height="323.83332824707" />
 	<Subtypes>
 		<DocSubtype UniqueId="a86d6250-008f-4a4c-b4e2-cf5c873cb373" DefinedType="IfcPhysicalSimpleQuantity" />
 		<DocSubtype UniqueId="11a80a91-de9b-445a-8440-1fd0ac33e8ac" DefinedType="IfcPhysicalComplexQuantity" />
@@ -20,9 +18,7 @@
 				<DocPoint X="373.333343505859" Y="193.310668945313" />
 				<DocPoint X="801.333251953125" Y="193.310668945313" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="373.333343505859" Y="173.310668945313" Width="73" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="373.333343505859" Y="173.310668945313" Width="73" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Description" UniqueId="2d43b17c-5432-4535-8b22-c8c08aee6cbf" DefinedType="IfcText" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Further explanation that might be given to the quantity.</Documentation>
@@ -31,9 +27,7 @@
 				<DocPoint X="373.333343505859" Y="309.166653074544" />
 				<DocPoint X="796.66660563151" Y="309.166653074544" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="373.333343505859" Y="289.166653074544" Width="130" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="373.333343505859" Y="289.166653074544" Width="130" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="HasExternalReferences" UniqueId="27b2b843-28a6-42e2-bb25-b4fdcb625898" DefinedType="IfcExternalReferenceRelationship" AttributeFlags="32" AggregationType="3" AggregationFlag="0" Inverse="RelatedResourceObjects">
 			<Documentation>Reference to an external reference, e.g. library, classification, or document information, that is associated to the quantity.
@@ -43,9 +37,7 @@
 				<DocPoint X="373.333343505859" Y="131.466664632161" />
 				<DocPoint X="1034.06658935547" Y="131.466664632161" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="373.333343505859" Y="111.466664632161" Width="411" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="373.333343505859" Y="111.466664632161" Width="411" Height="70" />
 		</DocAttribute>
 		<DocAttribute Name="PartOfComplex" UniqueId="e3118983-d5ed-4e50-9a48-f842a13ce296" DefinedType="IfcPhysicalComplexQuantity" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="HasQuantities">
 			<Documentation>Reference to a physical complex quantity in which the physical quantity may be contained.</Documentation>
@@ -54,9 +46,7 @@
 				<DocPoint X="253.46667" Y="364.333316802979" />
 				<DocPoint X="253.46667" Y="619.33333" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="253.46667" Y="599.33333" Width="318" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="253.46667" Y="599.33333" Width="318" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

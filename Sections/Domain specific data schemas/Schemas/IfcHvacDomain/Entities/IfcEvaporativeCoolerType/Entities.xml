@@ -5,9 +5,7 @@
 		<DocLocalization Name="Evaporative Cooler Type" Locale="en" />
 		<DocLocalization Name="Type de refroidisseur évaporatif" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="69.878975" Y="1380.4137" Width="401.58983" Height="102.11007" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="69.878975" Y="1380.4137" Width="401.58983" Height="102.11007" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="0c69e1a9-5536-4c40-97e6-9df634ea2fb9" DefinedType="IfcEvaporativeCoolerTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines the type of evaporative cooler.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="471.4688" Y="1431.4687" />
 				<DocPoint X="681.61322" Y="1431.4687" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="471.4688" Y="1431.4687" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="471.4688" Y="1431.4687" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

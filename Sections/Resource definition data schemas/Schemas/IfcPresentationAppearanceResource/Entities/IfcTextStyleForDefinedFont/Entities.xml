@@ -4,9 +4,7 @@
 		<DocLocalization Name="Textstil für definierten Schriftensatz" Locale="de" />
 		<DocLocalization Name="Text Style For Defined Font" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5537.130859375" Y="378.804707845052" Width="378.666666666667" Height="182.66667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="5537.130859375" Y="378.804707845052" Width="378.666666666667" Height="182.66667" />
 	<Attributes>
 		<DocAttribute Name="Colour" UniqueId="a201eed1-7939-427c-994a-c80f97e60526" DefinedType="IfcColour" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>This property describes the text color of an element (often referred to as the foreground color).</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="5915.79752604167" Y="422.138000488281" />
 				<DocPoint X="6149.13102213542" Y="422.138000488281" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5915.79752604167" Y="402.138000488281" Width="80" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5915.79752604167" Y="402.138000488281" Width="80" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="BackgroundColour" UniqueId="dc717d7d-7060-4f0b-a16f-2d49b2dc6303" DefinedType="IfcColour" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>This property sets the background color of an element.</Documentation>
@@ -26,9 +22,7 @@
 				<DocPoint X="5915.79752604167" Y="510.138000488281" />
 				<DocPoint X="6154.3974609375" Y="510.138000488281" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5915.79752604167" Y="490.138000488281" Width="212" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5915.79752604167" Y="490.138000488281" Width="212" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLightDistributionCurveEnum" UniqueId="f7566be0-4aac-48b7-a9c6-0cbdd6f389d6" DiagramNumber="2">
 	<Localization>
-		<DocLocalization Name="Light Distribution Curve Enum" Locale="en" />
-		<DocLocalization Name="Enumération des courbes de distribution lumineuse" Locale="fr" />
+		<DocLocalization xsi:nil="true" href="i44133" />
+		<DocLocalization xsi:nil="true" href="i44134" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2344.59985351563" Y="1943.3815536499" Width="500.666666666667" Height="73.3333333333333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" xsi:nil="true" href="i44135" />
 	<Constants>
 		<DocConstant xsi:nil="true" href="TYPE_A_0D5mEgZMXBnwhce2Dl7v9O" />
 		<DocConstant xsi:nil="true" href="TYPE_B_1YTGN57aPDN9K3ztRhbBSo" />
 		<DocConstant xsi:nil="true" href="TYPE_C_1X7awzesv1beUwVveqkmfU" />
-		<DocConstant xsi:nil="true" href="NOTDEFINED_3c1wKrzqf8pxEJ$7x_pXI2" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_3c1wKrzqf8pxEJ7x_pXI2" />
 	</Constants>
 </DocEnumeration>
 

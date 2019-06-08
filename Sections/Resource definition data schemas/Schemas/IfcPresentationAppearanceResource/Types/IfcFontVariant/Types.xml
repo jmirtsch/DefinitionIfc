@@ -4,12 +4,8 @@
 		<DocLocalization Name="Font Variant" Locale="en" />
 		<DocLocalization Name="Police normale ou en petites majuscules" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="7204.6267" Y="1570.3" Width="304.93333" Height="65.966667" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="STRING_2egK8xXYD2jvXkITa8gpkQ" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="7204.6267" Y="1570.3" Width="304.93333" Height="65.966667" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="STRING_2egK8xXYD2jvXkITa8gpkQ" />
 	<WhereRules>
 		<DocWhereRule Name="WR1" UniqueId="6272385e-6d20-4d5a-81b5-8f98ce40a734">
 			<Expression>SELF IN [&apos;normal&apos;,&apos;small-caps&apos;]</Expression>

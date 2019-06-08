@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3omFfRAJv6tPETZzcWFj$4">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcTransformer" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcTransformer" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="0CR$wS_qz2QQD2L0XwHucg">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="4ff2e0d0-fd3b-4ee8-8142-ad3dbeba81e8" RuleParameters="RelatingType=IfcTransformerType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="0U1AQhlrv7sQj9BHAxXE0D">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="2ce121d1-e77e-4e91-9310-00d4350a7694" RuleParameters="PsetName=Pset_TransformerTypeCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="c3672c5e-dec6-4e0f-a3b1-6ff2d860774d">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="c11792c1-8762-4f06-9a92-dc0c44d61e39" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="97cc6eee-61a1-4652-a096-100a1b2154b7" RuleParameters="PropertyName=PrimaryVoltage;Value=IfcElectricVoltageMeasure;" Order="0" />
@@ -42,9 +34,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="50b6e3e8-35bf-45c5-813a-2ff477db32b0">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="3f74c27c-e7ad-4914-89e2-4e9b3dab1e37" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="e90f0991-fe1d-4fb3-8702-a630feb92369" RuleParameters="PropertyName=SecondaryCurrentType;Value=IfcLabel;" Order="0" />
@@ -56,17 +46,13 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="31zRHwe_5AEQxXQf4bJE10">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="3a25f1d0-6d57-4936-9198-0d05c5cbae34" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_TransformerBaseQuantities;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Material" UniqueId="3n69OnJ$H7$uahzKpFissP">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Constituent_Set_3PRtzzvq9Dk9jT6ADgRVY4" />
 			<Items>
 				<DocTemplateItem UniqueId="3c14c9e0-944f-48b0-a949-48ef580f86d7" RuleParameters="Name=Casing;" Order="0">
 					<Documentation>Material from which the casing is constructed.</Documentation>
@@ -74,9 +60,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Port" UniqueId="1U777$m4n9Mv8BlvzWfqwM">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Port_Nesting_2w9EtqE92s8JFNQ8EuKWA" />
 			<Items>
 				<DocTemplateItem UniqueId="8c755b4d-382a-4788-9962-ef6bf2c54190" RuleParameters="PortName=Line;SystemType=ELECTRICAL;Flow=SINK;" Order="0">
 					<Documentation>Line to be transformed.</Documentation>
@@ -87,8 +71,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="6bc25fcc-6664-4f86-bc22-b1868920c0ce" Type="IfcTransformer" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="e87088f0-48eb-4382-a29f-6e7f8b44d213" Type="IfcTransformer" />
 </DocConceptRoot>
 

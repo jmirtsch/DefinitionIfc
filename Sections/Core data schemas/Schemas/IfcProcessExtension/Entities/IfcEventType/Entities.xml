@@ -5,9 +5,7 @@
 		<DocLocalization Name="Event Type" Locale="en" />
 		<DocLocalization Name="Type d&apos;évènement" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1213.83337402344" Y="859.866678873698" Width="265.96667" Height="544.933329264323" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1213.83337402344" Y="859.866678873698" Width="265.96667" Height="544.933329264323" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="976cded4-c6b7-475a-a751-62ccf9a6c0cd" DefinedType="IfcEventTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of an event from which 
@@ -17,9 +15,7 @@
 				<DocPoint X="1213.83337402344" Y="912.727247450087" />
 				<DocPoint X="1000.69995450521" Y="912.727247450087" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1213.83337402344" Y="892.727247450087" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1213.83337402344" Y="892.727247450087" Width="182" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="EventTriggerType" UniqueId="92939a07-578d-4064-986a-57a451d29ca4" DefinedType="IfcEventTriggerTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of event trigger from which 
@@ -29,9 +25,7 @@
 				<DocPoint X="1213.83337402344" Y="1024.20658026801" />
 				<DocPoint X="1000.69995450521" Y="1024.20658026801" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1213.83337402344" Y="1004.20658026801" Width="203" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1213.83337402344" Y="1004.20658026801" Width="203" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="UserDefinedEventTriggerType" UniqueId="d36c4da1-e713-4327-8b73-c6657fdca770" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>A user defined event trigger type, the value of which 
@@ -42,9 +36,7 @@
 				<DocPoint X="1213.83337402344" Y="1247.16524590386" />
 				<DocPoint X="1000.69995450521" Y="1247.16524590386" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1213.83337402344" Y="1227.16524590386" Width="341" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1213.83337402344" Y="1227.16524590386" Width="341" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

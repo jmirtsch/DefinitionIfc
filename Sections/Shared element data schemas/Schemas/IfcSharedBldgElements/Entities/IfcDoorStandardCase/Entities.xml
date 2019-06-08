@@ -5,8 +5,6 @@
 		<DocLocalization Name="Door Standard Case" Locale="en" />
 		<DocLocalization Name="porte standard" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4829.5166015625" Y="927.100036621094" Width="403.26667" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4829.5166015625" Y="927.100036621094" Width="403.26667" Height="100" />
 </DocEntity>
 

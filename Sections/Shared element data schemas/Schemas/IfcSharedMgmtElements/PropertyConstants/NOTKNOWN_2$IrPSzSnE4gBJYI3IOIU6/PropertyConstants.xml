@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<DocPropertyConstant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="NOTKNOWN_2$IrPSzSnE4gBJYI3IOIU6" Name="NOTKNOWN" UniqueId="bf4b565c-f5cc-4e12-a2d3-8920d2612786">
-	<Localization>
-		<DocLocalization Name="(unknown)" Locale="en">
-			<Documentation>Value is unknown.</Documentation>
-		</DocLocalization>
-	</Localization>
-</DocPropertyConstant>
-

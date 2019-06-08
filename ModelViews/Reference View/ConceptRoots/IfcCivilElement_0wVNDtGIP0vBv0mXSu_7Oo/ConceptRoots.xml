@@ -1,30 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3a7d7377-4126-40e4-be40-c21738f87632">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcCivilElement" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcCivilElement" />
 	<Concepts>
 		<DocTemplateUsage Name="Property Sets for Objects" UniqueId="aedbb7b9-74e1-4690-a263-d6ca54711f12">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Quantity Sets" UniqueId="24729fdd-ca13-4bea-b828-ca10bd79cc37">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="647f008d-9004-4557-89e3-964f217eaaf3">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="a6468dcd-bbaf-4cea-834c-c45e1d2047e5" RuleParameters="RelatingType=IfcCivilElementType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="33e14462-4965-4369-a674-db2324f12690" Type="IfcCivilElement" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="1f1fd86f-0579-4cd8-aa7c-45a3e144c6a4" Type="IfcCivilElement" />
 </DocConceptRoot>
 

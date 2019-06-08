@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="38_9N71Tf0n9vLOydsodfw">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcGrid" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcGrid" />
 	<Concepts>
 		<DocTemplateUsage Name="Placement" UniqueId="0szo8QoCX4rP2L$9QDCd9j">
 			<Documentation>&lt;p&gt;
@@ -23,9 +21,7 @@
       placement is defined within the world coordinate system.
       &lt;/li&gt;
     &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Footprint Geometry" UniqueId="0N565O$6v6x8yXn$04Pown">
 			<Documentation>&lt;p&gt;
@@ -133,16 +129,12 @@
         &lt;/tr&gt;
       &lt;/tbody&gt;
     &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="FootPrint Geometry_1FLtVNQEb5dAeiHgtpw8qn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="FootPrint_Geometry_1FLtVNQEb5dAeiHgtpw8qn" />
 			<Items>
 				<DocTemplateItem UniqueId="baa35c9c-79db-4f5e-9e9f-a7013930d1d9" RuleParameters="RepresentationType=GeometricCurveSet;Geometry=IfcGeometricCurveSet;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="5b50dde2-b55a-482a-8543-ab9007122b23" Type="IfcGrid" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="bfc35e45-95d6-43b3-8c1c-b9a76f2b54e1" Type="IfcGrid" />
 </DocConceptRoot>
 

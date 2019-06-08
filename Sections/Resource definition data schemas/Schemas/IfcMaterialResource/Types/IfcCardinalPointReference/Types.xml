@@ -5,12 +5,8 @@
 		<DocLocalization Name="Cardinal Point Reference" Locale="en" />
 		<DocLocalization Name="Référence à l&apos;index d&apos;un point significatif d&apos;un profil" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3999.1153" Y="96.561263" Width="405.70294" Height="75.729084" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="INTEGER_0jnic$SK17aO1reZUmo12s" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="3999.1153" Y="96.561263" Width="405.70294" Height="75.729084" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="INTEGER_0jnicSK17aO1reZUmo12s" />
 	<WhereRules>
 		<DocWhereRule Name="GreaterThanZero" UniqueId="2a7bfe9e-da7c-4b69-b54a-b537a02cb6ae">
 			<Documentation>Cardinal point reference shall be greater than zero.</Documentation>

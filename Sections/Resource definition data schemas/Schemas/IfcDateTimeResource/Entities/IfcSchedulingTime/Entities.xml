@@ -4,9 +4,7 @@
 		<DocLocalization Name="Festgelegte Zeit" Locale="de" />
 		<DocLocalization Name="Scheduling Time" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1619.70145670573" Y="16.1574694315592" Width="429.85816" Height="221.687652587891" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1619.70145670573" Y="16.1574694315592" Width="429.85816" Height="221.687652587891" />
 	<Subtypes>
 		<DocSubtype UniqueId="55e767bc-024e-41b0-8023-bc93c8ae1295" DefinedType="IfcLagTime" />
 		<DocSubtype UniqueId="7d353c45-a99c-48a5-b3d9-50792641252e" DefinedType="IfcTaskTime" />
@@ -22,9 +20,7 @@
 				<DocPoint X="2049.55961670573" Y="67.017884572347" />
 				<DocPoint X="2421.07397460938" Y="67.017884572347" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2049.55961670573" Y="47.017884572347" Width="73" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2049.55961670573" Y="47.017884572347" Width="73" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="DataOrigin" UniqueId="a82843cd-7cb9-4fac-b255-c3bf8dfcfcc1" DefinedType="IfcDataOriginEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Specifies the origin of the scheduling time entity. It currently
@@ -34,9 +30,7 @@
 				<DocPoint X="2049.55961670573" Y="142.357340494792" />
 				<DocPoint X="2421.05102539063" Y="142.357340494792" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2049.55961670573" Y="122.357340494792" Width="125" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2049.55961670573" Y="122.357340494792" Width="125" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="UserDefinedDataOrigin" UniqueId="9619b2c7-3037-4380-8c25-83f4ded0ab84" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Value of the data origin if DataOrigin attribute is USERDEFINED.</Documentation>
@@ -45,9 +39,7 @@
 				<DocPoint X="2049.55961670573" Y="209.01503499349" />
 				<DocPoint X="2421.115234375" Y="209.01503499349" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2049.55961670573" Y="189.01503499349" Width="263" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2049.55961670573" Y="189.01503499349" Width="263" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

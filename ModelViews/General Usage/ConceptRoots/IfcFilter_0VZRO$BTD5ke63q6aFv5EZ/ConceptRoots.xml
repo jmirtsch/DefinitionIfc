@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0VZRO$BTD5ke63q6aFv5EZ">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcFilter" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcFilter" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="3Fm4BFg4n16fB70UpTRnTH">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="007067fc-ce8b-492b-b4d0-0a0150e4889f" RuleParameters="RelatingType=IfcFilterType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="3bzj8z7Rn5dAbJ9NfKhFQh">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="3747b8b3-b333-40a1-88ff-dd3ff9e29148" RuleParameters="PsetName=Pset_FilterTypeCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="55ae50e6-8682-430b-a90e-aa1bec8febc5">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="f474b7dc-4d72-4b60-bbc6-5e1f2d4f5433" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="a45e0a2b-3b03-46f4-ac78-3d456903ba10" RuleParameters="PropertyName=Weight;Value=IfcMassMeasure;" Order="0" />
@@ -37,17 +29,13 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="15bdfc1b-2c6c-4e67-af6d-698858bdc80c">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="1857cf49-e237-4705-8a62-fc34f6c23aeb" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="1552ef3b-9bc8-4110-ad0a-550a1abfc4ca">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Bounded_Value_0zPwBITXr4sQ2Ujkn_bOo" />
 							<Items>
 								<DocTemplateItem UniqueId="fa0b8e5b-050d-4182-b753-15d65aef568a" RuleParameters="PropertyName=OperationTemperatureRange;SetValue=IfcThermodynamicTemperatureMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="14d2c584-08ab-4533-8fbb-0ba9592a5eb2" RuleParameters="PropertyName=FlowRateRange;SetValue=IfcVolumetricFlowRateMeasure;" Order="0" />
@@ -58,17 +46,13 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="188OX9hrf5HRHSvxd_9yDP">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="f5feb462-4614-48b3-93ba-f6b7c061e7f2" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_FilterBaseQuantities;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Material" UniqueId="0FlVJ5c8514gamXfd2rm5s">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Constituent_Set_3PRtzzvq9Dk9jT6ADgRVY4" />
 			<Items>
 				<DocTemplateItem UniqueId="b196952a-8ffa-4fae-ba89-9dff2fbc7c81" RuleParameters="Name=Casing;" Order="0">
 					<Documentation>Material from which the casing is constructed.</Documentation>
@@ -79,9 +63,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Port" UniqueId="12kWLifBb3jfBqRiGgfiZv">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Port_Nesting_2w9EtqE92s8JFNQ8EuKWA" />
 			<Items>
 				<DocTemplateItem UniqueId="6d6fe2be-5a78-4598-9a49-2ff5492f4f59" RuleParameters="PredefinedType=AIRPARTICLEFILTER;PortName=Inlet;SystemType=AIRCONDITIONING;Flow=SINK;" Order="0">
 					<Documentation>Incoming fluid.</Documentation>
@@ -122,8 +104,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="4d0a13ef-3ce1-4e29-b421-161ea65fc300" Type="IfcFilter" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="0061b57f-7c93-4609-9ea2-a583a28936f3" Type="IfcFilter" />
 </DocConceptRoot>
 

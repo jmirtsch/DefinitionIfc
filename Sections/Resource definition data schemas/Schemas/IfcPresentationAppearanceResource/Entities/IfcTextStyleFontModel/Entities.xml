@@ -5,9 +5,7 @@
 		<DocLocalization Name="Text Style Font Model" Locale="en" />
 		<DocLocalization Name="Modèle de police de style de texte" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6470.2867" Y="1403.0333" Width="323.26667" Height="428" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="6470.2867" Y="1403.0333" Width="323.26667" Height="428" />
 	<Attributes>
 		<DocAttribute Name="FontFamily" UniqueId="49edc9c1-a620-4fe5-bf00-03775f79342f" DefinedType="IfcTextFontName" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0" XsdFormat="element">
 			<Documentation>The value is a prioritized list of font family names and/or generic family names. The first list entry has the highest priority, if this font fails, the next list item shall be used. The last list item should (if possible) be a generic family.
@@ -17,9 +15,7 @@
 				<DocPoint X="6793.5534" Y="1437.0522" />
 				<DocPoint X="7204.6334" Y="1437.0522" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="6766.886733" Y="1421.0522" Width="205" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="6766.886733" Y="1421.0522" Width="205" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="FontStyle" UniqueId="be8c8ef7-984b-4dc6-ac1d-7734785491d7" DefinedType="IfcFontStyle" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The font style property selects between normal (sometimes referred to as &quot;roman&quot; or &quot;upright&quot;), italic and oblique faces within a font family.&lt;br&gt;</Documentation>
@@ -27,9 +23,7 @@
 				<DocPoint X="6793.5534" Y="1516.9371" />
 				<DocPoint X="7204.62667" Y="1516.9371" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="6718.220067" Y="1506.270434" Width="111" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="6718.220067" Y="1506.270434" Width="111" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="FontVariant" UniqueId="d9d340f1-ae0d-4a40-804f-85dea2f4c6f7" DefinedType="IfcFontVariant" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The font variant property selects between normal and small-caps.
@@ -38,9 +32,7 @@
 				<DocPoint X="6793.5534" Y="1604.9096" />
 				<DocPoint X="7204.62667" Y="1604.9096" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="6726.886733" Y="1592.9096" Width="135" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="6726.886733" Y="1592.9096" Width="135" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="FontWeight" UniqueId="1589c244-68d5-4db6-b286-d166f93c9d25" DefinedType="IfcFontWeight" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The font weight property selects the weight of the font.
@@ -49,9 +41,7 @@
 				<DocPoint X="6793.5534" Y="1691.2326" />
 				<DocPoint X="7204.69333" Y="1691.2326" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="6726.886733" Y="1683.2326003" Width="134" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="6726.886733" Y="1683.2326003" Width="134" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="FontSize" UniqueId="ef2ef376-ffb2-443f-8885-ee01737be7a9" DefinedType="IfcSizeSelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The font size provides the size or height of the text font.
@@ -60,9 +50,7 @@
 				<DocPoint X="6793.5534" Y="1793.0333" />
 				<DocPoint X="7533.65333" Y="1793.0333" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="6777.5534" Y="1782.366633" Width="104" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="6777.5534" Y="1782.366633" Width="104" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

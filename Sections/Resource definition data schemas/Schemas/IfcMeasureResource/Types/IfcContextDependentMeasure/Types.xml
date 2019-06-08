@@ -5,12 +5,8 @@
 		<DocLocalization Name="Context Dependent Measure" Locale="en" />
 		<DocLocalization Name="Mesure dépendant du contexte" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3552.3671" Y="794.39686" Width="441.3918" Height="66" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_1$3EgHjsj4Nvl0yU8WRAnA" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="3552.3671" Y="794.39686" Width="441.3918" Height="66" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_13EgHjsj4Nvl0yU8WRAnA" />
 	<DiagramLine>
 		<DocPoint X="3552.3671" Y="827.39686" />
 		<DocPoint X="3420.96914" Y="827.39686" />

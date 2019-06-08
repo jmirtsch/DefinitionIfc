@@ -5,9 +5,7 @@
 		<DocLocalization Name="Slab" Locale="en" />
 		<DocLocalization Name="Dalle" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="484.71656" Y="2046.9" Width="249.9" Height="214.66667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="484.71656" Y="2046.9" Width="249.9" Height="214.66667" />
 	<Subtypes>
 		<DocSubtype UniqueId="0524d9fa-38b9-4116-beb3-29bf18a8f541" DefinedType="IfcSlabStandardCase" />
 		<DocSubtype UniqueId="27225375-f497-4c90-a318-b910905ba064" DefinedType="IfcSlabElementedCase" />
@@ -22,9 +20,7 @@
 				<DocPoint X="77.23319" Y="2217.6555" />
 				<DocPoint X="77.23319" Y="2121.6667" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="482.0498933" Y="2206.988833" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="482.0498933" Y="2206.988833" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

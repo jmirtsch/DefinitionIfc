@@ -5,9 +5,7 @@
 		<DocLocalization Name="Value" Locale="en" />
 		<DocLocalization Name="Valeur" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3247.0452" Y="239.48591" Width="163.30119" Height="98.941976" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3247.0452" Y="239.48591" Width="163.30119" Height="98.941976" />
 	<Selects>
 		<DocSelectItem Name="IfcMeasureValue" UniqueId="65ba87e5-8b0c-4529-8ae8-1f95b0906145" />
 		<DocSelectItem Name="IfcSimpleValue" UniqueId="101ddcee-5cca-49bb-b3bf-b82a15c544e7" />

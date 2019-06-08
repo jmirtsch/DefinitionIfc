@@ -6,9 +6,7 @@
 		</DocLocalization>
 		<DocLocalization Name="Structural Surface Member" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3501.4471" Y="1640.673" Width="331.06777" Height="202.71027" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3501.4471" Y="1640.673" Width="331.06777" Height="202.71027" />
 	<Subtypes>
 		<DocSubtype UniqueId="34c19330-5991-4341-9505-88007a14f65f" DefinedType="IfcStructuralSurfaceMemberVarying" />
 	</Subtypes>
@@ -19,9 +17,7 @@
 				<DocPoint X="3832.5149" Y="1668.156" />
 				<DocPoint X="4067.62814" Y="1668.156" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3835.5915667" Y="1665.0936589" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3835.5915667" Y="1665.0936589" Width="182" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Thickness" UniqueId="dc70652b-1bc6-4bef-8a4f-70049ac774f9" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines the typically understood thickness of the structural surface member, measured normal to its reference surface.</Documentation>
@@ -29,9 +25,7 @@
 				<DocPoint X="3832.5149" Y="1790.5562" />
 				<DocPoint X="4067.78495" Y="1790.5562" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3819.709132" Y="1782.5562" Width="117" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3819.709132" Y="1782.5562" Width="117" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

@@ -4,8 +4,6 @@
 		<DocLocalization Name="Platte / Scheibe mit veränderlicher Dicke" Locale="de" />
 		<DocLocalization Name="Structural Surface Member Varying" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3501.4886" Y="1949.38" Width="330.98813" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3501.4886" Y="1949.38" Width="330.98813" Height="100" />
 </DocEntity>
 

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Spatial Zone Type" Locale="en" />
 		<DocLocalization Name="Type de zone spatiale" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="7173.1813" Y="2123.4667" Width="237.26667" Height="146.5" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="7173.1813" Y="2123.4667" Width="237.26667" Height="146.5" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="cffcc7b0-79a5-415e-b0c0-9b23b88d859d" DefinedType="IfcSpatialZoneTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined types to define the particular type of the spatial zone. There may be property set definitions available for each predefined type.</Documentation>
@@ -17,9 +15,7 @@
 				<DocPoint X="7968.17867" Y="1186.77607" />
 				<DocPoint X="7894.670861" Y="1186.77607" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="7528.29275" Y="2128.704704" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="7528.29275" Y="2128.704704" Width="182" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="LongName" UniqueId="aeddd5e6-ec3d-4e96-adba-d747e9609667" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Long name for a spatial zone type, used for informal purposes. It should be used, if available, in conjunction with the inherited &lt;em&gt;Name&lt;/em&gt; attribute.
@@ -30,9 +26,7 @@
 				<DocPoint X="7410.448" Y="2231.3834" />
 				<DocPoint X="7637.91467" Y="2231.3834" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="7394.448" Y="2223.3834" Width="129" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="7394.448" Y="2223.3834" Width="129" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

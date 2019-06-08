@@ -5,9 +5,7 @@
 		<DocLocalization Name="Fastener" Locale="en" />
 		<DocLocalization Name="Elément d&apos;assemblage" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="150.39776" Y="707.45555" Width="438.36886" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="150.39776" Y="707.45555" Width="438.36886" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="662a3ac7-815a-445d-a564-413f149a45af" DefinedType="IfcFastenerTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Subtype of fastener</Documentation>
@@ -17,9 +15,7 @@
 				<DocPoint X="1426.79938" Y="1982.62255" />
 				<DocPoint X="1310.20921" Y="1982.62255" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="720.97491" Y="751.2203515" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="720.97491" Y="751.2203515" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Rel Assigns To Product" Locale="en" />
 		<DocLocalization Name="Assignation à produit" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="12287.985" Y="354.04582" Width="454.16667" Height="133.23333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="12287.985" Y="354.04582" Width="454.16667" Height="133.23333" />
 	<Attributes>
 		<DocAttribute Name="RelatingProduct" UniqueId="2daaadb6-2a0e-43bc-8f2b-5cdcdce021dd" DefinedType="IfcProductSelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Reference to the product or product type to which the objects are assigned to.
@@ -17,9 +15,7 @@
 				<DocPoint X="12366.313" Y="1241.89333" />
 				<DocPoint X="11505.974" Y="1241.89333" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="12267.646333" Y="540.58624" Width="183" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="12267.646333" Y="540.58624" Width="183" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

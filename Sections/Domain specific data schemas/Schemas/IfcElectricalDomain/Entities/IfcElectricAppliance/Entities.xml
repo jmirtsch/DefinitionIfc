@@ -5,9 +5,7 @@
 		<DocLocalization Name="Electric Appliance" Locale="en" />
 		<DocLocalization Name="Appareil électrique" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="841.76" Y="918.18667" Width="679.93333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="841.76" Y="918.18667" Width="679.93333" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="12b13a9b-6483-49b8-8001-d733277e783e" DefinedType="IfcElectricApplianceTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
@@ -15,9 +13,7 @@
 				<DocPoint X="1515.06" Y="1075.264585" />
 				<DocPoint X="1094.08354" Y="1075.264585" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1419.238435" Y="1012.8533667" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1419.238435" Y="1012.8533667" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

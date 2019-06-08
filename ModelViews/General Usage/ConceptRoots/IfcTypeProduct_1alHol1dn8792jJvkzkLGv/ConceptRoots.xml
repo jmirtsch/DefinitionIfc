@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="64bd1caf-067c-481c-90ad-4f9bbdb95439">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcTypeProduct" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcTypeProduct" />
 	<Concepts>
 		<DocTemplateUsage Name="Product Type Shape" UniqueId="19f4b644-fc54-492a-8623-a9a6d1e4a51b">
 			<Documentation>&lt;p&gt;The &lt;em&gt;RepresentationMaps&lt;/em&gt; define the type product shape and multiple geometric representations can be assigned. If a product occurrence is assigned to the type by using the &lt;em&gt;IfcRelDefinesByType&lt;/em&gt; relationship, then these occurrences have to reference the representation maps. The reference is created by one or multiple &lt;em&gt;IfcShapeRepresentation&lt;/em&gt;&apos;s having an &lt;em&gt;IfcMappedItem&lt;/em&gt; as &lt;em&gt;Items&lt;/em&gt;, that places the &lt;em&gt;IfcRepresentationMap&lt;/em&gt; of the type product into the spatial contexts, i.e. by using an Cartesian transformation operator to transform the &lt;em&gt;IfcRepresentationMap&lt;/em&gt; into the object coordinate system of the product occurrence.&lt;/p&gt;
@@ -21,13 +19,9 @@ multiple placement.&lt;/p&gt;
 &lt;tr&gt;&lt;td valign=&quot;top&quot;&gt;&lt;img src=&quot;../../../figures/ifctypeproduct_representationmap-2.png&quot; alt=&quot;representation map&quot; border=&quot;0&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 134 &amp;mdash; Product type geometry with multiple placement&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Type Shape_20_8li13PFSAGgm4S5PMg1" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Type_Shape_20_8li13PFSAGgm4S5PMg1" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="8bb53330-7fcc-4e11-bec8-d810012eff48" Type="IfcTypeProduct" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="a2851496-1ead-4b17-a397-aae38af4ae06" Type="IfcTypeProduct" />
 </DocConceptRoot>
 

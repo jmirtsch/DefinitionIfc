@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2utic8QqnCvOoKOUp0e6u3">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcVoidingFeature" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcVoidingFeature" />
 	<Concepts>
 		<DocTemplateUsage Name="Property Sets for Objects" UniqueId="1EXy6c2br9yhO3NTcdcy6_">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Product Local Placement" UniqueId="29duHE$1LD3OHyttMxDk8z">
 			<Documentation>&lt;p&gt;The local placement for &lt;em&gt;IfcVoidingFeatureElement&lt;/em&gt; is defined in its supertype &lt;em&gt;IfcProduct&lt;/em&gt;. It is defined by the &lt;em&gt;IfcLocalPlacement&lt;/em&gt;, which defines the local coordinate system that is referenced by all geometric representations.&lt;/p&gt;
@@ -15,14 +11,10 @@
   &lt;li&gt;In case of features which are part of an element type, absolute placement into the type object&apos;s implied coordinate system shall be used.&lt;/li&gt;
   &lt;li&gt;In case of features which are voiding an element occurrence, the &lt;em&gt;PlacementRelTo&lt;/em&gt; relationship of &lt;em&gt;IfcLocalPlacement&lt;/em&gt; shall point to the local placement of the respective element.&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="2t8R1BiDb7Qhqgbdvh3Gxv">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Geometry_34HhqMBUDBbxDFH4Qi2wt2" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Geometry_34HhqMBUDBbxDFH4Qi2wt2" />
 			<Items>
 				<DocTemplateItem UniqueId="04d240ea-b741-47bb-9694-c011ca03d946" RuleParameters="RepresentationType=CSG;Geometry=IfcCsgSolid;" Order="0">
 					<Documentation>Volumetric representations may be used to semi-parametrically model the actual volume of the void created by the feature.  Attributes in the shape model directly correspond with feature parameters, for example diameter of circular holes or length and width of cutouts.  The objects within the shape model of the feature&apos;s shape representation can be included into a CSG model within a representation map of the parent element type.</Documentation>
@@ -33,8 +25,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="682367eb-0b97-4a61-bdd0-effb3842330c" Type="IfcVoidingFeature" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="66fff1bd-8c4f-4f60-9d6d-424f6e592604" Type="IfcVoidingFeature" />
 </DocConceptRoot>
 

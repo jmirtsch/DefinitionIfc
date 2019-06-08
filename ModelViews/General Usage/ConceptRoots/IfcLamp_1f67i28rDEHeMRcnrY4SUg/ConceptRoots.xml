@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1f67i28rDEHeMRcnrY4SUg">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcLamp" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcLamp" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="21w7P4VFH9bwFevKpfe1f1">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="f3437218-514b-49d1-8bda-072022a78790" RuleParameters="RelatingType=IfcLampType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="02FIx5vQD6XOiKaKVUCFks">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="3b483d40-ec7c-439b-bba8-24822739263c" RuleParameters="PsetName=Pset_LampTypeCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="4bf41c4b-f5c3-405b-83ce-d7c7a92af8c3">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="83b16fe2-32c8-43d1-8fb1-dd2c15e2651c" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="10e75c15-7628-45a6-a4ec-e12d3ddc8315" RuleParameters="PropertyName=ContributedLuminousFlux;Value=IfcLuminousFluxMeasure;" Order="0" />
@@ -34,9 +26,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="8fd306fe-554d-461a-91e3-58384b8fbeb9">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="c74c3ff7-b855-402d-b7e0-898f741c32a1" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="6442d63e-5a13-46bb-a66d-5100b3124520" RuleParameters="PropertyName=LampBallastType;Value=IfcLabel;" Order="0" />
@@ -48,17 +38,13 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="2tjqCVivv4fhoTatjTNlnQ">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="0d39713e-eb62-4d9b-9404-664e97380919" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_LampBaseQuantities;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Material" UniqueId="3B6FBLHq51qejr27b4Rv4q">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Constituent_Set_3PRtzzvq9Dk9jT6ADgRVY4" />
 			<Items>
 				<DocTemplateItem UniqueId="c3598243-ee74-466e-8743-b5a877f9b316" RuleParameters="Name=Bulb;" Order="0">
 					<Documentation>Material from which the bulb is constructed such as glass.</Documentation>
@@ -72,9 +58,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Port" UniqueId="1pydmEveLC2RMtpiyUtW6d">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Port_Nesting_2w9EtqE92s8JFNQ8EuKWA" />
 			<Items>
 				<DocTemplateItem UniqueId="fff65547-8060-4ef1-b926-af8c5f29b678" RuleParameters="PortName=Socket;SystemType=LIGHTING;Flow=SINK;" Order="0">
 					<Documentation>The socket providing electricity to the lamp.</Documentation>
@@ -82,8 +66,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="c6e3caf8-ed65-4a8c-bec4-f3f9bb6e1a25" Type="IfcLamp" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="03fb1b25-0633-4a83-9d89-8ddf9b03933c" Type="IfcLamp" />
 </DocConceptRoot>
 

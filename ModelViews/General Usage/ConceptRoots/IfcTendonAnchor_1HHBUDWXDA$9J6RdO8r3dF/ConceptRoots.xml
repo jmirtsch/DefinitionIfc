@@ -1,47 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1HHBUDWXDA$9J6RdO8r3dF">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcTendonAnchor" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcTendonAnchor" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="0tWD1X6NjFdRZQaFfuhxxr">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="d1ce5fe9-4d55-4122-a53b-a31a6120ffd6" RuleParameters="RelatingType=IfcTendonAnchorType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Property Sets" UniqueId="1oO5voX7bEbBdU5tANHjvM">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Quantity Sets" UniqueId="0pIpRL3GX0fgz7Hd6ZLPTr">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="67fb1e5f-a2be-4ec9-b036-e0f5dd9ec248" RuleParameters="QsetName=Qto_ReinforcingElementBaseQuantities;TemplateType=QTO_TYPEDRIVENOVERRIDE;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Placement" UniqueId="ce8cfd65-7c6e-46f3-9dd7-2bb242183c9c">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Geometry" UniqueId="60ed48e7-ae53-4af1-bae1-77bd85b76a8b">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Geometry_34HhqMBUDBbxDFH4Qi2wt2" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Geometry_34HhqMBUDBbxDFH4Qi2wt2" />
 			<Items>
 				<DocTemplateItem UniqueId="a08cdbad-b7fd-49d0-b3c7-9f0a9eb04737" RuleParameters="RepresentationType=SweptSolid;Geometry=IfcSweptDiskSolid;" Order="0" />
 				<DocTemplateItem UniqueId="97f4bdab-a0c8-4c7e-9a91-87405bae11fe" RuleParameters="RepresentationType=MappedRepresentation;Geometry=IfcMappedItem;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="ce00159f-d25d-48b6-a336-2a5d2e069c8e" Type="IfcTendonAnchor" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="2f09b069-c6d9-4e56-9207-4a13522d36b8" Type="IfcTendonAnchor" />
 </DocConceptRoot>
 

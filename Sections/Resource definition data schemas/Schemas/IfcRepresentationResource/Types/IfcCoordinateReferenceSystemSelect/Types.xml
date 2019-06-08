@@ -5,9 +5,7 @@
 		<DocLocalization Name="Coordinate Reference System Select" Locale="en" />
 		<DocLocalization Name="Sélection du système de coordonnées de référence" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5199.2343" Y="1044.6497" Width="356.91578" Height="122.26571" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="5199.2343" Y="1044.6497" Width="356.91578" Height="122.26571" />
 	<Selects>
 		<DocSelectItem Name="IfcCoordinateReferenceSystem" UniqueId="b4f09ad4-af59-46fe-aa54-b124918e18cc" />
 		<DocSelectItem Name="IfcGeometricRepresentationContext" UniqueId="d3e97936-48d0-4ff8-836f-e6649520ba96" />

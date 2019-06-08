@@ -5,9 +5,7 @@
 		<DocLocalization Name="Property Set" Locale="en" />
 		<DocLocalization Name="Ensemble de propriétés" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1687.5147" Y="1677.1174" Width="265" Height="133.3" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1687.5147" Y="1677.1174" Width="265" Height="133.3" />
 	<Attributes>
 		<DocAttribute Name="HasProperties" UniqueId="b3ed731c-b093-44bc-80d6-6fbd6cb54326" DefinedType="IfcProperty" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
 			<Documentation>Contained set of properties. For property sets defined as part of the IFC Object model, the property objects within a property set are defined as part of the standard. If a property is not contained within the set of predefined properties, its value has not been set at this time.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="1885.98023921875" Y="1810.4174" />
 				<DocPoint X="1885.98023921875" Y="1979.2509358724" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1885.98023921875" Y="1959.2509358724" Width="242" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1885.98023921875" Y="1959.2509358724" Width="242" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

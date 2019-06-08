@@ -4,12 +4,8 @@
 		<DocLocalization Name="Text Alignment" Locale="en" />
 		<DocLocalization Name="Alignement de texte" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5693.8376" Y="1122.14360676953" Width="304.96667" Height="63" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="STRING_20PySKvCjANB$imNs5WD_Z" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5693.8376" Y="1122.14360676953" Width="304.96667" Height="63" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="STRING_20PySKvCjANBimNs5WD_Z" />
 	<WhereRules>
 		<DocWhereRule Name="WR1" UniqueId="d8f658c7-2d57-4976-b3f7-29f57530c578">
 			<Documentation>Allowable values for text alignment.</Documentation>

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Pre Defined Colour" Locale="en" />
 		<DocLocalization Name="Couleur pré-définie" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6550.70003255208" Y="2728.83333333333" Width="223.33333" Height="123.33333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="6550.70003255208" Y="2728.83333333333" Width="223.33333" Height="123.33333" />
 	<Subtypes>
 		<DocSubtype UniqueId="e452cda5-d528-4a8e-ac69-4f906dc878c6" DefinedType="IfcDraughtingPreDefinedColour" />
 	</Subtypes>

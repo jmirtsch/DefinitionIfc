@@ -4,9 +4,7 @@
 		<DocLocalization Name="Resource Select" Locale="en" />
 		<DocLocalization Name="Sélection entre ressource et type de ressource" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="14668.2" Y="1179.6733" Width="215.33333" Height="124.3" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="14668.2" Y="1179.6733" Width="215.33333" Height="124.3" />
 	<Selects>
 		<DocSelectItem Name="IfcResource" UniqueId="61a1d05f-bff7-41fb-adda-7e675d506e8c" />
 		<DocSelectItem Name="IfcTypeResource" UniqueId="4c32423d-3096-4c98-9e6f-0de652717dd2" />

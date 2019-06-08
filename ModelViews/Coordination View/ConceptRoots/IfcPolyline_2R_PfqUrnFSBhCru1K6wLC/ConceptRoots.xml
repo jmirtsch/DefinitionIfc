@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="9bf99a74-7b5c-4f70-bacc-d780541ba54c">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcPolyline" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="459113d7-f083-4a53-bb45-10b3474a33c9" Type="IfcPolyline" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcPolyline" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="e3d790a9-13a6-4064-91cb-4327b085e33f" Type="IfcPolyline" />
 </DocConceptRoot>
 

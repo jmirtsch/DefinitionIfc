@@ -5,9 +5,7 @@
 		<DocLocalization Name="Path" Locale="en" />
 		<DocLocalization Name="Chemin" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="787.925003051758" Y="1228.50016276042" Width="200" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="787.925003051758" Y="1228.50016276042" Width="200" Height="100" />
 	<Attributes>
 		<DocAttribute Name="EdgeList" UniqueId="a4fe7cfe-c5f5-4183-813f-88d75bd7cf83" DefinedType="IfcOrientedEdge" AttributeFlags="0" AggregationType="1" AggregationFlag="2" AggregationLower="1" AggregationUpper="0">
 			<Documentation>The list of oriented edges which are concatenated together to form this path.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="860.858388264974" Y="1228.50016276042" />
 				<DocPoint X="860.858388264974" Y="941.833506266276" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="860.858388264974" Y="921.833506266276" Width="190" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="860.858388264974" Y="921.833506266276" Width="190" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

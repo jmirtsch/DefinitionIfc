@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="23581d73-2f09-48e7-bf88-b762cf95b684">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcRoundedRectangleProfileDef" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="4de35f6f-77f3-43d3-acf2-e0b202282996" Type="IfcRoundedRectangleProfileDef" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcRoundedRectangleProfileDef" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="6b9d9bd8-706b-4d92-9877-98096902b80e" Type="IfcRoundedRectangleProfileDef" />
 </DocConceptRoot>
 

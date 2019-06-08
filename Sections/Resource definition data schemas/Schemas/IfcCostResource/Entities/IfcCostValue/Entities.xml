@@ -5,8 +5,6 @@
 		<DocLocalization Name="Cost Value" Locale="en" />
 		<DocLocalization Name="Valeur de coût" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="47.385" Y="1874.0167" Width="377.10001" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="47.385" Y="1874.0167" Width="377.10001" Height="100" />
 </DocEntity>
 

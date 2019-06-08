@@ -4,9 +4,7 @@
 		<DocLocalization Name="Material Select" Locale="en" />
 		<DocLocalization Name="Sélection de matériau" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="403.35892" Y="205.03934" Width="323.93704" Height="114.03683" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="403.35892" Y="205.03934" Width="323.93704" Height="114.03683" />
 	<Selects>
 		<DocSelectItem Name="IfcMaterialUsageDefinition" UniqueId="21a9b8f6-0f76-4155-99db-aa5aa98159b4" />
 		<DocSelectItem Name="IfcMaterialDefinition" UniqueId="79a9575a-0a50-44a3-876b-d1d1bd9d50af" />

@@ -3,12 +3,8 @@
 	<Localization>
 		<DocLocalization Name="Modulus Of Linear Subgrade Reaction Measure" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6921.0973" Y="1148.7975" Width="747.84465" Height="70.318214" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_3rbVQZTh9EOu7SnSkHIT3S" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="6921.0973" Y="1148.7975" Width="747.84465" Height="70.318214" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3rbVQZTh9EOu7SnSkHIT3S" />
 	<DiagramLine>
 		<DocPoint X="7668.942" Y="1188.4882" />
 		<DocPoint X="7794.8229" Y="1188.4882" />

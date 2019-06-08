@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="62c24ef2-9eca-401d-976b-0261bfae43d9">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcCartesianTransformationOperator3DnonUniform" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="f824943c-e8fd-4d36-ac12-0e8ac1d4a42c" Type="IfcCartesianTransformationOperator3DnonUniform" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcCartesianTransformationOperator3DnonUniform" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="dad7d8c2-c77b-471d-a8eb-e9aee615612c" Type="IfcCartesianTransformationOperator3DnonUniform" />
 </DocConceptRoot>
 

@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0nEZ$xjSz3zA9nOw$iZ0Ky">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcCompressor" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcCompressor" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="04vSRlxTn8YeGAxhD0mt0w">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="b59a8962-b40f-48de-a365-458b4ce1912b" RuleParameters="RelatingType=IfcCompressorType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="0cwVYg5on2r8hMntmwKUsS">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="03f257ab-1248-4a3b-bc4a-3cdaf2d97c00" RuleParameters="PsetName=Pset_CompressorTypeCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="1661edf4-4586-4b24-a93b-14060c081631">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="e0c808f9-4bfb-4cc0-b48c-66d32489bea2" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="29b300d0-c2a8-4d39-ac42-4e7be4b3a28b" RuleParameters="PropertyName=MinimumPartLoadRatio;Value=IfcPositiveRatioMeasure;" Order="0" />
@@ -36,9 +28,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="1a4db461-0ca0-4b7e-a9ad-730e6f353c78">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="798e1352-838b-41fd-9a7b-608f450a8e8b" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="b5c64a00-851c-41cb-b142-0a2b77d5b78f" RuleParameters="PropertyName=PowerSource;Value=IfcLabel;" Order="0" />
@@ -50,17 +40,13 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="3Ro9Vkju90Cf4o6O0rY3$L">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="7be91028-0d40-4039-94f4-93f51857362c" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_CompressorBaseQuantities;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Material" UniqueId="2ttP3KQDzA$BUd7dQ5GV3c">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Constituent_Set_3PRtzzvq9Dk9jT6ADgRVY4" />
 			<Items>
 				<DocTemplateItem UniqueId="51e382bb-93ef-4923-9822-d194f8440448" RuleParameters="Name=Casing;" Order="0">
 					<Documentation>Material from which the casing is constructed.</Documentation>
@@ -71,9 +57,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Port" UniqueId="0HIiZ5YWH2MQPjQ$OzH0ji">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Port_Nesting_2w9EtqE92s8JFNQ8EuKWA" />
 			<Items>
 				<DocTemplateItem UniqueId="d5e51dc1-4626-4a3e-aacd-c4df6931927a" RuleParameters="PortName=RefrigerantIn;SystemType=REFRIGERATION;Flow=SINK;" Order="0">
 					<Documentation>Uncompressed vapor refrigerant entering the compressor.</Documentation>
@@ -84,8 +68,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="fab44e0a-12c2-44d5-a204-2fd197b4709d" Type="IfcCompressor" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="ddb531d5-8cdf-4075-a40d-f98e8129a2bd" Type="IfcCompressor" />
 </DocConceptRoot>
 

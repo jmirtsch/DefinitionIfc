@@ -5,9 +5,7 @@
 		<DocLocalization Name="Vertex Loop" Locale="en" />
 		<DocLocalization Name="Boucle de points" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2325.80004882813" Y="1835.35831705729" Width="222" Height="167.266667683919" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2325.80004882813" Y="1835.35831705729" Width="222" Height="167.266667683919" />
 	<Attributes>
 		<DocAttribute Name="LoopVertex" UniqueId="d3ccd855-0f95-427e-85ca-6fb0a46737fa" DefinedType="IfcVertex" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>The vertex which defines the entire loop.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="2547.80004882813" Y="1929.69978841146" />
 				<DocPoint X="2818.70003255208" Y="1929.69978841146" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2547.80004882813" Y="1909.69978841146" Width="134" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2547.80004882813" Y="1909.69978841146" Width="134" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

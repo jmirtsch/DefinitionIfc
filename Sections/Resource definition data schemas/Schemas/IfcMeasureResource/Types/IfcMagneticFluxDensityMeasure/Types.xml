@@ -4,12 +4,8 @@
 		<DocLocalization Name="Magnetic Flux Density Measure" Locale="en" />
 		<DocLocalization Name="Mesure de la densité de flux magnétique" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5665.1807" Y="1165.6602" Width="456.75007" Height="54.923051" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_3SuINhRmnCduJYdpQSDzD5" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5665.1807" Y="1165.6602" Width="456.75007" Height="54.923051" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3SuINhRmnCduJYdpQSDzD5" />
 	<DiagramLine>
 		<DocPoint X="6121.9308" Y="1193.1217" />
 		<DocPoint X="6232.6953" Y="1193.1217" />

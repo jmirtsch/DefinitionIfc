@@ -5,9 +5,7 @@
 		<DocLocalization Name="Slab Type" Locale="en" />
 		<DocLocalization Name="Type de dalle" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3629.5834" Y="805.80833" Width="326.63333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3629.5834" Y="805.80833" Width="326.63333" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="ce96f799-1e75-4c3d-a10e-ea5f31bda91e" DefinedType="IfcSlabTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of a slab element from which the type required may be set.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="3956.21673" Y="858.6999935" />
 				<DocPoint X="4184.6165" Y="858.6999935" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3956.21673" Y="838.6999935" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3956.21673" Y="838.6999935" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

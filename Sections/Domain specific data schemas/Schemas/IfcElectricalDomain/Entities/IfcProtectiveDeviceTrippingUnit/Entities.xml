@@ -5,9 +5,7 @@
 		<DocLocalization Name="Protective Device Tripping Unit" Locale="en" />
 		<DocLocalization Name="Unité de déclenchement d&apos;équipement de protection" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4136.7467" Y="2084.5867" Width="589.93333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4136.7467" Y="2084.5867" Width="589.93333" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="6801c27d-267c-44ff-a462-840addfa2cc5" DefinedType="IfcProtectiveDeviceTrippingUnitTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
@@ -15,9 +13,7 @@
 				<DocPoint X="4722.38" Y="2229.50335" />
 				<DocPoint X="4287.1133" Y="2229.50335" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="4722.38" Y="2229.50335" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="4722.38" Y="2229.50335" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

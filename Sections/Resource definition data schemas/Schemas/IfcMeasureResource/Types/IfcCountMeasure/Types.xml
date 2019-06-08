@@ -4,12 +4,8 @@
 		<DocLocalization Name="Count Measure" Locale="en" />
 		<DocLocalization Name="Mesure du nombre" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4109.2337" Y="805.44744" Width="405.46667" Height="54.869997" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="NUMBER_0Un_I8vnT6whSJL6t3PFCV" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="4109.2337" Y="805.44744" Width="405.46667" Height="54.869997" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="NUMBER_0Un_I8vnT6whSJL6t3PFCV" />
 	<DiagramLine>
 		<DocPoint X="4514.7004" Y="832.88244" />
 		<DocPoint X="4591.625558" Y="832.88244" />

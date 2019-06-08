@@ -337,7 +337,7 @@
   &lt;/div&gt;
 &lt;/noscript&gt;</Documentation>
 			<Views>
-				<DocModelView xsi:nil="true" href="General Usage" />
+				<DocModelView xsi:nil="true" href="General_Usage" />
 			</Views>
 			<Formats>
 				<DocFormat FormatType="xml" FormatOptions="examples" />
@@ -444,7 +444,7 @@
 		</DocPublication>
 		<DocPublication Name="ISO16739" UniqueId="2d5c5de9-60cb-469e-ab16-ac44ac7409f0" Code="IFC4" Version="2016" Status="Draft" Owner="ISO" Copyright="International Standards Organization">
 			<Views>
-				<DocModelView xsi:nil="true" href="General Usage" />
+				<DocModelView xsi:nil="true" href="General_Usage" />
 			</Views>
 			<Formats>
 				<DocFormat FormatType="xml" />
@@ -498,7 +498,7 @@
   &lt;/div&gt;
 &lt;/noscript&gt;</Documentation>
 			<Views>
-				<DocModelView xsi:nil="true" href="Design Transfer View" />
+				<DocModelView xsi:nil="true" href="Design_Transfer_View" />
 			</Views>
 			<Formats>
 				<DocFormat FormatType="xml" FormatOptions="examples" />
@@ -642,7 +642,7 @@
   &lt;/div&gt;
 &lt;/noscript&gt;</Documentation>
 			<Views>
-				<DocModelView xsi:nil="true" href="Reference View" />
+				<DocModelView xsi:nil="true" href="Reference_View" />
 			</Views>
 			<Formats>
 				<DocFormat FormatType="xml" FormatOptions="examples" />

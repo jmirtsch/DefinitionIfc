@@ -4,12 +4,8 @@
 		<DocLocalization Name="Mass Flow Rate Measure" Locale="en" />
 		<DocLocalization Name="Mesure de débit massique" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5665.1684" Y="1230.6532" Width="456.66667" Height="53.00186" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_2aijO7PH9FWBcW4iIn0Qya" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5665.1684" Y="1230.6532" Width="456.66667" Height="53.00186" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_2aijO7PH9FWBcW4iIn0Qya" />
 	<DiagramLine>
 		<DocPoint X="6121.8351" Y="1257.1541" />
 		<DocPoint X="6232.6078" Y="1257.1541" />

@@ -4,9 +4,7 @@
 		<DocLocalization Name="Flächige Verbindung - Geometrie" Locale="de" />
 		<DocLocalization Name="Connection Surface Geometry" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1867.2999" Y="1576.3667" Width="570.86667" Height="120" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1867.2999" Y="1576.3667" Width="570.86667" Height="120" />
 	<Attributes>
 		<DocAttribute Name="SurfaceOnRelatingElement" UniqueId="314adc40-553a-4304-9635-524cc52d9f2b" DefinedType="IfcSurfaceOrFaceSurface" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Surface at which related object is aligned at the relating element, given in the LCS of the relating element.</Documentation>
@@ -14,9 +12,7 @@
 				<DocPoint X="1904.7332" Y="1696.3667" />
 				<DocPoint X="1904.7332" Y="1792.4533" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2072.7332" Y="1699.0333667" Width="306" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2072.7332" Y="1699.0333667" Width="306" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="SurfaceOnRelatedElement" UniqueId="799673ed-96e5-416c-9b59-e0b232546f8e" DefinedType="IfcSurfaceOrFaceSurface" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Surface at which the relating element is aligned at the related element, given in the LCS of the related element. If the information is omitted, then the origin of the related element is used.</Documentation>
@@ -24,9 +20,7 @@
 				<DocPoint X="2403.3999" Y="1696.3667" />
 				<DocPoint X="2403.3999" Y="1792.4533" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2574.06657" Y="1674.990033" Width="301" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2574.06657" Y="1674.990033" Width="301" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

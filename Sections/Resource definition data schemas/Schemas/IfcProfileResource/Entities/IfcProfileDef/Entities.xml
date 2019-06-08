@@ -5,9 +5,7 @@
 		<DocLocalization Name="Profile Def" Locale="en" />
 		<DocLocalization Name="Définition de profil" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="252.18666" Y="61.000003" Width="316.66667" Height="186.66667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="252.18666" Y="61.000003" Width="316.66667" Height="186.66667" />
 	<Subtypes>
 		<DocSubtype UniqueId="61c52686-7398-4f2f-ba91-f2f9bde56192" DefinedType="IfcParameterizedProfileDef" />
 		<DocSubtype UniqueId="4fa9badc-994e-4f2b-a199-d6ed6ded2543" DefinedType="IfcArbitraryOpenProfileDef" />
@@ -23,9 +21,7 @@
 				<DocPoint X="568.85333" Y="94.7733406943359" />
 				<DocPoint X="880.092041015625" Y="94.7733406943359" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="568.85333" Y="74.7733406943359" Width="131" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="568.85333" Y="74.7733406943359" Width="131" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ProfileName" UniqueId="411500e4-ab55-4fe8-bbf9-3a329ea5b1c7" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Human-readable name of the profile, for example according to a standard profile table. As noted above, machine-readable standardized profile designations should be provided in &lt;em&gt;IfcExternalReference.ItemReference&lt;/em&gt;.</Documentation>
@@ -34,9 +30,7 @@
 				<DocPoint X="568.85333" Y="199.608332316081" />
 				<DocPoint X="880.953674316406" Y="199.608332316081" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="568.85333" Y="179.608332316081" Width="142" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="568.85333" Y="179.608332316081" Width="142" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="HasExternalReference" UniqueId="5384e4ff-9e84-45c1-bd5f-b6e037852b2e" DefinedType="IfcExternalReferenceRelationship" AttributeFlags="32" AggregationType="3" AggregationFlag="0" Inverse="RelatedResourceObjects">
 			<Documentation>Reference to external information, e.g. library, classification, or document information, which is associated with the profile.
@@ -46,9 +40,7 @@
 				<DocPoint X="410.52" Y="521" />
 				<DocPoint X="880.83334" Y="521" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="407.1866667" Y="552.626667" Width="399" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="407.1866667" Y="552.626667" Width="399" Height="70" />
 		</DocAttribute>
 		<DocAttribute Name="HasProperties" UniqueId="68f7e99c-a629-41eb-9442-f3ad71ab2ea7" DefinedType="IfcProfileProperties" AttributeFlags="0" AggregationType="3" AggregationFlag="0" Inverse="ProfileDefinition" XsdFormat="element">
 			<Documentation>Additional properties of the profile, for example mechanical properties.
@@ -58,9 +50,7 @@
 				<DocPoint X="502.18666" Y="313.91667" />
 				<DocPoint X="1131.18666" Y="313.91667" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="498.0199933" Y="340.750003" Width="402" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="498.0199933" Y="340.750003" Width="402" Height="70" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

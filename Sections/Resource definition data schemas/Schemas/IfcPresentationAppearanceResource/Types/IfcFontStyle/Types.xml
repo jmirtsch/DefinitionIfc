@@ -5,12 +5,8 @@
 		<DocLocalization Name="Font Style" Locale="en" />
 		<DocLocalization Name="Style de police" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="7204.6267" Y="1491.1667" Width="304.9" Height="66" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="STRING_2egK8xXYD2jvXkITa8gpkQ" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="7204.6267" Y="1491.1667" Width="304.9" Height="66" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="STRING_2egK8xXYD2jvXkITa8gpkQ" />
 	<WhereRules>
 		<DocWhereRule Name="WR1" UniqueId="7fa59585-e56b-4a3f-9565-3022d1578fe4">
 			<Documentation>Allowable values for font style.</Documentation>

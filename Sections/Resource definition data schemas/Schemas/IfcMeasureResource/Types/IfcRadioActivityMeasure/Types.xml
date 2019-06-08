@@ -4,12 +4,8 @@
 		<DocLocalization Name="Radio Activity Measure" Locale="en" />
 		<DocLocalization Name="Mesure de radioactivité" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5665.2264" Y="1591.3274" Width="456.6553" Height="54.923051" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_175LO61hj5p840O2UGylOO" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5665.2264" Y="1591.3274" Width="456.6553" Height="54.923051" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_175LO61hj5p840O2UGylOO" />
 	<DiagramLine>
 		<DocPoint X="6121.8817" Y="1618.7889" />
 		<DocPoint X="6232.66084" Y="1618.7889" />

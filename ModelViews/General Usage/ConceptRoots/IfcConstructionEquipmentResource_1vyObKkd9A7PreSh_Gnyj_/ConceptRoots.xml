@@ -1,30 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1vyObKkd9A7PreSh_Gnyj_">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcConstructionEquipmentResource" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcConstructionEquipmentResource" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="2T_9DnsHD9jQRK$Kk$o717">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="92d9a65f-777f-4bb7-a412-bc158238ead0" RuleParameters="RelatingType=IfcConstructionEquipmentResourceType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="2N7tuEQ8z3fBlsJoOdvl4U">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="5c8e86f3-b872-4645-b907-cee1e6cf08f1" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_ConstructionEquipmentResourceBaseQuantities;TemplateType=QTO_OCCURRENCEDRIVEN;" Order="0" />
 				<DocTemplateItem UniqueId="18c1b811-3602-4fb9-af5b-0637e0d8f19f" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_ConstructionEquipmentResourceBaseQuantities;TemplateType=QTO_OCCURRENCEDRIVEN;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Resource Assignment" UniqueId="0WhZmjVYXC_BE5oy4e7Xvt">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Resource Assignment_0cKfk8v5r86A7E0heIa1j_" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Resource_Assignment_0cKfk8v5r86A7E0heIa1j_" />
 			<Items>
 				<DocTemplateItem UniqueId="7276df32-e0ad-4075-baea-3862bd80132f" RuleParameters="Type=IfcTransportElement;" Order="0">
 					<Documentation>Indicates a physical element manifesting the resource such as a crane.</Documentation>
@@ -32,9 +24,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Resource Cost" UniqueId="2rwrBXzkH3AOHwYY2zfesC">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Resource Cost_1dWH7vLbvC7RZ3qXZ4pD1M" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Resource_Cost_1dWH7vLbvC7RZ3qXZ4pD1M" />
 			<Items>
 				<DocTemplateItem UniqueId="f3ffb1e5-1fba-43ab-b163-fae913755053" RuleParameters="CostType=IfcCostValue;CostName=Usage;ValueType=IfcMonetaryMeasure;" Order="0">
 					<Documentation>The amount incurred for acquiring the equipment, such as rental fees or depreciation.</Documentation>
@@ -48,9 +38,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Resource Quantity" UniqueId="0I61b1cTn44v3H$YRmsKXF">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Resource Quantity_2WLzS88zH7qgXDYV$9FO$e" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Resource_Quantity_2WLzS88zH7qgXDYV9FOe" />
 			<Items>
 				<DocTemplateItem UniqueId="5e4122dd-cf85-4e23-9923-366297d3b206" RuleParameters="QuantityType=IfcQuantityTime;QuantityName=Operation;" Order="0">
 					<Documentation>The unit basis for operating the equipment, such as an hour.</Documentation>
@@ -58,8 +46,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="f7f80058-6213-4be0-8745-82eaaa4a333e" Type="IfcConstructionEquipmentResource" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="125474b9-d90a-4b76-848f-4723981c43fd" Type="IfcConstructionEquipmentResource" />
 </DocConceptRoot>
 

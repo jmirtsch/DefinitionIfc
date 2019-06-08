@@ -4,9 +4,7 @@
 		<DocLocalization Name="Space Boundary Select" Locale="en" />
 		<DocLocalization Name="Sélection de type de limite d&apos;espace" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="744.10667" Y="3034.5867" Width="171.33333" Height="159" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="744.10667" Y="3034.5867" Width="171.33333" Height="159" />
 	<Selects>
 		<DocSelectItem Name="IfcSpace" UniqueId="d7ebf8c6-7be6-49a6-9425-ca35d560a0df" />
 		<DocSelectItem Name="IfcExternalSpatialElement" UniqueId="a7b96b7b-f705-4537-9f1c-55d451c9c824" />

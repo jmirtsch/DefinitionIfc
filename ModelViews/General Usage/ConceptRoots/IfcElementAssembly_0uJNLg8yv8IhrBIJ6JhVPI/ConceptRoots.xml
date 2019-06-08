@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0uJNLg8yv8IhrBIJ6JhVPI">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcElementAssembly" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcElementAssembly" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="1AXj0XIW924RNrVJ4sYLdC">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="f3bc25c9-0d40-47e6-b8be-cb68361ce162" RuleParameters="RelatingType=IfcElementAssemblyType;" Order="0" />
 			</Items>
@@ -50,9 +46,7 @@ hierarchy, i.e. the inverse attribute
  &lt;/tr&gt;
 
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
 			<Items>
 				<DocTemplateItem UniqueId="b8a09ed6-7212-4b8e-ad88-980df644e58a" RuleParameters="PredefinedType=;RelatedObjects=IfcMember;" Order="0">
 					<Documentation>Members within the assembly.</Documentation>
@@ -68,9 +62,7 @@ hierarchy, i.e. the inverse attribute
 		<DocTemplateUsage Name="Spatial Containment" UniqueId="1CBQXEAJ14APv02tpByS5c">
 			<Documentation>&lt;p&gt;The &lt;em&gt;IfcElementAssembly&lt;/em&gt; should have a relationship for its 
 containment in the hierachical spatial structure of the project. Only if the &lt;em&gt;IfcElementAssembly&lt;/em&gt; is itself a part of another assembly this relationship should be omitted.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Containment_3Pe$WY01HBmesKdP1dTP15" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Containment_3PeWY01HBmesKdP1dTP15" />
 			<Items>
 				<DocTemplateItem UniqueId="bda4a85f-9e78-4137-bf79-5bd3b5984660" RuleParameters="RelatingStructure=IfcBuildingStorey;" Order="0">
 					<Documentation>Default spatial container</Documentation>
@@ -84,8 +76,6 @@ containment in the hierachical spatial structure of the project. Only if the &lt
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="55325719-c534-419c-8b6b-68017d5af41f" Type="IfcElementAssembly" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="139d8dd8-edf1-4392-803e-f7614a116bff" Type="IfcElementAssembly" />
 </DocConceptRoot>
 

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1tcwKBumf6_BfAmC83k_XH">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcPlateType" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcPlateType" />
 	<Concepts>
 		<DocTemplateUsage Name="Material Layer Set" UniqueId="3ox3lt8vPDPRB_ysvPBUE2">
 			<Documentation>&lt;p&gt;The material of the &lt;em&gt;IfcPlateType&lt;/em&gt; is defined by the
@@ -28,18 +26,12 @@ occurrences of type &lt;em&gt;IfcPlateStandardCase&lt;/em&gt; (see definition of
 reference plane, the same &lt;em&gt;IfcPlateType&lt;/em&gt; can be used
 independently of the reference plane alignment of its
 occurrences.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Layer Set_3VjREfKED6ueKO7mFdpzY6" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Layer_Set_3VjREfKED6ueKO7mFdpzY6" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Geometry" UniqueId="77463910-2de2-43ae-bac3-5f9796c3a16a">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Type Body Geometry_0wx2q0jBj7QgWX$2AubRKn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Type_Body_Geometry_0wx2q0jBj7QgWX2AubRKn" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="44f310d7-ac1e-4442-ba6f-5589a6fd9c27" Type="IfcPlateType" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="c4cb58cd-b340-493d-bb98-3e8bb5b67258" Type="IfcPlateType" />
 </DocConceptRoot>
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocExample xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Structural analysis model" UniqueId="5379d645-e6c4-447d-88c3-5560d8b763ed">
 	<Views>
-		<DocModelView xsi:nil="true" href="General Usage" />
+		<DocModelView xsi:nil="true" href="General_Usage" />
 	</Views>
 </DocExample>
 

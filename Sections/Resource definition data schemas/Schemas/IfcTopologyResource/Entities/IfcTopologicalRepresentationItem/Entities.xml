@@ -5,9 +5,7 @@
 		<DocLocalization Name="Topological Representation Item" Locale="en" />
 		<DocLocalization Name="Item de représentation topologique" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="691.5583" Y="92.01667" Width="659" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="691.5583" Y="92.01667" Width="659" Height="100" />
 	<Subtypes>
 		<DocSubtype UniqueId="92766244-758a-4dc8-813b-c0c8ed29527f" DefinedType="IfcConnectedFaceSet" />
 		<DocSubtype UniqueId="df2e4c7c-be08-4758-aac5-ee1da3f8694d" DefinedType="IfcEdge" />

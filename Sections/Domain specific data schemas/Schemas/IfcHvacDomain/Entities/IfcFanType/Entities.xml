@@ -5,9 +5,7 @@
 		<DocLocalization Name="Fan Type" Locale="en" />
 		<DocLocalization Name="Type de ventilateur" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3261.2498" Y="558.93632" Width="381.34355" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3261.2498" Y="558.93632" Width="381.34355" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="a35b99d4-7d3d-4273-92a5-5812abe54400" DefinedType="IfcFanTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines the type of fan typically used in building services.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="3642.5934" Y="608.93632" />
 				<DocPoint X="3851.76711" Y="608.93632" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3640.528735" Y="595.514547" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3640.528735" Y="595.514547" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

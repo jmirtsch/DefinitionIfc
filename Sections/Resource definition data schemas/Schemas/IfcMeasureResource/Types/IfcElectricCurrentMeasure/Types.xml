@@ -4,12 +4,8 @@
 		<DocLocalization Name="Electric Current Measure" Locale="en" />
 		<DocLocalization Name="Mesure de courant électrique" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4109.2401" Y="920.83086" Width="405.48566" Height="66" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_0iaIe7ZqbBKObGTk49f4xn" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="4109.2401" Y="920.83086" Width="405.48566" Height="66" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_0iaIe7ZqbBKObGTk49f4xn" />
 	<DiagramLine>
 		<DocPoint X="4514.7258" Y="953.83086" />
 		<DocPoint X="4591.736138" Y="953.83086" />

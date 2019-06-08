@@ -5,18 +5,14 @@
 		<DocLocalization Name="Evaporative Cooler" Locale="en" />
 		<DocLocalization Name="Refroidisseur évaporatif" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1220.3618" Y="1378.0806" Width="334.1" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1220.3618" Y="1378.0806" Width="334.1" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="5235d6fd-e834-4f07-bc90-c52223140472" DefinedType="IfcEvaporativeCoolerTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
 				<DocPoint X="1220.3618" Y="1428.0806" />
 				<DocPoint X="1008.17307" Y="1428.0806" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1220.3618" Y="1428.0806" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1220.3618" Y="1428.0806" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

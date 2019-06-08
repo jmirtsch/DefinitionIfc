@@ -5,9 +5,7 @@
 		<DocLocalization Name="Geometric Representation Item" Locale="en" />
 		<DocLocalization Name="Item de représentation géométrique" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1850.4338" Y="217.58802" Width="764.62667" Height="143.33333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1850.4338" Y="217.58802" Width="764.62667" Height="143.33333" />
 	<Subtypes>
 		<DocSubtype UniqueId="c6d2199a-086b-42b1-a620-8638bc5cb57c" DefinedType="IfcCompositeCurveSegment" />
 		<DocSubtype UniqueId="cd5e5c27-b138-450d-b7ef-87396aeddc3c" DefinedType="IfcCurve" />

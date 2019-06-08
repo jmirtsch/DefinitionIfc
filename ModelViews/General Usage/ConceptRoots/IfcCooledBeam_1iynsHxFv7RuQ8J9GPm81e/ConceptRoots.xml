@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1iynsHxFv7RuQ8J9GPm81e">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcCooledBeam" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcCooledBeam" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="0Yxb4X9ZD6KP8E8HYOjNXM">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="516c3abc-a829-4d82-a2f7-ccb1336d088f" RuleParameters="RelatingType=IfcCooledBeamType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="1sDOMImD5CP98rkEOYYSA$">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="790bd299-1299-44e3-835e-92cb5156893a" RuleParameters="PsetName=Pset_CooledBeamTypeCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="5af0fa61-8b6e-4f5e-b209-4de7bc2b408f">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="a5eb471e-9a61-4c3e-9012-2b2e0f6efb7e" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="59edeac2-c736-4bfb-ba27-abf46bb8fc0a" RuleParameters="PropertyName=IsFreeHanging;Value=IfcBoolean;" Order="0" />
@@ -43,9 +35,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="38335808-070f-4c32-993a-a591cdb6f1b3">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="a54c81cd-71ca-49f0-ba2e-79216b30f6d9" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="daff3ae6-b37c-4c19-9e63-ac9a15a6c533" RuleParameters="PropertyName=WaterFlowControlSystemType;Value=IfcLabel;" Order="0" />
@@ -54,9 +44,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="a5d63a1a-dc8f-4bf8-9d09-44247854bf93">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Bounded_Value_0zPwBITXr4sQ2Ujkn_bOo" />
 							<Items>
 								<DocTemplateItem UniqueId="532f07cc-c373-4c1c-bf64-b3c7a530da02" RuleParameters="PropertyName=WaterPressureRange;SetValue=IfcPressureMeasure;" Order="0" />
 							</Items>
@@ -66,17 +54,13 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="2HxRdUUTP96hEicxaAuNxn">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="d4e5fc9b-fcc3-4e55-bccb-12a9ac4c0954" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_CooledBeamBaseQuantities;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Material" UniqueId="3ORw1MGF95oR5jEQxA4AdP">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Constituent_Set_3PRtzzvq9Dk9jT6ADgRVY4" />
 			<Items>
 				<DocTemplateItem UniqueId="571c0a3d-fb5c-4312-9960-5ddbf9af3cb8" RuleParameters="Name=Casing;" Order="0">
 					<Documentation>Material from which the casing is constructed.</Documentation>
@@ -84,9 +68,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Port" UniqueId="2u_k3yJ0v23BRdzVbBmovO">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Port_Nesting_2w9EtqE92s8JFNQ8EuKWA" />
 			<Items>
 				<DocTemplateItem UniqueId="f98085ce-1991-49be-b575-bdc5bd4562fe" RuleParameters="PortName=ChilledWaterIn;SystemType=CHILLEDWATER;Flow=SINK;" Order="0">
 					<Documentation>Chilled water entering.</Documentation>
@@ -97,8 +79,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="b987ff98-28f6-4d8a-bb9d-21504bbf98cb" Type="IfcCooledBeam" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="145777d6-2880-4179-ab89-c2d4737f2731" Type="IfcCooledBeam" />
 </DocConceptRoot>
 

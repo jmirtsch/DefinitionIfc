@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcIndexedPolygonalFace" UniqueId="d254b777-e1d5-480f-a356-6496977d5a4a" DiagramNumber="9" BaseDefinition="IfcTessellatedItem" EntityFlags="32">
-	<DiagramRectangle>
-		<DocRectangle X="13856.0009765625" Y="1530.66687011719" Width="378.666656494141" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="13856.0009765625" Y="1530.66687011719" Width="378.666656494141" Height="100" />
 	<Subtypes>
 		<DocSubtype UniqueId="408c000d-5adf-4945-ad66-daf5ab8d6e6e" DefinedType="IfcIndexedPolygonalFaceWithVoids" />
 	</Subtypes>
@@ -15,9 +13,7 @@
 				<DocPoint X="13697.1246643066" Y="1630.66687011719" />
 				<DocPoint X="13697.1246643066" Y="1834.15344238281" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="13856.0009765625" Y="1814.15344238281" Width="400" Height="100" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="13856.0009765625" Y="1814.15344238281" Width="400" Height="100" />
 		</DocAttribute>
 		<DocAttribute Name="ToFaceSet" UniqueId="539ffe91-454c-4cc6-a6ee-03a20eaf9166" DefinedType="IfcPolygonalFaceSet" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="?" Inverse="Faces">
 			<Documentation>Reference to the &lt;em&gt;IfcPolygonalFaceSet&lt;/em&gt; for which this face is associated.</Documentation>
@@ -26,9 +22,7 @@
 				<DocPoint X="13930.666015625" Y="1530.66687011719" />
 				<DocPoint X="13930.666015625" Y="1340" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="13930.666015625" Y="1320" Width="400" Height="100" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="13930.666015625" Y="1320" Width="400" Height="100" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

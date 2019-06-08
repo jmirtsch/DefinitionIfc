@@ -5,9 +5,7 @@
 		<DocLocalization Name="Wall" Locale="en" />
 		<DocLocalization Name="Mur" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="484.74167" Y="1709.6167" Width="249.9" Height="214.63333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="484.74167" Y="1709.6167" Width="249.9" Height="214.63333" />
 	<Subtypes>
 		<DocSubtype UniqueId="6d91798f-350e-4e74-9e7a-5dc82f29824a" DefinedType="IfcWallStandardCase" />
 		<DocSubtype UniqueId="00725764-7738-4af4-9fdc-fdaa901d5351" DefinedType="IfcWallElementedCase" />
@@ -22,9 +20,7 @@
 				<DocPoint X="72.34167" Y="1875.6" />
 				<DocPoint X="72.34167" Y="1792.933333" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="484.74167" Y="1867.6" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="484.74167" Y="1867.6" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

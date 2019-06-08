@@ -5,9 +5,7 @@
 		<DocLocalization Name="Ellipse" Locale="en" />
 		<DocLocalization Name="Ellipse" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="7022.3251953125" Y="1276.66149902344" Width="235.33333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="7022.3251953125" Y="1276.66149902344" Width="235.33333" Height="100" />
 	<Attributes>
 		<DocAttribute Name="SemiAxis1" UniqueId="3acacf5b-ec99-4f5d-a82e-85a6f7a04b36" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The first radius of the ellipse which shall be positive. Placement.Axes[1] gives the direction of the SemiAxis1.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="7022.3251953125" Y="1753.99462890625" />
 				<DocPoint X="6962.91526359375" Y="1753.99462890625" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="7022.3251953125" Y="1396.66149902344" Width="121" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="7022.3251953125" Y="1396.66149902344" Width="121" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="SemiAxis2" UniqueId="f589e68f-d624-43a9-b3b0-661d0743325c" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The second radius of the ellipse which shall be positive.</Documentation>
@@ -27,9 +23,7 @@
 				<DocPoint X="7022.3251953125" Y="1649.99462890625" />
 				<DocPoint X="6961.575908125" Y="1649.99462890625" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="7022.3251953125" Y="1396.66149902344" Width="121" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="7022.3251953125" Y="1396.66149902344" Width="121" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

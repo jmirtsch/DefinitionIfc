@@ -4,9 +4,7 @@
 		<DocLocalization Name="Presentation Style Select" Locale="en" />
 		<DocLocalization Name="Sélection du style de présentation" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1009.3667" Y="1417.4834" Width="457.26666" Height="65.300003" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1009.3667" Y="1417.4834" Width="457.26666" Height="65.300003" />
 	<Selects>
 		<DocSelectItem Name="IfcNullStyle" UniqueId="34134874-7a59-40ee-a0c6-6ec9f32db28c" />
 		<DocSelectItem Name="IfcCurveStyle" UniqueId="705cdde5-45d4-424e-a1c3-8854b0dfee0c" />

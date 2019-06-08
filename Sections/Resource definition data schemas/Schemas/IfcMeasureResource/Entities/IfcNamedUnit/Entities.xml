@@ -5,9 +5,7 @@
 		<DocLocalization Name="Named Unit" Locale="en" />
 		<DocLocalization Name="Unité nommée" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1276.5589" Y="1174.3802" Width="274" Height="137.33333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1276.5589" Y="1174.3802" Width="274" Height="137.33333" />
 	<Subtypes>
 		<DocSubtype UniqueId="ff164269-51c9-4fa5-b5da-d799a49266af" DefinedType="IfcContextDependentUnit" />
 		<DocSubtype UniqueId="6cdc4101-442b-401d-91b0-63e734f6d402" DefinedType="IfcConversionBasedUnit" />
@@ -21,9 +19,7 @@
 				<DocPoint X="1313.4003" Y="905.75904" />
 				<DocPoint X="1002.55882" Y="905.75904" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1233.289706" Y="1103.261491" Width="135" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1233.289706" Y="1103.261491" Width="135" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="UnitType" UniqueId="9621fcc5-c1bf-463f-9fa4-c55d0fe7849e" DefinedType="IfcUnitEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The type of the unit.</Documentation>
@@ -31,9 +27,7 @@
 				<DocPoint X="1276.5589" Y="1243.0468" />
 				<DocPoint X="1112.9514" Y="1243.0468" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1281.5446909" Y="1235.1128708" Width="106" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1281.5446909" Y="1235.1128708" Width="106" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

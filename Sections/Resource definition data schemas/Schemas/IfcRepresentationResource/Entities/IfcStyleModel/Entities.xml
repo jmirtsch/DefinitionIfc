@@ -5,9 +5,7 @@
 		<DocLocalization Name="Style Model" Locale="en" />
 		<DocLocalization Name="Modèle de style" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1742.7854" Y="1187.0107" Width="331.29074" Height="122.4219" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1742.7854" Y="1187.0107" Width="331.29074" Height="122.4219" />
 	<Subtypes>
 		<DocSubtype UniqueId="01356b1d-b4a9-44f0-bab6-c3c46cba5f46" DefinedType="IfcStyledRepresentation" />
 	</Subtypes>

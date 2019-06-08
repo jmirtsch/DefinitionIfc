@@ -4,12 +4,8 @@
 		<DocLocalization Name="Sound Power Measure" Locale="en" />
 		<DocLocalization Name="Mesure de puissance acoustique" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6921.1294" Y="1371.2561" Width="747.84883" Height="70.276577" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_3rbVQZTh9EOu7SnSkHIT3S" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="6921.1294" Y="1371.2561" Width="747.84883" Height="70.276577" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3rbVQZTh9EOu7SnSkHIT3S" />
 	<DiagramLine>
 		<DocPoint X="7668.9782" Y="1405.4773" />
 		<DocPoint X="7794.82282" Y="1405.4773" />

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Cartesian Point List" Locale="en" />
 		<DocLocalization Name="Liste de points cartésiens" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="11288.9873046875" Y="195.813323974609" Width="397.33333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="11288.9873046875" Y="195.813323974609" Width="397.33333" Height="100" />
 	<Subtypes>
 		<DocSubtype UniqueId="bf6b09ee-3450-4f25-bc10-23bc525c2bd9" DefinedType="IfcCartesianPointList3D" />
 		<DocSubtype UniqueId="645b4590-62a5-4ab7-af67-23b440eb4958" DefinedType="IfcCartesianPointList2D" />
@@ -22,9 +20,7 @@
 				<DocPoint X="11686.3206346875" Y="242.146667480469" />
 				<DocPoint X="11820.986328125" Y="242.146667480469" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="11686.3206346875" Y="222.146667480469" Width="400" Height="50" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="11686.3206346875" Y="222.146667480469" Width="400" Height="50" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

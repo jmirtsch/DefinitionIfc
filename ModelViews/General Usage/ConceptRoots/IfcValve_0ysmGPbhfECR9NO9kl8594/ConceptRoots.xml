@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0ysmGPbhfECR9NO9kl8594">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcValve" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcValve" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="0uSIQXg5D6nvG8nz6o7xhz">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="fa2acb2d-475f-42d5-9937-39e143ec103a" RuleParameters="RelatingType=IfcValveType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="281kWAcWzDHQcTpSnoMUPw">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="fb958914-7677-4306-bfed-827d4da22291" RuleParameters="PsetName=Pset_ValveTypeCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="ec18aa58-c9f2-425b-ae90-7b2229c68b31">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="7b04bd1e-6b99-472f-9da2-fbc1742dfac3" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="e93a1fc0-564f-4763-bfa4-0c2f8f752c17" RuleParameters="PropertyName=Size;Value=IfcPositiveLengthMeasure;" Order="0" />
@@ -33,9 +25,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="23933f22-f690-4b58-9681-7d141bfc1f14">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="acc923a2-2501-466a-84e9-4d997777d347" RuleParameters="PropertyName=ValvePattern;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="589e7384-c85d-4e21-bb5a-7b1267410f09" RuleParameters="PropertyName=ValveOperation;Value=IfcLabel;" Order="0" />
@@ -47,17 +37,13 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="0NX2ULLknC9em8Y3Kfpo7i">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="fa1f1b0d-824e-4577-859e-d53040bdc196" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_ValveBaseQuantities;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Material" UniqueId="2x6tgVtkb8H8VRJ_dDLf8l">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Constituent_Set_3PRtzzvq9Dk9jT6ADgRVY4" />
 			<Items>
 				<DocTemplateItem UniqueId="2aa89fd6-5c5b-4677-8119-081db60c7a51" RuleParameters="Name=Casing;" Order="0">
 					<Documentation>Material from which the casing is constructed.</Documentation>
@@ -68,9 +54,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Connection" UniqueId="0BBAvsBcfEIh$phIVxwvpH">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Connectivity_0bAb_cp5jDCBqCDU8kCsIP" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Connectivity_0bAb_cp5jDCBqCDU8kCsIP" />
 			<Items>
 				<DocTemplateItem UniqueId="974d3c43-d418-482c-990e-447d323e0de7" RuleParameters="Type=IfcActuator;Relation=IfcRelFlowControlElements;" Order="0">
 					<Documentation>Indicates an actuator operating on the valve.</Documentation>
@@ -78,9 +62,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Port" UniqueId="0tX4mFXnX95uL3qtcC8eSP">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Port_Nesting_2w9EtqE92s8JFNQ8EuKWA" />
 			<Items>
 				<DocTemplateItem UniqueId="c8252780-9d80-4cf4-b9f1-cc6a5695ac64" RuleParameters="PredefinedType=AIRHANDLER;PortName=Inlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
 					<Documentation>Incoming fluid.</Documentation>
@@ -196,8 +178,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="1b602e7f-e1ec-4900-b279-c42e4fe0e74a" Type="IfcValve" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="c6e63739-e528-484e-8ff0-c46a3ae2501f" Type="IfcValve" />
 </DocConceptRoot>
 

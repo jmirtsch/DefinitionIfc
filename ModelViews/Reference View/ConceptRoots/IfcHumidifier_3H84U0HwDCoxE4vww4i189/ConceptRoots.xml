@@ -1,40 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="d1204780-47a3-4ccb-b384-e7ae84b01209">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcHumidifier" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcHumidifier" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="14dacfda-fb21-474e-b904-2208664cc8dd">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="6b449ce9-7819-4f10-9fa4-12b326a10e41" RuleParameters="RelatingType=IfcHumidifierType;" Order="0" />
 			</Items>
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="bf86b335-b683-4a25-a57e-13185275754b">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="d41db5ad-0adb-4706-aa84-a8adc5174af2" RuleParameters="PsetName=Pset_HumidifierTypeCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="bd71d923-836d-47f5-9f8a-b5aa118190c7">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="4abc4733-980b-48c9-9d26-b4e349abff36" RuleParameters="Order=1;PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="e41d729a-422b-4070-a66c-baca4214d7e5" RuleParameters="Order=4;PropertyName=Weight;Value=IfcMassMeasure;" Order="0" />
@@ -44,9 +32,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="eb720217-b22f-42d2-8cb2-04ee121e9106">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="e92c53e7-7b53-4a8e-a2a1-49c300c2f5e5" RuleParameters="Order=2;PropertyName=Status;Value=IfcLabel;Reference=PEnum_ElementStatus;" Order="0" />
 								<DocTemplateItem UniqueId="d5974d4f-14d2-4d59-a7a9-20f06f7fc72a" RuleParameters="Order=3;PropertyName=Application;Value=IfcLabel;Reference=PEnum_HumidifierApplication;" Order="0" />
@@ -54,9 +40,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="68190f1b-656b-4bf2-9d9f-ec2e6ec62941">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Table Value_0roKUmQhnB4ux7QMxo11SX" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Table_Value_0roKUmQhnB4ux7QMxo11SX" />
 							<Items>
 								<DocTemplateItem UniqueId="edc5941e-1e10-41b6-a681-53ac425aaadf" RuleParameters="Order=9;PropertyName=SaturationEfficiencyCurve;Value=IfcVolumetricFlowRateMeasure;Reference=IfcNormalisedRatioMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="e520fd03-3ad9-416e-909d-6c687d659555" RuleParameters="Order=10;PropertyName=AirPressureDropCurve;Value=IfcVolumetricFlowRateMeasure;Reference=IfcPressureMeasure;" Order="0" />
@@ -67,16 +51,12 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="2cb30311-11e4-4f1a-bdb6-019f8b659774">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="4f2f14b5-0f6b-4b41-a4b7-29120cb5497f" RuleParameters="QsetName=Qto_HumidifierBaseQuantities;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Quantities" UniqueId="de4e7f20-ffff-4b84-9873-ec91346ea14d">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Weight Quantity_3X0MvMF8bFGfPv1_7RF0hx" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Weight_Quantity_3X0MvMF8bFGfPv1_7RF0hx" />
 							<Items>
 								<DocTemplateItem UniqueId="4a734849-8b64-48f7-b29f-f0016c96a6ef" RuleParameters="Order=1;QuantityName=GrossWeight;" Order="0" />
 							</Items>
@@ -86,8 +66,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="a5d02dbd-484b-4a14-b712-db94c530e117" Type="IfcHumidifier" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="a3c1c3ba-2cde-4027-af2c-61c8c0b7ca75" Type="IfcHumidifier" />
 </DocConceptRoot>
 

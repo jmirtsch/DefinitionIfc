@@ -5,9 +5,7 @@
 		<DocLocalization Name="Property Template Definition" Locale="en" />
 		<DocLocalization Name="Définition de modèle de propriété" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3347.9334" Y="132.32" Width="318" Height="124" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3347.9334" Y="132.32" Width="318" Height="124" />
 	<Subtypes>
 		<DocSubtype UniqueId="36d08507-75fc-4c56-b385-b7462ccac782" DefinedType="IfcPropertySetTemplate" />
 		<DocSubtype UniqueId="16e00047-4081-449d-ab60-bab463186ca0" DefinedType="IfcPropertyTemplate" />

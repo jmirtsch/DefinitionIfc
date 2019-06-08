@@ -1,40 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="12414243-5e08-4cfe-a94e-291080a53323">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcCondenser" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcCondenser" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="f1064f14-a260-4ab4-bb3d-4248505159bd">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="cae1a879-53fa-4f38-a38d-ec20e86a58f4" RuleParameters="RelatingType=IfcCondenserType;" Order="0" />
 			</Items>
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="5aef311e-b997-47ab-aefe-6dfffa3632d3">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="5fbccbb5-fd07-4fa6-8ae8-7a35f29f0d6d" RuleParameters="PsetName=Pset_CondenserTypeCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="88e1a1c1-021b-4e9e-989b-d8de30e266ac">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="beb435d0-b8e7-4330-ba8e-267358e807d6" RuleParameters="Order=1;PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="df544791-d791-4e99-ac5f-c2a960f2582e" RuleParameters="Order=3;PropertyName=ExternalSurfaceArea;Value=IfcAreaMeasure;" Order="0" />
@@ -46,9 +34,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="9bbf8619-beb4-4e82-8cef-8b1a7253fe46">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="f4f10230-8580-406b-9971-1aade9b56630" RuleParameters="Order=2;PropertyName=RefrigerantClass;Value=IfcLabel;Reference=PEnum_RefrigerantClass;" Order="0" />
 							</Items>
@@ -58,16 +44,12 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="da2934ff-3fce-433a-9a0f-4f5931a45571">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="2b428564-9451-423e-a4b7-112fc07ae6e0" RuleParameters="QsetName=Qto_CondenserBaseQuantities;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Quantities" UniqueId="54d2cb43-48b9-43ce-bd13-e926c7c7c1a8">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Weight Quantity_3X0MvMF8bFGfPv1_7RF0hx" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Weight_Quantity_3X0MvMF8bFGfPv1_7RF0hx" />
 							<Items>
 								<DocTemplateItem UniqueId="d7c68033-9f0e-45b3-b9cc-29a8c80312ea" RuleParameters="Order=1;QuantityName=GrossWeight;" Order="0" />
 							</Items>
@@ -77,8 +59,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="b396eb43-b7f1-49e6-a43d-ad01dfe3ceb7" Type="IfcCondenser" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="edced67d-3608-4148-ac7d-d7db0022caf3" Type="IfcCondenser" />
 </DocConceptRoot>
 

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Furnishing Element Type" Locale="en" />
 		<DocLocalization Name="Type d&apos;élément de mobilier" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3426.7626" Y="1195.5927" Width="439.26667" Height="119.93334" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3426.7626" Y="1195.5927" Width="439.26667" Height="119.93334" />
 	<Subtypes>
 		<DocSubtype UniqueId="0218fe69-2784-428d-a388-da732b468e09" DefinedType="IfcFurnitureType" />
 		<DocSubtype UniqueId="37150e58-550b-487e-9574-0140245f2d5a" DefinedType="IfcSystemFurnitureElementType" />

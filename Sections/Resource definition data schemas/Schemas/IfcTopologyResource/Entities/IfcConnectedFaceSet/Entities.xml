@@ -5,9 +5,7 @@
 		<DocLocalization Name="Connected Face Set" Locale="en" />
 		<DocLocalization Name="Ensemble de faces connectées" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1904.3229" Y="98.050013" Width="416" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1904.3229" Y="98.050013" Width="416" Height="100" />
 	<Subtypes>
 		<DocSubtype UniqueId="2cc135c6-093a-4b8f-a2a3-4d485df71a7a" DefinedType="IfcClosedShell" />
 		<DocSubtype UniqueId="87d283ce-5317-45c3-a938-4aa2e6261044" DefinedType="IfcOpenShell" />
@@ -20,9 +18,7 @@
 				<DocPoint X="2046.0063" Y="198.050013" />
 				<DocPoint X="2046.0063" Y="651.05" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2046.0063" Y="631.05" Width="190" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2046.0063" Y="631.05" Width="190" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Pile Type" Locale="en" />
 		<DocLocalization Name="Type de pieu" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1209.5577" Y="373.63156" Width="245.20578" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1209.5577" Y="373.63156" Width="245.20578" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="2fa8112b-beb2-4918-976d-46637c548b07" DefinedType="IfcPileTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Subtype of pile.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="1209.5577" Y="418.52862" />
 				<DocPoint X="963.09679" Y="418.52862" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1206.4668605" Y="415.6565413" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1206.4668605" Y="415.6565413" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

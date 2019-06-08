@@ -5,9 +5,7 @@
 		<DocLocalization Name="Structural Load" Locale="en" />
 		<DocLocalization Name="Charge structurelle" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="50.870829" Y="39.460292" Width="284.06694" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="50.870829" Y="39.460292" Width="284.06694" Height="100" />
 	<Subtypes>
 		<DocSubtype UniqueId="34c6da59-f321-4fd8-8e36-a1e0ee920313" DefinedType="IfcStructuralLoadOrResult" />
 		<DocSubtype UniqueId="d10aa76b-b8f3-4d34-bb64-b00a69a60980" DefinedType="IfcStructuralLoadConfiguration" />
@@ -19,9 +17,7 @@
 				<DocPoint X="334.93777" Y="89.460292" />
 				<DocPoint X="489.95436" Y="89.460292" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="334.93777" Y="81.8178433" Width="73" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="334.93777" Y="81.8178433" Width="73" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

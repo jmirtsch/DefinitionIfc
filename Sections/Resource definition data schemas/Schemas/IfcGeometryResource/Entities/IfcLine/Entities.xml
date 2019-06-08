@@ -5,9 +5,7 @@
 		<DocLocalization Name="Line" Locale="en" />
 		<DocLocalization Name="Ligne" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6714.32568359375" Y="637.94482421875" Width="202" Height="102.63333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="6714.32568359375" Y="637.94482421875" Width="202" Height="102.63333" />
 	<Attributes>
 		<DocAttribute Name="Pnt" UniqueId="efe6be19-11b9-4b75-9821-ae20d1d465ad" DefinedType="IfcCartesianPoint" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>The location of the &lt;em&gt;IfcLine&lt;/em&gt;.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="6714.32568359375" Y="952.853096183594" />
 				<DocPoint X="6704.29235839844" Y="952.853096183594" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="6714.32568359375" Y="760.57815421875" Width="44" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="6714.32568359375" Y="760.57815421875" Width="44" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Dir" UniqueId="da76faa5-1c45-41b8-80ce-79d00d362cd1" DefinedType="IfcVector" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>The direction of the &lt;em&gt;IfcLine&lt;/em&gt;, the magnitude and units of &lt;em&gt;Dir&lt;/em&gt; affect the parameterization of the line.</Documentation>
@@ -27,9 +23,7 @@
 				<DocPoint X="6855.0255175" Y="740.57815421875" />
 				<DocPoint X="6855.0255175" Y="912.819763183594" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="6855.0255175" Y="760.57815421875" Width="38" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="6855.0255175" Y="760.57815421875" Width="38" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

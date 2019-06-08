@@ -5,9 +5,7 @@
 		<DocLocalization Name="Pipe Fitting Type" Locale="en" />
 		<DocLocalization Name="Type de raccord de tuyauterie" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1672.4087" Y="403.51225" Width="343.82451" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1672.4087" Y="403.51225" Width="343.82451" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="2c44496c-2f0c-4ee8-9fd6-632c0dceca41" DefinedType="IfcPipeFittingTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The type of pipe fitting.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="2016.2332" Y="453.51225" />
 				<DocPoint X="2250.84483" Y="453.51225" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2022.5411918" Y="444.6222985" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2022.5411918" Y="444.6222985" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

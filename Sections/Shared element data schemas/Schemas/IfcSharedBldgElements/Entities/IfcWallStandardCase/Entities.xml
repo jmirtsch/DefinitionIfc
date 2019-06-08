@@ -5,9 +5,7 @@
 		<DocLocalization Name="Wall Standard Case" Locale="en" />
 		<DocLocalization Name="Mur standard" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1113.9733" Y="1711.5934" Width="438.63333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1113.9733" Y="1711.5934" Width="438.63333" Height="100" />
 	<WhereRules>
 		<DocWhereRule Name="HasMaterialLayerSetUsage" UniqueId="9404ca1d-71cf-4b6d-8d62-a422fc58a475">
 			<Documentation>A valid instance of &lt;em&gt;IfcWallStandardCase&lt;/em&gt; relies on the provision of an &lt;em&gt;IfcMaterialLayerSetUsage&lt;/em&gt;.</Documentation>

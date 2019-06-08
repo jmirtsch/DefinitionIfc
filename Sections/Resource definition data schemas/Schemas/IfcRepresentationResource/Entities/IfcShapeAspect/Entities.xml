@@ -5,9 +5,7 @@
 		<DocLocalization Name="Shape Aspect" Locale="en" />
 		<DocLocalization Name="Aspect de forme" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2222.7051" Y="1855.8059" Width="307.33333" Height="250.79698" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2222.7051" Y="1855.8059" Width="307.33333" Height="250.79698" />
 	<Attributes>
 		<DocAttribute Name="ShapeRepresentations" UniqueId="db755f10-d8c8-4854-b571-b705ca239039" DefinedType="IfcShapeModel" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
 			<Documentation>List of &lt;strike&gt;shape&lt;/strike&gt; representations. Each member defines a valid representation of a particular type within a particular representation context as being an aspect (or part) of a product definition.
@@ -18,9 +16,7 @@
 				<DocPoint X="3049.63729" Y="1248.24669" />
 				<DocPoint X="2708.33329" Y="1248.24669" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2528.1582866" Y="2052.2729731" Width="337" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2528.1582866" Y="2052.2729731" Width="337" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Name" UniqueId="112f0471-a832-43b6-afd9-1fea94b60438" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The word or group of words by which the shape aspect is known. It is a tag to indicate the particular semantic of a component within the product definition shape, used to provide meaning. Example: use the tag &quot;Glazing&quot; to define which component of a window shape defines the glazing area.</Documentation>
@@ -28,9 +24,7 @@
 				<DocPoint X="2222.7051" Y="1895.3347" />
 				<DocPoint X="1940.73643" Y="1895.3347" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2157.052699" Y="1882.522184" Width="73" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2157.052699" Y="1882.522184" Width="73" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Description" UniqueId="efe2ecf9-35ff-4806-aad2-4ed933ead852" DefinedType="IfcText" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The word or group of words that characterize the shape aspect. It can be used to add additional meaning to the name of the aspect.</Documentation>
@@ -38,9 +32,7 @@
 				<DocPoint X="2222.7051" Y="1981.2044" />
 				<DocPoint X="1940.7204" Y="1981.2044" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2186.830055" Y="1968.391884" Width="130" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2186.830055" Y="1968.391884" Width="130" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ProductDefinitional" UniqueId="05efefab-4927-4846-a3f1-e28bff9478de" DefinedType="IfcLogical" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>An indication that the shape aspect is on the physical boundary of the product definition shape. If the value of this attribute is TRUE, it shall be asserted that the shape aspect being identified is on such a boundary. If the value is FALSE, it shall be asserted that the shape aspect being identified is not on such a boundary. If the value is UNKNOWN, it shall be asserted that it is not known whether or not the shape aspect being identified is on such a boundary. 
@@ -52,9 +44,7 @@ EXAMPLE: Would be FALSE for a center line, identified as shape aspect; would be 
 				<DocPoint X="2222.7051" Y="2080.95623344792" />
 				<DocPoint X="1970.13851928711" Y="2080.95623344792" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2222.7051" Y="2060.95623344792" Width="214" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2222.7051" Y="2060.95623344792" Width="214" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="PartOfProductDefinitionShape" UniqueId="26d2bffa-08ab-4f51-8c1b-5240f92fc434" DefinedType="IfcProductRepresentationSelect" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="hidden">
 			<Documentation>Reference to the &lt;em&gt;IfcProductDefinitionShape&lt;/em&gt; or the &lt;em&gt;IfcRepresentationMap&lt;/em&gt; of which this shape is an aspect.
@@ -65,9 +55,7 @@ IFC4 CHANGE&amp;nbsp; Data type modified to be &lt;em&gt;IfcProductRepresentatio
 				<DocPoint X="2373.5592" Y="2106.6029" />
 				<DocPoint X="2373.5592" Y="2220.51726" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2563.18444" Y="2073.989499" Width="338" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2563.18444" Y="2073.989499" Width="338" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

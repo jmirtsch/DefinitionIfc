@@ -4,12 +4,8 @@
 		<DocLocalization Name="Positive Plane Angle Measure" Locale="en" />
 		<DocLocalization Name="Mesure d&apos;angle plan positif" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3554.3847" Y="1573.3356" Width="441.42049" Height="66" />
-	</DiagramRectangle>
-	<Definition>
-		<DocDefined xsi:nil="true" href="IfcPlaneAngleMeasure" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="3554.3847" Y="1573.3356" Width="441.42049" Height="66" />
+	<Definition xsi:type="DocDefined" xsi:nil="true" href="IfcPlaneAngleMeasure" />
 	<WhereRules>
 		<DocWhereRule Name="WR1" UniqueId="44a7570b-658f-4d71-a0d9-437971b08ab9">
 			<Documentation>A positive measure shall be greater than zero.</Documentation>

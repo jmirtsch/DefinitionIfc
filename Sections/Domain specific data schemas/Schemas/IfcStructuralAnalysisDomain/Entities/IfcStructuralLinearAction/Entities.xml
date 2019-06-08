@@ -4,9 +4,7 @@
 		<DocLocalization Name="gleichmäßige Linienlast" Locale="de" />
 		<DocLocalization Name="Structural Linear Action" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5304.94401041667" Y="1350.19584147135" Width="392.257634480794" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="5304.94401041667" Y="1350.19584147135" Width="392.257634480794" Height="100" />
 	<WhereRules>
 		<DocWhereRule Name="SuitableLoadType" UniqueId="a69ea701-c378-456d-8595-4bbfec56bd21">
 			<Documentation>A linear action shall place either a linear force or a temperature load.</Documentation>

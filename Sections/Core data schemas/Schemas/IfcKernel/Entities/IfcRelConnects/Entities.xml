@@ -5,8 +5,6 @@
 		<DocLocalization Name="Rel Connects" Locale="en" />
 		<DocLocalization Name="Connection" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="8729.5334" Y="544.0279" Width="329.96667" Height="100.66666" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="8729.5334" Y="544.0279" Width="329.96667" Height="100.66666" />
 </DocEntity>
 

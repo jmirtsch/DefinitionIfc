@@ -5,9 +5,7 @@
 		<DocLocalization Name="Shell" Locale="en" />
 		<DocLocalization Name="Enveloppe" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2877.1667" Y="82.19166" Width="185" Height="76.666667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2877.1667" Y="82.19166" Width="185" Height="76.666667" />
 	<Selects>
 		<DocSelectItem Name="IfcClosedShell" UniqueId="1d4d9576-535d-40fd-9f7e-ac1c331febe2" />
 		<DocSelectItem Name="IfcOpenShell" UniqueId="6add67a1-fee5-4854-b1a1-527dc7e9ce7e" />

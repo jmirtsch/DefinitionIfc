@@ -5,12 +5,8 @@
 		<DocLocalization Name="Box Alignment" Locale="en" />
 		<DocLocalization Name="Alignement de zone de texte" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2653.8967" Y="812.13333" Width="301.66667" Height="88.333333" />
-	</DiagramRectangle>
-	<Definition>
-		<DocDefinitionRef xsi:nil="true" href="IfcLabel_0PE2d5tdn4ff_VrMgDm7rb" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="2653.8967" Y="812.13333" Width="301.66667" Height="88.333333" />
+	<Definition xsi:type="DocDefinitionRef" xsi:nil="true" href="IfcLabel_0PE2d5tdn4ff_VrMgDm7rb" />
 	<WhereRules>
 		<DocWhereRule Name="WR1" UniqueId="73309087-560e-4ce9-97eb-4cc98addfccd">
 			<Expression>SELF IN [&apos;top-left&apos;, &apos;top-middle&apos;, &apos;top-right&apos;, &apos;middle-left&apos;, &apos;center&apos;, &apos;middle-right&apos;, &apos;bottom-left&apos;, &apos;bottom-middle&apos;, &apos;bottom-right&apos;]</Expression>

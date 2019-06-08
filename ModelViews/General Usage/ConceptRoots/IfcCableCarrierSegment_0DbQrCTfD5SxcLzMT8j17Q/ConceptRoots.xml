@@ -1,36 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0DbQrCTfD5SxcLzMT8j17Q">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcCableCarrierSegment" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcCableCarrierSegment" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="1BzBAHXf52OPRFMciI7zZW">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="4ef4eee5-c77e-4989-a7fb-830cb7a19fd5" RuleParameters="RelatingType=IfcCableCarrierSegmentType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="1v4BewvHDDOf_v6iyZ67bl">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="47473989-cfe8-4845-9ec9-1625b867c39b" RuleParameters="PsetName=Pset_CableCarrierSegmentTypeCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="3e9259e4-8ca6-41a1-96b0-e18ee3d571fb">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="2c3d86e6-7e8e-42b3-999a-412835f82de6" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="4602735b-16c0-4e71-913d-69e93ba0229e">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="af87c294-f5a7-40d1-a6d6-c0ad3c65ef11" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
 							</Items>
@@ -40,17 +30,13 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="2v4xLveZ9Fkvx9S42P5LQv">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="dfdd05f1-b6df-406f-807b-53c7a048b421" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_CableCarrierSegmentBaseQuantities;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Material" UniqueId="2a33IkSUT9v836qOJXpxKE">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set Usage_1ge1GfjMPBDeTQCM88YfWn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Profile_Set_Usage_1ge1GfjMPBDeTQCM88YfWn" />
 			<Items>
 				<DocTemplateItem UniqueId="bf9df024-8151-463e-9721-fe9a52534e8b" RuleParameters="Name=Casing;" Order="0">
 					<Documentation>Material from which the casing is constructed.</Documentation>
@@ -58,9 +44,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Port" UniqueId="38E1E2_2z348gJ9Q7VNU6a">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Port_Nesting_2w9EtqE92s8JFNQ8EuKWA" />
 			<Items>
 				<DocTemplateItem UniqueId="9e5e016f-12b6-4262-9819-08e09d8d9948" RuleParameters="PortName=Head;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
 					<Documentation>Head connection.</Documentation>
@@ -71,8 +55,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="f3b19d8d-e994-44ca-b31d-8e961bccf383" Type="IfcCableCarrierSegment" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="72ec4631-2473-48b7-94b0-ccf01d57e004" Type="IfcCableCarrierSegment" />
 </DocConceptRoot>
 

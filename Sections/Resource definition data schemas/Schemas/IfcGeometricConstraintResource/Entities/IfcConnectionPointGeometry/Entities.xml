@@ -4,9 +4,7 @@
 		<DocLocalization Name="Punktuelle Verbindung - Geometrie" Locale="de" />
 		<DocLocalization Name="Connection Point Geometry" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1867.3333" Y="439.5" Width="570.86666" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1867.3333" Y="439.5" Width="570.86666" Height="100" />
 	<Subtypes>
 		<DocSubtype UniqueId="7cd252d8-549b-4d1e-86ff-4b9060ac2399" DefinedType="IfcConnectionPointEccentricity" />
 	</Subtypes>
@@ -17,9 +15,7 @@
 				<DocPoint X="1904.7666" Y="539.5" />
 				<DocPoint X="1904.7666" Y="678.18667" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2059.43327" Y="544.8333333" Width="277" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2059.43327" Y="544.8333333" Width="277" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="PointOnRelatedElement" UniqueId="393301b1-7137-4011-bbd9-6e513c7d079f" DefinedType="IfcPointOrVertexPoint" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Point at which connected objects are aligned at the related element, given in the LCS of the related element. If the information is omitted, then the origin of the related element is used.</Documentation>
@@ -27,9 +23,7 @@
 				<DocPoint X="2400.7666" Y="539.5" />
 				<DocPoint X="2400.7666" Y="678.18667" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2550.09993" Y="510.156667" Width="272" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2550.09993" Y="510.156667" Width="272" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

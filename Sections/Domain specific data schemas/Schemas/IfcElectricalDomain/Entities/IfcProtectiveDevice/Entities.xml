@@ -5,9 +5,7 @@
 		<DocLocalization Name="Protective Device" Locale="en" />
 		<DocLocalization Name="Équipement de protection" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4036.3667" Y="517.98667" Width="679.8" Height="103.2" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4036.3667" Y="517.98667" Width="679.8" Height="103.2" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="87de95f6-9b74-4313-b83f-99116ef9ec61" DefinedType="IfcProtectiveDeviceTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
@@ -15,9 +13,7 @@
 				<DocPoint X="4706.9333" Y="672.87462" />
 				<DocPoint X="4291.7033" Y="672.87462" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="4611.318302" Y="615.8533367" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="4611.318302" Y="615.8533367" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

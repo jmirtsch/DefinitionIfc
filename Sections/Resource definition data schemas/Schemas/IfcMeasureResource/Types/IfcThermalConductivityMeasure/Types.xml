@@ -4,12 +4,8 @@
 		<DocLocalization Name="Thermal Conductivity Measure" Locale="en" />
 		<DocLocalization Name="Mesure de conductivité thermique" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5060.3791" Y="1652.3311" Width="529.20747" Height="54.923051" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_05g1EYQbfFxhx_q0BG6Jce" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5060.3791" Y="1652.3311" Width="529.20747" Height="54.923051" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_05g1EYQbfFxhx_q0BG6Jce" />
 	<DiagramLine>
 		<DocPoint X="5060.3791" Y="1679.7926" />
 		<DocPoint X="4971.2669" Y="1679.7926" />

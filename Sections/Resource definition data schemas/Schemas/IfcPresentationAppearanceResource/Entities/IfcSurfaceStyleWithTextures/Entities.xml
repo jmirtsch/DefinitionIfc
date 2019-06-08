@@ -5,9 +5,7 @@
 		<DocLocalization Name="Surface Style With Textures" Locale="en" />
 		<DocLocalization Name="Style de surface texturée" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3390.13330078125" Y="2525.16658528646" Width="534.666666666667" Height="166.66667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3390.13330078125" Y="2525.16658528646" Width="534.666666666667" Height="166.66667" />
 	<Attributes>
 		<DocAttribute Name="Textures" UniqueId="47570f00-dea1-42d6-bbf4-324f534be07d" DefinedType="IfcSurfaceTexture" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
 			<Documentation>The textures applied to the surface. In case of more than one surface texture is included, the &lt;em&gt;IfcSurfaceStyleWithTexture&lt;/em&gt; defines a multi texture.
@@ -17,9 +15,7 @@
 				<DocPoint X="3556.200035" Y="2691.83325528646" />
 				<DocPoint X="3556.200035" Y="2991.4667" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3556.200035" Y="2971.4667" Width="180" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3556.200035" Y="2971.4667" Width="180" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

@@ -4,9 +4,7 @@
 		<DocLocalization Name="Text Font Select" Locale="en" />
 		<DocLocalization Name="Sélection de police de caractères" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6867.5667" Y="649.63333" Width="316.5" Height="99.966667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="6867.5667" Y="649.63333" Width="316.5" Height="99.966667" />
 	<Selects>
 		<DocSelectItem Name="IfcPreDefinedTextFont" UniqueId="2961cf34-ace2-43c9-95a6-0efffd351def" />
 		<DocSelectItem Name="IfcExternallyDefinedTextFont" UniqueId="1f31b22c-1400-4542-819b-938485ac9ae0" />

@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="99b97486-78b2-4584-afa7-c4809b4f28cd">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcStructuralCurveAction" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcStructuralCurveAction" />
 	<Concepts>
 		<DocTemplateUsage Name="Structural Activity" UniqueId="b325cc34-0fd9-43d7-9e91-7ed0625bff54">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Structural Activity_2JaCfosE98Avc6uE7HNd6K" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Structural_Activity_2JaCfosE98Avc6uE7HNd6K" />
 			<Items>
 				<DocTemplateItem UniqueId="8dec763c-3d90-4c64-a1b6-beda618c60f8" RuleParameters="AppliedLoad=IfcStructuralLoadLinearForce;RelatingElement=IfcStructuralCurveMember;" Order="0">
 					<Documentation>Linear force and moment along a curve member.</Documentation>
@@ -18,8 +14,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="3a3d0432-719f-4df2-83fa-a8932d6d78dc" Type="IfcStructuralCurveAction" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="3db261c1-399c-4a78-bebf-f4fb3161bdd7" Type="IfcStructuralCurveAction" />
 </DocConceptRoot>
 

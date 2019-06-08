@@ -4,8 +4,6 @@
 		<DocLocalization Name="Offene Hüllle" Locale="de" />
 		<DocLocalization Name="Open Shell" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2482.2332" Y="301.48333" Width="203.33333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2482.2332" Y="301.48333" Width="203.33333" Height="100" />
 </DocEntity>
 

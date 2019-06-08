@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2Vg3e$tJT2wgnSqXYF4zpA">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcActor" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcActor" />
 	<Concepts>
 		<DocTemplateUsage UniqueId="1xFsgsgVr6NAgGfY0t8jpm">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="1a65fc6e-525e-4242-be1a-57c63877a6e2" RuleParameters="PsetName=Pset_ActorCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="0c45e152-b4d4-405c-bed6-b016bbbe1a95">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="9b2add35-3b77-4d00-a2de-d988f9cacb2c" RuleParameters="PropertyName=NumberOfActors;Value=IfcCountMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="4e8c0770-7a23-4fe4-9de0-8e549ab409da" RuleParameters="PropertyName=Category;Value=IfcLabel;" Order="0" />
@@ -26,9 +20,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Actor Assignment" UniqueId="2ofWF0amTEDR4IIsrr1QND">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Actor Assignment_04W7d1TDrBsRCmHveKZIEF" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Actor_Assignment_04W7d1TDrBsRCmHveKZIEF" />
 			<Items>
 				<DocTemplateItem UniqueId="a72c37db-758b-411c-8c8f-ea44ec19780f" RuleParameters="Type=IfcControl;" Order="0">
 					<Documentation>Indicates project directives issued by the actor.</Documentation>
@@ -48,8 +40,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="3fa220fe-a4c4-4dd2-9c7c-34ab3889c1ad" Type="IfcActor" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="26ab9e64-efb4-4608-8063-fe8f4fba1299" Type="IfcActor" />
 </DocConceptRoot>
 

@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="bff13bf4-d2ea-4ae3-beae-f0e91fe9ef71">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcZone" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcZone" />
 	<Concepts>
 		<DocTemplateUsage UniqueId="db1ad375-1db7-4493-8c18-98002d2bf379">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="ba3258ce-7d9b-4d2c-b06b-e12e5dfa1185" RuleParameters="PsetName=Pset_ZoneCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="1f499ddd-a257-488f-a684-d8e2a7fcf14f">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="c58d323c-3865-45b7-b9fb-fede207ba3e0" RuleParameters="Order=1;PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="1257aa69-1be8-46b6-ad6e-1ce59408d679" RuleParameters="Order=2;PropertyName=IsExternal;Value=IfcBoolean;" Order="0" />
@@ -77,13 +71,9 @@ applicable, as values of the &lt;em&gt;ObjectType&lt;/em&gt; attribute:&lt;/p&gt
 &lt;li&gt;&lt;b&gt;&apos;RunningDuct&apos;&lt;/b&gt;: A collection of horizontal airspaces.&lt;/li&gt;
 
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Group Assignment_3rPvP$L9D4sQnHatm9h2M3" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Group_Assignment_3rPvPL9D4sQnHatm9h2M3" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="7788f03d-de93-4572-8e9d-cc24cc86e809" Type="IfcZone" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="3d3a3b33-7f07-4cd5-b4ba-2c2a67d3b449" Type="IfcZone" />
 </DocConceptRoot>
 

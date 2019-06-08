@@ -4,9 +4,7 @@
 		<DocLocalization Name="Punktuelle exzentrische Verbindung - Geometrie" Locale="de" />
 		<DocLocalization Name="Connection Point Eccentricity" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2687.0933" Y="439.41333" Width="482.66667" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2687.0933" Y="439.41333" Width="482.66667" Height="100" />
 	<Attributes>
 		<DocAttribute Name="EccentricityInX" UniqueId="586cac5a-095b-42a4-a024-90f9d85b537b" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Distance in x direction between the two points (or vertex points) engaged in the point connection.</Documentation>
@@ -14,9 +12,7 @@
 				<DocPoint X="2699.0933" Y="439.41333" />
 				<DocPoint X="2699.0933" Y="308.08" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2608.426633" Y="455.41333" Width="168" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2608.426633" Y="455.41333" Width="168" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="EccentricityInY" UniqueId="b5d160c7-662e-48ac-ad93-31fc6a900f18" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Distance in y direction between the two points (or vertex points) engaged in the point connection.</Documentation>
@@ -24,9 +20,7 @@
 				<DocPoint X="2928.4266" Y="439.41333" />
 				<DocPoint X="2928.4266" Y="212.08" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2835.093267" Y="458.079997" Width="168" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2835.093267" Y="458.079997" Width="168" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="EccentricityInZ" UniqueId="1d14a083-6900-4deb-9417-32886a4b34b5" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Distance in z direction between the two points (or vertex points) engaged in the point connection.</Documentation>
@@ -34,9 +28,7 @@
 				<DocPoint X="3144.4266" Y="439.41333" />
 				<DocPoint X="3144.4266" Y="122.48" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3051.093267" Y="431.41333" Width="167" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3051.093267" Y="431.41333" Width="167" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

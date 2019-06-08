@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Object Association" UniqueId="1BE5HakPf2lA5weAP7eQjR" Type="IfcObjectDefinition">
 	<Templates>
-		<DocTemplateDefinition id="Classification Association_1A8aO9PNXCTQ$FYl_eRbxo" Name="Classification Association" UniqueId="1A8aO9PNXCTQ$FYl_eRbxo" Type="IfcObjectDefinition">
+		<DocTemplateDefinition id="Classification_Association_1A8aO9PNXCTQFYl_eRbxo" Name="Classification Association" UniqueId="1A8aO9PNXCTQ$FYl_eRbxo" Type="IfcObjectDefinition">
 			<Documentation>&lt;p&gt;The concept &lt;em&gt;Classification Association&lt;/em&gt; describes how objects and object types can be further described by associating references to external sources of information. 
 The source of information can be:
 &lt;/p&gt;
@@ -128,7 +128,7 @@ NOTE&amp;nbsp; The classification system or dictionary server that is used withi
 				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Document Association_1zhQwS02P4qwtdceG$ukyB" Name="Document Association" UniqueId="1zhQwS02P4qwtdceG$ukyB" Type="IfcObjectDefinition">
+		<DocTemplateDefinition id="Document_Association_1zhQwS02P4qwtdceGukyB" Name="Document Association" UniqueId="1zhQwS02P4qwtdceG$ukyB" Type="IfcObjectDefinition">
 			<Documentation>&lt;p&gt;The concept &lt;em&gt;Document Association&lt;/em&gt; describes how objects or object types can have associated documents indicating external files. Documents may be referenced in
  their entirety such as to capture product brochures, data sheets, multimedia content, or thumbnail images. Contents
   within documents may be referenced from any object, and may be used to synchronize information in other files such as
@@ -180,7 +180,7 @@ NOTE&amp;nbsp; The classification system or dictionary server that is used withi
 				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Library Association_0zTXy98w9C0Ol5XsAgahmZ" Name="Library Association" UniqueId="0zTXy98w9C0Ol5XsAgahmZ" Type="IfcObjectDefinition">
+		<DocTemplateDefinition id="Library_Association_0zTXy98w9C0Ol5XsAgahmZ" Name="Library Association" UniqueId="0zTXy98w9C0Ol5XsAgahmZ" Type="IfcObjectDefinition">
 			<Documentation>&lt;p&gt;
 The concept &lt;em&gt;Library Association&lt;/em&gt; describes how object and object types can have associated library entities indicating
  the source of data such as from a model server or product library, or simply enriching the data with more details.
@@ -235,7 +235,7 @@ The concept &lt;em&gt;Library Association&lt;/em&gt; describes how object and ob
 				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Approval Association_1ILX$QGe50dQe7saXJ0YIU" Name="Approval Association" UniqueId="1ILX$QGe50dQe7saXJ0YIU" Type="IfcObjectDefinition">
+		<DocTemplateDefinition id="Approval_Association_1ILXQGe50dQe7saXJ0YIU" Name="Approval Association" UniqueId="1ILX$QGe50dQe7saXJ0YIU" Type="IfcObjectDefinition">
 			<Documentation>&lt;p&gt;The concept &lt;em&gt;Approval Association&lt;/em&gt; describes how object or object types can have associated approvals indicating who is required to approve the data, the status
  of whether it has been approved, and the date/time of such approval. 
 Approvals may require multiple parties fulfilling various roles.
@@ -275,7 +275,7 @@ Approvals may require multiple parties fulfilling various roles.
 				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Constraint Association_30YoPCzyP7dwz$NMHS4mwe" Name="Constraint Association" UniqueId="30YoPCzyP7dwz$NMHS4mwe" Type="IfcObjectDefinition">
+		<DocTemplateDefinition id="Constraint_Association_30YoPCzyP7dwzNMHS4mwe" Name="Constraint Association" UniqueId="30YoPCzyP7dwz$NMHS4mwe" Type="IfcObjectDefinition">
 			<Documentation>&lt;p&gt;
 The concept &lt;em&gt;Constraint Association&lt;/em&gt; describes how object or object types may have associated constraints
  indicating a qualitative objective or a quantitative metric
@@ -490,7 +490,7 @@ overrides the material assigned to object type.
 				</DocModelRuleAttribute>
 			</Rules>
 			<Templates>
-				<DocTemplateDefinition id="Material Single_1VEQWKHA1Fiut6tQe5OFnK" Name="Material Single" UniqueId="1VEQWKHA1Fiut6tQe5OFnK" Type="IfcObjectDefinition">
+				<DocTemplateDefinition id="Material_Single_1VEQWKHA1Fiut6tQe5OFnK" Name="Material Single" UniqueId="1VEQWKHA1Fiut6tQe5OFnK" Type="IfcObjectDefinition">
 					<Documentation>&lt;p&gt;Materials are directly associated with products and product types to indicate a uniform material for the entire object.
 &lt;/p&gt;</Documentation>
 					<Rules>
@@ -502,7 +502,7 @@ overrides the material assigned to object type.
 											<Rules>
 												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcMaterial">
 													<References>
-														<DocTemplateDefinition id="Material_1PXhOQjvz4uAa$dztqSAJX" Name="Material" UniqueId="5986b61a-b79f-44e0-a93f-9fddf470a4e1" Type="IfcMaterial">
+														<DocTemplateDefinition id="Material_1PXhOQjvz4uAadztqSAJX" Name="Material" UniqueId="5986b61a-b79f-44e0-a93f-9fddf470a4e1" Type="IfcMaterial">
 															<Rules>
 																<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="MaterialName">
 																	<Rules>
@@ -531,7 +531,7 @@ overrides the material assigned to object type.
 						</DocModelRuleAttribute>
 					</Rules>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Material Layer Set_3VjREfKED6ueKO7mFdpzY6" Name="Material Layer Set" UniqueId="3VjREfKED6ueKO7mFdpzY6" Type="IfcObjectDefinition">
+				<DocTemplateDefinition id="Material_Layer_Set_3VjREfKED6ueKO7mFdpzY6" Name="Material Layer Set" UniqueId="3VjREfKED6ueKO7mFdpzY6" Type="IfcObjectDefinition">
 					<Documentation>&lt;p&gt;Material layer sets are associated with products or product types to indicate a parametric specification of layers having specified thickness filling a boundary defined on the product, or the occurrences of the product type.  Examples of such products or product types are slabs, walls, and plates.
 &lt;/p&gt;</Documentation>
 					<Rules>
@@ -561,7 +561,7 @@ overrides the material assigned to object type.
 																			<Rules>
 																				<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcMaterial">
 																					<References>
-																						<DocTemplateDefinition xsi:nil="true" href="Material_1PXhOQjvz4uAa$dztqSAJX" />
+																						<DocTemplateDefinition xsi:nil="true" href="Material_1PXhOQjvz4uAadztqSAJX" />
 																					</References>
 																				</DocModelRuleEntity>
 																			</Rules>
@@ -610,7 +610,7 @@ overrides the material assigned to object type.
 						</DocModelRuleAttribute>
 					</Rules>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Material Layer Set Usage_1jNxXlFor9_vKe1tXLtSn7" Name="Material Layer Set Usage" UniqueId="1jNxXlFor9_vKe1tXLtSn7" Type="IfcProduct">
+				<DocTemplateDefinition id="Material_Layer_Set_Usage_1jNxXlFor9_vKe1tXLtSn7" Name="Material Layer Set Usage" UniqueId="1jNxXlFor9_vKe1tXLtSn7" Type="IfcProduct">
 					<Documentation>&lt;p&gt;Material layer set usage defines layout at occurrences to indicate a direction and offset from the &apos;Axis&apos; reference curve, and a reference extent such as for a default wall height.
 &lt;/p&gt;
 
@@ -648,7 +648,7 @@ overrides the material assigned to object type.
 																											<Rules>
 																												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcMaterialDefinitionRepresentation">
 																													<References>
-																														<DocTemplateDefinition id="Material Surface Color Style_1kJbqswZn6rQIGcQl$jECN" Name="Material Surface Color Style" UniqueId="6e4e5d36-ea3c-46d5-a490-99abffb4e317" Type="IfcMaterialDefinitionRepresentation" />
+																														<DocTemplateDefinition id="Material_Surface_Color_Style_1kJbqswZn6rQIGcQljECN" Name="Material Surface Color Style" UniqueId="6e4e5d36-ea3c-46d5-a490-99abffb4e317" Type="IfcMaterialDefinitionRepresentation" />
 																													</References>
 																												</DocModelRuleEntity>
 																											</Rules>
@@ -714,7 +714,7 @@ overrides the material assigned to object type.
 						</DocModelRuleAttribute>
 					</Rules>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Material Profile Set_12Ui1LAd52mgGZSMYVfrnP" Name="Material Profile Set" UniqueId="12Ui1LAd52mgGZSMYVfrnP" Type="IfcObjectDefinition">
+				<DocTemplateDefinition id="Material_Profile_Set_12Ui1LAd52mgGZSMYVfrnP" Name="Material Profile Set" UniqueId="12Ui1LAd52mgGZSMYVfrnP" Type="IfcObjectDefinition">
 					<Documentation>&lt;p&gt;Material profile sets are associated with products or product types where materials are placed in cross-sections of specified dimensions following a path defined at occurrences of the type.  Examples of such products are beams, columns, members, reinforcing, footings, piles, pipe segments, duct segments, and cable segments. 
 &lt;/p&gt;
 &lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; 
@@ -756,7 +756,7 @@ overrides the material assigned to &lt;em&gt;IfcColumnType&lt;/em&gt;.&lt;/block
 																			<Rules>
 																				<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcMaterial">
 																					<References>
-																						<DocTemplateDefinition xsi:nil="true" href="Material_1PXhOQjvz4uAa$dztqSAJX" />
+																						<DocTemplateDefinition xsi:nil="true" href="Material_1PXhOQjvz4uAadztqSAJX" />
 																					</References>
 																				</DocModelRuleEntity>
 																			</Rules>
@@ -813,7 +813,7 @@ overrides the material assigned to &lt;em&gt;IfcColumnType&lt;/em&gt;.&lt;/block
 						</DocModelRuleAttribute>
 					</Rules>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Material Profile Set Usage_1ge1GfjMPBDeTQCM88YfWn" Name="Material Profile Set Usage" UniqueId="1ge1GfjMPBDeTQCM88YfWn" Type="IfcProduct">
+				<DocTemplateDefinition id="Material_Profile_Set_Usage_1ge1GfjMPBDeTQCM88YfWn" Name="Material Profile Set Usage" UniqueId="1ge1GfjMPBDeTQCM88YfWn" Type="IfcProduct">
 					<Documentation>&lt;p&gt;Material profile set usage defines layout at occurrences to indicate the offset from the &apos;Axis&apos; reference curve according to cardinal point, and a reference extent such as for a default column height.
 &lt;/p&gt;
 
@@ -851,7 +851,7 @@ overrides the material assigned to &lt;em&gt;IfcColumnType&lt;/em&gt;.&lt;/block
 																											<Rules>
 																												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcMaterialDefinitionRepresentation">
 																													<References>
-																														<DocTemplateDefinition xsi:nil="true" href="Material Surface Color Style_1kJbqswZn6rQIGcQl$jECN" />
+																														<DocTemplateDefinition xsi:nil="true" href="Material_Surface_Color_Style_1kJbqswZn6rQIGcQljECN" />
 																													</References>
 																												</DocModelRuleEntity>
 																											</Rules>
@@ -916,7 +916,7 @@ overrides the material assigned to &lt;em&gt;IfcColumnType&lt;/em&gt;.&lt;/block
 						</DocModelRuleAttribute>
 					</Rules>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" Name="Material Constituent Set" UniqueId="3PRtzzvq9Dk9jT6ADgRVY4" Type="IfcObjectDefinition">
+				<DocTemplateDefinition id="Material_Constituent_Set_3PRtzzvq9Dk9jT6ADgRVY4" Name="Material Constituent Set" UniqueId="3PRtzzvq9Dk9jT6ADgRVY4" Type="IfcObjectDefinition">
 					<Documentation>&lt;p&gt;Material constituents are associated with products or product types where materials are placed arbitrarily (unlike 1D material profiles or 2D material layers). 
 The mapping of materials to geometry may be accomplished using &lt;i&gt;IfcShapeAspect&lt;/i&gt;.
 &lt;/p&gt;</Documentation>
@@ -947,7 +947,7 @@ The mapping of materials to geometry may be accomplished using &lt;i&gt;IfcShape
 																			<Rules>
 																				<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcMaterial">
 																					<References>
-																						<DocTemplateDefinition xsi:nil="true" href="Material_1PXhOQjvz4uAa$dztqSAJX" />
+																						<DocTemplateDefinition xsi:nil="true" href="Material_1PXhOQjvz4uAadztqSAJX" />
 																					</References>
 																				</DocModelRuleEntity>
 																			</Rules>

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2zXQpjrRLDFe7OoVxabl9E">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcPlateStandardCase" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcPlateStandardCase" />
 	<Concepts>
 		<DocTemplateUsage Name="Material Layer Set Usage" UniqueId="3f6MYAssT6QfeDsqj04scI">
 			<Documentation>&lt;p&gt;The material of the &lt;em&gt;IfcPlateStandardCase&lt;/em&gt; is defined by
@@ -60,9 +58,7 @@ occurrences of this &lt;em&gt;IfcPlateType&lt;/em&gt;.&lt;/p&gt;
 &lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot; width=&quot;610&quot;&gt;&lt;img src=&quot;../../../figures/ifcmateriallayersetusage_slab-01.png&quot; alt=&quot;plate material layer set&quot; width=&quot;601&quot; height=&quot;321&quot; border=&quot;0&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 228 &amp;mdash; Plate material layers&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Layer Set Usage_1jNxXlFor9_vKe1tXLtSn7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Layer_Set_Usage_1jNxXlFor9_vKe1tXLtSn7" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Product Placement" UniqueId="d95d323a-6927-443f-b43e-b6decf804d51">
 			<Documentation>&lt;p&gt;The following restriction is imposed:&lt;/p&gt;
@@ -72,9 +68,7 @@ occurrences of this &lt;em&gt;IfcPlateType&lt;/em&gt;.&lt;/p&gt;
 for the standard plate, the x/y plane is the plane for the 
 profile, and the z-axis is the extrusion axis for the plate body.&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body SweptSolid Geometry" UniqueId="90ca967a-0973-42af-9c29-002011484d1d">
 			<Documentation>&lt;p&gt;The following additional constraints apply to the swept solid
@@ -112,9 +106,7 @@ or non-perpendicularly to the plane of the swept profile.&lt;/li&gt;
  &lt;/tr&gt;
 
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Clipping Geometry" UniqueId="7a2d052c-d51e-4b15-9f74-ef6de89fa06c">
 			<Documentation>&lt;p&gt;The following constraints apply to the &apos;Clipping&apos;
@@ -150,13 +142,9 @@ swept solid (here &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt;) and one or several
  &lt;/tr&gt;
 
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Clipping Geometry_0isyBrcmn3wfqgdNBG57u0" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Clipping_Geometry_0isyBrcmn3wfqgdNBG57u0" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="a46f35d0-4bed-4e51-aabf-4a536837e35c" Type="IfcPlateStandardCase" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="2cbed41f-e839-4f56-94d8-415c5ec067ba" Type="IfcPlateStandardCase" />
 </DocConceptRoot>
 

@@ -5,18 +5,14 @@
 		<DocLocalization Name="Filter" Locale="en" />
 		<DocLocalization Name="Filtre" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2787.799" Y="1955.275" Width="343.8" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2787.799" Y="1955.275" Width="343.8" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="304be249-0ed2-41a4-9f5e-62c0cfecb414" DefinedType="IfcFilterTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
 				<DocPoint X="2787.799" Y="2005.275" />
 				<DocPoint X="2568.63489" Y="2005.275" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2795.8520639" Y="1999.9062907" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2795.8520639" Y="1999.9062907" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

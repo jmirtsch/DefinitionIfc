@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="4afa6a0a-fb68-4761-8d26-06b63d90a21b">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcWall" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcWall" />
 	<Concepts>
 		<DocTemplateUsage Name="Axis 2D Geometry" UniqueId="3e9489c5-4072-40d7-aa68-940455be2576">
 			<Documentation>&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The &apos;Axis&apos; is not used to locate the 
 material layer set, only the subtype &lt;em&gt;IfcWallStandardCase&lt;/em&gt;
 provides this capability.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Axis 2D Geometry_1u94Jere57Mf0qgUVrF6rb" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Axis_2D_Geometry_1u94Jere57Mf0qgUVrF6rb" />
 			<Items>
 				<DocTemplateItem UniqueId="a0f91a34-d50b-4ec2-b9c2-76dd1406d0ec" RuleParameters="Identifier=Axis;Type=Curve2D;Items=IfcBoundedCurve;" Order="0">
 					<Documentation>The wall axis of the wall.</Documentation>
@@ -18,9 +14,7 @@ provides this capability.&lt;/blockquote&gt;</Documentation>
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Path Connectivity" UniqueId="69ecde9e-2199-4690-94b7-eedc1e88a758">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Path Connectivity_1G5mELXyP9BgRydr_42n5F" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Path_Connectivity_1G5mELXyP9BgRydr_42n5F" />
 			<Items>
 				<DocTemplateItem UniqueId="a109a6bc-aaa7-435b-bb22-903ee8280536" RuleParameters="RelatedElement=IfcWall;" Order="0">
 					<Documentation>Walls with equal or lower priority are connected at RelatedElement.</Documentation>
@@ -28,8 +22,6 @@ provides this capability.&lt;/blockquote&gt;</Documentation>
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="7341c21f-91f8-4def-b144-3f0a83bc5e01" Type="IfcWall" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="58d6eb81-60c2-44b1-a00e-7003712bfea3" Type="IfcWall" />
 </DocConceptRoot>
 

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="27ULc5al5BJOUo8DUaco6n">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcFlowSegment" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcFlowSegment" />
 	<Concepts>
 		<DocTemplateUsage Name="Material Profile Set Usage" UniqueId="3cZjuxykH1ehU4isJCTUGj">
 			<Documentation>&lt;p&gt;The material of the &lt;b&gt;IfcFlowSegment&lt;/b&gt; is defined using one of the following entities:&lt;/p&gt;
@@ -20,24 +18,18 @@
 &lt;/ul&gt;
 
 &lt;p&gt;The material is attached by the &lt;em&gt;RelatingMaterial&lt;/em&gt; attribute on the &lt;a href=&quot;../../ifcproductextension/lexical/ifcrelassociatesmaterial.htm&quot;&gt;IfcRelAssociatesMaterial&lt;/a&gt; relationship.  It is accessible by the &lt;em&gt;HasAssociations&lt;/em&gt; inverse attribute.  Material information can also be given at the &lt;a href=&quot;../../ifcsharedbldgserviceelements/lexical/ifcflowsegmenttype.htm&quot;&gt;IfcFlowSegmentType&lt;/a&gt;, defining the common attribute data for all occurrences of the same type.  Standard names and material types are defined at subtypes.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set Usage_1ge1GfjMPBDeTQCM88YfWn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Profile_Set_Usage_1ge1GfjMPBDeTQCM88YfWn" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Axis Geometry" UniqueId="1edaUF5x1AuOHXlKG996k1">
 			<Documentation>&lt;p&gt;
 Standard representations are defined at the supertype &lt;em&gt;IfcDistributionFlowElement&lt;/em&gt;.  For parametric flow segments where &lt;a href=&quot;../../ifcmaterialresource/lexical/ifcmaterialprofilesetusage.htm&quot;&gt;IfcMaterialProfileSetUsage&lt;/a&gt; is defined and an &apos;Axis&apos; representation is defined, then the &apos;Body&apos; representation may be generated using the &apos;SweptSolid&apos; or &apos;AdvancedSweptSolid&apos; representation types by sweeping the profile(s) along the axis.
 &lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Axis Geometry_0xznRVEP1B$815da0HoROY" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Axis_Geometry_0xznRVEP1B815da0HoROY" />
 			<Items>
 				<DocTemplateItem UniqueId="2eef2a69-a8dc-4c61-b7eb-8ae022a1c8d9" RuleParameters="RepresentationType=Curve3D;Geometry=IfcBoundedCurve;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="38d15f66-3d42-429c-8a9a-c267690165f5" Type="IfcFlowSegment" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="5e16b608-7fc8-4d25-8408-81276248c537" Type="IfcFlowSegment" />
 </DocConceptRoot>
 

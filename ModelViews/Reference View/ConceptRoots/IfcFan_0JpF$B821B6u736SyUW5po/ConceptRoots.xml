@@ -1,40 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="13ccffcb-2020-4b1b-81c3-19cf1e805cf2">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcFan" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcFan" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="0277d569-34b4-46c2-9d2a-610a7adf0403">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="a9e03556-09a8-4a93-beb0-c562e51c3e59" RuleParameters="RelatingType=IfcFanType;" Order="0" />
 			</Items>
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="49529be7-677a-4caa-b174-8b02c23be24f">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="a64798a7-a061-4cbd-9561-7dcc0323ac6a" RuleParameters="PsetName=Pset_FanOccurrence;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="6b208548-ab57-41a2-81f1-5bf509ec24b6">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="4d01989b-e4c9-4b1d-b416-a424a65740ed" RuleParameters="Order=1;PropertyName=DischargeType;Value=IfcLabel;Reference=PEnum_FanDischargeType;" Order="0" />
 								<DocTemplateItem UniqueId="ab145129-56ba-425e-b44c-7af5dc9cec5e" RuleParameters="Order=2;PropertyName=ApplicationOfFan;Value=IfcLabel;Reference=PEnum_FanApplicationType;" Order="0" />
@@ -44,9 +32,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="b706c78f-e54c-4e05-ac7d-7b86d14e00ed">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="bd3fc55f-9749-40f3-b545-5d75b340ffd8" RuleParameters="Order=6;PropertyName=FractionOfMotorHeatToAirStream;Value=IfcNormalisedRatioMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="00f0f3c2-eab8-4705-8b16-29dbbf169c86" RuleParameters="Order=7;PropertyName=ImpellerDiameter;Value=IfcPositiveLengthMeasure;" Order="0" />
@@ -57,9 +43,7 @@
 				<DocTemplateItem UniqueId="524600a1-09d7-4bdb-b599-166df1a5e582" RuleParameters="PsetName=Pset_FanTypeCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="45d72923-d1e7-477f-b6a4-2d11f921b69b">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="cfbbb86d-28f3-4f41-bd9d-2a8347fee999" RuleParameters="Order=1;PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="06d30c58-3a25-4148-acf6-4486a4558ed9" RuleParameters="Order=6;PropertyName=NominalAirFlowRate;Value=IfcVolumetricFlowRateMeasure;" Order="0" />
@@ -71,9 +55,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="ba4c49e1-0eae-4514-9b44-272c369ef001">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="61a044a5-8f72-48fc-aca1-c2e82a712999" RuleParameters="Order=2;PropertyName=Status;Value=IfcLabel;Reference=PEnum_ElementStatus;" Order="0" />
 								<DocTemplateItem UniqueId="505a994b-0e23-4e7c-bd59-5e8191303ed5" RuleParameters="Order=3;PropertyName=MotorDriveType;Value=IfcLabel;Reference=PEnum_FanMotorConnectionType;" Order="0" />
@@ -81,17 +63,13 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="aa2826df-f5d5-4e8e-9147-033b3f33068b">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Bounded_Value_0zPwBITXr4sQ2Ujkn_bOo" />
 							<Items>
 								<DocTemplateItem UniqueId="4c913426-e725-4f2d-8e21-388b56328b50" RuleParameters="Order=5;PropertyName=OperationTemperatureRange;SetValue=IfcThermodynamicTemperatureMeasure;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="8b883a24-99fc-45e6-ba1a-037060578c1c">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Table Value_0roKUmQhnB4ux7QMxo11SX" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Table_Value_0roKUmQhnB4ux7QMxo11SX" />
 							<Items>
 								<DocTemplateItem UniqueId="c6dcc770-fbd0-472c-b65f-8216030dadf1" RuleParameters="Order=12;PropertyName=PressureCurve;Value=IfcVolumetricFlowRateMeasure;Reference=IfcPressureMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="1449edcf-7dcc-40a4-bce6-120cad4cb50b" RuleParameters="Order=13;PropertyName=EfficiencyCurve;Value=IfcVolumetricFlowRateMeasure;Reference=IfcNormalisedRatioMeasure;" Order="0" />
@@ -102,16 +80,12 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="7cabea22-c647-4cb7-b187-a033a465cf70">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="959fa40b-8c28-47e6-b8f2-aa95e22daf9e" RuleParameters="QsetName=Qto_FanBaseQuantities;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Quantities" UniqueId="ad0c09b5-85ba-4d30-8356-24fd1ad0b280">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Weight Quantity_3X0MvMF8bFGfPv1_7RF0hx" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Weight_Quantity_3X0MvMF8bFGfPv1_7RF0hx" />
 							<Items>
 								<DocTemplateItem UniqueId="199be181-5867-4f81-8758-7af29a180791" RuleParameters="Order=1;QuantityName=GrossWeight;" Order="0" />
 							</Items>
@@ -121,8 +95,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="975f4f15-96a8-45b9-8e5f-130f61d0d71f" Type="IfcFan" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="542cb48b-0d5e-4e86-88fb-8af9debe59a9" Type="IfcFan" />
 </DocConceptRoot>
 

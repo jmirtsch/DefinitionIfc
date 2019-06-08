@@ -5,9 +5,7 @@
 		<DocLocalization Name="Work Time" Locale="en" />
 		<DocLocalization Name="Période de travail" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1649.23315429688" Y="1603.236328125" Width="237.833353678385" Height="298.505625406901" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1649.23315429688" Y="1603.236328125" Width="237.833353678385" Height="298.505625406901" />
 	<Attributes>
 		<DocAttribute Name="RecurrencePattern" UniqueId="7d696598-d758-492c-ab43-acf0f3375ec6" DefinedType="IfcRecurrencePattern" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Recurrence pattern that defines a time period, which, if given, is
@@ -18,9 +16,7 @@
 				<DocPoint X="1887.06650797526" Y="2053.6072845459" />
 				<DocPoint X="2169.81762695313" Y="2053.6072845459" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1887.06650797526" Y="2033.6072845459" Width="215" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1887.06650797526" Y="2033.6072845459" Width="215" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Start" UniqueId="67de30f4-67c3-4e5b-bc64-1614203b10bc" DefinedType="IfcDate" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Start date of the work time (0:00), that might be further
@@ -30,9 +26,7 @@
 				<DocPoint X="1887.06650797527" Y="1681.77592213949" />
 				<DocPoint X="1981.27807617188" Y="1681.77592213949" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1887.06650797527" Y="1661.77592213949" Width="59" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1887.06650797527" Y="1661.77592213949" Width="59" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Finish" UniqueId="9833d9fd-4211-42fd-a696-7119de15d437" DefinedType="IfcDate" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>End date of the work time (24:00), that might be further
@@ -42,9 +36,7 @@
 				<DocPoint X="1887.06650797527" Y="1726.7552134196" />
 				<DocPoint X="1981.27807617188" Y="1726.7552134196" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1887.06650797527" Y="1706.7552134196" Width="72" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1887.06650797527" Y="1706.7552134196" Width="72" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

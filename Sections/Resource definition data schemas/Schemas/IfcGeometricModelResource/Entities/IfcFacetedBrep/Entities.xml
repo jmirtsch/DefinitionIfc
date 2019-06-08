@@ -4,9 +4,7 @@
 		<DocLocalization Name="Facettierte Boundary Representation" Locale="de" />
 		<DocLocalization Name="Faceted Brep" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="10670.716" Y="583.88017" Width="312" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="10670.716" Y="583.88017" Width="312" Height="100" />
 	<Subtypes>
 		<DocSubtype UniqueId="4bcadb55-99b8-4a05-8ba9-30c47bc7d96c" DefinedType="IfcFacetedBrepWithVoids" />
 	</Subtypes>

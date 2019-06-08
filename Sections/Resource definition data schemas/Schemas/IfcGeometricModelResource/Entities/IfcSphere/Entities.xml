@@ -5,9 +5,7 @@
 		<DocLocalization Name="Sphere" Locale="en" />
 		<DocLocalization Name="Sphère" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2047.5333" Y="1507.3667" Width="256.66667" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2047.5333" Y="1507.3667" Width="256.66667" Height="100" />
 	<Attributes>
 		<DocAttribute Name="Radius" UniqueId="f2c191d1-bda8-4116-980c-18cb4d6e9402" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The radius of the sphere.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="2304.2" Y="1557.3667" />
 				<DocPoint X="2681.0333" Y="1557.3667" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2304.2" Y="1547.3667" Width="84" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2304.2" Y="1547.3667" Width="84" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

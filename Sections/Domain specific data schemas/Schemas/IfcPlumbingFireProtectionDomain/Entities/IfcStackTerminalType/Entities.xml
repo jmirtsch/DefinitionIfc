@@ -4,9 +4,7 @@
 		<DocLocalization Name="Rohrabdeckung - Typ" Locale="de" />
 		<DocLocalization Name="Stack Terminal Type" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="75.760007" Y="890.21336" Width="649.96666" Height="110.66667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="75.760007" Y="890.21336" Width="649.96666" Height="110.66667" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="b0fb0a3f-e933-441c-9baa-d10bb7df2f4d" DefinedType="IfcStackTerminalTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>&lt;p&gt;Identifies the predefined types of stack terminal from which the type required may be set.&lt;/p&gt;</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="80.546942" Y="1056.6133" />
 				<DocPoint X="494.293362" Y="1056.6133" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="-22.326268" Y="1052.7299833" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="-22.326268" Y="1052.7299833" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

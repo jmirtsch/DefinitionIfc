@@ -5,8 +5,6 @@
 		<DocLocalization Name="Quantity Set" Locale="en" />
 		<DocLocalization Name="Ensemble de quantités" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2770.6667" Y="1677.1533" Width="245.33333" Height="124" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2770.6667" Y="1677.1533" Width="245.33333" Height="124" />
 </DocEntity>
 

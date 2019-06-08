@@ -5,9 +5,7 @@
 		<DocLocalization Name="Rel Decomposes" Locale="en" />
 		<DocLocalization Name="Décomposition" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="8163.9393" Y="1279.6699" Width="454.03333" Height="108.16667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="8163.9393" Y="1279.6699" Width="454.03333" Height="108.16667" />
 	<Subtypes>
 		<DocSubtype UniqueId="d0d3f9b0-c70b-4566-995d-201dee377f59" DefinedType="IfcRelAggregates" />
 		<DocSubtype UniqueId="84a7a8c7-c2a7-4cb9-9508-b80e51dc445f" DefinedType="IfcRelNests" />

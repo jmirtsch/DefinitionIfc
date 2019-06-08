@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3JtVUSsLX95xdHseGLmijG">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcBuilding" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcBuilding" />
 	<Concepts>
 		<DocTemplateUsage Name="Spatial Composition" UniqueId="8740d919-7bb6-45f5-9150-329cbc0a2e5d">
 			<Documentation>&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; By using the inverse relationship &lt;em&gt;IfcBuilding.Decomposes&lt;/em&gt; it references &lt;em&gt;IfcProject&lt;/em&gt; || &lt;em&gt;IfcSite&lt;/em&gt; || &lt;em&gt;IfcBuilding&lt;/em&gt; through &lt;em&gt;IfcRelAggregates.RelatingObject&lt;/em&gt;. If it refers to another instance of &lt;em&gt;IfcBuilding&lt;/em&gt;, the referenced &lt;em&gt;IfcBuilding&lt;/em&gt; needs to have a different and higher &lt;em&gt;CompositionType&lt;/em&gt;, i.e. COMPLEX (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has ELEMENT), or 
 ELEMENT (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has PARTIAL).&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Composition_2C3zBtSRjERe$R30ApKl5A" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Composition_2C3zBtSRjEReR30ApKl5A" />
 			<Items>
 				<DocTemplateItem UniqueId="ff632d2a-0b96-4255-bcb8-667a41f5fd38" RuleParameters="Spatial Composite=IfcProject;" Order="0">
 					<Documentation>Direct assignment to project, if the building is the outermost spatial container, and no site information is provided for building projects</Documentation>
@@ -28,9 +24,7 @@ ELEMENT (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has PARTIAL).&lt;/blockqu
 If it refers to another instance of&amp;nbsp;&lt;em&gt;IfcBuilding&lt;/em&gt;, the referenced &lt;em&gt;IfcBuilding&lt;/em&gt; needs 
 to have a different and lower &lt;em&gt;CompositionType&lt;/em&gt;, i.e. ELEMENT (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; 
 has COMPLEX), or PARTIAL (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has ELEMENT).&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Decomposition_1cVuH3xCvAZQO$an_h15FW" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Decomposition_1cVuH3xCvAZQOan_h15FW" />
 			<Items>
 				<DocTemplateItem UniqueId="982c92b5-b487-4eb9-8073-f0887d07da7d" RuleParameters="Spatial Parts=IfcBuildingStorey;" Order="0">
 					<Documentation>Spatial decomposition into building stories.</Documentation>
@@ -49,9 +43,7 @@ has COMPLEX), or PARTIAL (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has ELEM
  &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Container_1XtGZj$G59LPCtYlqeIWvl" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Container_1XtGZjG59LPCtYlqeIWvl" />
 			<Items>
 				<DocTemplateItem UniqueId="382c1d9b-aad7-4cde-92dd-d29e983f7b77" RuleParameters="Contained elements=IfcElement;" Order="0">
 					<Documentation>Physical elements contained in the building.</Documentation>
@@ -65,16 +57,12 @@ has COMPLEX), or PARTIAL (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has ELEM
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="01ZfvpEVP3AewpWFfnmZfY">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="dcace262-2e3a-4a0f-b90a-c8bbf29afe19" RuleParameters="PsetName=Pset_BuildingCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="e7627abc-dbbf-4747-ae48-f8a72f801a74">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="51af0263-f8e2-4023-8d1b-a3e24abebd58" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="6181c70c-e584-4fca-940c-e4b99676b8da" RuleParameters="PropertyName=BuildingID;Value=IfcIdentifier;" Order="0" />
@@ -97,9 +85,7 @@ has COMPLEX), or PARTIAL (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has ELEM
 				<DocTemplateItem UniqueId="8f4b6c29-4e0c-49d2-9ed4-842fce955bfe" RuleParameters="PsetName=Pset_BuildingUse;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="271b4bb2-3cf3-460b-8351-4659a2ef86c4">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="113561c7-2fac-4ba5-a7cc-698767699918" RuleParameters="PropertyName=MarketCategory;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="84564fe7-c511-4e1b-887d-5c597f367c4c" RuleParameters="PropertyName=MarketSubCategory;Value=IfcLabel;" Order="0" />
@@ -110,9 +96,7 @@ has COMPLEX), or PARTIAL (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has ELEM
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="0dad40f9-333a-41da-811a-698204647480">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Bounded_Value_0zPwBITXr4sQ2Ujkn_bOo" />
 							<Items>
 								<DocTemplateItem UniqueId="37d1d957-83ae-471e-bc84-1aac2d75f691" RuleParameters="PropertyName=RentalRatesInCategoryNow;SetValue=IfcMonetaryMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="da03fbc8-fb91-4c0a-a360-c33d63a92a6e" RuleParameters="PropertyName=RentalRatesInCategoryFuture;SetValue=IfcMonetaryMeasure;" Order="0" />
@@ -123,9 +107,7 @@ has COMPLEX), or PARTIAL (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has ELEM
 				<DocTemplateItem UniqueId="6d7e84b2-41ed-4b67-b36b-26d5fbeba528" RuleParameters="PsetName=Pset_BuildingUseAdjacent;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="55dcfe2d-0ed5-4ffd-aa60-33b9d0b1f74c">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="3cae13cd-73f5-4b35-8d9f-190d7cc89477" RuleParameters="PropertyName=MarketCategory;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="26f7ceaf-f4bc-48fe-a0e1-583e9860a3a6" RuleParameters="PropertyName=MarketSubCategory;Value=IfcLabel;" Order="0" />
@@ -138,9 +120,7 @@ has COMPLEX), or PARTIAL (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has ELEM
 				<DocTemplateItem UniqueId="d6ce44f1-4afa-4a81-af49-75458098aadc" RuleParameters="PsetName=Pset_OutsideDesignCriteria;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="f6874f83-67bb-4f90-b279-3c725db3de8d">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="47debc71-5632-4c09-a524-ba2f52d13b8a" RuleParameters="PropertyName=HeatingDryBulb;Value=IfcThermodynamicTemperatureMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="097240af-2fd7-468c-a85d-06d6527a5b87" RuleParameters="PropertyName=HeatingWetBulb;Value=IfcThermodynamicTemperatureMeasure;" Order="0" />
@@ -155,9 +135,7 @@ has COMPLEX), or PARTIAL (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has ELEM
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="ce0c99e5-92ad-4fbe-b74d-544fa1e1dd29">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="a8d97ad2-bc25-4c81-9dff-0b4950b5b827" RuleParameters="PropertyName=BuildingThermalExposure;Value=IfcLabel;" Order="0" />
 							</Items>
@@ -167,9 +145,7 @@ has COMPLEX), or PARTIAL (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has ELEM
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Quantity Sets" UniqueId="18zEPoIH91JwbivxMtvVA$">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="95126886-822d-4a15-956c-4215969622f0" RuleParameters="QsetName=Qto_BuildingBaseQuantities;TemplateType=QTO_OCCURRENCEDRIVEN;" Order="0" />
 			</Items>
@@ -193,9 +169,7 @@ has COMPLEX), or PARTIAL (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has ELEM
       placement is defined within the world coordinate system.
       &lt;/li&gt;
     &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="FootPrint GeomSet Geometry" UniqueId="7c219577-fe60-4218-bc2e-790c653387f9">
 			<Documentation>&lt;p&gt;
@@ -207,9 +181,7 @@ has COMPLEX), or PARTIAL (if the other &lt;em&gt;IfcBuilding&lt;/em&gt; has ELEM
 &lt;/p&gt;
 
 &lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The independent geometric representation of &lt;em&gt;IfcBuilding&lt;/em&gt; may not be allowed in certain model view definitions. In those cases only the contained elements and spaces have an independent geometric representation.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="FootPrint GeomSet Geometry_2KLjRMfYf8jBh$lYuukgoS" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="FootPrint_GeomSet_Geometry_2KLjRMfYf8jBhlYuukgoS" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Geometry" UniqueId="1YCBVpcP55uPU1kjP2kBpX">
 			<Documentation>&lt;p&gt;
@@ -225,13 +197,9 @@ The body (or solid model) geometric representation (if the
  exterior building elements, an independent shape representation 
 shall only be given, if the building is exposed 
 independently from its constituting elements and such independent geometric representation may be prohibited in model view definitions.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Geometry_34HhqMBUDBbxDFH4Qi2wt2" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Geometry_34HhqMBUDBbxDFH4Qi2wt2" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="0c0bb2a2-17e5-41cd-a6af-2016443e97e7" Type="IfcBuilding" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="6a377368-7207-4196-8ec2-ebe5a3b4522c" Type="IfcBuilding" />
 </DocConceptRoot>
 

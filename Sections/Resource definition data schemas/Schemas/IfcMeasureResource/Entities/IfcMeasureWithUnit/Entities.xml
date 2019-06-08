@@ -5,9 +5,7 @@
 		<DocLocalization Name="Measure With Unit" Locale="en" />
 		<DocLocalization Name="Mesure avec unité" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1794.6613" Y="387.08601" Width="379.66667" Height="144.29798" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1794.6613" Y="387.08601" Width="379.66667" Height="144.29798" />
 	<Attributes>
 		<DocAttribute Name="ValueComponent" UniqueId="479106c8-2fd8-47ea-b8d8-b7c2b4500827" DefinedType="IfcValue" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The value of the physical quantity when expressed in the specified units.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="2174.328" Y="415.83653" />
 				<DocPoint X="2496.08669" Y="415.83653" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2176.8154647" Y="403.399207" Width="199" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2176.8154647" Y="403.399207" Width="199" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="UnitComponent" UniqueId="0b956010-ecb4-40fe-abb6-f9f75898b3f4" DefinedType="IfcUnit" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The unit in which the physical quantity is expressed.</Documentation>
@@ -25,9 +21,7 @@
 				<DocPoint X="2174.328" Y="499.53359" />
 				<DocPoint X="2496.00152" Y="499.53359" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2174.328" Y="484.034133" Width="180" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2174.328" Y="484.034133" Width="180" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

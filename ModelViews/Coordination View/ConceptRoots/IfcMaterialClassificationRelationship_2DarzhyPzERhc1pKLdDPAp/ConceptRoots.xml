@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="8d935f6b-f19f-4e6e-b981-cd45673592b3">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcMaterialClassificationRelationship" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="25f78d07-11fd-4a78-9e8a-13ccc96ec4d1" Type="IfcMaterialClassificationRelationship" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcMaterialClassificationRelationship" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="547520e6-15ff-4db8-9026-78cc24cf312d" Type="IfcMaterialClassificationRelationship" />
 </DocConceptRoot>
 

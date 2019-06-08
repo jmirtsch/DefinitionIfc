@@ -3,9 +3,7 @@
 	<Localization>
 		<DocLocalization Name="Surface Style Element Select" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="36.226682027181" Y="2778.87996419271" Width="364.13333" Height="124.33333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="36.226682027181" Y="2778.87996419271" Width="364.13333" Height="124.33333" />
 	<Selects>
 		<DocSelectItem Name="IfcSurfaceStyleShading" UniqueId="8f28c842-fd3f-45a1-a599-5f81c90493c9" />
 		<DocSelectItem Name="IfcSurfaceStyleLighting" UniqueId="813a7d6a-b479-4e7c-b05d-60c73a6691f3" />

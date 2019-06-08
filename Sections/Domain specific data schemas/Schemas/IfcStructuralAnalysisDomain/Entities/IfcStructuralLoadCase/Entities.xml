@@ -4,9 +4,7 @@
 		<DocLocalization Name="Lastfall" Locale="de" />
 		<DocLocalization Name="Structural Load Case" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="121.7813" Y="2132.8626" Width="214.19474" Height="145.42317" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="121.7813" Y="2132.8626" Width="214.19474" Height="145.42317" />
 	<Attributes>
 		<DocAttribute Name="SelfWeightCoefficients" UniqueId="4ba882d2-5521-43ac-909e-201ef5a200ad" DefinedType="IfcRatioMeasure" AttributeFlags="1" AggregationType="1" AggregationFlag="0" AggregationLower="3" AggregationUpper="3">
 			<Documentation>The self weight coefficients specify ratios at which loads due to weight of members shall be included in the load case.  These loads are not explicitly modeled as instances of &lt;em&gt;IfcStructuralAction&lt;/em&gt;.  Instead they shall be calculated according to geometry, section, and material of each member.
@@ -18,9 +16,7 @@
 				<DocPoint X="335.97604" Y="2205.6769" />
 				<DocPoint X="738.88297" Y="2205.6769" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="340.3879722" Y="2190.123519" Width="332" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="340.3879722" Y="2190.123519" Width="332" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

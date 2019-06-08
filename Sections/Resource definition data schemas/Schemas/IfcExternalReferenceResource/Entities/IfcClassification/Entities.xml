@@ -5,9 +5,7 @@
 		<DocLocalization Name="Classification" Locale="en" />
 		<DocLocalization Name="Classification" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1979.4373" Y="1248.4272" Width="411.16667" Height="726.49999" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1979.4373" Y="1248.4272" Width="411.16667" Height="726.49999" />
 	<Attributes>
 		<DocAttribute Name="Source" UniqueId="9e6953d3-314a-47fc-b390-73bf49075875" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Source (or publisher) for this classification.
@@ -16,9 +14,7 @@
 				<DocPoint X="2390.604" Y="1702.6384" />
 				<DocPoint X="2796.67066" Y="1702.6384" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2307.312316" Y="1691.229541" Width="85" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2307.312316" Y="1691.229541" Width="85" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Edition" UniqueId="d1895997-09d2-4095-803d-a71ad237c6de" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The edition or version of the classification system from which the classification notation is derived.
@@ -28,9 +24,7 @@
 				<DocPoint X="2390.604" Y="1494.3438" />
 				<DocPoint X="2796.6707" Y="1494.3438" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2306.978983" Y="1483.443274" Width="82" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2306.978983" Y="1483.443274" Width="82" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="EditionDate" UniqueId="f59698df-a014-4cac-9b67-5ca649051dfa" DefinedType="IfcDate" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The date on which the edition of the classification used became valid.
@@ -40,9 +34,7 @@
 				<DocPoint X="2390.604" Y="1595.6772" />
 				<DocPoint X="2796.63733" Y="1595.6772" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2331.937333" Y="1587.6771997" Width="135" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2331.937333" Y="1587.6771997" Width="135" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Name" UniqueId="85cb5672-fa71-455e-b1ab-7ab4259f6b9c" DefinedType="IfcLabel" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The name or label by which the classification used is normally known.
@@ -51,9 +43,7 @@
 				<DocPoint X="2390.604" Y="1281.0105" />
 				<DocPoint X="2796.60403" Y="1281.0105" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2301.510086" Y="1269.577684" Width="73" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2301.510086" Y="1269.577684" Width="73" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Description" UniqueId="60678a0a-cb22-4814-a99e-b13fb1a3eb07" DefinedType="IfcText" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Additional description provided for the classification.
@@ -64,9 +54,7 @@
 				<DocPoint X="2390.604" Y="1385.0105" />
 				<DocPoint X="2796.504" Y="1385.0105" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2329.407658" Y="1373.873" Width="130" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2329.407658" Y="1373.873" Width="130" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Location" UniqueId="420c7a7d-5921-456f-b645-20a0b62bf121" DefinedType="IfcURIReference" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Resource identifier or locator, provided as URI, URN or URL, of the classification.  
@@ -75,9 +63,7 @@
 				<DocPoint X="2390.604" Y="1803.3634" />
 				<DocPoint X="2796.61863" Y="1803.3634" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2318.687347" Y="1789.696729" Width="101" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2318.687347" Y="1789.696729" Width="101" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ReferenceTokens" UniqueId="fa9292d9-ac78-4c50-9cca-c5c5171cdbe1" DefinedType="IfcIdentifier" AttributeFlags="1" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0" XsdFormat="element">
 			<Documentation>The delimiter tokens that are used to mark the boundaries of individual facets (substrings) in a classification reference.
@@ -97,9 +83,7 @@ EXAMPLE&amp;nbsp;2 The use of &lt;em&gt;ReferenceTokens&lt;/em&gt; can also be e
 				<DocPoint X="2390.604" Y="1905.6721" />
 				<DocPoint X="2796.7" Y="1905.6721" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2411.286315" Y="1899.657604" Width="280" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2411.286315" Y="1899.657604" Width="280" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ClassificationForObjects" UniqueId="4d93c948-effe-49fa-b9d7-d6aaae000629" DefinedType="IfcRelAssociatesClassification" AttributeFlags="32" AggregationType="3" AggregationFlag="0" Inverse="RelatingClassification">
 			<Documentation>The classification with which objects are associated.
@@ -108,9 +92,7 @@ EXAMPLE&amp;nbsp;2 The use of &lt;em&gt;ReferenceTokens&lt;/em&gt; can also be e
 				<DocPoint X="2057.0207" Y="1974.9272" />
 				<DocPoint X="2057.0207" Y="2121.76054" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1830.354" Y="1940.1772" Width="414" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1830.354" Y="1940.1772" Width="414" Height="70" />
 		</DocAttribute>
 		<DocAttribute Name="HasReferences" UniqueId="35467369-dd27-41ae-99ba-466f5c1e23ab" DefinedType="IfcClassificationReference" AttributeFlags="0" AggregationType="3" AggregationFlag="0" Inverse="ReferencedSource" XsdFormat="element">
 			<Documentation>The classification references to which the classification applies. It can either be the final classification notation, or an intermediate classification item.</Documentation>
@@ -118,9 +100,7 @@ EXAMPLE&amp;nbsp;2 The use of &lt;em&gt;ReferenceTokens&lt;/em&gt; can also be e
 				<DocPoint X="2161.0206" Y="1248.4272" />
 				<DocPoint X="2161.0206" Y="825.1271" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2434.34561" Y="1326.098637" Width="515" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2434.34561" Y="1326.098637" Width="515" Height="70" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

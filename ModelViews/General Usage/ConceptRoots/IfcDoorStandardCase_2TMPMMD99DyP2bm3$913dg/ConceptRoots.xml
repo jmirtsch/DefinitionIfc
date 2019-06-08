@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2TMPMMD99DyP2bm3$913dg">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcDoorStandardCase" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcDoorStandardCase" />
 	<Concepts>
 		<DocTemplateUsage Name="Profile 3D Geometry" UniqueId="0d95222e-eff2-45ae-ad74-8102ad593373">
 			<Documentation>&lt;p&gt;The door profile is represented by a three-dimensional closed
@@ -89,13 +87,9 @@ height. Distance to the centre line of the transom.&lt;/li&gt;
  &lt;/tr&gt;
 
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Profile 3D Geometry_0TYN8WT0r7avgDNITqnxm0" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Profile_3D_Geometry_0TYN8WT0r7avgDNITqnxm0" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="e73430c5-7e3f-4716-b04c-b67d1b7672a4" Type="IfcDoorStandardCase" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="19722a53-03c5-4032-8a79-4b05e19cad38" Type="IfcDoorStandardCase" />
 </DocConceptRoot>
 

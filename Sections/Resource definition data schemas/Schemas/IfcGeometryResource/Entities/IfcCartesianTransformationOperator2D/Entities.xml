@@ -5,9 +5,7 @@
 		<DocLocalization Name="Cartesian Transformation Operator2 D" Locale="en" />
 		<DocLocalization Name="Opérateur 2D de transformation cartésienne" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5004.8985" Y="893.36812" Width="440.53334" Height="120" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="5004.8985" Y="893.36812" Width="440.53334" Height="120" />
 	<Subtypes>
 		<DocSubtype UniqueId="aadf18f6-e0d6-4db6-9087-3037f9496a77" DefinedType="IfcCartesianTransformationOperator2DnonUniform" />
 	</Subtypes>
@@ -20,9 +18,7 @@ SELF\IfcCartesianTransformationOperator.Axis2,?)</Derived>
 				<DocPoint X="5053.6884" Y="1013.3681" />
 				<DocPoint X="5053.6884" Y="1110.701297" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="4950.35506" Y="1023.3681" Width="177" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="4950.35506" Y="1023.3681" Width="177" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

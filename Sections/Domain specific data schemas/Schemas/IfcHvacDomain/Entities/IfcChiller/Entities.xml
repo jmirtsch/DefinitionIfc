@@ -5,18 +5,14 @@
 		<DocLocalization Name="Chiller" Locale="en" />
 		<DocLocalization Name="Refroidisseur" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1220.3618" Y="762.43144" Width="334.1" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1220.3618" Y="762.43144" Width="334.1" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="5d8d2c02-2623-4b2a-a2a1-aa3082ea2b91" DefinedType="IfcChillerTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
 				<DocPoint X="1220.3618" Y="812.43144" />
 				<DocPoint X="1008.18646" Y="812.43144" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1220.3618" Y="812.43144" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1220.3618" Y="812.43144" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Stair Flight Type" Locale="en" />
 		<DocLocalization Name="Volée d&apos;escalier type" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3629.65" Y="1185.9083" Width="326.63333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3629.65" Y="1185.9083" Width="326.63333" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="98a534c4-1869-4ab9-bce9-09a9d58b35de" DefinedType="IfcStairFlightTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of a stair flight element from which the type required may be set.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="3956.28333" Y="1237.2666665" />
 				<DocPoint X="4184.6333" Y="1237.2666665" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3956.28333" Y="1217.2666665" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3956.28333" Y="1217.2666665" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

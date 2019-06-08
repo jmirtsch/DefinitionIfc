@@ -5,18 +5,14 @@
 		<DocLocalization Name="Distribution Chamber Element" Locale="en" />
 		<DocLocalization Name="Elément de chambre de distribution" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="180.07956" Y="1062.9358" Width="518.43546" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="180.07956" Y="1062.9358" Width="518.43546" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="a495b02a-3151-4111-88a8-f27d4e85c9bf" DefinedType="IfcDistributionChamberElementTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
 				<DocPoint X="698.51502" Y="1112.9358" />
 				<DocPoint X="939.97427" Y="1112.9358" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="705.2590714" Y="1094.480862" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="705.2590714" Y="1094.480862" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

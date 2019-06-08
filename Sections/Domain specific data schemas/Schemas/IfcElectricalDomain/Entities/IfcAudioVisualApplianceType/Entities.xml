@@ -5,9 +5,7 @@
 		<DocLocalization Name="Audio Visual Appliance Type" Locale="en" />
 		<DocLocalization Name="Type d&apos;appareil audiovisuel" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="85.1467" Y="1120.7133" Width="679.86667" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="85.1467" Y="1120.7133" Width="679.86667" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="5174e2c3-82a6-43e1-a485-103834820e30" DefinedType="IfcAudioVisualApplianceTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>&lt;p&gt;Identifies the predefined types of audio-visual appliance from which the type required may be set.&lt;/p&gt;</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="89.080035" Y="1268.8133" />
 				<DocPoint X="497.846645" Y="1268.8133" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="-2.636601" Y="1265.2299667" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="-2.636601" Y="1265.2299667" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

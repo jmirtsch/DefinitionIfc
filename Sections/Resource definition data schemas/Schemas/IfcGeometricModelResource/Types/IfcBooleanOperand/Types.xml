@@ -5,9 +5,7 @@
 		<DocLocalization Name="Boolean Operand" Locale="en" />
 		<DocLocalization Name="Opérande booléen" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2690.46923828125" Y="1920.693359375" Width="292.33333" Height="82" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2690.46923828125" Y="1920.693359375" Width="292.33333" Height="82" />
 	<Selects>
 		<DocSelectItem Name="IfcSolidModel" UniqueId="d3bff7a0-ec1f-49cc-898c-1ac1a1829caf" />
 		<DocSelectItem Name="IfcHalfSpaceSolid" UniqueId="0e9606fb-4e12-4815-b095-05d2e2e408c9" />

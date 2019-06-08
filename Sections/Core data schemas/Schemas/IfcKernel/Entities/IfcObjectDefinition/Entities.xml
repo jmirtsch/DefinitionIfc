@@ -5,9 +5,7 @@
 		<DocLocalization Name="Object Definition" Locale="en" />
 		<DocLocalization Name="Définition d&apos;objet" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="92.646667" Y="636.66667" Width="312" Height="589.06667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="92.646667" Y="636.66667" Width="312" Height="589.06667" />
 	<Subtypes>
 		<DocSubtype UniqueId="9a053322-cebc-49d9-bef9-d06994de506c" DefinedType="IfcObject" />
 		<DocSubtype UniqueId="96a8285a-d353-4fe3-a540-8abd75a7fa61" DefinedType="IfcTypeObject" />
@@ -20,9 +18,7 @@
 				<DocPoint X="404.64667" Y="663.20147" />
 				<DocPoint X="1179.2333" Y="663.20147" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="399.7133367" Y="698.134803" Width="340" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="399.7133367" Y="698.134803" Width="340" Height="70" />
 		</DocAttribute>
 		<DocAttribute Name="Nests" UniqueId="c991dcb4-4357-4933-b45c-77eb14c59839" DefinedType="IfcRelNests" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="RelatedObjects" XsdFormat="hidden">
 			<Documentation>References to the decomposition relationship being a nesting. It determines that this object definition is a part within an ordered whole/part decomposition relationship. An object occurrence or type can only be part of a single decomposition (to allow hierarchical strutures only).
@@ -32,9 +28,7 @@
 				<DocPoint X="404.64667" Y="1124.0591" />
 				<DocPoint X="1179.25034" Y="1124.0591" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="404.64667" Y="1156.0591" Width="318" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="404.64667" Y="1156.0591" Width="318" Height="70" />
 		</DocAttribute>
 		<DocAttribute Name="IsNestedBy" UniqueId="f61c2101-dddb-4f80-bfe6-e83bea5a1603" DefinedType="IfcRelNests" AttributeFlags="0" AggregationType="3" AggregationFlag="0" Inverse="RelatingObject" XsdFormat="element">
 			<Documentation>References to the decomposition relationship being a nesting. It determines that this object definition is the whole within an ordered whole/part decomposition relationship. An object or object type can be nested by several other objects (occurrences or types).
@@ -44,9 +38,7 @@
 				<DocPoint X="404.64667" Y="1036.6719" />
 				<DocPoint X="1179.15034" Y="1036.6719" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="399.3133367" Y="1068.6719" Width="311" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="399.3133367" Y="1068.6719" Width="311" Height="70" />
 		</DocAttribute>
 		<DocAttribute Name="HasContext" UniqueId="0f4649a2-7360-4872-ab34-e0a3172e4ba1" DefinedType="IfcRelDeclares" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="RelatedDefinitions">
 			<Documentation>References to the context providing context information such as project unit or representation context. It should only be asserted for the uppermost non-spatial object.
@@ -56,9 +48,7 @@
 				<DocPoint X="404.64667" Y="1213.8667" />
 				<DocPoint X="1179.31334" Y="1213.8667" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="415.313337" Y="1243.200033" Width="384" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="415.313337" Y="1243.200033" Width="384" Height="70" />
 		</DocAttribute>
 		<DocAttribute Name="IsDecomposedBy" UniqueId="090a480e-fb85-4fdd-b904-d720ea0009c9" DefinedType="IfcRelAggregates" AttributeFlags="0" AggregationType="3" AggregationFlag="0" Inverse="RelatingObject" XsdFormat="element">
 			<Documentation>References to the decomposition relationship being an aggregation. It determines that this object definition is whole within an unordered whole/part decomposition relationship. An object definitions can be aggregated by several other objects (occurrences or parts).
@@ -68,9 +58,7 @@
 				<DocPoint X="404.64667" Y="852.17639" />
 				<DocPoint X="1179.28" Y="852.17639" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="407.3133367" Y="884.17639" Width="375" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="407.3133367" Y="884.17639" Width="375" Height="70" />
 		</DocAttribute>
 		<DocAttribute Name="Decomposes" UniqueId="e138d591-4c0a-492f-9738-23a2b9d31c1a" DefinedType="IfcRelAggregates" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="RelatedObjects" XsdFormat="hidden">
 			<Documentation>References to the decomposition relationship being an aggregation. It determines that this object definition is a part within an unordered whole/part decomposition relationship. An object definitions can only be part of a single decomposition (to allow hierarchical strutures only).
@@ -80,9 +68,7 @@
 				<DocPoint X="404.64667" Y="948.17327" />
 				<DocPoint X="1179.14667" Y="948.17327" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="417.980003" Y="974.839937" Width="382" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="417.980003" Y="974.839937" Width="382" Height="70" />
 		</DocAttribute>
 		<DocAttribute Name="HasAssociations" UniqueId="ba2de5b1-245c-46c6-a778-f13a6f5e8768" DefinedType="IfcRelAssociates" AttributeFlags="0" AggregationType="3" AggregationFlag="0" Inverse="RelatedObjects">
 			<Documentation>Reference to the relationship objects, that associates external references or other resource definitions to the object.. Examples are the association to library, documentation or classification.</Documentation>
@@ -90,9 +76,7 @@
 				<DocPoint X="404.64667" Y="757.19232" />
 				<DocPoint X="1179.26667" Y="757.19232" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="404.64667" Y="783.858987" Width="373" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="404.64667" Y="783.858987" Width="373" Height="70" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

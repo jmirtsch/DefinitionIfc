@@ -5,9 +5,7 @@
 		<DocLocalization Name="Boundary Condition" Locale="en" />
 		<DocLocalization Name="Condition de limite" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3320.5142" Y="53.471448" Width="200" Height="122.92735" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3320.5142" Y="53.471448" Width="200" Height="122.92735" />
 	<Subtypes>
 		<DocSubtype UniqueId="86957bd3-6882-4a40-b190-df9cae321601" DefinedType="IfcBoundaryNodeCondition" />
 		<DocSubtype UniqueId="ba15b5d9-741d-40c5-8fd2-f435a6393e82" DefinedType="IfcBoundaryEdgeCondition" />
@@ -20,9 +18,7 @@
 				<DocPoint X="3520.5142" Y="114.93512" />
 				<DocPoint X="3676.90862" Y="114.93512" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3512.8717513" Y="112.3876371" Width="73" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3512.8717513" Y="112.3876371" Width="73" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

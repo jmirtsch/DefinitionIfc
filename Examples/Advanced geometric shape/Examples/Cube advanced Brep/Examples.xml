@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocExample xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Cube advanced Brep" UniqueId="261d43a3-658d-4727-af6b-f865bf9d7830" ApplicableType="IfcAdvancedBrep,IfcBuildingElementProxy,IfcShapeRepresentation">
 	<ApplicableTemplates>
-		<DocTemplateDefinition xsi:nil="true" href="Body AdvancedBrep Geometry_3yTZLrKF5BmBloE2E05I17" />
+		<DocTemplateDefinition xsi:nil="true" href="Body_AdvancedBrep_Geometry_3yTZLrKF5BmBloE2E05I17" />
 	</ApplicableTemplates>
 	<Views>
-		<DocModelView xsi:nil="true" href="Design Transfer View" />
-		<DocModelView xsi:nil="true" href="General Usage" />
+		<DocModelView xsi:nil="true" href="Design_Transfer_View" />
+		<DocModelView xsi:nil="true" href="General_Usage" />
 	</Views>
 </DocExample>
 

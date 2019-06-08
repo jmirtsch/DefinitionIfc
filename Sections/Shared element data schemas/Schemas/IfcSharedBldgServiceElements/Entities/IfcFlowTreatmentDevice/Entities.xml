@@ -5,8 +5,6 @@
 		<DocLocalization Name="Flow Treatment Device" Locale="en" />
 		<DocLocalization Name="Appareil de traitement de fluide" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="179.98652" Y="2077.7568" Width="518.41773" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="179.98652" Y="2077.7568" Width="518.41773" Height="100" />
 </DocEntity>
 

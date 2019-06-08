@@ -5,9 +5,7 @@
 		<DocLocalization Name="Texture Vertex" Locale="en" />
 		<DocLocalization Name="Sommet de texture" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5027.75830078125" Y="4200.9833984375" Width="333.33334" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="5027.75830078125" Y="4200.9833984375" Width="333.33334" Height="100" />
 	<Attributes>
 		<DocAttribute Name="Coordinates" UniqueId="4d6ab645-16b0-46e8-be95-4e9421d52a42" DefinedType="IfcParameterValue" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="2" AggregationUpper="2">
 			<Documentation>The first Coordinate[1] is the S, the second Coordinate[2] is the T parameter value.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="5361.09164078125" Y="4250.9833" />
 				<DocPoint X="5785.5917" Y="4250.9833" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5361.09164078125" Y="4230.9833" Width="218" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5361.09164078125" Y="4230.9833" Width="218" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

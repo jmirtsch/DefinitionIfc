@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_FireDamperActuationType_0YhlCmG51Cngxhr0w30Ta" Name="PEnum_FireDamperActuationType" UniqueId="22aef330-4050-4cc6-aeeb-ff503a0c0764">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="GRAVITY_0_oD7CnOT4DgAQsj5y7Ovb" />
+		<DocPropertyConstant xsi:nil="true" href="SPRING_0per1ArTX4hejcdYufm55k" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_30YpUOPgvC0waUw2ZOCOGh" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0WhYQO02P4We0uOrHI6YT" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_1C07GZg7vBJPKYAWl4Mo9" />
+	</Constants>
+</DocPropertyEnumeration>
+

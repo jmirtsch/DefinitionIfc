@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2luRbgTXXCvuiF_ssLHlFG">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcDistributionSystem" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcDistributionSystem" />
 	<Concepts>
 		<DocTemplateUsage UniqueId="0HWMhXy7TE5PbxMwmc8mnv">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="a4d5235c-196f-4378-96c4-3c0e6a4faf2a" RuleParameters="PsetName=Pset_DistributionSystemCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="085530e9-68cb-4c9e-8e88-646461f67db2">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="c596b45e-be34-4f46-a0c1-5be29ed2c0d0" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 							</Items>
@@ -24,9 +18,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Aggregation" UniqueId="0eFgdhszD4ZA_jCmFzXCb2">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
 			<Items>
 				<DocTemplateItem UniqueId="caf7792c-fce6-46bc-b18f-836bd66f04fc" RuleParameters="PredefinedType=ELECTRICAL;RelatedObjects=IfcDistributionSystem;" Order="0">
 					<Documentation>Indicates electrical subsystems within the system.</Documentation>
@@ -53,9 +45,7 @@ EXAMPLE&amp;nbsp; A gas-powered hot water heater may have three ports: GAS, DOME
 &lt;tr&gt;&lt;td&gt;&lt;img alt=&quot;Instance diagram for electrical circuit&quot; src=&quot;../../../figures/ifcdistributionsystem-01.png&quot; &gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 267 &amp;mdash; Distribution system assignment&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Group Assignment_3rPvP$L9D4sQnHatm9h2M3" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Group_Assignment_3rPvPL9D4sQnHatm9h2M3" />
 			<Items>
 				<DocTemplateItem UniqueId="41ba50c8-895a-4607-92d5-9fceb58514f5" RuleParameters="Type=IfcDistributionElement;" Order="0">
 					<Documentation>Indicates devices that are part of the system, where any ports of the same PredefinedType are considered part of the system implicitly.</Documentation>
@@ -66,8 +56,6 @@ EXAMPLE&amp;nbsp; A gas-powered hot water heater may have three ports: GAS, DOME
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="7408c7c3-58fa-421e-8c37-def3db2f77be" Type="IfcDistributionSystem" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="f7b9dd60-2300-4366-9210-881d85579199" Type="IfcDistributionSystem" />
 </DocConceptRoot>
 

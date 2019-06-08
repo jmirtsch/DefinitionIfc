@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0LKQZtX5v8WhGBidg$eBBJ">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcDistributionElement" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcDistributionElement" />
 	<Concepts>
 		<DocTemplateUsage Name="Port Nesting" UniqueId="3rimmOo6H4CQoLKLxJG4WW">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Port_Nesting_2w9EtqE92s8JFNQ8EuKWA" />
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="2fce810b-783f-42da-afbb-a923178a5c47">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="c0ce1106-eaeb-4cc4-8502-c3d1b1df84ee" RuleParameters="PsetName=Pset_ElectricalDeviceCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="0c8f65d7-a9cd-4a6c-b3d9-fa9367964c69">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Bounded_Value_0zPwBITXr4sQ2Ujkn_bOo" />
 							<Items>
 								<DocTemplateItem UniqueId="a3974d7b-88db-4eb1-8ed5-02e5c988ad6c" RuleParameters="Order=1;PropertyName=RatedCurrent;SetValue=IfcElectricCurrentMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="cdcb9bf5-30a9-495d-95c6-def3f8faa308" RuleParameters="Order=2;PropertyName=RatedVoltage;SetValue=IfcElectricVoltageMeasure;" Order="0" />
@@ -39,9 +27,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="a8e32216-ca9d-452b-afea-ff30906e98e1">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="1ff47b22-aa4b-4611-8bad-56f7368f1b6b" RuleParameters="Order=4;PropertyName=PowerFactor;Value=IfcNormalisedRatioMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="925428c0-0f27-4a76-9827-a2fad748aadc" RuleParameters="Order=6;PropertyName=NumberOfPoles;Value=IfcInteger;" Order="0" />
@@ -50,9 +36,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="bc36e75d-e711-4cd8-bda6-09c44637c519">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="95b2818e-de33-4763-b57c-6efc025116e2" RuleParameters="Order=5;PropertyName=ConductorFunction;Value=IfcLabel;Reference=PEnum_ConductorFunctionEnum;" Order="0" />
 								<DocTemplateItem UniqueId="5408e5f5-8181-4912-81d1-ce53f951472e" RuleParameters="Order=9;PropertyName=InsulationStandardClass;Value=IfcLabel;Reference=PEnum_InsulationStandardClass;" Order="0" />
@@ -63,13 +47,9 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Clearance Geometry" UniqueId="fc6a831d-921a-4fcd-873c-663584154cc5">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Clearance Geometry_0Ft2E0dl11wR3Sy1$Iztvi" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Clearance_Geometry_0Ft2E0dl11wR3Sy1Iztvi" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="d864fa4e-2616-48ef-8181-f2981f034963" Type="IfcDistributionElement" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="f26658fd-fdce-4d16-a97e-f360cb276c80" Type="IfcDistributionElement" />
 </DocConceptRoot>
 

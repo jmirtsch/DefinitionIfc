@@ -5,9 +5,7 @@
 		<DocLocalization Name="Construction Material Resource Type" Locale="en" />
 		<DocLocalization Name="Matériaux de construction type" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="867.76667" Y="1805.9467" Width="629.2" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="867.76667" Y="1805.9467" Width="629.2" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="bebb90d1-4de9-4d43-9119-c0f44b7dccc9" DefinedType="IfcConstructionMaterialResourceTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines types of construction material resources.
@@ -17,9 +15,7 @@
 				<DocPoint X="1483.7" Y="1953.9467" />
 				<DocPoint X="1144" Y="1953.9467" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1565.033333" Y="1951.2800333" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1565.033333" Y="1951.2800333" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Flow Meter Type" Locale="en" />
 		<DocLocalization Name="Type d&apos;appareil de mesure de débit" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4847.5411" Y="718.12613" Width="381.46806" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4847.5411" Y="718.12613" Width="381.46806" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="a2740dc9-c1bc-4df2-8270-bdab521192a4" DefinedType="IfcFlowMeterTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines the type of flow meter.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="5229.0092" Y="768.12613" />
 				<DocPoint X="5445.5494" Y="768.12613" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5243.913305" Y="753.43197" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5243.913305" Y="753.43197" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

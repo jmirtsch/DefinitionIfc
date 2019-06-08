@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3K3$ZL6cj1DfYMpdVL9nIB">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcZone" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcZone" />
 	<Concepts>
 		<DocTemplateUsage UniqueId="3qFkmu$ErFUAyT_j$dutSP">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="76c94133-79e6-4006-a79e-a27e35679644" RuleParameters="PsetName=Pset_ZoneCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="3d176286-9b01-4d98-8c88-c515c12d5108">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="59e02418-d41f-4ad8-89d4-8a3286fc7b2f" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="8f0fe511-9d12-425b-b261-1977d831e233" RuleParameters="PropertyName=IsExternal;Value=IfcBoolean;" Order="0" />
@@ -29,9 +23,7 @@
 				<DocTemplateItem UniqueId="954da97e-2767-43c1-b935-d1e7aad52a60" RuleParameters="PsetName=Pset_AirSideSystemInformation;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="2406b95b-5369-4bfb-a1cc-6bafa0c85052">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="bdc7bb06-0cbc-43bc-82b8-3f375a13ee42" RuleParameters="PropertyName=Name;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="ba0a24aa-61c7-40e8-a5c5-6a400fff1673" RuleParameters="PropertyName=Description;Value=IfcLabel;" Order="0" />
@@ -52,9 +44,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="37ed9775-1537-4df1-8010-be796c2c56d9">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="99c4e3f2-c498-4439-99a5-dfa5c847db67" RuleParameters="PropertyName=AirSideSystemType;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="b67a7444-ff69-4933-b72e-376e43daff08" RuleParameters="PropertyName=AirSideSystemDistributionType;Value=IfcLabel;" Order="0" />
@@ -102,16 +92,12 @@ applicable, as values of the &lt;em&gt;ObjectType&lt;/em&gt; attribute:&lt;/p&gt
 &lt;li&gt;&lt;b&gt;&apos;RisingDuct&apos;&lt;/b&gt;: A collection of vertical airspaces.&lt;/li&gt;
 &lt;li&gt;&lt;b&gt;&apos;RunningDuct&apos;&lt;/b&gt;: A collection of horizontal airspaces.&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Group Assignment_3rPvP$L9D4sQnHatm9h2M3" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Group_Assignment_3rPvPL9D4sQnHatm9h2M3" />
 			<Items>
 				<DocTemplateItem UniqueId="86407b87-09cc-408f-8741-513046bc324d" RuleParameters="Type=IfcSpatialStructureElement;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="b62a4be8-a04b-4b2b-bfc3-681d4d760229" Type="IfcZone" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="c376d59f-7c77-46ee-94eb-656cb75daf4a" Type="IfcZone" />
 </DocConceptRoot>
 

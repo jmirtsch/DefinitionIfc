@@ -5,18 +5,14 @@
 		<DocLocalization Name="Engine" Locale="en" />
 		<DocLocalization Name="Moteur" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1220.8809" Y="2120.4153" Width="334.21773" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1220.8809" Y="2120.4153" Width="334.21773" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="058eca30-4bce-432c-8765-8aecc95e6e30" DefinedType="IfcEngineTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
 				<DocPoint X="1220.8809" Y="2170.4153" />
 				<DocPoint X="1008.0474" Y="2170.4153" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1220.8809" Y="2170.4153" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1220.8809" Y="2170.4153" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

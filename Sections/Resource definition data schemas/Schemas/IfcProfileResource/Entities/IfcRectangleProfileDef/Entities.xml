@@ -5,9 +5,7 @@
 		<DocLocalization Name="Rectangle Profile Def" Locale="en" />
 		<DocLocalization Name="Définition de profil rectangulaire" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1898.7137" Y="890.12994" Width="453.86" Height="193.86667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1898.7137" Y="890.12994" Width="453.86" Height="193.86667" />
 	<Subtypes>
 		<DocSubtype UniqueId="1392e740-2469-4d33-ace3-7c583f013823" DefinedType="IfcRectangleHollowProfileDef" />
 		<DocSubtype UniqueId="3b35f392-de43-4100-90dd-05eaf445bb83" DefinedType="IfcRoundedRectangleProfileDef" />
@@ -21,9 +19,7 @@
 				<DocPoint X="2528.49478" Y="935.78326586" />
 				<DocPoint X="2704.41586" Y="935.78326586" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2307.814824" Y="936.26504" Width="66" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2307.814824" Y="936.26504" Width="66" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="YDim" UniqueId="8675ebcb-7de8-4598-8952-7776657d7a52" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The extent of the rectangle in the direction of the y-axis.</Documentation>
@@ -33,9 +29,7 @@
 				<DocPoint X="2392.631193" Y="1032.55663237" />
 				<DocPoint X="2704.415803" Y="1032.55663237" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2325.571876" Y="1028.18329907" Width="66" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2325.571876" Y="1028.18329907" Width="66" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

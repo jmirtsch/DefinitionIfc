@@ -5,9 +5,7 @@
 		<DocLocalization Name="Construction Resource" Locale="en" />
 		<DocLocalization Name="Ressource de construction" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="30.640001" Y="218.66667" Width="256" Height="886.66667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="30.640001" Y="218.66667" Width="256" Height="886.66667" />
 	<Subtypes>
 		<DocSubtype UniqueId="f154a2f3-27e1-4dd1-bb1d-1a86812b3789" DefinedType="IfcConstructionEquipmentResource" />
 		<DocSubtype UniqueId="c848aa3f-18fc-4047-9462-dbcded9fc6d6" DefinedType="IfcLaborResource" />
@@ -27,9 +25,7 @@
 				<DocPoint X="406.83666" Y="277.20000333" />
 				<DocPoint X="527.03332" Y="277.20000333" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="278.8366653" Y="262.19997" Width="79" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="278.8366653" Y="262.19997" Width="79" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="BaseCosts" UniqueId="c897428f-689a-4abb-9fb4-b5dffaf945e6" DefinedType="IfcAppliedValue" AttributeFlags="1" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
 			<Documentation>Indicates the unit costs for which accrued amounts should be calculated.  Such unit costs may be split into &lt;em&gt;Name&lt;/em&gt; designations (for example, &apos;Standard&apos;, &apos;Overtime&apos;), and may contain a hierarchy of cost values that apply at different dates (using &lt;em&gt;IfcCostValue.ApplicableDate&lt;/em&gt; and &lt;em&gt;IfcCostValue.FixedUntilDate&lt;/em&gt;).
@@ -41,9 +37,7 @@
 				<DocPoint X="405.53668" Y="528.6000033" />
 				<DocPoint X="524.43336" Y="528.6000033" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="278.7550091" Y="516.950632" Width="203" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="278.7550091" Y="516.950632" Width="203" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="BaseQuantity" UniqueId="4da46f38-bb04-4ce9-88fb-8b7ca2c524a7" DefinedType="IfcPhysicalQuantity" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Identifies the base quantity consumed of the resource relative to assignments.  
@@ -61,9 +55,7 @@ For product resources, this refers to &lt;i&gt;IfcQuantityCount&lt;/i&gt;.
 				<DocPoint X="405.53667" Y="663.8666767" />
 				<DocPoint X="524.43334" Y="663.8666767" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="314.186469" Y="656.3609976" Width="155" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="314.186469" Y="656.3609976" Width="155" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

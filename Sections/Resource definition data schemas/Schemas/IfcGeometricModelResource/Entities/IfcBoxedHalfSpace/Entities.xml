@@ -4,9 +4,7 @@
 		<DocLocalization Name="Eingerahmter Halbraum" Locale="de" />
 		<DocLocalization Name="Boxed Half Space" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4264.17" Y="1320.0333" Width="380.66667" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4264.17" Y="1320.0333" Width="380.66667" Height="100" />
 	<Attributes>
 		<DocAttribute Name="Enclosure" UniqueId="1dfdfca3-ec6b-45af-8bdf-d2bdffe279bc" DefinedType="IfcBoundingBox" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>The box which bounds the resulting solid of the Boolean operation involving the half space solid for computational purposes only.</Documentation>
@@ -14,9 +12,7 @@
 				<DocPoint X="4574.5366" Y="1320.0333" />
 				<DocPoint X="4574.5366" Y="885.50003" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="4498.759933" Y="1261.42499" Width="116" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="4498.759933" Y="1261.42499" Width="116" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

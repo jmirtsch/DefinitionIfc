@@ -5,9 +5,7 @@
 		<DocLocalization Name="Duct Fitting Type" Locale="en" />
 		<DocLocalization Name="Type de raccord de gaine" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1672.4002" Y="546.37355" Width="343.8" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1672.4002" Y="546.37355" Width="343.8" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="e24d6c2c-4c21-4500-89ea-01e996e56021" DefinedType="IfcDuctFittingTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The type of duct fitting.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="2016.2002" Y="596.37355" />
 				<DocPoint X="2250.88613" Y="596.37355" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2018.4900357" Y="590.1679339" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2018.4900357" Y="590.1679339" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

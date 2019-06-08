@@ -5,9 +5,7 @@
 		<DocLocalization Name="Distribution Flow Element Type" Locale="en" />
 		<DocLocalization Name="Type d&apos;élément de distribution de fluide" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1661.7009" Y="377.43292" Width="494.94736" Height="123.4881" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1661.7009" Y="377.43292" Width="494.94736" Height="123.4881" />
 	<Subtypes>
 		<DocSubtype UniqueId="3226a59d-400b-4723-976e-39b5ace2aeea" DefinedType="IfcEnergyConversionDeviceType" />
 		<DocSubtype UniqueId="b92b68c5-cbb2-4ca1-bdaf-e55ea380dcdc" DefinedType="IfcFlowMovingDeviceType" />

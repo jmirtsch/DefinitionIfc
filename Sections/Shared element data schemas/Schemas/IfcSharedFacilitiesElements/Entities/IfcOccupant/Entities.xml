@@ -5,9 +5,7 @@
 		<DocLocalization Name="Occupant" Locale="en" />
 		<DocLocalization Name="Occupant" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="48.536108" Y="1638.0946" Width="397.3" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="48.536108" Y="1638.0946" Width="397.3" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="1cecbf41-1f12-4d9f-9a7e-08490eb36753" DefinedType="IfcOccupantTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined occupant types from which that required may be set.
@@ -17,9 +15,7 @@
 				<DocPoint X="445.83611" Y="1672.9943" />
 				<DocPoint X="894.49956" Y="1672.9943" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="455.1674598" Y="1663.2171829" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="455.1674598" Y="1663.2171829" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

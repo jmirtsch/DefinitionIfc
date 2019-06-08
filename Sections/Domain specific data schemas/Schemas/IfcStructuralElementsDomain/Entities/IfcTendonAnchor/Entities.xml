@@ -5,9 +5,7 @@
 		<DocLocalization Name="Tendon Anchor" Locale="en" />
 		<DocLocalization Name="Ancrage" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1940.9193" Y="2235.4973" Width="294.95076" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1940.9193" Y="2235.4973" Width="294.95076" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="a8c7ef8a-9db8-4a89-9908-adcec769bb8f" DefinedType="IfcTendonAnchorTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Kind of tendon anchor.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="2235.87" Y="2285.4973" />
 				<DocPoint X="2535.43368" Y="2285.4973" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2235.87" Y="2285.4973" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2235.87" Y="2285.4973" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

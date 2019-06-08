@@ -5,9 +5,7 @@
 		<DocLocalization Name="Conversion Based Unit" Locale="en" />
 		<DocLocalization Name="Unité basée sur une mesure avec unité" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1013.4937" Y="1456.2339" Width="446.66667" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1013.4937" Y="1456.2339" Width="446.66667" Height="100" />
 	<Subtypes>
 		<DocSubtype UniqueId="14d59055-c237-4e59-b780-4bff3b455f0e" DefinedType="IfcConversionBasedUnitWithOffset" />
 	</Subtypes>
@@ -18,9 +16,7 @@
 				<DocPoint X="1236.827" Y="1556.2339" />
 				<DocPoint X="1236.827" Y="1678.48282" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1281.662708" Y="1575.398933" Width="73" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1281.662708" Y="1575.398933" Width="73" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ConversionFactor" UniqueId="91e5e04e-74ab-456a-9cb8-77cbbdf2cdf7" DefinedType="IfcMeasureWithUnit" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>The physical quantity from which the converted unit is derived.</Documentation>
@@ -28,9 +24,7 @@
 				<DocPoint X="1184.1289" Y="1556.2339" />
 				<DocPoint X="1184.1289" Y="1858.32408" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1347.20702" Y="1530.81472" Width="202" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1347.20702" Y="1530.81472" Width="202" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="HasExternalReference" UniqueId="d6118974-bfed-426c-b479-6ecff30b88a2" DefinedType="IfcExternalReferenceRelationship" AttributeFlags="32" AggregationType="3" AggregationFlag="0" Inverse="RelatedResourceObjects">
 			<Documentation>Reference to external information, e.g. library, classification, or document information, which is associated with the conversion-based unit.
@@ -40,9 +34,7 @@
 				<DocPoint X="1043.3088" Y="2021.04033" />
 				<DocPoint X="586.44104" Y="2021.04033" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1053.2003565" Y="2050.577932" Width="399" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1053.2003565" Y="2050.577932" Width="399" Height="70" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

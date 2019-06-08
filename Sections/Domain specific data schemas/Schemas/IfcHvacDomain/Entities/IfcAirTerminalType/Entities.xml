@@ -5,18 +5,14 @@
 		<DocLocalization Name="Air Terminal Type" Locale="en" />
 		<DocLocalization Name="Type d&apos;entrée ou sortie d&apos;air" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3261.2242" Y="1506.7914" Width="381.34081" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3261.2242" Y="1506.7914" Width="381.34081" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="2d695211-8a80-4cd1-add4-873b49fe778e" DefinedType="IfcAirTerminalTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
 				<DocPoint X="3642.565" Y="1554.773" />
 				<DocPoint X="3838.25985" Y="1554.773" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3648.548445" Y="1544.035581" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3648.548445" Y="1544.035581" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

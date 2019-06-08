@@ -5,9 +5,7 @@
 		<DocLocalization Name="Communications Appliance" Locale="en" />
 		<DocLocalization Name="Appareil de communications" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="841.76" Y="1322.5533" Width="679.9" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="841.76" Y="1322.5533" Width="679.9" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="e63beda8-8084-4dc0-aa99-260456cfea13" DefinedType="IfcCommunicationsApplianceTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
@@ -15,9 +13,7 @@
 				<DocPoint X="1515.0433" Y="1480.199968" />
 				<DocPoint X="1094.15064" Y="1480.199968" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1419.263618" Y="1417.2199667" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1419.263618" Y="1417.2199667" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

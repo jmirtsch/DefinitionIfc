@@ -4,12 +4,8 @@
 		<DocLocalization Name="URIReference" Locale="en" />
 		<DocLocalization Name="Référence à une adresse Web" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="829.2" Y="2194.8001" Width="281.66667" Height="85" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="STRING_0n9iPXCbr9teozmnHijw5R" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="829.2" Y="2194.8001" Width="281.66667" Height="85" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="STRING_0n9iPXCbr9teozmnHijw5R" />
 	<DiagramLine>
 		<DocPoint X="1110.8667" Y="2237.3001" />
 		<DocPoint X="1236.96" Y="2237.3001" />

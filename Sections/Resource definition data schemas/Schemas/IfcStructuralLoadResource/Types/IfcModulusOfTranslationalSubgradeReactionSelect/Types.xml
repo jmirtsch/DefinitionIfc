@@ -3,9 +3,7 @@
 	<Localization>
 		<DocLocalization Name="Modulus Of Translational Subgrade Reaction Select" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4049.5529" Y="1254.8198" Width="399.87461" Height="220.58639" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4049.5529" Y="1254.8198" Width="399.87461" Height="220.58639" />
 	<Selects>
 		<DocSelectItem Name="IfcBoolean" UniqueId="9ea78b2c-9d2d-456b-a766-04a4bfc366b5" />
 		<DocSelectItem Name="IfcModulusOfLinearSubgradeReactionMeasure" UniqueId="2617af40-9d8f-4d6b-8095-2800f04f5490" />

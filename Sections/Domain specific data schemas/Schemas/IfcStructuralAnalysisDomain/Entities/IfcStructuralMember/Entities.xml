@@ -6,9 +6,7 @@
 		</DocLocalization>
 		<DocLocalization Name="Structural Member" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2541.588" Y="674.62583" Width="200" Height="139.2" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2541.588" Y="674.62583" Width="200" Height="139.2" />
 	<Subtypes>
 		<DocSubtype UniqueId="aa57450e-21ea-445a-be1f-56bb447674f2" DefinedType="IfcStructuralCurveMember" />
 		<DocSubtype UniqueId="544f8f5e-1bf7-4655-b4f3-e2cea13ea4a8" DefinedType="IfcStructuralSurfaceMember" />
@@ -21,9 +19,7 @@
 				<DocPoint X="2608.63594" Y="1503.6801" />
 				<DocPoint X="2608.63594" Y="813.82581" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2777.50693" Y="1635.79014" Width="299" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2777.50693" Y="1635.79014" Width="299" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

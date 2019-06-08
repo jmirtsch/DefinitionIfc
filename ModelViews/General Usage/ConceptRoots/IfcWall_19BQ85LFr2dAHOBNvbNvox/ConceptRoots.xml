@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="19BQ85LFr2dAHOBNvbNvox">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcWall" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcWall" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="29oWEQjwf1YfMsUnYwU_yE">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="6c5a3e9f-5689-4f96-984a-fbd975af0144" RuleParameters="RelatingType=IfcWallType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="3xF2hkHB9Bc8MFonhaKAMk">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="28084092-c13e-4fec-b739-f20706ff9167" RuleParameters="PsetName=Pset_WallCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="72b39054-a7af-4d0f-a4f4-7fb072d5c30d">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="54d63e1f-165a-4d39-931f-f2b807452331" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="8e8f0181-f05f-4fb3-9bc9-a7cbbfb49a7a" RuleParameters="PropertyName=AcousticRating;Value=IfcLabel;" Order="0" />
@@ -37,9 +29,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="0f230567-0a96-40da-b0f4-9292153d177f">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="ca56d233-ab8b-4395-aabd-9133f5a2d7b2" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
 							</Items>
@@ -49,9 +39,7 @@
 				<DocTemplateItem UniqueId="ecfbf334-cf98-4001-84e7-c26fd42c8f19" RuleParameters="PsetName=Pset_ConcreteElementGeneral;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="0a021db4-4bf4-43b2-a662-3692ea3c0b11">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="823aa5c4-2ac9-4bad-9e6a-11020b9e8822" RuleParameters="PropertyName=ConstructionMethod;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="755ea1fc-2188-45c7-94ba-a7ac824cafa5" RuleParameters="PropertyName=StructuralClass;Value=IfcLabel;" Order="0" />
@@ -72,9 +60,7 @@
 				<DocTemplateItem UniqueId="2e2c521c-22c3-4e01-b693-2a32913ff51d" RuleParameters="PsetName=Pset_PrecastConcreteElementFabrication;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="2e9010dd-d656-49af-9c94-baf049b543d3">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="27d7c37d-3b83-40eb-b6c8-93aa263fda9b" RuleParameters="PropertyName=TypeDesignator;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="e163a523-9144-4c1a-93e0-5586554d42f4" RuleParameters="PropertyName=ProductionLotId;Value=IfcIdentifier;" Order="0" />
@@ -90,9 +76,7 @@
 				<DocTemplateItem UniqueId="8c135898-5781-4d90-a2b9-528b44e51ca1" RuleParameters="PsetName=Pset_PrecastConcreteElementGeneral;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="8946ba5f-1046-4d73-87a4-a54d81ca78a0">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="98341f4d-9477-442e-bd15-c7c83e118fa1" RuleParameters="PropertyName=TypeDesignator;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="56b9d914-72cd-48b9-ba26-1ab24b5780a3" RuleParameters="PropertyName=CornerChamfer;Value=IfcPositiveLengthMeasure;" Order="0" />
@@ -120,9 +104,7 @@
 				<DocTemplateItem UniqueId="e740e34b-185e-4ef8-8941-b0b8d09e7ead" RuleParameters="PsetName=Pset_ReinforcementBarPitchOfWall;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="4a727947-c572-4469-b459-16785a8c428d">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="ecd1f558-7328-4bb7-9d1b-dd7969932584" RuleParameters="PropertyName=Description;Value=IfcText;" Order="0" />
 								<DocTemplateItem UniqueId="86dd7811-13df-4df3-beab-399867521159" RuleParameters="PropertyName=Reference;Value=IfcLabel;" Order="0" />
@@ -132,9 +114,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="c77f859f-201d-4d0f-8669-9c094f9f4848">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="343e67ba-a9f9-4bdf-8bb0-730eac34d60d" RuleParameters="PropertyName=BarAllocationType;Value=IfcLabel;" Order="0" />
 							</Items>
@@ -144,9 +124,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="30hHRMOcfA_9O3E7v_D2Mr">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="65441099-a44a-4f0f-ac72-986c5bb26732" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_WallBaseQuantities;TemplateType=QTO_OCCURRENCEDRIVEN;" Order="0" />
 			</Items>
@@ -160,14 +138,10 @@
 &lt;blockquote class=&quot;note&quot;&gt;
 NOTE&amp;nbsp; It is illegal to assign an &lt;em&gt;IfcMaterialLayerSetUsage&lt;/em&gt; to an &lt;em&gt;IfcWall&lt;/em&gt;. Only the subtype &lt;em&gt;IfcWallStandardCase&lt;/em&gt; supports this concept.
 &lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Layer Set_3VjREfKED6ueKO7mFdpzY6" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Layer_Set_3VjREfKED6ueKO7mFdpzY6" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Path Connectivity" UniqueId="1s_GcuPrb76g3JuPwq1azd">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Path Connectivity_1G5mELXyP9BgRydr_42n5F" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Path_Connectivity_1G5mELXyP9BgRydr_42n5F" />
 			<Items>
 				<DocTemplateItem UniqueId="b8d7c779-de2d-4346-b774-0f15eba292a2" RuleParameters="RelatedElement=IfcWall;" Order="0">
 					<Documentation>Walls with equal or lower priority are connected at RelatedElement.</Documentation>
@@ -181,9 +155,7 @@ may participate alternatively in one of the two different containment relationsh
 &lt;li&gt;the &lt;em&gt;Spatial Containment&lt;/em&gt; (defined here), or&lt;/li&gt;
 &lt;li&gt;the &lt;em&gt;Element Composition&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Containment_3Pe$WY01HBmesKdP1dTP15" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Containment_3PeWY01HBmesKdP1dTP15" />
 			<Items>
 				<DocTemplateItem UniqueId="5d78d87e-e72c-4a5c-bf8f-8afea1a79939" RuleParameters="RelatingStructure=IfcBuildingStorey;" Order="0">
 					<Documentation>Default spatial container</Documentation>
@@ -200,9 +172,7 @@ may participate alternatively in one of the two different containment relationsh
 			<Documentation>&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The &apos;Axis&apos; is not used to locate the 
 material layer set, only the subtype &lt;em&gt;IfcWallStandardCase&lt;/em&gt;
 provides this capability.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Axis 2D Geometry_1u94Jere57Mf0qgUVrF6rb" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Axis_2D_Geometry_1u94Jere57Mf0qgUVrF6rb" />
 			<Items>
 				<DocTemplateItem UniqueId="22e91dd0-b386-4c5f-9052-4e22d3070d81" RuleParameters="Identifier=Axis;Type=Curve2D;Items=IfcBoundedCurve;" Order="0">
 					<Documentation>The wall axis of the wall.</Documentation>
@@ -213,9 +183,7 @@ provides this capability.&lt;/blockquote&gt;</Documentation>
 			<Documentation>&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The &apos;Surface&apos; can be used to define a
 surfacic model of the building (e.g. for analytical purposes, or
 for reduced Level of Detail representation).&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Surface Geometry_0kcTvm_tD7ZvlAJ_tzwqwb" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Surface_Geometry_0kcTvm_tD7ZvlAJ_tzwqwb" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body SweptSolid Geometry" UniqueId="c0394013-f38b-499b-9849-73ae4fc4ff9d">
 			<Documentation>&lt;p&gt;The following additional constraints apply to the &apos;SweptSolid&apos;
@@ -235,19 +203,13 @@ thickness along the axis (where vertical = into the direction of
 the global Z axis), the subtype &lt;em&gt;IfcWallStandardCase&lt;/em&gt; should
 be used. If the extrusion is not equal to global Z, then the
 &lt;em&gt;IfcWall&lt;/em&gt; should be used.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Clipping Geometry" UniqueId="6b47340c-c8d7-4173-a550-ad63955f4858">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Clipping Geometry_0isyBrcmn3wfqgdNBG57u0" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Clipping_Geometry_0isyBrcmn3wfqgdNBG57u0" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Voiding" UniqueId="1GvNaP6X907eTTLQ17bZ51">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Element Voiding_2v05vvjSLC2vs616mXhK8D" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Element_Voiding_2v05vvjSLC2vs616mXhK8D" />
 			<Items>
 				<DocTemplateItem UniqueId="1b625afe-ed4d-4957-a932-568e052d9d67" RuleParameters="RelatedOpening=IfcOpeningElement;" Order="0">
 					<Documentation>Indicates a partial recess or full opening, which may or may not be filled by another element.</Documentation>
@@ -255,9 +217,7 @@ be used. If the extrusion is not equal to global Z, then the
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Product Assignment" UniqueId="2pxgDdy_DAsPl74L09hn6d">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Assignment_3idFi4hVv8Q85eru$fbQaJ" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Assignment_3idFi4hVv8Q85erufbQaJ" />
 			<Items>
 				<DocTemplateItem UniqueId="379acbd5-13cb-4234-be6b-e1c8077787a5" RuleParameters="Type=IfcStructuralSurfaceMember;" Order="0">
 					<Documentation>An idealized structural member corresponding to the wall.</Documentation>
@@ -268,8 +228,6 @@ be used. If the extrusion is not equal to global Z, then the
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="5d2212dc-ea82-4380-a84e-4bfdc6c7c866" Type="IfcWall" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="10d05882-cd34-4c01-9efe-49c2514e43e6" Type="IfcWall" />
 </DocConceptRoot>
 

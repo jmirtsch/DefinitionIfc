@@ -5,18 +5,14 @@
 		<DocLocalization Name="Valve" Locale="en" />
 		<DocLocalization Name="Vanne" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6016.159" Y="871.02127" Width="325.02855" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="6016.159" Y="871.02127" Width="325.02855" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="23912a7a-28ed-4c3c-8007-e6bde9d3b5e1" DefinedType="IfcValveTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
 				<DocPoint X="6016.159" Y="921.02127" />
 				<DocPoint X="5795.65394" Y="921.02127" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="6016.159" Y="921.02127" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="6016.159" Y="921.02127" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

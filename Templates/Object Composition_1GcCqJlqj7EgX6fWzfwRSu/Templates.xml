@@ -26,7 +26,7 @@
 
 &lt;p&gt;Aggregation is a bi-directional relationship, the relationship from the composite to its parts is called Decomposition, and the relationship from the part to its composite is called Composition.&lt;/p&gt;</Documentation>
 			<Templates>
-				<DocTemplateDefinition id="Element Composition_3A3sNYEHDFsue935nw3LGX" Name="Element Composition" UniqueId="ca0f65e2-3913-4fdb-8a09-0c5c7a0d5421" Type="IfcElement">
+				<DocTemplateDefinition id="Element_Composition_3A3sNYEHDFsue935nw3LGX" Name="Element Composition" UniqueId="ca0f65e2-3913-4fdb-8a09-0c5c7a0d5421" Type="IfcElement">
 					<Documentation>&lt;p&gt;Provision of an aggregation structure where the element is part of another element representing the composite. The part then provides, if such concepts are in scope of the Model View Definition, exclusively the following:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Body Geometry&lt;/em&gt; &amp;mdash; The partial body shape representation and its placement;&lt;/li&gt;
@@ -63,7 +63,7 @@
 						</DocModelRuleAttribute>
 					</Rules>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Element Decomposition_2A9y5QnEfCgOpEVxkXoRpW" Name="Element Decomposition" UniqueId="8a27c15a-c4ea-4ca9-8cce-7fbba1c9bce0" Type="IfcElement">
+				<DocTemplateDefinition id="Element_Decomposition_2A9y5QnEfCgOpEVxkXoRpW" Name="Element Decomposition" UniqueId="8a27c15a-c4ea-4ca9-8cce-7fbba1c9bce0" Type="IfcElement">
 					<Documentation>&lt;p&gt;Provision of an aggregation structure where the element, representing the composite, is decomposed into parts represented by other elements. &lt;/p&gt;
 &lt;p&gt;The composite then provides, if such concepts are in scope of the Model View Definition, exclusively the following:&lt;/p&gt;
 &lt;ul&gt;
@@ -100,7 +100,7 @@
 						</DocModelRuleAttribute>
 					</Rules>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Spatial Composition_2C3zBtSRjERe$R30ApKl5A" Name="Spatial Composition" UniqueId="8c0fd2f7-71bb-4e6e-8fdb-0c02b352f14a" Type="IfcSpatialElement">
+				<DocTemplateDefinition id="Spatial_Composition_2C3zBtSRjEReR30ApKl5A" Name="Spatial Composition" UniqueId="8c0fd2f7-71bb-4e6e-8fdb-0c02b352f14a" Type="IfcSpatialElement">
 					<Documentation>&lt;p&gt;Provision of a spatial structure of the project by aggregating spatial elements. The spatial structure is a hierarchical tree of spatial elements ultimately assigned to the project. Composition refers to the relationship to a higher level element (e.g. this storey is part of a building).&lt;/p&gt;
 
 &lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The link between the highest level spatial element and the project is provided by this concept through &lt;em&gt;IfcRelContainedInSpatialStructure&lt;/em&gt; and not through declaration using &lt;em&gt;IfcRelDeclares&lt;/em&gt;. This is a known anomaly intruduced to maintain compatibility with earlier versions of this standard.&lt;/blockquote&gt;
@@ -135,7 +135,7 @@
 						</DocModelRuleAttribute>
 					</Rules>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Spatial Decomposition_1cVuH3xCvAZQO$an_h15FW" Name="Spatial Decomposition" UniqueId="1cVuH3xCvAZQO$an_h15FW" Type="IfcObjectDefinition">
+				<DocTemplateDefinition id="Spatial_Decomposition_1cVuH3xCvAZQOan_h15FW" Name="Spatial Decomposition" UniqueId="1cVuH3xCvAZQO$an_h15FW" Type="IfcObjectDefinition">
 					<Documentation>&lt;p&gt;Provision of a spatial structure of the project by aggregating spatial elements. The spatial structure is a hierarchical tree of spatial elements ultimately assigned to the project. Decomposition refers to the relationship to a lower level element (e.g. this storey has spaces).&lt;/p&gt;
 
 &lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The link between the project and the highest level spatial element is provided by this concept through &lt;em&gt;IfcRelContainedInSpatialStructure&lt;/em&gt; and not through declaration using &lt;em&gt;IfcRelDeclares&lt;/em&gt;. This is a known anomaly intruduced to maintain compatibility with earlier versions of this standard.&lt;/blockquote&gt;
@@ -209,7 +209,7 @@
 				</DocModelRuleAttribute>
 			</Rules>
 			<Templates>
-				<DocTemplateDefinition id="Object Nesting_0uoeU8NaT178AKrM_UcbQH" Name="Object Nesting" UniqueId="0uoeU8NaT178AKrM_UcbQH" Type="IfcObjectDefinition">
+				<DocTemplateDefinition id="Object_Nesting_0uoeU8NaT178AKrM_UcbQH" Name="Object Nesting" UniqueId="0uoeU8NaT178AKrM_UcbQH" Type="IfcObjectDefinition">
 					<Documentation>&lt;p&gt;General object nesting indicates an ordered arrangement relationship.&lt;/p&gt;</Documentation>
 					<Rules>
 						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="IsNestedBy">
@@ -227,7 +227,7 @@
 						</DocModelRuleAttribute>
 					</Rules>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Element Nesting_3xyZPOf2b4W9j1Ne1PH7WR" Name="Element Nesting" UniqueId="fbf23658-a429-4480-9b41-5e805944781b" Type="IfcElement">
+				<DocTemplateDefinition id="Element_Nesting_3xyZPOf2b4W9j1Ne1PH7WR" Name="Element Nesting" UniqueId="fbf23658-a429-4480-9b41-5e805944781b" Type="IfcElement">
 					<Documentation>&lt;p&gt;Provision of a nesting structure where the element, representing the host, has connectable components represented by other elements.&lt;/p&gt;
 
 &lt;p&gt;The nesting structure then provides the following:&lt;/p&gt;
@@ -306,7 +306,7 @@
 						</DocModelRuleAttribute>
 					</Rules>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" Name="Port Nesting" UniqueId="2w$9EtqE92s8JFNQ8EuKWA" Type="IfcDistributionElement">
+				<DocTemplateDefinition id="Port_Nesting_2w9EtqE92s8JFNQ8EuKWA" Name="Port Nesting" UniqueId="2w$9EtqE92s8JFNQ8EuKWA" Type="IfcDistributionElement">
 					<Documentation>&lt;p&gt;Ports indicate possible connections to other objects according to specified system types, flow direction, and connection properties.  Ports are typically connected between devices via cables, pipes, or ducts.&lt;/p&gt;
 
 
@@ -459,7 +459,7 @@
 				</DocTemplateDefinition>
 			</Templates>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Type Element Aggregation_2Vp5fc8gT1h9CeCNMOHT5I" Name="Type Element Aggregation" UniqueId="9fcc5a66-22a7-41ac-9328-31759845d152" Type="IfcElementType">
+		<DocTemplateDefinition id="Type_Element_Aggregation_2Vp5fc8gT1h9CeCNMOHT5I" Name="Type Element Aggregation" UniqueId="9fcc5a66-22a7-41ac-9328-31759845d152" Type="IfcElementType">
 			<Documentation>&lt;p&gt;Product types may define aggregated components.&lt;/p&gt;
 
 &lt;p&gt;Placement of such components may be explicitly defined using &lt;i&gt;IfcLocalPlacement&lt;/i&gt; relative to the enclosing &lt;i&gt;IfcElementType&lt;/i&gt;, or implicitly defined if &lt;i&gt;IfcElement&lt;/i&gt;.&lt;i&gt;ObjectPlacement&lt;/i&gt; is null.&lt;/p&gt;
@@ -483,7 +483,7 @@
 				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Decomposes" />
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Element Voiding_2v05vvjSLC2vs616mXhK8D" Name="Element Voiding" UniqueId="2v05vvjSLC2vs616mXhK8D" Type="IfcElement">
+		<DocTemplateDefinition id="Element_Voiding_2v05vvjSLC2vs616mXhK8D" Name="Element Voiding" UniqueId="2v05vvjSLC2vs616mXhK8D" Type="IfcElement">
 			<Documentation>&lt;p&gt;Elements may have voids defined, which may be partial recess or extending full depth. Voids for openings may optionally be filled by another element such as a door or window, or may represent a voiding feature without fillings.&lt;/p&gt;
 
 &lt;p&gt;The &apos;Body&apos; representation of an element does not account for voids, for which CSG operations are required to produce the resulting shape.&lt;/p&gt;
@@ -526,7 +526,7 @@
 				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Element Projecting_0KYHuPBgf6GOaJOfkvfWW1" Name="Element Projecting" UniqueId="14891e19-2eaa-4641-8913-629bb9a60801" Type="IfcElement">
+		<DocTemplateDefinition id="Element_Projecting_0KYHuPBgf6GOaJOfkvfWW1" Name="Element Projecting" UniqueId="14891e19-2eaa-4641-8913-629bb9a60801" Type="IfcElement">
 			<Rules>
 				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="HasProjections">
 					<Rules>

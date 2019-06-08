@@ -5,18 +5,14 @@
 		<DocLocalization Name="Condenser" Locale="en" />
 		<DocLocalization Name="Condenseur" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1220.3618" Y="1008.7111" Width="334.03742" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1220.3618" Y="1008.7111" Width="334.03742" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="d6eb9482-5fa2-4125-8d3f-c2b1856c208a" DefinedType="IfcCondenserTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
 				<DocPoint X="1220.3618" Y="1058.7111" />
 				<DocPoint X="1008.17078" Y="1058.7111" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1220.3618" Y="1058.7111" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1220.3618" Y="1058.7111" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

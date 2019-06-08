@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0wj$UThAX1GPT34oGawq2g">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcRamp" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcRamp" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="3k5DcGJB58JxwP42y4UV83">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="efac3e09-b2d3-4bef-b287-55a6284d6532" RuleParameters="RelatingType=IfcRampType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="0AnQm$d8bChAnNr6pV_E5t">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="8c88b7fc-21dc-4e51-a6a5-cca25739733c" RuleParameters="PsetName=Pset_RampCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="921fe12c-3df2-46e1-b884-deebdc950d73">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="505bc5fb-1592-46c5-b2ae-af72c5964cc7" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="8c0c887b-a45c-4d9b-a687-eb2f5e2a94a1" RuleParameters="PropertyName=RequiredHeadroom;Value=IfcPositiveLengthMeasure;" Order="0" />
@@ -35,9 +27,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="3e9ad474-a695-4a48-969b-b0ffbf77231a">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="5317eba3-ad53-4c5f-89cd-6ac55617792f" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
 							</Items>
@@ -47,9 +37,7 @@
 				<DocTemplateItem UniqueId="125775a8-1fb9-4ac7-9fb7-4b856bc987b6" RuleParameters="PsetName=Pset_ConcreteElementGeneral;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="05b5dfd4-9edd-4490-8eda-a16805173514">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="8bf7d848-5d6f-4888-8f70-d847a7095506" RuleParameters="PropertyName=ConstructionMethod;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="ee705879-9f58-4762-9753-1020ffe65e0c" RuleParameters="PropertyName=StructuralClass;Value=IfcLabel;" Order="0" />
@@ -70,9 +58,7 @@
 				<DocTemplateItem UniqueId="014c8923-d47d-40bc-ae50-905133d89a0a" RuleParameters="PsetName=Pset_PrecastConcreteElementFabrication;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="2299b1e4-9cf6-4a8d-b36e-cd246eb19a95">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="dc104c5e-d7b6-4d28-a869-74b77ed63248" RuleParameters="PropertyName=TypeDesignator;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="4e5a31fa-554b-403d-8fe5-9f117ca373e3" RuleParameters="PropertyName=ProductionLotId;Value=IfcIdentifier;" Order="0" />
@@ -88,9 +74,7 @@
 				<DocTemplateItem UniqueId="d030cc91-a24d-4f35-97e9-1a78acda3d7b" RuleParameters="PsetName=Pset_PrecastConcreteElementGeneral;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="96637bbb-0b49-4aef-8eb4-bbd185e25dfd">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="ca6fdf20-8ebf-4b2c-8eb6-9486a53bdd48" RuleParameters="PropertyName=TypeDesignator;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="607cc4b4-51bf-47d5-bca1-6de6a7de9d57" RuleParameters="PropertyName=CornerChamfer;Value=IfcPositiveLengthMeasure;" Order="0" />
@@ -132,9 +116,7 @@ inverse &lt;em&gt;IsDefinedBy&lt;/em&gt; relationship pointing to
 &lt;em&gt;IfcMaterial&lt;/em&gt;. If both are given, then the material directly
 assigned to &lt;em&gt;IfcRamp&lt;/em&gt; overrides the material assigned to
 &lt;em&gt;IfcRampType&lt;/em&gt;.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Single_1VEQWKHA1Fiut6tQe5OFnK" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Single_1VEQWKHA1Fiut6tQe5OFnK" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Spatial Containment" UniqueId="58522b23-5a15-448d-88a0-3f19cae6c523">
 			<Documentation>&lt;p&gt;The &lt;em&gt;IfcRamp&lt;/em&gt;, as any subtype of &lt;em&gt;IfcBuildingElement&lt;/em&gt;, 
@@ -143,9 +125,7 @@ may participate alternatively in one of the two different containment relationsh
 &lt;li&gt;the &lt;em&gt;Spatial Containment&lt;/em&gt; (defined here), or&lt;/li&gt;
 &lt;li&gt;the &lt;em&gt;Element Composition&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Containment_3Pe$WY01HBmesKdP1dTP15" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Containment_3PeWY01HBmesKdP1dTP15" />
 			<Items>
 				<DocTemplateItem UniqueId="1f4a6345-68a5-40ed-bed4-201dac364104" RuleParameters="RelatingStructure=IfcBuildingStorey;" Order="0">
 					<Documentation>Default spatial container</Documentation>
@@ -183,9 +163,7 @@ border=&quot;0&quot;&gt;&lt;/td&gt;
  &lt;/tr&gt;
 
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Element Decomposition_2A9y5QnEfCgOpEVxkXoRpW" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Element_Decomposition_2A9y5QnEfCgOpEVxkXoRpW" />
 			<Items>
 				<DocTemplateItem UniqueId="123ddb61-716f-42c8-9313-ca0abcfb75fd" RuleParameters="RelatedObjects=IfcRampFlight;" Order="0">
 					<Documentation>Ramps may be decomposed into ramp flights.</Documentation>
@@ -205,9 +183,7 @@ border=&quot;0&quot;&gt;&lt;/td&gt;
 &lt;li&gt;If the &lt;em&gt;IfcRamp&lt;/em&gt; establishes an aggregate, then
 all contained elements shall be placed relative to the
 &lt;em&gt;IfcRamp.ObjectPlacement&lt;/em&gt;.&lt;/li&gt;&lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Axis 2D Geometry" UniqueId="72ed3085-7599-49df-ade7-cb88ecddee12">
 			<Documentation>&lt;p&gt;The walking line is represented by a two-dimensional open curve 
@@ -218,26 +194,18 @@ as the axis. The curve is directed into the upward direction
 &lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The &apos;Axis&apos; representation of &lt;em&gt;IfcRamp&lt;/em&gt; 
 may be provided even if the &lt;em&gt;IfcRamp&lt;/em&gt; has components with own
  shape representations.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Axis 2D Geometry_1u94Jere57Mf0qgUVrF6rb" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Axis_2D_Geometry_1u94Jere57Mf0qgUVrF6rb" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body SweptSolid Geometry" UniqueId="1fc4205c-109d-48bb-8b95-a84efb507d18">
 			<Documentation>&lt;p&gt;If the &lt;em&gt;IfcRamp&lt;/em&gt; has no components defined (empty set of
 &lt;em&gt;SELF\IfcProduct.IsDecomposedBy&lt;/em&gt;) then the &lt;em&gt;IfcRamp&lt;/em&gt; &apos;Body&apos; geometry 
 may be represented by an own &lt;em&gt;IfcShapeRepresentation&lt;/em&gt;.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Clipping Geometry" UniqueId="12255273-4300-44bf-8d4f-7f9e2dafdec2">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Clipping Geometry_0isyBrcmn3wfqgdNBG57u0" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Clipping_Geometry_0isyBrcmn3wfqgdNBG57u0" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="7911bc68-eb5b-41ec-9527-72600d2b9aa5" Type="IfcRamp" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="23a6ed48-f958-42e1-a05d-9f2a86e7eef6" Type="IfcRamp" />
 </DocConceptRoot>
 

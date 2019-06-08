@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1vvjNJB4r77Pltdrf2QJtl">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcStructuralAnalysisModel" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcStructuralAnalysisModel" />
 	<Concepts>
 		<DocTemplateUsage Name="Aggregation" UniqueId="07R_XxSKj08gIJex9ME3YM">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
 			<Items>
 				<DocTemplateItem UniqueId="97d0e09d-c498-4327-a3f6-2f9a2d0b2ff4" RuleParameters="PredefinedType=;RelatedObjects=IfcStructuralAnalysisModel;" Order="0">
 					<Documentation>This relationship provides the hierarchy between separate (partial) analysis models.</Documentation>
@@ -15,9 +11,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Group Assignment" UniqueId="0yR3kh5YP7p9w6usiDXjn_">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Group Assignment_3rPvP$L9D4sQnHatm9h2M3" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Group_Assignment_3rPvPL9D4sQnHatm9h2M3" />
 			<Items>
 				<DocTemplateItem UniqueId="aa5cfaf5-4135-474d-abd0-722d2687ec98" RuleParameters="Type=IfcStructuralItem;" Order="0">
 					<Documentation>Structural members and connections assigned to the analysis model.</Documentation>
@@ -25,8 +19,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="b6695e6f-fa5c-4d54-bfad-dd0bfc61f6a1" Type="IfcStructuralAnalysisModel" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="fa667cd6-941a-450d-ac9e-734904f3edce" Type="IfcStructuralAnalysisModel" />
 </DocConceptRoot>
 

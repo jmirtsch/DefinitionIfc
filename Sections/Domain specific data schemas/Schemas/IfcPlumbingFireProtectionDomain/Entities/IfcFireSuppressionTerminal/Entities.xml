@@ -5,9 +5,7 @@
 		<DocLocalization Name="Fire Suppression Terminal" Locale="en" />
 		<DocLocalization Name="Appareil terminal d&apos;extinction d&apos;incendie" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="862.88" Y="335.66666" Width="650" Height="110.6" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="862.88" Y="335.66666" Width="650" Height="110.6" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="6e81fc3f-ac7f-439a-90a9-1dda68ea6a99" DefinedType="IfcFireSuppressionTerminalTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
@@ -15,9 +13,7 @@
 				<DocPoint X="1505.5468" Y="512.349992" />
 				<DocPoint X="1072.79338" Y="512.349992" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1411.826807" Y="443.5916616" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1411.826807" Y="443.5916616" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

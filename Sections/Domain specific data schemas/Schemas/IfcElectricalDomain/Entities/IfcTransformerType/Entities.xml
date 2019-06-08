@@ -5,9 +5,7 @@
 		<DocLocalization Name="Transformer Type" Locale="en" />
 		<DocLocalization Name="Type de transformateur" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4878.6168" Y="308.04583" Width="679.7" Height="100.53333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4878.6168" Y="308.04583" Width="679.7" Height="100.53333" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="3f471949-e875-455e-8c57-20ce654c1408" DefinedType="IfcTransformerTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>&lt;p&gt;Identifies the predefined types of transformer from which the type required may be set.&lt;/p&gt;</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="4879.8001" Y="461.66657" />
 				<DocPoint X="5343.80003" Y="461.66657" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="4787.133467" Y="459.7895363" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="4787.133467" Y="459.7895363" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

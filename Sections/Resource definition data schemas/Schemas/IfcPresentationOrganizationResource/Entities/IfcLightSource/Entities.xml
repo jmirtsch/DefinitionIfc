@@ -5,9 +5,7 @@
 		<DocLocalization Name="Light Source" Locale="en" />
 		<DocLocalization Name="Source de lumière" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1616.60001627604" Y="187.666625976563" Width="256.66667" Height="268.000010172526" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1616.60001627604" Y="187.666625976563" Width="256.66667" Height="268.000010172526" />
 	<Subtypes>
 		<DocSubtype UniqueId="50ccedc2-67e7-4971-b946-461b939c9f1d" DefinedType="IfcLightSourceAmbient" />
 		<DocSubtype UniqueId="381532d8-cbfe-47ac-87a1-9570427e1676" DefinedType="IfcLightSourceDirectional" />
@@ -22,9 +20,7 @@
 				<DocPoint X="1873.26668627604" Y="223.733332316081" />
 				<DocPoint X="2266.30029296875" Y="223.733332316081" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1873.26668627604" Y="203.733332316081" Width="73" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1873.26668627604" Y="203.733332316081" Width="73" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="LightColour" UniqueId="ff1fa3ae-d82f-44c4-803a-3710bb57144d" DefinedType="IfcColourRgb" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Definition from ISO/CD 10303-46:1992: Based on the current lighting model, the colour of the light to be used for shading.
@@ -34,9 +30,7 @@ Definition from VRML97 - ISO/IEC 14772-1:1997: The color field specifies the spe
 				<DocPoint X="1873.26668627604" Y="305.000010172526" />
 				<DocPoint X="2266.30029296875" Y="305.000010172526" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1873.26668627604" Y="285.000010172526" Width="134" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1873.26668627604" Y="285.000010172526" Width="134" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="AmbientIntensity" UniqueId="55499aa0-2d76-4bb7-8ffb-ddb32a56f629" DefinedType="IfcNormalisedRatioMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Definition from VRML97 - ISO/IEC 14772-1:1997: The ambientIntensity specifies the intensity of the ambient emission from the light. Light intensity may range from 0.0 (no light emission) to 1.0 (full intensity).</Documentation>
@@ -45,9 +39,7 @@ Definition from VRML97 - ISO/IEC 14772-1:1997: The color field specifies the spe
 				<DocPoint X="1873.26668627604" Y="382.66665479872" />
 				<DocPoint X="2266.30029296875" Y="382.66665479872" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1873.26668627604" Y="362.66665479872" Width="189" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1873.26668627604" Y="362.66665479872" Width="189" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Intensity" UniqueId="118472c5-0afa-48b6-a33a-dcada5d71a1f" DefinedType="IfcNormalisedRatioMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Definition from VRML97 - ISO/IEC 14772-1:1997: The intensity field specifies the brightness of the direct emission from the ligth. Light intensity may range from 0.0 (no light emission) to 1.0 (full intensity).</Documentation>
@@ -56,9 +48,7 @@ Definition from VRML97 - ISO/IEC 14772-1:1997: The color field specifies the spe
 				<DocPoint X="1873.26668627604" Y="422.333319769965" />
 				<DocPoint X="2266.30029296875" Y="422.333319769965" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1873.26668627604" Y="402.333319769965" Width="99" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1873.26668627604" Y="402.333319769965" Width="99" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

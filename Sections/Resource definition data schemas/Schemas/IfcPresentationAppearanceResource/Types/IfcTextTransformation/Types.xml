@@ -5,12 +5,8 @@
 		<DocLocalization Name="Text Transformation" Locale="en" />
 		<DocLocalization Name="Transformation de texte" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5693.8043" Y="1456.16578775391" Width="318.33333" Height="62.966667" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="STRING_0ZB5CNJRD9fAnKBYZ8sieM" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5693.8043" Y="1456.16578775391" Width="318.33333" Height="62.966667" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="STRING_0ZB5CNJRD9fAnKBYZ8sieM" />
 	<WhereRules>
 		<DocWhereRule Name="WR1" UniqueId="df229a71-ed12-4884-b5f8-1896cf13f4c7">
 			<Documentation>Allowable values for text transform.</Documentation>

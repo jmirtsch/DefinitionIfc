@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="830a0b27-ab29-45c1-8a1d-a320b10b4155">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcPresentationLayerWithStyle" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="ccbaabfe-fd09-4d2e-94b7-6e196cb3a852" Type="IfcPresentationLayerWithStyle" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcPresentationLayerWithStyle" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="9c94d2b9-2d35-4e7d-9f98-509b2bc4465e" Type="IfcPresentationLayerWithStyle" />
 </DocConceptRoot>
 

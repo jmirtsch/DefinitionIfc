@@ -4,12 +4,8 @@
 		<DocLocalization Name="Energy Measure" Locale="en" />
 		<DocLocalization Name="Mesure d&apos;énergie" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5060.3349" Y="587.21953" Width="529.26667" Height="54.923051" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_2$i1wSDAn8Ngux5Pg1BlFo" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5060.3349" Y="587.21953" Width="529.26667" Height="54.923051" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_2i1wSDAn8Ngux5Pg1BlFo" />
 	<DiagramLine>
 		<DocPoint X="5060.3349" Y="613.12571" />
 		<DocPoint X="4971.265923" Y="613.12571" />

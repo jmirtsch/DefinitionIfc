@@ -5,9 +5,7 @@
 		<DocLocalization Name="Simple Property" Locale="en" />
 		<DocLocalization Name="Propriété simple" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="956.62501" Y="1567.7958" Width="436.66667" Height="104.16667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="956.62501" Y="1567.7958" Width="436.66667" Height="104.16667" />
 	<Subtypes>
 		<DocSubtype UniqueId="4aded8a0-6a79-4d16-a028-281f6cc2e360" DefinedType="IfcPropertySingleValue" />
 		<DocSubtype UniqueId="9e66327d-7922-439c-bef6-934ad7edb7f9" DefinedType="IfcPropertyEnumeratedValue" />

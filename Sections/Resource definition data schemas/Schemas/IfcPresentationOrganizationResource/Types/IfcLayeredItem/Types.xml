@@ -5,9 +5,7 @@
 		<DocLocalization Name="Layered Item" Locale="en" />
 		<DocLocalization Name="Item composite" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="822.166646321615" Y="533.833312988281" Width="295.233327229818" Height="83.0000076293945" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="822.166646321615" Y="533.833312988281" Width="295.233327229818" Height="83.0000076293945" />
 	<Selects>
 		<DocSelectItem Name="IfcRepresentationItem" UniqueId="e0e41be8-54ab-4ba7-9498-6c71ebf9c351" />
 		<DocSelectItem Name="IfcRepresentation" UniqueId="782036c3-88e4-4455-9cd8-ced09211c5b0" />

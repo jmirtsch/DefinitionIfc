@@ -5,9 +5,7 @@
 		<DocLocalization Name="Curtain Wall Type" Locale="en" />
 		<DocLocalization Name="Type de mur rideau" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3629.6533" Y="1692.7599" Width="326.63333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3629.6533" Y="1692.7599" Width="326.63333" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="db5825ed-e082-45c7-b97b-65c1a5dc462e" DefinedType="IfcCurtainWallTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of a curtain wall element from which the type required may be set.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="3956.28663" Y="1742.0433335" />
 				<DocPoint X="4184.62" Y="1742.0433335" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3956.28663" Y="1722.0433335" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3956.28663" Y="1722.0433335" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

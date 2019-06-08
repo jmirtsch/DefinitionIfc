@@ -5,9 +5,7 @@
 		<DocLocalization Name="Distribution System" Locale="en" />
 		<DocLocalization Name="Système de distribution" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3268.8106" Y="351.55983" Width="561.98305" Height="237.57317" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3268.8106" Y="351.55983" Width="561.98305" Height="237.57317" />
 	<Subtypes>
 		<DocSubtype UniqueId="e20a476e-79c1-4c9b-acf6-88a5e5a43660" DefinedType="IfcDistributionCircuit" />
 	</Subtypes>
@@ -20,9 +18,7 @@
 				<DocPoint X="3830.7937" Y="396.52666" />
 				<DocPoint X="4085.2308" Y="396.52666" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3813.872352" Y="384.909168" Width="129" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3813.872352" Y="384.909168" Width="129" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="PredefinedType" UniqueId="d0f9b35a-a5aa-40b0-9ef3-8d4ca8c027dc" DefinedType="IfcDistributionSystemEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined types of distribution systems.</Documentation>
@@ -30,9 +26,7 @@
 				<DocPoint X="3830.7937" Y="506.82385" />
 				<DocPoint X="4086.5103" Y="506.82385" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3834.1744207" Y="496.360352" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3834.1744207" Y="496.360352" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

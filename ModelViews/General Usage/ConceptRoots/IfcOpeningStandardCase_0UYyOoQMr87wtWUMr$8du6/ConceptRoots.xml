@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0UYyOoQMr87wtWUMr$8du6">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcOpeningStandardCase" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcOpeningStandardCase" />
 	<Concepts>
 		<DocTemplateUsage Name="Placement" UniqueId="3nMQNXf1L8fRONjKxcp992">
 			<Documentation>&lt;p&gt;The following constraint is mandatory for
@@ -13,9 +11,7 @@
 the same element, which is voided by the opening, i.e. referred
 to by &lt;em&gt;VoidsElement.RelatingBuildingElement&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Geometry" UniqueId="0_m1K1kAf4iguIPeZTHB8B">
 			<Documentation>&lt;p&gt;The geometric representation of &lt;em&gt;IfcOpeningStandardCase&lt;/em&gt;
@@ -69,16 +65,12 @@ opening height&lt;/li&gt;
 &quot;standard opening&quot; border=&quot;0&quot; height=&quot;400&quot; width=&quot;600&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 158 &amp;mdash; Opening standard representation&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Geometry_34HhqMBUDBbxDFH4Qi2wt2" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Geometry_34HhqMBUDBbxDFH4Qi2wt2" />
 			<Items>
 				<DocTemplateItem UniqueId="2dc3dbc8-d259-4b8b-8af9-5195bebd8d6c" RuleParameters="Identifier=Body;Type=SweptSolid;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="b7a1225f-ff0e-4e17-ba5b-815172905d60" Type="IfcOpeningStandardCase" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="f3b9356f-cfdd-40b3-8133-c6e99504262c" Type="IfcOpeningStandardCase" />
 </DocConceptRoot>
 

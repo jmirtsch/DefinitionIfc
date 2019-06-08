@@ -4,9 +4,7 @@
 		<DocLocalization Name="Kurve auf einer Fläche" Locale="de" />
 		<DocLocalization Name="Curve On Surface" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="10766.853" Y="452.92" Width="325.333312988281" Height="89.666667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="10766.853" Y="452.92" Width="325.333312988281" Height="89.666667" />
 	<Selects>
 		<DocSelectItem Name="IfcCompositeCurveOnSurface" UniqueId="37d70dce-d1b1-4087-bc86-4b317b13536d" />
 		<DocSelectItem Name="IfcPcurve" UniqueId="eda5e791-5e35-4830-b7a5-94af5848d9b3" />

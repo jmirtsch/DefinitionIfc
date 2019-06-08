@@ -5,9 +5,7 @@
 		<DocLocalization Name="Ramp Flight" Locale="en" />
 		<DocLocalization Name="Volée" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1865.3934" Y="180.07341" Width="249.9" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1865.3934" Y="180.07341" Width="249.9" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="14de555e-b478-4d05-91bc-19cad9fa65f2" DefinedType="IfcRampFlightTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined generic type for a ramp flight that is specified in an enumeration. There may be a property set given specificly for the predefined types.
@@ -17,9 +15,7 @@
 				<DocPoint X="2115.2934" Y="222.07341" />
 				<DocPoint X="2509.3267" Y="222.07341" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2112.6267333" Y="211.406743" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2112.6267333" Y="211.406743" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

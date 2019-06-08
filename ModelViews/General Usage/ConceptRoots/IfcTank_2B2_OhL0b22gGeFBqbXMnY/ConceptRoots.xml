@@ -1,36 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2B2_OhL0b22gGeFBqbXMnY">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcTank" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcTank" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="1Ie4oXYpP8ieRsSIYmmaTp">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="c413149a-47de-4435-aad2-075f43ee3cef" RuleParameters="RelatingType=IfcTankType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="2yACaLf6z79PB3bYYVx450">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="59c2f394-6b02-44eb-960a-f6ab3bcb7d47" RuleParameters="PsetName=Pset_TankOccurrence;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="82817ab8-3c65-45a3-b1e0-39f02a971aaa">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="937710d3-a368-40a6-b005-6ffeee8a6ba2" RuleParameters="PropertyName=TankComposition;Value=IfcLabel;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="d32c7fe0-4765-40eb-9b12-aa9cc77addec">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="05897b0e-9764-44a3-8bc4-380b39308c22" RuleParameters="PropertyName=HasLadder;Value=IfcBoolean;" Order="0" />
 								<DocTemplateItem UniqueId="b87f67fd-e1f7-4b23-8747-320b381407d9" RuleParameters="PropertyName=HasVisualIndicator;Value=IfcBoolean;" Order="0" />
@@ -41,9 +31,7 @@
 				<DocTemplateItem UniqueId="da9dde9f-e9e4-4977-bce4-93d0687e1dc2" RuleParameters="PsetName=Pset_TankTypeCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="36e05b79-b1d0-4bef-899b-bbc29ec3b699">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="9ef48c6c-8a65-4144-be5c-c9661424d82d" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="9117ea8c-67c9-4071-bbed-55caacb2df7e" RuleParameters="PropertyName=NominalLengthOrDiameter;Value=IfcPositiveLengthMeasure;" Order="0" />
@@ -58,9 +46,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="5c52806e-0cb8-4f03-a9bf-bea030d11b43">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="d15077ef-1922-4aec-8aff-ef0ddb760b48" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="f0e2726d-400f-4606-a665-e462ea21e61a" RuleParameters="PropertyName=AccessType;Value=IfcLabel;" Order="0" />
@@ -74,17 +60,13 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="02moZqTcP1$uohpSlackKm">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="e6dff0bd-c77f-4780-9cf7-139fabe43d50" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_TankBaseQuantities;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Material" UniqueId="0dUJPiasX66hnR6ut0Z__G">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Constituent_Set_3PRtzzvq9Dk9jT6ADgRVY4" />
 			<Items>
 				<DocTemplateItem UniqueId="dad22eaa-dd61-4db9-82da-6f655f7dba0c" RuleParameters="Name=Casing;" Order="0">
 					<Documentation>Material from which the casing is constructed.</Documentation>
@@ -92,9 +74,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Port" UniqueId="32WiuWyyz8RQqJ9bjCnTo4">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Port_Nesting_2w9EtqE92s8JFNQ8EuKWA" />
 			<Items>
 				<DocTemplateItem UniqueId="149787e4-ef49-4964-9e14-550c2267c5b2" RuleParameters="PortName=Inlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
 					<Documentation>Inlet.</Documentation>
@@ -105,8 +85,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="eac3f66b-5f1f-46af-a081-0390d399f88d" Type="IfcTank" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="2a04ea77-554c-4c0c-b215-3a0ecc01479f" Type="IfcTank" />
 </DocConceptRoot>
 

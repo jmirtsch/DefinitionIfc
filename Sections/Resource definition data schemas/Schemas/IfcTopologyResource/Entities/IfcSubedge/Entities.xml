@@ -5,9 +5,7 @@
 		<DocLocalization Name="Subedge" Locale="en" />
 		<DocLocalization Name="Sous arête" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="158.453303019206" Y="423.23344930013" Width="252" Height="101.33333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="158.453303019206" Y="423.23344930013" Width="252" Height="101.33333" />
 	<Attributes>
 		<DocAttribute Name="ParentEdge" UniqueId="4c3df6a8-223d-4e59-9a81-4540065605bc" DefinedType="IfcEdge" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>The Edge, or Subedge, which contains the Subedge.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="342.024988810221" Y="524.56677930013" />
 				<DocPoint X="342.024988810221" Y="597.416717529297" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="342.024988810221" Y="577.416717529297" Width="138" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="342.024988810221" Y="577.416717529297" Width="138" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

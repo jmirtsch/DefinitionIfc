@@ -4,9 +4,7 @@
 		<DocLocalization Name="gespiegeltes Profil" Locale="de" />
 		<DocLocalization Name="Mirrored Profile Def" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="307.00667" Y="4455.8667" Width="430.4" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="307.00667" Y="4455.8667" Width="430.4" Height="100" />
 	<Attributes>
 		<DocAttribute Name="Operator" UniqueId="992b571c-5d03-41bb-a724-a448eface501" DefinedType="IfcCartesianTransformationOperator2D" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Derived>
@@ -28,9 +26,7 @@ IfcCartesianTransformationOperator2D()</Derived>
 				<DocPoint X="737.40667" Y="4505.8667" />
 				<DocPoint X="1010.7541" Y="4505.8667" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="732.0733367" Y="4500.5333667" Width="236" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="732.0733367" Y="4500.5333667" Width="236" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

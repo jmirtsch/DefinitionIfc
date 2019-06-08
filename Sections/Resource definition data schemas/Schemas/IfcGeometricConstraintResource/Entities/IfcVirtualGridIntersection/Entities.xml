@@ -5,9 +5,7 @@
 		<DocLocalization Name="Virtual Grid Intersection" Locale="en" />
 		<DocLocalization Name="Intersection virtuelle de grille" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="231.38917" Y="1264.0216" Width="460.66667" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="231.38917" Y="1264.0216" Width="460.66667" Height="100" />
 	<Attributes>
 		<DocAttribute Name="IntersectingAxes" UniqueId="f48a97d0-61c3-4c40-99c4-36a4506a6ffc" DefinedType="IfcGridAxis" AttributeFlags="0" AggregationType="1" AggregationFlag="2" AggregationLower="2" AggregationUpper="2">
 			<Documentation>Two grid axes which intersects at exactly one intersection (see also informal proposition at IfcGrid). If attribute OffsetDistances is omitted, the intersection defines the placement or ref direction of a grid placement directly. If OffsetDistances are given, the intersection is defined by the offset curves to the grid axes.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="450.38917" Y="1364.0216" />
 				<DocPoint X="450.38917" Y="1526.44163" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="603.72251" Y="1339.250767" Width="276" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="603.72251" Y="1339.250767" Width="276" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="OffsetDistances" UniqueId="97ec914d-8dfe-4ce4-ad64-add422bb66ce" DefinedType="IfcLengthMeasure" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="2" AggregationUpper="3">
 			<Documentation>Offset distances to the grid axes. If given, it defines virtual offset curves to the grid axes. The intersection of the offset curves specify the virtual grid intersection.</Documentation>
@@ -25,9 +21,7 @@
 				<DocPoint X="692.05584" Y="1314.0216" />
 				<DocPoint X="1044.65584" Y="1314.0216" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="688.7225067" Y="1304.0216" Width="258" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="688.7225067" Y="1304.0216" Width="258" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

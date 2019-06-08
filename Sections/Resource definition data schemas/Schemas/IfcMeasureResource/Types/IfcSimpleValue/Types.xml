@@ -5,9 +5,7 @@
 		<DocLocalization Name="Simple Value" Locale="en" />
 		<DocLocalization Name="Valeur simple" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2076.21313476563" Y="868.441101074219" Width="243.17507" Height="58.635013" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2076.21313476563" Y="868.441101074219" Width="243.17507" Height="58.635013" />
 	<Selects>
 		<DocSelectItem Name="IfcInteger" UniqueId="4d336d34-5763-481d-a939-2d405852fd9a" />
 		<DocSelectItem Name="IfcReal" UniqueId="08403bd7-9210-4e4a-aeaf-06191a2594d8" />

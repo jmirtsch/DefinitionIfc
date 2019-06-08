@@ -3,12 +3,8 @@
 	<Localization>
 		<DocLocalization Name="Dose Equivalent Measure" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5665.0543" Y="385.50378" Width="456.68163" Height="54.923051" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_31FQEDpivD2wvb_xEty8ut" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5665.0543" Y="385.50378" Width="456.68163" Height="54.923051" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_31FQEDpivD2wvb_xEty8ut" />
 	<DiagramLine>
 		<DocPoint X="6121.7359" Y="412.96532" />
 		<DocPoint X="6232.62069" Y="412.96532" />

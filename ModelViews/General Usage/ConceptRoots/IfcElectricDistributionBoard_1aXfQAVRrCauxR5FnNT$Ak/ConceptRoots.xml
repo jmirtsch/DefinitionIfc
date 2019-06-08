@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1aXfQAVRrCauxR5FnNT$Ak">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcElectricDistributionBoard" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcElectricDistributionBoard" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="0xYnDV5P54cuJuHeXV8kTs">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="a88e8448-57f3-478d-bb3c-feec2f2577a6" RuleParameters="RelatingType=IfcElectricApplianceType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="1SiFS7MCnA28rfQ7B9APyg">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="08f9963d-c747-4816-b558-82fa45e0e45d" RuleParameters="PsetName=Pset_ElectricDistributionBoardOccurrence;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="6ddd0ea6-fe97-454d-b49f-38e90188e43b">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="12c4b4f8-5fe9-4c6f-bcad-6d73397e25bd" RuleParameters="PropertyName=IsMain;Value=IfcBoolean;" Order="0" />
 								<DocTemplateItem UniqueId="662b1edf-3f28-4285-8842-cfc09632a49c" RuleParameters="PropertyName=IsSkilledOperator;Value=IfcBoolean;" Order="0" />
@@ -33,17 +25,13 @@
 				<DocTemplateItem UniqueId="1b280c3c-2942-43f0-8599-277740b9d5b6" RuleParameters="PsetName=Pset_ElectricDistributionBoardTypeCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="b7138672-2b49-458e-bb69-f81e1a851abc">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="0af6da9e-38fc-43ed-8008-4fffcf0be432" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="6daa4c02-4aba-4ea1-bbfd-a36b458a64a1">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="5e1ea853-0b7b-43f3-84f3-9143dfcc0f10" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
 							</Items>
@@ -53,17 +41,13 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="2WqQNYpXX1LfYf_gFSjixL">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="e9273ae9-a895-4902-b933-609bddd65ec6" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_ElectricDistributionBoardBaseQuantities;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Material" UniqueId="1aU9E4vO9CvO0Vc2SYI3vn">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Constituent_Set_3PRtzzvq9Dk9jT6ADgRVY4" />
 			<Items>
 				<DocTemplateItem UniqueId="c3a0160c-a3e5-4e2b-8fe6-a2fc696d6020" RuleParameters="Name=Casing;" Order="0">
 					<Documentation>Material from which the casing is constructed.</Documentation>
@@ -71,9 +55,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Port" UniqueId="1U3vZbFCn6_Bxq3dP_DL0n">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Port_Nesting_2w9EtqE92s8JFNQ8EuKWA" />
 			<Items>
 				<DocTemplateItem UniqueId="976dc867-9313-4a69-a23c-3314c883b50d" RuleParameters="PredefinedType=CONSUMERUNIT;PortName=Line;SystemType=ELECTRICAL;Flow=SINK;" Order="0">
 					<Documentation>Incoming power, such as a cable connecting from the electrical utility or another distribution board.</Documentation>
@@ -108,8 +90,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="c2dac873-7b72-412c-a61c-a011dbd56a5e" Type="IfcElectricDistributionBoard" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="0b141ac3-025d-448e-89ff-3cf1e3cc5ecf" Type="IfcElectricDistributionBoard" />
 </DocConceptRoot>
 

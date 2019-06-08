@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="c21d1f38-1a49-4631-899a-d2f1933f6f15">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcPile" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcPile" />
 	<Concepts>
 		<DocTemplateUsage Name="Axis 3D Geometry" UniqueId="fdd61629-5964-460f-8e98-942e06321e6c">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Axis 3D Geometry_2ubDZB_q55xBeOSih6klyq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Axis_3D_Geometry_2ubDZB_q55xBeOSih6klyq" />
 			<Items>
 				<DocTemplateItem UniqueId="7252fa24-6be7-4c9e-8283-e7f85bc7a792" RuleParameters="Identifier=Axis;Type=Curve3D;Items=IfcIndexedPolyCurve;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Material Profile Set Usage" UniqueId="5a1d2c43-6a83-482b-8f6c-fab267fa4bae">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set Usage_1ge1GfjMPBDeTQCM88YfWn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Profile_Set_Usage_1ge1GfjMPBDeTQCM88YfWn" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="a568fd06-0d74-4917-b3bd-b9a1d6d35694" Type="IfcPile" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="397903c6-0dc4-47f1-ade9-0f8cf26ff6b9" Type="IfcPile" />
 </DocConceptRoot>
 

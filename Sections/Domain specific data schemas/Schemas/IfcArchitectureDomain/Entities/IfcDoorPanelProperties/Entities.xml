@@ -5,9 +5,7 @@
 		<DocLocalization Name="Door Panel Properties" Locale="en" />
 		<DocLocalization Name="Propriétés du panneau de porte" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="529.97333" Y="1732.8666" Width="398.2" Height="375.83333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="529.97333" Y="1732.8666" Width="398.2" Height="375.83333" />
 	<Attributes>
 		<DocAttribute Name="PanelDepth" UniqueId="60db7d64-ad51-4907-abb9-1e37b03e6ef5" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Depth of the door panel, measured perpendicular to the plane of the door leaf.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="928.17333" Y="2043.4499" />
 				<DocPoint X="1166.40666" Y="2043.4499" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="920.17333" Y="2035.4499" Width="137" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="920.17333" Y="2035.4499" Width="137" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="PanelOperation" UniqueId="653eed18-68d7-4612-8bdf-6873cf96ca54" DefinedType="IfcDoorPanelOperationEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The &lt;em&gt;PanelOperation&lt;/em&gt; defines the way of operation of that panel. The &lt;em&gt;PanelOperation&lt;/em&gt; of the door panel has to correspond with the &lt;em&gt;OperationType&lt;/em&gt; of the &lt;em&gt;IfcDoorStyle&lt;/em&gt; by which it is referenced.</Documentation>
@@ -25,9 +21,7 @@
 				<DocPoint X="928.17333" Y="1764.0522" />
 				<DocPoint X="1135.63993" Y="1764.0522" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="925.506663" Y="1758.718867" Width="179" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="925.506663" Y="1758.718867" Width="179" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="PanelWidth" UniqueId="5ac6ab35-7be7-4433-9f2a-95d15dfb9753" DefinedType="IfcNormalisedRatioMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Width of this panel, given as ratio relative to the total clear opening width of the door. If omited, it defaults to 1. A value has to be provided for all doors with &lt;em&gt;OperationType&lt;/em&gt;&apos;s at &lt;em&gt;IfcDoorStyle&lt;/em&gt; defining a door with more then one panel.</Documentation>
@@ -35,9 +29,7 @@
 				<DocPoint X="928.17333" Y="1944.7833" />
 				<DocPoint X="1146.57333" Y="1944.7833" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="930.8399967" Y="1939.4499667" Width="133" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="930.8399967" Y="1939.4499667" Width="133" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="PanelPosition" UniqueId="dc262691-0151-4a09-8981-de18a10127ae" DefinedType="IfcDoorPanelPositionEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Position of this panel within the door. The &lt;em&gt;PanelPosition&lt;/em&gt; of the door panel has to correspond with the &lt;em&gt;OperationType&lt;/em&gt; of the &lt;em&gt;IfcDoorStyle&lt;/em&gt; by which it is referenced.</Documentation>
@@ -45,9 +37,7 @@
 				<DocPoint X="928.17333" Y="1850.3929" />
 				<DocPoint X="1135.5667" Y="1850.3929" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="914.839997" Y="1845.059567" Width="157" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="914.839997" Y="1845.059567" Width="157" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ShapeAspectStyle" UniqueId="4c01c2bd-ea29-4104-bd4f-963e2032e958" DefinedType="IfcShapeAspect" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Pointer to the shape aspect, if given. The shape aspect reflects the part of the door shape, which represents the door panel.
@@ -56,9 +46,7 @@
 				<DocPoint X="806.40667" Y="1732.8666" />
 				<DocPoint X="806.40667" Y="1539.44993" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="934.40667" Y="1692.8666" Width="208" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="934.40667" Y="1692.8666" Width="208" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

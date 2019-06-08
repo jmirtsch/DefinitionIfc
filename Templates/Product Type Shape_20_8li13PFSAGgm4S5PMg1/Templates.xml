@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Product Type Shape_20_8li13PFSAGgm4S5PMg1" Name="Product Type Shape" UniqueId="20_8li13PFSAGgm4S5PMg1" Type="IfcTypeProduct">
+<DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Product_Type_Shape_20_8li13PFSAGgm4S5PMg1" Name="Product Type Shape" UniqueId="20_8li13PFSAGgm4S5PMg1" Type="IfcTypeProduct">
 	<Rules>
 		<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="RepresentationMaps">
 			<Rules>
@@ -34,7 +34,7 @@
 				</DocModelRuleAttribute>
 			</Rules>
 			<Templates>
-				<DocTemplateDefinition id="Type Axis Geometry_3X3nGB2$XBtfkCYO2N46Fn" Name="Type Axis Geometry" UniqueId="3X3nGB2$XBtfkCYO2N46Fn" Type="IfcElementType">
+				<DocTemplateDefinition id="Type_Axis_Geometry_3X3nGB2XBtfkCYO2N46Fn" Name="Type Axis Geometry" UniqueId="3X3nGB2$XBtfkCYO2N46Fn" Type="IfcElementType">
 					<Documentation>&lt;p&gt;The Axis representation may be defined on product types that have a concept of a linear representation, which may also correspond to structural axis or distribution flow path.&lt;/p&gt;
 
 &lt;p&gt;For distribution elements, this represents the 3D flow path of the item having &lt;em&gt;IfcShapeRepresentation.RepresentationType&lt;/em&gt; of &apos;Curve3D&apos; and containing a single &lt;em&gt;IfcBoundedCurve&lt;/em&gt; subtype such as &lt;em&gt;IfcPolyline&lt;/em&gt;, &lt;em&gt;IfcTrimmedCurve&lt;/em&gt;, or &lt;em&gt;IfcCompositeCurve&lt;/em&gt;.  For elements containing directional ports (&lt;em&gt;IfcDistributionPort&lt;/em&gt; with &lt;em&gt;FlowDirection&lt;/em&gt; of &lt;em&gt;SOURCE&lt;/em&gt; or &lt;em&gt;SINK&lt;/em&gt;), the direction of the curve indicates direction of flow where a &lt;em&gt;SINK&lt;/em&gt; port is positioned at the start of the curve and a &lt;em&gt;SOURCE&lt;/em&gt; port is positioned at the end of the curve.  This representation is most applicable to flow segment types (pipes, ducts, cables), however may be used at other elements to define a primary flow path if applicable.&lt;/p&gt;
@@ -91,7 +91,7 @@
 						</DocModelRuleAttribute>
 					</Rules>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Type Body Geometry_0wx2q0jBj7QgWX$2AubRKn" Name="Type Body Geometry" UniqueId="0wx2q0jBj7QgWX$2AubRKn" Type="IfcTypeProduct">
+				<DocTemplateDefinition id="Type_Body_Geometry_0wx2q0jBj7QgWX2AubRKn" Name="Type Body Geometry" UniqueId="0wx2q0jBj7QgWX$2AubRKn" Type="IfcTypeProduct">
 					<Documentation>&lt;p&gt;The Body representation defines the physical shape of the product type.&lt;/p&gt;</Documentation>
 					<Rules>
 						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="RepresentationMaps">
@@ -158,19 +158,11 @@
 																		<DocModelRuleEntity id="i30440" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																			<Rules>
 																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Description="Value=&apos;Surface&apos;">
-																					<Expression>
-																						<DocOpStatement Operation="compareequal">
-																							<Reference>
-																								<DocOpReference>
-																									<EntityRule>
-																										<DocModelRuleEntity xsi:nil="true" href="i30440" />
-																									</EntityRule>
-																								</DocOpReference>
-																							</Reference>
-																							<Value>
-																								<DocOpLiteral Literal="&apos;Surface&apos;" />
-																							</Value>
-																						</DocOpStatement>
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i30440" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Literal="&apos;Surface&apos;" />
 																					</Expression>
 																				</DocModelRuleConstraint>
 																			</Rules>
@@ -182,19 +174,11 @@
 																		<DocModelRuleEntity id="i30446" CardinalityMin="0" CardinalityMax="0" Name="IfcLabel">
 																			<Rules>
 																				<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0" Description="Value=&apos;Tessellation&apos;">
-																					<Expression>
-																						<DocOpStatement Operation="compareequal">
-																							<Reference>
-																								<DocOpReference>
-																									<EntityRule>
-																										<DocModelRuleEntity xsi:nil="true" href="i30446" />
-																									</EntityRule>
-																								</DocOpReference>
-																							</Reference>
-																							<Value>
-																								<DocOpLiteral Literal="&apos;Tessellation&apos;" />
-																							</Value>
-																						</DocOpStatement>
+																					<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																						<Reference xsi:type="DocOpReference">
+																							<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i30446" />
+																						</Reference>
+																						<Value xsi:type="DocOpLiteral" Literal="&apos;Tessellation&apos;" />
 																					</Expression>
 																				</DocModelRuleConstraint>
 																			</Rules>
@@ -252,7 +236,7 @@
 																									<Rules>
 																										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcImageTexture">
 																											<References>
-																												<DocTemplateDefinition xsi:nil="true" href="Image Texture_0PLqwkKhv3vv4aUQb558RB" />
+																												<DocTemplateDefinition xsi:nil="true" href="Image_Texture_0PLqwkKhv3vv4aUQb558RB" />
 																											</References>
 																										</DocModelRuleEntity>
 																									</Rules>
@@ -269,7 +253,7 @@
 																									<Rules>
 																										<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcSurfaceStyle">
 																											<References>
-																												<DocTemplateDefinition xsi:nil="true" href="Surface Color Style_3gHpLYmULDnwrr$pIILsus" />
+																												<DocTemplateDefinition xsi:nil="true" href="Surface_Color_Style_3gHpLYmULDnwrrpIILsus" />
 																											</References>
 																										</DocModelRuleEntity>
 																									</Rules>
@@ -298,7 +282,7 @@
 								</DocModelRuleAttribute>
 							</Rules>
 						</DocTemplateDefinition>
-						<DocTemplateDefinition id="Type Body CSG Geometry_3$cgCgF6P4XAWUmEZvj5eg" Name="Type Body CSG Geometry" UniqueId="ff9aa32a-3c66-4484-a81e-c0e8f9b45a2a" Type="IfcTypeProduct">
+						<DocTemplateDefinition id="Type_Body_CSG_Geometry_3cgCgF6P4XAWUmEZvj5eg" Name="Type Body CSG Geometry" UniqueId="ff9aa32a-3c66-4484-a81e-c0e8f9b45a2a" Type="IfcTypeProduct">
 							<Rules>
 								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="RepresentationMaps">
 									<Rules>
@@ -379,7 +363,7 @@
 								</DocModelRuleAttribute>
 							</Rules>
 						</DocTemplateDefinition>
-						<DocTemplateDefinition id="Type Body Brep Geometry_36BsAIvPH5tA_1VlqIZzbp" Name="Type Body Brep Geometry" UniqueId="c62f6292-e594-45dc-af81-7efd128fd973" Type="IfcTypeProduct">
+						<DocTemplateDefinition id="Type_Body_Brep_Geometry_36BsAIvPH5tA_1VlqIZzbp" Name="Type Body Brep Geometry" UniqueId="c62f6292-e594-45dc-af81-7efd128fd973" Type="IfcTypeProduct">
 							<Rules>
 								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="RepresentationMaps">
 									<Rules>
@@ -474,7 +458,7 @@
 								</DocModelRuleAttribute>
 							</Rules>
 						</DocTemplateDefinition>
-						<DocTemplateDefinition id="Type Body AdvancedBrep Geometry_0SdQ8dAVPFjwqlicymUhFZ" Name="Type Body AdvancedBrep Geometry" UniqueId="1c9da227-29f6-4fb7-ad2f-b26f307ab3e3" Type="IfcTypeProduct">
+						<DocTemplateDefinition id="Type_Body_AdvancedBrep_Geometry_0SdQ8dAVPFjwqlicymUhFZ" Name="Type Body AdvancedBrep Geometry" UniqueId="1c9da227-29f6-4fb7-ad2f-b26f307ab3e3" Type="IfcTypeProduct">
 							<Rules>
 								<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="RepresentationMaps">
 									<Rules>
@@ -734,7 +718,7 @@
 						</DocTemplateDefinition>
 					</Templates>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Type Lighting Geometry_1hQyn1EIXDiAtRMBTnedqP" Name="Type Lighting Geometry" UniqueId="1hQyn1EIXDiAtRMBTnedqP" Type="IfcDistributionElementType">
+				<DocTemplateDefinition id="Type_Lighting_Geometry_1hQyn1EIXDiAtRMBTnedqP" Name="Type Lighting Geometry" UniqueId="1hQyn1EIXDiAtRMBTnedqP" Type="IfcDistributionElementType">
 					<Documentation>&lt;p&gt;For elements that emit light such as lamps or light fixtures, this represents the light emission of the item having &lt;em&gt;IfcShapeRepresentation.RepresentationType&lt;/em&gt; of &apos;LightSource&apos; and containing one or more &lt;em&gt;IfcLightSource&lt;/em&gt; subtypes.&lt;/p&gt;</Documentation>
 					<Rules>
 						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="RepresentationMaps">
@@ -785,7 +769,7 @@
 						</DocModelRuleAttribute>
 					</Rules>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Type Clearance Geometry_3nwx3pbib94gHrq1AYFu5v" Name="Type Clearance Geometry" UniqueId="3nwx3pbib94gHrq1AYFu5v" Type="IfcDistributionElementType">
+				<DocTemplateDefinition id="Type_Clearance_Geometry_3nwx3pbib94gHrq1AYFu5v" Name="Type Clearance Geometry" UniqueId="3nwx3pbib94gHrq1AYFu5v" Type="IfcDistributionElementType">
 					<Documentation>&lt;p&gt;For elements that require clearance such as for safety, maintenance, or other purpose, this represents the 3D clearance volume of the item having RepresentationType of &apos;Surface3D&apos;. Such clearance region indicates space that should not intersect with the &apos;Body&apos; representation of other elements, though may intersect with the &apos;Clearance&apos; representation of other elements.&lt;/p&gt;</Documentation>
 					<Rules>
 						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="RepresentationMaps">

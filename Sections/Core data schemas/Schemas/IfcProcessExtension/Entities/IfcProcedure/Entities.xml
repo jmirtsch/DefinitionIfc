@@ -5,9 +5,7 @@
 		<DocLocalization Name="Procedure" Locale="en" />
 		<DocLocalization Name="Procédure" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="140.750010172526" Y="733.981282552083" Width="265.96667" Height="98.3999938964844" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="140.750010172526" Y="733.981282552083" Width="265.96667" Height="98.3999938964844" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="3f02d565-aa4a-4a70-9763-24f2ee9e0e79" DefinedType="IfcProcedureTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of a procedure from which 
@@ -17,9 +15,7 @@
 				<DocPoint X="406.716680172526" Y="801.247914632161" />
 				<DocPoint X="613.033284505208" Y="801.247914632161" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="406.716680172526" Y="781.247914632161" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="406.716680172526" Y="781.247914632161" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

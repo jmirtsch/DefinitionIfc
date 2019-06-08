@@ -5,9 +5,7 @@
 		<DocLocalization Name="Member" Locale="en" />
 		<DocLocalization Name="Membre" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="484.69333" Y="1035.12" Width="249.96667" Height="214.6" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="484.69333" Y="1035.12" Width="249.96667" Height="214.6" />
 	<Subtypes>
 		<DocSubtype UniqueId="d9aa11d9-125e-42f6-be3b-e9438113c804" DefinedType="IfcMemberStandardCase" />
 	</Subtypes>
@@ -20,9 +18,7 @@
 				<DocPoint X="734.66" Y="1193.0867" />
 				<DocPoint X="1113.9933" Y="1193.0867" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="734.66" Y="1182.420033" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="734.66" Y="1182.420033" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

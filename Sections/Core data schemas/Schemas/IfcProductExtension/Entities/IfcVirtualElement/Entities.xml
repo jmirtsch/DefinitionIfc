@@ -5,8 +5,6 @@
 		<DocLocalization Name="Virtual Element" Locale="en" />
 		<DocLocalization Name="Élément virtuel" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1805.4041" Y="2008.7229" Width="363.86667" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1805.4041" Y="2008.7229" Width="363.86667" Height="100" />
 </DocEntity>
 

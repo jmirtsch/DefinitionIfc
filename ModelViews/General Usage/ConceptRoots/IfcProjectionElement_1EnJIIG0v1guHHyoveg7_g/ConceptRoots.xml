@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1EnJIIG0v1guHHyoveg7_g">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcProjectionElement" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcProjectionElement" />
 	<Concepts>
 		<DocTemplateUsage Name="Property Sets" UniqueId="3laAx1tlbBVQ8$ubEyj072">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="3Bf6Sh7mzAvAvr3ogKROr6">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="bebd3cb6-c0de-4dc3-b201-57876b2487dc" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_ProjectionElementBaseQuantities;TemplateType=QTO_OCCURRENCEDRIVEN;" Order="0" />
 			</Items>
@@ -28,9 +22,7 @@ that is referenced by all geometric representations.&lt;/p&gt;
 same element, to which the projection adds, i.e. referred to by
 &lt;em&gt;ProjectsElement.RelatingBuildingElement&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Geometry" UniqueId="3xRBdaxtzCleU2Cbof2KA3">
 			<Documentation>&lt;p&gt;The geometric representation of &lt;em&gt;IfcProjectionElement&lt;/em&gt; is
@@ -85,17 +77,13 @@ shall be used:&lt;/p&gt;
 &lt;li&gt;&lt;em&gt;RepresentationIdentifier&lt;/em&gt; : &apos;Body&apos;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;RepresentationType&lt;/em&gt; : &apos;Brep&apos;&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Geometry_34HhqMBUDBbxDFH4Qi2wt2" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Geometry_34HhqMBUDBbxDFH4Qi2wt2" />
 			<Items>
 				<DocTemplateItem UniqueId="deb0c6ed-6801-42b1-8645-1340694f557d" RuleParameters="RepresentationType=SweptSolid;Geometry=IfcExtrudedAreaSolid;" Order="0" />
 				<DocTemplateItem UniqueId="e773eb15-3da7-4add-86cb-79d5295f3bd9" RuleParameters="RepresentationType=Brep;Geometry=IfcFacetedBrep;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="60125970-88d8-4589-afd7-79ac14e24b4f" Type="IfcProjectionElement" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="cea0ed79-d59d-42f5-97e4-fa412f821759" Type="IfcProjectionElement" />
 </DocConceptRoot>
 

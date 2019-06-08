@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="da8bd560-ede1-4a76-b1dc-a3cbf81cbe9a">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcFaceBasedSurfaceModel" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="89b43684-50f6-41a7-9bc8-3dc7b5b49ffd" Type="IfcFaceBasedSurfaceModel" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcFaceBasedSurfaceModel" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="6fdb0265-81a1-4f0e-a0b1-28d62ba9cedf" Type="IfcFaceBasedSurfaceModel" />
 </DocConceptRoot>
 

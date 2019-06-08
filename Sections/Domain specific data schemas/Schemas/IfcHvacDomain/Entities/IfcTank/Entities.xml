@@ -5,18 +5,14 @@
 		<DocLocalization Name="Tank" Locale="en" />
 		<DocLocalization Name="Réservoir" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6016.212" Y="1509.1072" Width="330.39661" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="6016.212" Y="1509.1072" Width="330.39661" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="f72593a9-0a21-4bed-8743-9c8717769b22" DefinedType="IfcTankTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
 				<DocPoint X="6016.212" Y="1559.1072" />
 				<DocPoint X="5782.22102" Y="1559.1072" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="6005.69828" Y="1553.7384908" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="6005.69828" Y="1553.7384908" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

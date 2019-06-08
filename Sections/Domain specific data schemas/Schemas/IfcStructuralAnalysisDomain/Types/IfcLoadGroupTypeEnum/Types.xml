@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLoadGroupTypeEnum" UniqueId="f7f61e56-186b-4fc8-be18-03699893d640" DiagramNumber="1">
 	<Localization>
-		<DocLocalization Name="Load Group Type Enum" Locale="en" />
+		<DocLocalization xsi:nil="true" href="i44057" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="691.04962" Y="1049.4234" Width="404.9" Height="54.05564" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" xsi:nil="true" href="i44058" />
 	<Constants>
-		<DocConstant xsi:nil="true" href="LOAD_GROUP_3_MA$UD8n3oOSsKCfh9hZQ" />
+		<DocConstant xsi:nil="true" href="LOAD_GROUP_3_MAUD8n3oOSsKCfh9hZQ" />
 		<DocConstant xsi:nil="true" href="LOAD_CASE_3khncIvov1j9aIfQlpvbyt" />
 		<DocConstant xsi:nil="true" href="LOAD_COMBINATION_1nghqo8HX7zQoeue7IbCQn" />
 		<DocConstant xsi:nil="true" href="USERDEFINED_2Y7j8BUm93_fCIgDmb0hU0" />

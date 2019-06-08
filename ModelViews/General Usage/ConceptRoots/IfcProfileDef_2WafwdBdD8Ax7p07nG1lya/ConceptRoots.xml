@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="a0929ea7-2e73-482b-b1f3-007c5006ff24">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcProfileDef" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcProfileDef" />
 	<Concepts>
 		<DocTemplateUsage UniqueId="2af806c8-9ddc-4ce0-a57c-75b6f8908041">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="70f2a90b-a6fc-495b-9ea5-d28c8b7468c7" RuleParameters="PsetName=Pset_ProfileMechanical;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="a6cb317f-472c-4376-b065-64deca911327">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="f861935b-a4d9-4d55-946d-ae9132a767c4" RuleParameters="PropertyName=MassPerLength;Value=IfcMassPerLengthMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="3d0e45d3-8f69-4459-8087-9395d87d28f1" RuleParameters="PropertyName=CrossSectionArea;Value=IfcAreaMeasure;" Order="0" />
@@ -48,8 +42,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="24d2676a-d861-4321-b661-0c9b2ad25934" Type="IfcProfileDef" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="d7b071a7-1c1b-461f-8608-d4e751b02cdc" Type="IfcProfileDef" />
 </DocConceptRoot>
 

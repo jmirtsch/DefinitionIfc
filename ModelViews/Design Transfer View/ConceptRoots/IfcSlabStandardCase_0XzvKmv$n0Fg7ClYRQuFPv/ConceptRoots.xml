@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="21f79530-e7fc-403e-a1cc-be26dae0f679">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcSlabStandardCase" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcSlabStandardCase" />
 	<Concepts>
 		<DocTemplateUsage Name="Material Layer Set Usage" UniqueId="710de5cf-0908-44cc-a7bf-2808f7c38aed">
 			<Documentation>&lt;p&gt;
@@ -71,19 +69,13 @@ assigned to all occurrences of this &lt;em&gt;IfcSlabType&lt;/em&gt;.&lt;/p&gt;
 &quot;0&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 230 &amp;mdash; Slab material layers&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Layer Set Usage_1jNxXlFor9_vKe1tXLtSn7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Layer_Set_Usage_1jNxXlFor9_vKe1tXLtSn7" />
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="mandatory">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Design_Transfer_Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="mandatory">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Design_Transfer_Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
@@ -127,16 +119,12 @@ or non-perpendicularly to the plane of the swept profile.&lt;/li&gt;
  &lt;/tr&gt;
 
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
 			<Items>
 				<DocTemplateItem UniqueId="8d9b2338-0b2e-46bb-b596-4735bc5bfb25" RuleParameters="Identifier=Body;Type=SweptSolid;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Geometry" UniqueId="906cff3e-3465-4d6a-a02e-59718d972011">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Swept Solid Geometry_3Zj3s_m9z8Ngphyp0n7JNE" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Swept_Solid_Geometry_3Zj3s_m9z8Ngphyp0n7JNE" />
 							<Items>
 								<DocTemplateItem UniqueId="d7389cd1-6a65-4cbf-ab11-3d15890933a5" RuleParameters="Profile=IfcArbitraryClosedProfileDef;" Order="0" />
 								<DocTemplateItem UniqueId="fa4b5225-bee2-4e89-a791-6ed5de1cfb32" RuleParameters="Profile=IfcArbitraryProfileDefWithVoids;" Order="0" />
@@ -181,63 +169,39 @@ swept solid (here &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt;) and one or several
  &lt;/tr&gt;
 
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Clipping Geometry_0isyBrcmn3wfqgdNBG57u0" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Clipping_Geometry_0isyBrcmn3wfqgdNBG57u0" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="f30500d2-df4a-494c-9d37-702979981633" Suppress="true">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Single_1VEQWKHA1Fiut6tQe5OFnK" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Single_1VEQWKHA1Fiut6tQe5OFnK" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="71e76971-bfa9-4162-9eb5-ebeee87aadce" Suppress="true">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Element Decomposition_2A9y5QnEfCgOpEVxkXoRpW" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Element_Decomposition_2A9y5QnEfCgOpEVxkXoRpW" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="b36fe7ca-c9ff-4e57-8660-fa5addcbab27" Suppress="true">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Mapped Geometry_3i$TV8STL4dxyWvZebtBcw" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Mapped_Geometry_3iTV8STL4dxyWvZebtBcw" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="b974d711-eb45-4a5c-bec5-6be67b863a50" Suppress="true">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid PolyCurve Geometry_0uSGpDZ$L1ke$Q23091w0k" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_PolyCurve_Geometry_0uSGpDZL1keQ23091w0k" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="fc9a3b31-a628-4c48-b858-3849179dbe1c" Suppress="true">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Tessellation Geometry_1S$KG3PKLCRRmd2fMZq9bG" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Tessellation_Geometry_1SKG3PKLCRRmd2fMZq9bG" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="e3b2424b-920e-4003-a180-8663bb54a567" Suppress="true">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body CSG Geometry_2WgtOmQML9NhwFqGRz9Pd2" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_CSG_Geometry_2WgtOmQML9NhwFqGRz9Pd2" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="704ec51a-579c-4d50-bb26-82e6e1948653" Suppress="true">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body SurfaceModel Geometry_0NqqeIb0D0zB_2PJcRuZnL" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SurfaceModel_Geometry_0NqqeIb0D0zB_2PJcRuZnL" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="27a225bb-583b-4661-b730-a8e10d6d0855" Suppress="true">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Layer Set_3VjREfKED6ueKO7mFdpzY6" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Layer_Set_3VjREfKED6ueKO7mFdpzY6" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="00f2b422-c493-4952-8193-0ba5bdd31318" Suppress="true">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body AdvancedBrep Geometry_3yTZLrKF5BmBloE2E05I17" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_AdvancedBrep_Geometry_3yTZLrKF5BmBloE2E05I17" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="6161fa49-4929-413a-9f77-bbc85b3ae3c4" Suppress="true">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Brep Geometry_2FkIFrk2r8qgqfrdZAHp$Q" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Brep_Geometry_2FkIFrk2r8qgqfrdZAHpQ" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="30c4ee61-4081-4d59-899a-b0a987717603" Type="IfcSlabStandardCase" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="83e66d07-1517-4555-a350-75651e51205e" Type="IfcSlabStandardCase" />
 </DocConceptRoot>
 

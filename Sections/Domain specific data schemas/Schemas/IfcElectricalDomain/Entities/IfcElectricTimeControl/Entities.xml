@@ -4,9 +4,7 @@
 		<DocLocalization Name="Elektrische Zeitsteuerung" Locale="de" />
 		<DocLocalization Name="Electric Time Control" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4036.3667" Y="937.82" Width="679.8" Height="103.2" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4036.3667" Y="937.82" Width="679.8" Height="103.2" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="7323bbaa-9f51-4276-ad5f-ed02b0edcad1" DefinedType="IfcElectricTimeControlTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
@@ -14,9 +12,7 @@
 				<DocPoint X="4709.6" Y="1095.29125" />
 				<DocPoint X="4294.63017" Y="1095.29125" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="4614.115087" Y="1035.6866667" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="4614.115087" Y="1035.6866667" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

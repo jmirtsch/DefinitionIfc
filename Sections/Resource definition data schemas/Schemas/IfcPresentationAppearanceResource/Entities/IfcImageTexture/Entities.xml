@@ -5,9 +5,7 @@
 		<DocLocalization Name="Image Texture" Locale="en" />
 		<DocLocalization Name="Texture d&apos;image" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3686.033203125" Y="3830.80013020833" Width="326.6" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3686.033203125" Y="3830.80013020833" Width="326.6" Height="100" />
 	<Attributes>
 		<DocAttribute Name="URLReference" UniqueId="8565f1be-e86c-49ea-a2c3-cd8b465b2871" DefinedType="IfcURIReference" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Location, provided as an URI, at which the image texture is electronically published.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="4012.633203125" Y="3878.00005735677" />
 				<DocPoint X="4145.9333" Y="3878.00005735677" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="4012.633203125" Y="3858.00005735677" Width="172" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="4012.633203125" Y="3858.00005735677" Width="172" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

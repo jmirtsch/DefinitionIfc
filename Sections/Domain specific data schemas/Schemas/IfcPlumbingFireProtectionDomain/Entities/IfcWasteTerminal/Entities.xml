@@ -5,9 +5,7 @@
 		<DocLocalization Name="Waste Terminal" Locale="en" />
 		<DocLocalization Name="Stockage des déchets" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="862.98" Y="1167.5667" Width="649.93334" Height="110.6" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="862.98" Y="1167.5667" Width="649.93334" Height="110.6" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="486553fc-cc66-472d-904f-60984dc75a9a" DefinedType="IfcWasteTerminalTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
@@ -15,9 +13,7 @@
 				<DocPoint X="1508.1109" Y="1327.246697" />
 				<DocPoint X="1072.86" Y="1327.246697" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1414.777567" Y="1271.1767166" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1414.777567" Y="1271.1767166" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

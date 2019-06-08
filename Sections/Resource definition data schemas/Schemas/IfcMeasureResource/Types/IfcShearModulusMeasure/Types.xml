@@ -4,12 +4,8 @@
 		<DocLocalization Name="Shear Modulus Measure" Locale="en" />
 		<DocLocalization Name="Mesure de module de rigidité" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5060.3896" Y="1520.8294" Width="529.2062" Height="54.923051" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_3zhDV2Dl5CMgmmLiHq4zXF" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5060.3896" Y="1520.8294" Width="529.2062" Height="54.923051" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3zhDV2Dl5CMgmmLiHq4zXF" />
 	<DiagramLine>
 		<DocPoint X="5060.3896" Y="1548.2909" />
 		<DocPoint X="4971.315323" Y="1548.2909" />

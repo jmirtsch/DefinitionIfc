@@ -4,8 +4,6 @@
 		<DocLocalization Name="Stab / Balken mit veränderlichem Profil/Querschnitt" Locale="de" />
 		<DocLocalization Name="Structural Curve Member Varying" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3501.4425" Y="1373.5399" Width="303.92579" Height="122.81298" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3501.4425" Y="1373.5399" Width="303.92579" Height="122.81298" />
 </DocEntity>
 

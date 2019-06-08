@@ -5,9 +5,7 @@
 		<DocLocalization Name="Wall Type" Locale="en" />
 		<DocLocalization Name="Type de mur" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3629.5833" Y="679.1416" Width="326.63333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3629.5833" Y="679.1416" Width="326.63333" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="a6dd8a76-1f8b-47b3-b75c-ec1a762f6758" DefinedType="IfcWallTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of a wall element from which the type required may be set.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="3956.21663" Y="732.5666265" />
 				<DocPoint X="4184.7667" Y="732.5666265" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3956.21663" Y="712.5666265" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3956.21663" Y="712.5666265" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

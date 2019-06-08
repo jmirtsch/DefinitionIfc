@@ -5,9 +5,7 @@
 		<DocLocalization Name="Interceptor Type" Locale="en" />
 		<DocLocalization Name="Type de filtre" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="72.826667" Y="1861.7333" Width="645.33333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="72.826667" Y="1861.7333" Width="645.33333" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="59a62703-ed7f-4e93-8084-125d02bc8b41" DefinedType="IfcInterceptorTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
@@ -15,9 +13,7 @@
 				<DocPoint X="72.826667" Y="2019.7333" />
 				<DocPoint X="494.159997" Y="2019.7333" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="174.159997" Y="1956.3999667" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="174.159997" Y="1956.3999667" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

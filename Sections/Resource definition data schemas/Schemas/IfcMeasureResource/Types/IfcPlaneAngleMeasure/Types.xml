@@ -4,12 +4,8 @@
 		<DocLocalization Name="Plane Angle Measure" Locale="en" />
 		<DocLocalization Name="Mesure d&apos;angle plan" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3554.3752" Y="1460.0215" Width="441.43333" Height="66" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_2azaVYp459mQ2r0qyP88pq" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="3554.3752" Y="1460.0215" Width="441.43333" Height="66" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_2azaVYp459mQ2r0qyP88pq" />
 	<DiagramLine>
 		<DocPoint X="3554.3752" Y="1493.0215" />
 		<DocPoint X="3422.90214" Y="1493.0215" />

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Composite Profile Def" Locale="en" />
 		<DocLocalization Name="Définition de profil composite" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="306.9767" Y="3660.4166" Width="425.57333" Height="170" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="306.9767" Y="3660.4166" Width="425.57333" Height="170" />
 	<Attributes>
 		<DocAttribute Name="Profiles" UniqueId="b0a0408a-c633-4045-ac25-f4c080cd3c6b" DefinedType="IfcProfileDef" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="2" AggregationUpper="0">
 			<Documentation>The profiles which are used to define the composite profile.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="732.55003" Y="3702.6859" />
 				<DocPoint X="1116.9353" Y="3702.6859" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="735.2806967" Y="3692.179233" Width="167" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="735.2806967" Y="3692.179233" Width="167" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Label" UniqueId="0f23f815-2fda-49a3-a4d6-a788b8a249ba" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The name by which the composition may be referred to. The actual meaning of the name has to be defined in the context of applications.</Documentation>
@@ -25,9 +21,7 @@
 				<DocPoint X="732.55003" Y="3793.6086" />
 				<DocPoint X="1116.99664" Y="3793.6086" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="687.49403" Y="3794.9739333" Width="68" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="687.49403" Y="3794.9739333" Width="68" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

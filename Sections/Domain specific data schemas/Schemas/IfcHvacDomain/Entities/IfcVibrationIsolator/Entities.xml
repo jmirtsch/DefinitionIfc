@@ -5,18 +5,14 @@
 		<DocLocalization Name="Vibration Isolator" Locale="en" />
 		<DocLocalization Name="Isolation anti-vibratoire" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6026.9494" Y="2166.7741" Width="322.32177" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="6026.9494" Y="2166.7741" Width="322.32177" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="c48ed4dc-cc29-4b6b-ad43-262290a082ae" DefinedType="IfcVibrationIsolatorTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
 				<DocPoint X="6026.9494" Y="2216.7741" />
 				<DocPoint X="5756.76496" Y="2216.7741" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="6053.792946" Y="2206.036681" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="6053.792946" Y="2206.036681" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

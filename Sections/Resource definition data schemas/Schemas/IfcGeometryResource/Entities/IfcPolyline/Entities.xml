@@ -5,9 +5,7 @@
 		<DocLocalization Name="Polyline" Locale="en" />
 		<DocLocalization Name="Polyligne" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="8039.12581380208" Y="188.62809753418" Width="268.66667" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="8039.12581380208" Y="188.62809753418" Width="268.66667" Height="100" />
 	<Attributes>
 		<DocAttribute Name="Points" UniqueId="0ab3bcf4-dfb0-4e1f-9ab9-dbdc31e393fa" DefinedType="IfcCartesianPoint" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="2" AggregationUpper="0">
 			<Documentation>The points defining the polyline.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="8168.10980224609" Y="288.62809753418" />
 				<DocPoint X="8168.10980224609" Y="357.144866943359" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="8168.10980224609" Y="337.144866943359" Width="152" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="8168.10980224609" Y="337.144866943359" Width="152" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

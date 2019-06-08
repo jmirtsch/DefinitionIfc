@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="38gU_05Jz3FOVlQgzGDrTZ">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcWallType" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcWallType" />
 	<Concepts>
 		<DocTemplateUsage Name="Material Layer Set" UniqueId="0EiRDl$_v4TgB8hFut5iwB">
 			<Documentation>&lt;p&gt;The material of the &lt;em&gt;IfcWallType&lt;/em&gt; is defined by the
@@ -29,18 +27,12 @@ wall occurrence, if used. It is only applicable if the
 &lt;em&gt;IfcMaterialLayerSetUsage&lt;/em&gt; including the offset from the
 wall axis, the same &lt;em&gt;IfcWallType&lt;/em&gt; can be used independently
 of the axis alignment of its occurrences.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Layer Set_3VjREfKED6ueKO7mFdpzY6" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Layer_Set_3VjREfKED6ueKO7mFdpzY6" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Geometry" UniqueId="79e28f03-46ca-4522-99c5-b058d06df212">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Type Body Geometry_0wx2q0jBj7QgWX$2AubRKn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Type_Body_Geometry_0wx2q0jBj7QgWX2AubRKn" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="b0ce394f-9f44-434d-8277-33391d313fc1" Type="IfcWallType" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="9753b86e-db61-425e-a453-4712e2af1f89" Type="IfcWallType" />
 </DocConceptRoot>
 

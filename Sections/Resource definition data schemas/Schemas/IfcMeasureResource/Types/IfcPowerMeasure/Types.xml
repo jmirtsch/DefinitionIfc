@@ -4,12 +4,8 @@
 		<DocLocalization Name="Power Measure" Locale="en" />
 		<DocLocalization Name="Mesure de puissance" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5665.1342" Y="1526.3075" Width="456.7" Height="53.00186" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_3D5XRz7RbFreELNJe4U2AN" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5665.1342" Y="1526.3075" Width="456.7" Height="53.00186" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3D5XRz7RbFreELNJe4U2AN" />
 	<DiagramLine>
 		<DocPoint X="6121.8342" Y="1552.8084" />
 		<DocPoint X="6232.67794" Y="1552.8084" />

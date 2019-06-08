@@ -4,9 +4,7 @@
 		<DocLocalization Name="transformiertes Element" Locale="de" />
 		<DocLocalization Name="Mapped Item" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="851.9875" Y="1080.625" Width="360" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="851.9875" Y="1080.625" Width="360" Height="100" />
 	<Attributes>
 		<DocAttribute Name="MappingSource" UniqueId="cd257a83-e226-4903-80bc-2796c5527e23" DefinedType="IfcRepresentationMap" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>A representation map that is the source of the mapped item. It can be seen as a block (or cell or marco) definition.</Documentation>
@@ -14,9 +12,7 @@
 				<DocPoint X="906.65417" Y="1180.625" />
 				<DocPoint X="906.65417" Y="1387.45836" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1023.3125" Y="1166.041681" Width="180" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1023.3125" Y="1166.041681" Width="180" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="MappingTarget" UniqueId="4720b58a-30bb-4228-b4e7-431660ea2b25" DefinedType="IfcCartesianTransformationOperator" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>A representation item that is the target onto which the mapping source is mapped. It is constraint to be a Cartesian transformation operator.</Documentation>
@@ -24,9 +20,7 @@
 				<DocPoint X="851.9875" Y="1130.625" />
 				<DocPoint X="568.65417" Y="1130.625" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="851.9875" Y="1123.9583333" Width="174" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="851.9875" Y="1123.9583333" Width="174" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

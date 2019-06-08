@@ -4,12 +4,8 @@
 		<DocLocalization Name="Inductance Measure" Locale="en" />
 		<DocLocalization Name="Mesure d&apos;inductance" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5060.3401" Y="718.73235" Width="529.20267" Height="54.923051" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_2mZBDEXN50qeLXZTo6ORZS" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5060.3401" Y="718.73235" Width="529.20267" Height="54.923051" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_2mZBDEXN50qeLXZTo6ORZS" />
 	<DiagramLine>
 		<DocPoint X="5060.3401" Y="744.63854" />
 		<DocPoint X="4971.274223" Y="744.63854" />

@@ -1,36 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3fIoFb1HvCm8DgjdyR8ne0">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcUnitaryEquipment" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcUnitaryEquipment" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="1q7XLlznf3lxfQV2Os2cHx">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="cf351def-9c00-47e4-88a7-a7d182d588e7" RuleParameters="RelatingType=IfcUnitaryEquipmentType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="2Q5S1wmOnChgTZZydkuARq">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="1279f362-48e5-4c91-afa8-eb98951116a2" RuleParameters="PsetName=Pset_UnitaryEquipmentTypeCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="828871e2-b0ac-445c-be68-3480848eaa5a">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="14b40cbe-75c8-4430-a743-80c4eb789f24" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="6ce75186-e669-4db4-8cbf-7989f5a38fa1">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="0bf9a02d-be5d-4eb8-b9ba-5c4980db84df" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
 							</Items>
@@ -40,17 +30,13 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="2sSYgSWQP1$wkZXWXajGfL">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="f072e5ae-4dce-4cfe-a080-d6d723ee97c8" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_UnitaryEquipmentBaseQuantities;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Material" UniqueId="2XYv8Y_pfAQuU6SQcUbimt">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Constituent_Set_3PRtzzvq9Dk9jT6ADgRVY4" />
 			<Items>
 				<DocTemplateItem UniqueId="3c5bdb2d-4fe7-449a-9533-481daa1d9819" RuleParameters="Name=Casing;" Order="0">
 					<Documentation>Material from which the casing is constructed.</Documentation>
@@ -58,9 +44,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Composition" UniqueId="0YpKdVqBf5rv698UglqaAr">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
 			<Items>
 				<DocTemplateItem UniqueId="5a17ae88-ea68-4d32-8ecb-7bf2ab038a4b" RuleParameters="RelatedObjects=IfcDistributionElement;" Order="0">
 					<Documentation>Unitary equipment (air handlers in particular) may elaborate contained elements such as dampers, fans, coils, sensors, actuators, and controllers. Such breakdown provides access to component information and tracking of performance history for embedded elements.</Documentation>
@@ -68,9 +52,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Port" UniqueId="2J3DPsbCP2nf6SfV4AQ1mV">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Port_Nesting_2w9EtqE92s8JFNQ8EuKWA" />
 			<Items>
 				<DocTemplateItem UniqueId="157dd6d2-695c-43bb-a465-fc70c67a957b" RuleParameters="PredefinedType=AIRHANDLER;PortName=ReturnAirIn;SystemType=AIRCONDITIONING;Flow=SINK;" Order="0">
 					<Documentation>Return air entering mixture or exhausted.</Documentation>
@@ -105,8 +87,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="949668b2-f6ce-4de6-9215-92642a19ebff" Type="IfcUnitaryEquipment" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="436f33f0-460e-4a3f-ac0b-3558486e3060" Type="IfcUnitaryEquipment" />
 </DocConceptRoot>
 

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Geographic Element Type" Locale="en" />
 		<DocLocalization Name="Type d&apos;élément géographique" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3426.7625" Y="1406.5622" Width="439.20667" Height="119.96667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3426.7625" Y="1406.5622" Width="439.20667" Height="119.96667" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="7de7050a-ee4b-401d-bdb3-71681626e5e7" DefinedType="IfcGeographicElementTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined types to define the particular type of the geographic element. There may be property set definitions available for each predefined type.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="3865.9692" Y="1466.5455" />
 				<DocPoint X="4112" Y="1466.5455" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3865.9692" Y="1458.5455" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3865.9692" Y="1458.5455" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

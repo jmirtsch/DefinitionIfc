@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3SP1KzroD6CvrWkEPlOPA0">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcMemberType" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcMemberType" />
 	<Concepts>
 		<DocTemplateUsage Name="Material Profile Set" UniqueId="3pmrH8yf9Fa81t3B8ewh5A">
 			<Documentation>&lt;p&gt;The material of the &lt;em&gt;IfcMemberType&lt;/em&gt; is defined by the
@@ -38,9 +36,7 @@ geometry and possibly other cross sectional properties can be
 read from a library. Otherwise the geometric representation and
 possible non geometric &lt;em&gt;IfcProfileProperties&lt;/em&gt; have to be
 used.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set_12Ui1LAd52mgGZSMYVfrnP" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Profile_Set_12Ui1LAd52mgGZSMYVfrnP" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Geometry" UniqueId="3gfakZ6$D10eIDpQ1VcDHv">
 			<Documentation>&lt;p&gt;The &lt;em&gt;IfcMemberType&lt;/em&gt; may define the shared geometric representation for all member occurrences. The &lt;em&gt;RepresentationMaps&lt;/em&gt; attribute refers to a list of &lt;em&gt;IfcRepresentationMap&lt;/em&gt;&apos;s, that allow for multiple geometric representations (e.g. with &lt;em&gt;IfcShaperepresentation&lt;/em&gt;&apos;s having an &lt;em&gt;RepresentationIdentifier&lt;/em&gt; &apos;Box&apos;, &apos;Axis&apos;, or &apos;Body&apos;). It is only applicable if the &lt;em&gt;IfcMemberType&lt;/em&gt; has only occurrences of type &lt;em&gt;IfcMember&lt;/em&gt; (See geometric use definition of &lt;em&gt;IfcMember&lt;/em&gt; for further information).&lt;/p&gt;
@@ -56,13 +52,9 @@ NOTE&amp;nbsp; The product shape representations are defined as &lt;em&gt;Repres
 &lt;blockquote class=&quot;note&quot;&gt;
 NOTE&amp;nbsp; The values of attributes &lt;em&gt;RepresentationIdentifier&lt;/em&gt; and &lt;em&gt;RepresentationType&lt;/em&gt; of &lt;em&gt;IfcShapeRepresentation&lt;/em&gt; are restricted in the same way as those for &lt;em&gt;IfcMember&lt;/em&gt; and &lt;em&gt;IfcMemberStandardCase&lt;/em&gt;
 &lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Type Body Geometry_0wx2q0jBj7QgWX$2AubRKn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Type_Body_Geometry_0wx2q0jBj7QgWX2AubRKn" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="59c2e5d1-da00-4ab2-b6d6-7d75b61cc637" Type="IfcMemberType" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="a5a71695-e13d-4bcb-954f-2b82ada2fc8d" Type="IfcMemberType" />
 </DocConceptRoot>
 

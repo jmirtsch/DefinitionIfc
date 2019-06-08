@@ -5,18 +5,14 @@
 		<DocLocalization Name="Damper" Locale="en" />
 		<DocLocalization Name="Détecteur d&apos;incendie" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6018.859" Y="559.50823" Width="325.00274" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="6018.859" Y="559.50823" Width="325.00274" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="a66e6586-fecb-44b3-b66d-1455e7cf9842" DefinedType="IfcDamperTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
 				<DocPoint X="6018.859" Y="609.50823" />
 				<DocPoint X="5795.68231" Y="609.50823" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="6018.859" Y="609.50823" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="6018.859" Y="609.50823" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

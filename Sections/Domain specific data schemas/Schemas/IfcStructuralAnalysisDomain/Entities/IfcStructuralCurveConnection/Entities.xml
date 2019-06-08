@@ -6,9 +6,7 @@
 		</DocLocalization>
 		<DocLocalization Name="Structural Curve Connection" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3498.9682" Y="500.19339" Width="290.91603" Height="124" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3498.9682" Y="500.19339" Width="290.91603" Height="124" />
 	<Attributes>
 		<DocAttribute Name="Axis" UniqueId="7ab9edfa-dde7-4c6c-8c6a-ce1cd8fc527c" DefinedType="IfcDirection" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Direction which is used in the definition of the local z axis.  &lt;em&gt;Axis&lt;/em&gt; is specified relative to the so-called global coordinate system, i.e. the &lt;em&gt;SELF\IfcProduct.ObjectPlacement&lt;/em&gt;.
@@ -20,9 +18,7 @@
 				<DocPoint X="4022.0009" Y="562.262772476" />
 				<DocPoint X="4254.1176" Y="562.262772476" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3776.669011" Y="557.1585306" Width="52" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3776.669011" Y="557.1585306" Width="52" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

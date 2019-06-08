@@ -5,9 +5,7 @@
 		<DocLocalization Name="Building Element" Locale="en" />
 		<DocLocalization Name="Elément de construction" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1810.8195" Y="126.88894" Width="363.9" Height="120" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1810.8195" Y="126.88894" Width="363.9" Height="120" />
 	<WhereRules>
 		<DocWhereRule Name="MaxOneMaterialAssociation" UniqueId="fa36df67-4abc-4e2c-8e40-f09974b02f2d">
 			<Documentation>There should be only a maximum of one material association assigned to an building element.

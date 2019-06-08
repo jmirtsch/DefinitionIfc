@@ -4,9 +4,7 @@
 		<DocSchemaRef Name="IFCSHAREDBLDGSERVICEELEMENTS" UniqueId="0595711f-f533-4267-9638-8427767fddff">
 			<Definitions>
 				<DocDefinitionRef Name="IfcEnergyConversionDeviceType" UniqueId="1a4528d6-7a18-4abb-b16f-199ad87b9583" DiagramNumber="1">
-					<DiagramRectangle>
-						<DocRectangle X="22.488117" Y="24.148806" Width="609.30786" Height="226.83575" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="22.488117" Y="24.148806" Width="609.30786" Height="226.83575" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -110,9 +108,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcFlowMovingDeviceType" UniqueId="13c0a581-c4cd-42d6-822b-f7532ea97f13" DiagramNumber="3">
-					<DiagramRectangle>
-						<DocRectangle X="3229.039" Y="33.90322" Width="611.99321" Height="229.63575" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="3229.039" Y="33.90322" Width="611.99321" Height="229.63575" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -144,9 +140,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcFlowControllerType" UniqueId="8c41c006-6cc6-4b4f-a9f3-99cf13ff01ac" DiagramNumber="4">
-					<DiagramRectangle>
-						<DocRectangle X="4826.0568" Y="36.244388" Width="542.58371" Height="226.83575" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="4826.0568" Y="36.244388" Width="542.58371" Height="226.83575" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -184,9 +178,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcFlowFittingType" UniqueId="4739a116-df55-4d03-beb6-e983261a132e" DiagramNumber="2">
-					<DiagramRectangle>
-						<DocRectangle X="1621.3546" Y="31.006801" Width="542.09386" Height="229.62011" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="1621.3546" Y="31.006801" Width="542.09386" Height="229.62011" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -212,9 +204,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcFlowStorageDeviceType" UniqueId="1102bdd0-ede4-4fb6-97e7-d8b0cc0559b4" DiagramNumber="4">
-					<DiagramRectangle>
-						<DocRectangle X="4831.3751" Y="1203.6175" Width="545.93914" Height="234.21772" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="4831.3751" Y="1203.6175" Width="545.93914" Height="234.21772" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -228,9 +218,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcFlowTerminalType" UniqueId="ef1eabcd-6001-4249-b7bc-782148249529" DiagramNumber="3">
-					<DiagramRectangle>
-						<DocRectangle X="3234.3704" Y="1197.82" Width="542.99221" Height="228.17793" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="3234.3704" Y="1197.82" Width="542.99221" Height="228.17793" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -262,9 +250,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcFlowTreatmentDeviceType" UniqueId="e322d923-d66a-40f5-aecf-bf20ee5f8a55" DiagramNumber="2">
-					<DiagramRectangle>
-						<DocRectangle X="1624.148" Y="1595.4519" Width="542.20678" Height="227.48031" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="1624.148" Y="1595.4519" Width="542.20678" Height="227.48031" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -290,9 +276,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcFlowSegmentType" UniqueId="eaf9e872-18a9-49d6-93b1-4c5fa986285f" DiagramNumber="2">
-					<DiagramRectangle>
-						<DocRectangle X="1624.0808" Y="828.67446" Width="541.13266" Height="229.01874" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="1624.0808" Y="828.67446" Width="541.13266" Height="229.01874" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -318,9 +302,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcFlowFitting" UniqueId="c949cde8-b280-4016-8b70-6545f2df5cd5" DiagramNumber="2">
-					<DiagramRectangle>
-						<DocRectangle X="2637.3871" Y="32.098561" Width="542.16532" Height="229.68983" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="2637.3871" Y="32.098561" Width="542.16532" Height="229.68983" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -346,9 +328,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcFlowSegment" UniqueId="bce05a33-5833-47a9-87e8-c2216492af11" DiagramNumber="2">
-					<DiagramRectangle>
-						<DocRectangle X="2634.6218" Y="832.1129" Width="543.84628" Height="229.68983" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="2634.6218" Y="832.1129" Width="543.84628" Height="229.68983" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -374,9 +354,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcFlowTreatmentDevice" UniqueId="40635dab-6056-4603-b907-267b8cf24c30" DiagramNumber="2">
-					<DiagramRectangle>
-						<DocRectangle X="2625.6609" Y="1602.1463" Width="552.9442" Height="227.48031" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="2625.6609" Y="1602.1463" Width="552.9442" Height="227.48031" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -402,9 +380,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcFlowMovingDevice" UniqueId="1a8265fa-4d0d-4c65-a310-d1965ddde184" DiagramNumber="3">
-					<DiagramRectangle>
-						<DocRectangle X="4234.111" Y="32.614211" Width="542.47484" Height="229.68983" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="4234.111" Y="32.614211" Width="542.47484" Height="229.68983" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -436,9 +412,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcFlowTerminal" UniqueId="7876ca91-5330-4338-903c-320f2fd84190" DiagramNumber="3">
-					<DiagramRectangle>
-						<DocRectangle X="4220.7111" Y="1202.9932" Width="542.53064" Height="229.68983" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="4220.7111" Y="1202.9932" Width="542.53064" Height="229.68983" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -470,9 +444,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcFlowController" UniqueId="6c303c5d-b489-48dd-a552-d4ec5542d01e" DiagramNumber="4">
-					<DiagramRectangle>
-						<DocRectangle X="5833.6571" Y="27.328812" Width="543.79322" Height="229.68983" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="5833.6571" Y="27.328812" Width="543.79322" Height="229.68983" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -510,9 +482,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcFlowStorageDevice" UniqueId="60f13b76-6f07-40f7-a3c1-aecf677afbb7" DiagramNumber="4">
-					<DiagramRectangle>
-						<DocRectangle X="5824.3" Y="1203" Width="542.42177" Height="229.68983" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="5824.3" Y="1203" Width="542.42177" Height="229.68983" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -526,9 +496,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcEnergyConversionDevice" UniqueId="cfe24c99-d9de-48cb-8714-f8b6ed399e2d" DiagramNumber="1">
-					<DiagramRectangle>
-						<DocRectangle X="1035.1169" Y="27.299217" Width="544.68162" Height="229.68983" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="1035.1169" Y="27.299217" Width="544.68162" Height="229.68983" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -636,9 +604,7 @@
 		<DocSchemaRef Name="IFCSHAREDCOMPONENTELEMENTS" UniqueId="9e6648e2-d646-486e-b0be-db1fa890487c">
 			<Definitions>
 				<DocDefinitionRef Name="IfcElementComponentType" UniqueId="cf1aa815-7323-41e9-8972-76826c1191b5" DiagramNumber="4">
-					<DiagramRectangle>
-						<DocRectangle X="4828.7144" Y="1790.6677" Width="545.86151" Height="229.01874" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="4828.7144" Y="1790.6677" Width="545.86151" Height="229.01874" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -652,9 +618,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcElementComponent" UniqueId="24650fff-21a1-4fa5-9873-35ba124a2e98" DiagramNumber="4">
-					<DiagramRectangle>
-						<DocRectangle X="5838.9284" Y="1790.7666" Width="527.73742" Height="229.68983" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="5838.9284" Y="1790.7666" Width="527.73742" Height="229.68983" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -670,13 +634,285 @@
 			</Definitions>
 		</DocSchemaRef>
 	</SchemaRefs>
+	<Types>
+		<DocEnumeration xsi:nil="true" href="IfcAirTerminalBoxTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcAirTerminalTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcAirToAirHeatRecoveryTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcBoilerTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcBurnerTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcChillerTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcCoilTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcCompressorTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcCondenserTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcCooledBeamTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcCoolingTowerTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcDamperTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcDuctFittingTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcDuctSegmentTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcDuctSilencerTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcEngineTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcEvaporativeCoolerTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcEvaporatorTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcFanTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcFilterTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcFlowMeterTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcHeatExchangerTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcHumidifierTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcMedicalDeviceTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcPipeFittingTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcPipeSegmentTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcPumpTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcSpaceHeaterTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcTankTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcTubeBundleTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcUnitaryEquipmentTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcValveTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcVibrationIsolatorTypeEnum" />
+	</Types>
+	<PropertySets>
+		<DocPropertySet xsi:nil="true" href="Pset_AirTerminalBoxPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_AirTerminalBoxTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_AirTerminalOccurrence" />
+		<DocPropertySet xsi:nil="true" href="Pset_AirTerminalPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_AirTerminalTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_AirToAirHeatRecoveryPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_AirToAirHeatRecoveryTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_BoilerPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_BoilerTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_BoilerTypeSteam" />
+		<DocPropertySet xsi:nil="true" href="Pset_BoilerTypeWater" />
+		<DocPropertySet xsi:nil="true" href="Pset_BurnerTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_ChillerPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_ChillerTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_CoilOccurrence" />
+		<DocPropertySet xsi:nil="true" href="Pset_CoilPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_CoilTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_CoilTypeHydronic" />
+		<DocPropertySet xsi:nil="true" href="Pset_CompressorPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_CompressorTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_CondenserPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_CondenserTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_CooledBeamPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_CooledBeamPHistoryActive" />
+		<DocPropertySet xsi:nil="true" href="Pset_CooledBeamTypeActive" />
+		<DocPropertySet xsi:nil="true" href="Pset_CooledBeamTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_CoolingTowerPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_CoolingTowerTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_DamperOccurrence" />
+		<DocPropertySet xsi:nil="true" href="Pset_DamperPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_DamperTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_DamperTypeControlDamper" />
+		<DocPropertySet xsi:nil="true" href="Pset_DamperTypeFireDamper" />
+		<DocPropertySet xsi:nil="true" href="Pset_DamperTypeFireSmokeDamper" />
+		<DocPropertySet xsi:nil="true" href="Pset_DamperTypeSmokeDamper" />
+		<DocPropertySet xsi:nil="true" href="Pset_DuctFittingOccurrence" />
+		<DocPropertySet xsi:nil="true" href="Pset_DuctFittingPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_DuctFittingTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_DuctSegmentOccurrence" />
+		<DocPropertySet xsi:nil="true" href="Pset_DuctSegmentPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_DuctSegmentTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_DuctSilencerPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_DuctSilencerTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_EngineTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_EvaporativeCoolerPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_EvaporativeCoolerTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_EvaporatorPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_EvaporatorTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_FanCentrifugal" />
+		<DocPropertySet xsi:nil="true" href="Pset_FanOccurrence" />
+		<DocPropertySet xsi:nil="true" href="Pset_FanPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_FanTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_FilterPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_FilterTypeAirParticleFilter" />
+		<DocPropertySet xsi:nil="true" href="Pset_FilterTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_FilterTypeCompressedAirFilter" />
+		<DocPropertySet xsi:nil="true" href="Pset_FilterTypeWaterFilter" />
+		<DocPropertySet xsi:nil="true" href="Pset_FlowMeterOccurrence" />
+		<DocPropertySet xsi:nil="true" href="Pset_FlowMeterTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_FlowMeterTypeEnergyMeter" />
+		<DocPropertySet xsi:nil="true" href="Pset_FlowMeterTypeGasMeter" />
+		<DocPropertySet xsi:nil="true" href="Pset_FlowMeterTypeOilMeter" />
+		<DocPropertySet xsi:nil="true" href="Pset_FlowMeterTypeWaterMeter" />
+		<DocPropertySet xsi:nil="true" href="Pset_HeatExchangerTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_HeatExchangerTypePlate" />
+		<DocPropertySet xsi:nil="true" href="Pset_HumidifierPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_HumidifierTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_MedicalDeviceTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_PipeConnectionFlanged" />
+		<DocPropertySet xsi:nil="true" href="Pset_PipeFittingOccurrence" />
+		<DocPropertySet xsi:nil="true" href="Pset_PipeFittingPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_PipeFittingTypeBend" />
+		<DocPropertySet xsi:nil="true" href="Pset_PipeFittingTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_PipeFittingTypeJunction" />
+		<DocPropertySet xsi:nil="true" href="Pset_PipeSegmentOccurrence" />
+		<DocPropertySet xsi:nil="true" href="Pset_PipeSegmentPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_PipeSegmentTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_PipeSegmentTypeCulvert" />
+		<DocPropertySet xsi:nil="true" href="Pset_PipeSegmentTypeGutter" />
+		<DocPropertySet xsi:nil="true" href="Pset_PumpOccurrence" />
+		<DocPropertySet xsi:nil="true" href="Pset_PumpPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_PumpTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_ShadingDevicePHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_SpaceHeaterPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_SpaceHeaterTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_SpaceHeaterTypeConvector" />
+		<DocPropertySet xsi:nil="true" href="Pset_SpaceHeaterTypeRadiator" />
+		<DocPropertySet xsi:nil="true" href="Pset_SpaceThermalPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_TankOccurrence" />
+		<DocPropertySet xsi:nil="true" href="Pset_TankTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_TankTypeExpansion" />
+		<DocPropertySet xsi:nil="true" href="Pset_TankTypePreformed" />
+		<DocPropertySet xsi:nil="true" href="Pset_TankTypePressureVessel" />
+		<DocPropertySet xsi:nil="true" href="Pset_TankTypeSectional" />
+		<DocPropertySet xsi:nil="true" href="Pset_TubeBundleTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_TubeBundleTypeFinned" />
+		<DocPropertySet xsi:nil="true" href="Pset_UnitaryEquipmentTypeAirConditioningUnit" />
+		<DocPropertySet xsi:nil="true" href="Pset_UnitaryEquipmentTypeAirHandler" />
+		<DocPropertySet xsi:nil="true" href="Pset_UnitaryEquipmentTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_ValvePHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_ValveTypeAirRelease" />
+		<DocPropertySet xsi:nil="true" href="Pset_ValveTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_ValveTypeDrawOffCock" />
+		<DocPropertySet xsi:nil="true" href="Pset_ValveTypeFaucet" />
+		<DocPropertySet xsi:nil="true" href="Pset_ValveTypeFlushing" />
+		<DocPropertySet xsi:nil="true" href="Pset_ValveTypeGasTap" />
+		<DocPropertySet xsi:nil="true" href="Pset_ValveTypeIsolating" />
+		<DocPropertySet xsi:nil="true" href="Pset_ValveTypeMixing" />
+		<DocPropertySet xsi:nil="true" href="Pset_ValveTypePressureReducing" />
+		<DocPropertySet xsi:nil="true" href="Pset_ValveTypePressureRelief" />
+		<DocPropertySet xsi:nil="true" href="Pset_VibrationIsolatorTypeCommon" />
+	</PropertySets>
+	<QuantitySets>
+		<DocQuantitySet xsi:nil="true" href="Qto_AirTerminalBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_AirTerminalBoxTypeBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_AirToAirHeatRecoveryBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_BoilerBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_BurnerBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_ChillerBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_CoilBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_CompressorBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_CondenserBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_CooledBeamBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_CoolingTowerBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_DamperBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_DuctFittingBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_DuctSegmentBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_DuctSilencerBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_EvaporativeCoolerBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_EvaporatorBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_FanBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_FilterBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_FlowMeterBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_HeatExchangerBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_HumidifierBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_PipeFittingBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_PipeSegmentBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_PumpBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_SpaceHeaterBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_TankBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_TubeBundleBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_UnitaryEquipmentBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_ValveBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_VibrationIsolatorBaseQuantities" />
+	</QuantitySets>
 	<Comments>
 		<DocComment UniqueId="fab0942b-59cc-45e6-bdcc-6012922c1746" DiagramNumber="1">
 			<Documentation>IFC2X4: IfcEngineType added; IfcBurnerType replaces IfcGasTerminalType; occurence entities added in parallel to all type entities</Documentation>
-			<DiagramRectangle>
-				<DocRectangle X="35.523589" Y="2243.0634" Width="1515.8004" Height="89.896609" />
-			</DiagramRectangle>
+			<DiagramRectangle xsi:type="DocRectangle" X="35.523589" Y="2243.0634" Width="1515.8004" Height="89.896609" />
 		</DocComment>
 	</Comments>
+	<PropertyEnumerations>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirHandlerConstruction_33ZATzFbf6P90iA8a1JIpO" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirHandlerFanCoilArrangement_0f9FiB5zv5vAlccf6Md6eV" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirTerminalAirflowType_0r97BUHmr7whY3saI60vPS" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirTerminalBoxArrangementType_38HE3MiubAze4HgMBTFG14" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirTerminalBoxReheatType_3OV6Q4ilnBIBm_sjSpQX42" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirTerminalCoreType_3LIlFGwkP7Nx_5ZBcOsBEl" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirTerminalDischargeDirection_0tmYKmyNb68ytot5S2z_v" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirTerminalFaceType_0LsUXUeX92YvHaTsjcRW_h" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirTerminalFinishType_3Ze2Abpc99kuhQvydp8j02" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirTerminalFlowControlType_1hJQHd2Dj5iPLJpKHjUHe" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirTerminalFlowPattern_0o2qo04hj3uBA7h1IJBtQK" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirTerminalLocation_1sf4qN7Z17QgF03O3rvpKS" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirTerminalMountingType_1T7g2ShtD3wf6G6BgNrcTR" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirTerminalShape_3_xZjaVfP38OFt8d4CJKw4" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirToAirHeatTransferHeatTransferType_2jWPx7Rcz5ruoEKPOvCEC0" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_BackflowPreventerType_3a8VLjpVvCsvSAiCMhapI" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_BoilerOperatingMode_1xgoMk7Tf8JPbunr3O_da" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CentrifugalFanArrangement_10Zz7Eo9T7XBhKAVvmKFH" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CentrifugalFanDischargePosition_20lrLuP350Vx_uMRnoLzkw" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CentrifugalFanRotation_13wobGOAX6ugqVEkA3Ey2r" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CoilConnectionDirection_10R8rwx2H9GPeXXIEAI_3V" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CoilCoolant_2Yqfie9CL0AAaLShyyDL6i" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CoilFluidArrangement_3osgfARuP5uhBzyvcuqIgf" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CoilPlacementType_14WgTqkfv9nhg9brb4cagJ" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CompressedAirFilterType_1TmbyoXwb2wWuyMv6J1Qb" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CompressorTypePowerSource_1RNPYE0PCpvMmmJZdLzTG" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ControlDamperOperation_3N1n8sNGLEfQqHjSL0WzM" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CooledBeamActiveAirFlowConfigurationType_2qs1cIgt53y9aHQrnUujqx" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CooledBeamIntegratedLightingType_3yUvX4aY5DSx9XX6uax0HU" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CooledBeamPipeConnection_0lFJq58ajEhwhebZZMwSw" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CooledBeamSupplyAirConnectionType_2LqBcmKl9CJwuW4uavKMk8" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CooledBeamWaterFlowControlSystemType_0l9DgBl5n6oBEFy15wXAxT" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CoolingTowerCapacityControl_00TwPVJnz4mfKE2zenx2oZ" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CoolingTowerCircuitType_15ddALTuLBjRoXyTKEjSHm" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CoolingTowerControlStrategy_1h3cvlXgL929irSag6D2dv" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CoolingTowerFlowArrangement_3xeYWWZEHDAP1aIcbnrQN3" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CoolingTowerSprayType_2cjWk3aRX68RyUsn0_27_l" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_DamperBladeAction_2nc_D5Udz1ffaXDNUeuzv" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_DamperBladeEdge_2kcr0Db1XC8veEXWUfGSHg" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_DamperBladeShape_0iVJekVn56swuJwlL_qUQS" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_DamperOperation_0mjORs2BT77OakbK907J3f" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_DamperOrientation_1YPtWdopn1dxJW58v52tlp" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_DamperSizingMethod_15Lfee8w94uRBdAJfBCfR0" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_DuctSegmentShape_12kSydRl58rwr0LXnCN9ue" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_EndShapeType_2G3b9OMv5tBy2vh3WkJG9" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_EnergySource_3TyZQASiD68xaHz3JC4Xeu" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_EngineEnergySource_1DUrYcjJP2FQDo9oEepRHo" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_EvaporativeCoolerFlowArrangement_2IRl6vs1PCpuFEeONKCU0G" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_EvaporatorCoolant_2tZ0o2ZNDEn85ahHX7Azd0" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_EvaporatorMediumType_1fXGHO1ybBf9nZzGUNpbfs" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FanApplicationType_2n2_tKZF911v8zWc6wx9xn" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FanCapacityControlType_24I9sDOL85QBzPzAAG0Ia" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FanCoilPosition_3pDIMTiM91tBFhRGIeV5f" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FanDischargeType_2FYp5qeV574OwbGdT_Kkts" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FanMotorConnectionType_1B7JEIeTjBvvnESiQZphdY" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FanMotorPosition_2BaRZVKljExubUzw_2Yrye" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FanMountingType_1HmAtEHj97GQgBjFtCuBcH" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FaucetFunction_023F_0OjP8QehFgvo70ko9" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FaucetOperation_3A3hj6AeD38emRbKzONHL3" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FaucetType_08Gz5Bfv33R6VamFpPkkG" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FilterAirParticleFilterSeparationType_35t5JB_kf1GgydqmQF20Op" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FilterAirParticleFilterType_3WrgWAH3T0yvqh37Leh4DH" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FilterWaterFilterType_2Biz1bGLn59wOo4HZ4eB9Z" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FireDamperActuationType_0YhlCmG51Cngxhr0w30Ta" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FireDamperClosureRating_1ItR2TSJb4hPxYPfaPtQru" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FlowMeterPurpose_0zQb_Av1nRQPaUFN3qV5" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_GasType_2hyINKJtD4A92myuVUa6uw" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_HeatExchangerArrangement_0U3ECu_tHBY8wn2p2pkT9C" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_HeatTransferMedium_2qNI_vcq12xwqT1i2uLUj_" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_HumidifierApplication_0HJ_noyH7KQWBEeFdkTRd" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_HumidifierInternalControl_26sNYim3L0dRzt1TTJNzw6" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_IsolatingPurpose_1QVu4ecxf90RfrqQrLHj32" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_MeterReadOutType_0hKyiidRTFkB_ytK5xlJJO" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_MixingValveControl_2Yo6cT1XC_f8L5vlbs1kS" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_PipeFittingJunctionType_0h1lfe8zPBKPhFwY30721" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_PumpBaseType_0Z1L80lZbEoQECmuRYrU8" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_PumpDriveConnectionType_1VZgXMMmjDkONGSVdebmZM" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_RefrigerantClass_2qOQt3oRP5BAGZAgnB7diG" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SpaceHeaterConvectorType_0rGwApUZv0yQE9VWYFve1i" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SpaceHeaterHeatTransferDimension_0H91XwHjb8Z973jy5ixz_g" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SpaceHeaterPlacementType_2QsvgNjVf3cvzMGb_fA7fz" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SpaceHeaterRadiatorType_21eIJDNLr9lvBaGEjnaE2" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SpaceHeaterTemperatureClassification_2AxJ8_Lx13HB2sFEbPrEch" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_TankAccessType_1Qkj7O1Ib3agthVjfzw965" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_TankComposition_31nX1DTbXBQQFRvuySlAqs" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_TankPatternType_0wOtjui13uxXJ2e8h0BMr" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_TankStorageType_2NF7birP1FphdP9RCh2hHR" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ValveMechanism_2qz8v3PvL4PeHDxokJYHLQ" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ValveOperation_1BK00LHbrDLQNpN7cQqLJy" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ValvePattern_0az3kXIfE_fnzS2BmoXk" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_WaterMeterType_07KDL6VG9CoQ_qxEFsu48u" />
+	</PropertyEnumerations>
 </DocSchema>
 

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Presentation Style" Locale="en" />
 		<DocLocalization Name="Style de présentation" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3415.8974609375" Y="105.711349487305" Width="266.66667175293" Height="362.66667175293" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3415.8974609375" Y="105.711349487305" Width="266.66667175293" Height="362.66667175293" />
 	<Subtypes>
 		<DocSubtype UniqueId="64014453-40b3-4d56-b7ad-f6ced531713a" DefinedType="IfcCurveStyle" />
 		<DocSubtype UniqueId="07fd8ae1-e820-486a-bb31-56b5bb16aef5" DefinedType="IfcTextStyle" />
@@ -22,9 +20,7 @@
 				<DocPoint X="3682.56413269043" Y="132.5046865" />
 				<DocPoint X="4364.6842" Y="132.5046865" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3682.56413269043" Y="112.5046865" Width="73" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3682.56413269043" Y="112.5046865" Width="73" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

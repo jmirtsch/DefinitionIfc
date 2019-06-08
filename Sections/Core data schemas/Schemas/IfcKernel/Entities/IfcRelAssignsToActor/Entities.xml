@@ -5,9 +5,7 @@
 		<DocLocalization Name="Rel Assigns To Actor" Locale="en" />
 		<DocLocalization Name="Assignation à acteur" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="16928.403" Y="1416.0239" Width="452.43333" Height="133.28125" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="16928.403" Y="1416.0239" Width="452.43333" Height="133.28125" />
 	<Attributes>
 		<DocAttribute Name="RelatingActor" UniqueId="0a6c1031-7ef4-4086-943e-b9db2389f495" DefinedType="IfcActor" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Reference to the information about the actor. It comprises the information about the person or organization and its addresses.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="16928.403" Y="1482.6645" />
 				<DocPoint X="16444.755" Y="1482.6645" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="16918.403" Y="1465.997833" Width="155" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="16918.403" Y="1465.997833" Width="155" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ActingRole" UniqueId="d77e7175-259c-472c-a440-d1e078f46ec9" DefinedType="IfcActorRole" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Role of the actor played within the context of the assignment to the object(s).</Documentation>
@@ -25,9 +21,7 @@
 				<DocPoint X="17140.688" Y="1549.3051" />
 				<DocPoint X="17140.688" Y="1885.82968" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="17223.188" Y="1562.638433" Width="126" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="17223.188" Y="1562.638433" Width="126" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

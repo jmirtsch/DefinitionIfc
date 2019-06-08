@@ -1,27 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="04a16035-7d76-4a2b-bf13-8b640826aaf6">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcVoidingFeature" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcVoidingFeature" />
 	<Concepts>
 		<DocTemplateUsage Name="Product Local Placement" UniqueId="a02d874d-8938-40e4-88a5-6437f5b3ea9a">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Reference Tessellation Geometry" UniqueId="03f9d54b-dbce-4e4a-8380-5e2b4b9ed91f">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Reference Tessellation Geometry_312dpK9_P6NwTksaODhjPW" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Reference_Tessellation_Geometry_312dpK9_P6NwTksaODhjPW" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Reference SweptSolid PolyCurve Geometry" UniqueId="7ddd732f-27d3-47a5-a61d-1aee0679c512">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Reference SweptSolid PolyCurve Geometry_2GFiaqFJ19YAch8O5VnZJN" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Reference_SweptSolid_PolyCurve_Geometry_2GFiaqFJ19YAch8O5VnZJN" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="b7cce4db-e16a-4bc0-874b-2e6613c76b6f" Type="IfcVoidingFeature" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="ab359a57-b298-48f8-848d-80eaa7a405ca" Type="IfcVoidingFeature" />
 </DocConceptRoot>
 

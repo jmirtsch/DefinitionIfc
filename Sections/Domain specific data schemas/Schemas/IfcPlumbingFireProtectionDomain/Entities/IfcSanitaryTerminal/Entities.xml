@@ -5,9 +5,7 @@
 		<DocLocalization Name="Sanitary Terminal" Locale="en" />
 		<DocLocalization Name="Equipement sanitaire" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="863.04666" Y="613" Width="649.93333" Height="110.6" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="863.04666" Y="613" Width="649.93333" Height="110.6" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="c07c360f-6347-43e0-96b7-758b6c8b635a" DefinedType="IfcSanitaryTerminalTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
@@ -15,9 +13,7 @@
 				<DocPoint X="1508.2091" Y="786.013333" />
 				<DocPoint X="1070.06005" Y="786.013333" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1414.875767" Y="723.10218914" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1414.875767" Y="723.10218914" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

@@ -4,9 +4,7 @@
 		<DocLocalization Name="Beliebiges geschlossenes Profil" Locale="de" />
 		<DocLocalization Name="Arbitrary Closed Profile Def" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="307.03337" Y="3068.9583" Width="544.73333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="307.03337" Y="3068.9583" Width="544.73333" Height="100" />
 	<Subtypes>
 		<DocSubtype UniqueId="e1f99bb3-d228-419d-bcce-0238b78e97b3" DefinedType="IfcArbitraryProfileDefWithVoids" />
 	</Subtypes>
@@ -17,9 +15,7 @@
 				<DocPoint X="851.7667" Y="3118.9583" />
 				<DocPoint X="1117.0999" Y="3118.9583" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="830.92505" Y="3110.3874667" Width="135" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="830.92505" Y="3110.3874667" Width="135" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

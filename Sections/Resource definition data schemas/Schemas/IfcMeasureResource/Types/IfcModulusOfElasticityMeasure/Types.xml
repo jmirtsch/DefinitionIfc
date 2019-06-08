@@ -5,12 +5,8 @@
 		<DocLocalization Name="Modulus Of Elasticity Measure" Locale="en" />
 		<DocLocalization Name="Mesure du module d&apos;élasticité" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5060.3" Y="1126.2036" Width="529.24151" Height="54.923051" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_28w$18Fef6dhmIS5CsMy3C" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5060.3" Y="1126.2036" Width="529.24151" Height="54.923051" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_28w18Fef6dhmIS5CsMy3C" />
 	<DiagramLine>
 		<DocPoint X="5060.3" Y="1152.1097" />
 		<DocPoint X="4971.342223" Y="1152.1097" />

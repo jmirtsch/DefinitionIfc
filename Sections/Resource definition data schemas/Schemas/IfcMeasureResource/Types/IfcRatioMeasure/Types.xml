@@ -4,12 +4,8 @@
 		<DocLocalization Name="Ratio Measure" Locale="en" />
 		<DocLocalization Name="Mesure de ratio" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4109.2686" Y="1350.2326" Width="405.43333" Height="66" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_2JBk$tCXf7$eD4tDmQSWXf" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="4109.2686" Y="1350.2326" Width="405.43333" Height="66" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_2JBktCXf7eD4tDmQSWXf" />
 	<DiagramLine>
 		<DocPoint X="4514.7019" Y="1383.2326" />
 		<DocPoint X="4591.706908" Y="1383.2326" />

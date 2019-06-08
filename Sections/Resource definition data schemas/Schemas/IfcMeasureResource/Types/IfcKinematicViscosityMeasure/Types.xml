@@ -4,12 +4,8 @@
 		<DocLocalization Name="Kinematic Viscosity Measure" Locale="en" />
 		<DocLocalization Name="Mesure de viscosité cinématique" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5665.085" Y="905.63668" Width="456.7" Height="53.00186" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_1zHNqdBbX29e5q_7VUwpFV" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5665.085" Y="905.63668" Width="456.7" Height="53.00186" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_1zHNqdBbX29e5q_7VUwpFV" />
 	<DiagramLine>
 		<DocPoint X="6121.785" Y="932.13762" />
 		<DocPoint X="6232.61128" Y="932.13762" />

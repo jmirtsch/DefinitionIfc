@@ -5,9 +5,7 @@
 		<DocLocalization Name="Actor" Locale="en" />
 		<DocLocalization Name="Acteur" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="16244.755" Y="1416.1132" Width="200" Height="226.63333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="16244.755" Y="1416.1132" Width="200" Height="226.63333" />
 	<Attributes>
 		<DocAttribute Name="TheActor" UniqueId="1f0b24bd-108b-4dfd-b2f7-4ca3197d54e3" DefinedType="IfcActorSelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Information about the actor.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="16344.755" Y="1642.7465" />
 				<DocPoint X="16344.755" Y="1885.8631" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="16413.088334" Y="1648.5798333" Width="107" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="16413.088334" Y="1648.5798333" Width="107" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="IsActingUpon" UniqueId="aad58398-0599-4d60-aa99-4b0921c95159" DefinedType="IfcRelAssignsToActor" AttributeFlags="8" AggregationType="3" AggregationFlag="0" Inverse="RelatingActor">
 			<Documentation>Reference to the relationship that associates the actor to an object.</Documentation>
@@ -25,9 +21,7 @@
 				<DocPoint X="16928.403" Y="1482.6645" />
 				<DocPoint X="16444.755" Y="1482.6645" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="16928.403" Y="1517.6645" Width="297" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="16928.403" Y="1517.6645" Width="297" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

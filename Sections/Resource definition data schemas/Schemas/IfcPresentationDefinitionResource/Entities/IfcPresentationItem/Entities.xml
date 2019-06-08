@@ -5,8 +5,6 @@
 		<DocLocalization Name="Presentation Item" Locale="en" />
 		<DocLocalization Name="Item de présentation" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="112.66667" Y="115.65333" Width="450.66667" Height="124" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="112.66667" Y="115.65333" Width="450.66667" Height="124" />
 </DocEntity>
 

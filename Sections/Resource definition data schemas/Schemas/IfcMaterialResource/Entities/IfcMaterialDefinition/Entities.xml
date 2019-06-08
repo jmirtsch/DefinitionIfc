@@ -5,9 +5,7 @@
 		<DocLocalization Name="Material Definition" Locale="en" />
 		<DocLocalization Name="Définition de matériau" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="703.09584" Y="780.98998" Width="380.10357" Height="122.87029" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="703.09584" Y="780.98998" Width="380.10357" Height="122.87029" />
 	<Subtypes>
 		<DocSubtype UniqueId="c50b8294-a469-4b33-9a13-8d2b53f65990" DefinedType="IfcMaterialLayer" />
 		<DocSubtype UniqueId="d6ec1ff9-122f-46d4-906f-b18b84f803bb" DefinedType="IfcMaterial" />
@@ -26,9 +24,7 @@
 				<DocPoint X="987.63441" Y="273.45872" />
 				<DocPoint X="1169.3717" Y="273.45872" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="977.424315" Y="386.97437" Width="299" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="977.424315" Y="386.97437" Width="299" Height="70" />
 		</DocAttribute>
 		<DocAttribute Name="HasExternalReferences" UniqueId="d28dbc0d-d8f5-445d-8f01-e84587f1ef49" DefinedType="IfcExternalReferenceRelationship" AttributeFlags="32" AggregationType="3" AggregationFlag="0" Inverse="RelatedResourceObjects">
 			<Documentation>Reference to external references, e.g. library, classification, or document information, that are associated to the material.
@@ -38,9 +34,7 @@
 				<DocPoint X="1123.911301" Y="864.6373" />
 				<DocPoint X="1123.911301" Y="1022.26389" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1358.491811" Y="834.226726" Width="411" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1358.491811" Y="834.226726" Width="411" Height="70" />
 		</DocAttribute>
 		<DocAttribute Name="HasProperties" UniqueId="d60a2049-8e83-46d1-9e06-029c5163fab4" DefinedType="IfcMaterialProperties" AttributeFlags="0" AggregationType="3" AggregationFlag="0" Inverse="Material" XsdFormat="element">
 			<Documentation>Material properties assigned to instances of subtypes of &lt;em&gt;IfcMaterialDefinition&lt;/em&gt;.
@@ -50,9 +44,7 @@
 				<DocPoint X="1030.3061" Y="585.13431" />
 				<DocPoint X="1226.12724" Y="585.13431" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1031.7412473" Y="725.94395" Width="335" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1031.7412473" Y="725.94395" Width="335" Height="70" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

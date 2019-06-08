@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="14e040ba-fe2d-4ae0-b1d8-caa822ceed8c">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcBoundedCurve" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="cc790036-07b7-4c57-8a7d-af047ce1dfa1" Type="IfcBoundedCurve" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcBoundedCurve" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="341f515d-2c4f-4d56-b332-868794ff2ad6" Type="IfcBoundedCurve" />
 </DocConceptRoot>
 

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Surface Of Revolution" Locale="en" />
 		<DocLocalization Name="Surface de révolution" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="16818.027" Y="960.95216" Width="463.3" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="16818.027" Y="960.95216" Width="463.3" Height="100" />
 	<Attributes>
 		<DocAttribute Name="AxisPosition" UniqueId="f5ca3d78-4e7d-4f00-8f91-e7bad20ebeb5" DefinedType="IfcAxis1Placement" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>A point on the axis of revolution and the direction of the axis of revolution.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="16923.01" Y="1060.9522" />
 				<DocPoint X="16923.01" Y="1224.2854" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="17004.343334" Y="1096.285533" Width="139" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="17004.343334" Y="1096.285533" Width="139" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="AxisLine" UniqueId="a7d21d77-3b89-4f1a-9ec3-c828659d1a73" DefinedType="IfcLine" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The line coinciding with the axis of revolution.</Documentation>
@@ -27,9 +23,7 @@
 				<DocPoint X="17206.344" Y="1060.9522" />
 				<DocPoint X="17206.344" Y="1224.2521" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="17308.344" Y="1093.618867" Width="174" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="17308.344" Y="1093.618867" Width="174" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

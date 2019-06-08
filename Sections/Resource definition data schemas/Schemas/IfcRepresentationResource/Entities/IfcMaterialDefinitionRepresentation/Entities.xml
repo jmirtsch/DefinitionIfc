@@ -5,9 +5,7 @@
 		<DocLocalization Name="Material Definition Representation" Locale="en" />
 		<DocLocalization Name="Représentation de définition de matériau" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4084.8813" Y="974.51986" Width="331.32829" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4084.8813" Y="974.51986" Width="331.32829" Height="100" />
 	<Attributes>
 		<DocAttribute Name="RepresentedMaterial" UniqueId="895fdfda-1b9b-4597-baa7-e6f4ebda24e9" DefinedType="IfcMaterial" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="hidden">
 			<Documentation>Reference to the material to which the representation applies.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="4084.8813" Y="1024.5199" />
 				<DocPoint X="3781.4979" Y="1024.5199" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="4089.297361" Y="1017.9956351" Width="237" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="4089.297361" Y="1017.9956351" Width="237" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

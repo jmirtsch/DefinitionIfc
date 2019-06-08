@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2UKgazS551BQxFb5zFMx5U">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcProtectiveDeviceTrippingUnit" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcProtectiveDeviceTrippingUnit" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="2ik4Nr4hj37gLJ6i4LisMG">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="308d3751-c511-432e-ae7d-3a58e9f8b623" RuleParameters="RelatingType=IfcProtectiveDeviceTrippingUnitType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="3iDsfEtsz4tfY8lig4bb9m">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="77d97d05-3781-46e0-92b7-f563a6abee9c" RuleParameters="PsetName=Pset_ProtectiveDeviceTrippingFunctionGCurve;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="da7fa44e-fb5f-4cbe-9bdb-88542639077a">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="fc35ec99-7bd2-4b65-acba-f7d46c6fc249" RuleParameters="PropertyName=IsSelectable;Value=IfcBoolean;" Order="0" />
 								<DocTemplateItem UniqueId="3485794f-9886-4a79-90db-38433282c831" RuleParameters="PropertyName=NominalCurrentAdjusted;Value=IfcBoolean;" Order="0" />
@@ -48,9 +40,7 @@
 				<DocTemplateItem UniqueId="0a6e4d85-21f1-4403-83d9-15a1db8d78b7" RuleParameters="PsetName=Pset_ProtectiveDeviceTrippingFunctionICurve;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="b72be931-adb5-4746-acc3-b54add94bd0e">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="96b8c2f3-e006-402b-a9ad-0fd97e5f9906" RuleParameters="PropertyName=IsSelectable;Value=IfcBoolean;" Order="0" />
 								<DocTemplateItem UniqueId="2afd6d98-1a27-45a4-8443-3b3daad883b2" RuleParameters="PropertyName=NominalCurrentAdjusted;Value=IfcBoolean;" Order="0" />
@@ -73,9 +63,7 @@
 				<DocTemplateItem UniqueId="ad22dabe-029e-41f2-b536-78f22e8a8bf3" RuleParameters="PsetName=Pset_ProtectiveDeviceTrippingFunctionLCurve;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="2fcf482b-d8ec-4383-9b8b-7413aaf393ad">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="d82603b6-0f4d-427c-a63c-a9aa19b97c51" RuleParameters="PropertyName=IsSelectable;Value=IfcBoolean;" Order="0" />
 								<DocTemplateItem UniqueId="c7f6e27e-6906-49a8-9cda-06b4a6d85df0" RuleParameters="PropertyName=UpperCurrent1;Value=IfcElectricCurrentMeasure;" Order="0" />
@@ -93,9 +81,7 @@
 				<DocTemplateItem UniqueId="f7c5b14c-4e82-484f-817d-060516fbc409" RuleParameters="PsetName=Pset_ProtectiveDeviceTrippingFunctionSCurve;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="3460d42a-eaaa-4a20-bb8a-e0d36cc1c011">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="a457f22d-cecc-413c-90df-03c5de4651b7" RuleParameters="PropertyName=IsSelectable;Value=IfcBoolean;" Order="0" />
 								<DocTemplateItem UniqueId="24ca494a-5d2c-4fd7-9a68-8a553893b6bd" RuleParameters="PropertyName=NominalCurrentAdjusted;Value=IfcBoolean;" Order="0" />
@@ -121,25 +107,19 @@
 				<DocTemplateItem UniqueId="f206065f-c554-4000-9698-7eb35113d941" RuleParameters="PsetName=Pset_ProtectiveDeviceTrippingUnitCurrentAdjustment;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="ffc2099c-e877-4019-ab1e-ad7b429d8b1e">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="2c59d72f-63ed-4740-a21b-72ab783609b4" RuleParameters="PropertyName=AdjustmentValueType;Value=IfcLabel;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="a5478194-64d1-46cb-b94c-7eecc446f2d7">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Bounded_Value_0zPwBITXr4sQ2Ujkn_bOo" />
 							<Items>
 								<DocTemplateItem UniqueId="20796173-0c33-4768-9d48-015a86fd744d" RuleParameters="PropertyName=AdjustmentRange;SetValue=IfcElectricCurrentMeasure;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="2977ff47-2fd1-4a3d-86de-ad1a990756d0">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="4e38671c-bd21-411c-a654-b2ec82f3c30c" RuleParameters="PropertyName=AdjustmentRangeStepValue;Value=IfcElectricCurrentMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="cb9a3ad3-e0a1-47ba-bd3b-5929ebe99a43" RuleParameters="PropertyName=AdjustmentDesignation;Value=IfcLabel;" Order="0" />
@@ -150,26 +130,20 @@
 				<DocTemplateItem UniqueId="c6c2c683-bcb9-43fe-8ebd-ca1aedf20fbe" RuleParameters="PsetName=Pset_ProtectiveDeviceTrippingUnitTimeAdjustment;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="088fc501-ab70-4c5e-80b5-c57234f16665">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="26a9eeea-c155-4775-adff-f361850c2eb5" RuleParameters="PropertyName=AdjustmentValueType;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="dc02ea43-29c6-475c-bed2-3c2e75d7f88b" RuleParameters="PropertyName=I2TApplicability;Value=IfcLabel;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="a60ecc7d-6cf5-4b75-bc7a-736d59e14ca9">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Bounded_Value_0zPwBITXr4sQ2Ujkn_bOo" />
 							<Items>
 								<DocTemplateItem UniqueId="140e9473-0aa9-4ec7-a26e-6569d12e31e5" RuleParameters="PropertyName=AdjustmentRange;SetValue=IfcTimeMeasure;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="4d22a44b-22cf-47c2-b188-4b8aeb3afca7">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="9603a105-3276-435d-a2a5-022a2822d0c0" RuleParameters="PropertyName=AdjustmentRangeStepValue;Value=IfcTimeMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="a75f774b-bc5d-4d4f-ae67-d67c3b1daf45" RuleParameters="PropertyName=AdjustmentDesignation;Value=IfcLabel;" Order="0" />
@@ -181,9 +155,7 @@
 				<DocTemplateItem UniqueId="e6731966-34fc-478d-bd56-cc8747abb666" RuleParameters="PsetName=Pset_ProtectiveDeviceTrippingUnitTypeCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="d0d4a5fc-f175-45da-b28e-f00e8ed143dc">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="1475859a-1762-4d46-82dc-6198db36bd08" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="9f5cfb2b-8521-43b5-ae09-a5612c542659" RuleParameters="PropertyName=Standard;Value=IfcLabel;" Order="0" />
@@ -194,9 +166,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="133b3c46-182f-449e-9b9e-52f061f11413">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="a09c4793-0cd0-4440-9405-53ca23aa32a2" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
 							</Items>
@@ -206,17 +176,13 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="0wxXqDTZ59TvprFzrx3ywC">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="039de4c7-34ba-43d7-8790-f5520fc5e750" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_ProtectiveDeviceTrippingUnitBaseQuantities;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Control Flow" UniqueId="1Q0MK9zeH0JudsW_RJnpPO">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Control Flow_3Hs22BKULAZvAwuwBgAykS" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Control_Flow_3Hs22BKULAZvAwuwBgAykS" />
 			<Items>
 				<DocTemplateItem UniqueId="e03eaee6-b63a-44df-97b4-2a702e27bd5e" RuleParameters="Type=IfcProtectiveDevice;" Order="0">
 					<Documentation>The corresponding breaker unit for breaking the circuit.</Documentation>
@@ -224,8 +190,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="41b62450-cf3d-48b3-8e22-73c3101f6332" Type="IfcProtectiveDeviceTrippingUnit" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="27355ff9-ad2f-4f0c-8a36-85315a5e9647" Type="IfcProtectiveDeviceTrippingUnit" />
 </DocConceptRoot>
 

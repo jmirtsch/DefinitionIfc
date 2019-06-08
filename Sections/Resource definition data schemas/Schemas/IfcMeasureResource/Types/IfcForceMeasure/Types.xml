@@ -4,12 +4,8 @@
 		<DocLocalization Name="Force Measure" Locale="en" />
 		<DocLocalization Name="Mesure de force" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5665.0641" Y="645.56612" Width="456.74279" Height="54.923051" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_1kXL56Vwj9Iwn4nKvZb3x1" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5665.0641" Y="645.56612" Width="456.74279" Height="54.923051" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_1kXL56Vwj9Iwn4nKvZb3x1" />
 	<DiagramLine>
 		<DocPoint X="6121.8069" Y="673.02766" />
 		<DocPoint X="6232.64299" Y="673.02766" />

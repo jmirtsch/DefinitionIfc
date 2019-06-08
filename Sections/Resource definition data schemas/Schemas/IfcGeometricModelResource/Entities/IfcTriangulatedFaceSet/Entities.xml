@@ -5,9 +5,7 @@
 		<DocLocalization Name="Triangulated Face Set" Locale="en" />
 		<DocLocalization Name="Ensemble de faces triangulées" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="12879.091796875" Y="1813.35998535156" Width="353.6" Height="243.466735839844" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="12879.091796875" Y="1813.35998535156" Width="353.6" Height="243.466735839844" />
 	<Attributes>
 		<DocAttribute Name="Normals" UniqueId="bd591519-475e-4a73-bfa1-93aa2832af2a" DefinedType="IfcParameterValue" AttributeFlags="1" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="?">
 			<Documentation>An ordered list of three directions for normals. It is a two-dimensional list of directions provided by three parameter 
@@ -16,17 +14,13 @@ values.
  &lt;li class=&quot;small&quot;&gt;The first dimension corresponds to the vertex indices of the &lt;i&gt;Coordindex&lt;/i&gt;&lt;/li&gt;
  &lt;li class=&quot;small&quot;&gt;The second dimension has exactly three values, [1] the x-direction, [2] the y-direction and [3] the z-directions&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<AggregationAttribute>
-				<DocAttribute UniqueId="35164181-c3c4-4f4b-893b-b86bd208a612" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="3" AggregationUpper="3" />
-			</AggregationAttribute>
+			<AggregationAttribute xsi:type="DocAttribute" UniqueId="35164181-c3c4-4f4b-893b-b86bd208a612" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="3" AggregationUpper="3" />
 			<DiagramLine>
 				<DocPoint X="13232.691796875" Y="2056.82672119141" />
 				<DocPoint X="13232.691796875" Y="2306.35986328125" />
 				<DocPoint X="13551.3583984375" Y="2306.35986328125" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="13232.691796875" Y="2286.35986328125" Width="0" Height="0" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="13232.691796875" Y="2286.35986328125" Width="0" Height="0" />
 		</DocAttribute>
 		<DocAttribute Name="Closed" UniqueId="738880b2-be27-415d-acee-5b666ad13681" DefinedType="IfcBoolean" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Indication whether the &lt;em&gt;IfcTriangulatedFaceSet&lt;/em&gt; is a closed shell or not. If omited no such information can be provided.</Documentation>
@@ -35,9 +29,7 @@ values.
 				<DocPoint X="13014.0245666504" Y="2056.82672119141" />
 				<DocPoint X="13014.0245666504" Y="2264.02661132813" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="13014.0245666504" Y="2244.02661132813" Width="0" Height="0" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="13014.0245666504" Y="2244.02661132813" Width="0" Height="0" />
 		</DocAttribute>
 		<DocAttribute Name="CoordIndex" UniqueId="9a0699f0-dcdd-4fa1-8373-7b1a46293902" DefinedType="IfcPositiveInteger" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0" XsdFormat="content" XsdTagless="true">
 			<Documentation>Two-dimensional list for the indexed-based triangles, where 
@@ -46,17 +38,13 @@ values.
  &lt;li class=&quot;small&quot;&gt;The second dimension has exactly three values representing the indices to three vertex points (from 1 to 3).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The coordinates of the vertices are provided by the indexed list of &lt;em&gt;SELF\IfcTessellatedFaceSet.Coordinates.CoordList&lt;/em&gt;.&lt;/blockquote&gt;</Documentation>
-			<AggregationAttribute>
-				<DocAttribute UniqueId="e35b8c9b-877e-42fa-a88a-d7e6fe7ef0c6" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="3" AggregationUpper="3" />
-			</AggregationAttribute>
+			<AggregationAttribute xsi:type="DocAttribute" UniqueId="e35b8c9b-877e-42fa-a88a-d7e6fe7ef0c6" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="3" AggregationUpper="3" />
 			<DiagramLine>
 				<DocPoint X="13232.691796875" Y="1900.48679097494" />
 				<DocPoint X="13232.691796875" Y="1900.48679097494" />
 				<DocPoint X="13534.9580078125" Y="1900.48679097494" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="13232.691796875" Y="1880.48679097494" Width="283" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="13232.691796875" Y="1880.48679097494" Width="283" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="PnIndex" UniqueId="3d3f022d-8122-46c6-9ac8-db032b84b55d" DefinedType="IfcPositiveInteger" AttributeFlags="1" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="?" XsdFormat="content" XsdTagless="true">
 			<Documentation>The list of integers defining the locations in the &lt;em&gt;IfcCartesianPointList3D&lt;/em&gt; to obtain the point coordinates for the indices withint the &lt;i&gt;CoordIndex&lt;/i&gt;. If the &lt;i&gt;PnIndex&lt;/i&gt; is not provided the indices point directly into the &lt;em&gt;IfcCartesianPointList3D&lt;/em&gt;.</Documentation>
@@ -65,9 +53,7 @@ values.
 				<DocPoint X="13232.691796875" Y="1966.82013956706" />
 				<DocPoint X="13534.9580078125" Y="1966.82013956706" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="13232.691796875" Y="1946.82013956706" Width="294" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="13232.691796875" Y="1946.82013956706" Width="294" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="NumberOfTriangles" UniqueId="f5a29a45-fdb2-4307-8e3a-419f11e39751" DefinedType="IfcInteger" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Derived number of triangles used for this triangulation.</Documentation>
@@ -77,9 +63,7 @@ values.
 				<DocPoint X="13232.691796875" Y="2184.31998697917" />
 				<DocPoint X="13980.291015625" Y="2184.31998697917" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="13232.691796875" Y="2164.31998697917" Width="297" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="13232.691796875" Y="2164.31998697917" Width="297" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

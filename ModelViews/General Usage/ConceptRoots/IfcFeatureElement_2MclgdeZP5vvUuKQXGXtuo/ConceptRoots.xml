@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2MclgdeZP5vvUuKQXGXtuo">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcFeatureElement" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcFeatureElement" />
 	<Concepts>
 		<DocTemplateUsage Name="Spatial Containment" UniqueId="3i1UBcT1r8Vg0K54GylPWr">
 			<Documentation>&lt;p&gt;As a subordinate part being fully dependent on the master
@@ -12,13 +10,9 @@ containment relationship to the spatial structure.&lt;/p&gt;
 &lt;li&gt;The &lt;em&gt;SELF\IfcElement.ContainedInStructure&lt;/em&gt; relationship
 shall be NIL.&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Containment_3Pe$WY01HBmesKdP1dTP15" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Containment_3PeWY01HBmesKdP1dTP15" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="301b1b11-c297-4e40-afe9-1983c5931792" Type="IfcFeatureElement" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="ecddf7d3-ddf1-4c96-aaa2-5b6e70dfb772" Type="IfcFeatureElement" />
 </DocConceptRoot>
 

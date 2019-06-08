@@ -4,12 +4,8 @@
 		<DocLocalization Name="Thermal Admittance Measure" Locale="en" />
 		<DocLocalization Name="Mesure d&apos;admittance thermique" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5665.1593" Y="1721.3992" Width="456.65698" Height="53.00186" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_1GJKmpyzb65PzIKGp2ze8R" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5665.1593" Y="1721.3992" Width="456.65698" Height="53.00186" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_1GJKmpyzb65PzIKGp2ze8R" />
 	<DiagramLine>
 		<DocPoint X="6121.8163" Y="1747.9001" />
 		<DocPoint X="6232.63996" Y="1747.9001" />

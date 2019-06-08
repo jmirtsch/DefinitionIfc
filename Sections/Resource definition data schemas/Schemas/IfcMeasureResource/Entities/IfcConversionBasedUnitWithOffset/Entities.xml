@@ -5,9 +5,7 @@
 		<DocLocalization Name="Conversion Based Unit With Offset" Locale="en" />
 		<DocLocalization Name="Unité basée sur une mesure avec unité et avec décalage" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1013.568" Y="2138.358" Width="331.43539" Height="124.79913" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1013.568" Y="2138.358" Width="331.43539" Height="124.79913" />
 	<Attributes>
 		<DocAttribute Name="ConversionOffset" UniqueId="ca7d00b4-28a4-4681-9281-b88a0635d93c" DefinedType="IfcReal" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>A positive or negative offset to add after the inherited &lt;em&gt;ConversionFactor&lt;/em&gt; was applied.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="1013.568" Y="2200.7576" />
 				<DocPoint X="582.05467" Y="2200.7576" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1015.1551444" Y="2186.77089" Width="198" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1015.1551444" Y="2186.77089" Width="198" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

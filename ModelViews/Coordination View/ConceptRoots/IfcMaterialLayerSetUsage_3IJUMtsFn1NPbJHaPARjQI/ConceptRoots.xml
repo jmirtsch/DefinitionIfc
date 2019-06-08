@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="d24de5b7-d8fc-415d-9953-46464a6ed692">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcMaterialLayerSetUsage" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="8d274618-4ce3-4626-b953-a944027f50e5" Type="IfcMaterialLayerSetUsage" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcMaterialLayerSetUsage" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="ee597691-d119-4eab-bd6f-71e4246da213" Type="IfcMaterialLayerSetUsage" />
 </DocConceptRoot>
 

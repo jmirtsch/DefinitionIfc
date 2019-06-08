@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1UGJGKczr278$UoP9mcXV8">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcPile" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcPile" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="1BkfQox_TEMQc4w31S4RSb">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="67678996-d137-41a9-9564-84f6bc3cdd1c" RuleParameters="RelatingType=IfcPileType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="3WOIHX7sPBbwrzRMHRSPN8">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="49b3fa6f-945d-427d-be1b-7cbe1bd36766" RuleParameters="PsetName=Pset_ConcreteElementGeneral;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="0fa27fe7-a22e-4ced-a319-005aa1f7e0a6">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="1fb99552-4dd8-43da-94d8-5c29d243be74" RuleParameters="PropertyName=ConstructionMethod;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="0e908545-7608-43e3-9176-dfc0adbafb3e" RuleParameters="PropertyName=StructuralClass;Value=IfcLabel;" Order="0" />
@@ -43,17 +35,13 @@
 				<DocTemplateItem UniqueId="8d084272-1495-4e9b-bfba-93e631db5a2b" RuleParameters="PsetName=Pset_PileCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="8b9c00cd-6f96-4fc5-8e67-63213d680c2a">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="f4c73e70-632d-429e-9e39-bf1e584f9f83" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="cfcb509b-8f25-4c52-9c59-1a7469c32666">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="539f26a6-b7cb-4cff-a9a6-6df76e1adb01" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
 							</Items>
@@ -63,9 +51,7 @@
 				<DocTemplateItem UniqueId="6b4dc2ba-a236-43dd-a929-2764422548d2" RuleParameters="PsetName=Pset_PrecastConcreteElementFabrication;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="f08d94f9-556c-4af6-a4da-e99e40a71af0">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="0bafbce4-77b5-4e2e-89f9-f7371aa23878" RuleParameters="PropertyName=TypeDesignator;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="2ede4032-be28-49a0-a3b7-e6315eefadd5" RuleParameters="PropertyName=ProductionLotId;Value=IfcIdentifier;" Order="0" />
@@ -81,9 +67,7 @@
 				<DocTemplateItem UniqueId="b09a3212-2e65-4963-867e-add56b9fe914" RuleParameters="PsetName=Pset_PrecastConcreteElementGeneral;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="4f2af613-afaa-404b-8d84-27eaf9e557dc">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="975882b0-5e2b-4e78-876d-d2f71c88c7c2" RuleParameters="PropertyName=TypeDesignator;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="cf050c6e-a9c3-47eb-845a-c664f26ade9e" RuleParameters="PropertyName=CornerChamfer;Value=IfcPositiveLengthMeasure;" Order="0" />
@@ -111,43 +95,31 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="1Yhs9_fO15uenu95irEbSs">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="ffcd5019-4a65-4e34-8b0e-96b3f7ef6b31" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_PileBaseQuantities;TemplateType=QTO_OCCURRENCEDRIVEN;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Material Profile Set Usage" UniqueId="3xk2YU6zj33B3CG7Z$_$Xj">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set Usage_1ge1GfjMPBDeTQCM88YfWn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Profile_Set_Usage_1ge1GfjMPBDeTQCM88YfWn" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Placement" UniqueId="1oHK6MW1TAiP9AjsQk20_2">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Axis Geometry" UniqueId="2Ih5ieXTb9efLfSB2EKvZ5">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Axis Geometry_0xznRVEP1B$815da0HoROY" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Axis_Geometry_0xznRVEP1B815da0HoROY" />
 			<Items>
 				<DocTemplateItem UniqueId="9d3130a8-5023-4131-af7e-5b595202716c" RuleParameters="RepresentationType=Curve3D;Geometry=IfcBoundedCurve;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Footprint Geometry" UniqueId="1XRCy6h1r8rAXWMwundDBp">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="FootPrint Geometry_1FLtVNQEb5dAeiHgtpw8qn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="FootPrint_Geometry_1FLtVNQEb5dAeiHgtpw8qn" />
 			<Items>
 				<DocTemplateItem UniqueId="411fcbc5-37a7-4932-880b-1213ce06a115" RuleParameters="RepresentationType=GeometricCurveSet;Geometry=IfcGeometricCurveSet;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Geometry" UniqueId="3PWQ5tHJLCeu_sM0WyuHc2">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Geometry_34HhqMBUDBbxDFH4Qi2wt2" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Geometry_34HhqMBUDBbxDFH4Qi2wt2" />
 			<Items>
 				<DocTemplateItem UniqueId="5c714b17-f38d-450f-a16e-4162365178ff" RuleParameters="RepresentationType=SweptSolid;Geometry=IfcExtrudedAreaSolid;" Order="0" />
 				<DocTemplateItem UniqueId="1742c7f6-b620-4de4-a92b-c1e4f338dfb6" RuleParameters="RepresentationType=Brep;Geometry=IfcFacetedBrep;" Order="0" />
@@ -155,8 +127,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="8b253594-8c9f-40e0-b08c-8b1c570d7034" Type="IfcPile" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="cb14bb62-49f2-4a64-9112-19effbd860a1" Type="IfcPile" />
 </DocConceptRoot>
 

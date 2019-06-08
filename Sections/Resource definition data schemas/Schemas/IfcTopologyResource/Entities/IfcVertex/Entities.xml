@@ -5,9 +5,7 @@
 		<DocLocalization Name="Vertex" Locale="en" />
 		<DocLocalization Name="Sommet" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="107.958356221517" Y="829.016682942708" Width="376.66667" Height="150.666646321615" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="107.958356221517" Y="829.016682942708" Width="376.66667" Height="150.666646321615" />
 	<Subtypes>
 		<DocSubtype UniqueId="529bf433-3b6f-4a54-ab3b-0e93d9a95337" DefinedType="IfcVertexPoint" />
 		<DocSubtype UniqueId="fd002a5c-4f8c-4f29-82eb-5b160d42446a" DefinedType="IfcVertexPoint" />

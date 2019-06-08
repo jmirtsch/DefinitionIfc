@@ -4,9 +4,7 @@
 		<DocSchemaRef Name="IFCKERNEL" UniqueId="1f1ca11f-8f11-47cd-b592-eba4481bc474">
 			<Definitions>
 				<DocDefinitionRef Name="IfcRelConnects" UniqueId="bb5d34ec-eac2-453f-820b-710e696a49b1" DiagramNumber="1">
-					<DiagramRectangle>
-						<DocRectangle X="619.4398" Y="393.32014" Width="365.59423" Height="124.83028" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="619.4398" Y="393.32014" Width="365.59423" Height="124.83028" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -21,18 +19,14 @@
 		<DocSchemaRef Name="IFCMEASURERESOURCE" UniqueId="78182ad2-71ac-4a23-aecf-3e2791faa2da">
 			<Definitions>
 				<DocDefinitionRef Name="IfcLabel" UniqueId="01a7bbfc-3d5f-4812-be3e-f98432b0bcff" DiagramNumber="3">
-					<DiagramRectangle>
-						<DocRectangle X="4085.2308" Y="340.23861" Width="645.63737" Height="123.81975" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="4085.2308" Y="340.23861" Width="645.63737" Height="123.81975" />
 				</DocDefinitionRef>
 			</Definitions>
 		</DocSchemaRef>
 		<DocSchemaRef Name="IFCPRODUCTEXTENSION" UniqueId="5711bd07-dcc1-47f4-a9bc-0c825495337f">
 			<Definitions>
 				<DocDefinitionRef Name="IfcDistributionElement" UniqueId="0cc19f08-d74e-43d4-9c1f-85b1daeea5fb" DiagramNumber="1">
-					<DiagramRectangle>
-						<DocRectangle X="448.28415" Y="103.32075" Width="707.86667" Height="123.4881" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="448.28415" Y="103.32075" Width="707.86667" Height="123.4881" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -57,9 +51,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcPort" UniqueId="3d0f2b0d-3448-43bd-ac1c-e4846c323df3" DiagramNumber="3">
-					<DiagramRectangle>
-						<DocRectangle X="3270.5239" Y="966.57807" Width="494.84052" Height="124.15919" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="3270.5239" Y="966.57807" Width="494.84052" Height="124.15919" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -70,9 +62,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcDistributionElementType" UniqueId="19afbb41-f11d-4f0f-a800-7e956b864ffc" DiagramNumber="2">
-					<DiagramRectangle>
-						<DocRectangle X="2038.8414" Y="92.609008" Width="704.42724" Height="124.15919" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="2038.8414" Y="92.609008" Width="704.42724" Height="124.15919" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -97,9 +87,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcSystem" UniqueId="88dc7910-fed2-4011-83a1-eab45ac1d70c" DiagramNumber="3">
-					<DiagramRectangle>
-						<DocRectangle X="3268.7546" Y="150.20553" Width="561.98644" Height="125" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="3268.7546" Y="150.20553" Width="561.98644" Height="125" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -114,40 +102,84 @@
 			</Definitions>
 		</DocSchemaRef>
 	</SchemaRefs>
+	<Types>
+		<DocEnumeration xsi:nil="true" href="IfcDistributionChamberElementTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcDistributionPortTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcDistributionSystemEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcFlowDirectionEnum" />
+	</Types>
+	<PropertySets>
+		<DocPropertySet xsi:nil="true" href="Pset_AirSideSystemInformation" />
+		<DocPropertySet xsi:nil="true" href="Pset_DistributionChamberElementCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_DistributionChamberElementTypeFormedDuct" />
+		<DocPropertySet xsi:nil="true" href="Pset_DistributionChamberElementTypeInspectionChamber" />
+		<DocPropertySet xsi:nil="true" href="Pset_DistributionChamberElementTypeInspectionPit" />
+		<DocPropertySet xsi:nil="true" href="Pset_DistributionChamberElementTypeManhole" />
+		<DocPropertySet xsi:nil="true" href="Pset_DistributionChamberElementTypeMeterChamber" />
+		<DocPropertySet xsi:nil="true" href="Pset_DistributionChamberElementTypeSump" />
+		<DocPropertySet xsi:nil="true" href="Pset_DistributionChamberElementTypeTrench" />
+		<DocPropertySet xsi:nil="true" href="Pset_DistributionChamberElementTypeValveChamber" />
+		<DocPropertySet xsi:nil="true" href="Pset_DistributionPortCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_DistributionPortPHistoryCable" />
+		<DocPropertySet xsi:nil="true" href="Pset_DistributionPortPHistoryDuct" />
+		<DocPropertySet xsi:nil="true" href="Pset_DistributionPortPHistoryPipe" />
+		<DocPropertySet xsi:nil="true" href="Pset_DistributionPortTypeCable" />
+		<DocPropertySet xsi:nil="true" href="Pset_DistributionPortTypeDuct" />
+		<DocPropertySet xsi:nil="true" href="Pset_DistributionPortTypePipe" />
+		<DocPropertySet xsi:nil="true" href="Pset_DistributionSystemCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_DistributionSystemTypeElectrical" />
+		<DocPropertySet xsi:nil="true" href="Pset_DistributionSystemTypeVentilation" />
+		<DocPropertySet xsi:nil="true" href="Pset_OutsideDesignCriteria" />
+		<DocPropertySet xsi:nil="true" href="Pset_SoundAttenuation" />
+		<DocPropertySet xsi:nil="true" href="Pset_SoundGeneration" />
+		<DocPropertySet xsi:nil="true" href="Pset_SpaceThermalDesign" />
+		<DocPropertySet xsi:nil="true" href="Pset_SpaceThermalLoad" />
+		<DocPropertySet xsi:nil="true" href="Pset_SpaceThermalLoadPHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_ThermalLoadAggregate" />
+		<DocPropertySet xsi:nil="true" href="Pset_ThermalLoadDesignCriteria" />
+		<DocPropertySet xsi:nil="true" href="Pset_UtilityConsumptionPHistory" />
+	</PropertySets>
+	<QuantitySets>
+		<DocQuantitySet xsi:nil="true" href="Qto_DistributionChamberElementBaseQuantities" />
+	</QuantitySets>
 	<PageTargets>
 		<DocPageTarget Name="2,1 IfcDistributionChamberElementTypeEnum" UniqueId="60c77ddc-96d8-4a97-af68-7c7ca679c38f" DiagramNumber="2">
-			<DiagramRectangle>
-				<DocRectangle X="2809.7387" Y="767.42618" Width="120" Height="85" />
-			</DiagramRectangle>
+			<DiagramRectangle xsi:type="DocRectangle" X="2809.7387" Y="767.42618" Width="120" Height="85" />
 			<DiagramLine>
 				<DocPoint X="2869.7387" Y="767.42618" />
 				<DocPoint X="2869.7387" Y="707.332893" />
 			</DiagramLine>
 			<Sources>
 				<DocPageSource Name="2,1 IfcDistributionChamberElementTypeEnum" UniqueId="a4d3785f-a313-4bf1-afcc-aef0d60203a5" DiagramNumber="1">
-					<DiagramRectangle>
-						<DocRectangle X="939.97428" Y="1076.2912" Width="569" Height="80" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="939.97428" Y="1076.2912" Width="569" Height="80" />
 				</DocPageSource>
 			</Sources>
-			<Definition>
-				<DocEnumeration xsi:nil="true" href="IfcDistributionChamberElementTypeEnum" />
-			</Definition>
+			<Definition xsi:type="DocEnumeration" xsi:nil="true" href="IfcDistributionChamberElementTypeEnum" />
 		</DocPageTarget>
 	</PageTargets>
 	<Comments>
 		<DocComment UniqueId="149946e4-6628-49a8-9e99-859889586ee4" DiagramNumber="3">
 			<Documentation>New entity in IFC2x4</Documentation>
-			<DiagramRectangle>
-				<DocRectangle X="3603.7496" Y="597.9319" Width="297.10336" Height="73.790482" />
-			</DiagramRectangle>
+			<DiagramRectangle xsi:type="DocRectangle" X="3603.7496" Y="597.9319" Width="297.10336" Height="73.790482" />
 		</DocComment>
 		<DocComment UniqueId="987779eb-4066-4b9f-95a0-781758cceee8" DiagramNumber="3">
 			<Documentation>New entity in IFC2x4</Documentation>
-			<DiagramRectangle>
-				<DocRectangle X="3609.39" Y="801.91651" Width="297.10336" Height="73.790482" />
-			</DiagramRectangle>
+			<DiagramRectangle xsi:type="DocRectangle" X="3609.39" Y="801.91651" Width="297.10336" Height="73.790482" />
 		</DocComment>
 	</Comments>
+	<PropertyEnumerations>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirSideSystemDistributionType_3HldmLZlX4CvNdQpPziH_c" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirSideSystemType_3UOgG5ejvEzuUrZqX7VIx" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_BuildingThermalExposure_2uCLRUzMf22P6u_UD4pO42" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ConductorFunctionEnum_3akcUKar8GRc1YER0WRht" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_DistributionPortElectricalType_22f7Gomfv1rAIEZWY678pD" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_DistributionPortGender_2UJi_tD_z6XO_SpjqqFaFa" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_DistributionSystemElectricalCategory_2gW5sT9PzCeeM2vqNjkQLQ" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_DistributionSystemElectricalType_1tJafFc6P3fhYBh9xs0MwG" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_DuctConnectionType_1jviiyXNf1FQ5qZAvFRDfQ" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_DuctSizingMethod_2gDIxRw5j76vk96Ucw8BJM" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_PipeEndStyleTreatment_3Mebbi2oT41OMfVb60iTl4" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SoundScale_2QdRlFP5z1T9JkjPiu_wRr" />
+	</PropertyEnumerations>
 </DocSchema>
 

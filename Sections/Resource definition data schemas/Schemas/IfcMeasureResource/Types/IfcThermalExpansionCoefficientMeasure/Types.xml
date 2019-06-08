@@ -4,12 +4,8 @@
 		<DocLocalization Name="Thermal Expansion Coefficient Measure" Locale="en" />
 		<DocLocalization Name="Mesure du cefficient de dilatation thermique" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6921.1625" Y="1074.6415" Width="747.93333" Height="70.339405" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_3rbVQZTh9EOu7SnSkHIT3S" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="6921.1625" Y="1074.6415" Width="747.93333" Height="70.339405" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3rbVQZTh9EOu7SnSkHIT3S" />
 	<DiagramLine>
 		<DocPoint X="7669.0958" Y="1106.7289" />
 		<DocPoint X="7794.82282" Y="1106.7289" />

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Building Element Proxy" Locale="en" />
 		<DocLocalization Name="Elément de construction non défini" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1865.3516" Y="2173.3927" Width="314" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1865.3516" Y="2173.3927" Width="314" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="49d8264c-da80-476c-97cc-c93b33d98240" DefinedType="IfcBuildingElementProxyTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined generic type for a building element proxy that is specified in an enumeration. There may be a property set given specificly for the predefined types.
@@ -17,9 +15,7 @@
 				<DocPoint X="2179.3516" Y="2223.3927" />
 				<DocPoint X="2501.41826" Y="2223.3927" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2179.3516" Y="2223.3927" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2179.3516" Y="2223.3927" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

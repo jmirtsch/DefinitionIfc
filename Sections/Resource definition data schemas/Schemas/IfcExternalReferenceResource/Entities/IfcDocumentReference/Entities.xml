@@ -5,9 +5,7 @@
 		<DocLocalization Name="Document Reference" Locale="en" />
 		<DocLocalization Name="Référence à un document" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3220.8117" Y="307.00666" Width="377.33334" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3220.8117" Y="307.00666" Width="377.33334" Height="100" />
 	<Attributes>
 		<DocAttribute Name="Description" UniqueId="a10271e3-eeec-494c-a378-fdf227220c4f" DefinedType="IfcText" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Description of the document reference for informational purposes.
@@ -16,9 +14,7 @@
 				<DocPoint X="3337.4783" Y="407.00666" />
 				<DocPoint X="3337.4783" Y="695.67333" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3420.144967" Y="376.00666" Width="130" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3420.144967" Y="376.00666" Width="130" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ReferencedDocument" UniqueId="596a3a71-9490-4e46-ba9f-1a65ad2002e3" DefinedType="IfcDocumentInformation" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>The document that is referenced.</Documentation>
@@ -28,9 +24,7 @@
 				<DocPoint X="3916.34223" Y="913.07677" />
 				<DocPoint X="3916.34223" Y="1172.41663" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3189.687961" Y="903.5384508" Width="249" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3189.687961" Y="903.5384508" Width="249" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="DocumentRefForObjects" UniqueId="5c1212d9-a944-4a61-a6ec-2de838a530bb" DefinedType="IfcRelAssociatesDocument" AttributeFlags="32" AggregationType="3" AggregationFlag="0" Inverse="RelatingDocument">
 			<Documentation>The document reference with which objects are associated.
@@ -39,9 +33,7 @@
 				<DocPoint X="3465.4784" Y="407.00666" />
 				<DocPoint X="3465.4784" Y="548.34" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3716.14507" Y="381.673327" Width="422" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3716.14507" Y="381.673327" Width="422" Height="70" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Object Connectivity_0bAb_cp5jDCBqCDU8kCsIP" Name="Object Connectivity" UniqueId="0bAb_cp5jDCBqCDU8kCsIP" Type="IfcObject">
+<DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Object_Connectivity_0bAb_cp5jDCBqCDU8kCsIP" Name="Object Connectivity" UniqueId="0bAb_cp5jDCBqCDU8kCsIP" Type="IfcObject">
 	<Templates>
 		<DocTemplateDefinition Name="Spatial Structure" UniqueId="21l4Xi6NPE4QHfp$Bt3n8_" Type="IfcObject">
 			<Documentation>&lt;p&gt;Spatial structures, such as site, building, storey, or spaces, may contain physical elements, including building elements, distribution elements, and furnishing elements. The containment relationship between the physical elements and the spatial structures is hierarchical, i.e. a physical element shall only be contained within a single spatial structure.&lt;/p&gt;
@@ -10,7 +10,7 @@
 
 &lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; The &lt;em&gt;IfcBuildingStorey&lt;/em&gt; that logically contains the &lt;em&gt;IfcBeam&lt;/em&gt; decomposes the &lt;em&gt;IfcBuilding&lt;/em&gt; using the &lt;em&gt;IfcRelAggregates&lt;/em&gt; relationship. Therefore the &lt;em&gt;IfcBeam&lt;/em&gt; is also indirectly contained in the building. &lt;/blockquote&gt;</Documentation>
 			<Templates>
-				<DocTemplateDefinition id="Spatial Container_1XtGZj$G59LPCtYlqeIWvl" Name="Spatial Container" UniqueId="1XtGZj$G59LPCtYlqeIWvl" Type="IfcSpatialElement">
+				<DocTemplateDefinition id="Spatial_Container_1XtGZjG59LPCtYlqeIWvl" Name="Spatial Container" UniqueId="1XtGZj$G59LPCtYlqeIWvl" Type="IfcSpatialElement">
 					<Documentation>&lt;p&gt;The &lt;em&gt;Spatial Container&lt;/em&gt; concept defines a spatial element as being the spatial container for physical elements, or other elements being directly related to the spatial container, such as annotations or grids. &lt;/p&gt;
 &lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; A building story is a logical spatial container of building elements, distribution elements, or furnishing elements.&lt;/blockquote&gt;
 &lt;p&gt;The &lt;em&gt;Spatial Container&lt;/em&gt; concept is realized by using the &lt;em&gt;IfcRelContainedInSpatialStructure&lt;/em&gt; objectified relationship between subtypes of &lt;em&gt;IfcSpatialElement&lt;/em&gt; and the elements contained. The inverse relationship &lt;em&gt;ContainsElements&lt;/em&gt; at the subtypes of &lt;em&gt;IfcSpatialElement&lt;/em&gt; refers to the contained physical elements.&lt;/p&gt;</Documentation>
@@ -30,7 +30,7 @@
 						</DocModelRuleAttribute>
 					</Rules>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Spatial Containment_3Pe$WY01HBmesKdP1dTP15" Name="Spatial Containment" UniqueId="3Pe$WY01HBmesKdP1dTP15" Type="IfcElement">
+				<DocTemplateDefinition id="Spatial_Containment_3PeWY01HBmesKdP1dTP15" Name="Spatial Containment" UniqueId="3Pe$WY01HBmesKdP1dTP15" Type="IfcElement">
 					<Documentation>&lt;p&gt;The &lt;em&gt;Spatial Containment&lt;/em&gt; concept defines the relationship of physical elements, such as building elements, distribution elements, or furnishing elements as being contained within a spatial structure element.&lt;/em&gt;
 &lt;p&gt;
 Any subtype of
@@ -83,7 +83,7 @@ should be &lt;em&gt;NIL&lt;/em&gt;.
 		</DocTemplateDefinition>
 		<DocTemplateDefinition Name="Space Boundaries" UniqueId="d8287292-ed5d-4b81-803e-a444685e91dd" Type="IfcObject">
 			<Templates>
-				<DocTemplateDefinition id="Space Boundaries 1st Level_1gujKKuhrA9Bc4cn5oNyVR" Name="Space Boundaries 1st Level" UniqueId="1gujKKuhrA9Bc4cn5oNyVR" Type="IfcSpace">
+				<DocTemplateDefinition id="Space_Boundaries_1st_Level_1gujKKuhrA9Bc4cn5oNyVR" Name="Space Boundaries 1st Level" UniqueId="1gujKKuhrA9Bc4cn5oNyVR" Type="IfcSpace">
 					<Documentation>&lt;p&gt;Spaces may have boundaries defined by building elements such as walls, slabs, doors, and windows.  Such information may be used to determine heat transmission through surrounding materials.&lt;/p&gt;</Documentation>
 					<Rules>
 						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="BoundedBy">
@@ -356,14 +356,14 @@ should be &lt;em&gt;NIL&lt;/em&gt;.
 				</DocTemplateDefinition>
 			</Templates>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Element Connectivity_0Nv2C1Ibb9HROhB6JsocmI" Name="Element Connectivity" UniqueId="0Nv2C1Ibb9HROhB6JsocmI" Type="IfcElement">
+		<DocTemplateDefinition id="Element_Connectivity_0Nv2C1Ibb9HROhB6JsocmI" Name="Element Connectivity" UniqueId="0Nv2C1Ibb9HROhB6JsocmI" Type="IfcElement">
 			<Documentation>&lt;p&gt;Elements may be connected to other elements, where the &lt;i&gt;RelatingElement&lt;/i&gt; is of equal or higher priority, is generally constructed first, and/or anchors the &lt;i&gt;RelatedElement&lt;/i&gt;.&lt;/p&gt;</Documentation>
 			<Rules>
 				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ConnectedFrom" />
 				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ConnectedTo" />
 			</Rules>
 			<Templates>
-				<DocTemplateDefinition id="Path Connectivity_1G5mELXyP9BgRydr_42n5F" Name="Path Connectivity" UniqueId="1G5mELXyP9BgRydr_42n5F" Type="IfcElement">
+				<DocTemplateDefinition id="Path_Connectivity_1G5mELXyP9BgRydr_42n5F" Name="Path Connectivity" UniqueId="1G5mELXyP9BgRydr_42n5F" Type="IfcElement">
 					<Documentation>&lt;p&gt;Elements based on an &apos;Axis&apos; representation such as walls, beams, and columns use a path connectivity relationship to indicate parameters for the connection, indicating which side takes precedence for material layers or profiles.&lt;/p&gt;</Documentation>
 					<Rules>
 						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ConnectedFrom">
@@ -436,7 +436,7 @@ should be &lt;em&gt;NIL&lt;/em&gt;.
 						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ConnectedTo" />
 					</Rules>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Port Connectivity_0M$eHlCh55bRkmnAq5FQia" Name="Port Connectivity" UniqueId="0M$eHlCh55bRkmnAq5FQia" Type="IfcDistributionPort">
+				<DocTemplateDefinition id="Port_Connectivity_0MeHlCh55bRkmnAq5FQia" Name="Port Connectivity" UniqueId="0M$eHlCh55bRkmnAq5FQia" Type="IfcDistributionPort">
 					<Documentation>&lt;p&gt;Ports on distribution elements, such as ducts and airoutlets, or pipes and sanitary elements are connected with each other using the &lt;em&gt;Port Connectivity&lt;/em&gt;. The port connection determines the direction of flow between the connected ports belonging to the distribution elements. &lt;/p&gt;</Documentation>
 					<Rules>
 						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ConnectedTo" Identification="ConnectedToPort">
@@ -474,7 +474,7 @@ should be &lt;em&gt;NIL&lt;/em&gt;.
 				</DocTemplateDefinition>
 			</Templates>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Element Filling_06PqYJUYn9Euwrw5e5XmUp" Name="Element Filling" UniqueId="06PqYJUYn9Euwrw5e5XmUp" Type="IfcElement">
+		<DocTemplateDefinition id="Element_Filling_06PqYJUYn9Euwrw5e5XmUp" Name="Element Filling" UniqueId="06PqYJUYn9Euwrw5e5XmUp" Type="IfcElement">
 			<Documentation>&lt;p&gt;Elements such as doors and windows may be placed inside openings of walls, slabs, or other elements.&lt;/p&gt;</Documentation>
 			<Rules>
 				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="FillsVoids">
@@ -528,7 +528,7 @@ should be &lt;em&gt;NIL&lt;/em&gt;.
 				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Element Interference_0UOOBy7qT4qvju5rLb0FE6" Name="Element Interference" UniqueId="1e6182fc-1f47-44d3-9b78-17556500f386" Type="IfcElement">
+		<DocTemplateDefinition id="Element_Interference_0UOOBy7qT4qvju5rLb0FE6" Name="Element Interference" UniqueId="1e6182fc-1f47-44d3-9b78-17556500f386" Type="IfcElement">
 			<Rules>
 				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="IsInterferedByElements">
 					<Rules>
@@ -563,7 +563,7 @@ should be &lt;em&gt;NIL&lt;/em&gt;.
 				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Control Flow_3Hs22BKULAZvAwuwBgAykS" Name="Control Flow" UniqueId="3Hs22BKULAZvAwuwBgAykS" Type="IfcDistributionControlElement">
+		<DocTemplateDefinition id="Control_Flow_3Hs22BKULAZvAwuwBgAykS" Name="Control Flow" UniqueId="3Hs22BKULAZvAwuwBgAykS" Type="IfcDistributionControlElement">
 			<Documentation>&lt;p&gt;Control elements (such as sensors) that monitor or control behavior of flow elements (such as valves) use this relationship to indicate control flow logical behavior.&lt;/p&gt;</Documentation>
 			<Rules>
 				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="AssignedToFlowElement">
@@ -581,7 +581,7 @@ should be &lt;em&gt;NIL&lt;/em&gt;.
 				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Structural Activity_2JaCfosE98Avc6uE7HNd6K" Name="Structural Activity" UniqueId="9390ca72-d8e2-482b-9986-e0e1d15e7194" Type="IfcStructuralActivity">
+		<DocTemplateDefinition id="Structural_Activity_2JaCfosE98Avc6uE7HNd6K" Name="Structural Activity" UniqueId="9390ca72-d8e2-482b-9986-e0e1d15e7194" Type="IfcStructuralActivity">
 			<Documentation>&lt;p&gt;Structural activities may be linked to structural items.&lt;/p&gt;</Documentation>
 			<Rules>
 				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="AppliedLoad" Identification="AppliedLoad">
@@ -604,7 +604,7 @@ should be &lt;em&gt;NIL&lt;/em&gt;.
 				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Structural Connectivity_3qzrrFRJXClfxxtxM4GD$B" Name="Structural Connectivity" UniqueId="f4f75d4f-6d38-4cbe-9efb-dfb58440dfcb" Type="IfcStructuralMember">
+		<DocTemplateDefinition id="Structural_Connectivity_3qzrrFRJXClfxxtxM4GDB" Name="Structural Connectivity" UniqueId="f4f75d4f-6d38-4cbe-9efb-dfb58440dfcb" Type="IfcStructuralMember">
 			<Documentation>&lt;p&gt;Structural items may be connected within an analysis model.&lt;/p&gt;</Documentation>
 			<Rules>
 				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ConnectedBy">
@@ -622,7 +622,7 @@ should be &lt;em&gt;NIL&lt;/em&gt;.
 				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Sequential Connectivity_39yHY0ZFP7$gki1SSxG46n" Name="Sequential Connectivity" UniqueId="39yHY0ZFP7$gki1SSxG46n" Type="IfcProcess">
+		<DocTemplateDefinition id="Sequential_Connectivity_39yHY0ZFP7gki1SSxG46n" Name="Sequential Connectivity" UniqueId="39yHY0ZFP7$gki1SSxG46n" Type="IfcProcess">
 			<Documentation>&lt;p&gt;Processes that occur in time use this relationship to indicate the order of occurrence, such as for tasks, procedures, and events.&lt;/p&gt;</Documentation>
 			<Rules>
 				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="IsPredecessorTo">
@@ -653,7 +653,7 @@ should be &lt;em&gt;NIL&lt;/em&gt;.
 				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Spatial Service Connectivity_3ZHXQIzCLD_gZr1pIWQOzh" Name="Spatial Service Connectivity" UniqueId="e3461692-f4c5-4dfa-a8f5-0734a0698f6b" Type="IfcSpatialElement">
+		<DocTemplateDefinition id="Spatial_Service_Connectivity_3ZHXQIzCLD_gZr1pIWQOzh" Name="Spatial Service Connectivity" UniqueId="e3461692-f4c5-4dfa-a8f5-0734a0698f6b" Type="IfcSpatialElement">
 			<Documentation>&lt;p&gt;A system, such as a distribution system, services a particular spatial structure, either a total building, a building section, or a storey, or any part of these structures.&lt;/p&gt;</Documentation>
 			<Rules>
 				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ServicedBySystems" Identification="ServicedBySystems">

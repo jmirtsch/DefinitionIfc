@@ -5,9 +5,7 @@
 		<DocLocalization Name="Property Single Value" Locale="en" />
 		<DocLocalization Name="Propriété à valeur simple" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1900.1999" Y="134.43333" Width="388.9" Height="176.66667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1900.1999" Y="134.43333" Width="388.9" Height="176.66667" />
 	<Attributes>
 		<DocAttribute Name="NominalValue" UniqueId="17155b9a-60a6-4a80-afd5-b35efea8f4ab" DefinedType="IfcValue" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Value and measure type of this property. 
@@ -17,9 +15,7 @@
 				<DocPoint X="2289.1" Y="169.43334" />
 				<DocPoint X="2603.1666" Y="169.43334" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2289.1" Y="162.7666733" Width="160" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2289.1" Y="162.7666733" Width="160" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Unit" UniqueId="bc0834af-0f38-4cb7-b5b2-e586cecb1355" DefinedType="IfcUnit" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Unit for the nominal value, if not given, the default value for the measure type (given by the TYPE of nominal value) is used as defined by the global unit assignment at IfcProject.</Documentation>
@@ -27,9 +23,7 @@
 				<DocPoint X="2289.1" Y="269.43334" />
 				<DocPoint X="2603.1166" Y="269.43334" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2282.4333333" Y="259.43334" Width="51" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2282.4333333" Y="259.43334" Width="51" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

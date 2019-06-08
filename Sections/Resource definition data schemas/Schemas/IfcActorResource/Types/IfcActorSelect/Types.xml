@@ -4,9 +4,7 @@
 		<DocLocalization Name="Actor Select" Locale="en" />
 		<DocLocalization Name="Sélection d&apos;acteur" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="333.13863" Y="108.82887" Width="264.66667" Height="160.80073" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="333.13863" Y="108.82887" Width="264.66667" Height="160.80073" />
 	<Selects>
 		<DocSelectItem Name="IfcOrganization" UniqueId="483404ae-33a7-43c3-9fed-2304d05dfe62" />
 		<DocSelectItem Name="IfcPerson" UniqueId="ebbbba66-4b80-4c43-b569-5622636e8b2f" />

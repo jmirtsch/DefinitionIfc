@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3a738205-9887-4e36-9386-70e971563dfc">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcCableSegment" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcCableSegment" />
 	<Concepts>
 		<DocTemplateUsage Name="Port" UniqueId="697110d7-7979-4123-8d10-648bfbdcff67">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Port_Nesting_2w9EtqE92s8JFNQ8EuKWA" />
 			<Items>
 				<DocTemplateItem UniqueId="609a5b8f-8824-42ec-923c-7cc09c701162" RuleParameters="PortName=Input;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
 					<Documentation>The input end of the cable. While many cables may be bidirectional, port direction is indicated for connectivity purposes.</Documentation>
@@ -18,8 +14,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="b0660783-b1fb-4fe6-a41a-00ca191ba32e" Type="IfcCableSegment" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="62d09d00-d756-4f2b-aa84-5d3a6b2784f6" Type="IfcCableSegment" />
 </DocConceptRoot>
 

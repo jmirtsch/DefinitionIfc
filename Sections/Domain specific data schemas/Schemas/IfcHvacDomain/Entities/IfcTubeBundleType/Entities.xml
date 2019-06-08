@@ -5,9 +5,7 @@
 		<DocLocalization Name="Tube Bundle Type" Locale="en" />
 		<DocLocalization Name="Type de faisceau tubulaire" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="69.753635" Y="1873.6481" Width="401.58096" Height="102.64694" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="69.753635" Y="1873.6481" Width="401.58096" Height="102.64694" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="b68c7534-05cc-4f1a-8a8d-a1551285c2ee" DefinedType="IfcTubeBundleTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines the type of tube bundle.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="471.3346" Y="1927.4229" />
 				<DocPoint X="681.57953" Y="1927.4229" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="471.3346" Y="1927.4229" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="471.3346" Y="1927.4229" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Duct Silencer Type" Locale="en" />
 		<DocLocalization Name="Type de silencieux circulaire" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1672.4431" Y="2097.501" Width="343.89322" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1672.4431" Y="2097.501" Width="343.89322" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="14607837-c791-4913-a67c-4c23862018c8" DefinedType="IfcDuctSilencerTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The type of duct silencer.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="2016.3363" Y="2147.501" />
 				<DocPoint X="2250.79959" Y="2147.501" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2002.914527" Y="2142.1322907" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2002.914527" Y="2142.1322907" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocExample xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Mapped geometric shape" UniqueId="3309cbb0-ef76-4488-8245-563312d87423">
 	<Views>
-		<DocModelView xsi:nil="true" href="Design Transfer View" />
-		<DocModelView xsi:nil="true" href="General Usage" />
+		<DocModelView xsi:nil="true" href="Design_Transfer_View" />
+		<DocModelView xsi:nil="true" href="General_Usage" />
 	</Views>
 </DocExample>
 

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0rtcygbNfA0g1T7S2bWmzG">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcColumnStandardCase" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcColumnStandardCase" />
 	<Concepts>
 		<DocTemplateUsage Name="Material Profile Set Usage" UniqueId="0VFQdrrgL4ox8fqdrRqA$b">
 			<Documentation>&lt;p&gt;The &lt;em&gt;IfcColumnStandardCase&lt;/em&gt; defines in addition that the
@@ -53,9 +51,7 @@ definition at &lt;em&gt;IfcCardinalPointReference&lt;/em&gt;&lt;/blockquote&gt;
 &lt;tr&gt;&lt;td&gt;&lt;img src=&quot;../../../figures/ifccolumnstandardcase-02.png&quot; alt=&quot;Material profile set and usage&quot; height=&quot;550&quot; width=&quot;500&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 208 &amp;mdash; Column composite profiles&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set Usage_1ge1GfjMPBDeTQCM88YfWn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Profile_Set_Usage_1ge1GfjMPBDeTQCM88YfWn" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Product Placement" UniqueId="faee9ed5-99e8-46a8-8200-6cffff73e6f8">
 			<Documentation>&lt;p&gt;The following restriction is imposed:&lt;/p&gt;
@@ -66,9 +62,7 @@ for the standard column, the x/y plane is the plane for the start
 profile, and the z-axis is the extrusion axis for the column body (in
 case of rotation, the tangent direction).&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Axis 3D Geometry" UniqueId="92140617-d5b1-4aef-96e8-5c0eab296a14">
 			<Documentation>&lt;p&gt;The following additional constraints apply to the &apos;Axis&apos;
@@ -132,9 +126,7 @@ length of the column.&lt;/blockquote&gt;
  &lt;/tr&gt;
 
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Axis 3D Geometry_2ubDZB_q55xBeOSih6klyq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Axis_3D_Geometry_2ubDZB_q55xBeOSih6klyq" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body SweptSolid Geometry" UniqueId="1a39bb06-a204-46d0-a7b5-49a58973aa4f">
 			<Documentation>&lt;p&gt;The following additional constraints apply to the &apos;SweptSolid&apos;
@@ -188,9 +180,7 @@ system.&lt;/li&gt;
 &lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../../figures/ifccolumnstandardcase_sweptsolid-01.png&quot; alt=&quot;standard column&quot; border=&quot;1&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 209 &amp;mdash; Column body extrusion&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body AdvancedSweptSolid Geometry" UniqueId="8b261a0a-3d31-49d4-a214-8e672ec7d965">
 			<Documentation>&lt;p&gt;The following additional constraints apply to the
@@ -210,9 +200,7 @@ representation&lt;/li&gt;
 representation&lt;/li&gt;
 &lt;li&gt;&lt;u&gt;Extrusion&lt;/u&gt;: not applicable&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body AdvancedSweptSolid Geometry_1KP7XTvT5FTPxCRBEI571U" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_AdvancedSweptSolid_Geometry_1KP7XTvT5FTPxCRBEI571U" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Clipping Geometry" UniqueId="d3f57034-f244-446f-ab05-cb94c52faea1">
 			<Documentation>&lt;p&gt;The following constraints apply to the &apos;Clipping&apos; 
@@ -240,13 +228,9 @@ an &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt; and an &lt;em&gt;IfcHalfSpaceSolid&
 &lt;tr valign=&quot;top&quot;&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../../figures/ifccolumnstandardcase_clipping-01.png&quot; alt=&quot;clipped column&quot; border=&quot;1&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 210 &amp;mdash; Column body clipping&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Clipping Geometry_0isyBrcmn3wfqgdNBG57u0" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Clipping_Geometry_0isyBrcmn3wfqgdNBG57u0" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="9fd29707-5879-4668-9d2d-12c6f1457998" Type="IfcColumnStandardCase" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="77ed694b-ca2f-41d1-885e-5f82a20e1e8b" Type="IfcColumnStandardCase" />
 </DocConceptRoot>
 

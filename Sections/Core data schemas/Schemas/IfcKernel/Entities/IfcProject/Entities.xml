@@ -5,9 +5,7 @@
 		<DocLocalization Name="Project" Locale="en" />
 		<DocLocalization Name="Projet" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="17751.937" Y="1673.3112" Width="200" Height="172.66667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="17751.937" Y="1673.3112" Width="200" Height="172.66667" />
 	<WhereRules>
 		<DocWhereRule Name="HasName" UniqueId="cf80b3ff-dd52-438a-bcde-95318cf1df7b">
 			<Documentation>The &lt;em&gt;Name&lt;/em&gt; attribute has to be provided for &lt;em&gt;IfcProject&lt;/em&gt;. It is the short name for the project.</Documentation>

@@ -5,8 +5,6 @@
 		<DocLocalization Name="Opening Standard Case" Locale="en" />
 		<DocLocalization Name="Ouverture standard" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2457.8158" Y="3712.9526" Width="387.6" Height="115.8" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2457.8158" Y="3712.9526" Width="387.6" Height="115.8" />
 </DocEntity>
 

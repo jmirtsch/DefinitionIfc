@@ -1,36 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2d3Sz4UhD1U8tsJv5MdfiE">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcController" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcController" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="3J5hdT43DFlRlIq3x9mSEv">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="6519ec3f-e4cf-4b9a-8692-fa21e983704e" RuleParameters="RelatingType=IfcControllerType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="3$nc0mIhf5Zvc3oCDKlVe6">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="03f66265-724c-451e-ba25-44c271fd84f4" RuleParameters="PsetName=Pset_ControllerTypeCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="02392679-5029-4446-92f9-4b68e84f8717">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="6b93535a-ff47-4799-810e-80acc7d7b118" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="132bf97c-4e2f-43a0-aaba-1b7bbfc0a8fc">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="207dc684-428f-4156-8b54-2623c4e7c6ec" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
 							</Items>
@@ -40,9 +30,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="0eHgjDVt16I9ECROKUvSno">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="47350399-be68-45bd-9617-fa0997fb3f83" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_ControllerBaseQuantities;" Order="0" />
 			</Items>
@@ -50,9 +38,7 @@
 		<DocTemplateUsage Name="Composition" UniqueId="2ciF6122TByOn4sN6nBtu7">
 			<Documentation>&lt;p&gt;Figure 292 illustrates controller composition use.&lt;/p&gt;
 &lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;img alt=&quot;Composition Use Definition&quot; src=&quot;../../../figures/ifccontroller-composition.png&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 292 &amp;mdash; Controller composition use&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
 			<Items>
 				<DocTemplateItem UniqueId="101da249-a270-479f-bd78-556f98916ef8" RuleParameters="PredefinedType=PROGRAMMABLE;RelatedObjects=IfcController" Order="0">
 					<Documentation>May contain IfcController components. Programmable Logic Controllers may be decomposed into logical elements for values and operations.</Documentation>
@@ -60,9 +46,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Material" UniqueId="1sdWDP0yP5iv78L6V123xJ">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Constituent_Set_3PRtzzvq9Dk9jT6ADgRVY4" />
 			<Items>
 				<DocTemplateItem UniqueId="4fb5ca97-7a84-4b24-bd4a-cb06a775a45b" RuleParameters="Name=Casing;" Order="0">
 					<Documentation>Material from which the casing is constructed.</Documentation>
@@ -70,9 +54,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Port" UniqueId="3j7kFxMZr8agv5OLdXw8jI">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Port_Nesting_2w9EtqE92s8JFNQ8EuKWA" />
 			<Items>
 				<DocTemplateItem UniqueId="094ef4a4-4774-4604-9ac8-7cb9e17b98d1" RuleParameters="PredefinedType=FLOATING;PortName=Input;SystemType=SIGNAL;Flow=SINK;" Order="0">
 					<Documentation>Receives the first parameter.</Documentation>
@@ -128,8 +110,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="98d79063-93cf-4ef3-90e2-2874fecae754" Type="IfcController" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="462f9f2f-dacd-4ace-b814-aa8df182bb36" Type="IfcController" />
 </DocConceptRoot>
 

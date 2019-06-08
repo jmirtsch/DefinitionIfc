@@ -5,9 +5,7 @@
 		<DocLocalization Name="Column Standard Case" Locale="en" />
 		<DocLocalization Name="Poteau standard" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1114.0866" Y="697.72667" Width="438.66667" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1114.0866" Y="697.72667" Width="438.66667" Height="100" />
 	<WhereRules>
 		<DocWhereRule Name="HasMaterialProfileSetUsage" UniqueId="9ddf6137-372a-4510-a319-d55e09e0a180">
 			<Documentation>A valid instance of &lt;em&gt;IfcColumnStandardCase&lt;/em&gt; relies on the provision of an &lt;em&gt;IfcMaterialProfileSetUsage&lt;/em&gt;.</Documentation>

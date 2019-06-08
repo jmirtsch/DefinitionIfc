@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2c1cca81-8b4b-4e81-a16d-ed462ad60511">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcExtrudedAreaSolid" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="50af1c05-123e-4bdd-9e62-d4a36db30be0" Type="IfcExtrudedAreaSolid" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcExtrudedAreaSolid" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="90b0d256-0563-41bd-8d5c-14af802cef3e" Type="IfcExtrudedAreaSolid" />
 </DocConceptRoot>
 

@@ -4,12 +4,8 @@
 		<DocLocalization Name="Logical" Locale="en" />
 		<DocLocalization Name="Logique" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2147.7691" Y="1117.3749" Width="171.58753" Height="53.752326" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="LOGICAL_07nLmVzOzCu9cwqOpH0H5s" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="2147.7691" Y="1117.3749" Width="171.58753" Height="53.752326" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="LOGICAL_07nLmVzOzCu9cwqOpH0H5s" />
 	<DiagramLine>
 		<DocPoint X="2147.7691" Y="1144.2511" />
 		<DocPoint X="2007.81392" Y="1144.2511" />

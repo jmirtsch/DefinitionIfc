@@ -4,9 +4,7 @@
 		<DocLocalization Name="Rechteckige Pyramide" Locale="de" />
 		<DocLocalization Name="Rectangular Pyramid" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2067.6" Y="860.63333" Width="236.66667" Height="216.66667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2067.6" Y="860.63333" Width="236.66667" Height="216.66667" />
 	<Attributes>
 		<DocAttribute Name="XLength" UniqueId="6ee25ec0-9aa1-4206-8c9c-e0d5e6634d02" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The length of the base measured along the placement X axis. It is provided by the inherited axis placement through &lt;em&gt;SELF\IfcCsgPrimitive3D.Position.P[1]&lt;/em&gt;.</Documentation>
@@ -14,9 +12,7 @@
 				<DocPoint X="2304.2667" Y="895.63333" />
 				<DocPoint X="2681" Y="895.63333" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2304.2667" Y="888.9666633" Width="100" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2304.2667" Y="888.9666633" Width="100" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="YLength" UniqueId="89841464-6302-4f14-9183-315dcb0d7dc4" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The length of the base measured along the placement Y axis. It is provided by the inherited axis placement through &lt;em&gt;SELF\IfcCsgPrimitive3D.Position.P[2]&lt;/em&gt;.</Documentation>
@@ -24,9 +20,7 @@
 				<DocPoint X="2304.2667" Y="978.96667" />
 				<DocPoint X="2681" Y="978.96667" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2300.9333667" Y="972.3000033" Width="100" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2300.9333667" Y="972.3000033" Width="100" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Height" UniqueId="8a3db941-ccad-4bec-86c4-b5a54eeda96f" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The height of the apex above the plane of the base, measured in the direction of the placement Z axis, the &lt;em&gt;SELF\IfcCsgPrimitive3D.Position.P[2]&lt;/em&gt;.</Documentation>
@@ -34,9 +28,7 @@
 				<DocPoint X="2304.2667" Y="1058.9667" />
 				<DocPoint X="2680.9667" Y="1058.9667" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2304.2667" Y="1052.3000333" Width="79" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2304.2667" Y="1052.3000333" Width="79" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

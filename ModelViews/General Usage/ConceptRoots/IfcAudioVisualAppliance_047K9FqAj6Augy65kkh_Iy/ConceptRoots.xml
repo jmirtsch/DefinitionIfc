@@ -1,61 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="047K9FqAj6Augy65kkh_Iy">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcAudioVisualAppliance" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcAudioVisualAppliance" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="22qmquwW96RxiUsTSeBXx0">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="194abb50-1f96-4dfe-bf34-044e0e47370a" RuleParameters="RelatingType=IfcAudioVisualApplianceType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="3hNsobaAX6SvlRxwlPMkX7">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="da0983cf-acd1-4468-9e29-a1a9a0b4a43d" RuleParameters="PsetName=Pset_AudioVisualApplianceTypeCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="334b0193-660c-4ee6-8676-8cae69a7401f">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="c9b3dc5b-d58a-462c-8489-f27ad9f707d4" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="ed910dab-7338-4f51-b39e-024d8a6d325e">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="f6582012-bc73-4dcd-949c-58ce01eb40bc" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="TypeProperties" UniqueId="ac0add92-afc2-4e5f-b2c8-d3020f6a5b66">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 						</DocTemplateUsage>
 					</Concepts>
 				</DocTemplateItem>
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="0Fmggv1QT8PB7SlS5a9v5Y">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="71de5c02-82b9-48fc-9fd9-b12a3dcfe08b" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_AudioVisualApplianceBaseQuantities;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Material" UniqueId="398IaIUX15w9Vqa9XOQ4Sp">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Constituent_Set_3PRtzzvq9Dk9jT6ADgRVY4" />
 			<Items>
 				<DocTemplateItem UniqueId="d72af070-eea5-4635-b48f-0649776da6dc" RuleParameters="Name=Casing;" Order="0">
 					<Documentation>Material from which the casing is constructed.</Documentation>
@@ -63,9 +47,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Composition" UniqueId="1MMcLXFZb2tQBGhawrAt_M">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
 			<Items>
 				<DocTemplateItem UniqueId="abbbb67c-9074-4ae2-b47d-34d97d44c297" RuleParameters="PredefinedType=;RelatedObjects=IfcAudioVisualAppliance;Description=May contain IfcAudioVisualAppliance components.;" Order="0">
 					<Documentation>May contain IfcAudioVisualAppliance components.</Documentation>
@@ -73,9 +55,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Port" UniqueId="0yxIo8oJ9Bx8M2hYwpa4Q2">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Port_Nesting_2w9EtqE92s8JFNQ8EuKWA" />
 			<Items>
 				<DocTemplateItem UniqueId="8da21ecb-a982-4581-933d-8b6c88703a19" RuleParameters="PredefinedType=AMPLIFIER;PortName=Power;Flow=SINK;SystemType=ELECTRICAL;" Order="0">
 					<Documentation>Receives electrical power.</Documentation>
@@ -278,8 +258,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="cced1d6e-989e-4331-984a-acc06a583470" Type="IfcAudioVisualAppliance" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="93e1bf8e-f561-48d5-87db-235473b425a3" Type="IfcAudioVisualAppliance" />
 </DocConceptRoot>
 

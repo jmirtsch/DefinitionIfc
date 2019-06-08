@@ -4,12 +4,8 @@
 		<DocLocalization Name="Text Decoration" Locale="en" />
 		<DocLocalization Name="Ornement de texte" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5693.8043" Y="1197.14915201563" Width="304.9" Height="63" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="STRING_2oswRuOnHDBAJ$GVFvT3H5" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5693.8043" Y="1197.14915201563" Width="304.9" Height="63" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="STRING_2oswRuOnHDBAJGVFvT3H5" />
 	<WhereRules>
 		<DocWhereRule Name="WR1" UniqueId="80004817-bb1a-4856-9677-d5b6199644ed">
 			<Documentation>Allowable values for text decoration.</Documentation>

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Csg Solid" Locale="en" />
 		<DocLocalization Name="Solid Csg" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2682.536" Y="81.1334" Width="200" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2682.536" Y="81.1334" Width="200" Height="100" />
 	<Attributes>
 		<DocAttribute Name="TreeRootExpression" UniqueId="ab20cd30-ed6a-408f-9814-3196ef85c1be" DefinedType="IfcCsgSelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Boolean expression of primitives and regularized operators describing the solid. The root of the tree of Boolean expressions is given explicitly as an &lt;em&gt;IfcBooleanResult&lt;/em&gt; entitiy or as a primitive (subtypes of &lt;em&gt;IfcCsgPrimitive3D&lt;/em&gt;).
@@ -16,9 +14,7 @@
 				<DocPoint X="2682.536" Y="131.1334" />
 				<DocPoint X="2362.8027" Y="131.1334" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2672.7054227" Y="115.633397" Width="232" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2672.7054227" Y="115.633397" Width="232" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

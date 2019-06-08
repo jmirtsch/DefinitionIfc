@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcGlobalOrLocalEnum" UniqueId="23a55240-33a4-4c58-a0c2-c1eb60da3c94" DiagramNumber="5">
 	<Localization>
-		<DocLocalization Name="Global Or Local Enum" Locale="en" />
+		<DocLocalization xsi:nil="true" href="i44030" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6671.51" Y="1787.8328" Width="337.66667" Height="89.666667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" xsi:nil="true" href="i44031" />
 	<Constants>
-		<DocConstant xsi:nil="true" href="GLOBAL_COORDS_26bVDT$PDDXxbaDwKjNnbX" />
+		<DocConstant xsi:nil="true" href="GLOBAL_COORDS_26bVDTPDDXxbaDwKjNnbX" />
 		<DocConstant xsi:nil="true" href="LOCAL_COORDS_170WjH9f1AveGLwRAHSlXJ" />
 	</Constants>
 </DocEnumeration>

@@ -4,9 +4,7 @@
 		<DocLocalization Name="veränderliche Linienlast" Locale="de" />
 		<DocLocalization Name="Structural Curve Action" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4852.57259114583" Y="1350.19584147135" Width="377.875274658203" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4852.57259114583" Y="1350.19584147135" Width="377.875274658203" Height="100" />
 	<Subtypes>
 		<DocSubtype UniqueId="f8230c76-1527-4d80-9d37-835fe4140454" DefinedType="IfcStructuralLinearAction" />
 		<DocSubtype UniqueId="e7e31947-3b3d-4b19-84c8-48a26213f8d7" DefinedType="IfcStructuralLinearAction" />
@@ -19,9 +17,7 @@
 				<DocPoint X="5041.85596720378" Y="1450.19584147135" />
 				<DocPoint X="5041.85596720378" Y="1606.56461588542" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5041.85596720378" Y="1586.56461588542" Width="189" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5041.85596720378" Y="1586.56461588542" Width="189" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="PredefinedType" UniqueId="a0301c23-b88b-4a3c-bb49-e303eb4a0b69" DefinedType="IfcStructuralCurveActivityTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Type of action according to its distribution of load values.</Documentation>
@@ -30,9 +26,7 @@
 				<DocPoint X="5230.44786580404" Y="1524.60666621094" />
 				<DocPoint X="5739.0143737793" Y="1524.60666621094" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5230.44786580404" Y="1504.60666621094" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5230.44786580404" Y="1504.60666621094" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

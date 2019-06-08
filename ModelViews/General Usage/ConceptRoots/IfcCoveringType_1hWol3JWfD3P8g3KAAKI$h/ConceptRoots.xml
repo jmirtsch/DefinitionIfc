@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1hWol3JWfD3P8g3KAAKI$h">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcCoveringType" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcCoveringType" />
 	<Concepts>
 		<DocTemplateUsage Name="Material Layer Set" UniqueId="38pihTXJv4sOF6L7sbQqxf">
 			<Documentation>&lt;p&gt;The material of the &lt;em&gt;IfcCoveringType&lt;/em&gt; is defined by 
@@ -11,9 +9,7 @@ and attached by the
 &lt;em&gt;IfcRelAssociatesMaterial&lt;/em&gt;&lt;em&gt;.RelatingMaterial&lt;/em&gt;. It is
 accessible by the inverse &lt;em&gt;HasAssociations&lt;/em&gt;
 relationship.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Layer Set_3VjREfKED6ueKO7mFdpzY6" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Layer_Set_3VjREfKED6ueKO7mFdpzY6" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Material Profile Set" UniqueId="1IKAYRJVv5EPkC$TUZGsvC">
 			<Documentation>&lt;p&gt;The material of the &lt;em&gt;IfcCoveringType&lt;/em&gt; is defined by 
@@ -22,9 +18,7 @@ and attached by the
 &lt;em&gt;IfcRelAssociatesMaterial&lt;/em&gt;&lt;em&gt;.RelatingMaterial&lt;/em&gt;. It is
 accessible by the inverse &lt;em&gt;HasAssociations&lt;/em&gt;
 relationship.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set_12Ui1LAd52mgGZSMYVfrnP" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Profile_Set_12Ui1LAd52mgGZSMYVfrnP" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Geometry" UniqueId="2nLyfwxfX34hCHZjyWZf1W">
 			<Documentation>&lt;p&gt;The &lt;em&gt;IfcCoveringType&lt;/em&gt; may define the shared geometric
@@ -47,13 +41,9 @@ NOTE&amp;nbsp; The product shape representations are defined as &lt;em&gt;Repres
 &lt;blockquote class=&quot;note&quot;&gt;
 NOTE&amp;nbsp; The values of attributes &lt;em&gt;RepresentationIdentifier&lt;/em&gt; and &lt;em&gt;RepresentationType&lt;/em&gt; of &lt;em&gt;IfcShapeRepresentation&lt;/em&gt; are restricted in the same way as those for &lt;em&gt;IfcCoveringType&lt;/em&gt;.
 &lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Type Body Geometry_0wx2q0jBj7QgWX$2AubRKn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Type_Body_Geometry_0wx2q0jBj7QgWX2AubRKn" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="b4fcf0ab-ecbb-4b57-ab51-3a456d0b80dd" Type="IfcCoveringType" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="2deb7899-2d1c-42d2-89a0-53b2b82a7d7f" Type="IfcCoveringType" />
 </DocConceptRoot>
 

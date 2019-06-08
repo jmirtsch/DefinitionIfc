@@ -5,9 +5,7 @@
 		<DocLocalization Name="Surface Style" Locale="en" />
 		<DocLocalization Name="Style de surface" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="40.8832982381185" Y="2574.13338216146" Width="370.83333" Height="99.6000813802084" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="40.8832982381185" Y="2574.13338216146" Width="370.83333" Height="99.6000813802084" />
 	<Attributes>
 		<DocAttribute Name="Side" UniqueId="71fe440e-530e-4206-b288-06ae88a7976e" DefinedType="IfcSurfaceSide" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>An indication of which side of the surface to apply the style.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="411.716628238118" Y="2627.48673485937" />
 				<DocPoint X="708.346638997396" Y="2627.48673485937" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="411.716628238118" Y="2607.48673485937" Width="56" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="411.716628238118" Y="2607.48673485937" Width="56" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Styles" UniqueId="7501c93b-df89-434a-a8f8-9720a08bb372" DefinedType="IfcSurfaceStyleElementSelect" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="5">
 			<Documentation>A collection of different surface styles.</Documentation>
@@ -27,9 +23,7 @@
 				<DocPoint X="218.293347027181" Y="2673.73346354167" />
 				<DocPoint X="218.293347027181" Y="2778.87996419271" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="218.293347027181" Y="2758.87996419271" Width="152" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="218.293347027181" Y="2758.87996419271" Width="152" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

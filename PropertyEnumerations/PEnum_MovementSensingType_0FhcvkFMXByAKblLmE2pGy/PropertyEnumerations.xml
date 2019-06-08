@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_MovementSensingType_0FhcvkFMXByAKblLmE2pGy" Name="PEnum_MovementSensingType" UniqueId="0fae6e6e-3d68-4bf0-a525-bd5c0e0b343c">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="PHOTOELECTRICCELL_3Gl4DKrJT27ecsj_XnRjx" />
+		<DocPropertyConstant xsi:nil="true" href="PRESSUREPAD_0X6jOnjTn5e851SPYbWoKE" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_1bVTFILvbCvhJsSynQUn8k" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_3a1yi3vq1CWA5f5KNhGUqS" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_2Brkw8EGHAROxA1JYmhuaL" />
+	</Constants>
+</DocPropertyEnumeration>
+

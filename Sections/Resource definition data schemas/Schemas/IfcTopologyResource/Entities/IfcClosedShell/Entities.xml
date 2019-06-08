@@ -5,8 +5,6 @@
 		<DocLocalization Name="Closed Shell" Locale="en" />
 		<DocLocalization Name="Enveloppe fermée" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2753.7561" Y="301.45001" Width="291.66667" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2753.7561" Y="301.45001" Width="291.66667" Height="100" />
 </DocEntity>
 

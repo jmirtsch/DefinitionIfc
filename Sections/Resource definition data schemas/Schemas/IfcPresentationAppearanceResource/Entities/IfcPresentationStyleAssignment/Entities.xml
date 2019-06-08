@@ -5,9 +5,7 @@
 		<DocLocalization Name="Presentation Style Assignment" Locale="en" />
 		<DocLocalization Name="Assignation d&apos;un type de présentation" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="577.33334" Y="1152.4333" Width="540" Height="140" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="577.33334" Y="1152.4333" Width="540" Height="140" />
 	<Attributes>
 		<DocAttribute Name="Styles" UniqueId="a2fe78b6-621d-4fb6-9d05-6f1b465dc3c0" DefinedType="IfcPresentationStyleSelect" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
 			<Documentation>A set of presentation styles that are assigned to styled items.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="1063.3333" Y="1292.4333" />
 				<DocPoint X="1063.3333" Y="1417.48333" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1155.783301" Y="1303.308317" Width="152" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1155.783301" Y="1303.308317" Width="152" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

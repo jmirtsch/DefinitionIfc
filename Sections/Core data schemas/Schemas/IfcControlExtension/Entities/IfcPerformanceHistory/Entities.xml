@@ -5,9 +5,7 @@
 		<DocLocalization Name="Performance History" Locale="en" />
 		<DocLocalization Name="Historique de performance" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="114.63333" Y="397.46667" Width="410" Height="110.66667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="114.63333" Y="397.46667" Width="410" Height="110.66667" />
 	<Attributes>
 		<DocAttribute Name="LifeCyclePhase" UniqueId="36401673-0cb0-4b02-8a3e-b30192a03438" DefinedType="IfcLabel" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Describes the applicable building life-cycle phase. Typical values should be DESIGNDEVELOPMENT, SCHEMATICDEVELOPMENT, CONSTRUCTIONDOCUMENT, CONSTRUCTION, ASBUILT, COMMISSIONING, OPERATION, etc.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="210.3" Y="508.13334" />
 				<DocPoint X="210.3" Y="1336.09997" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="319.3" Y="570.766638" Width="178" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="319.3" Y="570.766638" Width="178" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="PredefinedType" UniqueId="a19e5d1f-1c30-4199-b7a2-958bf89b7871" DefinedType="IfcPerformanceHistoryTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined generic type for a performace history that is specified in an enumeration.
@@ -26,9 +22,7 @@
 				<DocPoint X="524.63333" Y="452.8" />
 				<DocPoint X="958.4" Y="452.8" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="527.2999967" Y="447.4666667" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="527.2999967" Y="447.4666667" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

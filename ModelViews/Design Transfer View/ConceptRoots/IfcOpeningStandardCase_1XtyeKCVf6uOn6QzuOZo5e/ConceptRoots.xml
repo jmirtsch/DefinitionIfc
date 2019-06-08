@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="61dfca14-31fa-46e1-8c46-6bde188f2168">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcOpeningStandardCase" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcOpeningStandardCase" />
 	<Concepts>
 		<DocTemplateUsage Name="Body SweptSolid Geometry" UniqueId="e18806d9-0ccf-457e-88b0-bdb4181b5112">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
 			<Items>
 				<DocTemplateItem UniqueId="eb532329-f30b-4f8d-948b-76485083b813" RuleParameters="Identifier=Body;Type=SweptSolid;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Geometry" UniqueId="00beb5d3-815b-4183-a1b1-dba7fb9f89d1">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Swept Solid Geometry_3Zj3s_m9z8Ngphyp0n7JNE" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Swept_Solid_Geometry_3Zj3s_m9z8Ngphyp0n7JNE" />
 							<Items>
 								<DocTemplateItem UniqueId="d05a4bbf-1f05-4dd5-8d9b-b8755e4701da" Order="0" />
 							</Items>
@@ -24,25 +18,17 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="e12da311-a4f5-467d-9e80-54237699aa3b">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Profile Geometry_3nRhE_$uXFCvVVrLhjEW_L" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Profile_Geometry_3nRhE_uXFCvVVrLhjEW_L" />
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="mandatory">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Design_Transfer_Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="mandatory">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Design_Transfer_Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="1c662f10-3da5-45e0-ba5a-7232d8eccf42" Type="IfcOpeningStandardCase" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="6caffe2f-485a-418c-9d89-1184b68b1003" Type="IfcOpeningStandardCase" />
 </DocConceptRoot>
 

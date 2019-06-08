@@ -18,7 +18,7 @@
 		</DocModelRuleAttribute>
 	</Rules>
 	<Templates>
-		<DocTemplateDefinition id="Project Declaration_2h7Ypzdo5FIhQlp2ROJaMi" Name="Project Declaration" UniqueId="2h7Ypzdo5FIhQlp2ROJaMi" Type="IfcContext">
+		<DocTemplateDefinition id="Project_Declaration_2h7Ypzdo5FIhQlp2ROJaMi" Name="Project Declaration" UniqueId="2h7Ypzdo5FIhQlp2ROJaMi" Type="IfcContext">
 			<Documentation>&lt;p&gt;The project provides a directory of object types and property templates contained within using declaration relationships.&lt;/p&gt;
 
 
@@ -52,7 +52,7 @@
 				</DocModelRuleAttribute>
 			</Rules>
 			<Templates>
-				<DocTemplateDefinition id="Project Type Definitions_1ZJYVtVjjE8hZC9V7DnsNE" Name="Project Type Definitions" UniqueId="634e27f7-7edb-4e22-b8cc-25f1cdc765ce" Type="IfcContext">
+				<DocTemplateDefinition id="Project_Type_Definitions_1ZJYVtVjjE8hZC9V7DnsNE" Name="Project Type Definitions" UniqueId="634e27f7-7edb-4e22-b8cc-25f1cdc765ce" Type="IfcContext">
 					<Documentation>&lt;p&gt;Declaration of object types, such as element types utilized by the element occurrences within this project, within the context of the project. It provides a directory of all object types independently if and where they are used by object occurrences.&lt;/p&gt;
 
 &lt;blockquote class=&quot;history&quot;&gt;HISTORY&amp;nbsp; New concept template enabled by schema enhancements in IFC4.&lt;/blockquote&gt;</Documentation>
@@ -87,7 +87,7 @@
 						</DocModelRuleAttribute>
 					</Rules>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Project Template Definitions_3MxTphmG92Hux09EVKnTgR" Name="Project Template Definitions" UniqueId="d6eddceb-c102-4247-8ec0-24e7d4c5da9b" Type="IfcContext">
+				<DocTemplateDefinition id="Project_Template_Definitions_3MxTphmG92Hux09EVKnTgR" Name="Project Template Definitions" UniqueId="d6eddceb-c102-4247-8ec0-24e7d4c5da9b" Type="IfcContext">
 					<Documentation>&lt;p&gt;Declaration of property set templates, including the property templates that are used as property definitions. Such templates define the applicable properties, their names, descriptions, measure types and property type (single, enumerated, bounded  list or table value).&lt;/p&gt; 
 
 &lt;blockquote class=&quot;history&quot;&gt;HISTORY&amp;nbsp; New concept template enabled by schema enhancements in IFC4.&lt;/blockquote&gt;</Documentation>
@@ -198,7 +198,7 @@
 				</DocTemplateDefinition>
 			</Templates>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Project Units_1CogmCYFXC7P7z8XJGvHF4" Name="Project Units" UniqueId="1CogmCYFXC7P7z8XJGvHF4" Type="IfcContext">
+		<DocTemplateDefinition id="Project_Units_1CogmCYFXC7P7z8XJGvHF4" Name="Project Units" UniqueId="1CogmCYFXC7P7z8XJGvHF4" Type="IfcContext">
 			<Documentation>&lt;p&gt;
 
 The project context includes the definition of the default units within the IFC data set. They are declared once for the context of the whole data set. Default units are
@@ -383,7 +383,7 @@ EXAMPLE&amp;nbsp; Meter is an SI unit without prefix, milli meter is an SI unit 
 				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Project Representation Context_0usiRmcNn5H9lAjZ9hcZvB" Name="Project Representation Context" UniqueId="0usiRmcNn5H9lAjZ9hcZvB" Type="IfcContext">
+		<DocTemplateDefinition id="Project_Representation_Context_0usiRmcNn5H9lAjZ9hcZvB" Name="Project Representation Context" UniqueId="0usiRmcNn5H9lAjZ9hcZvB" Type="IfcContext">
 			<Documentation>&lt;p&gt;A project representation context indicates the coordinate system orientation, direction of true north, 
 
 precision, and other values that apply to all geometry within a project or project library. A main geometric representation context is created for 3D model, and 2D representations, both can be further refined using geometric representation sub contexts.&lt;/p&gt;</Documentation>
@@ -513,19 +513,11 @@ precision, and other values that apply to all geometry within a project or proje
 												<DocModelRuleEntity id="i30804" CardinalityMin="0" CardinalityMax="0" Name="IfcDimensionCount">
 													<Rules>
 														<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
-															<Expression>
-																<DocOpStatement Operation="compareequal">
-																	<Reference>
-																		<DocOpReference>
-																			<EntityRule>
-																				<DocModelRuleEntity xsi:nil="true" href="i30804" />
-																			</EntityRule>
-																		</DocOpReference>
-																	</Reference>
-																	<Value>
-																		<DocOpLiteral Operation="loadstring" Literal="2" />
-																	</Value>
-																</DocOpStatement>
+															<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																<Reference xsi:type="DocOpReference">
+																	<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i30804" />
+																</Reference>
+																<Value xsi:type="DocOpLiteral" Operation="loadstring" Literal="2" />
 															</Expression>
 														</DocModelRuleConstraint>
 													</Rules>
@@ -615,7 +607,7 @@ precision, and other values that apply to all geometry within a project or proje
 						</DocModelRuleAttribute>
 					</Rules>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Project Representation Context 3D_0Ca_B2ooD6g8kQntB2WFmc" Name="Project Representation Context 3D" UniqueId="0c93e2c2-cb23-46a8-8b9a-c772c280fc26" Type="IfcContext">
+				<DocTemplateDefinition id="Project_Representation_Context_3D_0Ca_B2ooD6g8kQntB2WFmc" Name="Project Representation Context 3D" UniqueId="0c93e2c2-cb23-46a8-8b9a-c772c280fc26" Type="IfcContext">
 					<Documentation>&lt;p&gt;The main geometric representation context that is created for 3D representations, it can be further refined using geometric representation sub contexts for specific 3D contexts.&lt;/p&gt;
 &lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The 3D shape representations with the representation identifier &quot;Body&quot; are linked to the 3D geometric representation subset with context identifier &quot;Body&quot; and context type &quot;Model&quot;.&lt;/blockquote&gt;</Documentation>
 					<Rules>
@@ -638,19 +630,11 @@ precision, and other values that apply to all geometry within a project or proje
 												<DocModelRuleEntity id="i30845" CardinalityMin="0" CardinalityMax="0" Name="IfcDimensionCount">
 													<Rules>
 														<DocModelRuleConstraint CardinalityMin="0" CardinalityMax="0">
-															<Expression>
-																<DocOpStatement Operation="compareequal">
-																	<Reference>
-																		<DocOpReference>
-																			<EntityRule>
-																				<DocModelRuleEntity xsi:nil="true" href="i30845" />
-																			</EntityRule>
-																		</DocOpReference>
-																	</Reference>
-																	<Value>
-																		<DocOpLiteral Operation="loadstring" Literal="3" />
-																	</Value>
-																</DocOpStatement>
+															<Expression xsi:type="DocOpStatement" Operation="compareequal">
+																<Reference xsi:type="DocOpReference">
+																	<EntityRule xsi:type="DocModelRuleEntity" xsi:nil="true" href="i30845" />
+																</Reference>
+																<Value xsi:type="DocOpLiteral" Operation="loadstring" Literal="3" />
 															</Expression>
 														</DocModelRuleConstraint>
 													</Rules>
@@ -743,7 +727,7 @@ precision, and other values that apply to all geometry within a project or proje
 				</DocTemplateDefinition>
 			</Templates>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Global Positioning_3J9e0D0k14GeJdkFjFtWG0" Name="Global Positioning" UniqueId="d326800d-02e0-4442-84e7-b8fb4fde0400" Type="IfcContext">
+		<DocTemplateDefinition id="Global_Positioning_3J9e0D0k14GeJdkFjFtWG0" Name="Global Positioning" UniqueId="d326800d-02e0-4442-84e7-b8fb4fde0400" Type="IfcContext">
 			<Documentation>&lt;p&gt;Adding a geospatial coordinate reference, using an recognized coordinate reference system, to the geometric representation context. It allows to position the project coordinate system on earth (normally using eastings, northings, elevation about datum, and orientation).&lt;/p&gt;
 
 &lt;blockquote class=&quot;history&quot;&gt;HISTORY&amp;nbsp; New concept template enabled by schema enhancements in IFC4.&lt;/blockquote&gt;</Documentation>
@@ -849,7 +833,7 @@ precision, and other values that apply to all geometry within a project or proje
 				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Project Classification Information_21ZAMZHNH9iPbHhdkjN3D1" Name="Project Classification Information" UniqueId="21ZAMZHNH9iPbHhdkjN3D1" Type="IfcContext">
+		<DocTemplateDefinition id="Project_Classification_Information_21ZAMZHNH9iPbHhdkjN3D1" Name="Project Classification Information" UniqueId="21ZAMZHNH9iPbHhdkjN3D1" Type="IfcContext">
 			<Documentation>&lt;p&gt;Projects may define classification structures, which may be used to classify objects contained within the same project, or other referencing projects (incorporating the current project as &lt;i&gt;IfcProjectLibrary&lt;/i&gt;).&lt;/p&gt;
 
 &lt;p&gt;The classification information can either be provided as an external classification reference, only refering to an &lt;em&gt;IfcClassification&lt;/em&gt;, that holds the classification name, edition and a resource location, or to an &lt;em&gt;IfcClassification&lt;/em&gt; containing the &lt;em&gt;IfcClassificationReference&lt;/em&gt;&apos;s as the classification notations, and thereby allowing to include the classification system structure within the exchange structure.&lt;/p&gt;</Documentation>
@@ -935,7 +919,7 @@ precision, and other values that apply to all geometry within a project or proje
 				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Project Document Information_1YVnduqkvB6Q4yvHIG6Bbs" Name="Project Document Information" UniqueId="1YVnduqkvB6Q4yvHIG6Bbs" Type="IfcContext">
+		<DocTemplateDefinition id="Project_Document_Information_1YVnduqkvB6Q4yvHIG6Bbs" Name="Project Document Information" UniqueId="1YVnduqkvB6Q4yvHIG6Bbs" Type="IfcContext">
 			<Documentation>&lt;p&gt;Projects may define external documents, which may be used to attach arbitrary information to objects contained within the same project or referencing projects.&lt;/p&gt;</Documentation>
 			<Rules>
 				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="HasAssociations">
@@ -996,7 +980,7 @@ precision, and other values that apply to all geometry within a project or proje
 				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Project Library Information_3t7UAEGr9F3PWmJw4rDAS5" Name="Project Library Information" UniqueId="3t7UAEGr9F3PWmJw4rDAS5" Type="IfcContext">
+		<DocTemplateDefinition id="Project_Library_Information_3t7UAEGr9F3PWmJw4rDAS5" Name="Project Library Information" UniqueId="3t7UAEGr9F3PWmJw4rDAS5" Type="IfcContext">
 			<Documentation>&lt;p&gt;Projects may define libraries holding revisions of the project such as model servers or databases.  Multiple libraries may be referenced to indicate multiple revisions, multiple branches, and/or multiple servers.&lt;/p&gt;
 
 &lt;p&gt;If &lt;i&gt;IfcLibraryInformation&lt;/i&gt; is provided, the project must be retrievable (provided the user has access permissions) using values as follows:&lt;/p&gt;

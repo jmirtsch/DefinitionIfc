@@ -5,9 +5,7 @@
 		<DocLocalization Name="Space" Locale="en" />
 		<DocLocalization Name="Local" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1052.2555" Y="2900.8729" Width="282.63333" Height="292.7" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1052.2555" Y="2900.8729" Width="282.63333" Height="292.7" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="39555f4a-a49d-4ba2-ac74-c53ebe97b98c" DefinedType="IfcSpaceTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined generic types for a space that are specified in an enumeration. There might be property sets defined specifically for each predefined type.
@@ -19,9 +17,7 @@
 				<DocPoint X="1236.1735" Y="2900.8729" />
 				<DocPoint X="1236.1735" Y="2775.00623" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1337.50683" Y="2911.539567" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1337.50683" Y="2911.539567" Width="182" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ElevationWithFlooring" UniqueId="0c593fdb-4928-4a7e-b527-c275a3eff283" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Level of flooring of this space; the average shall be taken, if the space ground surface is sloping or if there are level differences within this space.</Documentation>
@@ -29,9 +25,7 @@
 				<DocPoint X="1161.8923" Y="2900.8729" />
 				<DocPoint X="1161.8923" Y="2610.35621" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1307.31887" Y="2960.022898" Width="246" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1307.31887" Y="2960.022898" Width="246" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="HasCoverings" UniqueId="e169375e-bbf4-43b8-a679-bf64711c047f" DefinedType="IfcRelCoversSpaces" AttributeFlags="32" AggregationType="3" AggregationFlag="0" Inverse="RelatingSpace">
 			<Documentation>Reference to &lt;em&gt;IfcCovering&lt;/em&gt; by virtue of the objectified relationship &lt;em&gt;IfcRelCoversSpaces&lt;/em&gt;. It defines the concept of a space having coverings assigned. Those coverings may represent different flooring, or tiling areas.
@@ -42,9 +36,7 @@
 				<DocPoint X="1193.5722" Y="3193.5729" />
 				<DocPoint X="1193.5722" Y="3303.09998" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1382.90553" Y="3166.742696" Width="305" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1382.90553" Y="3166.742696" Width="305" Height="70" />
 		</DocAttribute>
 		<DocAttribute Name="BoundedBy" UniqueId="618d511c-b181-48b0-85bd-f8e858015320" DefinedType="IfcRelSpaceBoundary" AttributeFlags="0" AggregationType="3" AggregationFlag="0" Inverse="RelatingSpace">
 			<Documentation>Reference to a set of &lt;em&gt;IfcRelSpaceBoundary&lt;/em&gt;&apos;s that defines the physical or virtual delimitation of that space against physical or virtual boundaries.</Documentation>
@@ -54,9 +46,7 @@
 				<DocPoint X="769.27217" Y="2950.464705699" />
 				<DocPoint X="486.28884" Y="2950.464705699" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="769.27217" Y="2977.016885" Width="423" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="769.27217" Y="2977.016885" Width="423" Height="70" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

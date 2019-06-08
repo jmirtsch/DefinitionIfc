@@ -6,8 +6,6 @@
 		</DocLocalization>
 		<DocLocalization Name="Structural Surface Connection" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3499.005" Y="692.81452" Width="318.95929" Height="123.93333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3499.005" Y="692.81452" Width="318.95929" Height="123.93333" />
 </DocEntity>
 

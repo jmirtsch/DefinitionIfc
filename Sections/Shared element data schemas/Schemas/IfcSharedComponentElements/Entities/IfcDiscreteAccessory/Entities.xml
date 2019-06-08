@@ -5,9 +5,7 @@
 		<DocLocalization Name="Discrete Accessory" Locale="en" />
 		<DocLocalization Name="Accessoire composé" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="147.61156" Y="562.9698" Width="438.33793" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="147.61156" Y="562.9698" Width="438.33793" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="563130f8-4a34-4ff4-bb1f-2c739a1dfa47" DefinedType="IfcDiscreteAccessoryTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Subtype of discrete accessory.  If USERDEFINED, the type is further qualified by means of the inherited attribute &lt;em&gt;ObjectType&lt;/em&gt;.  Refer to &lt;em&gt;IfcDiscreteAccessoryType&lt;/em&gt; for a non-exclusive list of userdefined type designations which are applicable to &lt;em&gt;IfcDiscreteAccessory&lt;/em&gt; as well.</Documentation>
@@ -17,9 +15,7 @@
 				<DocPoint X="1382.5519" Y="1832.3266" />
 				<DocPoint X="1307.532119" Y="1832.3266" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="719.94729" Y="607.5301604" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="719.94729" Y="607.5301604" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

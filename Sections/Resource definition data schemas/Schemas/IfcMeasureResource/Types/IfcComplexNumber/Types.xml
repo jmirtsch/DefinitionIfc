@@ -5,15 +5,9 @@
 		<DocLocalization Name="Complex Number" Locale="en" />
 		<DocLocalization Name="Nombre complexe" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3554.3805" Y="1920.7437" Width="441.46366" Height="54.802977" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_0qWM7G5If75Q0BOyTBgCH8" />
-	</Definition>
-	<Aggregation>
-		<DocAttribute UniqueId="7535af56-af47-45a8-b61f-936902db10cf" AttributeFlags="0" AggregationType="2" AggregationFlag="0" AggregationLower="1" AggregationUpper="2" />
-	</Aggregation>
+	<DiagramRectangle xsi:type="DocRectangle" X="3554.3805" Y="1920.7437" Width="441.46366" Height="54.802977" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_0qWM7G5If75Q0BOyTBgCH8" />
+	<Aggregation xsi:type="DocAttribute" UniqueId="7535af56-af47-45a8-b61f-936902db10cf" AttributeFlags="0" AggregationType="2" AggregationFlag="0" AggregationLower="1" AggregationUpper="2" />
 	<DiagramLine>
 		<DocPoint X="3554.3805" Y="1948.1452" />
 		<DocPoint X="3423.14356" Y="1948.1452" />

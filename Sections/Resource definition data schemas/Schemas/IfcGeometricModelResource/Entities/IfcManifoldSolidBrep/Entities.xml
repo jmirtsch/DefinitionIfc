@@ -4,9 +4,7 @@
 		<DocLocalization Name="Boundary Representation" Locale="de" />
 		<DocLocalization Name="Manifold Solid Brep" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="10398.05" Y="264.5134" Width="445.66667" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="10398.05" Y="264.5134" Width="445.66667" Height="100" />
 	<Subtypes>
 		<DocSubtype UniqueId="24817858-ea6b-4679-8714-dc2aaff8f1e0" DefinedType="IfcFacetedBrep" />
 		<DocSubtype UniqueId="6afc2a4b-10ab-4a6a-8813-2d7e3c25dc35" DefinedType="IfcAdvancedBrep" />
@@ -18,9 +16,7 @@
 				<DocPoint X="10398.05" Y="314.5134" />
 				<DocPoint X="10149.7666" Y="314.5134" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="10391.8362393" Y="309.4565452" Width="69" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="10391.8362393" Y="309.4565452" Width="69" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

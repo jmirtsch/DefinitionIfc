@@ -5,9 +5,7 @@
 		<DocLocalization Name="Duct Segment Type" Locale="en" />
 		<DocLocalization Name="Type de tronçon de gaine" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1672.4425" Y="1332.7316" Width="343.8" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1672.4425" Y="1332.7316" Width="343.8" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="83db28de-1f7c-4123-bbb4-88e0f6421773" DefinedType="IfcDuctSegmentTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The type of duct segment.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="2016.2425" Y="1382.7316" />
 				<DocPoint X="2250.83864" Y="1382.7316" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2008.1894361" Y="1377.3628907" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2008.1894361" Y="1377.3628907" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

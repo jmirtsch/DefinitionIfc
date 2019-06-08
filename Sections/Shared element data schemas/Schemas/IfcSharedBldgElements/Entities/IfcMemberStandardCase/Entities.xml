@@ -5,9 +5,7 @@
 		<DocLocalization Name="Member Standard Case" Locale="en" />
 		<DocLocalization Name="Membre standard" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1114" Y="1038.3667" Width="438.63333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1114" Y="1038.3667" Width="438.63333" Height="100" />
 	<WhereRules>
 		<DocWhereRule Name="HasMaterialProfileSetUsage" UniqueId="442935a1-cd00-47f9-abb9-a2096c66779c">
 			<Documentation>A valid instance of &lt;em&gt;IfcMemberStandardCase&lt;/em&gt; relies on the provision of an &lt;em&gt;IfcMaterialProfileSetUsage&lt;/em&gt;.</Documentation>

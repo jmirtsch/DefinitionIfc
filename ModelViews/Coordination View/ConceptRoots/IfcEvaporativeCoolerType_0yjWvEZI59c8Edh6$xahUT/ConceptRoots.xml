@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3cb60e4e-8d21-4998-83a7-ac6ffb92b79d">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcEvaporativeCoolerType" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="033beb1a-e215-4810-a7a4-cf2fd7a426f2" Type="IfcEvaporativeCoolerType" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcEvaporativeCoolerType" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="86946b53-14fd-41e5-bbbc-9f3fa60ba16a" Type="IfcEvaporativeCoolerType" />
 </DocConceptRoot>
 

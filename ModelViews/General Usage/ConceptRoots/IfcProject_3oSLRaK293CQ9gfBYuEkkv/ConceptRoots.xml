@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3oSLRaK293CQ9gfBYuEkkv">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcProject" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcProject" />
 	<Concepts>
 		<DocTemplateUsage Name="Spatial Decomposition" UniqueId="17049e53-9983-47f9-a14f-43b5fc479bab">
 			<Documentation>&lt;p&gt;The &lt;em&gt;IfcProject&lt;/em&gt; is used to reference the root of the spatial structure of a building or other construction project (that serves as the primary project breakdown and is required to be hierarchical). The spatial structure elements are linked together, and to the &lt;em&gt;IfcProject&lt;/em&gt;, by using the objectified relationship &lt;em&gt;IfcRelAggregates&lt;/em&gt;. 
@@ -24,9 +22,7 @@
 &lt;tr&gt;&lt;td&gt;&lt;img src=&quot;../../../figures/ifcproject_fig-2.png&quot; alt=&quot;spatial decomposition relationships&quot; /&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 125 &amp;mdash; Project spatial structure, products and product type library&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Decomposition_1cVuH3xCvAZQO$an_h15FW" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Decomposition_1cVuH3xCvAZQOan_h15FW" />
 			<Items>
 				<DocTemplateItem UniqueId="535b1916-6e1f-4dec-a8f1-a546d4bae2e7" RuleParameters="Spatial Parts=IfcSite;" Order="0">
 					<Documentation>If referenced, the site is the root of the spatial structure.</Documentation>
@@ -60,9 +56,7 @@
 &lt;tr valign=&quot;top&quot;&gt;&lt;td colspan=&quot;2&quot;&gt;
 &lt;p class=&quot;figure&quot;&gt;Figure 126 &amp;mdash; Project spatial and work plan structure&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Project Declaration_2h7Ypzdo5FIhQlp2ROJaMi" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Project_Declaration_2h7Ypzdo5FIhQlp2ROJaMi" />
 			<Items>
 				<DocTemplateItem UniqueId="372f58c0-0a9f-4572-b712-c710e0acbc37" RuleParameters="Type=IfcProjectLibrary;" Order="0">
 					<Documentation>Referenced projects incorporated into this project.</Documentation>
@@ -91,9 +85,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Project Units" UniqueId="3Vl6VKGiXCZBtA8ht6A7Sg">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Project Units_1CogmCYFXC7P7z8XJGvHF4" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Project_Units_1CogmCYFXC7P7z8XJGvHF4" />
 			<Items>
 				<DocTemplateItem UniqueId="c6a0ef15-f48f-4c86-976f-1af5767a7b38" RuleParameters="NamedUnitType=LENGTHUNIT;" Order="0">
 					<Documentation>Length unit as meters, millimeters, or inches.</Documentation>
@@ -104,9 +96,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Project Context" UniqueId="06xo1mPkj8AQGMi369hcMt">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Project Representation Context_0usiRmcNn5H9lAjZ9hcZvB" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Project_Representation_Context_0usiRmcNn5H9lAjZ9hcZvB" />
 			<Items>
 				<DocTemplateItem UniqueId="8b2ee625-6f83-4c83-ac00-70b497c35c4d" RuleParameters="ContextIdentifier=Model;ContextType=3D;" Order="0">
 					<Documentation>Context for all 3D geometry.</Documentation>
@@ -117,23 +107,15 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Project Classification Information" UniqueId="27ruolyzb9zPTF5$6xHNrg">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Project Classification Information_21ZAMZHNH9iPbHhdkjN3D1" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Project_Classification_Information_21ZAMZHNH9iPbHhdkjN3D1" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Project Document Information" UniqueId="02tVnxF454PhWDJ9QPcXJ1">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Project Document Information_1YVnduqkvB6Q4yvHIG6Bbs" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Project_Document_Information_1YVnduqkvB6Q4yvHIG6Bbs" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Project Library Information" UniqueId="0wtLNV4vX6Eusj1GMtO4ew">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Project Library Information_3t7UAEGr9F3PWmJw4rDAS5" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Project_Library_Information_3t7UAEGr9F3PWmJw4rDAS5" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="b8668c2a-e852-4548-a603-41bd537db0c2" Type="IfcProject" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="f7c30985-fe73-4759-9705-1f7b07befa12" Type="IfcProject" />
 </DocConceptRoot>
 

@@ -5,9 +5,7 @@
 		<DocLocalization Name="System Furniture Element Type" Locale="en" />
 		<DocLocalization Name="Type d&apos;élément de l&apos;ameublement" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="130.39485" Y="396.03679" Width="493.33333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="130.39485" Y="396.03679" Width="493.33333" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="c246be92-c357-473a-957f-6aefef35989b" DefinedType="IfcSystemFurnitureElementTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
@@ -15,9 +13,7 @@
 				<DocPoint X="367.08234" Y="609.37934" />
 				<DocPoint X="514.79502" Y="609.37934" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="400.536528" Y="552.708063" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="400.536528" Y="552.708063" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

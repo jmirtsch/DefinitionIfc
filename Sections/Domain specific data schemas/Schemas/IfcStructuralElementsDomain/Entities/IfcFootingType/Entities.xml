@@ -5,9 +5,7 @@
 		<DocLocalization Name="Footing Type" Locale="en" />
 		<DocLocalization Name="Fondation type" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1209.5047" Y="207.86089" Width="245.23639" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1209.5047" Y="207.86089" Width="245.23639" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="c19fa949-829d-4996-b812-7b15f623d57c" DefinedType="IfcFootingTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Subtype of footing.</Documentation>
@@ -17,9 +15,7 @@
 				<DocPoint X="1086.32688" Y="257.830345572" />
 				<DocPoint X="963.14906" Y="257.830345572" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1086.32688" Y="250.2217464" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1086.32688" Y="250.2217464" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

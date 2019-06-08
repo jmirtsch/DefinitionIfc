@@ -4,9 +4,7 @@
 		<DocLocalization Name="Statische Last" Locale="de" />
 		<DocLocalization Name="Structural Load Static" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="90.463281" Y="596.51441" Width="200" Height="124.96372" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="90.463281" Y="596.51441" Width="200" Height="124.96372" />
 	<Subtypes>
 		<DocSubtype UniqueId="9ab023aa-216f-4acd-a75b-73016c48dea9" DefinedType="IfcStructuralLoadSingleForce" />
 		<DocSubtype UniqueId="5b0cc0fe-4957-468a-8352-d4041c12b05b" DefinedType="IfcStructuralLoadLinearForce" />

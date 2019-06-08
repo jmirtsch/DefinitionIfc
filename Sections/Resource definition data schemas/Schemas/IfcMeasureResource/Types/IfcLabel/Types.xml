@@ -4,12 +4,8 @@
 		<DocLocalization Name="Label" Locale="en" />
 		<DocLocalization Name="Étiquette" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2498.2308" Y="1033.225" Width="187.07727" Height="53.752326" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="STRING_37BgZDevLFEghikdEcthAv" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="2498.2308" Y="1033.225" Width="187.07727" Height="53.752326" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="STRING_37BgZDevLFEghikdEcthAv" />
 	<DiagramLine>
 		<DocPoint X="2685.3081" Y="1060.1012" />
 		<DocPoint X="2864.6349" Y="1060.1012" />

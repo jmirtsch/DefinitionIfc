@@ -5,9 +5,7 @@
 		<DocLocalization Name="Cartesian Transformation Operator2 Dnon Uniform" Locale="en" />
 		<DocLocalization Name="Opérateur 2D de transformation cartésienne non uniforme" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5001.5999" Y="1248.9334" Width="443.16666" Height="140" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="5001.5999" Y="1248.9334" Width="443.16666" Height="140" />
 	<Attributes>
 		<DocAttribute Name="Scale2" UniqueId="b428bab1-b9bc-4f46-abce-c63c47f01e4c" DefinedType="IfcReal" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The scaling value specified for the transformation along the axis 2. This is normally the y scale factor.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="5046.93359375" Y="1388.9334" />
 				<DocPoint X="5046.93359375" Y="1490.13810221354" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5046.93359375" Y="1470.13810221354" Width="82" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5046.93359375" Y="1470.13810221354" Width="82" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Scl2" UniqueId="74fa5661-c33f-4fdd-9c32-512f0cdc9336" DefinedType="IfcReal" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The derived scale S(2) of the transformation along the axis 2 (normally the y axis), equal to Scale2 if that exists, or equal to the derived Scl1 (normally the x axis scale factor) otherwise.</Documentation>
@@ -28,9 +24,7 @@
 				<DocPoint X="5324.2666015625" Y="1388.9334" />
 				<DocPoint X="5324.2666015625" Y="1598.2666422526" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5324.2666015625" Y="1578.2666422526" Width="129" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5324.2666015625" Y="1578.2666422526" Width="129" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

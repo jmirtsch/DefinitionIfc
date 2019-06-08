@@ -5,9 +5,7 @@
 		<DocLocalization Name="Distribution Chamber Element Type" Locale="en" />
 		<DocLocalization Name="Type d&apos;élément de chambre de distribution" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1791.198" Y="603.59971" Width="561.98709" Height="118.7" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1791.198" Y="603.59971" Width="561.98709" Height="118.7" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="5547f3da-2b18-4dea-8d61-4940224376c8" DefinedType="IfcDistributionChamberElementTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined types of distribution chambers.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="2353.1851" Y="666.93271" />
 				<DocPoint X="2578.14425" Y="666.93271" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2353.1851" Y="656.86638" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2353.1851" Y="656.86638" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

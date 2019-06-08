@@ -5,9 +5,7 @@
 		<DocLocalization Name="Beam" Locale="en" />
 		<DocLocalization Name="Poutre" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="484.77504" Y="360.4283" Width="249.9" Height="227.96667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="484.77504" Y="360.4283" Width="249.9" Height="227.96667" />
 	<Subtypes>
 		<DocSubtype UniqueId="6a1d8aa2-cdb8-4bab-afdb-3935056aebd1" DefinedType="IfcBeamStandardCase" />
 	</Subtypes>
@@ -20,9 +18,7 @@
 				<DocPoint X="734.67504" Y="519.72882" />
 				<DocPoint X="1113.9084" Y="519.72882" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="732.0083733" Y="511.72882" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="732.0083733" Y="511.72882" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Alarm" Locale="en" />
 		<DocLocalization Name="Alarme" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="865.66667" Y="1143.7533" Width="674.6" Height="108" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="865.66667" Y="1143.7533" Width="674.6" Height="108" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="48e60449-60db-442b-9dda-c0a083a70b41" DefinedType="IfcAlarmTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
@@ -15,9 +13,7 @@
 				<DocPoint X="1533.6333" Y="1298.5999" />
 				<DocPoint X="1095.07994" Y="1298.5999" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1442.35662" Y="1246.4199667" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1442.35662" Y="1246.4199667" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

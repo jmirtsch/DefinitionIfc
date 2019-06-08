@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="05aw44Cnj1ge$yC_5UMatY">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcElementType" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcElementType" />
 	<Concepts>
 		<DocTemplateUsage Name="Material Constituents" UniqueId="6ec6b5c3-af3f-4791-8d5d-a6e1aebaa167">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Constituent_Set_3PRtzzvq9Dk9jT6ADgRVY4" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Material Single" UniqueId="d59f0b28-eb83-4d79-b39c-e4b32c7c262e">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Single_1VEQWKHA1Fiut6tQe5OFnK" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Single_1VEQWKHA1Fiut6tQe5OFnK" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Type Body CSG Geometry" UniqueId="cd2d595e-1cba-41d2-85d9-cdf87657ee36">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Type Body CSG Geometry_3$cgCgF6P4XAWUmEZvj5eg" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Type_Body_CSG_Geometry_3cgCgF6P4XAWUmEZvj5eg" />
 			<Items>
 				<DocTemplateItem UniqueId="2c8b2518-6b58-4992-a8a7-86ef36c9893f" RuleParameters="RepresentationType=CSG;Geometry=IfcBlock;" Order="0" />
 				<DocTemplateItem UniqueId="90a34506-8f20-4083-a12c-d97afa37d34e" RuleParameters="RepresentationType=CSG;Geometry=IfcRectangularPyramid;" Order="0" />
@@ -33,64 +25,42 @@
 			</Items>
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Design_Transfer_Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Design_Transfer_Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Type Body Brep Geometry" UniqueId="02dc636f-1be8-4e9e-aa22-e03c2bc551dd">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Type Body Brep Geometry_36BsAIvPH5tA_1VlqIZzbp" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Type_Body_Brep_Geometry_36BsAIvPH5tA_1VlqIZzbp" />
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Design_Transfer_Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Design_Transfer_Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Type Body AdvancedBrep Geometry" UniqueId="f0a70cd6-80aa-4f19-b2aa-5381ddecf667">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Type Body AdvancedBrep Geometry_0SdQ8dAVPFjwqlicymUhFZ" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Type_Body_AdvancedBrep_Geometry_0SdQ8dAVPFjwqlicymUhFZ" />
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Design_Transfer_Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Design_Transfer_Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Element Type Aggregation" UniqueId="d4e584cf-be32-4ed1-8f43-d63febc92e70">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Type Element Aggregation_2Vp5fc8gT1h9CeCNMOHT5I" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Type_Element_Aggregation_2Vp5fc8gT1h9CeCNMOHT5I" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Property Sets for Types" UniqueId="2e2b6c5d-f0e1-4501-80a2-5cab74825cda">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Types_1Bup4gCPb9Bh84oi8YcfhU" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Types_1Bup4gCPb9Bh84oi8YcfhU" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="d5e924f6-22cc-4bc6-97e5-e654aa194ff0" Type="IfcElementType" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="ca2706c7-6195-4419-9cb6-a7b45a228e4f" Type="IfcElementType" />
 </DocConceptRoot>
 

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Rel Associates Library" Locale="en" />
 		<DocLocalization Name="Association à librairie" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="7004.951" Y="679.9789" Width="451.66667" Height="100.66666" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="7004.951" Y="679.9789" Width="451.66667" Height="100.66666" />
 	<Attributes>
 		<DocAttribute Name="RelatingLibrary" UniqueId="4cafd610-1742-487c-a6bf-cf5786b0fc9c" DefinedType="IfcLibrarySelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Reference to a library, from which the definition of the property set is taken.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="7230.7843" Y="780.6456" />
 				<DocPoint X="7230.7843" Y="1107.79137" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="7338.74264" Y="827.385183" Width="173" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="7338.74264" Y="827.385183" Width="173" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyConstant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="UNSET_1C07GZg7vBJPKYAWl4Mo9" Name="UNSET" UniqueId="4c007423-a87e-4b4d-9fd4-88a82f116c89">
+	<Localization>
+		<DocLocalization Name="(unset)" Locale="en">
+			<Documentation>Value has not been specified.</Documentation>
+		</DocLocalization>
+	</Localization>
+</DocPropertyConstant>
+

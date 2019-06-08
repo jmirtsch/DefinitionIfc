@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3eMiIYFhXDJ9w1JYXT$kyu">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcElectricFlowStorageDevice" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcElectricFlowStorageDevice" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="0aRXirfLf2Vv6euCvyjs4e">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="bb128e94-a9a1-4827-848f-9a30ff029301" RuleParameters="RelatingType=IfcElectricFlowStorageDeviceType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="0V7$UltqD9Bv5kMoKzLtkC">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="757cb940-cfa2-41bb-b1ca-53918ff00b0a" RuleParameters="PsetName=Pset_ElectricFlowStorageDeviceTypeCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="451ca4f5-4fb8-4f63-9bfc-d65db454bdbd">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="d99265ef-0fbb-4663-bc70-12feca98214d" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="241c1633-8daa-4e8c-92a2-a49111a46030" RuleParameters="PropertyName=NominalSupplyVoltage;Value=IfcElectricVoltageMeasure;" Order="0" />
@@ -42,18 +34,14 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="1c62998b-dffe-4d95-81c1-593a4e81897e">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="0a9c39fc-a6a5-4712-b465-52a78b8a45f9" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="886ecbbe-2beb-440f-95bc-fc18c45c33fe" RuleParameters="PropertyName=ConnectedConductorFunction;Value=IfcLabel;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="8af07bce-98c1-44a4-84ae-2e2d72ed6a5a">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Bounded_Value_0zPwBITXr4sQ2Ujkn_bOo" />
 							<Items>
 								<DocTemplateItem UniqueId="5423aec4-1e5f-4b51-8ea2-062f02bca5a3" RuleParameters="PropertyName=NominalSupplyVoltageOffset;SetValue=IfcElectricVoltageMeasure;" Order="0" />
 							</Items>
@@ -63,17 +51,13 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="3mKoj76i19VvkULgtD98bC">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="865cb446-7b25-456d-a589-bf9090fa6723" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_ElectricFlowStorageDeviceBaseQuantities;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Material" UniqueId="3LidA1IqnCywRb2iibUngm">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Constituent_Set_3PRtzzvq9Dk9jT6ADgRVY4" />
 			<Items>
 				<DocTemplateItem UniqueId="fbe2849a-1207-43f3-8ca6-5ff089c69b21" RuleParameters="Name=Casing;" Order="0">
 					<Documentation>Material from which the casing is constructed.</Documentation>
@@ -81,9 +65,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Port" UniqueId="1V5pXPfKbFaR74zOqMO3L8">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Port_Nesting_2w9EtqE92s8JFNQ8EuKWA" />
 			<Items>
 				<DocTemplateItem UniqueId="0ad1b418-d7ce-4958-980a-fb702858aed9" RuleParameters="PortName=Line;SystemType=ELECTRICAL;Flow=SINK;" Order="0">
 					<Documentation>Incoming power used to charge the flow storage device.</Documentation>
@@ -94,8 +76,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="443e6f00-114e-44de-8dee-515282df337d" Type="IfcElectricFlowStorageDevice" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="38f2bd52-8641-4b86-8ce3-26b8841ebdc9" Type="IfcElectricFlowStorageDevice" />
 </DocConceptRoot>
 

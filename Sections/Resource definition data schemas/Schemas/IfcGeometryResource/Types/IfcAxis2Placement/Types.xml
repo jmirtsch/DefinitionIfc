@@ -3,9 +3,7 @@
 	<Localization>
 		<DocLocalization Name="Axis2 Placement" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4437.45231119792" Y="372.971394856771" Width="301.04" Height="66" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4437.45231119792" Y="372.971394856771" Width="301.04" Height="66" />
 	<Selects>
 		<DocSelectItem Name="IfcAxis2Placement2D" UniqueId="94d61fbf-8d63-4539-a9d5-cc5f8a11d102" />
 		<DocSelectItem Name="IfcAxis2Placement3D" UniqueId="097e4541-a9bd-4105-ba71-1236598ddebb" />

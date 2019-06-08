@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="ea8f2a56-7933-4a30-abc0-62dbea62961e">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcJunctionBoxType" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="8261d0ba-eb80-4a6d-86ca-f21590a74f87" Type="IfcJunctionBoxType" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcJunctionBoxType" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="bcf73fcf-7794-4190-857c-54b5c499468b" Type="IfcJunctionBoxType" />
 </DocConceptRoot>
 

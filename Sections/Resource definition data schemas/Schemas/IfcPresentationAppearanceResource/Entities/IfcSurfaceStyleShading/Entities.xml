@@ -5,9 +5,7 @@
 		<DocLocalization Name="Surface Style Shading" Locale="en" />
 		<DocLocalization Name="Style d&apos;ombrage de surface" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1846.39331054688" Y="2563.94677734375" Width="248" Height="145.33332824707" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1846.39331054688" Y="2563.94677734375" Width="248" Height="145.33332824707" />
 	<Subtypes>
 		<DocSubtype UniqueId="87fdddd6-30e5-46ee-a991-07c5ce5f9db2" DefinedType="IfcSurfaceStyleRendering" />
 	</Subtypes>
@@ -19,9 +17,7 @@
 				<DocPoint X="2094.39331054688" Y="2599.8134" />
 				<DocPoint X="2596.5266" Y="2599.8134" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2094.39331054688" Y="2579.8134" Width="165" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2094.39331054688" Y="2579.8134" Width="165" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Transparency" UniqueId="3ced60f5-17d8-4093-a16a-d36cdad0806d" DefinedType="IfcNormalisedRatioMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The transparency field specifies how &quot;clear&quot; an object is, with 1.0 being completely transparent, and 0.0 completely opaque. If not given, the value 0.0 (opaque) is assumed.
@@ -31,9 +27,7 @@
 				<DocPoint X="2094.39331054688" Y="2759.28010559082" />
 				<DocPoint X="2246.39331054688" Y="2759.28010559082" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2094.39331054688" Y="2739.28010559082" Width="400" Height="50" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2094.39331054688" Y="2739.28010559082" Width="400" Height="50" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

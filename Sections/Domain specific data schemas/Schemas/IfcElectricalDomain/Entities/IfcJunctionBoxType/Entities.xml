@@ -5,9 +5,7 @@
 		<DocLocalization Name="Junction Box Type" Locale="en" />
 		<DocLocalization Name="Type de boite de jonction" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1697.4933" Y="1551.6013" Width="679.9" Height="103.3" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1697.4933" Y="1551.6013" Width="679.9" Height="103.3" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="3bba9337-756a-46d1-a706-78d461b878ae" DefinedType="IfcJunctionBoxTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>&lt;p&gt;Identifies the predefined types of junction boxes from which the type required may be set.&lt;/p&gt;</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="1700.9538" Y="1703.188879" />
 				<DocPoint X="2118.63334" Y="1703.188879" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1614.338816" Y="1697.152146" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1614.338816" Y="1697.152146" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

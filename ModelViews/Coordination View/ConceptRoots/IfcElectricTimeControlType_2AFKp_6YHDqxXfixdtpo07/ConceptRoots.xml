@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="8a3d4cfe-1a24-4dd3-b869-b3b9f7cf2007">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcElectricTimeControlType" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="06315633-91ea-49d4-9491-35bd47aa3442" Type="IfcElectricTimeControlType" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcElectricTimeControlType" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="9d697a4b-80fb-40b0-9603-e73a5957182d" Type="IfcElectricTimeControlType" />
 </DocConceptRoot>
 

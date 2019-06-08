@@ -5,9 +5,7 @@
 		<DocLocalization Name="Light Fixture" Locale="en" />
 		<DocLocalization Name="Fixation de lampe" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="844.42667" Y="513.78667" Width="679.9" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="844.42667" Y="513.78667" Width="679.9" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="b9ba9222-79a3-484d-9292-e20d220e15ea" DefinedType="IfcLightFixtureTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
@@ -15,9 +13,7 @@
 				<DocPoint X="1517.71" Y="662.946637" />
 				<DocPoint X="1094.2201" Y="662.946637" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1423.298383" Y="608.4533367" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1423.298383" Y="608.4533367" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

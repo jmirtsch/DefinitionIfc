@@ -5,9 +5,7 @@
 		<DocLocalization Name="Connection Geometry" Locale="en" />
 		<DocLocalization Name="Connexion géométrique" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1676" Y="54.533337" Width="392.33333" Height="186" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1676" Y="54.533337" Width="392.33333" Height="186" />
 	<Subtypes>
 		<DocSubtype UniqueId="ee7782a3-c614-4629-b90c-6965d7fbe418" DefinedType="IfcConnectionPointGeometry" />
 		<DocSubtype UniqueId="52da55b2-71a2-4c21-8cf6-384619fcd5ce" DefinedType="IfcConnectionCurveGeometry" />

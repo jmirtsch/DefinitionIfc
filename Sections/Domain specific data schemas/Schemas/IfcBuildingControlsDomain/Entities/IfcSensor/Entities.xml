@@ -5,9 +5,7 @@
 		<DocLocalization Name="Sensor" Locale="en" />
 		<DocLocalization Name="Capteur" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="865.63333" Y="931.62" Width="674.6" Height="108" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="865.63333" Y="931.62" Width="674.6" Height="108" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="b3152fc9-1085-471d-afc9-32cd6d46fcb6" DefinedType="IfcSensorTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
@@ -15,9 +13,7 @@
 				<DocPoint X="1530.9333" Y="1087.766563" />
 				<DocPoint X="1092.43337" Y="1087.766563" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1438.35" Y="1036.9533333" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1438.35" Y="1036.9533333" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Rel Connects Elements" Locale="en" />
 		<DocLocalization Name="Connection d&apos;éléments" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4907.1415" Y="2645.5249" Width="448" Height="120" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4907.1415" Y="2645.5249" Width="448" Height="120" />
 	<Subtypes>
 		<DocSubtype UniqueId="934789df-1208-4c7d-a326-237fe6c71ec0" DefinedType="IfcRelConnectsWithRealizingElements" />
 		<DocSubtype UniqueId="4533744f-a7e5-49f9-878d-ad0a4c7f82d9" DefinedType="IfcRelConnectsPathElements" />
@@ -19,9 +17,7 @@
 				<DocPoint X="5355.1415" Y="2705.5249" />
 				<DocPoint X="5689.69157" Y="2705.5249" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5355.1415" Y="2688.858233" Width="241" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5355.1415" Y="2688.858233" Width="241" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="RelatingElement" UniqueId="f875bb4c-3105-4b90-a8d1-25dfc10e0f90" DefinedType="IfcElement" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Reference to a subtype of &lt;em&gt;IfcElement&lt;/em&gt; that is connected by the connection relationship in the role of &lt;em&gt;RelatingElement&lt;/em&gt;.</Documentation>
@@ -29,9 +25,7 @@
 				<DocPoint X="4995.1416" Y="2765.5249" />
 				<DocPoint X="4995.1416" Y="3052.18487" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5104.47493" Y="2775.5248997" Width="188" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5104.47493" Y="2775.5248997" Width="188" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="RelatedElement" UniqueId="eb56d278-f844-4217-8731-9c4cc688940e" DefinedType="IfcElement" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Reference to a subtype of &lt;em&gt;IfcElement&lt;/em&gt; that is connected by the connection relationship in the role of &lt;em&gt;RelatedElement&lt;/em&gt;.</Documentation>
@@ -39,9 +33,7 @@
 				<DocPoint X="5318.4749" Y="2765.5249" />
 				<DocPoint X="5318.4749" Y="3052.25157" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5427.80823" Y="2778.858233" Width="183" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5427.80823" Y="2778.858233" Width="183" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

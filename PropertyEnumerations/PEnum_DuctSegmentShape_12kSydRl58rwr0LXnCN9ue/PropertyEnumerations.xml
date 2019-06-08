@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_DuctSegmentShape_12kSydRl58rwr0LXnCN9ue" Name="PEnum_DuctSegmentShape" UniqueId="42b9cf27-6ef1-48d7-ad40-561c4c5c9e28">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="FLATOVAL_06qxYbQWbF_wuE8Rzzpg4d" />
+		<DocPropertyConstant xsi:nil="true" href="RECTANGULAR_2swaiYQyj84vqsjiDaJd5" />
+		<DocPropertyConstant xsi:nil="true" href="ROUND_0EcMaQ6H3CBdeL8fsGvPI" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_3dfrMJQojDkxpwX_TYETX5" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0cB_X_0pbE6BVVfjjD8pdH" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3C2EDAvvX1Dh2C9P6M8Z" />
+	</Constants>
+</DocPropertyEnumeration>
+

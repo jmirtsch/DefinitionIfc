@@ -4,9 +4,7 @@
 		<DocSchemaRef Name="IFCSHAREDBLDGSERVICEELEMENTS" UniqueId="ed7af576-bbd6-4b07-a221-842b6b3132e0">
 			<Definitions>
 				<DocDefinitionRef Name="IfcFlowTerminalType" UniqueId="9dc7cf86-f54d-44a9-86bd-2aa8d7b30db8" DiagramNumber="1">
-					<DiagramRectangle>
-						<DocRectangle X="26.099993" Y="28.366667" Width="623.00001" Height="230" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="26.099993" Y="28.366667" Width="623.00001" Height="230" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -44,9 +42,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcFlowTerminal" UniqueId="f59164cf-02ce-40d2-abf2-f390b81fa663" DiagramNumber="1">
-					<DiagramRectangle>
-						<DocRectangle X="1030.9333" Y="28.166667" Width="542" Height="228.33333" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="1030.9333" Y="28.166667" Width="542" Height="228.33333" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -84,9 +80,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcFlowTreatmentDeviceType" UniqueId="d73c04d0-5093-4d47-a03d-7e9ce5e7cc18" DiagramNumber="1">
-					<DiagramRectangle>
-						<DocRectangle X="38.1" Y="1552.3333" Width="546" Height="229" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="38.1" Y="1552.3333" Width="546" Height="229" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -98,9 +92,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcFlowTreatmentDevice" UniqueId="efafb89d-5955-4467-a8a2-77dc42d510d1" DiagramNumber="1">
-					<DiagramRectangle>
-						<DocRectangle X="1024.8" Y="1544.3" Width="544.33333" Height="229" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="1024.8" Y="1544.3" Width="544.33333" Height="229" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -116,13 +108,79 @@
 			</Definitions>
 		</DocSchemaRef>
 	</SchemaRefs>
+	<Types>
+		<DocEnumeration xsi:nil="true" href="IfcFireSuppressionTerminalTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcInterceptorTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcSanitaryTerminalTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcStackTerminalTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcWasteTerminalTypeEnum" />
+	</Types>
+	<PropertySets>
+		<DocPropertySet xsi:nil="true" href="Pset_FireSuppressionTerminalTypeBreechingInlet" />
+		<DocPropertySet xsi:nil="true" href="Pset_FireSuppressionTerminalTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_FireSuppressionTerminalTypeFireHydrant" />
+		<DocPropertySet xsi:nil="true" href="Pset_FireSuppressionTerminalTypeHoseReel" />
+		<DocPropertySet xsi:nil="true" href="Pset_FireSuppressionTerminalTypeSprinkler" />
+		<DocPropertySet xsi:nil="true" href="Pset_InterceptorTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_SanitaryTerminalTypeBath" />
+		<DocPropertySet xsi:nil="true" href="Pset_SanitaryTerminalTypeBidet" />
+		<DocPropertySet xsi:nil="true" href="Pset_SanitaryTerminalTypeCistern" />
+		<DocPropertySet xsi:nil="true" href="Pset_SanitaryTerminalTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_SanitaryTerminalTypeSanitaryFountain" />
+		<DocPropertySet xsi:nil="true" href="Pset_SanitaryTerminalTypeShower" />
+		<DocPropertySet xsi:nil="true" href="Pset_SanitaryTerminalTypeSink" />
+		<DocPropertySet xsi:nil="true" href="Pset_SanitaryTerminalTypeToiletPan" />
+		<DocPropertySet xsi:nil="true" href="Pset_SanitaryTerminalTypeUrinal" />
+		<DocPropertySet xsi:nil="true" href="Pset_SanitaryTerminalTypeWashHandBasin" />
+		<DocPropertySet xsi:nil="true" href="Pset_StackTerminalTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_WasteTerminalTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_WasteTerminalTypeFloorTrap" />
+		<DocPropertySet xsi:nil="true" href="Pset_WasteTerminalTypeFloorWaste" />
+		<DocPropertySet xsi:nil="true" href="Pset_WasteTerminalTypeGullySump" />
+		<DocPropertySet xsi:nil="true" href="Pset_WasteTerminalTypeGullyTrap" />
+		<DocPropertySet xsi:nil="true" href="Pset_WasteTerminalTypeRoofDrain" />
+		<DocPropertySet xsi:nil="true" href="Pset_WasteTerminalTypeWasteDisposalUnit" />
+		<DocPropertySet xsi:nil="true" href="Pset_WasteTerminalTypeWasteTrap" />
+	</PropertySets>
+	<QuantitySets>
+		<DocQuantitySet xsi:nil="true" href="Qto_FireSuppressionTerminalBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_InterceptorBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_SanitaryTerminalBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_StackTerminalBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_WasteTerminalBaseQuantities" />
+	</QuantitySets>
 	<Comments>
 		<DocComment UniqueId="75ec9c0e-a4e8-4acc-af84-db1324fc8c56" DiagramNumber="1">
 			<Documentation>IFC2x4: Occurrence entities added, IfcInterceptorType introduced to replace interceptor predefined types of IfcWasteTerminalType.</Documentation>
-			<DiagramRectangle>
-				<DocRectangle X="45.546663" Y="1399.4666" Width="1526.6667" Height="112.33333" />
-			</DiagramRectangle>
+			<DiagramRectangle xsi:type="DocRectangle" X="45.546663" Y="1399.4666" Width="1526.6667" Height="112.33333" />
 		</DocComment>
 	</Comments>
+	<PropertyEnumerations>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_BackInletPatternType_195uHfwH51gf8NUh_uS_e_" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_BathType_1dC74tvljAChyPl055ze_F" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_BreechingInletCouplingType_2rFoEL5RrFbRZSZfgYj8Fu" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_BreechingInletType_1breQUBPn0cQ5BO8FNW8Tx" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CisternHeight_0bmdiKSHn95RwBqtsFkTj" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FireHydrantType_0iAu3GB1T2o9EkC8sixFRH" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FlushType_392kNW2AfA_g2tTuOC4OR" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FountainType_1oswkNgw52LgLmbd4rlLQW" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_GullyType_0lspYv2wfDF8UkiZZwZHgg" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_HoseNozzleType_2F_rlhN6f9nuNmXoZQIyfN" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_HoseReelMountingType_2zDP7s3z7KA2chC6Vo09E" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_HoseReelType_251NJadU12rx3jIiLu1ej0" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_InletPatternType_27KsGuJ7HAzRSORHkcOFE5" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SanitaryMounting_3Jk7zilub5eDqi1XCKg5a" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ShowerType_0GuzIdLv0BAWAqr5f3V7r" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SinkType_1J4dil67b6LuPXgCJF_aEp" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SprinklerActivation_0WGtJbVYrDsw98y_8zqZYv" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SprinklerBulbLiquidColor_1h8mXIX9AsOVFL1J_wjzU" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SprinklerResponse_3gGRey1xn1zR4CeufNG6VA" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SprinklerType_2tYcufEOrEmOoiurQsg2Dk" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ToiletPanType_0Pjo3mf8r5NRZ8uNxyvyT4" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ToiletType_1gBsBsIGb3uPMl7hErobho" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_TrapType_0kSL_TGuH03A_UVNvomUrf" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_UrinalType_3wXh1IyrBWBhIiktGZBDO" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_WashHandBasinType_1LSP5coPL7f9C6PY94jt_s" />
+	</PropertyEnumerations>
 </DocSchema>
 

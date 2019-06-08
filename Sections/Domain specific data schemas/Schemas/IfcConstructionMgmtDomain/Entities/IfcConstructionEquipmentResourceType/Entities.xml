@@ -5,9 +5,7 @@
 		<DocLocalization Name="Construction Equipment Resource Type" Locale="en" />
 		<DocLocalization Name="Équipement type utilisé pour la construction" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="867.8" Y="1991.3467" Width="629.16667" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="867.8" Y="1991.3467" Width="629.16667" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="99d4b03f-35f6-42c2-92ff-4620180871f2" DefinedType="IfcConstructionEquipmentResourceTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines types of construction equipment resources.
@@ -17,9 +15,7 @@
 				<DocPoint X="1486.3833" Y="2139.963367" />
 				<DocPoint X="1144.0333" Y="2139.963367" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1569.049967" Y="2137.2967003" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1569.049967" Y="2137.2967003" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

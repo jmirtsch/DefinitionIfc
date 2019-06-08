@@ -5,8 +5,6 @@
 		<DocLocalization Name="Furnishing Element" Locale="en" />
 		<DocLocalization Name="Elément de mobilier" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1810.7225" Y="601.77607" Width="363.83334" Height="119.93333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1810.7225" Y="601.77607" Width="363.83334" Height="119.93333" />
 </DocEntity>
 

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Slab Elemented Case" Locale="en" />
 		<DocLocalization Name="Dalle composite" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1113.9333" Y="2167.8667" Width="438.53333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1113.9333" Y="2167.8667" Width="438.53333" Height="100" />
 	<WhereRules>
 		<DocWhereRule Name="HasDecomposition" UniqueId="bf084589-035f-4b00-9ede-6b38203d5162">
 			<Documentation>A valid instance of &lt;em&gt;IfcSlabElementedCase&lt;/em&gt; has to have parts in a decomposition hierarchy.</Documentation>

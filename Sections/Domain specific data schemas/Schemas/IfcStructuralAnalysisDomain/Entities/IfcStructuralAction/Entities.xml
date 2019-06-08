@@ -5,9 +5,7 @@
 		<DocLocalization Name="Structural Action" Locale="en" />
 		<DocLocalization Name="Action structurelle" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4810.19417317708" Y="937.462463378906" Width="242.666666666667" Height="131.801483626302" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4810.19417317708" Y="937.462463378906" Width="242.666666666667" Height="131.801483626302" />
 	<Subtypes>
 		<DocSubtype UniqueId="b48ff75f-886d-4b06-9bcb-5d8a3ce5f0bc" DefinedType="IfcStructuralPointAction" />
 		<DocSubtype UniqueId="269c03e1-3e51-4753-9842-a5551dcb0ccc" DefinedType="IfcStructuralCurveAction" />
@@ -21,9 +19,7 @@
 				<DocPoint X="5052.86083984375" Y="1053.93054199219" />
 				<DocPoint X="5388.86018880208" Y="1053.93054199219" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5052.86083984375" Y="1033.93054199219" Width="202" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5052.86083984375" Y="1033.93054199219" Width="202" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

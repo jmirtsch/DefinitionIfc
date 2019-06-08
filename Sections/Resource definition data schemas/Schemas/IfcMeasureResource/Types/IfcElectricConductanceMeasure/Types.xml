@@ -4,12 +4,8 @@
 		<DocLocalization Name="Electric Conductance Measure" Locale="en" />
 		<DocLocalization Name="Mesure de conductance électrique" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5665.1306" Y="515.54966" Width="456.72283" Height="54.923051" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_145G3YLUjCHhvORPjm9rL$" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5665.1306" Y="515.54966" Width="456.72283" Height="54.923051" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_145G3YLUjCHhvORPjm9rL" />
 	<DiagramLine>
 		<DocPoint X="6121.8534" Y="543.0112" />
 		<DocPoint X="6232.64409" Y="543.0112" />

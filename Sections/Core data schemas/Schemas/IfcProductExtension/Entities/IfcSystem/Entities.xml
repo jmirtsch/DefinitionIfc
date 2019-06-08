@@ -5,9 +5,7 @@
 		<DocLocalization Name="System" Locale="en" />
 		<DocLocalization Name="Système" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6548.3039" Y="3978.5377" Width="200" Height="148.66666" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="6548.3039" Y="3978.5377" Width="200" Height="148.66666" />
 	<Subtypes>
 		<DocSubtype UniqueId="7a8f7013-3d5c-429f-9f24-e18f8ce57092" DefinedType="IfcZone" />
 		<DocSubtype UniqueId="5d8055d3-4846-4000-b792-14e85d40d127" DefinedType="IfcBuildingSystem" />
@@ -20,9 +18,7 @@
 				<DocPoint X="7283.6707" Y="4027.6377" />
 				<DocPoint X="6748.30393" Y="4027.6377" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="7285.6456983" Y="4073.179366" Width="342" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="7285.6456983" Y="4073.179366" Width="342" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

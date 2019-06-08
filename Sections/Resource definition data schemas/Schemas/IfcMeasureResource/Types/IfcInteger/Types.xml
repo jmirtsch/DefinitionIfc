@@ -4,12 +4,8 @@
 		<DocLocalization Name="Integer" Locale="en" />
 		<DocLocalization Name="Entier" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2141.33357747396" Y="1202.66670735677" Width="178.666508992516" Height="65.3332926432292" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="INTEGER_1sQSjrCnjFxw9RcK1QJm0S" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="2141.33357747396" Y="1202.66670735677" Width="178.666508992516" Height="65.3332926432292" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="INTEGER_1sQSjrCnjFxw9RcK1QJm0S" />
 	<DiagramLine>
 		<DocPoint X="2141.33357747396" Y="1233.028663" />
 		<DocPoint X="2141.33357747396" Y="1233.028663" />

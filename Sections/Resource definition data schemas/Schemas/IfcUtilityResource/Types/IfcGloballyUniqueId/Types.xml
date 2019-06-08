@@ -4,12 +4,8 @@
 		<DocLocalization Name="Globally Unique Id" Locale="en" />
 		<DocLocalization Name="Identifiant unique global" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1264.41494996094" Y="36.2372652689616" Width="280.45885" Height="75.864712" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="STRING_3ynilg4C96p9BjwFj6UaHw" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="1264.41494996094" Y="36.2372652689616" Width="280.45885" Height="75.864712" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="STRING_3ynilg4C96p9BjwFj6UaHw" />
 	<DiagramLine>
 		<DocPoint X="1462.40761996094" Y="112.101977268962" />
 		<DocPoint X="1462.40761996094" Y="112.101977268962" />

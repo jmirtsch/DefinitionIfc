@@ -1,36 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2lJLZWSur20vi1n1BeFxC0">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcPerformanceHistory" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcPerformanceHistory" />
 	<Concepts>
 		<DocTemplateUsage Name="Property Sets for Performance" UniqueId="3MUSHbIPj49Rc$aEZu0wlX">
 			<Documentation>&lt;p&gt;The property sets relating to this entity are defined by &lt;em&gt;IfcPropertySet&lt;/em&gt; and attached by the &lt;em&gt;IfcRelDefinesByProperties&lt;/em&gt; relationship. They are accessible by the &lt;em&gt;IsDefinedBy&lt;/em&gt; inverse attribute. Applicable property sets are defined at assigned entities (primarily &lt;em&gt;IfcDistributionElement&lt;/em&gt; subtypes) where &lt;em&gt;IfcPropertySetTemplate.PropertySetType&lt;/em&gt; is &lt;em&gt;PSET_PERFORMANCEDRIVEN&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;In addition to standard property sets defined within this specification, if the underlying information source provides metadata (specific type information), then custom property sets may capture such data, where corresponding &lt;em&gt;IfcPropertySetTemplate&lt;/em&gt; and &lt;em&gt;IfcPropertyTemplate&lt;/em&gt; objects may be defined for such information to be accessed by other applications.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Performance_33BCLRhyT3dhWXvaRXiTqQ" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Performance_33BCLRhyT3dhWXvaRXiTqQ" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Classification" UniqueId="3YSWVdZqT9nuKpwTAuBMqY">
 			<Documentation>&lt;p&gt;&lt;em&gt;IfcPerformanceHistory&lt;/em&gt; may be classified using &lt;em&gt;IfcRelAssociatesClassification&lt;/em&gt; where &lt;em&gt;RelatingClassification&lt;/em&gt; refers to an &lt;em&gt;IfcClassificationReference&lt;/em&gt; indicating a classification notation. Such classification notation may be used to identify the information such as an address within a building automation system, a work breakdown structure code for tasks, or a cost code for resource allocation.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Classification Association_1A8aO9PNXCTQ$FYl_eRbxo" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Classification_Association_1A8aO9PNXCTQFYl_eRbxo" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Aggregation" UniqueId="0vrC0b4VzA6ONT1pdjGxeo">
 			<Documentation>&lt;p&gt;&lt;em&gt;IfcPerformanceHistory&lt;/em&gt; may be decomposed into components using &lt;em&gt;IfcRelNests&lt;/em&gt; where &lt;em&gt;RelatingObject&lt;/em&gt; refers to the enclosing &lt;em&gt;IfcPerformanceHistory&lt;/em&gt; and &lt;em&gt;RelatedObjects&lt;/em&gt; contains one or more &lt;em&gt;IfcPerformanceHistory&lt;/em&gt; components. Composition indicates breakdown of further detail and may correspond to the hierarchy of objects it represents.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
 			<Items>
 				<DocTemplateItem UniqueId="a14396c0-fd17-46e2-8932-55b4c1da7ef9" RuleParameters="PredefinedType=;RelatedObjects=IfcPerformanceHistory;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Control Assignment" UniqueId="1xyh2laWjFMR4dNcHjeoCZ">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Control Assignment_21FdF_La56IAQ0Y8VFGrdn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Control_Assignment_21FdF_La56IAQ0Y8VFGrdn" />
 			<Items>
 				<DocTemplateItem UniqueId="662928eb-48ac-48c7-a1f8-8658749bdf92" RuleParameters="Type=IfcGroup;" Order="0">
 					<Documentation>A system or zone for which time-based system information is provided, such as overall status parameters of a building control system.</Documentation>
@@ -47,8 +37,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="b9657a47-c374-4c5f-a800-a773670f8ef6" Type="IfcPerformanceHistory" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="f8253cca-67cf-4f71-8991-8e9f7f6515f7" Type="IfcPerformanceHistory" />
 </DocConceptRoot>
 

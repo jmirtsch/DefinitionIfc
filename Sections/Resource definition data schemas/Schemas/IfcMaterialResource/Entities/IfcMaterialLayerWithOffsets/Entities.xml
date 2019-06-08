@@ -5,9 +5,7 @@
 		<DocLocalization Name="Material Layer With Offsets" Locale="en" />
 		<DocLocalization Name="Couche de matériau avec décalage" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1779.4667" Y="2084.3615" Width="320.47512" Height="205.77512" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1779.4667" Y="2084.3615" Width="320.47512" Height="205.77512" />
 	<Attributes>
 		<DocAttribute Name="OffsetDirection" UniqueId="87429902-c8f3-4468-9d63-93f270258877" DefinedType="IfcLayerSetDirectionEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Orientation of the offset; shall be perpendicular to the parent layer set direction.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="2099.9419" Y="2137.5572" />
 				<DocPoint X="2499.449" Y="2137.5572" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2037.04859" Y="2126.122053" Width="170" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2037.04859" Y="2126.122053" Width="170" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="OffsetValues" UniqueId="2461922a-f119-43ed-a1ef-ca1607b59b2b" DefinedType="IfcLengthMeasure" AttributeFlags="0" AggregationType="2" AggregationFlag="0" AggregationLower="1" AggregationUpper="2">
 			<Documentation>The numerical value of layer offset, in the direction of the axis assigned by the attribute &lt;em&gt;OffsetDirection&lt;/em&gt;. The &lt;em&gt;OffsetValues[1]&lt;/em&gt; identifies the offset from the lower position along the axis direction (normally the start of the standard extrusion), the &lt;em&gt;OffsetValues[2]&lt;/em&gt; identifies the offset from the upper position along the axis direction (normally the end of the standard extrusion).</Documentation>
@@ -25,9 +21,7 @@
 				<DocPoint X="2099.9419" Y="2238.9312" />
 				<DocPoint X="2499.4666" Y="2238.9312" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2074.212819" Y="2230.3548395" Width="227" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2074.212819" Y="2230.3548395" Width="227" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

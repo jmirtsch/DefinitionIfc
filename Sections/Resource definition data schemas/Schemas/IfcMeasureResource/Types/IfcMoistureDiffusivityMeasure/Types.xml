@@ -4,12 +4,8 @@
 		<DocLocalization Name="Moisture Diffusivity Measure" Locale="en" />
 		<DocLocalization Name="Mesure de la diffusion d&apos;humidité" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5060.3649" Y="1191.9942" Width="529.20694" Height="54.923051" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_2Ly0gzqsDDgAwV7Lji0Hio" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5060.3649" Y="1191.9942" Width="529.20694" Height="54.923051" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_2Ly0gzqsDDgAwV7Lji0Hio" />
 	<DiagramLine>
 		<DocPoint X="5060.3649" Y="1217.9004" />
 		<DocPoint X="4971.330323" Y="1217.9004" />

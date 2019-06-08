@@ -3,12 +3,8 @@
 	<Localization>
 		<DocLocalization Name="Presentable Text" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6470.3" Y="2022.9" Width="323.23334" Height="99.966667" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="STRING_1Msgw6$hjEZPoUd75s0A9c" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="6470.3" Y="2022.9" Width="323.23334" Height="99.966667" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="STRING_1Msgw6hjEZPoUd75s0A9c" />
 	<DiagramLine>
 		<DocPoint X="6793.5334" Y="2072.8833" />
 		<DocPoint X="6977.63333" Y="2072.8833" />

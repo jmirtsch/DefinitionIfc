@@ -5,9 +5,7 @@
 		<DocLocalization Name="Material List" Locale="en" />
 		<DocLocalization Name="Liste de matériaux" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6522.909" Y="1836.976" Width="300.48367" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="6522.909" Y="1836.976" Width="300.48367" Height="100" />
 	<Attributes>
 		<DocAttribute Name="Materials" UniqueId="f7c9c7a0-f7e3-4163-b9a3-36a6ead9e8a2" DefinedType="IfcMaterial" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
 			<Documentation>Materials used in a composition of substances.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="6581.6696" Y="1936.976" />
 				<DocPoint X="6581.6696" Y="2145.794" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="6690.3035" Y="1894.030916" Width="183" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="6690.3035" Y="1894.030916" Width="183" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

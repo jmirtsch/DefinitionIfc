@@ -5,9 +5,7 @@
 		<DocLocalization Name="Product Definition Shape" Locale="en" />
 		<DocLocalization Name="Représentation de la forme du produit" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4130.8014" Y="1271.7361" Width="501.66667" Height="100.78123" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4130.8014" Y="1271.7361" Width="501.66667" Height="100.78123" />
 	<Attributes>
 		<DocAttribute Name="ShapeOfProduct" UniqueId="1ff74e69-c8f5-4180-bc2e-a643526f8098" DefinedType="IfcProduct" AttributeFlags="32" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0" Inverse="Representation">
 			<Documentation>The &lt;em&gt;IfcProductDefinitionShape&lt;/em&gt; shall be used to provide a representation for a single instance of &lt;em&gt;IfcProduct&lt;/em&gt;.
@@ -17,9 +15,7 @@
 				<DocPoint X="4381.6347" Y="1372.5173" />
 				<DocPoint X="4381.6347" Y="1622.67675" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="4564.21305" Y="1414.157977" Width="333" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="4564.21305" Y="1414.157977" Width="333" Height="70" />
 		</DocAttribute>
 		<DocAttribute Name="HasShapeAspects" UniqueId="4332ba90-64b3-4707-a15d-96b41a63195a" DefinedType="IfcShapeAspect" AttributeFlags="0" AggregationType="3" AggregationFlag="0" Inverse="PartOfProductDefinitionShape" XsdFormat="element">
 			<Documentation>Reference to the shape aspect that represents part of the shape or its feature distinctively.</Documentation>
@@ -27,9 +23,7 @@
 				<DocPoint X="4130.8014" Y="1319.5642" />
 				<DocPoint X="3535.30071" Y="1319.5642" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="4123.1138903" Y="1296.501671" Width="527" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="4123.1138903" Y="1296.501671" Width="527" Height="70" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

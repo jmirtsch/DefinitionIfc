@@ -5,8 +5,6 @@
 		<DocLocalization Name="Flow Segment" Locale="en" />
 		<DocLocalization Name="Tronçon d&apos;installation fluides" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="180.03537" Y="1696.8424" Width="518.4" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="180.03537" Y="1696.8424" Width="518.4" Height="100" />
 </DocEntity>
 

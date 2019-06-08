@@ -4,12 +4,8 @@
 		<DocLocalization Name="Day In Week Number" Locale="en" />
 		<DocLocalization Name="Numéro du jour de la semaine" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2644.43310546875" Y="1847.8057047526" Width="312.77945" Height="58.403148" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="INTEGER_2f8aDa3T5AbRGu0ZP6zAIU" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="2644.43310546875" Y="1847.8057047526" Width="312.77945" Height="58.403148" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="INTEGER_2f8aDa3T5AbRGu0ZP6zAIU" />
 	<WhereRules>
 		<DocWhereRule Name="ValidRange" UniqueId="35baa8f3-d43c-4715-b06e-4bc95424f5c9">
 			<Documentation>The valid range for positioning a day in a week is min inclusive = 1 and max inclusive = 7.</Documentation>

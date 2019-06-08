@@ -1,30 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2MpceKwHj4DO3VRgrwBzqe">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcRoot" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcRoot" />
 	<Concepts>
 		<DocTemplateUsage Name="Identity" UniqueId="2M_U5z9wDAMRM3lcQ2XFFY">
 			<Documentation>&lt;p&gt;&lt;em&gt;Globally unique ID, as compressed uuid, is assigned to each subtype of &lt;em&gt;IfcRoot&lt;/em&gt;.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Software Identity_3tome8$kTCm8N_G$QceBpX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Software_Identity_3tome8kTCm8N_GQceBpX" />
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="mandatory">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="mandatory">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="4ff807a2-5b35-4fd2-9aaa-71ef71e7a639" Type="IfcRoot" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="36a806f1-0012-430c-9709-dc072c1f69a7" Type="IfcRoot" />
 </DocConceptRoot>
 

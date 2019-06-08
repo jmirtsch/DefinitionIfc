@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0T_6c36dD6jgNNWMMeXEA8">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcDistributionPort" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcDistributionPort" />
 	<Concepts>
 		<DocTemplateUsage Name="Product Local Placement" UniqueId="0aL24kC5zFwe2tTrAR_vdu">
 			<Documentation>&lt;p&gt;The placement of a port indicates the position and orientation of how it may connect to a compatible port on another product.  
@@ -17,21 +15,15 @@ The &lt;i&gt;Location&lt;/i&gt; is the midpoint of the physical connection, unle
 &lt;p&gt;The &lt;i&gt;RefDirection&lt;/i&gt; points in the direction of the local X axis of the material profile, where the local Y axis points up if looking towards the &lt;i&gt;Axis&lt;/i&gt; where the local X axis points right.&lt;/p&gt;
 
 &lt;p&gt;Upon connecting elements through ports with rigid connections, each object shall be aligned such that the effective &lt;i&gt;Location&lt;/i&gt;, &lt;i&gt;Axis&lt;/i&gt;, and &lt;i&gt;RefDirection&lt;/i&gt; of each port is aligned to be equal (with exception for circular profiles where the &lt;i&gt;RefDirection&lt;/i&gt; need not be equal).&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="2MutRt8uT5GxeFtVcBYBio">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="b9d94707-0df3-4e63-b7fa-4c9a2d94f422" RuleParameters="PsetName=Pset_DistributionPortCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="f19d99b6-27b4-4714-9576-5ae92146c055">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="dc143003-3bd9-4a74-9ef4-30e1c43aedc5" RuleParameters="Order=1;PropertyName=PortNumber;Value=IfcInteger;" Order="0" />
 								<DocTemplateItem UniqueId="de16ec0a-8148-4c26-a33a-429c1a9fd962" RuleParameters="Order=2;PropertyName=ColorCode;Value=IfcLabel;" Order="0" />
@@ -42,9 +34,7 @@ The &lt;i&gt;Location&lt;/i&gt; is the midpoint of the physical connection, unle
 				<DocTemplateItem UniqueId="5c4de5c6-cb9c-40ca-a17f-5e5b84ba05b5" RuleParameters="PsetName=Pset_DistributionPortTypeCable;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="a6424a43-1fe5-4ef7-95e0-85afe2cf8e55">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="3f878078-e920-439b-aa1a-c62a4aa7e1c4" RuleParameters="Order=1;PropertyName=ConnectionType;Value=IfcLabel;Reference=PEnum_DistributionPortElectricalType;" Order="0" />
 								<DocTemplateItem UniqueId="13d36877-d276-4316-a26f-04dc2651454d" RuleParameters="Order=3;PropertyName=ConnectionGender;Value=IfcLabel;Reference=PEnum_DistributionPortGender;" Order="0" />
@@ -52,18 +42,14 @@ The &lt;i&gt;Location&lt;/i&gt; is the midpoint of the physical connection, unle
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="80ff6a11-19e4-4b24-bfbd-db806377c92a">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="4d89ca22-e4f9-4f1a-8180-c4ca9af74cbf" RuleParameters="Order=2;PropertyName=ConnectionSubtype;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="9cc12e3f-b955-4b4c-9379-a73e8461b48a" RuleParameters="Order=5;PropertyName=CurrentContent3rdHarmonic;Value=IfcPositiveRatioMeasure;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="6af62c2c-8e39-490d-a2d0-fdb5ccb2fc35">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Bounded_Value_0zPwBITXr4sQ2Ujkn_bOo" />
 							<Items>
 								<DocTemplateItem UniqueId="e93e4ca3-c27c-46aa-8364-e2836b3df144" RuleParameters="Order=6;PropertyName=Current;SetValue=IfcElectricCurrentMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="d06b23bb-5e5a-48f5-b0ba-e94460b242ab" RuleParameters="Order=7;PropertyName=Voltage;SetValue=IfcElectricVoltageMeasure;" Order="0" />
@@ -71,9 +57,7 @@ The &lt;i&gt;Location&lt;/i&gt; is the midpoint of the physical connection, unle
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="edb8fc46-be15-4eac-b653-ed0a98379e96">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="List Value_2E4BQ8aNbEEesoQhog$fKj" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="List_Value_2E4BQ8aNbEEesoQhogfKj" />
 							<Items>
 								<DocTemplateItem UniqueId="caf17cbd-b151-44a9-9ad2-100bf001f878" RuleParameters="Order=9;PropertyName=Protocols;Value=IfcIdentifier;" Order="0" />
 							</Items>
@@ -83,17 +67,13 @@ The &lt;i&gt;Location&lt;/i&gt; is the midpoint of the physical connection, unle
 				<DocTemplateItem UniqueId="993df1d6-d908-4088-aa29-bd7a0f3e843a" RuleParameters="PsetName=Pset_DistributionPortTypeDuct;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="5c48bb57-b216-40d7-8e73-f3fd5efd9c12">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="28caf599-40e7-4249-b972-7487b1bae066" RuleParameters="Order=1;PropertyName=ConnectionType;Value=IfcLabel;Reference=PEnum_DuctConnectionType;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="3ef2da69-ce9f-418b-b9c3-5f413b68a3e9">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="ff0b8ea2-a7a5-4842-b4de-283c957e10b7" RuleParameters="Order=2;PropertyName=ConnectionSubType;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="7d1d54a5-0c43-490a-b9dc-86f6370ef842" RuleParameters="Order=3;PropertyName=NominalWidth;Value=IfcPositiveLengthMeasure;" Order="0" />
@@ -102,9 +82,7 @@ The &lt;i&gt;Location&lt;/i&gt; is the midpoint of the physical connection, unle
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="2c6b04ef-a92e-4e50-b80d-ca030024e9cb">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Bounded_Value_0zPwBITXr4sQ2Ujkn_bOo" />
 							<Items>
 								<DocTemplateItem UniqueId="a1ef05e3-5bde-4911-bf93-ba802c9c9929" RuleParameters="Order=6;PropertyName=DryBulbTemperature;SetValue=IfcThermodynamicTemperatureMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="78f43206-b183-4c48-8744-c5b90aeace23" RuleParameters="Order=7;PropertyName=WetBulbTemperature;SetValue=IfcThermodynamicTemperatureMeasure;" Order="0" />
@@ -118,17 +96,13 @@ The &lt;i&gt;Location&lt;/i&gt; is the midpoint of the physical connection, unle
 				<DocTemplateItem UniqueId="cf9d71d6-d891-44d8-9f38-2908e66a9f85" RuleParameters="PsetName=Pset_DistributionPortTypePipe;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="51b01967-e1c0-491b-a3cc-78e2c4a763b8">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="7a3c1771-8e4b-49f6-85e9-44340d4e2011" RuleParameters="Order=1;PropertyName=ConnectionType;Value=IfcLabel;Reference=PEnum_PipeEndStyleTreatment;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="ccb7a6ad-7187-43ba-a857-e91452174614">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="75c5c20d-dd6b-4bc1-9b94-cf9a8c401b56" RuleParameters="Order=2;PropertyName=ConnectionSubType;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="168713d1-e199-4281-99d8-9bcf8801f370" RuleParameters="Order=3;PropertyName=NominalDiameter;Value=IfcPositiveLengthMeasure;" Order="0" />
@@ -137,9 +111,7 @@ The &lt;i&gt;Location&lt;/i&gt; is the midpoint of the physical connection, unle
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="ab97f10c-558c-4fc7-addf-3b67c293c421">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Bounded_Value_0zPwBITXr4sQ2Ujkn_bOo" />
 							<Items>
 								<DocTemplateItem UniqueId="0687c69a-6dcd-44a9-bd0a-47ac0708ae33" RuleParameters="Order=6;PropertyName=Temperature;SetValue=IfcThermodynamicTemperatureMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="12a496e3-cffa-4fa2-8a63-a82819d12770" RuleParameters="Order=7;PropertyName=VolumetricFlowRate;SetValue=IfcVolumetricFlowRateMeasure;" Order="0" />
@@ -159,9 +131,7 @@ The &lt;i&gt;Location&lt;/i&gt; is the midpoint of the physical connection, unle
 &lt;p&gt;Ports may be further nested into sub-ports, for indicating specific connections on components or pins.&lt;/p&gt;
 
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Port_Nesting_2w9EtqE92s8JFNQ8EuKWA" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Port Connectivity" UniqueId="1Yg7ZbCA55fxzx_FdZsykS">
 			<Documentation>&lt;p&gt;&lt;b&gt;IfcDistributionPort&lt;/b&gt; may be connected to other objects as follows using the indicated relationship:&lt;/p&gt;
@@ -192,9 +162,7 @@ Refer to &lt;a href=&quot;../../ifchvacdomain/lexical/ifcunitaryequipment.htm&qu
 &lt;tr&gt;&lt;td&gt;&lt;img alt=&quot;Connection Use Definition&quot; src=&quot;../../../figures/ifcdistributionport-connection.png&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 266 &amp;mdash; Distribution port connectivity&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Port Connectivity_0M$eHlCh55bRkmnAq5FQia" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Port_Connectivity_0MeHlCh55bRkmnAq5FQia" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Product Assignment" UniqueId="0$rMA_opv1Ex3XQqeiMAN4">
 			<Documentation>&lt;p&gt; The &lt;b&gt;IfcDistributionPort&lt;/b&gt; may be assigned to the following entities using relationships as indicated:&lt;/p&gt;
@@ -206,9 +174,7 @@ Refer to &lt;a href=&quot;../../ifchvacdomain/lexical/ifcunitaryequipment.htm&qu
 &lt;li&gt;&lt;em&gt;IfcPerformanceHistory&lt;/em&gt;&lt; (through &lt;em&gt;IfcRelAssignsToControl&lt;/em&gt;): Indicates real time or historical infomation captured for the device.&lt;/li&gt;
 
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Assignment_3idFi4hVv8Q85eru$fbQaJ" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Assignment_3idFi4hVv8Q85erufbQaJ" />
 			<Items>
 				<DocTemplateItem UniqueId="595d226a-a45f-4cd8-a704-9e2183b79cd5" RuleParameters="Type=IfcDistributionSystem;" Order="0">
 					<Documentation>Indicates a system that is hosted by the port, as the origination.</Documentation>
@@ -219,8 +185,6 @@ Refer to &lt;a href=&quot;../../ifchvacdomain/lexical/ifcunitaryequipment.htm&qu
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="390d5a56-d6a1-43ca-9fd1-e288f3f49d0c" Type="IfcDistributionPort" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="d3b12740-1d76-4ce2-ad3c-e9c8d23404bf" Type="IfcDistributionPort" />
 </DocConceptRoot>
 

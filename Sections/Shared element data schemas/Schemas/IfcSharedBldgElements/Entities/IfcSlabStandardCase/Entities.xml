@@ -5,9 +5,7 @@
 		<DocLocalization Name="Slab Standard Case" Locale="en" />
 		<DocLocalization Name="Dalle standard" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1113.9" Y="2057.5133" Width="438.63333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1113.9" Y="2057.5133" Width="438.63333" Height="100" />
 	<WhereRules>
 		<DocWhereRule Name="HasMaterialLayerSetusage" UniqueId="556bfbd0-f63d-4395-9c61-16ded2826faf">
 			<Documentation>A valid instance of &lt;em&gt;IfcSlabStandardCase&lt;/em&gt; relies on the provision of an &lt;em&gt;IfcMaterialLayerSetUsage&lt;/em&gt;.</Documentation>

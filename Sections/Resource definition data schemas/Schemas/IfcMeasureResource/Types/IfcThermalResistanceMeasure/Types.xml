@@ -4,12 +4,8 @@
 		<DocLocalization Name="Thermal Resistance Measure" Locale="en" />
 		<DocLocalization Name="mesure de résistance thermique" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5665.1981" Y="1786.3767" Width="456.70465" Height="53.00186" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_0Q6_taIav0SPNQBJVwDGu3" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5665.1981" Y="1786.3767" Width="456.70465" Height="53.00186" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_0Q6_taIav0SPNQBJVwDGu3" />
 	<DiagramLine>
 		<DocPoint X="6121.9028" Y="1811.3767" />
 		<DocPoint X="6232.64599" Y="1811.3767" />

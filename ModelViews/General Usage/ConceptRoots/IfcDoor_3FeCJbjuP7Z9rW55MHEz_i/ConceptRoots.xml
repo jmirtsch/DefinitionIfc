@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3FeCJbjuP7Z9rW55MHEz_i">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcDoor" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcDoor" />
 	<Concepts>
 		<DocTemplateUsage Name="Door Attributes" UniqueId="c172cb11-5adc-46ff-b037-57ae10dc1bc0">
 			<Documentation>&lt;p&gt;The opening direction is determined by the local placement of
@@ -132,14 +130,10 @@ pictures).&lt;/small&gt;&lt;/td&gt;
 &lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The &lt;em&gt;OverallWidth&lt;/em&gt; and
 &lt;em&gt;OverallHeight&lt;/em&gt; parameters are for informational purpose
 only.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Door Attributes_0UNQGfptnF8uioKwsOuZYj" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Door_Attributes_0UNQGfptnF8uioKwsOuZYj" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Object Typing" UniqueId="1S7xp$I8j5pwvnDGwr$lPD">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="dedb79f8-38f7-4faf-8dfe-5ae572f8de3e" RuleParameters="RelatingType=IfcDoorType;" Order="0" />
 				<DocTemplateItem UniqueId="9276ec91-377b-4037-8a5f-ad49145e6a3c" RuleParameters="RelatingType=IfcDoorStyle;" Order="0">
@@ -148,16 +142,12 @@ only.&lt;/blockquote&gt;</Documentation>
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Property Sets" UniqueId="010DlsXZT9ORjgheLioxej">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="db302a1d-b894-4c96-b471-861914b3e060" RuleParameters="PsetName=Pset_DoorCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="871b1977-0eba-4e29-a90a-b454cebb98fb">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="91a97d3e-9efd-4565-9ade-facef5ea4814" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="08a01d33-1da4-45a3-89e3-17927b59f949" RuleParameters="PropertyName=FireRating;Value=IfcLabel;" Order="0" />
@@ -180,9 +170,7 @@ only.&lt;/blockquote&gt;</Documentation>
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="02ee4826-bfe3-4011-b255-a8406daf58f1">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="9a87fd3a-4158-45c7-ba8a-bfcc42ef2c0a" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
 							</Items>
@@ -192,9 +180,7 @@ only.&lt;/blockquote&gt;</Documentation>
 				<DocTemplateItem UniqueId="29053b26-5299-468e-a763-2cec7f425122" RuleParameters="PsetName=Pset_DoorWindowGlazingType;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="c68a00aa-b93c-4bbc-b4ed-e90f5d8606cb">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="efa6d9da-b7ff-42b4-98c9-2ca383b939d7" RuleParameters="PropertyName=GlassLayers;Value=IfcCountMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="60965f25-ac4a-4b8a-a0f8-d154e3ca44bd" RuleParameters="PropertyName=GlassThickness1;Value=IfcPositiveLengthMeasure;" Order="0" />
@@ -222,9 +208,7 @@ only.&lt;/blockquote&gt;</Documentation>
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="11$P_Oly9D5gK9WiXS8a3t">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="bb071174-da6c-4aee-a4c2-f5594da5f84e" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_DoorBaseQuantities;TemplateType=QTO_OCCURRENCEDRIVEN;" Order="0" />
 			</Items>
@@ -234,9 +218,7 @@ only.&lt;/blockquote&gt;</Documentation>
 &lt;em&gt;IfcMaterialConstituentSet&lt;/em&gt; or as fall back by 
 &lt;em&gt;IfcMaterial&lt;/em&gt; and attached by the
 &lt;em&gt;IfcRelAssociatesMaterial&lt;/em&gt; relationship.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Constituent_Set_3PRtzzvq9Dk9jT6ADgRVY4" />
 			<Items>
 				<DocTemplateItem UniqueId="38d32b20-53cf-45c7-9ace-48f43f95e051" RuleParameters="Name=Lining;" Order="0">
 					<Documentation>Indicates that the material constituent applies to the door lining.</Documentation>
@@ -288,9 +270,7 @@ structure by
 &lt;/tr&gt;
 
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Containment_3Pe$WY01HBmesKdP1dTP15" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Containment_3PeWY01HBmesKdP1dTP15" />
 			<Items>
 				<DocTemplateItem UniqueId="d2a0e5fb-b5ee-4923-8d32-f9e515cd2edb" RuleParameters="RelatingStructure=IfcBuildingStorey;" Order="0">
 					<Documentation>Default spatial container</Documentation>
@@ -329,9 +309,7 @@ level.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The product placement is used to determine the opening direction of the door.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Profile 3D Geometry" UniqueId="5abb68db-3de6-4ef4-b0d7-4d78bb986a8c">
 			<Documentation>&lt;p&gt;The door profile is represented by a three-dimensional closed
@@ -343,13 +321,9 @@ representation. Only a single closed
 
 &lt;p&gt;A &apos;Profile&apos; representation has to be provided if a parametric 
 representation is applied to the door.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Profile 3D Geometry_0TYN8WT0r7avgDNITqnxm0" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Profile_3D_Geometry_0TYN8WT0r7avgDNITqnxm0" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="077177fd-a1e4-42e7-a5af-8282b2ffb181" Type="IfcDoor" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="02f41a9a-035d-457e-983b-31828832e1b0" Type="IfcDoor" />
 </DocConceptRoot>
 

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0XXJ_A5jD9yhYM5z5eAqr9">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcTask" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcTask" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="0qHI_BhnnAuBoqsuSrfGyY">
 			<Documentation>&lt;p&gt;
@@ -15,17 +13,13 @@ The &lt;em&gt;IfcTask&lt;/em&gt; defines the anticipated or actual occurrence
  sequence or any time related information, e.g. the duration
  of a task. Please see the documentation of
  &lt;em&gt;IfcTaskType&lt;/em&gt; for further information.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="dd91c9cd-d804-4e17-b321-4edcfe50789a" RuleParameters="RelatingType=IfcTaskType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Property Sets" UniqueId="2TD_JWixf46Qfq8q8q5LDm">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="2ee7139c-4b35-43b6-9b05-45b1787f15b0" RuleParameters="PredefinedType=MOVE;PsetName=Pset_PackingInstructions;" Order="0" />
 			</Items>
@@ -90,9 +84,7 @@ The &lt;em&gt;IfcTask&lt;/em&gt; defines the anticipated or actual occurrence
 
 
 &lt;p&gt;A top-level task is declared within the &lt;i&gt;IfcProject&lt;/i&gt; using the &lt;i&gt;IfcRelDeclares&lt;/i&gt; relationship.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Nesting_0uoeU8NaT178AKrM_UcbQH" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Nesting_0uoeU8NaT178AKrM_UcbQH" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Sequential Connectivity" UniqueId="0XlQ3k$xLBPQ5try4jkuHp">
 			<Documentation>&lt;p&gt;
@@ -103,9 +95,7 @@ The &lt;em&gt;IfcTask&lt;/em&gt; defines the anticipated or actual occurrence
       can trigger &lt;em&gt;IfcEvent&lt;/em&gt;&apos;s, which is also defined
       through the relationship &lt;em&gt;IfcRelSequence&lt;/em&gt;.
     &lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Sequential Connectivity_39yHY0ZFP7$gki1SSxG46n" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Sequential_Connectivity_39yHY0ZFP7gki1SSxG46n" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Control Assignment" UniqueId="3bDDmky092_9wBIsOAaqJy">
 			<Documentation>&lt;p&gt;
@@ -115,9 +105,7 @@ The &lt;em&gt;IfcTask&lt;/em&gt; defines the anticipated or actual occurrence
       &lt;em&gt;IfcRelAssignsTasks&lt;/em&gt; relationship class has been
       removed in IFC4 and is no longer available.
     &lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Control Assignment_21FdF_La56IAQ0Y8VFGrdn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Control_Assignment_21FdF_La56IAQ0Y8VFGrdn" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Process Assignment" UniqueId="0SNtt6wlz59BW965xKPvio">
 			<Documentation>&lt;p&gt;
@@ -125,14 +113,10 @@ It is suggested to use the &apos;summary task&apos;
  (root element of the task hierarchy that is required for
  task management purposes) to assign all subtask to a work
  plan or work schedule. Resources used by tasks are assigned by &lt;em&gt;IfcRelAssignsToProcess&lt;/em&gt;.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Process Assignment_3eGT0hpFrD7vGpsa24POHe" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Process_Assignment_3eGT0hpFrD7vGpsa24POHe" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Product Assignment" UniqueId="a5dbb564-e023-4ec6-9730-06c2a2450fd0">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Assignment_3idFi4hVv8Q85eru$fbQaJ" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Assignment_3idFi4hVv8Q85erufbQaJ" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Classification" UniqueId="1vsqiZMqDEeP1esMzhDqpK">
 			<Documentation>&lt;p&gt;
@@ -145,16 +129,12 @@ An &lt;em&gt;IfcTask&lt;/em&gt; may be assigned a Work Breakdown
  the source of the work breakdown structure classification
  to be identified.
 &lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Classification Association_1A8aO9PNXCTQ$FYl_eRbxo" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Classification_Association_1A8aO9PNXCTQFYl_eRbxo" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Constraint" UniqueId="0XRU61RGb2Ge$LGh4T_YmL">
 			<Documentation>&lt;p&gt;
 Constraints may be applied to a task to indicate fixed task duration, fixed start or fixed finish, where &lt;i&gt;IfcMetric&lt;/i&gt;.ReferencePath is set to the corresponding attribute on the &lt;i&gt;IfcTaskTime&lt;/i&gt; entity.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Constraint Association_30YoPCzyP7dwz$NMHS4mwe" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Constraint_Association_30YoPCzyP7dwzNMHS4mwe" />
 			<Items>
 				<DocTemplateItem UniqueId="cd2a098f-3034-40dd-a143-8322b4b15ba2" RuleParameters="Constrained Attribute=TaskTime.ScheduleDuration;" Order="0">
 					<Documentation>Indicate fixed duration of task with ConstraintGrade=HARD and Benchmark=EQUALTO such that changes to an assigned &lt;i&gt;IfcConstructionResource.ResourceTime.ScheduleWork&lt;/i&gt; should impact &lt;i&gt;IfcConstructionResource.ResourceTime.ScheduleUsage&lt;/i&gt;, and vice-versa.</Documentation>
@@ -168,8 +148,6 @@ Constraints may be applied to a task to indicate fixed task duration, fixed star
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="d0de36f6-5769-4ac1-a2ba-392eba9cbb0f" Type="IfcTask" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="3d63522b-ec06-417f-b540-e617700104d5" Type="IfcTask" />
 </DocConceptRoot>
 

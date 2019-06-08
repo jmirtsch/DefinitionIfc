@@ -5,9 +5,7 @@
 		<DocLocalization Name="Context Dependent Unit" Locale="en" />
 		<DocLocalization Name="Unité dépendant du contexte" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="540.15002" Y="1456.2969" Width="386.96093" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="540.15002" Y="1456.2969" Width="386.96093" Height="100" />
 	<Attributes>
 		<DocAttribute Name="Name" UniqueId="0bce538b-be29-4366-95f9-9fd28f48cd0a" DefinedType="IfcLabel" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The word, or group of words, by which the context dependent unit is referred to.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="687.5041" Y="1556.2969" />
 				<DocPoint X="687.5041" Y="1678.48647" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="733.796615" Y="1577.262402" Width="73" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="733.796615" Y="1577.262402" Width="73" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="HasExternalReference" UniqueId="a99f218c-3a41-42f7-bdd8-070f81d72e23" DefinedType="IfcExternalReferenceRelationship" AttributeFlags="32" AggregationType="3" AggregationFlag="0" Inverse="RelatedResourceObjects">
 			<Documentation>Reference to external information, e.g. library, classification, or document information, which is associated with the context dependent unit.
@@ -28,9 +24,7 @@
 				<DocPoint X="973.119957" Y="1895.72399" />
 				<DocPoint X="586.441067" Y="1895.72399" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="992.70898" Y="1924.403492" Width="399" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="992.70898" Y="1924.403492" Width="399" Height="70" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

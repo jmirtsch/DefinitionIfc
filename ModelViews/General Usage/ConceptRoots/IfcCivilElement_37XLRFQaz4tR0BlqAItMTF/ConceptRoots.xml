@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="c78556cf-6a4f-44dd-b00b-bf4292dd674f">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcCivilElement" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcCivilElement" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="bb7cd0e2-2450-48f9-bcd8-0188c16148e3">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="4d8c4c18-65e3-45d3-b385-d04668d71980" RuleParameters="RelatingType=IfcCivilElementType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Property Sets" UniqueId="1c0388f9-788a-4352-b2eb-43fc2facdd09">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="4725eba3-6014-4a1a-9551-314c212a030d" RuleParameters="PsetName=Pset_ConcreteElementGeneral;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="87f2563e-f6c3-4b52-acd3-67f8c20b40c1">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="f803d545-6b92-42e3-9829-ee0d4b3f7e5c" RuleParameters="PropertyName=ConstructionMethod;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="9ac96a21-63bb-413f-822b-0eee9ba57df1" RuleParameters="PropertyName=StructuralClass;Value=IfcLabel;" Order="0" />
@@ -43,9 +35,7 @@
 				<DocTemplateItem UniqueId="6c8fedc2-02a6-4007-9210-1cce9fc3d86a" RuleParameters="PsetName=Pset_PrecastConcreteElementFabrication;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="1dd4afe6-5f32-4cd4-a874-a9acba064cd0">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="70cb4753-fe14-4033-b281-bb55e66e7dc1" RuleParameters="PropertyName=TypeDesignator;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="94529efc-1c48-430c-9d2f-7663c230efa4" RuleParameters="PropertyName=ProductionLotId;Value=IfcIdentifier;" Order="0" />
@@ -61,9 +51,7 @@
 				<DocTemplateItem UniqueId="7008fbb0-fa46-4483-91df-ae1f631d760d" RuleParameters="PsetName=Pset_PrecastConcreteElementGeneral;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="cddca7b4-fe23-459a-ba88-3b5312d79625">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="379aeea6-6f8e-4c2d-a8c9-e7d38dafc3ff" RuleParameters="PropertyName=TypeDesignator;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="7972cf8a-7204-4c76-acae-44fe24a039c0" RuleParameters="PropertyName=CornerChamfer;Value=IfcPositiveLengthMeasure;" Order="0" />
@@ -91,18 +79,12 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Spatial Containment" UniqueId="576d5a62-a919-491e-98d2-44c3cab74d9d">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Containment_3Pe$WY01HBmesKdP1dTP15" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Containment_3PeWY01HBmesKdP1dTP15" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Classification" UniqueId="cf701f16-d3b4-4573-b8fa-ecd9e7e6d1cc">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Classification Association_1A8aO9PNXCTQ$FYl_eRbxo" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Classification_Association_1A8aO9PNXCTQFYl_eRbxo" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="9cedd03b-4103-484f-9415-800ecbfc3ed3" Type="IfcCivilElement" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="65affca3-470f-4aa0-bbb9-7f64852fc71e" Type="IfcCivilElement" />
 </DocConceptRoot>
 

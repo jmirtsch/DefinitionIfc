@@ -5,9 +5,7 @@
 		<DocLocalization Name="Trimmed Curve" Locale="en" />
 		<DocLocalization Name="Courbe de rognage" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="8602.3486328125" Y="461.788513183594" Width="278.666676839193" Height="254.66667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="8602.3486328125" Y="461.788513183594" Width="278.666676839193" Height="254.66667" />
 	<Attributes>
 		<DocAttribute Name="BasisCurve" UniqueId="e2455642-0894-4cbf-ba52-1acb4f6c4715" DefinedType="IfcCurve" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>The curve to be trimmed. For curves with multiple representations any parameter values given as Trim1 or Trim2 refer to the master representation of the BasisCurve only.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="8881.01530965169" Y="489.888527091797" />
 				<DocPoint X="9235.01529947917" Y="489.888527091797" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="8881.01530965169" Y="469.888527091797" Width="132" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="8881.01530965169" Y="469.888527091797" Width="132" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Trim1" UniqueId="58e41bff-104e-4220-bbdf-7b4a2098b9a3" DefinedType="IfcTrimmingSelect" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="2">
 			<Documentation>The first trimming point which may be specified as a Cartesian point, as a real parameter or both.</Documentation>
@@ -27,9 +23,7 @@
 				<DocPoint X="8773.765234375" Y="716.455183183594" />
 				<DocPoint X="8773.765234375" Y="817.78857421875" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="8773.765234375" Y="797.78857421875" Width="148" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="8773.765234375" Y="797.78857421875" Width="148" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Trim2" UniqueId="86e14707-9230-456e-b901-560cadf72284" DefinedType="IfcTrimmingSelect" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="2">
 			<Documentation>The second trimming point which may be specified as a Cartesian point, as a real parameter or both.</Documentation>
@@ -38,9 +32,7 @@
 				<DocPoint X="8773.765234375" Y="716.455183183594" />
 				<DocPoint X="8773.765234375" Y="817.78857421875" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="8773.765234375" Y="797.78857421875" Width="148" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="8773.765234375" Y="797.78857421875" Width="148" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="SenseAgreement" UniqueId="46ffc35f-be5c-4de9-8f14-2900fade3416" DefinedType="IfcBoolean" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Flag to indicate whether the direction of the trimmed curve agrees with or is opposed to the direction of the basis curve.</Documentation>
@@ -49,9 +41,7 @@
 				<DocPoint X="8881.01530965169" Y="587.78857421875" />
 				<DocPoint X="9233.01497395833" Y="587.78857421875" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="8881.01530965169" Y="567.78857421875" Width="198" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="8881.01530965169" Y="567.78857421875" Width="198" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="MasterRepresentation" UniqueId="fc7412a9-6e7e-4f16-bf76-cb309218dbbb" DefinedType="IfcTrimmingPreference" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Where both parameter and point are present at either end of the curve this indicates the preferred form.</Documentation>
@@ -60,9 +50,7 @@
 				<DocPoint X="8881.01530965169" Y="694.4951965" />
 				<DocPoint X="9235.4482421875" Y="694.4951965" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="8881.01530965169" Y="674.4951965" Width="251" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="8881.01530965169" Y="674.4951965" Width="251" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

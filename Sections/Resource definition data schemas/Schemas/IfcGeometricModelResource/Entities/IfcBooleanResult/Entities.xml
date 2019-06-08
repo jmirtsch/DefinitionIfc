@@ -5,9 +5,7 @@
 		<DocLocalization Name="Boolean Result" Locale="en" />
 		<DocLocalization Name="Résultat booléen" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1834.3667" Y="1691.6" Width="473.33333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1834.3667" Y="1691.6" Width="473.33333" Height="100" />
 	<Subtypes>
 		<DocSubtype UniqueId="8f32808e-282c-4d21-a563-2ca210fb5149" DefinedType="IfcBooleanClippingResult" />
 	</Subtypes>
@@ -18,9 +16,7 @@
 				<DocPoint X="1873.0333" Y="1791.6001" />
 				<DocPoint X="1873.0333" Y="1979.36003" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1813.699967" Y="1790.93343333" Width="105" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1813.699967" Y="1790.93343333" Width="105" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="FirstOperand" UniqueId="f51c36f8-0f38-4082-92d9-b168edd7afc6" DefinedType="IfcBooleanOperand" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The first operand to be operated upon by the Boolean operation.</Documentation>
@@ -29,9 +25,7 @@
 				<DocPoint X="2307.70003" Y="1948.02669270833" />
 				<DocPoint X="2690.46923828125" Y="1948.02669270833" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2307.70003" Y="1928.02669270833" Width="151" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2307.70003" Y="1928.02669270833" Width="151" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="SecondOperand" UniqueId="aca2312f-8b6b-4323-9475-e793e362a83f" DefinedType="IfcBooleanOperand" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The second operand specified for the operation.</Documentation>
@@ -40,9 +34,7 @@
 				<DocPoint X="2307.70003" Y="1975.36002604167" />
 				<DocPoint X="2690.46923828125" Y="1975.36002604167" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2307.70003" Y="1955.36002604167" Width="188" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2307.70003" Y="1955.36002604167" Width="188" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Dim" UniqueId="03027ef0-664e-4604-aeb7-80ba4e6e11eb" DefinedType="IfcDimensionCount" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The space dimensionality of this entity. It is identical with the space dimensionality of the first operand. A where rule ensures that both operands have the same space dimensionality.</Documentation>
@@ -51,9 +43,7 @@
 				<DocPoint X="2307.7" Y="1741.6" />
 				<DocPoint X="2691.99997" Y="1741.6" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2307.7" Y="1741.6" Width="125" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2307.7" Y="1741.6" Width="125" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

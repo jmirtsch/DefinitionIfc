@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3PwYcPlA1EvRTG8_Q5Rjsj">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcAnnotation" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcAnnotation" />
 	<Concepts>
 		<DocTemplateUsage UniqueId="3iraqLoTX0AuBdokgdqg9j">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="35696030-7a62-4ba8-996a-450dd49ca094" RuleInstanceID="IfcPropertySet" RuleParameters="PredefinedType=ContourLine;PsetName=Pset_AnnotationContourLine;" Order="0" />
 				<DocTemplateItem UniqueId="2d4b6e2f-b1cf-4c7a-af50-09311ff457cc" RuleInstanceID="IfcPropertySet" RuleParameters="PredefinedType=LineOfSight;PsetName=Pset_AnnotationLineOfSight;TemplateType=PSET_OCCURRENCEDRIVEN;" Order="0" />
@@ -16,9 +12,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Annotation 2D Geometry" UniqueId="b17d6670-1ba5-41f2-a71f-c2df1b699aa9">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Annotation 2D Geometry_01GMQdxoj86B$B4IYcaS_V" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Annotation_2D_Geometry_01GMQdxoj86BB4IYcaS_V" />
 			<Items>
 				<DocTemplateItem UniqueId="0558c9be-51bb-4752-a075-b7697217a305" RuleParameters="Identifier=Annotation;Type=Annotation2D;Items=IfcGeometricCurveSet;" Order="0">
 					<Documentation>Any point or curve</Documentation>
@@ -32,9 +26,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Annotation 3D Geometry" UniqueId="9bb86507-e646-4b69-ab5e-c2d0bd15b771">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Annotation 3D Geometry_0F8JX6$XL61wPgipwOorY7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Annotation_3D_Geometry_0F8JX6XL61wPgipwOorY7" />
 			<Items>
 				<DocTemplateItem UniqueId="ee8a18ee-f45b-4b07-ac4f-d11fd1b40bfa" RuleParameters="Identifier=Annotation;Type=GeometricSet;Items=IfcGeometricSet;" Order="0">
 					<Documentation>Any point, curve or surface representing the annotation.</Documentation>
@@ -42,8 +34,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="dd112d69-fc2d-4e67-b99a-8be12a41f0e1" Type="IfcAnnotation" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="8bbf1024-79a2-46a1-986e-74b43fab68cb" Type="IfcAnnotation" />
 </DocConceptRoot>
 

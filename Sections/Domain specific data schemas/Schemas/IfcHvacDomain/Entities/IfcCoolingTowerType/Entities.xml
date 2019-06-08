@@ -5,9 +5,7 @@
 		<DocLocalization Name="Cooling Tower Type" Locale="en" />
 		<DocLocalization Name="Type de tour de refroidissement" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="69.817815" Y="1257.4106" Width="401.55233" Height="102.11007" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="69.817815" Y="1257.4106" Width="401.55233" Height="102.11007" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="2357962a-5d20-4f79-8146-a8ff8b9b3810" DefinedType="IfcCoolingTowerTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines the typical types of cooling towers (e.g., OpenTower, ClosedTower, CrossFlow, etc.).</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="471.37014" Y="1308.4656" />
 				<DocPoint X="681.58782" Y="1308.4656" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="471.37014" Y="1308.4656" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="471.37014" Y="1308.4656" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Shading Device" Locale="en" />
 		<DocLocalization Name="Protection solaire" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1865.3667" Y="1636.6333" Width="313.9" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1865.3667" Y="1636.6333" Width="313.9" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="90d1d5f5-d2cf-4c97-9697-5d0155eb4bf0" DefinedType="IfcShadingDeviceTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined generic type for a shading device that is specified in an enumeration. There may be a property set given specificly for the predefined types.
@@ -17,9 +15,7 @@
 				<DocPoint X="2179.2667" Y="1686.6333" />
 				<DocPoint X="2501.90003" Y="1686.6333" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2152.600033" Y="1673.299967" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2152.600033" Y="1673.299967" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

@@ -4,9 +4,7 @@
 		<DocLocalization Name="Verbindet Elemente mit Pfaddefinition - Relation" Locale="de" />
 		<DocLocalization Name="Rel Connects Path Elements" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6652.03385416667" Y="719.516682942708" Width="463.33333" Height="169.83334" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="6652.03385416667" Y="719.516682942708" Width="463.33333" Height="169.83334" />
 	<Attributes>
 		<DocAttribute Name="RelatingPriorities" UniqueId="875ef649-a65e-40cd-970a-b99ead08ca9f" DefinedType="IfcInteger" AttributeFlags="0" AggregationType="1" AggregationFlag="0">
 			<Documentation>Overriding priorities at this connection. It overrides the standard priority given at the wall layer provided by &lt;em&gt;IfcMaterialLayer&lt;/em&gt;.&lt;em&gt;Priority&lt;/em&gt;. The list of &lt;em&gt;RelatingProperties&lt;/em&gt; corresponds to the list of &lt;em&gt;IfcMaterialLayerSet&lt;/em&gt;.&lt;em&gt;MaterialLayers&lt;/em&gt; of the element referenced by &lt;em&gt;RelatingObject&lt;/em&gt;.
@@ -18,9 +16,7 @@ IFC4 CHANGE&amp;nbsp; Data type changed to NUMBER and usage to hold a normalized
 				<DocPoint X="7115.36718416667" Y="757.494333902995" />
 				<DocPoint X="7432.70035807292" Y="757.494333902995" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="7115.36718416667" Y="737.494333902995" Width="269" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="7115.36718416667" Y="737.494333902995" Width="269" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="RelatedPriorities" UniqueId="7362235e-2a0d-4f5e-af69-482fd8dacac7" DefinedType="IfcInteger" AttributeFlags="0" AggregationType="1" AggregationFlag="0">
 			<Documentation>Overriding priorities at this connection. It overrides the standard priority given at the wall layer provided by &lt;em&gt;IfcMaterialLayer&lt;/em&gt;.&lt;em&gt;Priority&lt;/em&gt;. The list of &lt;em&gt;RelatedProperties&lt;/em&gt; corresponds to the list of &lt;em&gt;IfcMaterialLayerSet&lt;/em&gt;.&lt;em&gt;MaterialLayers&lt;/em&gt; of the element referenced by &lt;em&gt;RelatedObject&lt;/em&gt;.
@@ -32,9 +28,7 @@ IFC4 CHANGE&amp;nbsp; Data type changed to NUMBER and usage to hold a normalized
 				<DocPoint X="7115.36718416667" Y="849.516693115234" />
 				<DocPoint X="7435.3671875" Y="849.516693115234" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="7115.36718416667" Y="829.516693115234" Width="264" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="7115.36718416667" Y="829.516693115234" Width="264" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="RelatedConnectionType" UniqueId="add30ef4-48b3-4bba-9732-f682f23c1293" DefinedType="IfcConnectionTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Indication of the connection type in relation to the path of the &lt;em&gt;RelatingObject&lt;/em&gt;.</Documentation>
@@ -43,9 +37,7 @@ IFC4 CHANGE&amp;nbsp; Data type changed to NUMBER and usage to hold a normalized
 				<DocPoint X="6889.067" Y="889.350022942708" />
 				<DocPoint X="6889.067" Y="1034.1833" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="6889.067" Y="1014.1833" Width="274" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="6889.067" Y="1014.1833" Width="274" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="RelatingConnectionType" UniqueId="f9db190a-4cfc-4840-9fda-0fbdb3adda53" DefinedType="IfcConnectionTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Indication of the connection type in relation to the path of the &lt;em&gt;RelatingObject&lt;/em&gt;.</Documentation>
@@ -54,9 +46,7 @@ IFC4 CHANGE&amp;nbsp; Data type changed to NUMBER and usage to hold a normalized
 				<DocPoint X="6889.067" Y="889.350022942708" />
 				<DocPoint X="6889.067" Y="1034.1833" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="6889.067" Y="1014.1833" Width="279" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="6889.067" Y="1014.1833" Width="279" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

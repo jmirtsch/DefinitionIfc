@@ -5,9 +5,7 @@
 		<DocLocalization Name="Unit Assignment" Locale="en" />
 		<DocLocalization Name="Assignation d&apos;unité" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="557.11604" Y="47.302422" Width="356.66667" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="557.11604" Y="47.302422" Width="356.66667" Height="100" />
 	<Attributes>
 		<DocAttribute Name="Units" UniqueId="41282efe-7993-4329-a53b-a25bface8606" DefinedType="IfcUnit" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
 			<Documentation>Units to be included within a unit assignment.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="913.78271" Y="97.302422" />
 				<DocPoint X="1231.60236" Y="97.302422" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="913.78271" Y="84.660964" Width="142" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="913.78271" Y="84.660964" Width="142" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

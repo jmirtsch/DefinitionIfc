@@ -5,9 +5,7 @@
 		<DocLocalization Name="Bounded Curve" Locale="en" />
 		<DocLocalization Name="Courbe englobée" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="8314.4931640625" Y="43.21142578125" Width="384.66667" Height="99.999994913737" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="8314.4931640625" Y="43.21142578125" Width="384.66667" Height="99.999994913737" />
 	<Subtypes>
 		<DocSubtype UniqueId="f26a9f3d-86ba-4b32-bb50-045cc530c642" DefinedType="IfcCompositeCurve" />
 		<DocSubtype UniqueId="b61b5d12-b5b5-4c03-82ac-4fb4822b9966" DefinedType="IfcPolyline" />

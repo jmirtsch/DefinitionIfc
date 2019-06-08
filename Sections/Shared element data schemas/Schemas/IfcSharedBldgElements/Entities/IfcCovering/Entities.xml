@@ -5,9 +5,7 @@
 		<DocLocalization Name="Covering" Locale="en" />
 		<DocLocalization Name="Revêtement" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1865.4062" Y="1849.8359" Width="228" Height="268" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1865.4062" Y="1849.8359" Width="228" Height="268" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="1c0df8fd-2a8e-4b75-a68e-22fa8c279270" DefinedType="IfcCoveringTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined types to define the particular type of the covering. There may be property set definitions available for each predefined type.
@@ -16,9 +14,7 @@
 				<DocPoint X="2093.4062" Y="1876.6359" />
 				<DocPoint X="2506.7062" Y="1876.6359" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2093.4062" Y="1876.6359" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2093.4062" Y="1876.6359" Width="182" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="CoversSpaces" UniqueId="84a19b72-c5f8-40f0-8380-e4989bb7d407" DefinedType="IfcRelCoversSpaces" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="RelatedCoverings">
 			<Documentation>Reference to the objectified relationship that handles the relationship of the covering to the covered space.</Documentation>
@@ -26,9 +22,7 @@
 				<DocPoint X="2093.4062" Y="1977.8316" />
 				<DocPoint X="2643.83323" Y="1977.8316" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2066.739533" Y="2004.498267" Width="443" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2066.739533" Y="2004.498267" Width="443" Height="70" />
 		</DocAttribute>
 		<DocAttribute Name="CoversElements" UniqueId="1e41a6ca-9e36-4047-a656-34a282811332" DefinedType="IfcRelCoversBldgElements" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="RelatedCoverings">
 			<Documentation>Reference to the objectified relationship that handles the relationship of the covering to the covered element.
@@ -38,9 +32,7 @@
 				<DocPoint X="2093.4062" Y="2082.5025" />
 				<DocPoint X="2650.87287" Y="2082.5025" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2093.4062" Y="2109.169167" Width="512" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2093.4062" Y="2109.169167" Width="512" Height="70" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

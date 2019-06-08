@@ -5,9 +5,7 @@
 		<DocLocalization Name="Air Terminal Box Type" Locale="en" />
 		<DocLocalization Name="Type de diffuseur d&apos;air" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4847.601" Y="406.27662" Width="381.45241" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4847.601" Y="406.27662" Width="381.45241" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="c02b5e63-acde-4c6c-8b33-c2027b182472" DefinedType="IfcAirTerminalBoxTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The air terminal box type.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="5229.0534" Y="456.27662" />
 				<DocPoint X="5476.39476" Y="456.27662" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5230.4907646" Y="449.43045" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5230.4907646" Y="449.43045" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

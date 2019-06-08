@@ -5,9 +5,7 @@
 		<DocLocalization Name="Construction Resource Type" Locale="en" />
 		<DocLocalization Name="Type de ressource de construction" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1322.88" Y="218.74667" Width="245.33333" Height="886.66667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1322.88" Y="218.74667" Width="245.33333" Height="886.66667" />
 	<Subtypes>
 		<DocSubtype UniqueId="7fa1b2d7-ef27-4225-bf96-e8884326ea47" DefinedType="IfcCrewResourceType" />
 		<DocSubtype UniqueId="3301b2cd-3fae-433b-af04-23876866ef58" DefinedType="IfcLaborResourceType" />
@@ -27,9 +25,7 @@
 				<DocPoint X="1211.62335" Y="528.6000033" />
 				<DocPoint X="1100.3667" Y="528.6000033" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1331.6128627" Y="513.115814" Width="203" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1331.6128627" Y="513.115814" Width="203" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="BaseQuantity" UniqueId="e52f14a1-d244-46eb-8c1f-d7685c63d749" DefinedType="IfcPhysicalQuantity" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Identifies the quantity for which the &lt;em&gt;BaseQuantityProduced&lt;/em&gt; applies.  The &lt;em&gt;Name&lt;/em&gt; of the &lt;em&gt;IfcPhysicalQuantity&lt;/em&gt; identifies the quantity definition being measured, e.g. &quot;GrossVolume&quot;.  For production-based resources (e.g. carpentry labor), this value refers to quantities on &lt;em&gt;IfcProduct&lt;/em&gt;(s) to which the assigned &lt;em&gt;IfcTask&lt;/em&gt; is assigned.  For duration-based resources (e.g. safety inspector, fuel for equipment), this value refers to quantities that may be assigned to occurrences of the assigned &lt;em&gt;IfcTaskType&lt;/em&gt;.
@@ -41,9 +37,7 @@
 				<DocPoint X="1211.64" Y="663.8666733" />
 				<DocPoint X="1100.4" Y="663.8666733" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1344.598358" Y="656.100674" Width="155" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1344.598358" Y="656.100674" Width="155" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

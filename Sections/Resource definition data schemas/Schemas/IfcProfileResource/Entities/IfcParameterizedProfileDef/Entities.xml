@@ -4,9 +4,7 @@
 		<DocLocalization Name="Profil - parametrische Definition" Locale="de" />
 		<DocLocalization Name="Parameterized Profile Def" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="396.66666" Y="1132.21" Width="365.333333333333" Height="136.66666" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="396.66666" Y="1132.21" Width="365.333333333333" Height="136.66666" />
 	<Subtypes>
 		<DocSubtype UniqueId="19a7e5d3-4d49-4fdf-a952-a8f1074b3e10" DefinedType="IfcIShapeProfileDef" />
 		<DocSubtype UniqueId="b7499e5f-b032-4a0a-8b90-1d90a08a8702" DefinedType="IfcLShapeProfileDef" />
@@ -28,9 +26,7 @@
 				<DocPoint X="761.999993333333" Y="1201.0716" />
 				<DocPoint X="947.92996" Y="1201.0716" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="761.999993333333" Y="1181.0716" Width="94" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="761.999993333333" Y="1181.0716" Width="94" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

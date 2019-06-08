@@ -5,9 +5,7 @@
 		<DocLocalization Name="Electric Appliance Type" Locale="en" />
 		<DocLocalization Name="Type d&apos;appareil électrique" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="85.2835" Y="918.40914" Width="679.83333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="85.2835" Y="918.40914" Width="679.83333" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="7e22deff-65cd-48eb-8c95-7a08845da6e2" DefinedType="IfcElectricApplianceTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>&lt;p&gt;Identifies the predefined types of electrical appliance from which the type required may be set.&lt;/p&gt;</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="86.533498" Y="1069.275733" />
 				<DocPoint X="500.516788" Y="1069.275733" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="-5.88311200000001" Y="1062.4924161" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="-5.88311200000001" Y="1062.4924161" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

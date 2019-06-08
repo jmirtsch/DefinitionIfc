@@ -5,9 +5,7 @@
 		<DocLocalization Name="Sub Contract Resource" Locale="en" />
 		<DocLocalization Name="Ressource de sous-traitance" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="95.45326" Y="1620.6667" Width="658.16667" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="95.45326" Y="1620.6667" Width="658.16667" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="a02a4c25-90a4-46b2-93b8-146a851d4535" DefinedType="IfcSubContractResourceTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines types of subcontract resources.
@@ -17,9 +15,7 @@
 				<DocPoint X="104.5366" Y="1767.973367" />
 				<DocPoint X="467.70001" Y="1767.973367" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="24.5366" Y="1762.6400336" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="24.5366" Y="1762.6400336" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

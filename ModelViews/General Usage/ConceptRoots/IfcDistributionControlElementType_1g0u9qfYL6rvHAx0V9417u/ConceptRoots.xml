@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1g0u9qfYL6rvHAx0V9417u">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcDistributionControlElementType" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcDistributionControlElementType" />
 	<Concepts>
 		<DocTemplateUsage Name="Product Type Assignment" UniqueId="132dbzaMj3nxihP_mc6YmC">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Type Assignment_2BbKMj_Ub0FOQ2L62$woS6" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Type_Assignment_2BbKMj_Ub0FOQ2L62woS6" />
 			<Items>
 				<DocTemplateItem UniqueId="27e7647b-c942-4809-bd9a-c9a560b5d046" RuleParameters="Type=IfcTaskType;" Order="0">
 					<Documentation>Indicates task types available to purchase, install, renovate, demolish, operate, or otherwise act upon occurrences of the element type.  Such task types may be instantiated as task occurrences assigned to occurrences of the element type.  Prices (such as for purchasing or shipping) may be established by resource types assigned to task types.</Documentation>
@@ -21,8 +17,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="b2d99feb-9214-4b23-b2b3-af5a1749780a" Type="IfcDistributionControlElementType" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="cf7e6f60-b0c0-4df6-91e3-3a94f43da97b" Type="IfcDistributionControlElementType" />
 </DocConceptRoot>
 

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Proxy" Locale="en" />
 		<DocLocalization Name="Objet utilisateur (définit par l&apos;utilisateur)" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="9684.778" Y="1585.4445" Width="454.06667" Height="100.66666" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="9684.778" Y="1585.4445" Width="454.06667" Height="100.66666" />
 	<Attributes>
 		<DocAttribute Name="ProxyType" UniqueId="7c83d5c4-1b38-400e-8d64-cbbcb8893211" DefinedType="IfcObjectTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>High level (and only) semantic meaning attached to the IfcProxy, defining the basic construct type behind the Proxy, e.g. Product or Process.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="10087.811" Y="1686.1112" />
 				<DocPoint X="10087.811" Y="1781.96124" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="10171.964316" Y="1700.9237" Width="124" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="10171.964316" Y="1700.9237" Width="124" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Tag" UniqueId="d45cbd31-dd92-4820-9238-63d0fd345dc6" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The tag (or label) identifier at the particular instance of a product, e.g. the serial number, or the position number. It is the identifier at the occurrence level.</Documentation>
@@ -25,9 +21,7 @@
 				<DocPoint X="9748.49" Y="1686.1112" />
 				<DocPoint X="9748.49" Y="1781.92588" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="9795.156667" Y="1702.1112" Width="50" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="9795.156667" Y="1702.1112" Width="50" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

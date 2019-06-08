@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSpatialZoneTypeEnum" UniqueId="fc0dac05-25d9-47f7-b430-9ed240490643" DiagramNumber="5">
 	<Localization>
-		<DocLocalization Name="Spatial Zone Type Enum" Locale="en" />
-		<DocLocalization Name="Énumération des types de zone spatiale" Locale="fr" />
+		<DocLocalization xsi:nil="true" href="i43852" />
+		<DocLocalization xsi:nil="true" href="i43853" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="7464.7375" Y="1142.6094" Width="429.93333" Height="88.333333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" xsi:nil="true" href="i43854" />
 	<Constants>
 		<DocConstant xsi:nil="true" href="CONSTRUCTION_2rpHh4rLTA0BYoaCZwDNUf" />
 		<DocConstant xsi:nil="true" href="FIRESAFETY_0ly5DVlXL4cxIItQ1yug_x" />
-		<DocConstant xsi:nil="true" href="LIGHTING_2C7$JMTED8PA1OwBpdFBui" />
+		<DocConstant xsi:nil="true" href="LIGHTING_2C7JMTED8PA1OwBpdFBui" />
 		<DocConstant xsi:nil="true" href="OCCUPANCY_3WlyX20aX8lueN8Yx0lP_z" />
 		<DocConstant xsi:nil="true" href="SECURITY_3OIJulfxr0seF_xTwLHcHI" />
 		<DocConstant xsi:nil="true" href="THERMAL_3obU5V2rDA3vhNZ_sM3gY6" />

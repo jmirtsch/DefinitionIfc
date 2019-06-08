@@ -5,9 +5,7 @@
 		<DocLocalization Name="Geographic Element" Locale="en" />
 		<DocLocalization Name="Elément géographique" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1810.7682" Y="813.77397" Width="363.92667" Height="101.23333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1810.7682" Y="813.77397" Width="363.92667" Height="101.23333" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="5a1c5b8d-f2f7-464f-9a4b-7c580a022a18" DefinedType="IfcGeographicElementTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined generic types for a geographic element that are specified in an enumeration. There might be property sets defined specifically for each predefined type.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="2174.6949" Y="864.39064" />
 				<DocPoint X="2697.2949" Y="864.39064" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2174.6949" Y="853.723973" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2174.6949" Y="853.723973" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

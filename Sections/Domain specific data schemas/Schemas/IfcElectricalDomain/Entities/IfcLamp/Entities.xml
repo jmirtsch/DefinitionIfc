@@ -5,9 +5,7 @@
 		<DocLocalization Name="Lamp" Locale="en" />
 		<DocLocalization Name="Lampe" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="839.09333" Y="715.95333" Width="679.9" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="839.09333" Y="715.95333" Width="679.9" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="74ec89a6-5a27-465e-b178-e27168f9c234" DefinedType="IfcLampTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
@@ -15,9 +13,7 @@
 				<DocPoint X="1512.3767" Y="864.309963" />
 				<DocPoint X="1094.1334" Y="864.309963" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1417.921717" Y="810.6199967" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1417.921717" Y="810.6199967" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

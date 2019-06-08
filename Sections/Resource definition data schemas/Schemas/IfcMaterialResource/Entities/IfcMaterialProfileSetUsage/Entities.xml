@@ -5,9 +5,7 @@
 		<DocLocalization Name="Material Profile Set Usage" Locale="en" />
 		<DocLocalization Name="Mise en place d&apos;un ensemble de matériaux de profil" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3410.2923" Y="262.3709" Width="434.86842" Height="177.1661" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3410.2923" Y="262.3709" Width="434.86842" Height="177.1661" />
 	<Subtypes>
 		<DocSubtype UniqueId="65dd1bda-9ca0-407c-b19a-1f8f9105142a" DefinedType="IfcMaterialProfileSetUsageTapering" />
 	</Subtypes>
@@ -18,9 +16,7 @@
 				<DocPoint X="3604.8562" Y="439.537" />
 				<DocPoint X="3604.8562" Y="801.42377" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3698.826568" Y="490.00333" Width="150" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3698.826568" Y="490.00333" Width="150" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="CardinalPoint" UniqueId="66625475-0f95-4c75-8e18-07cd905063a7" DefinedType="IfcCardinalPointReference" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Index reference to a significant point in the section profile. Describes how the section is aligned relative to the (longitudinal) axis of the member it is associated with. This parametric specification of profile alignment can be provided redundantly to the explicit alignment defined by ForProfileSet.MaterialProfiles[*].Profile.</Documentation>
@@ -29,9 +25,7 @@
 				<DocPoint X="3609.1009" Y="134.42581" />
 				<DocPoint X="3999.11531" Y="134.42581" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3537.841185" Y="123.749872" Width="155" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3537.841185" Y="123.749872" Width="155" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ReferenceExtent" UniqueId="0030178b-e5f9-4374-9d8c-f15dd967e318" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Extent of the extrusion of the elements body shape representation to which the &lt;em&gt;IfcMaterialProfileSetUsage&lt;/em&gt; applies. It is used as the reference value for the upper &lt;em&gt;OffsetValues[2]&lt;/em&gt; provided by the &lt;em&gt;IfcMaterialProfileSetWithOffsets&lt;/em&gt; subtype for included material profiles.
@@ -43,9 +37,7 @@
 				<DocPoint X="3692.2099" Y="545.35145" />
 				<DocPoint X="4002.38252" Y="545.35145" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3668.627786" Y="526.749665" Width="192" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3668.627786" Y="526.749665" Width="192" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

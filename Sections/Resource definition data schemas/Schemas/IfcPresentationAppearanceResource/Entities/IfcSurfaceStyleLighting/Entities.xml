@@ -5,9 +5,7 @@
 		<DocLocalization Name="Surface Style Lighting" Locale="en" />
 		<DocLocalization Name="Style d&apos;éclairage de surface" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="143.533315022786" Y="3673.7666015625" Width="331.33332824707" Height="473.33333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="143.533315022786" Y="3673.7666015625" Width="331.33332824707" Height="473.33333" />
 	<Attributes>
 		<DocAttribute Name="DiffuseTransmissionColour" UniqueId="ef4c74ec-f03f-4567-a490-c9c5a67e7c49" DefinedType="IfcColourRgb" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>The degree of diffusion of the transmitted light. In the case of completely transparent materials there is no diffusion. The greater the diffusing power, the smaller the direct component of the transmitted light, up to the point where only diffuse light is produced. A value of 1 means totally diffuse for that colour part of the light.
@@ -17,9 +15,7 @@
 				<DocPoint X="474.866643269857" Y="3776.0334" />
 				<DocPoint X="989.09997" Y="3776.0334" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="474.866643269857" Y="3756.0334" Width="302" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="474.866643269857" Y="3756.0334" Width="302" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="DiffuseReflectionColour" UniqueId="0379917f-0cc5-464f-800d-f7bb8344e052" DefinedType="IfcColourRgb" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>The degree of diffusion of the reflected light. In the case of specular surfaces there is no diffusion. The greater the diffusing power of the reflecting surface, the smaller the specular component of the reflected light, up to the point where only diffuse light is produced. A value of 1 means totally diffuse for that colour part of the light. 
@@ -29,9 +25,7 @@
 				<DocPoint X="474.866643269857" Y="3893.3667" />
 				<DocPoint X="989.19997" Y="3893.3667" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="474.866643269857" Y="3873.3667" Width="267" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="474.866643269857" Y="3873.3667" Width="267" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="TransmissionColour" UniqueId="d7953e7b-4523-44fa-b6ec-ed820e7701df" DefinedType="IfcColourRgb" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Describes how the light falling on a body is totally or partially transmitted. 
@@ -41,9 +35,7 @@
 				<DocPoint X="474.866643269857" Y="4010.6334" />
 				<DocPoint X="989.16663" Y="4010.6334" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="474.866643269857" Y="3990.6334" Width="225" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="474.866643269857" Y="3990.6334" Width="225" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ReflectanceColour" UniqueId="9727ff89-6fb4-4540-a342-02dc3cbc547c" DefinedType="IfcColourRgb" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>A coefficient that determines the extent that the light falling onto a surface is fully or partially reflected. 
@@ -53,9 +45,7 @@
 				<DocPoint X="474.866643269857" Y="4127.9" />
 				<DocPoint X="989.16663" Y="4127.9" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="474.866643269857" Y="4107.9" Width="211" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="474.866643269857" Y="4107.9" Width="211" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

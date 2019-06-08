@@ -5,18 +5,14 @@
 		<DocLocalization Name="Flow Meter" Locale="en" />
 		<DocLocalization Name="Appareil de mesure de débit" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6016.2807" Y="718.12257" Width="325.01291" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="6016.2807" Y="718.12257" Width="325.01291" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="8399b678-597b-45d1-bcae-3e2ab882497f" DefinedType="IfcFlowMeterTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
 				<DocPoint X="6016.2807" Y="768.12257" />
 				<DocPoint X="5795.69969" Y="768.12257" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="6016.2807" Y="768.12257" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="6016.2807" Y="768.12257" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

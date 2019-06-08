@@ -4,12 +4,8 @@
 		<DocLocalization Name="Electric Voltage Measure" Locale="en" />
 		<DocLocalization Name="Mesure de tension électrique" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5665.0843" Y="580.52065" Width="456.66667" Height="54.923051" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_2D1tZLsT5C2QsoJqDNh2S2" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5665.0843" Y="580.52065" Width="456.66667" Height="54.923051" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_2D1tZLsT5C2QsoJqDNh2S2" />
 	<DiagramLine>
 		<DocPoint X="6121.751" Y="607.98219" />
 		<DocPoint X="6232.6395" Y="607.98219" />

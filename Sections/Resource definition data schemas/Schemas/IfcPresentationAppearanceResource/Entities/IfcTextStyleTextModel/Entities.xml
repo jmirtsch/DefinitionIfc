@@ -5,9 +5,7 @@
 		<DocLocalization Name="Text Style Text Model" Locale="en" />
 		<DocLocalization Name="Modèle de style de texte" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4887.66748046875" Y="965.471232096354" Width="296" Height="702.666704023438" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4887.66748046875" Y="965.471232096354" Width="296" Height="702.666704023438" />
 	<Attributes>
 		<DocAttribute Name="TextIndent" UniqueId="f0117f35-2e03-4ea2-9924-bd490c8fa331" DefinedType="IfcSizeSelect" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The property specifies the indentation that appears before the first formatted line.
@@ -17,9 +15,7 @@
 				<DocPoint X="5183.66748046875" Y="1070.13806152344" />
 				<DocPoint X="5683.79768880208" Y="1070.13806152344" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5183.66748046875" Y="1050.13806152344" Width="125" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5183.66748046875" Y="1050.13806152344" Width="125" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="TextAlign" UniqueId="47ae34b7-031d-41db-96d7-bf54c78482a2" DefinedType="IfcTextAlignment" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>This property describes how text is aligned horizontally within the element. The actual justification algorithm used is dependent on the rendering algorithm.</Documentation>
@@ -28,9 +24,7 @@
 				<DocPoint X="5183.66748046875" Y="1153.64360676953" />
 				<DocPoint X="5693.8376" Y="1153.64360676953" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5183.66748046875" Y="1133.64360676953" Width="109" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5183.66748046875" Y="1133.64360676953" Width="109" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="TextDecoration" UniqueId="209760cf-b102-4531-a492-b7328a9ef26b" DefinedType="IfcTextDecoration" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>This property describes decorations that are added to the text of an element.</Documentation>
@@ -39,9 +33,7 @@
 				<DocPoint X="5183.66748046875" Y="1228.64915201563" />
 				<DocPoint X="5693.8043" Y="1228.64915201563" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5183.66748046875" Y="1208.64915201563" Width="175" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5183.66748046875" Y="1208.64915201563" Width="175" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="LetterSpacing" UniqueId="67f38bcd-c711-4feb-8d70-7b389f7877f5" DefinedType="IfcSizeSelect" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The length unit indicates an addition to the default space between characters. Values can be negative, but there may be implementation-specific limits. The importing application is free to select the exact spacing algorithm. The letter spacing may also be influenced by justification (which is a value of the &lt;em&gt;TextAlign&lt;/em&gt; attribute).
@@ -51,9 +43,7 @@
 				<DocPoint X="5183.66748046875" Y="1312.15469726172" />
 				<DocPoint X="5693.7643" Y="1312.15469726172" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5183.66748046875" Y="1292.15469726172" Width="160" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5183.66748046875" Y="1292.15469726172" Width="160" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="WordSpacing" UniqueId="fad83a93-a548-4cf6-8329-87893148c863" DefinedType="IfcSizeSelect" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The length unit indicates an addition to the default space between words. Values can be negative, but there may be implementation-specific limits. The importing application is free to select the exact spacing algorithm. The word spacing may also be influenced by justification (which is a value of the &apos;text-align&apos; property).
@@ -63,9 +53,7 @@
 				<DocPoint X="5183.66748046875" Y="1404.16024250781" />
 				<DocPoint X="5693.7976" Y="1404.16024250781" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5183.66748046875" Y="1384.16024250781" Width="155" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5183.66748046875" Y="1384.16024250781" Width="155" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="TextTransform" UniqueId="3def65a2-04e8-4dd9-b36d-100a15a831fb" DefinedType="IfcTextTransformation" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>This property describes how text characters may transform to upper case, lower case, or capitalized case, independent of the character case used in the text literal.
@@ -75,9 +63,7 @@
 				<DocPoint X="5183.66748046875" Y="1487.64912125391" />
 				<DocPoint X="5693.8043" Y="1487.64912125391" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5183.66748046875" Y="1467.64912125391" Width="167" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5183.66748046875" Y="1467.64912125391" Width="167" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="LineHeight" UniqueId="baf993d3-bde7-40b2-8809-170b5ab31fa4" DefinedType="IfcSizeSelect" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The property sets the distance between two adjacent lines&apos; baselines.&lt;br&gt;
@@ -89,9 +75,7 @@ When a ratio value is specified, the line height is given by the font size of th
 				<DocPoint X="5183.66748046875" Y="1571.138" />
 				<DocPoint X="5693.7643" Y="1571.138" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5183.66748046875" Y="1551.138" Width="126" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5183.66748046875" Y="1551.138" Width="126" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

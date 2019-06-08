@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0kruMVEjv6I8DuZuee2TZk">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcColumn" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcColumn" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="2xHpG0aDn52OfV5ciFusAc">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="21b76279-d699-4ba1-abee-1d25d1e13220" RuleParameters="RelatingType=IfcColumnType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="2gOzXFLAL4NfxY2gp4A3K6">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="45732ce0-35c2-4ce6-9b4a-86d445b18a4f" RuleParameters="PsetName=Pset_ColumnCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="c86ded42-e165-4ea0-9ff4-0647c9b1ceaf">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="43ac983c-7d47-45a5-bfc0-da34eb6139ae" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="bfc027db-39d1-4f8b-803a-716ffab8dcb0" RuleParameters="PropertyName=Slope;Value=IfcPlaneAngleMeasure;" Order="0" />
@@ -34,9 +26,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="081c935e-a793-4c08-9ba6-2739f89ee298">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="e5bbbaa5-9924-4235-8dca-adbbe9b16e31" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
 							</Items>
@@ -46,9 +36,7 @@
 				<DocTemplateItem UniqueId="a9925d19-1563-4d60-861f-80acf1ec75a5" RuleParameters="PsetName=Pset_ConcreteElementGeneral;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="c74f7a0f-49b3-4415-bd45-53c385d3bf2a">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="62b08719-50c6-409a-9f73-0155cee531ff" RuleParameters="PropertyName=ConstructionMethod;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="22542ad5-385b-4b90-8176-dc726bcb0c0c" RuleParameters="PropertyName=StructuralClass;Value=IfcLabel;" Order="0" />
@@ -69,9 +57,7 @@
 				<DocTemplateItem UniqueId="a90df7ea-8da0-4f4b-85eb-56e2ca3ad20c" RuleParameters="PsetName=Pset_PrecastConcreteElementFabrication;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="994ac87d-a2d4-42df-a420-0f636ee6b5e7">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="b6e6eeca-58f4-421b-a277-27465d7a1676" RuleParameters="PropertyName=TypeDesignator;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="d333dfe8-dcef-47be-a5eb-9043e669ceb7" RuleParameters="PropertyName=ProductionLotId;Value=IfcIdentifier;" Order="0" />
@@ -87,9 +73,7 @@
 				<DocTemplateItem UniqueId="d10b6ae7-065c-4157-b16c-ad845079a386" RuleParameters="PsetName=Pset_PrecastConcreteElementGeneral;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="96913a37-6a5b-49bb-b86b-60a62b64110a">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="92c5a7ee-2751-4a63-a808-f400a95c7613" RuleParameters="PropertyName=TypeDesignator;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="87a12f73-5ef4-4e5a-8b1f-ac99a9ba8ec7" RuleParameters="PropertyName=CornerChamfer;Value=IfcPositiveLengthMeasure;" Order="0" />
@@ -117,9 +101,7 @@
 				<DocTemplateItem UniqueId="fe39498e-712f-4355-b417-0bb21e546137" RuleParameters="PsetName=Pset_ReinforcementBarPitchOfColumn;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="24a5a588-b56c-47da-8a30-119084f54917">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="fc24c437-9395-4da1-8421-0a6461dec027" RuleParameters="PropertyName=Description;Value=IfcText;" Order="0" />
 								<DocTemplateItem UniqueId="f6d5c766-26a8-4ef7-9c07-1506e17ecf3c" RuleParameters="PropertyName=Reference;Value=IfcLabel;" Order="0" />
@@ -131,9 +113,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="2aa1b921-4bb2-46b9-b83b-b66d5da6162d">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="1e4498b3-55af-46bc-9d50-807fe971179c" RuleParameters="PropertyName=ReinforcementBarType;Value=IfcLabel;" Order="0" />
 							</Items>
@@ -143,9 +123,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="1DnCG$XYb0X9xdl$VPBw30">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="9606e497-c3d7-4b2c-88df-e988c476ded6" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_ColumnBaseQuantities;TemplateType=QTO_OCCURRENCEDRIVEN;" Order="0" />
 			</Items>
@@ -159,9 +137,7 @@
 &lt;em&gt;IfcMaterialProfileSetUsage&lt;/em&gt; to an &lt;em&gt;IfcColumn&lt;/em&gt;. Only 
 the subtype &lt;em&gt;IfcColumnStandardCase&lt;/em&gt; supports this 
 concept.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set_12Ui1LAd52mgGZSMYVfrnP" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Profile_Set_12Ui1LAd52mgGZSMYVfrnP" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Spatial Containment" UniqueId="2Ft8PMUHnCvwQnbihzv4Lx">
 			<Documentation>&lt;p&gt;The &lt;em&gt;IfcColumn&lt;/em&gt;, as any subtype of &lt;em&gt;IfcBuildingElement&lt;/em&gt;, 
@@ -170,9 +146,7 @@ may participate alternatively in one of the two different containment relationsh
 &lt;li&gt;the &lt;em&gt;Spatial Containment&lt;/em&gt; (defined here), or&lt;/li&gt;
 &lt;li&gt;the &lt;em&gt;Element Composition&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Containment_3Pe$WY01HBmesKdP1dTP15" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Containment_3PeWY01HBmesKdP1dTP15" />
 			<Items>
 				<DocTemplateItem UniqueId="9ae8a213-6483-4dca-9f73-e9baa43b361c" RuleParameters="RelatingStructure=IfcBuildingStorey;" Order="0">
 					<Documentation>Default spatial container</Documentation>
@@ -194,9 +168,7 @@ length of a column that may extent the body length of the
 &lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The &apos;Axis&apos; is not used to locate the 
 material profile set, only the subtype &lt;em&gt;IfcColumnStandardCase&lt;/em&gt;
 provides this capability.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Axis 3D Geometry_2ubDZB_q55xBeOSih6klyq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Axis_3D_Geometry_2ubDZB_q55xBeOSih6klyq" />
 			<Items>
 				<DocTemplateItem UniqueId="697bba87-0d34-4b51-9377-2ce1e7744af4" RuleParameters="Identifier=Axis;Type=Curve3D;Items=IfcBoundedCurve;" Order="0">
 					<Documentation>Three-dimensional reference curve for the column.</Documentation>
@@ -229,9 +201,7 @@ how to use the local placement (black), solid of extrusion placement (red) and p
 &lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot; width=&quot;420&quot;&gt;&lt;img src=&quot;../../../figures/ifccolumn_advanced-1-layout1.png&quot; alt=&quot;advanced column&quot; border=&quot;0&quot; height=&quot;292&quot; width=&quot;400&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 203 &amp;mdash; Column extrusion of I-Shape&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body AdvancedSweptSolid Geometry" UniqueId="88647bf7-f385-4707-ada1-1cdbecfec63e">
 			<Documentation>&lt;p&gt;The following additional constraints apply to the
@@ -249,9 +219,7 @@ types.&lt;/blockquote&gt;
 representation&lt;/li&gt;
 &lt;li&gt;&lt;u&gt;Extrusion&lt;/u&gt;: not applicable&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body AdvancedSweptSolid Geometry_1KP7XTvT5FTPxCRBEI571U" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_AdvancedSweptSolid_Geometry_1KP7XTvT5FTPxCRBEI571U" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Clipping Geometry" UniqueId="2bf0d296-4003-4b1d-9d2a-ad9495327b90">
 			<Documentation>&lt;p&gt;The following constraints apply to the &apos;Clipping&apos; representation:&lt;/p&gt;
@@ -274,14 +242,10 @@ an &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt; and an &lt;em&gt;IfcHalfSpaceSolid&
 &lt;tr valign=&quot;top&quot;&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../../figures/ifccolumn_advanced-2-layout1.png&quot; alt=&quot;advanced column&quot; border=&quot;0&quot; height=&quot;292&quot; width=&quot;400&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 203 &amp;mdash; Column clipping&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Clipping Geometry_0isyBrcmn3wfqgdNBG57u0" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Clipping_Geometry_0isyBrcmn3wfqgdNBG57u0" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Product Assignment" UniqueId="3J$IRLtIbEGBBl0lGPh5r4">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Assignment_3idFi4hVv8Q85eru$fbQaJ" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Assignment_3idFi4hVv8Q85erufbQaJ" />
 			<Items>
 				<DocTemplateItem UniqueId="830361e6-3962-4579-9e46-c1f1da1e0bc0" RuleParameters="Type=IfcStructuralCurveMember;" Order="0">
 					<Documentation>An idealized structural member corresponding to the column.</Documentation>
@@ -292,8 +256,6 @@ an &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt; and an &lt;em&gt;IfcHalfSpaceSolid&
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="03bbbd2c-c5f6-42e8-b53b-af04729b6df2" Type="IfcColumn" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="fa0e870e-ecff-4865-ac19-6392073be551" Type="IfcColumn" />
 </DocConceptRoot>
 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocExample xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Mapped shape with multiple items" UniqueId="a674616b-438b-4ac2-b3d3-08bf9c67c46e" ApplicableType="IfcShapeRepresentation,IfcMappedItem,IfcRepresentationMap">
 	<ApplicableTemplates>
-		<DocTemplateDefinition xsi:nil="true" href="Mapped Geometry_3i$TV8STL4dxyWvZebtBcw" />
+		<DocTemplateDefinition xsi:nil="true" href="Mapped_Geometry_3iTV8STL4dxyWvZebtBcw" />
 	</ApplicableTemplates>
 	<Views>
-		<DocModelView xsi:nil="true" href="Design Transfer View" />
-		<DocModelView xsi:nil="true" href="General Usage" />
+		<DocModelView xsi:nil="true" href="Design_Transfer_View" />
+		<DocModelView xsi:nil="true" href="General_Usage" />
 	</Views>
 </DocExample>
 

@@ -4,9 +4,7 @@
 		<DocLocalization Name="Tragelement / Tragverbindung / Auflager (allgemein)" Locale="de" />
 		<DocLocalization Name="Structural Item" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2159.9047" Y="386.82438" Width="200" Height="155.33333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2159.9047" Y="386.82438" Width="200" Height="155.33333" />
 	<Subtypes>
 		<DocSubtype UniqueId="ec709fb0-c812-48ab-9de3-7ddb22cce155" DefinedType="IfcStructuralMember" />
 		<DocSubtype UniqueId="0e0ec380-0b77-4a1a-8c4f-5e2d6eea3925" DefinedType="IfcStructuralConnection" />
@@ -18,9 +16,7 @@
 				<DocPoint X="2359.9047" Y="498.07682" />
 				<DocPoint X="2515.30869" Y="498.07682" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2493.51086" Y="442.628608" Width="553" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2493.51086" Y="442.628608" Width="553" Height="70" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

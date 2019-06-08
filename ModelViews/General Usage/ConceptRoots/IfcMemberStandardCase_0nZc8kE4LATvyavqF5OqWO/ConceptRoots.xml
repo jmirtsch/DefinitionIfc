@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0nZc8kE4LATvyavqF5OqWO">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcMemberStandardCase" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcMemberStandardCase" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="1tEFNNS8v5FQpJc3QS23b0">
 			<Documentation>&lt;p&gt;The &lt;em&gt;IfcMemberStandardCase&lt;/em&gt; defines in addition that the
@@ -10,9 +8,7 @@
 &lt;em&gt;IfcMaterialProfileSet&lt;/em&gt;, that is referenced by the
 &lt;em&gt;IfcMaterialProfileSetUsage&lt;/em&gt; assigned to all occurrences of 
 this &lt;em&gt;IfcMemberType&lt;/em&gt;.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="b5f63cae-9068-4c7d-9df6-4aced93674ac" RuleParameters="RelatingType=IfcMemberType;" Order="0" />
 			</Items>
@@ -51,9 +47,7 @@ inverse &lt;em&gt;IsDefinedBy&lt;/em&gt; relationship pointing to
 &lt;em&gt;IfcRelAssociatesMaterial.RelatingMaterial&lt;/em&gt;. See &lt;b&gt;Type Use
 Definition&lt;/b&gt; for additional agreements for standard
 members.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set Usage_1ge1GfjMPBDeTQCM88YfWn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Profile_Set_Usage_1ge1GfjMPBDeTQCM88YfWn" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Product Placement" UniqueId="b6a21ed7-2ea7-4146-a83e-7a6320c89ca7">
 			<Documentation>&lt;p&gt;The following restriction is imposed:&lt;/p&gt;
@@ -64,9 +58,7 @@ for the standard member, the x/y plane is the plane for the start
 profile, and the z-axis is the extrusion axis for the member body (in
 case of rotation, the tangent direction).&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Axis 3D Geometry" UniqueId="546014f1-7a14-4700-89a0-de4866526669">
 			<Documentation>&lt;p&gt;The following additional constraints apply to the &apos;Axis&apos;
@@ -130,9 +122,7 @@ the positive z-axis.&lt;/li&gt;
  &lt;/tr&gt;
 
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Axis 3D Geometry_2ubDZB_q55xBeOSih6klyq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Axis_3D_Geometry_2ubDZB_q55xBeOSih6klyq" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body SweptSolid Geometry" UniqueId="fc6ffae2-2f64-4c72-91db-3cc23b404dcb">
 			<Documentation>&lt;p&gt;The following additional constraints apply to the &apos;SweptSolid&apos;
@@ -172,9 +162,7 @@ the Y-axis.&lt;/li&gt;
 &quot;standard member&quot; border=&quot;1&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 224 &amp;mdash; Member body extrusion&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body AdvancedSweptSolid Geometry" UniqueId="9002a781-c364-4efd-b5fa-030744d36b5c">
 			<Documentation>&lt;p&gt;The following additional constraints apply to the
@@ -199,9 +187,7 @@ representation&lt;/li&gt;
 representation&lt;/li&gt;
 &lt;li&gt;&lt;u&gt;Extrusion&lt;/u&gt;: not applicable&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body AdvancedSweptSolid Geometry_1KP7XTvT5FTPxCRBEI571U" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_AdvancedSweptSolid_Geometry_1KP7XTvT5FTPxCRBEI571U" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Clipping Geometry" UniqueId="4d15430a-d638-4fd3-bc27-9b62ac85107d">
 			<Documentation>&lt;p&gt;The following constraints apply to the advanced
@@ -227,13 +213,9 @@ an &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt; and an &lt;em&gt;IfcHalfSpaceSolid&
 &lt;tr valign=&quot;top&quot;&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../../figures/ifcbeamstandardcase_clipping-01.png&quot; alt=&quot;clipped beam&quot; border=&quot;1&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 225 &amp;mdash; Member body clipping&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Clipping Geometry_0isyBrcmn3wfqgdNBG57u0" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Clipping_Geometry_0isyBrcmn3wfqgdNBG57u0" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="d66bf153-6b63-42b9-b1b3-cddaa157aaae" Type="IfcMemberStandardCase" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="1e1d3c69-0a0b-4675-a3cc-63c7e52e3c7e" Type="IfcMemberStandardCase" />
 </DocConceptRoot>
 

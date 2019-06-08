@@ -4,9 +4,7 @@
 		<DocLocalization Name="Rotational Stiffness Select" Locale="en" />
 		<DocLocalization Name="Sélection de rigidité rotationnelle" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3913.6168" Y="588.42377" Width="319.37415" Height="186.89048" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3913.6168" Y="588.42377" Width="319.37415" Height="186.89048" />
 	<Selects>
 		<DocSelectItem Name="IfcBoolean" UniqueId="a7b19e52-e8a2-4088-a1a7-6f4cd986f115" />
 		<DocSelectItem Name="IfcRotationalStiffnessMeasure" UniqueId="b6acc1f6-5589-4700-ada7-1079aed80ca2" />

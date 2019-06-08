@@ -4,12 +4,8 @@
 		<DocLocalization Name="Descriptive Measure" Locale="en" />
 		<DocLocalization Name="Mesure descriptive" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3552.4223" Y="901.6674" Width="441.47132" Height="53.752326" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="STRING_1LJp_KFKv5jQgL6O6NH4e9" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="3552.4223" Y="901.6674" Width="441.47132" Height="53.752326" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="STRING_1LJp_KFKv5jQgL6O6NH4e9" />
 	<DiagramLine>
 		<DocPoint X="3552.4223" Y="928.54356" />
 		<DocPoint X="3421.08432" Y="928.54356" />

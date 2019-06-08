@@ -4,9 +4,7 @@
 		<DocLocalization Name="Solid Or Shell" Locale="en" />
 		<DocLocalization Name="Solide ou enveloppe" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3523.8733" Y="678.2" Width="570.73333" Height="73.633333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3523.8733" Y="678.2" Width="570.73333" Height="73.633333" />
 	<Selects>
 		<DocSelectItem Name="IfcSolidModel" UniqueId="9d5ef2a1-08bf-4a78-a3a1-fa989f3fdc29" />
 		<DocSelectItem Name="IfcClosedShell" UniqueId="00927856-b9df-433b-bbbd-78f85aea665b" />

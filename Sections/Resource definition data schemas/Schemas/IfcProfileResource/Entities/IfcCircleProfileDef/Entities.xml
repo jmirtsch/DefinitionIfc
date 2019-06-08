@@ -5,9 +5,7 @@
 		<DocLocalization Name="Circle Profile Def" Locale="en" />
 		<DocLocalization Name="Définition de profil circulaire" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1896.707" Y="99.556637" Width="453.9" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1896.707" Y="99.556637" Width="453.9" Height="100" />
 	<Subtypes>
 		<DocSubtype UniqueId="b3876751-038a-4045-996c-e30dd2e7fcfb" DefinedType="IfcCircleHollowProfileDef" />
 	</Subtypes>
@@ -18,9 +16,7 @@
 				<DocPoint X="2350.607" Y="149.55664" />
 				<DocPoint X="2704.42427" Y="149.55664" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2315.940333" Y="149.55664" Width="84" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2315.940333" Y="149.55664" Width="84" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

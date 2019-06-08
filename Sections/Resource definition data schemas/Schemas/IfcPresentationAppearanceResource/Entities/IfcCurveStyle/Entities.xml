@@ -5,9 +5,7 @@
 		<DocLocalization Name="Curve Style" Locale="en" />
 		<DocLocalization Name="Style de courbe" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3413.951171875" Y="491.138061523438" Width="276.000005086263" Height="435.999979654948" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3413.951171875" Y="491.138061523438" Width="276.000005086263" Height="435.999979654948" />
 	<Attributes>
 		<DocAttribute Name="CurveFont" UniqueId="f67c03bb-edb7-437c-b3da-ab3832ca744f" DefinedType="IfcCurveFontOrScaledCurveFontSelect" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>A curve style font which is used to present a curve. It can either be a predefined curve font, or an explicitly defined curve font. Both may be scaled. If not given, then the curve font should be taken from the layer assignment with style, if that is not given either, then the default curve font applies.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="3689.95117696126" Y="540.171344361979" />
 				<DocPoint X="4268.91129557292" Y="540.171344361979" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3689.95117696126" Y="520.171344361979" Width="123" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3689.95117696126" Y="520.171344361979" Width="123" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="CurveWidth" UniqueId="1d39c1ea-e58e-493f-a214-70f70f2d7abe" DefinedType="IfcSizeSelect" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>A positive length measure in units of the presentation area for the width of a presented curve. If not given, then the style should be taken from the layer assignment with style, if that is not given either, then the default style applies.</Documentation>
@@ -27,9 +23,7 @@
 				<DocPoint X="3689.95117696126" Y="750.471354166667" />
 				<DocPoint X="4242.18440755208" Y="750.471354166667" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3689.95117696126" Y="730.471354166667" Width="136" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3689.95117696126" Y="730.471354166667" Width="136" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="CurveColour" UniqueId="3cdb32db-97fc-4f30-bd9b-452208ed4e7f" DefinedType="IfcColour" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The colour of the visible part of the curve. If not given, then the colour should be taken from the layer assignment with style, if that is not given either, then the default colour applies.</Documentation>
@@ -38,9 +32,7 @@
 				<DocPoint X="3689.95117696126" Y="655.804707845052" />
 				<DocPoint X="4258.25081380208" Y="655.804707845052" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3689.95117696126" Y="635.804707845052" Width="146" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3689.95117696126" Y="635.804707845052" Width="146" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ModelOrDraughting" UniqueId="ad4d0857-1f5f-4aaa-a525-b05b55892d37" DefinedType="IfcBoolean" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Indication whether the length measures provided for the presentation style are model based, or draughting based.
@@ -51,9 +43,7 @@
 				<DocPoint X="3689.95117696126" Y="878.471415201823" />
 				<DocPoint X="4183.28450520833" Y="878.471415201823" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3689.95117696126" Y="858.471415201823" Width="223" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3689.95117696126" Y="858.471415201823" Width="223" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Fill Area Style" Locale="en" />
 		<DocLocalization Name="Style de remplissage de surface" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="8813.1675" Y="109.95469" Width="283.26667" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="8813.1675" Y="109.95469" Width="283.26667" Height="100" />
 	<Attributes>
 		<DocAttribute Name="FillStyles" UniqueId="9ba1f4aa-4f50-46ae-89ec-64982a7b1746" DefinedType="IfcFillStyleSelect" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
 			<Documentation>The set of fill area styles to use in presenting visible curve segments, annotation fill areas or surfaces.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="8952.174865" Y="209.95469" />
 				<DocPoint X="8952.174865" Y="318.65469" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="8952.174865" Y="298.65469" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="8952.174865" Y="298.65469" Width="182" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ModelorDraughting" UniqueId="b8e3fc01-58d7-4b36-9005-6d26c38ffaea" DefinedType="IfcBoolean" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Indication whether the length measures provided for the presentation style are model based, or draughting based.
@@ -29,9 +25,7 @@
 				<DocPoint X="8813.1675" Y="166.62136332194" />
 				<DocPoint X="8517.16796875" Y="166.62136332194" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="8813.1675" Y="146.62136332194" Width="218" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="8813.1675" Y="146.62136332194" Width="218" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

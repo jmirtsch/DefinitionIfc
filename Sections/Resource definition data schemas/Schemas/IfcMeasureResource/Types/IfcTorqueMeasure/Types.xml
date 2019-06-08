@@ -4,12 +4,8 @@
 		<DocLocalization Name="Torque Measure" Locale="en" />
 		<DocLocalization Name="Mesure de moment" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5665.0922" Y="1849.4443" Width="456.65543" Height="54.923051" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_1Kl_7ql2vAtQyy9TT3Gcf8" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5665.0922" Y="1849.4443" Width="456.65543" Height="54.923051" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_1Kl_7ql2vAtQyy9TT3Gcf8" />
 	<DiagramLine>
 		<DocPoint X="6121.7476" Y="1876.9058" />
 		<DocPoint X="6232.68391" Y="1876.9058" />

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Curtain Wall" Locale="en" />
 		<DocLocalization Name="Mur rideau" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1865.35" Y="1155.9999" Width="250" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1865.35" Y="1155.9999" Width="250" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="3868f9f2-95c6-4770-bb71-6ef7a9f4fced" DefinedType="IfcCurtainWallTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined generic type for a curtain wall that is specified in an enumeration. There may be a property set given specificly for the predefined types.
@@ -17,9 +15,7 @@
 				<DocPoint X="2115.35" Y="1205.9999" />
 				<DocPoint X="2501.41667" Y="1205.9999" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2118.0166667" Y="1195.333233" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2118.0166667" Y="1195.333233" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

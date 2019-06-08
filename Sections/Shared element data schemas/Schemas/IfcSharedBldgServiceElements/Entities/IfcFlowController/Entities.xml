@@ -5,8 +5,6 @@
 		<DocLocalization Name="Flow Controller" Locale="en" />
 		<DocLocalization Name="Contrôleur de débit" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="180.16295" Y="1316.988" Width="518.43064" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="180.16295" Y="1316.988" Width="518.43064" Height="100" />
 </DocEntity>
 

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="41eaecf1-7d8d-40a5-8aa9-619941571384">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcBeamType" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcBeamType" />
 	<Concepts>
 		<DocTemplateUsage Name="Material Profile Set" UniqueId="1c07d75c-8e12-43e0-a16a-bbca6550976b">
 			<Documentation>&lt;p&gt;The material of the &lt;em&gt;IfcBeamType&lt;/em&gt; is defined by the &lt;em&gt;IfcMaterialProfileSet&lt;/em&gt; or as fall back by &lt;em&gt;IfcMaterial&lt;/em&gt; and attached by the &lt;em&gt;IfcRelAssociatesMaterial&lt;/em&gt;&lt;em&gt;.RelatingMaterial&lt;/em&gt;. It is accessible by the inverse &lt;em&gt;HasAssociations&lt;/em&gt; relationship.&lt;/p&gt;
@@ -16,25 +14,17 @@ NOTE&amp;nbsp; It is illegal to assign an &lt;em&gt;IfcMaterial&lt;/em&gt; to an
 &lt;blockquote class=&quot;note&quot;&gt;
 NOTE&amp;nbsp; The attribute &lt;em&gt;ProfileName&lt;/em&gt; of the &lt;em&gt;IfcProfileDef&lt;/em&gt; subtype, referenced in &lt;em&gt;IfcMaterialProfile&lt;/em&gt; should contain a standardized profile name according to local standards. However, an additional geometric representation of the profile is necessary (such as &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt;). An importing application is allowed to check for the existence of the profile name: in case of identifying it as a standardized name, the corresponding profile geometry and possibly other cross sectional properties can be read from a library. Otherwise the geometric representation and possible non geometric &lt;em&gt;IfcProfileProperties&lt;/em&gt; have to be used.
 &lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set_12Ui1LAd52mgGZSMYVfrnP" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Profile_Set_12Ui1LAd52mgGZSMYVfrnP" />
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Design_Transfer_Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Design_Transfer_Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="fe2b0617-d309-4070-8469-3d257302ece6" Type="IfcBeamType" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="7996fb37-43c8-400f-9c27-63b3a125bf13" Type="IfcBeamType" />
 </DocConceptRoot>
 

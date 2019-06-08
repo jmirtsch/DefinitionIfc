@@ -5,9 +5,7 @@
 		<DocLocalization Name="Stair Flight" Locale="en" />
 		<DocLocalization Name="Volée d&apos;escalier" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1865.45" Y="450.1665" Width="249.9" Height="413.33333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1865.45" Y="450.1665" Width="249.9" Height="413.33333" />
 	<Attributes>
 		<DocAttribute Name="NumberOfRisers" UniqueId="ee984ef4-cde1-44a3-b301-c62a10108bea" DefinedType="IfcInteger" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Number of the risers included in the stair flight
@@ -17,9 +15,7 @@
 				<DocPoint X="2115.35" Y="488.160987854004" />
 				<DocPoint X="2510.01676432292" Y="488.160987854004" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2115.35" Y="468.160987854004" Width="178" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2115.35" Y="468.160987854004" Width="178" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="NumberOfTreads" UniqueId="8b933521-d0a8-4793-9290-c694bfdf4941" DefinedType="IfcInteger" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Number of treads included in the stair flight.
@@ -29,9 +25,7 @@
 				<DocPoint X="2115.35" Y="548.483215332031" />
 				<DocPoint X="2512.68334960938" Y="548.483215332031" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2115.35" Y="528.483215332031" Width="198" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2115.35" Y="528.483215332031" Width="198" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="RiserHeight" UniqueId="221e43e9-f43c-47d3-b02e-20a0a86fbab6" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Vertical distance from tread to tread. The riser height is supposed to be equal for all stairs in a stair flight.
@@ -41,9 +35,7 @@
 				<DocPoint X="2115.35" Y="715.4334" />
 				<DocPoint X="2509.3832" Y="715.4334" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2115.35" Y="695.4334" Width="136" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2115.35" Y="695.4334" Width="136" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="TreadLength" UniqueId="bf014ecd-1bc8-4fee-bf42-f86df0c5cca6" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Horizontal distance from the front to the back of the tread. The tread length is supposed to be equal for all steps of the stair flight.
@@ -53,9 +45,7 @@
 				<DocPoint X="2115.35" Y="620.8666" />
 				<DocPoint X="2509.3833" Y="620.8666" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2115.35" Y="600.8666" Width="149" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2115.35" Y="600.8666" Width="149" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="PredefinedType" UniqueId="42c2789a-ba85-449f-8a3c-e9920ec67ef4" DefinedType="IfcStairFlightTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined generic type for a stair flight that is specified in an enumeration. There may be a property set given specificly for the predefined types.
@@ -66,9 +56,7 @@
 				<DocPoint X="2115.35" Y="835.49983" />
 				<DocPoint X="2509.3833" Y="835.49983" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2115.35" Y="815.49983" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2115.35" Y="815.49983" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Switching Device" Locale="en" />
 		<DocLocalization Name="Interrupteur" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4036.5333" Y="308.02" Width="679.73333" Height="103.2" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4036.5333" Y="308.02" Width="679.73333" Height="103.2" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="d917d4c1-a6ef-4baa-b21a-f1e0ed809df5" DefinedType="IfcSwitchingDeviceTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
@@ -15,9 +13,7 @@
 				<DocPoint X="4712.4" Y="457.851215" />
 				<DocPoint X="4283.88349" Y="457.851215" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="4615.47508" Y="405.8866667" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="4615.47508" Y="405.8866667" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

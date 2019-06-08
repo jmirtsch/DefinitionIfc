@@ -4,9 +4,7 @@
 		<DocLocalization Name="Beliebiges geschlossenes Profil mit Löchern" Locale="de" />
 		<DocLocalization Name="Arbitrary Profile Def With Voids" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="306.9668" Y="3276.4666" Width="544.73333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="306.9668" Y="3276.4666" Width="544.73333" Height="100" />
 	<Attributes>
 		<DocAttribute Name="InnerCurves" UniqueId="f5a968fa-e9ba-423c-9752-52657d57b5bc" DefinedType="IfcCurve" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
 			<Documentation>Set of bounded curves, defining the inner boundaries of the arbitrary profile.</Documentation>
@@ -14,9 +12,7 @@
 				<DocPoint X="851.70013" Y="3326.4666" />
 				<DocPoint X="1117.0999" Y="3326.4666" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="861.521097" Y="3309.745783" Width="221" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="861.521097" Y="3309.745783" Width="221" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

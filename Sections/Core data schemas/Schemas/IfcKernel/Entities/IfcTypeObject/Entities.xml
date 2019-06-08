@@ -5,9 +5,7 @@
 		<DocLocalization Name="Type Object" Locale="en" />
 		<DocLocalization Name="Définition d&apos;un type d&apos;objet type" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="10828.423" Y="388.77577" Width="273.33333" Height="250.66666" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="10828.423" Y="388.77577" Width="273.33333" Height="250.66666" />
 	<Subtypes>
 		<DocSubtype UniqueId="eb311362-23a8-451e-975a-d7313d037638" DefinedType="IfcTypeProduct" />
 		<DocSubtype UniqueId="6b04c3f5-296e-43e5-b634-d60924303562" DefinedType="IfcTypeProcess" />
@@ -28,9 +26,7 @@
 				<DocPoint X="10828.423" Y="452.03357" />
 				<DocPoint X="9919.82303" Y="452.03357" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="10896.423" Y="442.03357" Width="247" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="10896.423" Y="442.03357" Width="247" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="HasPropertySets" UniqueId="2513ab6d-af8f-4320-b951-1ce016a15208" DefinedType="IfcPropertySetDefinition" AttributeFlags="1" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
 			<Documentation>Set &lt;strike&gt;list&lt;/strike&gt; of unique property sets, that are associated with the object type and are common to all object occurrences referring to this object type.
@@ -39,9 +35,7 @@
 				<DocPoint X="10828.423" Y="575.21107" />
 				<DocPoint X="10074.7897" Y="575.21107" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="10823.7563337" Y="563.21107" Width="272" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="10823.7563337" Y="563.21107" Width="272" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Types" UniqueId="b9f6a3c9-d5d6-4a7a-8d44-116f467fda32" DefinedType="IfcRelDefinesByType" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="RelatingType">
 			<Documentation>Reference to the relationship IfcRelDefinedByType and thus to those occurrence objects, which are defined by this type.</Documentation>
@@ -50,9 +44,7 @@
 				<DocPoint X="10861.422" Y="693.309157" />
 				<DocPoint X="10045.82203" Y="693.309157" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="10846.172001" Y="724.74248" Width="399" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="10846.172001" Y="724.74248" Width="399" Height="70" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

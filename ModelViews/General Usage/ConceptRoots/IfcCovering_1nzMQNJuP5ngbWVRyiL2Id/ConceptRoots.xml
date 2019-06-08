@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1nzMQNJuP5ngbWVRyiL2Id">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcCovering" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcCovering" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="3YnYxSVz11v9w9N3IBPKal">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="09V3_HkZzCa9K3I7FbRdM7">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="e739f404-4cc5-46b5-9c5e-153d5792835a" RuleParameters="PsetName=Pset_CoveringCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="7a31d64f-5649-4f3e-b77f-293112eebd7a">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="7358a7ba-4726-49d0-98d5-c429ee4c4fd3" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="990c91b9-ebe9-4b47-879e-8377f7115445" RuleParameters="PropertyName=FireRating;Value=IfcLabel;" Order="0" />
@@ -34,9 +26,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="4863a06b-3169-437f-9ef3-415bb4dce34c">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="b04b8ed5-528a-4793-9603-6cc8fb471c86" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
 							</Items>
@@ -46,9 +36,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="0vTIEnZCL1SgwiqTS$Yh01">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="336ef34e-b2ff-4fe1-b56e-e01da43ef0db" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_CoveringBaseQuantities;" Order="0" />
 			</Items>
@@ -64,18 +52,14 @@ inverse attribute &lt;em&gt;SELF\IfcElement.ContainedInStructure&lt;/em&gt;.
 Subtypes of &lt;em&gt;IfcSpatialStructureElement&lt;/em&gt; are valid spatial
 containers, with &lt;em&gt;IfcSpace&lt;/em&gt; being the default container.&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Containment_3Pe$WY01HBmesKdP1dTP15" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Containment_3PeWY01HBmesKdP1dTP15" />
 			<Items>
 				<DocTemplateItem UniqueId="2a2296c1-866e-4658-994a-6664f50a9fc4" RuleParameters="RelatingStructure=IfcSpace;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Material Layer Set Usage" UniqueId="0J5ygHHYjB$gbHYnuClGgb">
 			<Documentation>&lt;p&gt;Coverings for surfaces (CEILING, FLOORING, CLADDING, CEILING, ROOFING) may have materials defined according to layers.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Layer Set Usage_1jNxXlFor9_vKe1tXLtSn7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Layer_Set_Usage_1jNxXlFor9_vKe1tXLtSn7" />
 			<Items>
 				<DocTemplateItem UniqueId="dff0070f-8a06-425f-8e00-cca108892eb6" RuleParameters="Name=Front;" Order="0">
 					<Documentation>Optional front-facing material of layer-based coverings such as drywall paper.</Documentation>
@@ -90,9 +74,7 @@ containers, with &lt;em&gt;IfcSpace&lt;/em&gt; being the default container.&lt;/
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Material Profile Set Usage" UniqueId="2U2yE2Kfv0oOEFlu7Ac9We">
 			<Documentation>&lt;p&gt;Coverings for edges (MOLDING, SKIRTINGBOARD) may have materials defined according to profiles.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set Usage_1ge1GfjMPBDeTQCM88YfWn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Profile_Set_Usage_1ge1GfjMPBDeTQCM88YfWn" />
 			<Items>
 				<DocTemplateItem UniqueId="6888fab9-eae0-4353-9cf2-1c4ec563ec35" RuleParameters="Name=Trim;" Order="0">
 					<Documentation>Profile of trim such as crown molding or base molding.</Documentation>
@@ -177,9 +159,7 @@ cylindrical&lt;/p&gt;
 &lt;/tr&gt;
 
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Surface Geometry_0kcTvm_tD7ZvlAJ_tzwqwb" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Surface_Geometry_0kcTvm_tD7ZvlAJ_tzwqwb" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body SweptSolid Geometry" UniqueId="57fa00e6-30ca-4650-8686-9f8fc8fbb90b">
 			<Documentation>&lt;p&gt;The following additional constraints apply to the &apos;SweptSolid&apos;
@@ -257,13 +237,9 @@ parameter of the &lt;em&gt;IfcSurfaceOfLinearExtrusion&lt;/em&gt;.&lt;/li&gt;
  &lt;/tr&gt;
 
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="a4547d8d-9cf6-4580-8d3c-4f5a8da0febf" Type="IfcCovering" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="82176012-b3fa-43a8-916a-ec9acf36e643" Type="IfcCovering" />
 </DocConceptRoot>
 

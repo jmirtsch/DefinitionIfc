@@ -5,9 +5,7 @@
 		<DocLocalization Name="Advanced Face" Locale="en" />
 		<DocLocalization Name="Face avancée" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2479.65209960938" Y="458.303995768229" Width="287.46667" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2479.65209960938" Y="458.303995768229" Width="287.46667" Height="100" />
 	<WhereRules>
 		<DocWhereRule Name="ApplicableSurface" UniqueId="bdb32ee6-1359-4c1a-8cbd-a79872e15a8e">
 			<Documentation>The geometry used in the definition of the face shall be restricted. The face geometry shall be an &lt;em&gt;IfcElementarySurface&lt;/em&gt;, &lt;em&gt;IfcSweptSurface&lt;/em&gt;, or &lt;em&gt;IfcBSplineSurface&lt;/em&gt;.</Documentation>

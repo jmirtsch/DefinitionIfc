@@ -5,18 +5,14 @@
 		<DocLocalization Name="Duct Fitting" Locale="en" />
 		<DocLocalization Name="Raccord de gaine" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2787.7544" Y="546.39927" Width="343.80613" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2787.7544" Y="546.39927" Width="343.80613" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="4f963f62-427b-4df0-9553-0271dd9a6efe" DefinedType="IfcDuctFittingTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
 				<DocPoint X="2787.7544" Y="596.39927" />
 				<DocPoint X="2542.00037" Y="596.39927" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2795.8074639" Y="588.3462061" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2795.8074639" Y="588.3462061" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

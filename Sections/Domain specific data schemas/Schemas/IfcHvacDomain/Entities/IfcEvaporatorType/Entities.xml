@@ -5,9 +5,7 @@
 		<DocLocalization Name="Evaporator Type" Locale="en" />
 		<DocLocalization Name="Type d&apos;évaporateur" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="69.758995" Y="1503.4197" Width="401.49387" Height="102.11007" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="69.758995" Y="1503.4197" Width="401.49387" Height="102.11007" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="8c26d3bb-291a-4cdd-aea2-4410cd3ff3b8" DefinedType="IfcEvaporatorTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines the type of evaporator.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="471.25287" Y="1554.4747" />
 				<DocPoint X="681.65672" Y="1554.4747" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="471.25287" Y="1554.4747" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="471.25287" Y="1554.4747" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

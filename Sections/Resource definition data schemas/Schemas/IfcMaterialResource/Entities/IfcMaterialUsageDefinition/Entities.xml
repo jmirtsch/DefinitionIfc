@@ -5,9 +5,7 @@
 		<DocLocalization Name="Material Usage Definition" Locale="en" />
 		<DocLocalization Name="Définition d&apos;usage de matériau" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="39.857297" Y="403.59498" Width="425.84416" Height="122.87029" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="39.857297" Y="403.59498" Width="425.84416" Height="122.87029" />
 	<Subtypes>
 		<DocSubtype UniqueId="3938f5e7-1487-4422-9c77-39c29a921f17" DefinedType="IfcMaterialProfileSetUsage" />
 		<DocSubtype UniqueId="bb89b4b7-bcca-4d1e-8a89-db5877d283ae" DefinedType="IfcMaterialLayerSetUsage" />
@@ -20,9 +18,7 @@
 				<DocPoint X="82.828373" Y="102.60922" />
 				<DocPoint X="1169.371673" Y="102.60922" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="262.931943" Y="431.329451" Width="299" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="262.931943" Y="431.329451" Width="299" Height="70" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

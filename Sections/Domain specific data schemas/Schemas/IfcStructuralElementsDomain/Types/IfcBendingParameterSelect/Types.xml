@@ -4,9 +4,7 @@
 		<DocLocalization Name="Bending Parameter Select" Locale="en" />
 		<DocLocalization Name="Sélection des paramètres de courbure" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5114.8954" Y="2063.1881" Width="329.77949" Height="123.88974" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="5114.8954" Y="2063.1881" Width="329.77949" Height="123.88974" />
 	<Selects>
 		<DocSelectItem Name="IfcLengthMeasure" UniqueId="71ca06c6-fcf6-4dca-a9b7-34fa9ec18610" />
 		<DocSelectItem Name="IfcPlaneAngleMeasure" UniqueId="fcac9d1d-6d1d-4ec1-94e2-4c08ddd81b47" />

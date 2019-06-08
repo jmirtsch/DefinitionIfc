@@ -5,9 +5,7 @@
 		<DocLocalization Name="Door" Locale="en" />
 		<DocLocalization Name="Porte" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4829.5166015625" Y="157.636672973633" Width="279.93333" Height="745.333343505859" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4829.5166015625" Y="157.636672973633" Width="279.93333" Height="745.333343505859" />
 	<Subtypes>
 		<DocSubtype UniqueId="5078ba5e-37ce-44ee-a144-570e7a3e93f7" DefinedType="IfcDoorStandardCase" />
 		<DocSubtype UniqueId="0f7841c9-6eb7-45cb-a24a-6f308d276c44" DefinedType="IfcDoorStandardCase" />
@@ -21,9 +19,7 @@
 				<DocPoint X="5109.4499315625" Y="666.593302408854" />
 				<DocPoint X="5375.2130225" Y="666.593302408854" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5109.4499315625" Y="646.593302408854" Width="156" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5109.4499315625" Y="646.593302408854" Width="156" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="OverallWidth" UniqueId="646a9c81-0757-404c-9c64-84e003fede0a" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Overall measure of the width, it reflects the X Dimension of a bounding box, enclosing the &lt;strike&gt;body of the&lt;/strike&gt; door opening. If omitted, the &lt;em&gt;OverallWidth&lt;/em&gt; should be taken from the geometric representation of the &lt;em&gt;IfcOpening&lt;/em&gt; in which the door is inserted. 
@@ -33,9 +29,7 @@
 				<DocPoint X="5109.4499315625" Y="565.161304117838" />
 				<DocPoint X="5375.2130225" Y="565.161304117838" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5109.4499315625" Y="545.161304117838" Width="147" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5109.4499315625" Y="545.161304117838" Width="147" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="PredefinedType" UniqueId="a4378e60-7e89-4d23-840a-b63a2e39ea45" DefinedType="IfcDoorTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined generic type for a door that is specified in an enumeration. There may be a property set given specificly for the predefined types.
@@ -46,9 +40,7 @@
 				<DocPoint X="5109.4499315625" Y="203.966644453776" />
 				<DocPoint X="5439.6796875" Y="203.966644453776" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5109.4499315625" Y="183.966644453776" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5109.4499315625" Y="183.966644453776" Width="182" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="OperationType" UniqueId="6bdfd4d0-3ffa-4da5-98bd-95b065f45793" DefinedType="IfcDoorTypeOperationEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Type defining the general layout and operation of the door type in terms of the partitioning of panels and panel operations. 
@@ -60,9 +52,7 @@
 				<DocPoint X="5109.4499315625" Y="289.048642744792" />
 				<DocPoint X="5367.8796875" Y="289.048642744792" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5109.4499315625" Y="269.048642744792" Width="171" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5109.4499315625" Y="269.048642744792" Width="171" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="UserDefinedOperationType" UniqueId="5c07c222-8576-4936-ab56-4f4b1a9eb05a" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Designator for the user defined operation type, shall only be provided, if the value of &lt;em&gt;OperationType&lt;/em&gt; is set to USERDEFINED.</Documentation>
@@ -71,9 +61,7 @@
 				<DocPoint X="5109.4499315625" Y="468.729305826823" />
 				<DocPoint X="5489.1796875" Y="468.729305826823" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5109.4499315625" Y="448.729305826823" Width="309" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5109.4499315625" Y="448.729305826823" Width="309" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

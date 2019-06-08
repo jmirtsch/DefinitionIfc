@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1_Gn2RxBH01ftYmcuCbe42">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcProcess" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcProcess" />
 	<Concepts>
 		<DocTemplateUsage UniqueId="3qoCcd8CnF7PfXykFynePB">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="dd07a375-2f33-44ee-902d-9982aa1c4ae1" RuleParameters="PsetName=Pset_Risk;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="ae9fa7c2-09a8-422e-80fb-49f06b412e81">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="d5ce07cd-90d6-4680-8407-0ddb504ae360" RuleParameters="PropertyName=RiskType;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="415abda2-c48c-4f99-9eab-d4f7e571a334" RuleParameters="PropertyName=AssessmentOfRisk;Value=IfcLabel;" Order="0" />
@@ -24,9 +18,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="d55915ac-2d66-49ec-aa19-a9170fb64673">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="ff5c1c2b-7555-4700-a20c-714669f82986" RuleParameters="PropertyName=NatureOfRisk;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="e28ce2ef-59e0-4970-b6d0-6ab7bf099e7d" RuleParameters="PropertyName=SubNatureOfRisk1;Value=IfcLabel;" Order="0" />
@@ -40,8 +32,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="d0a9b75e-2340-4d7f-8bf9-5309f95e3a35" Type="IfcProcess" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="689c680c-0a4c-4bd0-9083-54e7c46bc13e" Type="IfcProcess" />
 </DocConceptRoot>
 

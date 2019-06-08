@@ -4,12 +4,8 @@
 		<DocLocalization Name="Date" Locale="en" />
 		<DocLocalization Name="Date" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1981.27807617188" Y="1636.79663085938" Width="153.399917602539" Height="134.937873840332" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="STRING_3nTVGaFn55BOdXJY4W3yNh" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="1981.27807617188" Y="1636.79663085938" Width="153.399917602539" Height="134.937873840332" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="STRING_3nTVGaFn55BOdXJY4W3yNh" />
 	<DiagramLine>
 		<DocPoint X="2054.01940917969" Y="1771.73450469971" />
 		<DocPoint X="2054.01940917969" Y="1771.73450469971" />

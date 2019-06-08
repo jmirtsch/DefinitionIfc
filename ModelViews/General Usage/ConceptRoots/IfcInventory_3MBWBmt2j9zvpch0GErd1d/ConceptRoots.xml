@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3MBWBmt2j9zvpch0GErd1d">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcInventory" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcInventory" />
 	<Concepts>
 		<DocTemplateUsage Name="Group Assignment" UniqueId="0Eurph6TT8gh9dpIR7SRFV">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Group Assignment_3rPvP$L9D4sQnHatm9h2M3" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Group_Assignment_3rPvPL9D4sQnHatm9h2M3" />
 			<Items>
 				<DocTemplateItem UniqueId="738ae6ef-460d-4eba-87e8-c8cf625173b7" RuleParameters="Type=IfcAsset;" Order="0">
 					<Documentation>Assets included in the inventory.</Documentation>
@@ -21,8 +17,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="de956514-b76c-4a73-889d-d1a61e2dbaa3" Type="IfcInventory" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="2d8d5d96-9124-4834-a750-a82845aa2b0e" Type="IfcInventory" />
 </DocConceptRoot>
 

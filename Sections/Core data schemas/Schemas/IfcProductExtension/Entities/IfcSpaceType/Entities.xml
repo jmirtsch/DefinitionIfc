@@ -5,9 +5,7 @@
 		<DocLocalization Name="Space Type" Locale="en" />
 		<DocLocalization Name="Type de local" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="7173.1959" Y="1857.9927" Width="237.16667" Height="146.6" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="7173.1959" Y="1857.9927" Width="237.16667" Height="146.6" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="d5abf58d-e70d-4140-b4e1-4023bd04e61d" DefinedType="IfcSpaceTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined types to define the particular type of space. There may be property set definitions available for each predefined type.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="7410.3626" Y="1885.9594" />
 				<DocPoint X="7637.8626" Y="1885.9594" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="7408.6959317" Y="1872.542734" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="7408.6959317" Y="1872.542734" Width="182" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="LongName" UniqueId="a280afe4-0acf-4989-8898-22cb92b4b93c" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Long name for a space type, used for informal purposes. It should be used, if available, in conjunction with the inherited &lt;em&gt;Name&lt;/em&gt; attribute.
@@ -31,9 +27,7 @@
 				<DocPoint X="7410.3626" Y="1973.9594" />
 				<DocPoint X="7637.79593" Y="1973.9594" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="7391.695933" Y="1960.626067" Width="129" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="7391.695933" Y="1960.626067" Width="129" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

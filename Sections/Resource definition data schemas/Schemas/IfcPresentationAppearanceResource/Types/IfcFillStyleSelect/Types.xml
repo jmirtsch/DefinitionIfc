@@ -4,9 +4,7 @@
 		<DocLocalization Name="Fill Style Select" Locale="en" />
 		<DocLocalization Name="Sélection de style de remplissage" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="8810.5082" Y="318.65469" Width="283.33333" Height="88.333333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="8810.5082" Y="318.65469" Width="283.33333" Height="88.333333" />
 	<Selects>
 		<DocSelectItem Name="IfcFillAreaStyleHatching" UniqueId="c721412c-c40e-449e-9ec2-eaa0fe994041" />
 		<DocSelectItem Name="IfcFillAreaStyleTiles" UniqueId="901f1dba-c253-4737-975d-c7c6347c7ce0" />

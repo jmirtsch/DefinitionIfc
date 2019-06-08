@@ -4,12 +4,8 @@
 		<DocLocalization Name="Planar Force Measure" Locale="en" />
 		<DocLocalization Name="Mesure de force par unité de surface" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5060.394" Y="1323.5953" Width="529.1827" Height="54.923051" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_32teT6R3DAteh2rh3w2ft1" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5060.394" Y="1323.5953" Width="529.1827" Height="54.923051" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_32teT6R3DAteh2rh3w2ft1" />
 	<DiagramLine>
 		<DocPoint X="5060.394" Y="1349.5015" />
 		<DocPoint X="4971.342223" Y="1349.5015" />

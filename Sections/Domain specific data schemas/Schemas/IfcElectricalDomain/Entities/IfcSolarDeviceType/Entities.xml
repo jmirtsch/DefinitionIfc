@@ -5,9 +5,7 @@
 		<DocLocalization Name="Solar Device Type" Locale="en" />
 		<DocLocalization Name="Type de capteur solaire" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4878.6" Y="1158.5" Width="679.63333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4878.6" Y="1158.5" Width="679.63333" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="80cc3e27-6f15-4cca-b8f0-45f6c9290f75" DefinedType="IfcSolarDeviceTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
@@ -15,9 +13,7 @@
 				<DocPoint X="4881.75" Y="1316.833333" />
 				<DocPoint X="5342.46667" Y="1316.833333" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="4778.41667" Y="1313.4999997" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="4778.41667" Y="1313.4999997" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

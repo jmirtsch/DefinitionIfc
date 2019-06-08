@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2Ke6esXq14sf2mvKJWeKsd">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcTaskType" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcTaskType" />
 	<Concepts>
 		<DocTemplateUsage Name="Nesting" UniqueId="1znKyvUYX0qO5jv08moCl_">
 			<Documentation>&lt;p&gt;
@@ -21,13 +19,9 @@
       further information please see the documentation of
       &lt;em&gt;IfcRelDefinesByObject&lt;/em&gt;.
     &lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Nesting_0uoeU8NaT178AKrM_UcbQH" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Nesting_0uoeU8NaT178AKrM_UcbQH" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="a39c073a-73be-45a6-9485-36545a86e007" Type="IfcTaskType" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="d76d8766-f401-42b9-8dc9-1cc83f24ddee" Type="IfcTaskType" />
 </DocConceptRoot>
 

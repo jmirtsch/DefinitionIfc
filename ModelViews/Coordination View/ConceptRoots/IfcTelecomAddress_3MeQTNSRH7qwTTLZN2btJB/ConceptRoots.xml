@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="d6a1a757-71b4-47d3-a75d-5635c29774cb">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcTelecomAddress" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="0c7920c9-d8fb-4cf1-93da-d0afc6d95cf3" Type="IfcTelecomAddress" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcTelecomAddress" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="ee28ac61-065d-46e1-b129-3c61edba2c15" Type="IfcTelecomAddress" />
 </DocConceptRoot>
 

@@ -4,9 +4,7 @@
 		<DocLocalization Name="Product Select" Locale="en" />
 		<DocLocalization Name="Sélection entre produit et type de produit" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="11319.307" Y="1179.76" Width="186.66667" Height="124.26667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="11319.307" Y="1179.76" Width="186.66667" Height="124.26667" />
 	<Selects>
 		<DocSelectItem Name="IfcProduct" UniqueId="6655515a-8aeb-4c9f-85f4-7d08e833e0ae" />
 		<DocSelectItem Name="IfcTypeProduct" UniqueId="b1476069-42e1-4209-9056-f284549a6c51" />

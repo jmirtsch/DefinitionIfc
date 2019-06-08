@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2XwY7GPT15cuCSgp2UKCa0">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcCrewResource" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcCrewResource" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="3Ta52ENXb3KQ_XpW4l6CjS">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="76fed2ed-7391-4d7a-919f-1f5830e5b4de" RuleParameters="RelatingType=IfcCrewResourceType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="8cfc622a-7022-44dc-8a94-1990b214b37e" Type="IfcCrewResource" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="940e96f0-aa5c-4790-8d3b-9fa6575aeafb" Type="IfcCrewResource" />
 </DocConceptRoot>
 

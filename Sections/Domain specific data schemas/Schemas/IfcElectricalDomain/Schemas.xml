@@ -5,9 +5,7 @@
 		<DocSchemaRef Name="IFCSHAREDBLDGSERVICEELEMENTS" UniqueId="7e384596-da77-4172-a318-993ea7ab6d0e">
 			<Definitions>
 				<DocDefinitionRef Name="IfcFlowTerminalType" UniqueId="48c82ee7-f4fa-4fbb-ba25-0558dfa0e654" DiagramNumber="1">
-					<DiagramRectangle>
-						<DocRectangle X="33.23333" Y="33.63333" Width="541.96667" Height="228.9" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="33.23333" Y="33.63333" Width="541.96667" Height="228.9" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -56,9 +54,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcFlowControllerType" UniqueId="2e79ba1e-d395-4060-82f7-61ed8e9ebddd" DiagramNumber="3">
-					<DiagramRectangle>
-						<DocRectangle X="3229.9" Y="38.333337" Width="544.96666" Height="228" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="3229.9" Y="38.333337" Width="544.96666" Height="228" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -95,9 +91,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcEnergyConversionDeviceType" UniqueId="37e66c65-7a35-4e12-844b-39cb402bdda1" DiagramNumber="4">
-					<DiagramRectangle>
-						<DocRectangle X="4825.8333" Y="33.6" Width="546.13333" Height="228.53334" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="4825.8333" Y="33.6" Width="546.13333" Height="228.53334" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -140,9 +134,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcFlowFittingType" UniqueId="a298e2fd-1341-4e94-aa6f-63dde3a79319" DiagramNumber="2">
-					<DiagramRectangle>
-						<DocRectangle X="1624.2333" Y="825.63334" Width="570.93332" Height="228.33333" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="1624.2333" Y="825.63334" Width="570.93332" Height="228.33333" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -173,9 +165,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcFlowStorageDeviceType" UniqueId="e7e5932e-2e8a-44f8-8d6e-9862b62e52dd" DiagramNumber="2">
-					<DiagramRectangle>
-						<DocRectangle X="1627.5501" Y="1811.1291" Width="570.96667" Height="228.23333" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="1627.5501" Y="1811.1291" Width="570.96667" Height="228.23333" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -187,9 +177,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcFlowSegmentType" UniqueId="8437a8f1-d0e6-4f60-af0e-2fd5390ed1a0" DiagramNumber="2">
-					<DiagramRectangle>
-						<DocRectangle X="1627.5159" Y="32.104" Width="571" Height="228.33333" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="1627.5159" Y="32.104" Width="571" Height="228.33333" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -214,9 +202,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcDistributionControlElementType" UniqueId="6a22035a-910c-419e-9139-af476d3537e5" DiagramNumber="3">
-					<DiagramRectangle>
-						<DocRectangle X="3232.3467" Y="1802.4" Width="541.93334" Height="227.46667" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="3232.3467" Y="1802.4" Width="541.93334" Height="227.46667" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -228,9 +214,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcFlowSegment" UniqueId="34394780-cc88-46d7-be5d-045f3c0a4251" DiagramNumber="2">
-					<DiagramRectangle>
-						<DocRectangle X="2631.3" Y="32.166667" Width="542.23334" Height="228.33333" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="2631.3" Y="32.166667" Width="542.23334" Height="228.33333" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -255,9 +239,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcFlowFitting" UniqueId="f0c4cfcb-8bc1-47d7-a1a9-ae170526fbc8" DiagramNumber="2">
-					<DiagramRectangle>
-						<DocRectangle X="2634.6334" Y="825.66666" Width="544" Height="228.33333" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="2634.6334" Y="825.66666" Width="544" Height="228.33333" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -288,9 +270,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcFlowStorageDevice" UniqueId="3239edc1-315e-4ccc-9550-c294616e76cb" DiagramNumber="2">
-					<DiagramRectangle>
-						<DocRectangle X="2636.2333" Y="1802.6667" Width="542.33333" Height="228.33333" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="2636.2333" Y="1802.6667" Width="542.33333" Height="228.33333" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -302,9 +282,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcFlowTerminal" UniqueId="a873bc31-7129-4ba4-b17f-96db3188d832" DiagramNumber="1">
-					<DiagramRectangle>
-						<DocRectangle X="1031.0333" Y="33.566667" Width="542" Height="229" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="1031.0333" Y="33.566667" Width="542" Height="229" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -354,9 +332,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcFlowController" UniqueId="decc4d15-8453-48fb-a25f-6c96f1e37102" DiagramNumber="3">
-					<DiagramRectangle>
-						<DocRectangle X="4231.1333" Y="35.866667" Width="543.33333" Height="229" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="4231.1333" Y="35.866667" Width="543.33333" Height="229" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -394,9 +370,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcEnergyConversionDevice" UniqueId="b53be784-b169-4d22-8f40-03d4d83edab1" DiagramNumber="4">
-					<DiagramRectangle>
-						<DocRectangle X="5828.2" Y="33.566667" Width="545" Height="229" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="5828.2" Y="33.566667" Width="545" Height="229" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -440,9 +414,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcDistributionControlElement" UniqueId="966c8ae1-d5c6-4e26-9cc9-c34e0877123f" DiagramNumber="3">
-					<DiagramRectangle>
-						<DocRectangle X="4222.0667" Y="1803.8667" Width="544" Height="229" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="4222.0667" Y="1803.8667" Width="544" Height="229" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -456,26 +428,211 @@
 			</Definitions>
 		</DocSchemaRef>
 	</SchemaRefs>
+	<Types>
+		<DocEnumeration xsi:nil="true" href="IfcAudioVisualApplianceTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcCableCarrierFittingTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcCableCarrierSegmentTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcCableFittingTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcCableSegmentTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcCommunicationsApplianceTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcElectricApplianceTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcElectricDistributionBoardTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcElectricFlowStorageDeviceTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcElectricGeneratorTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcElectricMotorTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcElectricTimeControlTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcJunctionBoxTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcLampTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcLightFixtureTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcMotorConnectionTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcOutletTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcProtectiveDeviceTrippingUnitTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcProtectiveDeviceTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcSolarDeviceTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcSwitchingDeviceTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcTransformerTypeEnum" />
+	</Types>
+	<PropertySets>
+		<DocPropertySet xsi:nil="true" href="Pset_AudioVisualAppliancePHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_AudioVisualApplianceTypeAmplifier" />
+		<DocPropertySet xsi:nil="true" href="Pset_AudioVisualApplianceTypeCamera" />
+		<DocPropertySet xsi:nil="true" href="Pset_AudioVisualApplianceTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_AudioVisualApplianceTypeDisplay" />
+		<DocPropertySet xsi:nil="true" href="Pset_AudioVisualApplianceTypePlayer" />
+		<DocPropertySet xsi:nil="true" href="Pset_AudioVisualApplianceTypeProjector" />
+		<DocPropertySet xsi:nil="true" href="Pset_AudioVisualApplianceTypeReceiver" />
+		<DocPropertySet xsi:nil="true" href="Pset_AudioVisualApplianceTypeSpeaker" />
+		<DocPropertySet xsi:nil="true" href="Pset_AudioVisualApplianceTypeTuner" />
+		<DocPropertySet xsi:nil="true" href="Pset_CableCarrierFittingTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_CableCarrierSegmentTypeCableLadderSegment" />
+		<DocPropertySet xsi:nil="true" href="Pset_CableCarrierSegmentTypeCableTraySegment" />
+		<DocPropertySet xsi:nil="true" href="Pset_CableCarrierSegmentTypeCableTrunkingSegment" />
+		<DocPropertySet xsi:nil="true" href="Pset_CableCarrierSegmentTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_CableCarrierSegmentTypeConduitSegment" />
+		<DocPropertySet xsi:nil="true" href="Pset_CableFittingTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_CableSegmentOccurrence" />
+		<DocPropertySet xsi:nil="true" href="Pset_CableSegmentTypeBusBarSegment" />
+		<DocPropertySet xsi:nil="true" href="Pset_CableSegmentTypeCableSegment" />
+		<DocPropertySet xsi:nil="true" href="Pset_CableSegmentTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_CableSegmentTypeConductorSegment" />
+		<DocPropertySet xsi:nil="true" href="Pset_CableSegmentTypeCoreSegment" />
+		<DocPropertySet xsi:nil="true" href="Pset_CommunicationsAppliancePHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_CommunicationsApplianceTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_ElectricalDeviceCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_ElectricAppliancePHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_ElectricApplianceTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_ElectricApplianceTypeDishwasher" />
+		<DocPropertySet xsi:nil="true" href="Pset_ElectricApplianceTypeElectricCooker" />
+		<DocPropertySet xsi:nil="true" href="Pset_ElectricDistributionBoardOccurrence" />
+		<DocPropertySet xsi:nil="true" href="Pset_ElectricDistributionBoardTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_ElectricFlowStorageDeviceTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_ElectricGeneratorTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_ElectricMotorTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_ElectricTimeControlTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_JunctionBoxTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_LampTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_LightFixtureTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_LightFixtureTypeSecurityLighting" />
+		<DocPropertySet xsi:nil="true" href="Pset_MotorConnectionTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_OutletTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_ProtectiveDeviceBreakerUnitI2TCurve" />
+		<DocPropertySet xsi:nil="true" href="Pset_ProtectiveDeviceBreakerUnitI2TFuseCurve" />
+		<DocPropertySet xsi:nil="true" href="Pset_ProtectiveDeviceBreakerUnitIPICurve" />
+		<DocPropertySet xsi:nil="true" href="Pset_ProtectiveDeviceBreakerUnitTypeMCB" />
+		<DocPropertySet xsi:nil="true" href="Pset_ProtectiveDeviceBreakerUnitTypeMotorProtection" />
+		<DocPropertySet xsi:nil="true" href="Pset_ProtectiveDeviceOccurrence" />
+		<DocPropertySet xsi:nil="true" href="Pset_ProtectiveDeviceTrippingCurve" />
+		<DocPropertySet xsi:nil="true" href="Pset_ProtectiveDeviceTrippingFunctionGCurve" />
+		<DocPropertySet xsi:nil="true" href="Pset_ProtectiveDeviceTrippingFunctionICurve" />
+		<DocPropertySet xsi:nil="true" href="Pset_ProtectiveDeviceTrippingFunctionLCurve" />
+		<DocPropertySet xsi:nil="true" href="Pset_ProtectiveDeviceTrippingFunctionSCurve" />
+		<DocPropertySet xsi:nil="true" href="Pset_ProtectiveDeviceTrippingUnitCurrentAdjustment" />
+		<DocPropertySet xsi:nil="true" href="Pset_ProtectiveDeviceTrippingUnitTimeAdjustment" />
+		<DocPropertySet xsi:nil="true" href="Pset_ProtectiveDeviceTrippingUnitTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_ProtectiveDeviceTrippingUnitTypeElectroMagnetic" />
+		<DocPropertySet xsi:nil="true" href="Pset_ProtectiveDeviceTrippingUnitTypeElectronic" />
+		<DocPropertySet xsi:nil="true" href="Pset_ProtectiveDeviceTrippingUnitTypeResidualCurrent" />
+		<DocPropertySet xsi:nil="true" href="Pset_ProtectiveDeviceTrippingUnitTypeThermal" />
+		<DocPropertySet xsi:nil="true" href="Pset_ProtectiveDeviceTypeCircuitBreaker" />
+		<DocPropertySet xsi:nil="true" href="Pset_ProtectiveDeviceTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_ProtectiveDeviceTypeEarthLeakageCircuitBreaker" />
+		<DocPropertySet xsi:nil="true" href="Pset_ProtectiveDeviceTypeFuseDisconnector" />
+		<DocPropertySet xsi:nil="true" href="Pset_ProtectiveDeviceTypeResidualCurrentCircuitBreaker" />
+		<DocPropertySet xsi:nil="true" href="Pset_ProtectiveDeviceTypeResidualCurrentSwitch" />
+		<DocPropertySet xsi:nil="true" href="Pset_ProtectiveDeviceTypeVaristor" />
+		<DocPropertySet xsi:nil="true" href="Pset_SolarDeviceTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_SwitchingDeviceTypeCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_SwitchingDeviceTypeContactor" />
+		<DocPropertySet xsi:nil="true" href="Pset_SwitchingDeviceTypeDimmerSwitch" />
+		<DocPropertySet xsi:nil="true" href="Pset_SwitchingDeviceTypeEmergencyStop" />
+		<DocPropertySet xsi:nil="true" href="Pset_SwitchingDeviceTypeKeypad" />
+		<DocPropertySet xsi:nil="true" href="Pset_SwitchingDeviceTypeMomentarySwitch" />
+		<DocPropertySet xsi:nil="true" href="Pset_SwitchingDeviceTypePHistory" />
+		<DocPropertySet xsi:nil="true" href="Pset_SwitchingDeviceTypeSelectorSwitch" />
+		<DocPropertySet xsi:nil="true" href="Pset_SwitchingDeviceTypeStarter" />
+		<DocPropertySet xsi:nil="true" href="Pset_SwitchingDeviceTypeSwitchDisconnector" />
+		<DocPropertySet xsi:nil="true" href="Pset_SwitchingDeviceTypeToggleSwitch" />
+		<DocPropertySet xsi:nil="true" href="Pset_TransformerTypeCommon" />
+	</PropertySets>
+	<QuantitySets>
+		<DocQuantitySet xsi:nil="true" href="Qto_AudioVisualApplianceBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_CableCarrierFittingBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_CableCarrierSegmentBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_CableFittingBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_CableSegmentBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_CommunicationsApplianceBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_ElectricApplianceBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_ElectricDistributionBoardBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_ElectricFlowStorageDeviceBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_ElectricGeneratorBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_ElectricMotorBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_ElectricTimeControlBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_JunctionBoxBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_LampBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_LightFixtureBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_MotorConnectionBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_OutletBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_ProtectiveDeviceBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_ProtectiveDeviceTrippingUnitBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_SolarDeviceBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_SwitchingDeviceBaseQuantities" />
+		<DocQuantitySet xsi:nil="true" href="Qto_TransformerBaseQuantities" />
+	</QuantitySets>
 	<Comments>
 		<DocComment UniqueId="5d3dec5c-1b96-48dd-856e-6d34a8956f10" DiagramNumber="3">
 			<Documentation>IfcElectricDistributionBoardType changed from IfcElectricDistributionPoint in previous IFC releases;
 Move Control Panel, Alarm Panel, Gas Detector Panel to IfcUnitaryControElementType in the building controls schema. Put Mimic Panel in control as well as electrical</Documentation>
-			<DiagramRectangle>
-				<DocRectangle X="3235.4667" Y="1188.8" Width="1536" Height="229" />
-			</DiagramRectangle>
+			<DiagramRectangle xsi:type="DocRectangle" X="3235.4667" Y="1188.8" Width="1536" Height="229" />
 		</DocComment>
 		<DocComment UniqueId="b13cd0e0-fb23-45da-b30a-5bacb7e85cff" DiagramNumber="3">
 			<Documentation>new entity in IFC 2x4</Documentation>
-			<DiagramRectangle>
-				<DocRectangle X="3239.2214" Y="2275.2" Width="332" Height="55" />
-			</DiagramRectangle>
+			<DiagramRectangle xsi:type="DocRectangle" X="3239.2214" Y="2275.2" Width="332" Height="55" />
 		</DocComment>
 		<DocComment UniqueId="f72c14e9-31d0-4c8e-a40e-7af4f7470605" DiagramNumber="1">
 			<Documentation>IFC2x4: IfcElectricHeaterType replaced with IfcSpaceHeaterType in the IfcHVACDomain schema, IfcElectricalCircuit replaced with IfcDistributionSystem.</Documentation>
-			<DiagramRectangle>
-				<DocRectangle X="22.079966" Y="2166.2134" Width="1552" Height="98.333333" />
-			</DiagramRectangle>
+			<DiagramRectangle xsi:type="DocRectangle" X="22.079966" Y="2166.2134" Width="1552" Height="98.333333" />
 		</DocComment>
 	</Comments>
+	<PropertyEnumerations>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AddressabilityType_2hvQJR4_P1sx0HLBjoQZLJ" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AdjustmentValueType_3Y_dwH6_H5FwQQ0Jj3_emI" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AudioVisualAmplifierType_05qvnK5EfEmutaeRzphelv" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AudioVisualCameraType_139up_wk5DNhLqzdGXR5e" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AudioVisualDisplayTouchScreen_3fJXJTJor6OgFp5LC0DTot" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AudioVisualDisplayType_3kdIEaHZHFbO6Fo30X4rzi" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AudioVisualPlayerType_3vuVp5x6r2yxjksmSSAgpE" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AudioVisualProjectorType_2dcAEmXMHDm9TN7_5ZOF1" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AudioVisualReceiverType_3QmyWxdgT8bP7tD77TC4sU" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AudioVisualSpeakerMounting_0RRspgalfEA8ueqcGSFYMP" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AudioVisualSpeakerType_0UAk9PyGnDbQAXkM71I5qN" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AudioVisualTunerType_2BVENJDLA2RO6qDDRCsUQ" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_BackupSupplySystemType_1bVqvTUC51qg2TZRAoi49W" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ConduitShapeType_1Ywr_9eUb4wB3amgpFz6Z" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ConstructionEnum_0s0TCQGXv0OIME_0MAVd5" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ContactorType_3Pw7qPn5e9QIH25ms6xm" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CoreColorsEnum_3eialsz_jC1waDOKST6_Dh" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_EarthFailureDeviceType_3aZTlTgpTCHhR0CKnYOPIo" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ElectricApplianceDishwasherType_3O1O1JwnAChgJ3r1gtedm" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ElectricApplianceElectricCookerType_00U761ZPb6HRFPbQhJiyPp" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ElectroMagneticTrippingUnitType_2wcD1FvdL47urfBV9Hro0L" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ElectronicTrippingUnitType_2rcueZIR96_AlPhd29nQLA" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FunctionEnum_2joFBX88HD3Pv24NNiB7S8" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FuseDisconnectorType_3uFmDxAwP5GQZWYamvnJkt" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_InstallationMethodFlagEnum_0WiaOP4Wv2CvBJeDbMlf7Q" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_InsulationStandardClass_3nazj9_fP0UOO6NbgjahDh" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_JunctionBoxMountingType_0zPQJ1av4fAetHdB4Rq5" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_JunctionBoxPlacingType_2rgCJcoTDCuh0lCwacEaHT" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_JunctionBoxShapeType_2OGn2kTJr7heB0_dPyoY29" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_LampBallastType_2LfG8Ta15y9i2_XflZUsu" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_LampCompensationType_3jt4IIYfn2Iw24Zev1oSSa" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_LightFixtureMountingType_0HKkQIxF5ExQDUVQw6E77P" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_LightFixturePlacingType_2thmHw1CzBaQl4HnUbFIYw" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_LightFixtureSecurityLightingType_2NPkvUHn9B8xwt9Prig3M" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_LoadDisconnectionType_2BqmraGaT71RwHa4GXN16o" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_MaterialEnum_24oE8qjUf1MwoD1cQNcX6e" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_MotorEnclosureType_1lmyhbxHn1ceiHC5OQtJqO" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_MountingMethodEnum_2bCDpA5o53O8OiOz97trc" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_PictogramEscapeDirectionType_02AoZj_3DFyPS3prwzfvyd" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_PoleUsage_20OGbyeWb6XQinVEwZKzBW" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SecondaryCurrentType_3ywy_xzbn68BUW3suKry0s" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SelfTestType_0kXdEzXZjExOA2M1MABN2x" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ShapeEnum_3iaeq1HMTE6w6WPeTW9gD5" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_StarterType_2Z28rU3Jr2IBOkezuEzKha" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SwitchActivation_1Hy6TVNN5Eo9ZE0z1i3ed" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SwitchDisconnectorType_3F41CYE598oB2ZEJpR4nZ8" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SwitchFunctionType_2hYjSZFQj5IO0cIqjFIKxt" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SwitchingDeviceDimmerSwitchType_3F3PPCl810_8tchvEHwUpL" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SwitchingDeviceEmergencyStopType_0IY5Xstof5ivMHXoa7e3w" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SwitchingDeviceKeypadType_21NKu4enf1vwB5W1Ydh8LJ" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SwitchingDeviceMomentarySwitchType_0brIkXc7zAnxx8YoFeqTuR" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SwitchingDeviceToggleSwitchType_1qn7XkefD4_OH3ljSU4bb" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SwitchUsage_29bnAC_mz4Ve7cNDz6M9cj" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ThermalTrippingUnitType_2RTs9COSD2Ces1nARWxwe7" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_TransformerVectorGroup_1SB3NMFFjAAOX5ssYLhd" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_TrippingCurveType_3ilhPagzz7CR6uHGtctg4r" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_TrippingUnitReleaseCurrent_2amN7z65H26gAhBWo85pBP" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_VaristorType_2l4sZGdHTDkALMVjmKsTQ6" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_VoltageLevels_3J6Oy7tOD9efcgWJ6gW41m" />
+	</PropertyEnumerations>
 </DocSchema>
 

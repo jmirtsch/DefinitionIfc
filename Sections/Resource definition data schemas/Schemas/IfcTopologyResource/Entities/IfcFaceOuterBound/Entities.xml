@@ -5,8 +5,6 @@
 		<DocLocalization Name="Face Outer Bound" Locale="en" />
 		<DocLocalization Name="Contour extérieur de face" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2487.6229" Y="1361.3832" Width="376.33334" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2487.6229" Y="1361.3832" Width="376.33334" Height="100" />
 </DocEntity>
 

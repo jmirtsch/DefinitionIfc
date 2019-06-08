@@ -5,9 +5,7 @@
 		<DocLocalization Name="Rel Space Boundary2nd Level" Locale="en" />
 		<DocLocalization Name="Limites d&apos;espace de deuxième niveau" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="320.14" Y="3839.3867" Width="333.26667" Height="124" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="320.14" Y="3839.3867" Width="333.26667" Height="124" />
 	<Attributes>
 		<DocAttribute Name="CorrespondingBoundary" UniqueId="6c032ee3-47a6-40de-b826-06a8da0c46b3" DefinedType="IfcRelSpaceBoundary2ndLevel" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Reference to the other space boundary of the pair of two space boundaries on either side of a space separating thermal boundary element.</Documentation>
@@ -18,9 +16,7 @@
 				<DocPoint X="358.77334" Y="4062.05337" />
 				<DocPoint X="358.77334" Y="3963.386703" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="814.073337" Y="4051.386703" Width="276" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="814.073337" Y="4051.386703" Width="276" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Corresponds" UniqueId="fa4aeb16-4d01-4f05-9f53-8d4ee0d707c5" DefinedType="IfcRelSpaceBoundary2ndLevel" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="CorrespondingBoundary">
 			<Documentation>Reference to the other space boundary of the pair of two space boundaries on either side of a space separating thermal boundary element.</Documentation>
@@ -31,9 +27,7 @@
 				<DocPoint X="358.77334" Y="4062.05337" />
 				<DocPoint X="358.77334" Y="3963.386703" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="814.073337" Y="4102.386703" Width="292" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="814.073337" Y="4102.386703" Width="292" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

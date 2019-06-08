@@ -5,9 +5,7 @@
 		<DocLocalization Name="Actuator" Locale="en" />
 		<DocLocalization Name="Appareillage de commande" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="865.66667" Y="507.28667" Width="674.6" Height="108" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="865.66667" Y="507.28667" Width="674.6" Height="108" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="f9dfdf92-2352-4175-9f0b-a2490720e992" DefinedType="IfcActuatorTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
@@ -15,9 +13,7 @@
 				<DocPoint X="1533.6333" Y="666.09993" />
 				<DocPoint X="1092.46657" Y="666.09993" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1441.049933" Y="612.6200033" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1441.049933" Y="612.6200033" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

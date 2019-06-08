@@ -4,12 +4,8 @@
 		<DocLocalization Name="Area Density Measure" Locale="en" />
 		<DocLocalization Name="Mesure de densité d&apos;aire" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6921.1" Y="293.36384" Width="747.90833" Height="70.339405" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_3rbVQZTh9EOu7SnSkHIT3S" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="6921.1" Y="293.36384" Width="747.90833" Height="70.339405" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3rbVQZTh9EOu7SnSkHIT3S" />
 	<DiagramLine>
 		<DocPoint X="7669.0083" Y="328.53354" />
 		<DocPoint X="7794.82282" Y="328.53354" />

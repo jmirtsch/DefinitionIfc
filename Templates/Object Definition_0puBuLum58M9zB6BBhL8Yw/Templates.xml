@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Object Definition" UniqueId="0puBuLum58M9zB6BBhL8Yw" Type="IfcObjectDefinition">
 	<Templates>
-		<DocTemplateDefinition id="Object Typing_0rek4E8Dz0zAilsiyAPqJq" Name="Object Typing" UniqueId="0rek4E8Dz0zAilsiyAPqJq" Type="IfcObject">
+		<DocTemplateDefinition id="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" Name="Object Typing" UniqueId="0rek4E8Dz0zAilsiyAPqJq" Type="IfcObject">
 			<Documentation>&lt;p&gt;Object occurrences can be
  defined by a particular object type, using the &lt;em&gt;Object Typing&lt;/em&gt; concept. A pair of entities are defined for most semantic objects - an
  object occurrence entity and a corresponding object type entity.&lt;/p&gt; 
@@ -100,7 +100,7 @@ NOTE&amp;nbsp; If the object type has aggregated elements, such objects are refl
 		<DocTemplateDefinition Name="Property Sets" UniqueId="0sc4CqEiXEMOMczerbutd7" Type="IfcRoot">
 			<Documentation>&lt;p&gt;The concept template &lt;em&gt;Property Sets&lt;/em&gt; describes how sets of properties (usually defined by a name, value, unit triple) are associated to objects or object types.&lt;/p&gt;</Documentation>
 			<Templates>
-				<DocTemplateDefinition id="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" Name="Property Sets for Objects" UniqueId="3tGbMc30vFCOIj99WTjYHX" Version="1" Type="IfcObject">
+				<DocTemplateDefinition id="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" Name="Property Sets for Objects" UniqueId="3tGbMc30vFCOIj99WTjYHX" Version="1" Type="IfcObject">
 					<Documentation>&lt;p&gt;The concept template &lt;em&gt;Property Sets for Objects&lt;/em&gt; describes how an object occurrence can be related to a single or multiple property sets. A property set
  contains a single or multiple properties. The data types of
  an individual property are single value, enumerated value,
@@ -125,7 +125,7 @@ NOTE&amp;nbsp; If the object type has aggregated elements, such objects are refl
 															<Rules>
 																<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertySingleValue">
 																	<References>
-																		<DocTemplateDefinition id="Single Value_1cLVRGAQX7k8yzoVpfoQOW" Name="Single Value" UniqueId="1cLVRGAQX7k8yzoVpfoQOW" Status="Official" Owner="System" Type="IfcPropertySingleValue">
+																		<DocTemplateDefinition id="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" Name="Single Value" UniqueId="1cLVRGAQX7k8yzoVpfoQOW" Status="Official" Owner="System" Type="IfcPropertySingleValue">
 																			<Rules>
 																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="PropertyName">
 																					<Rules>
@@ -148,7 +148,7 @@ NOTE&amp;nbsp; If the object type has aggregated elements, such objects are refl
 																</DocModelRuleEntity>
 																<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyBoundedValue">
 																	<References>
-																		<DocTemplateDefinition id="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" Name="Bounded Value" UniqueId="0zPwBITXr4sQ2Uj$kn_bOo" Status="Official" Owner="System" Type="IfcPropertyBoundedValue">
+																		<DocTemplateDefinition id="Bounded_Value_0zPwBITXr4sQ2Ujkn_bOo" Name="Bounded Value" UniqueId="0zPwBITXr4sQ2Uj$kn_bOo" Status="Official" Owner="System" Type="IfcPropertyBoundedValue">
 																			<Rules>
 																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="PropertyName">
 																					<Rules>
@@ -181,7 +181,7 @@ NOTE&amp;nbsp; If the object type has aggregated elements, such objects are refl
 																</DocModelRuleEntity>
 																<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyEnumeratedValue">
 																	<References>
-																		<DocTemplateDefinition id="Enumerated Value_31IA2Pmr53g99cNptWj5gL" Name="Enumerated Value" UniqueId="31IA2Pmr53g99cNptWj5gL" Status="Official" Owner="System" Type="IfcPropertyEnumeratedValue">
+																		<DocTemplateDefinition id="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" Name="Enumerated Value" UniqueId="31IA2Pmr53g99cNptWj5gL" Status="Official" Owner="System" Type="IfcPropertyEnumeratedValue">
 																			<Rules>
 																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="PropertyName">
 																					<Rules>
@@ -217,7 +217,7 @@ NOTE&amp;nbsp; If the object type has aggregated elements, such objects are refl
 																</DocModelRuleEntity>
 																<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyListValue">
 																	<References>
-																		<DocTemplateDefinition id="List Value_2E4BQ8aNbEEesoQhog$fKj" Name="List Value" UniqueId="2E4BQ8aNbEEesoQhog$fKj" Type="IfcPropertyListValue">
+																		<DocTemplateDefinition id="List_Value_2E4BQ8aNbEEesoQhogfKj" Name="List Value" UniqueId="2E4BQ8aNbEEesoQhog$fKj" Type="IfcPropertyListValue">
 																			<Rules>
 																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="PropertyName">
 																					<Rules>
@@ -240,7 +240,7 @@ NOTE&amp;nbsp; If the object type has aggregated elements, such objects are refl
 																</DocModelRuleEntity>
 																<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyTableValue">
 																	<References>
-																		<DocTemplateDefinition id="Table Value_0roKUmQhnB4ux7QMxo11SX" Name="Table Value" UniqueId="0roKUmQhnB4ux7QMxo11SX" Type="IfcPropertyTableValue">
+																		<DocTemplateDefinition id="Table_Value_0roKUmQhnB4ux7QMxo11SX" Name="Table Value" UniqueId="0roKUmQhnB4ux7QMxo11SX" Type="IfcPropertyTableValue">
 																			<Rules>
 																				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="PropertyName">
 																					<Rules>
@@ -334,27 +334,27 @@ NOTE&amp;nbsp; If the object type has aggregated elements, such objects are refl
 																					<Rules>
 																						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertySingleValue">
 																							<References>
-																								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+																								<DocTemplateDefinition xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 																							</References>
 																						</DocModelRuleEntity>
 																						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyBoundedValue">
 																							<References>
-																								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
+																								<DocTemplateDefinition xsi:nil="true" href="Bounded_Value_0zPwBITXr4sQ2Ujkn_bOo" />
 																							</References>
 																						</DocModelRuleEntity>
 																						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyEnumeratedValue">
 																							<References>
-																								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+																								<DocTemplateDefinition xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 																							</References>
 																						</DocModelRuleEntity>
 																						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyListValue">
 																							<References>
-																								<DocTemplateDefinition xsi:nil="true" href="List Value_2E4BQ8aNbEEesoQhog$fKj" />
+																								<DocTemplateDefinition xsi:nil="true" href="List_Value_2E4BQ8aNbEEesoQhogfKj" />
 																							</References>
 																						</DocModelRuleEntity>
 																						<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyTableValue">
 																							<References>
-																								<DocTemplateDefinition xsi:nil="true" href="Table Value_0roKUmQhnB4ux7QMxo11SX" />
+																								<DocTemplateDefinition xsi:nil="true" href="Table_Value_0roKUmQhnB4ux7QMxo11SX" />
 																							</References>
 																						</DocModelRuleEntity>
 																					</Rules>
@@ -375,7 +375,7 @@ NOTE&amp;nbsp; If the object type has aggregated elements, such objects are refl
 						</DocTemplateDefinition>
 					</Templates>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Property Sets for Types_1Bup4gCPb9Bh84oi8YcfhU" Name="Property Sets for Types" UniqueId="1Bup4gCPb9Bh84oi8YcfhU" Type="IfcTypeObject">
+				<DocTemplateDefinition id="Property_Sets_for_Types_1Bup4gCPb9Bh84oi8YcfhU" Name="Property Sets for Types" UniqueId="1Bup4gCPb9Bh84oi8YcfhU" Type="IfcTypeObject">
 					<Documentation>&lt;p&gt;The concept template &lt;em&gt;Property Sets for Objects&lt;/em&gt; describes how an object type can be related to a single or multiple property sets. A property set
  contains a single or multiple properties. The data types of
  an individual property are single value, enumerated value,
@@ -394,27 +394,27 @@ NOTE&amp;nbsp; If the object type has aggregated elements, such objects are refl
 											<Rules>
 												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertySingleValue">
 													<References>
-														<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
+														<DocTemplateDefinition xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 													</References>
 												</DocModelRuleEntity>
 												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyBoundedValue">
 													<References>
-														<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
+														<DocTemplateDefinition xsi:nil="true" href="Bounded_Value_0zPwBITXr4sQ2Ujkn_bOo" />
 													</References>
 												</DocModelRuleEntity>
 												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyEnumeratedValue">
 													<References>
-														<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
+														<DocTemplateDefinition xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 													</References>
 												</DocModelRuleEntity>
 												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyListValue">
 													<References>
-														<DocTemplateDefinition xsi:nil="true" href="List Value_2E4BQ8aNbEEesoQhog$fKj" />
+														<DocTemplateDefinition xsi:nil="true" href="List_Value_2E4BQ8aNbEEesoQhogfKj" />
 													</References>
 												</DocModelRuleEntity>
 												<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcPropertyTableValue">
 													<References>
-														<DocTemplateDefinition xsi:nil="true" href="Table Value_0roKUmQhnB4ux7QMxo11SX" />
+														<DocTemplateDefinition xsi:nil="true" href="Table_Value_0roKUmQhnB4ux7QMxo11SX" />
 													</References>
 												</DocModelRuleEntity>
 											</Rules>
@@ -425,7 +425,7 @@ NOTE&amp;nbsp; If the object type has aggregated elements, such objects are refl
 						</DocModelRuleAttribute>
 					</Rules>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Property Sets for Performance_33BCLRhyT3dhWXvaRXiTqQ" Name="Property Sets for Performance" UniqueId="33BCLRhyT3dhWXvaRXiTqQ" Type="IfcPerformanceHistory">
+				<DocTemplateDefinition id="Property_Sets_for_Performance_33BCLRhyT3dhWXvaRXiTqQ" Name="Property Sets for Performance" UniqueId="33BCLRhyT3dhWXvaRXiTqQ" Type="IfcPerformanceHistory">
 					<Documentation>&lt;p&gt;For performance history, properties are in the form of time series, for tracking data at points in time.&lt;/p&gt;</Documentation>
 					<Rules>
 						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="IsDefinedBy">
@@ -482,7 +482,7 @@ NOTE&amp;nbsp; If the object type has aggregated elements, such objects are refl
 				</DocTemplateDefinition>
 			</Templates>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" Name="Quantity Sets" UniqueId="1cKZcEPNb4O8oq9YbQpwp7" Version="1" Type="IfcObject">
+		<DocTemplateDefinition id="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" Name="Quantity Sets" UniqueId="1cKZcEPNb4O8oq9YbQpwp7" Version="1" Type="IfcObject">
 			<Documentation>&lt;p&gt;
 Any specialization of object can be related to multiple quantity set occurrences. A quantity set
  contains multiple quantity occurrences. The data type of
@@ -518,7 +518,7 @@ Any specialization of object can be related to multiple quantity set occurrences
 													<Rules>
 														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcQuantityLength">
 															<References>
-																<DocTemplateDefinition id="Length Quantity_3TXdZXum1FS9rZvJdRIz4S" Name="Length Quantity" UniqueId="3TXdZXum1FS9rZvJdRIz4S" Type="IfcQuantityLength">
+																<DocTemplateDefinition id="Length_Quantity_3TXdZXum1FS9rZvJdRIz4S" Name="Length Quantity" UniqueId="3TXdZXum1FS9rZvJdRIz4S" Type="IfcQuantityLength">
 																	<Rules>
 																		<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="QuantityName">
 																			<Rules>
@@ -546,7 +546,7 @@ Any specialization of object can be related to multiple quantity set occurrences
 														</DocModelRuleEntity>
 														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcQuantityArea">
 															<References>
-																<DocTemplateDefinition id="Area Quantity_1bh4T7Rlz3VfJYP3$Kux_6" Name="Area Quantity" UniqueId="1bh4T7Rlz3VfJYP3$Kux_6" Type="IfcQuantityArea">
+																<DocTemplateDefinition id="Area_Quantity_1bh4T7Rlz3VfJYP3Kux_6" Name="Area Quantity" UniqueId="1bh4T7Rlz3VfJYP3$Kux_6" Type="IfcQuantityArea">
 																	<Rules>
 																		<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="QuantityName">
 																			<Rules>
@@ -574,7 +574,7 @@ Any specialization of object can be related to multiple quantity set occurrences
 														</DocModelRuleEntity>
 														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcQuantityVolume">
 															<References>
-																<DocTemplateDefinition id="Volume Quantity_1aaQEmj_b1Ae8clDaSAmiE" Name="Volume Quantity" UniqueId="1aaQEmj_b1Ae8clDaSAmiE" Type="IfcQuantityVolume">
+																<DocTemplateDefinition id="Volume_Quantity_1aaQEmj_b1Ae8clDaSAmiE" Name="Volume Quantity" UniqueId="1aaQEmj_b1Ae8clDaSAmiE" Type="IfcQuantityVolume">
 																	<Rules>
 																		<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="QuantityName">
 																			<Rules>
@@ -602,7 +602,7 @@ Any specialization of object can be related to multiple quantity set occurrences
 														</DocModelRuleEntity>
 														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcQuantityWeight">
 															<References>
-																<DocTemplateDefinition id="Weight Quantity_3X0MvMF8bFGfPv1_7RF0hx" Name="Weight Quantity" UniqueId="3X0MvMF8bFGfPv1_7RF0hx" Type="IfcQuantityWeight">
+																<DocTemplateDefinition id="Weight_Quantity_3X0MvMF8bFGfPv1_7RF0hx" Name="Weight Quantity" UniqueId="3X0MvMF8bFGfPv1_7RF0hx" Type="IfcQuantityWeight">
 																	<Rules>
 																		<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="QuantityName">
 																			<Rules>
@@ -630,7 +630,7 @@ Any specialization of object can be related to multiple quantity set occurrences
 														</DocModelRuleEntity>
 														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcQuantityCount">
 															<References>
-																<DocTemplateDefinition id="Count Quantity_2AhlyoLonFQgnauXKMOyln" Name="Count Quantity" UniqueId="2AhlyoLonFQgnauXKMOyln" Type="IfcQuantityCount">
+																<DocTemplateDefinition id="Count_Quantity_2AhlyoLonFQgnauXKMOyln" Name="Count Quantity" UniqueId="2AhlyoLonFQgnauXKMOyln" Type="IfcQuantityCount">
 																	<Rules>
 																		<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="QuantityName">
 																			<Rules>
@@ -658,7 +658,7 @@ Any specialization of object can be related to multiple quantity set occurrences
 														</DocModelRuleEntity>
 														<DocModelRuleEntity CardinalityMin="0" CardinalityMax="0" Name="IfcQuantityTime">
 															<References>
-																<DocTemplateDefinition id="Time Quantity_13nC1G1DvB3vv3S8lPWW6e" Name="Time Quantity" UniqueId="13nC1G1DvB3vv3S8lPWW6e" Type="IfcQuantityTime">
+																<DocTemplateDefinition id="Time_Quantity_13nC1G1DvB3vv3S8lPWW6e" Name="Time Quantity" UniqueId="13nC1G1DvB3vv3S8lPWW6e" Type="IfcQuantityTime">
 																	<Rules>
 																		<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Name" Identification="QuantityName">
 																			<Rules>

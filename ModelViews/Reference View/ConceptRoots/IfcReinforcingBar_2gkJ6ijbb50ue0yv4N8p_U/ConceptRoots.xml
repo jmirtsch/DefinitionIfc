@@ -1,45 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="aab931ac-b659-4503-8a00-f39117233f9e">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcReinforcingBar" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcReinforcingBar" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="be16e143-e157-44b4-b2c6-b204c55cd8e8">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="3b880f38-75aa-4e37-82f9-f9d2040b095f" RuleParameters="RelatingType=IfcReinforcingBarType;" Order="0" />
 			</Items>
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="0b2e7871-6bfa-4138-85f5-fcbaf6635a09">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="d1a7cf45-58e0-467f-a0ae-35f7d7864ac9" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_PileBaseQuantities;TemplateType=QTO_OCCURRENCEDRIVEN;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Reinforcing Bar Attributes" UniqueId="aad49c87-04eb-426d-9aa6-920a5506a3e6">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Reinforcing Bar Attributes_3oYIX$ghTD4BYiuJYSZCJX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Reinforcing_Bar_Attributes_3oYIXghTD4BYiuJYSZCJX" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="6151eee6-ca6e-41e5-8326-53bf7554dc95" Type="IfcReinforcingBar" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="3b241a60-4e3d-4b69-b343-7196e37d7dd1" Type="IfcReinforcingBar" />
 </DocConceptRoot>
 

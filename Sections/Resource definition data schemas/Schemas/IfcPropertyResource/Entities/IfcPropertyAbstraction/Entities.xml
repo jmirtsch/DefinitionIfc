@@ -5,9 +5,7 @@
 		<DocLocalization Name="Property Abstraction" Locale="en" />
 		<DocLocalization Name="Propriété abstraite" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="64.933333" Y="451.49333" Width="394.66667" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="64.933333" Y="451.49333" Width="394.66667" Height="100" />
 	<Subtypes>
 		<DocSubtype UniqueId="99a576fe-2ed9-4b43-9f22-c58eccfeb406" DefinedType="IfcProperty" />
 		<DocSubtype UniqueId="d218f53c-4a0d-48f6-9056-394d215ca68e" DefinedType="IfcExtendedProperties" />
@@ -22,9 +20,7 @@
 				<DocPoint X="251.6" Y="451.49333" />
 				<DocPoint X="251.6" Y="330.53333" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="481.3" Y="476.639997" Width="411" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="481.3" Y="476.639997" Width="411" Height="70" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

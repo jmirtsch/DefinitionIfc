@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3HP6QsgkP5BfT7akh9J8Z_">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcSite" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcSite" />
 	<Concepts>
 		<DocTemplateUsage Name="Spatial Composition" UniqueId="a7ebd0cc-b9f8-40f6-9f9e-53e24c4c1278">
 			<Documentation>&lt;p&gt;By using the inverse relationship &lt;em&gt;IfcSite.Decomposes&lt;/em&gt; it references &lt;em&gt;IfcProject&lt;/em&gt; ||
@@ -12,9 +10,7 @@ refers to another instance of &lt;em&gt;IfcSite&lt;/em&gt;, the referenced
 &lt;em&gt;CompositionType&lt;/em&gt;, i.e. COMPLEX (if the other &lt;em&gt;IfcSite&lt;/em&gt;
  has ELEMENT), or ELEMENT (if the other &lt;em&gt;IfcSite&lt;/em&gt; has 
 PARTIAL).&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Composition_2C3zBtSRjERe$R30ApKl5A" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Composition_2C3zBtSRjEReR30ApKl5A" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Spatial Decomposition" UniqueId="7afd1725-9992-4b62-b6da-6f2c9bae8177">
 			<Documentation>&lt;p&gt;By using the inverse relationship &lt;em&gt;IfcSite.IsDecomposedBy&lt;/em&gt; it references (em&gt;IfcSite&lt;/em&gt; ||
@@ -24,9 +20,7 @@ instance of &lt;em&gt;IfcSite&lt;/em&gt;, the referenced &lt;em&gt;IfcSite&lt;/e
 have a different and lower &lt;em&gt;CompositionType&lt;/em&gt;, i.e. ELEMENT (if the
  other &lt;em&gt;IfcSite&lt;/em&gt; has COMPLEX), or PARTIAL (if the other
 &lt;em&gt;IfcSite&lt;/em&gt; has ELEMENT).&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Decomposition_1cVuH3xCvAZQO$an_h15FW" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Decomposition_1cVuH3xCvAZQOan_h15FW" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Spatial Container" UniqueId="8c4c40f5-f6ce-4a82-9ac3-1632962f9a75">
 			<Documentation>&lt;p&gt;If there are building elements and/or other elements directly
@@ -42,21 +36,15 @@ are associated with the &lt;em&gt;IfcSite&lt;/em&gt; by using the objectified
 element) by
 &lt;em&gt;IfcRelContainedInSpatialStructure.RelatedElements&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Container_1XtGZj$G59LPCtYlqeIWvl" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Container_1XtGZjG59LPCtYlqeIWvl" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="0meLZbemf0qhWVGqd3Uv6r">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="e0840e32-f120-4a11-bf2f-63fc90cb7267" RuleParameters="PsetName=Pset_LandRegistration;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="63d6d72e-a1e7-413c-9643-e01cd941873a">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="9d93bcc3-6272-42d4-b5fe-dbfd0ba890e7" RuleParameters="PropertyName=LandID;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="fd8120f3-c047-4cbb-8266-448eb7228bcb" RuleParameters="PropertyName=IsPermanentID;Value=IfcBoolean;" Order="0" />
@@ -68,9 +56,7 @@ element) by
 				<DocTemplateItem UniqueId="87101b75-cd80-4a32-b5b4-10c8e613b8c5" RuleParameters="PsetName=Pset_SiteCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="5caef365-ba30-480e-a19d-326c4e21f06f">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="38d55b4f-6850-4540-91df-5a19d3ae4c8e" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="192a11d7-6a55-40e9-973e-7a7751f0f2e4" RuleParameters="PropertyName=BuildableArea;Value=IfcAreaMeasure;" Order="0" />
@@ -85,9 +71,7 @@ element) by
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="0kBCb3dVf67g$VzholYYqO">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="411e23c0-6557-4b2f-9856-91ad478933f8" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_SiteBaseQuantities;TemplateType=QTO_OCCURRENCEDRIVEN;" Order="0" />
 			</Items>
@@ -107,18 +91,14 @@ site complex, or a site section to a site).&lt;/li&gt;
 is defined within the world coordinate system. If there is only one
 site object, then this is the default situation.&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="FootPrint GeomSet Geometry" UniqueId="4edce3c7-a773-463d-8d0c-2e720b16fe38">
 			<Documentation>&lt;p&gt;The foot print representation of &lt;em&gt;IfcSite&lt;/em&gt; is given by
 either a single 2D curve (such as &lt;em&gt;IfcPolyline&lt;/em&gt; or
 &lt;em&gt;IfcCompositeCurve&lt;/em&gt;), or by a list of 2D curves (in case of
 inner boundaries).&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="FootPrint GeomSet Geometry_2KLjRMfYf8jBh$lYuukgoS" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="FootPrint_GeomSet_Geometry_2KLjRMfYf8jBhlYuukgoS" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Survey Points Geometry" UniqueId="2tDySYmDTFGhe7QvfgwmeA">
 			<Documentation>&lt;p&gt;The survey point representation of &lt;em&gt;IfcSite&lt;/em&gt; is defined
@@ -165,9 +145,7 @@ representation of &lt;em&gt;IfcSite&lt;/em&gt; is:&lt;/p&gt;
 &lt;/table&gt;
 
 &lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The geometric representation of the site has been based on the ARM level description of the site_shape_representation given within the ISO 10303-225 &quot;Building Elements using explicit shape representation&quot;.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Survey Points Geometry_0gaFKlUM5DlOLWL6uj2tEx" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Survey_Points_Geometry_0gaFKlUM5DlOLWL6uj2tEx" />
 			<Items>
 				<DocTemplateItem UniqueId="3b89bb6c-e046-46a4-9b02-dd8065062c22" RuleParameters="RepresentationType=GeometricCurveSet;Geometry=IfcGeometricCurveSet;" Order="0" />
 			</Items>
@@ -186,17 +164,13 @@ and the &lt;em&gt;IfcShellBasedSurfaceModel&lt;/em&gt;.&lt;/p&gt;
 &lt;li&gt;&lt;em&gt;IfcShapeRepresentation.RepresentationType&lt;/em&gt; = &apos;Brep&apos;, or
 &apos;SurfaceModel&apos;&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Geometry_34HhqMBUDBbxDFH4Qi2wt2" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Geometry_34HhqMBUDBbxDFH4Qi2wt2" />
 			<Items>
 				<DocTemplateItem UniqueId="41464663-1983-4039-8d14-e89360b4a5c2" RuleParameters="RepresentationType=Brep;Geometry=IfcFacetedBrep;" Order="0" />
 				<DocTemplateItem UniqueId="29984848-6e13-4373-a2c8-30532cf4980a" RuleParameters="RepresentationType=SurfaceModel;Geometry=IfcFaceBasedSurfaceModel;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="f80e96bc-724b-4d7d-9267-70b14214a02e" Type="IfcSite" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="6e9abe66-cfc3-4651-9a20-0fac1c0aa0ee" Type="IfcSite" />
 </DocConceptRoot>
 

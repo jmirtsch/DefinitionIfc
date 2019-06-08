@@ -5,9 +5,7 @@
 		<DocLocalization Name="Tendon" Locale="en" />
 		<DocLocalization Name="Cable" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1940.9998" Y="1527.8484" Width="250.32894" Height="681.73561" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1940.9998" Y="1527.8484" Width="250.32894" Height="681.73561" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="8bf9e3ad-01c9-436e-a415-02119d9e681e" DefinedType="IfcTendonTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined generic types for a tendon.
@@ -17,9 +15,7 @@
 				<DocPoint X="2191.3287" Y="1557.4366" />
 				<DocPoint X="2535.46368" Y="1557.4366" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2191.3287" Y="1557.4366" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2191.3287" Y="1557.4366" Width="182" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="NominalDiameter" UniqueId="769d5dcc-353b-448a-a5f9-3ff7b462d814" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The nominal diameter defining the cross-section size of the tendon.
@@ -29,9 +25,7 @@
 				<DocPoint X="2191.3287" Y="1632.7816" />
 				<DocPoint X="2535.47475" Y="1632.7816" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2191.3287" Y="1632.7816" Width="197" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2191.3287" Y="1632.7816" Width="197" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="CrossSectionArea" UniqueId="f2710ff8-a1a9-46f2-bbc1-5b12b313be27" DefinedType="IfcAreaMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The effective cross-section area of the tendon.
@@ -41,9 +35,7 @@
 				<DocPoint X="2191.3287" Y="1722.1597" />
 				<DocPoint X="2535.46003" Y="1722.1597" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2193.3698776" Y="1713.9949897" Width="205" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2193.3698776" Y="1713.9949897" Width="205" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="TensionForce" UniqueId="361cb1c1-156f-4fd7-b742-88f20ba76a5d" DefinedType="IfcForceMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The maximum allowed tension force that can be applied on the tendon.</Documentation>
@@ -51,9 +43,7 @@
 				<DocPoint X="2191.3287" Y="1814.6505" />
 				<DocPoint X="2535.47475" Y="1814.6505" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2191.3287" Y="1814.6505" Width="158" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2191.3287" Y="1814.6505" Width="158" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="PreStress" UniqueId="c7b0f979-558e-49ac-bf39-9fd037774d51" DefinedType="IfcPressureMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The prestress to be applied on the tendon.</Documentation>
@@ -61,9 +51,7 @@
 				<DocPoint X="2191.3287" Y="1907.1414" />
 				<DocPoint X="2535.42805" Y="1907.1414" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2191.3287" Y="1907.1414" Width="114" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2191.3287" Y="1907.1414" Width="114" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="FrictionCoefficient" UniqueId="8b3dbb92-6ef8-4fa8-bce3-8fe156c01557" DefinedType="IfcNormalisedRatioMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The friction coefficient between tendon and tendon sheet while the tendon is unbonded.</Documentation>
@@ -71,9 +59,7 @@
 				<DocPoint X="2191.3287" Y="1996.2898" />
 				<DocPoint X="2535.47069" Y="1996.2898" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2191.3287" Y="1996.2898" Width="204" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2191.3287" Y="1996.2898" Width="204" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="AnchorageSlip" UniqueId="723e9da1-873b-41c5-8865-674d57ab2356" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The deformation of an anchor or slippage of tendons when the prestressing device is released.</Documentation>
@@ -81,9 +67,7 @@
 				<DocPoint X="2191.3287" Y="2082.0958" />
 				<DocPoint X="2535.47069" Y="2082.0958" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2191.3287" Y="2082.0958" Width="167" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2191.3287" Y="2082.0958" Width="167" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="MinCurvatureRadius" UniqueId="b99f7bfe-1105-4b52-b367-038790040da0" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The smallest curvature radius calculated on the whole effective length of the tendon where the tension properties are still valid.</Documentation>
@@ -91,9 +75,7 @@
 				<DocPoint X="2191.3287" Y="2174.6632" />
 				<DocPoint X="2535.44937" Y="2174.6632" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2191.3287" Y="2174.6632" Width="232" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2191.3287" Y="2174.6632" Width="232" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

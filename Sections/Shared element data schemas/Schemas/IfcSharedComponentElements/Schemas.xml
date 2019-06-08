@@ -4,18 +4,14 @@
 		<DocSchemaRef Name="IFCMEASURERESOURCE" UniqueId="b8f5e038-b154-4d1a-a4fb-c9db312953fa">
 			<Definitions>
 				<DocDefinitionRef Name="IfcPositiveLengthMeasure" UniqueId="e66ed2f6-77c0-4ac1-b72e-bacda24345b3" DiagramNumber="1">
-					<DiagramRectangle>
-						<DocRectangle X="823.9494" Y="2181.793" Width="644.34675" Height="132.19139" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="823.9494" Y="2181.793" Width="644.34675" Height="132.19139" />
 				</DocDefinitionRef>
 			</Definitions>
 		</DocSchemaRef>
 		<DocSchemaRef Name="IFCPRODUCTEXTENSION" UniqueId="61cb783e-5367-4673-ba30-f8fac4940842">
 			<Definitions>
 				<DocDefinitionRef Name="IfcElement" UniqueId="04762b32-56fc-4d81-a1dd-22e7491d9452" DiagramNumber="1">
-					<DiagramRectangle>
-						<DocRectangle X="49.198515" Y="38.570424" Width="498.43739" Height="152.63927" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="49.198515" Y="38.570424" Width="498.43739" Height="152.63927" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -26,9 +22,7 @@
 					</Tree>
 				</DocDefinitionRef>
 				<DocDefinitionRef Name="IfcElementType" UniqueId="da39bfeb-9b18-421f-aeef-45f9c7dff83d" DiagramNumber="1">
-					<DiagramRectangle>
-						<DocRectangle X="38.808604" Y="1251.8031" Width="551.60299" Height="123.80909" />
-					</DiagramRectangle>
+					<DiagramRectangle xsi:type="DocRectangle" X="38.808604" Y="1251.8031" Width="551.60299" Height="123.80909" />
 					<Tree>
 						<DocLine>
 							<DiagramLine>
@@ -42,21 +36,41 @@
 		</DocSchemaRef>
 		<DocSchemaRef Name="IFCPRODUCTEXTENSION" UniqueId="e115e82a-2343-4218-b1b4-687e0337d211" />
 	</SchemaRefs>
+	<Types>
+		<DocEnumeration xsi:nil="true" href="IfcBuildingElementPartTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcDiscreteAccessoryTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcFastenerTypeEnum" />
+		<DocEnumeration xsi:nil="true" href="IfcMechanicalFastenerTypeEnum" />
+	</Types>
+	<PropertySets>
+		<DocPropertySet xsi:nil="true" href="Pset_DiscreteAccessoryColumnShoe" />
+		<DocPropertySet xsi:nil="true" href="Pset_DiscreteAccessoryCornerFixingPlate" />
+		<DocPropertySet xsi:nil="true" href="Pset_DiscreteAccessoryDiagonalTrussConnector" />
+		<DocPropertySet xsi:nil="true" href="Pset_DiscreteAccessoryEdgeFixingPlate" />
+		<DocPropertySet xsi:nil="true" href="Pset_DiscreteAccessoryFixingSocket" />
+		<DocPropertySet xsi:nil="true" href="Pset_DiscreteAccessoryLadderTrussConnector" />
+		<DocPropertySet xsi:nil="true" href="Pset_DiscreteAccessoryStandardFixingPlate" />
+		<DocPropertySet xsi:nil="true" href="Pset_DiscreteAccessoryWireLoop" />
+		<DocPropertySet xsi:nil="true" href="Pset_ElementComponentCommon" />
+		<DocPropertySet xsi:nil="true" href="Pset_FastenerWeld" />
+		<DocPropertySet xsi:nil="true" href="Pset_MechanicalFastenerAnchorBolt" />
+		<DocPropertySet xsi:nil="true" href="Pset_MechanicalFastenerBolt" />
+	</PropertySets>
 	<Comments>
 		<DocComment UniqueId="8670bdaf-b133-4863-93f9-6fd08785cf85" DiagramNumber="1">
 			<Documentation>all enumerations added in
 IFC 2x4</Documentation>
-			<DiagramRectangle>
-				<DocRectangle X="812.72089" Y="1512.9414" Width="424.51532" Height="98.978701" />
-			</DiagramRectangle>
+			<DiagramRectangle xsi:type="DocRectangle" X="812.72089" Y="1512.9414" Width="424.51532" Height="98.978701" />
 		</DocComment>
 		<DocComment UniqueId="bd9aaf27-a0ae-44a0-aff7-fa3a4ec9b206" DiagramNumber="1">
 			<Documentation>IfcBuildingElementPartType
 added in IFC 2x4</Documentation>
-			<DiagramRectangle>
-				<DocRectangle X="812.37155" Y="1391.0744" Width="408.18909" Height="98.536623" />
-			</DiagramRectangle>
+			<DiagramRectangle xsi:type="DocRectangle" X="812.37155" Y="1391.0744" Width="408.18909" Height="98.536623" />
 		</DocComment>
 	</Comments>
+	<PropertyEnumerations>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ElementComponentCorrosionTreatment_2Q5Xbh7y9B88oOvauHjbF" />
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ElementComponentDeliveryType_0eVclkTjPDWOu1sMZzUsSF" />
+	</PropertyEnumerations>
 </DocSchema>
 

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Rel Assigns To Resource" Locale="en" />
 		<DocLocalization Name="Assignation à ressource" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="15485.025" Y="845.07686" Width="452.5" Height="133.3" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="15485.025" Y="845.07686" Width="452.5" Height="133.3" />
 	<Attributes>
 		<DocAttribute Name="RelatingResource" UniqueId="72a6ed25-a274-4a9c-a9ac-7e183ce5c24c" DefinedType="IfcResourceSelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Reference to the resource to which the objects are assigned to.
@@ -18,9 +16,7 @@
 				<DocPoint X="15269.6121" Y="1241.82333" />
 				<DocPoint X="14883.533" Y="1241.82333" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="15470.635333" Y="890.10843" Width="204" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="15470.635333" Y="890.10843" Width="204" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

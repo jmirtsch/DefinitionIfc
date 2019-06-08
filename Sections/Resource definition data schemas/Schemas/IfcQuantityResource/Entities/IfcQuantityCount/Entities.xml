@@ -5,9 +5,7 @@
 		<DocLocalization Name="Quantity Count" Locale="en" />
 		<DocLocalization Name="Quantité de comptage" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="559.23333" Y="1667.0998" Width="316.56667" Height="101.33333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="559.23333" Y="1667.0998" Width="316.56667" Height="101.33333" />
 	<Attributes>
 		<DocAttribute Name="CountValue" UniqueId="c99711b7-fd92-47cc-8140-90c5c2bef60e" DefinedType="IfcCountMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Count measure value of this quantity.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="875.8" Y="1717.7665" />
 				<DocPoint X="1182.5999" Y="1717.7665" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="875.8" Y="1717.7665" Width="137" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="875.8" Y="1717.7665" Width="137" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Formula" UniqueId="9ce02ae9-f66b-4467-b9f1-0b08497326e8" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>A formula by which the quantity has been calculated. It can be assigned in addition to the actual value of the quantity. Formulas could be mathematic calculations (like width x height), database links, or a combination. The formula is for informational purposes only.
@@ -27,9 +23,7 @@
 				<DocPoint X="581.81666" Y="1840.233202" />
 				<DocPoint X="927.83333" Y="1840.233202" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="574.14166" Y="1833.6665345" Width="97" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="574.14166" Y="1833.6665345" Width="97" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

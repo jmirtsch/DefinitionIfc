@@ -5,9 +5,7 @@
 		<DocLocalization Name="Distribution Control Element" Locale="en" />
 		<DocLocalization Name="Élément de circuit de distribution" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="936.3248" Y="872.90115" Width="598.33333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="936.3248" Y="872.90115" Width="598.33333" Height="100" />
 	<Attributes>
 		<DocAttribute Name="AssignedToFlowElement" UniqueId="27a6ae84-a0f5-4f78-b04e-96fb34fe6869" DefinedType="IfcRelFlowControlElements" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="RelatedControlElements">
 			<Documentation>Reference through the relationship object to related distribution flow elements.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="1370.77588" Y="613.13579" />
 				<DocPoint X="1370.77588" Y="872.90115" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="981.15283" Y="779.00378" Width="422" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="981.15283" Y="779.00378" Width="422" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

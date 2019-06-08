@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="f71121d4-7f46-45cf-8f8f-010775f31627">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcRevolvedAreaSolid" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="bd887c45-8dd0-4e38-9e83-3978951cf812" Type="IfcRevolvedAreaSolid" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcRevolvedAreaSolid" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="03763fdc-e856-43e6-b540-8591a9391f0c" Type="IfcRevolvedAreaSolid" />
 </DocConceptRoot>
 

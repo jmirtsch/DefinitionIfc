@@ -4,12 +4,8 @@
 		<DocLocalization Name="Volume Measure" Locale="en" />
 		<DocLocalization Name="Mesure de volume" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4109.1725" Y="1816.1826" Width="405.36667" Height="66" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_26xThefk1Fhx9xwXAspZ0W" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="4109.1725" Y="1816.1826" Width="405.36667" Height="66" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_26xThefk1Fhx9xwXAspZ0W" />
 	<DiagramLine>
 		<DocPoint X="4514.5392" Y="1849.1826" />
 		<DocPoint X="4591.698" Y="1849.1826" />

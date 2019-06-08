@@ -5,9 +5,7 @@
 		<DocLocalization Name="Rel Assigns To Process" Locale="en" />
 		<DocLocalization Name="Assignation à processus" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="13919.445" Y="845.03648" Width="417.90833" Height="133.29166" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="13919.445" Y="845.03648" Width="417.90833" Height="133.29166" />
 	<Attributes>
 		<DocAttribute Name="RelatingProcess" UniqueId="54a9a406-c37a-4960-bd8e-5ffa24089552" DefinedType="IfcProcessSelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Reference to the process to which the objects are assigned to.
@@ -18,9 +16,7 @@
 				<DocPoint X="13798.29168" Y="1267.25666" />
 				<DocPoint X="13526.63387" Y="1267.25666" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="13819.567538" Y="1250.536153" Width="186" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="13819.567538" Y="1250.536153" Width="186" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="QuantityInProcess" UniqueId="d46dadaf-98f8-4365-b82a-c34da0aaab02" DefinedType="IfcMeasureWithUnit" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Quantity of the object specific for the operation by this process.</Documentation>
@@ -28,9 +24,7 @@
 				<DocPoint X="14261.89" Y="978.32814" />
 				<DocPoint X="14261.89" Y="1987.64244" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="14153.08625" Y="997.60914" Width="208" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="14153.08625" Y="997.60914" Width="208" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

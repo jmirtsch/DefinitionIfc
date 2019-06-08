@@ -5,9 +5,7 @@
 		<DocLocalization Name="Controller" Locale="en" />
 		<DocLocalization Name="Organe de contrôle" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="865.66667" Y="719.45333" Width="674.6" Height="108" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="865.66667" Y="719.45333" Width="674.6" Height="108" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="08d1cfc4-3698-4d47-bf23-c6df04a69ff9" DefinedType="IfcControllerTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
@@ -15,9 +13,7 @@
 				<DocPoint X="1533.6333" Y="876.89996" />
 				<DocPoint X="1092.38667" Y="876.89996" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1438.343317" Y="824.7866633" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1438.343317" Y="824.7866633" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

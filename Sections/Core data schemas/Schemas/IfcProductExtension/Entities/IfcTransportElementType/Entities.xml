@@ -5,9 +5,7 @@
 		<DocLocalization Name="Transport Element Type" Locale="en" />
 		<DocLocalization Name="Type d&apos;équipement de transport" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3426.7625" Y="1617.6594" Width="439.23333" Height="119.86667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3426.7625" Y="1617.6594" Width="439.23333" Height="119.86667" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="59d54e7c-05ef-4b69-8197-5d552e63c8f6" DefinedType="IfcTransportElementTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined types to define the particular type of the transport element. There may be property set definitions available for each predefined type.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="3865.9958" Y="1677.5927" />
 				<DocPoint X="4112.08487" Y="1677.5927" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3860.6624667" Y="1666.926033" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3860.6624667" Y="1666.926033" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

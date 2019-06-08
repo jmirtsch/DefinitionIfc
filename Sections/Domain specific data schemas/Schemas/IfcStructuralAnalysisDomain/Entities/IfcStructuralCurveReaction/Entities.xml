@@ -4,9 +4,7 @@
 		<DocLocalization Name="linienförmige Auflagerreaktion" Locale="de" />
 		<DocLocalization Name="Structural Curve Reaction" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5826.0810546875" Y="1350.19584147135" Width="387.358083089193" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="5826.0810546875" Y="1350.19584147135" Width="387.358083089193" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="090260b8-a1fe-4aec-889e-d8fd90137b39" DefinedType="IfcStructuralCurveActivityTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Type of reaction according to its distribution of load values.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="5976.226755778" Y="1450.19584147135" />
 				<DocPoint X="5976.226755778" Y="1497.21130371094" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5976.226755778" Y="1477.21130371094" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5976.226755778" Y="1477.21130371094" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

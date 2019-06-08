@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="8f30897f-66d6-4344-8a21-4cad705dfaf7">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcCurtainWallType" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcCurtainWallType" />
 	<Concepts>
 		<DocTemplateUsage Name="Body Geometry" UniqueId="ec0f1e46-6d83-4627-a379-9ee6b4923b90">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Type Body Geometry_0wx2q0jBj7QgWX$2AubRKn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Type_Body_Geometry_0wx2q0jBj7QgWX2AubRKn" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="0e4f3411-125c-45ff-b283-cf58796d9b3c" Type="IfcCurtainWallType" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="7aec7c55-8dae-4315-944e-b09880dc0e4d" Type="IfcCurtainWallType" />
 </DocConceptRoot>
 

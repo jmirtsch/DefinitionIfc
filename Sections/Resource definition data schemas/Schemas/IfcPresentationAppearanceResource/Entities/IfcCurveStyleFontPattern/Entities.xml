@@ -4,9 +4,7 @@
 		<DocLocalization Name="Linienstilsatz - Muster" Locale="de" />
 		<DocLocalization Name="Curve Style Font Pattern" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3750.2759" Y="2133.9713" Width="227.5" Height="176.66667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3750.2759" Y="2133.9713" Width="227.5" Height="176.66667" />
 	<Attributes>
 		<DocAttribute Name="VisibleSegmentLength" UniqueId="bf5fb00d-16e8-4146-a8f3-e125fa492723" DefinedType="IfcLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The length of the visible segment in the pattern definition.
@@ -16,9 +14,7 @@
 				<DocPoint X="3977.7759" Y="2252.3047" />
 				<DocPoint X="4335.30924" Y="2252.3047" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3974.4425667" Y="2245.6380333" Width="254" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3974.4425667" Y="2245.6380333" Width="254" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="InvisibleSegmentLength" UniqueId="317e8bab-7743-45d9-bda6-e034d1b74450" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The length of the invisible segment in the pattern definition.</Documentation>
@@ -26,9 +22,7 @@
 				<DocPoint X="3977.7759" Y="2165.6379" />
 				<DocPoint X="4335.24247" Y="2165.6379" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3979.7759" Y="2157.6379" Width="271" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3979.7759" Y="2157.6379" Width="271" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

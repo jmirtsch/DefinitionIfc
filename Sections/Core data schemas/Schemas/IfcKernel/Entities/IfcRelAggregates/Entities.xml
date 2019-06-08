@@ -5,9 +5,7 @@
 		<DocLocalization Name="Rel Aggregates" Locale="en" />
 		<DocLocalization Name="Regroupement" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="8163.8834" Y="1588.6001" Width="453.96667" Height="100.66666" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="8163.8834" Y="1588.6001" Width="453.96667" Height="100.66666" />
 	<Attributes>
 		<DocAttribute Name="RelatingObject" UniqueId="f407a363-0275-4e6e-8a02-a85bd6fa688f" DefinedType="IfcObjectDefinition" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="hidden">
 			<Documentation>The object definition, either an object type or an object occurrence, that represents the aggregation. It is the whole within the whole/part relationship.
@@ -17,9 +15,7 @@
 				<DocPoint X="8225.5334" Y="1689.2667" />
 				<DocPoint X="8225.5334" Y="1902.58644" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="8324.200067" Y="1705.2667" Width="169" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="8324.200067" Y="1705.2667" Width="169" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="RelatedObjects" UniqueId="625f25d1-b298-4499-9dab-89400c65d801" DefinedType="IfcObjectDefinition" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
 			<Documentation>The object definitions, either object occurrences or object types, that are being aggregated. They are defined as the parts in the whole/part relationship. No order is implied between the parts.
@@ -29,9 +25,7 @@
 				<DocPoint X="8540.2" Y="1689.2668" />
 				<DocPoint X="8540.2" Y="1902.51978" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="8689.53333" Y="1705.2668" Width="255" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="8689.53333" Y="1705.2668" Width="255" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

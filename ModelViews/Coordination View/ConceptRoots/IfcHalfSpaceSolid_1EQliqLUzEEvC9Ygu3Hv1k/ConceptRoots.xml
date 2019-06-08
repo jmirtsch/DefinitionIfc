@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="4e6afb34-55ef-4e3b-9309-8aae0347906e">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcHalfSpaceSolid" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="dde7f21e-9d41-4ff2-9680-fc9103234ae5" Type="IfcHalfSpaceSolid" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcHalfSpaceSolid" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="94ad8f98-756f-417c-a546-890d841cf2b4" Type="IfcHalfSpaceSolid" />
 </DocConceptRoot>
 

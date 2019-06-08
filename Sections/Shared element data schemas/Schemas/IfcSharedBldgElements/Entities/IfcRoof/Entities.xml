@@ -5,9 +5,7 @@
 		<DocLocalization Name="Roof" Locale="en" />
 		<DocLocalization Name="Toiture" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1865.4999" Y="926.86657" Width="249.9" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1865.4999" Y="926.86657" Width="249.9" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="27e57560-ff44-4946-bf77-d8f1d8bdc50a" DefinedType="IfcRoofTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined generic types for a roof that are specified in an enumeration. There may be a property set given for the predefined types.
@@ -17,9 +15,7 @@
 				<DocPoint X="2115.3999" Y="976.86657" />
 				<DocPoint X="2506.6999" Y="976.86657" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2108.7332333" Y="966.86657" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2108.7332333" Y="966.86657" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

@@ -1,40 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="d5afaed9-6a47-4cb3-b731-6fd151e9dec0">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcLamp" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcLamp" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="1e341bb9-ba1c-4a31-9b98-8c224477fd5a">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="e0401d77-ef44-4674-895c-d8bca0422543" RuleParameters="RelatingType=IfcLampType;" Order="0" />
 			</Items>
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="17289c52-b6f0-47cf-8e14-c81df860b0ba">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="8d81d841-ed04-4289-91a4-00fc11bfe4f6" RuleParameters="PsetName=Pset_LampTypeCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="5bfe1255-f0a1-4647-9813-0925c0e50b00">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="bc632d33-36fa-4b57-9e9b-3b7f946d9800" RuleParameters="Order=1;PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="95fb3f5a-acca-4684-994d-bd4e750d797f" RuleParameters="Order=3;PropertyName=ContributedLuminousFlux;Value=IfcLuminousFluxMeasure;" Order="0" />
@@ -46,9 +34,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="f792699e-bdc3-4bfc-b41e-76021216314e">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="45b01848-fe1d-4c8b-96b3-04665ceaa470" RuleParameters="Order=2;PropertyName=Status;Value=IfcLabel;Reference=PEnum_ElementStatus;" Order="0" />
 								<DocTemplateItem UniqueId="25d087e0-a32e-4c77-b0df-ab07dcb95ebb" RuleParameters="Order=6;PropertyName=LampBallastType;Value=IfcLabel;Reference=PEnum_LampBallastType;" Order="0" />
@@ -56,9 +42,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="0a94dae7-2f91-4026-b03b-b88d42efd241">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Table Value_0roKUmQhnB4ux7QMxo11SX" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Table_Value_0roKUmQhnB4ux7QMxo11SX" />
 							<Items>
 								<DocTemplateItem UniqueId="e25e11dc-ab56-47de-93b6-946b780dabbf" RuleParameters="Order=9;PropertyName=Spectrum;Value=IfcNumericMeasure;Reference=IfcNumericMeasure;" Order="0" />
 							</Items>
@@ -68,16 +52,12 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="79a85257-ba02-4d5f-9142-fb41c508fc93">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="36765941-1969-4cb2-917c-b71bdf321b5f" RuleParameters="QsetName=Qto_LampBaseQuantities;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Quantities" UniqueId="9fa82759-44ae-4706-8d20-b052168bb71a">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Weight Quantity_3X0MvMF8bFGfPv1_7RF0hx" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Weight_Quantity_3X0MvMF8bFGfPv1_7RF0hx" />
 							<Items>
 								<DocTemplateItem UniqueId="af1d76fd-65b2-4e8d-8890-361ff1441297" RuleParameters="Order=1;QuantityName=GrossWeight;" Order="0" />
 							</Items>
@@ -87,8 +67,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="ec1c463f-280d-4b54-8228-6166d9c2a040" Type="IfcLamp" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="15484cb5-d141-4125-96d1-1ca776871703" Type="IfcLamp" />
 </DocConceptRoot>
 

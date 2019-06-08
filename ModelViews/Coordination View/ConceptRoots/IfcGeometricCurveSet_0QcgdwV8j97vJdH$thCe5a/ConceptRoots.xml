@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1a9aa9fa-7c8b-491f-94e7-47fdeb328164">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcGeometricCurveSet" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="4b8cc41e-768b-4231-b5a0-c293aee9cca9" Type="IfcGeometricCurveSet" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcGeometricCurveSet" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="9f61d547-85cf-4f5d-bdf4-a72325497688" Type="IfcGeometricCurveSet" />
 </DocConceptRoot>
 

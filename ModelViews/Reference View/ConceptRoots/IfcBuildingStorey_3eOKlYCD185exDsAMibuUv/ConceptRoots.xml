@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3eOKlYCD185exDsAMibuUv">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcBuildingStorey" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcBuildingStorey" />
 	<Concepts>
 		<DocTemplateUsage Name="Storey Identity" UniqueId="3662100e-85bd-49f7-a022-ccd975b62bf7">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Storey Attributes_18Z9koCG9BYRqWGgfmOAu8" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Storey_Attributes_18Z9koCG9BYRqWGgfmOAu8" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Spatial Composition" UniqueId="43daeb65-eca0-4317-8243-fa4b700afd1a">
 			<Documentation>&lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; By using the inverse relationship &lt;em&gt;IfcBuildingStorey.Decomposes&lt;/em&gt; it references
@@ -17,9 +13,7 @@ instance of &lt;em&gt;IfcBuildingStorey&lt;/em&gt;, the referenced
 &lt;em&gt;IfcBuildingStorey&lt;/em&gt; needs to have a different and higher
  &lt;em&gt;CompositionType&lt;/em&gt;, i.e. COMPLEX (if the other &lt;em&gt;IfcBuildingStorey&lt;/em&gt; has ELEMENT), or ELEMENT (if the other
  &lt;em&gt;IfcBuildingStorey&lt;/em&gt; has PARTIAL).&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Composition_2C3zBtSRjERe$R30ApKl5A" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Composition_2C3zBtSRjEReR30ApKl5A" />
 			<Items>
 				<DocTemplateItem UniqueId="29e59c09-5fbe-4ad5-b68e-0ea5ca1df1fb" RuleParameters="Spatial Composite=IfcBuilding;" Order="0">
 					<Documentation>Assignment to the building, where the building storey is a part of.</Documentation>
@@ -39,9 +33,7 @@ instance of &lt;em&gt;IfcBuildingStorey&lt;/em&gt;, the referenced
 &lt;em&gt;IfcBuildingStorey&lt;/em&gt; has COMPLEX), or PARTIAL (if the other 
 &lt;em&gt;IfcBuildingStorey&lt;/em&gt; has ELEMENT).&lt;/blockquote&gt;
 &lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; Multi storey spaces shall be spatially contained by only a single building storey, usually it is the building storey where the base of the space lies.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Decomposition_1cVuH3xCvAZQO$an_h15FW" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Decomposition_1cVuH3xCvAZQOan_h15FW" />
 			<Items>
 				<DocTemplateItem UniqueId="56f5b214-b641-4342-aa1b-24513c349fd0" RuleParameters="Spatial Parts=IfcSpace;" Order="0">
 					<Documentation>Reference to the spaces that are assigned to this storey.</Documentation>
@@ -52,14 +44,10 @@ instance of &lt;em&gt;IfcBuildingStorey&lt;/em&gt;, the referenced
 			</Items>
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
@@ -86,36 +74,26 @@ building service or electrical distribution systems, zonal
 systems, or structural analysis systems, relate to
 &lt;em&gt;IfcBuildingStorey&lt;/em&gt; by using the objectified relationship
 &lt;em&gt;IfcRelServicesBuildings&lt;/em&gt;.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Container_1XtGZj$G59LPCtYlqeIWvl" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Container_1XtGZjG59LPCtYlqeIWvl" />
 			<Items>
 				<DocTemplateItem UniqueId="b5b0c8f1-8231-4989-af82-6b19b6c4f726" RuleParameters="Type=IfcElement;" Order="0" />
 			</Items>
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="358f8fe7-82f9-4ae6-80bc-dc8119e3bd24">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="f74afc84-499f-41a0-8481-56df31cbfbbe" RuleParameters="PsetName=Pset_BuildingStoreyCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="5c8fe41c-4c00-441c-a345-d77956863d09">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="8784a302-d5c5-4fbc-ba42-2667b2793a03" RuleParameters="Order=1;PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="2ae1c3d8-8343-4707-9d97-887a22a257d7" RuleParameters="Order=2;PropertyName=EntranceLevel;Value=IfcBoolean;" Order="0" />
@@ -132,16 +110,12 @@ systems, or structural analysis systems, relate to
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="0aA447ZZPAyPEv64UQ2QjL">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="511b8039-4c20-4e7f-93ba-75b030ca783c" RuleParameters="QsetName=Qto_BuildingStoreyBaseQuantities;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Quantities" UniqueId="e3a14e7c-64ae-4816-9693-1f2e37496d0a">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Length Quantity_3TXdZXum1FS9rZvJdRIz4S" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Length_Quantity_3TXdZXum1FS9rZvJdRIz4S" />
 							<Items>
 								<DocTemplateItem UniqueId="d0b0f02b-953d-4738-bb96-46abd79e4f70" RuleParameters="Order=1;QuantityName=GrossHeight;" Order="0" />
 								<DocTemplateItem UniqueId="c062eef3-e516-426b-9cc3-627e1c3f2f63" RuleParameters="Order=2;QuantityName=NetHeigtht;" Order="0" />
@@ -149,18 +123,14 @@ systems, or structural analysis systems, relate to
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Quantities" UniqueId="4e3acfbe-afe1-4e54-98aa-dcb0536d1b80">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Area Quantity_1bh4T7Rlz3VfJYP3$Kux_6" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Area_Quantity_1bh4T7Rlz3VfJYP3Kux_6" />
 							<Items>
 								<DocTemplateItem UniqueId="817f06e6-6c33-4d20-b57c-6fdf92e79934" RuleParameters="Order=4;QuantityName=GrossFloorArea;" Order="0" />
 								<DocTemplateItem UniqueId="1d539ea0-b919-41d9-9145-3550a32eeff2" RuleParameters="Order=5;QuantityName=NetFloorArea;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Quantities" UniqueId="5daf8a72-2abc-4f3b-b222-858eaf8059f8">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Volume Quantity_1aaQEmj_b1Ae8clDaSAmiE" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Volume_Quantity_1aaQEmj_b1Ae8clDaSAmiE" />
 							<Items>
 								<DocTemplateItem UniqueId="9ddc6cb0-fc28-4d3a-bf0e-36f56ddd497c" RuleParameters="Order=6;QuantityName=GrossVolume;" Order="0" />
 								<DocTemplateItem UniqueId="56815847-6793-4f6b-a587-3e9cfda21042" RuleParameters="Order=7;QuantityName=NetVolume;" Order="0" />
@@ -171,14 +141,10 @@ systems, or structural analysis systems, relate to
 			</Items>
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
@@ -201,45 +167,29 @@ or a partial building storey to a building storey).&lt;/li&gt;
 is defined within the world coordinate system.&lt;/li&gt;
 
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="c38a5dc9-19d5-4292-8344-7491dfa17db0">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="FootPrint GeomSet Geometry_2KLjRMfYf8jBh$lYuukgoS" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="FootPrint_GeomSet_Geometry_2KLjRMfYf8jBhlYuukgoS" />
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="c4477c56-5b8f-4064-abde-041994b4a3ca" Suppress="true">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="4ced4638-8e6a-41b9-9736-0624a0c20b72" Suppress="true">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Predefined Type_0b989XcDzD2fDaLbDNNAGX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Predefined_Type_0b989XcDzD2fDaLbDNNAGX" />
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="5f6fb7ae-4fcd-45ff-8e56-d87504fef240" Suppress="true">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object User Identity_31di66dFr7$AJKdxDG2D1A" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_User_Identity_31di66dFr7AJKdxDG2D1A" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="810e9e21-c9d0-4cb9-a5de-2e802312e6c8" Type="IfcBuildingStorey" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="48f52bdd-eeee-4a9b-96c1-5c8502db137a" Type="IfcBuildingStorey" />
 </DocConceptRoot>
 

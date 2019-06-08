@@ -4,12 +4,8 @@
 		<DocLocalization Name="Warping Moment Measure" Locale="en" />
 		<DocLocalization Name="Mesure du moment de déformation" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6921.1057" Y="1000.4574" Width="747.91963" Height="70.360596" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_3rbVQZTh9EOu7SnSkHIT3S" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="6921.1057" Y="1000.4574" Width="747.91963" Height="70.360596" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3rbVQZTh9EOu7SnSkHIT3S" />
 	<DiagramLine>
 		<DocPoint X="7669.0253" Y="1032.5545" />
 		<DocPoint X="7794.82282" Y="1032.5545" />

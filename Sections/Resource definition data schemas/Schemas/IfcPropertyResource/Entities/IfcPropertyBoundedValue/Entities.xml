@@ -5,9 +5,7 @@
 		<DocLocalization Name="Property Bounded Value" Locale="en" />
 		<DocLocalization Name="Propriété à valeur bornée" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1900.1499" Y="893.85" Width="459.53333" Height="366.66667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1900.1499" Y="893.85" Width="459.53333" Height="366.66667" />
 	<Attributes>
 		<DocAttribute Name="UpperBoundValue" UniqueId="28c3b4b3-6d57-4edb-be6d-3ab7531478c1" DefinedType="IfcValue" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Upper bound value for the interval defining the property value. If the value is not given, it indicates an open bound (all values to be greater than or equal to &lt;em&gt;LowerBoundValue&lt;/em&gt;).</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="2359.6833" Y="1039.9327" />
 				<DocPoint X="2879.85004" Y="1039.9327" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2326.349967" Y="1029.9327" Width="210" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2326.349967" Y="1029.9327" Width="210" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="LowerBoundValue" UniqueId="8511d45b-6a0b-497c-ba87-ff8eb107d34f" DefinedType="IfcValue" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Lower bound value for the interval defining the property value. If the value is not given, it indicates an open bound (all values to be lower than or equal to &lt;em&gt;UpperBoundValue&lt;/em&gt;).</Documentation>
@@ -25,9 +21,7 @@
 				<DocPoint X="2359.6833" Y="941.7451" />
 				<DocPoint X="2879.91674" Y="941.7451" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2326.349967" Y="931.7451" Width="210" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2326.349967" Y="931.7451" Width="210" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Unit" UniqueId="efcd98c4-2c73-40ff-a47a-51ee91f65800" DefinedType="IfcUnit" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Unit for the upper and lower bound values, if not given, the default value for the measure type is used as defined by the global unit assignment at &lt;em&gt;IfcProject.UnitInContext&lt;/em&gt;. The applicable unit is then selected by the underlying TYPE of the &lt;em&gt;UpperBoundValue&lt;/em&gt;, &lt;em&gt;LowerBoundValue&lt;/em&gt;, and &lt;em&gt;SetPointValue&lt;/em&gt;)</Documentation>
@@ -35,9 +29,7 @@
 				<DocPoint X="2359.6833" Y="1131.5648" />
 				<DocPoint X="2879.91667" Y="1131.5648" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2248.84997" Y="1123.2314667" Width="51" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2248.84997" Y="1123.2314667" Width="51" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="SetPointValue" UniqueId="618fe876-362a-4c92-a92c-7dd103266ac3" DefinedType="IfcValue" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Set point value as typically used for operational value setting.
@@ -46,9 +38,7 @@
 				<DocPoint X="2359.6833" Y="1223.85" />
 				<DocPoint X="2879.8833" Y="1223.85" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2299.6833" Y="1210.516667" Width="163" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2299.6833" Y="1210.516667" Width="163" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

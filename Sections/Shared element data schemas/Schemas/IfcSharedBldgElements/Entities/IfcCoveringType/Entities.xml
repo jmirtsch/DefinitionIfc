@@ -5,9 +5,7 @@
 		<DocLocalization Name="Covering Type" Locale="en" />
 		<DocLocalization Name="Revêtement type" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3629.6291" Y="1946.1593" Width="326.63333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3629.6291" Y="1946.1593" Width="326.63333" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="b0342ac0-3b78-4cc1-84b6-89044b113089" DefinedType="IfcCoveringTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined types to define the particular type of the covering. There may be property set definitions available for each predefined type.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="3956.26243" Y="1994.3358665" />
 				<DocPoint X="4184.7729" Y="1994.3358665" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3956.26243" Y="1974.3358665" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3956.26243" Y="1974.3358665" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

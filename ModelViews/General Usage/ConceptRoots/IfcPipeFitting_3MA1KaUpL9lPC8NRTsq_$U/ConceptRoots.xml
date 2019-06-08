@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3MA1KaUpL9lPC8NRTsq_$U">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcPipeFitting" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcPipeFitting" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="2d_33jWRjAbAQHQlwI66ce">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="0d7527fa-1546-474d-b9df-e1dbf9eeb844" RuleParameters="RelatingType=IfcPipeFittingType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="0FKKA0NLj3Ehwzc_09z_uO">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="e2a29241-15a9-4544-aed5-383050464062" RuleParameters="PsetName=Pset_PipeFittingOccurrence;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="7eedc949-0fe2-48aa-ae29-5592ebc83969">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="d7794a1c-536a-40cc-96cf-9f25af1e2949" RuleParameters="PropertyName=InteriorRoughnessCoefficient;Value=IfcPositiveLengthMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="16469d85-966c-4f60-ba51-e94536262ba5" RuleParameters="PropertyName=Color;Value=IfcLabel;" Order="0" />
@@ -33,9 +25,7 @@
 				<DocTemplateItem UniqueId="de6d40c7-836b-4ec3-b8a8-5066fabb0683" RuleParameters="PsetName=Pset_PipeFittingTypeCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="0d7388e8-794e-48b7-bffb-e975a0762298">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="bff6df40-23c8-4793-a157-800661619cd2" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="0fce42ff-f377-44c8-a5fe-36704a9cb850" RuleParameters="PropertyName=PressureClass;Value=IfcPressureMeasure;" Order="0" />
@@ -43,17 +33,13 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="38783de9-4d54-4da2-a5c7-b38a2aaa10fd">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="87a74b34-f315-4901-9e7a-3ec0c6cfe4af" RuleParameters="PropertyName=Status;Value=IfcLabel;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="5bdaee3a-ad3e-459a-b1de-13d96ed95b93">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Bounded_Value_0zPwBITXr4sQ2Ujkn_bOo" />
 							<Items>
 								<DocTemplateItem UniqueId="05c400a1-d8b1-4e7c-ac81-a91858399b7d" RuleParameters="PropertyName=PressureRange;SetValue=IfcPressureMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="1ac18dde-2db8-4d65-88b3-1f2e5a2f107a" RuleParameters="PropertyName=TemperatureRange;SetValue=IfcThermodynamicTemperatureMeasure;" Order="0" />
@@ -64,17 +50,13 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="2c2oOW1vfC0By_8azmiNoJ">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="0673cf0a-5a13-4615-875e-6347ed8f9ac3" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_PipeFittingBaseQuantities;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Material" UniqueId="0Xd44EnRn7fQRRCaVp5l47">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Layer Set Usage_1jNxXlFor9_vKe1tXLtSn7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Layer_Set_Usage_1jNxXlFor9_vKe1tXLtSn7" />
 			<Items>
 				<DocTemplateItem UniqueId="66f9d934-0831-44ea-8806-e03e9c42ec30" RuleParameters="Name=Casing;" Order="0">
 					<Documentation>Material from which the casing is constructed.</Documentation>
@@ -91,9 +73,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Port" UniqueId="07_GF4cHjDTgS79Fzthk4q">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Port_Nesting_2w9EtqE92s8JFNQ8EuKWA" />
 			<Items>
 				<DocTemplateItem UniqueId="698927aa-61c7-4ad0-a896-be66c9bff6cd" RuleParameters="PredefinedType=BEND;PortName=Inlet;SystemType=NOTDEFINED;Flow=SINK;" Order="0">
 					<Documentation>The flow inlet.</Documentation>
@@ -131,8 +111,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="825932d7-3a84-4e1c-a40b-91889e0b22ca" Type="IfcPipeFitting" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="836dc494-1402-4801-92c6-6b9f60d04d74" Type="IfcPipeFitting" />
 </DocConceptRoot>
 

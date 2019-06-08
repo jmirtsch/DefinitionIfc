@@ -4,9 +4,7 @@
 		<DocLocalization Name="Classification Reference Select" Locale="en" />
 		<DocLocalization Name="Sélection de référence de classification" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1759.3667" Y="1031.3867" Width="266.66667" Height="124.33333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1759.3667" Y="1031.3867" Width="266.66667" Height="124.33333" />
 	<Selects>
 		<DocSelectItem Name="IfcClassificationReference" UniqueId="0fda2534-c71c-4612-8021-22310e8231ee" />
 		<DocSelectItem Name="IfcClassification" UniqueId="b01f2763-70c1-4057-8cd5-80a951e3e74f" />

@@ -4,12 +4,8 @@
 		<DocLocalization Name="Rotational Frequency Measure" Locale="en" />
 		<DocLocalization Name="Mesure de la fréquence de rotation" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5060.29" Y="1455.0441" Width="529.24203" Height="54.923051" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_1usxHcpTj3NR7$$BHRB7sz" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5060.29" Y="1455.0441" Width="529.24203" Height="54.923051" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_1usxHcpTj3NR7BHRB7sz" />
 	<DiagramLine>
 		<DocPoint X="5060.29" Y="1482.5056" />
 		<DocPoint X="4971.326423" Y="1482.5056" />

@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3I0eLCfn9BZvKZqx4LyHyB">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcSanitaryTerminal" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcSanitaryTerminal" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="2auI5SVTz2melC0_FcVCwb">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="00f75ff2-f443-4857-a5e5-b842d291ccf9" RuleParameters="RelatingType=IfcSanitaryTerminalType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="1W43ZWuQf1WhQNYxdXucxp">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="1986929c-f96f-4901-8c02-7627d9201512" RuleParameters="PsetName=Pset_SanitaryTerminalTypeCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="a9a986ef-1c20-4098-b7b9-8e5e8f18eb24">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="ad799f64-11bd-4783-b81e-2c242ec92065" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 							</Items>
@@ -32,17 +24,13 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="3NLwDSTQLAMeUlZnKfTa90">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="e2f92282-0811-45c8-ba60-768dadeff7af" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_SanitaryTerminalBaseQuantities;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Material" UniqueId="2shyBFG0r2APAORyHcGzRA">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Constituent_Set_3PRtzzvq9Dk9jT6ADgRVY4" />
 			<Items>
 				<DocTemplateItem UniqueId="c93c97d5-865b-4d22-8159-2a86d82c2754" RuleParameters="Name=Casing;" Order="0">
 					<Documentation>Material from which the casing is constructed.</Documentation>
@@ -51,9 +39,7 @@
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Element Nesting" UniqueId="fdc8ffca-4f22-4b11-86bf-e2c08832ff10">
 			<Documentation>&lt;blockquote class=&quot;change-ifc4&quot;&gt;IFC4 ADD1 CHANGE&amp;nbsp; Element nesting is now used for attaching faucets. Hot and cold water ports have been removed from subtypes that use attached faucets.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Element Nesting_3xyZPOf2b4W9j1Ne1PH7WR" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Element_Nesting_3xyZPOf2b4W9j1Ne1PH7WR" />
 			<Items>
 				<DocTemplateItem UniqueId="462ef54d-158d-454d-b048-cab0b225fc75" RuleParameters="Type=IfcValve;PredefinedType=FAUCET;" Order="0">
 					<Documentation>Faucet mounted to sink that provides cold and/or hot water.</Documentation>
@@ -61,9 +47,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Port" UniqueId="0GuaNt$ALDTeHThQycQsnn">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Port_Nesting_2w9EtqE92s8JFNQ8EuKWA" />
 			<Items>
 				<DocTemplateItem UniqueId="ceb27fd9-6d39-4b3a-9000-1fb7dafc252b" RuleParameters="PredefinedType=BATH;PortName=Drainage;Flow=SOURCE;SystemType=DRAINAGE;" Order="0">
 					<Documentation>Drainage.</Documentation>
@@ -125,8 +109,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="53451fc6-2580-4858-8367-4718d9c86329" Type="IfcSanitaryTerminal" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="e8642408-2fbc-4bfb-888c-80d113865d32" Type="IfcSanitaryTerminal" />
 </DocConceptRoot>
 

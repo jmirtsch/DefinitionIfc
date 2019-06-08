@@ -5,9 +5,7 @@
 		<DocLocalization Name="Outlet" Locale="en" />
 		<DocLocalization Name="Prise" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="841.76" Y="311.62" Width="679.9" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="841.76" Y="311.62" Width="679.9" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="2cebd4c7-66f7-413f-9775-7bd96039018c" DefinedType="IfcOutletTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
@@ -15,9 +13,7 @@
 				<DocPoint X="1515.0433" Y="462.137898" />
 				<DocPoint X="1094.17683" Y="462.137898" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1419.276732" Y="406.2866667" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1419.276732" Y="406.2866667" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

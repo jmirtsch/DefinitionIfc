@@ -5,9 +5,7 @@
 		<DocLocalization Name="Coil Type" Locale="en" />
 		<DocLocalization Name="Type de bobine" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="69.849405" Y="888.23349" Width="401.51903" Height="102.11007" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="69.849405" Y="888.23349" Width="401.51903" Height="102.11007" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="f6e3036c-6fcd-410a-8c52-1f404f3bb682" DefinedType="IfcCoilTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines typical types of coils (e.g., Cooling, Heating, etc.)</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="471.36844" Y="936.99307" />
 				<DocPoint X="681.64273" Y="936.99307" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="471.36844" Y="936.99307" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="471.36844" Y="936.99307" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

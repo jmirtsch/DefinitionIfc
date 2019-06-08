@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocExample xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Building service element" UniqueId="3d150da6-5938-4ea8-b311-c15e10f94b8a">
 	<Views>
-		<DocModelView xsi:nil="true" href="Design Transfer View" />
-		<DocModelView xsi:nil="true" href="General Usage" />
+		<DocModelView xsi:nil="true" href="Design_Transfer_View" />
+		<DocModelView xsi:nil="true" href="General_Usage" />
 	</Views>
 </DocExample>
 

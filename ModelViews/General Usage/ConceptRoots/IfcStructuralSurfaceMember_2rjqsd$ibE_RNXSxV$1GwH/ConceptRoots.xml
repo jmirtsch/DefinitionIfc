@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2rjqsd$ibE_RNXSxV$1GwH">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcStructuralSurfaceMember" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcStructuralSurfaceMember" />
 	<Concepts>
 		<DocTemplateUsage Name="Material Layer Set Usage" UniqueId="16I376BdzAAALvzPIttmQd">
 			<Documentation>&lt;p&gt;The material of direct instances &lt;em&gt;IfcStructuralSurfaceMember&lt;/em&gt; (in contrast to instances of the subtype &lt;em&gt;IfcStructuralSurfaceMemberVarying&lt;/em&gt;) is defined by &lt;em&gt;IfcMaterialLayerSetUsage&lt;/em&gt; and attached by the &lt;em&gt;IfcRelAssociatesMaterial.RelatingMaterial&lt;/em&gt;.  It is accessible by the inverse &lt;em&gt;HasAssociations&lt;/em&gt; relationship.&lt;/p&gt;
@@ -10,25 +8,19 @@
 &lt;p&gt;The material is specified minimally by a name which corresponds with an agreed upon standardized structural material designation.  An external reference to the source which specifies the material designation should be provided.  Alternatively, structural material properties may be provided by means of &lt;em&gt;IfcMaterialProperties&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;In the absense of material layer set usage, direct instances of &lt;em&gt;IfcStructuralSurfaceMember&lt;/em&gt; are assumed to be located centrically relative to their reference surface.  Their depth is provided in the attribute &lt;em&gt;Thickness&lt;/em&gt;.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Layer Set Usage_1jNxXlFor9_vKe1tXLtSn7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Layer_Set_Usage_1jNxXlFor9_vKe1tXLtSn7" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Reference Topology" UniqueId="0yLC4hpK1FcAPV4ajJeAJn">
 			<Documentation>&lt;p&gt;Direct instances of &lt;em&gt;IfcStructuralSurfaceMember&lt;/em&gt; shall have a topology representation which consists of one &lt;em&gt;IfcFaceSurface&lt;/em&gt;, representing the reference surface of the surface member.  See definitions at &lt;em&gt;IfcStructuralItem&lt;/em&gt; for further specifications.&lt;/p&gt;
 
 &lt;p&gt;The local coordinate system is established by the reference surface given by topology representation.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Reference Topology_1vtMCN8v14oeZ2SDHirRbf" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Reference_Topology_1vtMCN8v14oeZ2SDHirRbf" />
 			<Items>
 				<DocTemplateItem UniqueId="c2ba7b4a-5004-41e2-a1ec-3eb89e2dc7dc" RuleParameters="RepresentationType=Face;Topology=IfcFaceSurface;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Structural Connectivity" UniqueId="91437328-4773-43fb-a284-ccf703da116b">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Structural Connectivity_3qzrrFRJXClfxxtxM4GD$B" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Structural_Connectivity_3qzrrFRJXClfxxtxM4GDB" />
 			<Items>
 				<DocTemplateItem UniqueId="9f10eaaf-8499-4b2b-ab42-522486e121d7" RuleParameters="StructuralConnection=IfcStructuralCurveConnection;" Order="0">
 					<Documentation>Connections to curve members along edge(s) of surface.</Documentation>
@@ -39,8 +31,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="1824554e-3b9c-4dd5-938d-ecd576f23632" Type="IfcStructuralSurfaceMember" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="f2daab80-1a8e-4114-a177-ff3ffed6647f" Type="IfcStructuralSurfaceMember" />
 </DocConceptRoot>
 

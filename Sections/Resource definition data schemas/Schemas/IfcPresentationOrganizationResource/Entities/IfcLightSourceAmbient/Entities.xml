@@ -5,8 +5,6 @@
 		<DocLocalization Name="Light Source Ambient" Locale="en" />
 		<DocLocalization Name="Source de lumière ambiante" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1711.16666666667" Y="466.90000406901" Width="314.666687011719" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1711.16666666667" Y="466.90000406901" Width="314.666687011719" Height="100" />
 </DocEntity>
 

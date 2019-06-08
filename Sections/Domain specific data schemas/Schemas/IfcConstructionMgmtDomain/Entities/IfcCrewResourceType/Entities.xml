@@ -5,9 +5,7 @@
 		<DocLocalization Name="Crew Resource Type" Locale="en" />
 		<DocLocalization Name="Équipe type" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="870.4" Y="1252.6133" Width="629.16667" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="870.4" Y="1252.6133" Width="629.16667" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="f9939f7c-0af4-4687-a908-5b65c54becdd" DefinedType="IfcCrewResourceTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines types of crew resources.
@@ -17,9 +15,7 @@
 				<DocPoint X="1488.9833" Y="1399.946633" />
 				<DocPoint X="1143.99997" Y="1399.946633" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1568.9833" Y="1394.6132997" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1568.9833" Y="1394.6132997" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

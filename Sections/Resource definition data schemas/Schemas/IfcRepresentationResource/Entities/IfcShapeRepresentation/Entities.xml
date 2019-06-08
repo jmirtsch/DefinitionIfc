@@ -5,9 +5,7 @@
 		<DocLocalization Name="Shape Representation" Locale="en" />
 		<DocLocalization Name="Représentation de forme" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2513.0256" Y="1444.7484" Width="398.76558" Height="100.78123" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2513.0256" Y="1444.7484" Width="398.76558" Height="100.78123" />
 	<WhereRules>
 		<DocWhereRule Name="CorrectContext" UniqueId="19551ca6-f3ab-4b1c-8b6e-b5187fb6e59b">
 			<Documentation>The context to which the IfcShapeRepresentation is assign, shall be of type IfcGeometricRepresentationContext.</Documentation>

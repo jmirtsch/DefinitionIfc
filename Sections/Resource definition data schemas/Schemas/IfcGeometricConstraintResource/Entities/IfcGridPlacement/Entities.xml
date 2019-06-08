@@ -5,9 +5,7 @@
 		<DocLocalization Name="Grid Placement" Locale="en" />
 		<DocLocalization Name="Positionnement de grille" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="231.4225" Y="673.23833" Width="460.63333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="231.4225" Y="673.23833" Width="460.63333" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PlacementLocation" UniqueId="254677ef-164b-42be-9245-68fdbc6f3d44" DefinedType="IfcVirtualGridIntersection" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Placement of the object coordinate system defined by the intersection of two grid axes.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="295.73917" Y="773.23833" />
 				<DocPoint X="295.73917" Y="1264.02163" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="418.40584" Y="706.24668" Width="217" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="418.40584" Y="706.24668" Width="217" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="PlacementRefDirection" UniqueId="101b6fcb-9df5-4945-8dfe-9cc885457815" DefinedType="IfcGridPlacementDirectionSelect" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Reference to either an explicit direction, or a second grid axis intersection, which defines the orientation of the grid placement.
@@ -26,9 +22,7 @@
 				<DocPoint X="461.73917" Y="773.23833" />
 				<DocPoint X="461.73917" Y="1002.94933" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="608.93917" Y="828.360497" Width="259" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="608.93917" Y="828.360497" Width="259" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

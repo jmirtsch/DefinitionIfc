@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2dc5364c-6a4c-4623-af96-64553a92a1d1">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcEvaporatorType" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="5ee3bded-2981-4835-b458-51ba57320a96" Type="IfcEvaporatorType" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcEvaporatorType" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="d2a04dc7-dbae-4f8b-b1d2-905b2865e0a7" Type="IfcEvaporatorType" />
 </DocConceptRoot>
 

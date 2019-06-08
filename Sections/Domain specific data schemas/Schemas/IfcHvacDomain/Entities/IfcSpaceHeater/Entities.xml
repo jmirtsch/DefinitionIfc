@@ -5,18 +5,14 @@
 		<DocLocalization Name="Space Heater" Locale="en" />
 		<DocLocalization Name="Radiateur" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4435.503" Y="1662.1154" Width="319.51565" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4435.503" Y="1662.1154" Width="319.51565" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="095307e6-1620-43fd-8170-a341f054d6b9" DefinedType="IfcSpaceHeaterTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
 				<DocPoint X="4435.503" Y="1712.1154" />
 				<DocPoint X="4246.07794" Y="1712.1154" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="4434.74288387" Y="1698.720486" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="4434.74288387" Y="1698.720486" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

@@ -4,12 +4,8 @@
 		<DocLocalization Name="Time Stamp" Locale="en" />
 		<DocLocalization Name="Horodatage" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="298.647633870443" Y="2133.74772135417" Width="294.74328" Height="54.90186" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="INTEGER_04aecie3n9AgvGIcogGbn8" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="298.647633870443" Y="2133.74772135417" Width="294.74328" Height="54.90186" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="INTEGER_04aecie3n9AgvGIcogGbn8" />
 	<DiagramLine>
 		<DocPoint X="593.390913870443" Y="2161.19865135417" />
 		<DocPoint X="593.390913870443" Y="2161.19865135417" />

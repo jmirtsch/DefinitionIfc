@@ -1,50 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2v_xF90910JP7FnwYYspMt">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcTendon" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcTendon" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="3r_usBVd53ZQiwwesuXcIS">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="e03419a3-a082-4c51-84cb-71656d092551" RuleParameters="RelatingType=IfcTendonType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Property Sets" UniqueId="02b38qVeD9J96g$IXFAIk5">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Quantity Sets" UniqueId="0AN43xbBb8AfgTcr7U$k3m">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="f7b66114-a917-4586-9b7a-49bc1e3d06c1" RuleParameters="QsetName=Qto_ReinforcingElementBaseQuantities;TemplateType=QTO_TYPEDRIVENOVERRIDE;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Placement" UniqueId="eec48f4e-1893-4ba7-82c7-08129761ea1d">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Geometry" UniqueId="0dokj4pzbErAnVezP9y019">
 			<Documentation>See supertype &lt;em&gt;IfcElementComponent&lt;/em&gt;.  This method of representation allows for several tendons
 represented by a single instance of &lt;em&gt;IfcTendon&lt;/em&gt;.  The representation map should contain
 one &lt;em&gt;IfcSweptDiskSolid&lt;/em&gt;.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Geometry_34HhqMBUDBbxDFH4Qi2wt2" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Geometry_34HhqMBUDBbxDFH4Qi2wt2" />
 			<Items>
 				<DocTemplateItem UniqueId="98a8a8c1-5044-47f0-bc31-28f41d461c20" RuleParameters="RepresentationType=SweptSolid;Geometry=IfcSweptDiskSolid;" Order="0" />
 				<DocTemplateItem UniqueId="1dae7c0e-b7a8-4051-98f2-9ecf4304eedc" RuleParameters="RepresentationType=MappedRepresentation;Geometry=IfcMappedItem;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="bffa5551-8528-4e5b-a353-dd35a4f7ee62" Type="IfcTendon" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="fc659400-aafc-44d4-93bd-5bef61a36327" Type="IfcTendon" />
 </DocConceptRoot>
 

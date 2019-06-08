@@ -5,9 +5,7 @@
 		<DocLocalization Name="Physical Simple Quantity" Locale="en" />
 		<DocLocalization Name="Quantité physique simple" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="509.9" Y="619.3" Width="286.6" Height="216.66667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="509.9" Y="619.3" Width="286.6" Height="216.66667" />
 	<Subtypes>
 		<DocSubtype UniqueId="828022e5-192c-413e-a830-b6f8dec805a2" DefinedType="IfcQuantityLength" />
 		<DocSubtype UniqueId="2d7ef654-bc50-4b42-950e-c3ade0318c0e" DefinedType="IfcQuantityArea" />
@@ -23,9 +21,7 @@
 				<DocPoint X="796.5" Y="727.63333" />
 				<DocPoint X="1182.6333" Y="727.63333" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="796.5" Y="727.63333" Width="51" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="796.5" Y="727.63333" Width="51" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

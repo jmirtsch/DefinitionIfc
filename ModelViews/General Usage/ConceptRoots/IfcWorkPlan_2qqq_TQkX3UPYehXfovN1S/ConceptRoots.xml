@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="b4d34f9d-6ae8-4379-98a8-ae1a72e5705c">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcWorkPlan" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcWorkPlan" />
 	<Concepts>
 		<DocTemplateUsage Name="Property Sets" UniqueId="032e79c9-45d2-444c-954e-4f08084d680b">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="5db88e07-511d-4b4b-9676-8ebb2ef94063" Type="IfcWorkPlan" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="f6597781-2dbd-49ad-ba8e-a5e12953c8be" Type="IfcWorkPlan" />
 </DocConceptRoot>
 

@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="1ddK1KJrb9y9jVnqb4DZTx">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcVirtualElement" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcVirtualElement" />
 	<Concepts>
 		<DocTemplateUsage Name="Footprint Geometry" UniqueId="3xbsgUDifA6R6_eWS5zTQA">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="FootPrint Geometry_1FLtVNQEb5dAeiHgtpw8qn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="FootPrint_Geometry_1FLtVNQEb5dAeiHgtpw8qn" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Surface Geometry" UniqueId="0asXBBiE13lATv_gSlabYQ">
 			<Documentation>&lt;p&gt;The 3D geometric representation of &lt;em&gt;IfcVirtualElement&lt;/em&gt; is
@@ -55,13 +51,9 @@ structure element.&lt;/small&gt;&lt;/li&gt;
 shown above.&lt;/li&gt;
 
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Surface Geometry_0kcTvm_tD7ZvlAJ_tzwqwb" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Surface_Geometry_0kcTvm_tD7ZvlAJ_tzwqwb" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="5198dc1c-8a55-41dd-a6fc-8c7abecfe40e" Type="IfcVirtualElement" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="209a0dc1-5341-4b43-8c91-2d1fe37ed1c4" Type="IfcVirtualElement" />
 </DocConceptRoot>
 

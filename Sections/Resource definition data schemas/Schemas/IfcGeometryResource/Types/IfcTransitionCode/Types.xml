@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTransitionCode" UniqueId="00458893-b54e-41dd-a1ba-6b05ae0b935f" DiagramNumber="6">
 	<Localization>
-		<DocLocalization Name="Transition Code" Locale="en" />
-		<DocLocalization Name="Enumération des types de transition" Locale="fr" />
+		<DocLocalization xsi:nil="true" href="i43864" />
+		<DocLocalization xsi:nil="true" href="i43865" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="8671.6482" Y="1995.7885" Width="308.33333" Height="66" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" xsi:nil="true" href="i43866" />
 	<Constants>
-		<DocConstant xsi:nil="true" href="DISCONTINUOUS_3O6KU$f0b28RaKUlExt9Ga" />
+		<DocConstant xsi:nil="true" href="DISCONTINUOUS_3O6KUf0b28RaKUlExt9Ga" />
 		<DocConstant xsi:nil="true" href="CONTINUOUS_1vLzxjc2D5rvhXPoJyqO3l" />
 		<DocConstant xsi:nil="true" href="CONTSAMEGRADIENT_2NsQ9uL0H8VRVdecKRo3j0" />
 		<DocConstant xsi:nil="true" href="CONTSAMEGRADIENTSAMECURVATURE_33vP3DbVT3kwqCasa36Lvn" />

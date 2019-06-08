@@ -5,9 +5,7 @@
 		<DocLocalization Name="Rel Associates Material" Locale="en" />
 		<DocLocalization Name="Association de matériau" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4909.9835" Y="4009.0184" Width="494.96667" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4909.9835" Y="4009.0184" Width="494.96667" Height="100" />
 	<Attributes>
 		<DocAttribute Name="RelatingMaterial" UniqueId="463ce87e-d144-4166-8fe4-c3c46fd0dd1d" DefinedType="IfcMaterialSelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Material definition assigned to the elements or element types.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="5157.4669" Y="4109.0184" />
 				<DocPoint X="5157.4669" Y="4298.528" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5056.12424" Y="4118.4398667" Width="185" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5056.12424" Y="4118.4398667" Width="185" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="005afb73-76f7-44f8-abf7-0695f95c1f0c">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcStairType" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcStairType" />
 	<Concepts>
 		<DocTemplateUsage Name="Body Geometry" UniqueId="5fedbb91-e893-43c5-83ce-3ad322960c38">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Type Body Geometry_0wx2q0jBj7QgWX$2AubRKn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Type_Body_Geometry_0wx2q0jBj7QgWX2AubRKn" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="48217c0b-1410-4bc4-bc50-6025c6cbcf80" Type="IfcStairType" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="ab59cb0f-e5b6-4ae9-9878-c851cfa4e09e" Type="IfcStairType" />
 </DocConceptRoot>
 

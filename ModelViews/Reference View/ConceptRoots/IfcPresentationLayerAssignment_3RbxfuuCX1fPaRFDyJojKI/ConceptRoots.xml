@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="db97ba78-e0c8-41a5-991b-3cdf13cad512">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcPresentationLayerAssignment" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcPresentationLayerAssignment" />
 	<Concepts>
 		<DocTemplateUsage Name="Layer" UniqueId="9010c9e9-a2b4-422a-a533-633828f64e00">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Layer_2P$x3KhQ9BUQe1b3_Zs3Jn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Layer_2Px3KhQ9BUQe1b3_Zs3Jn" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="59d86ea1-d556-49ab-94ac-0afeb04f1f39" Type="IfcPresentationLayerAssignment" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="433a6b5c-def5-4512-8c5b-68974644559b" Type="IfcPresentationLayerAssignment" />
 </DocConceptRoot>
 

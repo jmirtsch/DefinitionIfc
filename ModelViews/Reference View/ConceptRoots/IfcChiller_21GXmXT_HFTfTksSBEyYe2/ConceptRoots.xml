@@ -1,40 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="81421c21-77e4-4f76-976e-d9c2cef22a02">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcChiller" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcChiller" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="0486d4a2-aef6-4a4d-8e14-3c687f2d8519">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="e5a03189-d22f-41ad-b4c2-4b1c4740c97f" RuleParameters="RelatingType=IfcChillerType;" Order="0" />
 			</Items>
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="857945bd-7601-40d3-83d4-3ee5af3a30dc">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="b19a1c23-2955-4884-be5d-288a5eddc86a" RuleParameters="PsetName=Pset_ChillerTypeCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="dc2daa78-9204-4468-b48c-9cfeec5f3518">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="6f60c4eb-070d-4688-aed0-e7006ef8c9e2" RuleParameters="Order=1;PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="142fe5a6-203f-48c7-b9e6-f12699c884a3" RuleParameters="Order=3;PropertyName=NominalCapacity;Value=IfcPowerMeasure;" Order="0" />
@@ -46,17 +34,13 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="25991f30-7fad-421d-b3bd-1a16cfa60765">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="a0139f69-fb34-4545-810b-44baa4b880ee" RuleParameters="Order=2;PropertyName=Status;Value=IfcLabel;Reference=PEnum_ElementStatus;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="108e4fa9-1eff-4784-8fee-08b8da0e0640">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Table Value_0roKUmQhnB4ux7QMxo11SX" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Table_Value_0roKUmQhnB4ux7QMxo11SX" />
 							<Items>
 								<DocTemplateItem UniqueId="b637550d-1e09-4373-9b36-57584889ea2c" RuleParameters="Order=9;PropertyName=CapacityCurve;Value=IfcThermodynamicTemperatureMeasure;Reference=IfcPowerMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="9bd91c6e-e4d0-4087-befc-00f9008c5d69" RuleParameters="Order=10;PropertyName=CoefficientOfPerformanceCurve;Value=IfcThermodynamicTemperatureMeasure;Reference=IfcReal;" Order="0" />
@@ -68,16 +52,12 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="f1ad084b-a550-4ae3-aa3d-852a37ec0260">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="84e4a6d7-be68-4885-8ad9-bd1683368f28" RuleParameters="QsetName=Qto_ChillerBaseQuantities;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Quantities" UniqueId="21e7daea-bf48-477d-9fae-59639ec5be1a">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Weight Quantity_3X0MvMF8bFGfPv1_7RF0hx" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Weight_Quantity_3X0MvMF8bFGfPv1_7RF0hx" />
 							<Items>
 								<DocTemplateItem UniqueId="ad586504-346b-473b-aa10-004552d2faf3" RuleParameters="Order=1;QuantityName=GrossWeight;" Order="0" />
 							</Items>
@@ -87,8 +67,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="cb58a1c0-77f3-42e9-b5cd-bc05f2acdbeb" Type="IfcChiller" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="e55dfefb-9dfb-4b25-a790-ae8e71d2535f" Type="IfcChiller" />
 </DocConceptRoot>
 

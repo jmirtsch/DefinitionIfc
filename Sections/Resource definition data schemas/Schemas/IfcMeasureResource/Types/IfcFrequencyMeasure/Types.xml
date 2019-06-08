@@ -4,12 +4,8 @@
 		<DocLocalization Name="Frequency Measure" Locale="en" />
 		<DocLocalization Name="Mesure de fréquence" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5060.2712" Y="652.97005" Width="529.27132" Height="54.923051" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_3n0afab1rE7gYrSDv1K9FL" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5060.2712" Y="652.97005" Width="529.27132" Height="54.923051" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3n0afab1rE7gYrSDv1K9FL" />
 	<DiagramLine>
 		<DocPoint X="5060.2712" Y="678.87623" />
 		<DocPoint X="4971.264423" Y="678.87623" />

@@ -5,18 +5,14 @@
 		<DocLocalization Name="Evaporator" Locale="en" />
 		<DocLocalization Name="Evaporateur" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1220.4284" Y="1501.1541" Width="334.1" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1220.4284" Y="1501.1541" Width="334.1" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="9708a7f9-4336-4a02-9829-4fca81fdf440" DefinedType="IfcEvaporatorTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
 				<DocPoint X="1220.4284" Y="1551.1541" />
 				<DocPoint X="1008.24708" Y="1551.1541" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1220.4284" Y="1551.1541" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1220.4284" Y="1551.1541" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

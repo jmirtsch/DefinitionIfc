@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Object Assignment" UniqueId="0xZcdPA2HEkxkLvISS4Yxy" Type="IfcObjectDefinition">
 	<Templates>
-		<DocTemplateDefinition id="Actor Assignment_04W7d1TDrBsRCmHveKZIEF" Name="Actor Assignment" UniqueId="04W7d1TDrBsRCmHveKZIEF" Type="IfcActor">
+		<DocTemplateDefinition id="Actor_Assignment_04W7d1TDrBsRCmHveKZIEF" Name="Actor Assignment" UniqueId="04W7d1TDrBsRCmHveKZIEF" Type="IfcActor">
 			<Documentation>&lt;p&gt;Actors may have assignments indicating objects for which they have responsibility.  An example of such assignment is a work order assigned to an organization.&lt;/p&gt;</Documentation>
 			<Rules>
 				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="IsActingUpon">
@@ -19,7 +19,7 @@
 				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Control Assignment_21FdF_La56IAQ0Y8VFGrdn" Name="Control Assignment" UniqueId="21FdF_La56IAQ0Y8VFGrdn" Type="IfcControl">
+		<DocTemplateDefinition id="Control_Assignment_21FdF_La56IAQ0Y8VFGrdn" Name="Control Assignment" UniqueId="21FdF_La56IAQ0Y8VFGrdn" Type="IfcControl">
 			<Documentation>&lt;p&gt;Controls may have assignments indicating objects that must observe the established requirements.  An example of such assignment is a labor resource assigned to a calendar.&lt;/p&gt;</Documentation>
 			<Rules>
 				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="Controls">
@@ -37,7 +37,7 @@
 				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Group Assignment_3rPvP$L9D4sQnHatm9h2M3" Name="Group Assignment" UniqueId="3rPvP$L9D4sQnHatm9h2M3" Type="IfcGroup">
+		<DocTemplateDefinition id="Group_Assignment_3rPvPL9D4sQnHatm9h2M3" Name="Group Assignment" UniqueId="3rPvP$L9D4sQnHatm9h2M3" Type="IfcGroup">
 			<Documentation>&lt;p&gt;&lt;em&gt;Group Assignment&lt;/em&gt; established an arbitrary collection of objects within a group. The grouping relationship does not apply any other meaning then grouping objects under some aspect. It is non-hierarchical, that is objects can be grouped into different logical groups, and it does not interfere with other relationship concepts, such as &lt;em&gt;ObjectAggregation&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;The &lt;em&gt;Group Assignment&lt;/em&gt; concept establish a given object as being the group collection for other objects. An &lt;em&gt;IfcZone&lt;/em&gt; is a specific group object for collecting spaces, &lt;em&gt;IfcDistributionSystem&lt;/em&gt; is a specific group object for collecting distribution elements. Usually a grouping relationship is applied to group elements for a particular purpose or function. It usually implies the existence of a grouping relationship and the provision of some identity under which the group is characterized.&lt;/p&gt;
@@ -65,7 +65,7 @@
 				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Product Assignment_3idFi4hVv8Q85eru$fbQaJ" Name="Product Assignment" UniqueId="3idFi4hVv8Q85eru$fbQaJ" Type="IfcProduct">
+		<DocTemplateDefinition id="Product_Assignment_3idFi4hVv8Q85erufbQaJ" Name="Product Assignment" UniqueId="3idFi4hVv8Q85eru$fbQaJ" Type="IfcProduct">
 			<Documentation>&lt;p&gt;Products may have assignments indicating processes that operate upon the product.  An example of such assignment is a task to construct a wall.&lt;/p&gt;</Documentation>
 			<Rules>
 				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ReferencedBy">
@@ -83,7 +83,7 @@
 				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Process Assignment_3eGT0hpFrD7vGpsa24POHe" Name="Process Assignment" UniqueId="3eGT0hpFrD7vGpsa24POHe" Type="IfcProcess">
+		<DocTemplateDefinition id="Process_Assignment_3eGT0hpFrD7vGpsa24POHe" Name="Process Assignment" UniqueId="3eGT0hpFrD7vGpsa24POHe" Type="IfcProcess">
 			<Documentation>&lt;p&gt;Processes may have assignments indicating resources consumed or occupied by the process.  An example of such assignment is a carpenter labor resource building a wall.&lt;/p&gt;</Documentation>
 			<Rules>
 				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="OperatesOn">
@@ -101,7 +101,7 @@
 				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Resource Assignment_0cKfk8v5r86A7E0heIa1j_" Name="Resource Assignment" UniqueId="0cKfk8v5r86A7E0heIa1j_" Type="IfcResource">
+		<DocTemplateDefinition id="Resource_Assignment_0cKfk8v5r86A7E0heIa1j_" Name="Resource Assignment" UniqueId="0cKfk8v5r86A7E0heIa1j_" Type="IfcResource">
 			<Documentation>&lt;p&gt;Resources may have assignments indicating sources available to be used.  An example of such assignment is a person fulfilling a carpenter labor resource.&lt;/p&gt;</Documentation>
 			<Rules>
 				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ResourceOf">
@@ -120,7 +120,7 @@
 				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Product Type Assignment_2BbKMj_Ub0FOQ2L62$woS6" Name="Product Type Assignment" UniqueId="2BbKMj_Ub0FOQ2L62$woS6" Type="IfcTypeProduct">
+		<DocTemplateDefinition id="Product_Type_Assignment_2BbKMj_Ub0FOQ2L62woS6" Name="Product Type Assignment" UniqueId="2BbKMj_Ub0FOQ2L62$woS6" Type="IfcTypeProduct">
 			<Documentation>&lt;p&gt;Product types may have assignments indicating re-usable process types for which occurrences may operate on occurrences of the product type.  An example of such assignment is a task type for placing concrete in slabs on grade.&lt;/p&gt;</Documentation>
 			<Rules>
 				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ReferencedBy">
@@ -156,7 +156,7 @@
 				</DocModelRuleAttribute>
 			</Rules>
 		</DocTemplateDefinition>
-		<DocTemplateDefinition id="Resource Type Assignment_3O6NtkIznAkhjNJ6Pupd3S" Name="Resource Type Assignment" UniqueId="3O6NtkIznAkhjNJ6Pupd3S" Type="IfcTypeResource">
+		<DocTemplateDefinition id="Resource_Type_Assignment_3O6NtkIznAkhjNJ6Pupd3S" Name="Resource Type Assignment" UniqueId="3O6NtkIznAkhjNJ6Pupd3S" Type="IfcTypeResource">
 			<Documentation>&lt;p&gt;Resource types may have assignments indicating re-usable product types for which occurrences may be sourced by occurrences of the resource type.  An example of such assignment is a particular crane model that may be used for a crane equipment resource used for erecting steel.&lt;/p&gt;</Documentation>
 			<Rules>
 				<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="ResourceOf">
@@ -208,7 +208,7 @@
 						</DocModelRuleAttribute>
 					</Rules>
 				</DocTemplateDefinition>
-				<DocTemplateDefinition id="Port to Distribution System_0bzWNJWzHC4A90p5chge$C" Name="Port to Distribution System" UniqueId="25f605d3-83d4-4c10-a240-cc59abaa8fcc" Type="IfcDistributionPort">
+				<DocTemplateDefinition id="Port_to_Distribution_System_0bzWNJWzHC4A90p5chgeC" Name="Port to Distribution System" UniqueId="25f605d3-83d4-4c10-a240-cc59abaa8fcc" Type="IfcDistributionPort">
 					<Documentation>&lt;p&gt;The &lt;em&gt;Port to Distribution System&lt;/em&gt; assignment</Documentation>
 					<Rules>
 						<DocModelRuleAttribute CardinalityMin="0" CardinalityMax="0" Name="HasAssignments" Identification="IsAssigned">

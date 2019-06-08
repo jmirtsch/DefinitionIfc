@@ -4,9 +4,7 @@
 		<DocLocalization Name="Structural Activity Assignment Select" Locale="en" />
 		<DocLocalization Name="Sélection d&apos;assignation d&apos;activité structurelle" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5073.199" Y="642.5837" Width="304" Height="100.33333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="5073.199" Y="642.5837" Width="304" Height="100.33333" />
 	<Selects>
 		<DocSelectItem Name="IfcStructuralItem" UniqueId="5cab1c06-ecfc-4950-8259-ee6710cce1b8" />
 		<DocSelectItem Name="IfcElement" UniqueId="0975158c-ece3-4891-aa26-a6d0b99d74b8" />

@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="7f7cdad0-7792-4807-ba25-2b942caf0e89">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcPropertySingleValue" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcPropertySingleValue" />
 	<Concepts>
 		<DocTemplateUsage Name="Values" UniqueId="099f1b2c-d7b2-45d5-95b0-a91a1bed3a7a">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Values_28jAgf2IL4VB09$ZLxV7LE" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Values_28jAgf2IL4VB09ZLxV7LE" />
 			<Items>
 				<DocTemplateItem UniqueId="a272ffa5-1f01-4210-ac12-aa9de4ff4597" RuleParameters="Value=IfcAbsorbedDoseMeasure;" Order="0" />
 				<DocTemplateItem UniqueId="66b8e2c8-e2eb-4c9d-a5af-99cb2d99c34f" RuleParameters="Value=IfcAccelerationMeasure;" Order="0" />
@@ -121,8 +117,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="7edbf715-f756-4da3-adfd-529b9de7aaa3" Type="IfcPropertySingleValue" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="8c684b1f-be34-46a0-9da2-5a2282604eda" Type="IfcPropertySingleValue" />
 </DocConceptRoot>
 

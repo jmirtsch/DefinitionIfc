@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="b9bf80df-f4da-4704-93fa-cccded3ae316">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcMemberType" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcMemberType" />
 	<Concepts>
 		<DocTemplateUsage Name="Material Profile Set" UniqueId="1fc695b3-1f20-4a13-8ea8-e852d54bfd34">
 			<Documentation>&lt;p&gt;The material of the &lt;em&gt;IfcMemberType&lt;/em&gt; is defined by the
@@ -38,25 +36,17 @@ geometry and possibly other cross sectional properties can be
 read from a library. Otherwise the geometric representation and
 possible non geometric &lt;em&gt;IfcProfileProperties&lt;/em&gt; have to be
 used.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set_12Ui1LAd52mgGZSMYVfrnP" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Profile_Set_12Ui1LAd52mgGZSMYVfrnP" />
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Design_Transfer_Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Design_Transfer_Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="11783303-3c60-463e-96e8-d948799bd64f" Type="IfcMemberType" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="2510e308-3e45-42c1-8c67-1e19572d3b3d" Type="IfcMemberType" />
 </DocConceptRoot>
 

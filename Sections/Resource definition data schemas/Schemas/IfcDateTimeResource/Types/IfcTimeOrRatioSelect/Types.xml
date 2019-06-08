@@ -4,9 +4,7 @@
 		<DocLocalization Name="Time Or Ratio Select" Locale="en" />
 		<DocLocalization Name="Sélection temps ou ratio." Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2131.79972330729" Y="331.68467203776" Width="293.166666666667" Height="63.333333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2131.79972330729" Y="331.68467203776" Width="293.166666666667" Height="63.333333" />
 	<Selects>
 		<DocSelectItem Name="IfcRatioMeasure" UniqueId="5fdce3b6-0709-4961-9214-fa6f9bf8c409" />
 		<DocSelectItem Name="IfcDuration" UniqueId="4f1870d5-943e-4670-85b2-f9bc71202cf6" />

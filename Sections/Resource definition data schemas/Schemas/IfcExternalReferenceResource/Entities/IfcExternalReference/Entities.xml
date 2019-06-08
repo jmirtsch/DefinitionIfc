@@ -5,9 +5,7 @@
 		<DocLocalization Name="External Reference" Locale="en" />
 		<DocLocalization Name="Référence externe" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="372.01463" Y="256.58333" Width="350.66667" Height="250.66666" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="372.01463" Y="256.58333" Width="350.66667" Height="250.66666" />
 	<Subtypes>
 		<DocSubtype UniqueId="407b8c7f-d121-422f-9629-d4b05c133814" DefinedType="IfcLibraryReference" />
 		<DocSubtype UniqueId="bf61cdb4-0976-46a7-ab54-f7dbde58d080" DefinedType="IfcClassificationReference" />
@@ -23,9 +21,7 @@ IFC4 CHANGE&amp;nbsp; The data type has been changed from &lt;em&gt;IfcLabel&lt;
 				<DocPoint X="722.6813" Y="299.78333" />
 				<DocPoint X="1098.61467" Y="299.78333" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="713.614633" Y="295.5166633" Width="101" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="713.614633" Y="295.5166633" Width="101" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Identification" UniqueId="09ae4612-f2b3-4ae7-af75-4b0061f86545" DefinedType="IfcIdentifier" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The &lt;em&gt;Identification&lt;/em&gt; provides a unique identifier of the referenced item within the external source (classification, document or library). It may be provided as 
@@ -42,9 +38,7 @@ IFC4 CHANGE  Attribute renamed from &lt;em&gt;ItemReference&lt;/em&gt; for consi
 				<DocPoint X="722.6813" Y="385.39286" />
 				<DocPoint X="1098.68123" Y="385.39286" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="730.4146204" Y="376.1928604" Width="146" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="730.4146204" Y="376.1928604" Width="146" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Name" UniqueId="7a104ce3-e53d-4544-bffa-c17f3be9adc3" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Optional name to further specify the reference. It can provide a human readable identifier (which does not necessarily need to have a counterpart in the internal structure of the document).</Documentation>
@@ -52,9 +46,7 @@ IFC4 CHANGE  Attribute renamed from &lt;em&gt;ItemReference&lt;/em&gt; for consi
 				<DocPoint X="722.6813" Y="471.7324" />
 				<DocPoint X="1098.71174" Y="471.7324" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="697.881299" Y="463.8657337" Width="73" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="697.881299" Y="463.8657337" Width="73" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ExternalReferenceForResources" UniqueId="52adb1da-05bd-4f8b-bd47-3c140643a153" DefinedType="IfcExternalReferenceRelationship" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatingReference">
 			<Documentation>Reference to all associations between this external reference and objects within the &lt;em&gt;IfcResourceObjectSelect&lt;/em&gt; that are tagged by the external reference.
@@ -66,9 +58,7 @@ IFC4 CHANGE&amp;nbsp; New inverse attribute added with upward compatibility.&lt;
 				<DocPoint X="672.6813" Y="78.58333" />
 				<DocPoint X="1096.01463" Y="78.58333" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="571.34797" Y="201.25" Width="596" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="571.34797" Y="201.25" Width="596" Height="70" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

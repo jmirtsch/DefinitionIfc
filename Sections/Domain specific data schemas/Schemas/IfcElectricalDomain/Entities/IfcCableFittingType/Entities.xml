@@ -5,9 +5,7 @@
 		<DocLocalization Name="Cable Fitting Type" Locale="en" />
 		<DocLocalization Name="Type de raccord de câble" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1694.8333" Y="1322.6667" Width="679.93333" Height="103.3" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1694.8333" Y="1322.6667" Width="679.93333" Height="103.3" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="e45b3f87-bb57-407e-ae06-d5e07c6e2c84" DefinedType="IfcCableFittingTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>&lt;p&gt;Identifies the predefined types of cable fitting from which the type required may be set.&lt;/p&gt;</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="1698.5577" Y="1481.974276" />
 				<DocPoint X="2115.93334" Y="1481.974276" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1610.391034" Y="1475.2242763" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1610.391034" Y="1475.2242763" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

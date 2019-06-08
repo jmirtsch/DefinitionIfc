@@ -5,9 +5,7 @@
 		<DocLocalization Name="Rel Associates Document" Locale="en" />
 		<DocLocalization Name="Association à document" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="7364.7946" Y="540.4612" Width="532.93333" Height="100.66666" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="7364.7946" Y="540.4612" Width="532.93333" Height="100.66666" />
 	<Attributes>
 		<DocAttribute Name="RelatingDocument" UniqueId="09cdb427-5879-4ede-bb38-2340a54d0a0b" DefinedType="IfcDocumentSelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Document information or reference which is applied to the objects.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="7631.2613" Y="641.1279" />
 				<DocPoint X="7631.2613" Y="850.99141" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="7756.2613" Y="613.6279" Width="211" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="7756.2613" Y="613.6279" Width="211" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Construction Product Resource" Locale="en" />
 		<DocLocalization Name="Ressource d&apos;un produit de construction" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="95.433367" Y="2176.6999" Width="658.2" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="95.433367" Y="2176.6999" Width="658.2" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="b9b8af92-d306-433d-b5ca-40dae047b2ba" DefinedType="IfcConstructionProductResourceTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines types of construction product resources.
@@ -17,9 +15,7 @@
 				<DocPoint X="104.53337" Y="2328.589933" />
 				<DocPoint X="467.66667" Y="2328.589933" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="27.200037" Y="2323.2565997" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="27.200037" Y="2323.2565997" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

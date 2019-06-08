@@ -5,9 +5,7 @@
 		<DocLocalization Name="Structural Connection" Locale="en" />
 		<DocLocalization Name="Liaison structurelle" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1748.7332" Y="689.83448" Width="200" Height="139.20865" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1748.7332" Y="689.83448" Width="200" Height="139.20865" />
 	<Subtypes>
 		<DocSubtype UniqueId="b9a5e9c8-8c4a-40be-8a78-88c8f7c0c7c6" DefinedType="IfcStructuralCurveConnection" />
 		<DocSubtype UniqueId="cc51e4ae-b56c-4ab9-bb23-813878582187" DefinedType="IfcStructuralPointConnection" />
@@ -21,9 +19,7 @@
 				<DocPoint X="2193.92697" Y="743.21625" />
 				<DocPoint X="2193.92697" Y="768.48545" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1975.187851" Y="737.7411354" Width="194" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1975.187851" Y="737.7411354" Width="194" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ConnectsStructuralMembers" UniqueId="e589142e-96a4-4236-be46-02d7d341f21b" DefinedType="IfcRelConnectsStructuralMember" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0" Inverse="RelatedStructuralConnection">
 			<Documentation>References to the IfcRelConnectsStructuralMembers relationship by which structural members can be associated to structural connections.</Documentation>
@@ -33,9 +29,7 @@
 				<DocPoint X="1666.39389" Y="759.43877" />
 				<DocPoint X="1748.733142" Y="759.43877" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1917.453053" Y="1291.42855" Width="462" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1917.453053" Y="1291.42855" Width="462" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

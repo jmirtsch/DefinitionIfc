@@ -5,9 +5,7 @@
 		<DocLocalization Name="Coordinate Reference System" Locale="en" />
 		<DocLocalization Name="Système de coordonnées de référence" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4917.3818359375" Y="1478.98974609375" Width="366.56271" Height="362.65658" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4917.3818359375" Y="1478.98974609375" Width="366.56271" Height="362.65658" />
 	<Subtypes>
 		<DocSubtype UniqueId="065cabab-0e6e-4c55-92fa-b7a1fcf53185" DefinedType="IfcProjectedCRS" />
 	</Subtypes>
@@ -20,9 +18,7 @@
 				<DocPoint X="5283.9445459375" Y="1530.5913" />
 				<DocPoint X="5835.6637" Y="1530.5913" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5283.9445459375" Y="1510.5913" Width="73" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5283.9445459375" Y="1510.5913" Width="73" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Description" UniqueId="57c4c379-aba3-4224-8587-dca78467e649" DefinedType="IfcText" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Informal description of this coordinate reference system.</Documentation>
@@ -31,9 +27,7 @@
 				<DocPoint X="5283.9445459375" Y="1623.482" />
 				<DocPoint X="5835.67" Y="1623.482" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5283.9445459375" Y="1603.482" Width="130" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5283.9445459375" Y="1603.482" Width="130" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="GeodeticDatum" UniqueId="f0796f25-9125-47e1-9c5f-3e9ed0ed75d1" DefinedType="IfcIdentifier" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Name by which this datum is identified. The geodetic datum is associated with the coordinate reference system and indicates the shape and size of the rotation ellipsoid and this ellipsoid&apos;s connection and orientation to the actual globe/earth. It needs to be provided, if the &lt;em&gt;Name&lt;/em&gt; identifier does not unambiguously define the geodetic datum as well.
@@ -50,9 +44,7 @@
 				<DocPoint X="5283.9445459375" Y="1716.3634" />
 				<DocPoint X="5835.6668" Y="1716.3634" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5283.9445459375" Y="1696.3634" Width="179" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5283.9445459375" Y="1696.3634" Width="179" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="VerticalDatum" UniqueId="bb23b255-0bb4-42f6-b611-ac08f796ce77" DefinedType="IfcIdentifier" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Name by which the vertical datum is identified. The vertical datum is associated with the height axis of the coordinate reference system and indicates the reference plane and fundamental point defining the origin of a height system. It needs to be provided, if the &lt;em&gt;Name&lt;/em&gt; identifier does not unambiguously define the vertical datum as well and if the coordinate reference system is a 3D reference system.
@@ -68,9 +60,7 @@
 				<DocPoint X="5283.9445459375" Y="1809.2541" />
 				<DocPoint X="5835.67" Y="1809.2541" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5283.9445459375" Y="1789.2541" Width="161" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5283.9445459375" Y="1789.2541" Width="161" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="HasCoordinateOperation" UniqueId="83795333-6df7-46ac-b61e-5101640f8615" DefinedType="IfcCoordinateOperation" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="SourceCRS">
 			<Documentation>Indicates conversion between coordinate systems. In particular it refers to an &lt;em&gt;IfcCoordinateOperation&lt;/em&gt; between this coordinate reference system, and another Geographic coordinate reference system.</Documentation>
@@ -79,9 +69,7 @@
 				<DocPoint X="5168.021565" Y="1478.98974609375" />
 				<DocPoint X="5168.021565" Y="257.41076" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5168.021565" Y="1478.98974609375" Width="400" Height="100" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5168.021565" Y="1478.98974609375" Width="400" Height="100" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

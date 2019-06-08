@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0w_VU6KtPCxv7c10dafCaF">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcConstructionResource" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcConstructionResource" />
 	<Concepts>
 		<DocTemplateUsage Name="Document" UniqueId="3b0XYWEVn9Xv2$NQZ0g40d">
 			<Documentation>&lt;p&gt;Documents may be published for work plans consisting of schedules, calendars, tasks, and resources. The relationship &lt;em&gt;IfcRelAssociatesDocument&lt;/em&gt; may be used to preserve mappings to such document where &lt;em&gt;RelatingDocument&lt;/em&gt; points to an &lt;em&gt;IfcDocumentReference&lt;/em&gt; and &lt;em&gt;RelatedObjects&lt;/em&gt; includes the &lt;em&gt;IfcConstructionResource&lt;/em&gt; as shown in Figure 184.
@@ -11,15 +9,11 @@
 &lt;tr&gt;&lt;td&gt;&lt;img alt=&quot;Document Use Definition&quot; src=&quot;../../../figures/ifcconstructionresource-document.png&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 295 &amp;mdash; Construction resource document use&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Document Association_1zhQwS02P4qwtdceG$ukyB" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Document_Association_1zhQwS02P4qwtdceGukyB" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Constraint" UniqueId="3B6B1BP1z33gZk4WKDk0q0">
 			<Documentation>&lt;p&gt;Constraints may be applied to a resource to indicate fixed work (such as total person-hours) or fixed usage (such as simultaneous workers).&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Constraint Association_30YoPCzyP7dwz$NMHS4mwe" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Constraint_Association_30YoPCzyP7dwzNMHS4mwe" />
 			<Items>
 				<DocTemplateItem UniqueId="6b9ae183-03b7-4baf-8c29-728e86f4b5d4" RuleParameters="DataValue=IfcPositiveRatioMeasure;Attribute1=Usage;Attribute2=ScheduleUsage;" Order="0">
 					<Documentation>Indicate fixed usage (such as simultaneous workers) such that changes to ScheduleWork should impact the assigned IfcTask.TaskTime.ScheduleDuration and vice-versa.</Documentation>
@@ -35,9 +29,7 @@
 &lt;tr&gt;&lt;td&gt;&lt;img alt=&quot;Type Use Definition&quot; src=&quot;../../../figures/ifcconstructionresource-type.png&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 296 &amp;mdash; Construction resource type use&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="ff3b225c-e989-4825-8596-2027f95be99b" RuleParameters="RelatingType=IfcConstructionResourceType;" Order="0" />
 			</Items>
@@ -48,9 +40,7 @@
 &lt;tr&gt;&lt;td&gt;&lt;img alt=&quot;Time Series Use Definition&quot; src=&quot;../../../figures/ifcconstructionresource-timeseries.png&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 297 &amp;mdash; Construction resource time series use&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="8a49362b-03d3-4a52-81b0-191ac6592786" RuleParameters="PsetName=Pset_ConstructionResource;" Order="0" />
 			</Items>
@@ -62,16 +52,12 @@
 &lt;tr&gt;&lt;td&gt;&lt;img alt=&quot;Composition Use Definition&quot; src=&quot;../../../figures/ifcconstructionresource-composition.png&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 298 &amp;mdash; Construction resource composition use&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Nesting_0uoeU8NaT178AKrM_UcbQH" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Nesting_0uoeU8NaT178AKrM_UcbQH" />
 			<Items>
 				<DocTemplateItem UniqueId="32cccc43-3eba-4c37-aa69-6fa2faef37ea" RuleParameters="Type=IfcConstructionResource;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="5b618fa2-d7c3-4ebb-88c6-65489acdd346" Type="IfcConstructionResource" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="ef11555c-0de7-4955-8fe8-73d203288320" Type="IfcConstructionResource" />
 </DocConceptRoot>
 

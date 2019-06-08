@@ -4,9 +4,7 @@
 		<DocLocalization Name="Vordefinierter Liniensatz" Locale="de" />
 		<DocLocalization Name="Pre Defined Curve Font" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3248.2843" Y="1958.8047" Width="221.66667" Height="166.66666" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3248.2843" Y="1958.8047" Width="221.66667" Height="166.66666" />
 	<Subtypes>
 		<DocSubtype UniqueId="aee7c33a-3934-4199-96d5-38ade813099a" DefinedType="IfcDraughtingPreDefinedCurveFont" />
 	</Subtypes>

@@ -4,8 +4,6 @@
 		<DocLocalization Name="Projekbibliothek" Locale="de" />
 		<DocLocalization Name="Project Library" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="18005.723" Y="1673.3167" Width="298.66667" Height="172.6" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="18005.723" Y="1673.3167" Width="298.66667" Height="172.6" />
 </DocEntity>
 

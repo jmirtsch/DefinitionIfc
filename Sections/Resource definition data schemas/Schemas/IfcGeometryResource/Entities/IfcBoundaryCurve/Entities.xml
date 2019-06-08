@@ -5,9 +5,7 @@
 		<DocLocalization Name="Boundary Curve" Locale="en" />
 		<DocLocalization Name="Courbe limite" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="9702.7" Y="445.11333" Width="359.83333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="9702.7" Y="445.11333" Width="359.83333" Height="100" />
 	<Subtypes>
 		<DocSubtype UniqueId="3d6eb90b-2f40-4ebc-bde5-5689d2cbed5a" DefinedType="IfcOuterBoundaryCurve" />
 	</Subtypes>

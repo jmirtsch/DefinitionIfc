@@ -4,12 +4,8 @@
 		<DocLocalization Name="Dynamic Viscosity Measure" Locale="en" />
 		<DocLocalization Name="Mesure de viscosité dynamique" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5060.3814" Y="389.95791" Width="529.22365" Height="54.923051" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_2l99zYEAbCxA71JnNjwkvl" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5060.3814" Y="389.95791" Width="529.22365" Height="54.923051" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_2l99zYEAbCxA71JnNjwkvl" />
 	<DiagramLine>
 		<DocPoint X="5060.3814" Y="415.8641" />
 		<DocPoint X="4971.346423" Y="415.8641" />

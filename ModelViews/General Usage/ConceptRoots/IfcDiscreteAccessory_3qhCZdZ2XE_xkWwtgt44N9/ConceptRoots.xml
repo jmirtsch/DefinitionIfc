@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3qhCZdZ2XE_xkWwtgt44N9">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcDiscreteAccessory" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcDiscreteAccessory" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="3Bxm0$eVr58AfTFy0ciaU$">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="86b06d43-eb11-4117-9796-cf42067b350b" RuleParameters="RelatingType=IfcDiscreteAccessoryType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="1cLFEeFubEoAmWXheQ1PrM">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="5ea606a6-5096-4605-b3e0-844db2582f57" RuleInstanceID="IfcPropertySet" RuleParameters="PredefinedType=SHOE;PsetName=Pset_DiscreteAccessoryColumnShoe;TemplateType=PSET_OCCURRENCEDRIVEN;" Order="0" />
 				<DocTemplateItem UniqueId="18f837cc-83ab-4df1-a04b-e8d0c23cee4d" RuleInstanceID="IfcPropertySet" RuleParameters="PredefinedType=Corner fixing plate;PsetName=Pset_DiscreteAccessoryCornerFixingPlate;TemplateType=PSET_OCCURRENCEDRIVEN;" Order="0" />
@@ -28,8 +22,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="1ae063af-459f-46c5-ab88-f03b6ff54579" Type="IfcDiscreteAccessory" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="306ae44a-2673-4d01-af9b-9117792d00fc" Type="IfcDiscreteAccessory" />
 </DocConceptRoot>
 

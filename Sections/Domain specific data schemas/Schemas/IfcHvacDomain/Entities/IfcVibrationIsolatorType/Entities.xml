@@ -5,9 +5,7 @@
 		<DocLocalization Name="Vibration Isolator Type" Locale="en" />
 		<DocLocalization Name="Type d&apos;solation anti-vibratoire" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4855.5863" Y="2165.2171" Width="370.60065" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4855.5863" Y="2165.2171" Width="370.60065" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="bfcb4cfa-5d6a-4b93-967d-744c1b1bc404" DefinedType="IfcVibrationIsolatorTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines the type of vibration isolator.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="5226.187" Y="2215.2171" />
 				<DocPoint X="5484.54806" Y="2215.2171" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5214.906664" Y="2207.1640361" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5214.906664" Y="2207.1640361" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

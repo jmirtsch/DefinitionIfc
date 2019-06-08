@@ -5,9 +5,7 @@
 		<DocLocalization Name="Quantity Time" Locale="en" />
 		<DocLocalization Name="Quantité de durée" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="559.23334" Y="2129.8666" Width="316.56667" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="559.23334" Y="2129.8666" Width="316.56667" Height="100" />
 	<Attributes>
 		<DocAttribute Name="TimeValue" UniqueId="24cb0119-3880-4176-ba50-7333569bbfd3" DefinedType="IfcTimeMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Time measure value of this quantity.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="875.80001" Y="2179.8666" />
 				<DocPoint X="1182.6333" Y="2179.8666" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="872.4666767" Y="2173.1999333" Width="124" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="872.4666767" Y="2173.1999333" Width="124" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Formula" UniqueId="e063afe0-3eff-4106-abe3-927c705df3c1" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>A formula by which the quantity has been calculated. It can be assigned in addition to the actual value of the quantity. Formulas could be mathematic calculations (like width x height), database links, or a combination. The formula is for informational purposes only.
@@ -27,9 +23,7 @@
 				<DocPoint X="587.10001" Y="2302.733267" />
 				<DocPoint X="927.73334" Y="2302.733267" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="566.116677" Y="2298.2999337" Width="97" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="566.116677" Y="2298.2999337" Width="97" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

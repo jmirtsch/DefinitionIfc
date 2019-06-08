@@ -4,9 +4,7 @@
 		<DocLocalization Name="Beliebiges offenes Profil" Locale="de" />
 		<DocLocalization Name="Arbitrary Open Profile Def" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="306.95" Y="2542.3" Width="544.7" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="306.95" Y="2542.3" Width="544.7" Height="100" />
 	<Subtypes>
 		<DocSubtype UniqueId="ab3ad4b1-a8fa-446d-995f-2b640a76adcc" DefinedType="IfcCenterLineProfileDef" />
 	</Subtypes>
@@ -17,9 +15,7 @@
 				<DocPoint X="851.65" Y="2592.3" />
 				<DocPoint X="1117.03329" Y="2592.3" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="816.05" Y="2588.7" Width="73" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="816.05" Y="2588.7" Width="73" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

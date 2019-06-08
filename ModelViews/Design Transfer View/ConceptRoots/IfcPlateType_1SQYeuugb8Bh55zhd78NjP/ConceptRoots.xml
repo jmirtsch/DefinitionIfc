@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="5c6a2a38-e2a9-482e-b145-f6b9c7217b59">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcPlateType" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcPlateType" />
 	<Concepts>
 		<DocTemplateUsage Name="Material Layer Set" UniqueId="baca2b9b-fa19-48ac-aa0a-f3e22d3ae177">
 			<Documentation>&lt;p&gt;The material of the &lt;em&gt;IfcPlateType&lt;/em&gt; is defined by the
@@ -28,25 +26,17 @@ occurrences of type &lt;em&gt;IfcPlateStandardCase&lt;/em&gt; (see definition of
 reference plane, the same &lt;em&gt;IfcPlateType&lt;/em&gt; can be used
 independently of the reference plane alignment of its
 occurrences.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Layer Set_3VjREfKED6ueKO7mFdpzY6" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Layer_Set_3VjREfKED6ueKO7mFdpzY6" />
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Design_Transfer_Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Design_Transfer_Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="c40e5074-f30d-4be2-a8ba-a2d163d5d334" Type="IfcPlateType" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="845c446a-b5bb-4d26-9289-f6e9c7fa4524" Type="IfcPlateType" />
 </DocConceptRoot>
 

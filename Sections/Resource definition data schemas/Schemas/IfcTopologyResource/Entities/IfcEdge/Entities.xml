@@ -5,9 +5,7 @@
 		<DocLocalization Name="Edge" Locale="en" />
 		<DocLocalization Name="Arête" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="242.024988810221" Y="597.416717529297" Width="200" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="242.024988810221" Y="597.416717529297" Width="200" Height="100" />
 	<Subtypes>
 		<DocSubtype UniqueId="00d5f2e9-9f5d-42b5-9b54-3e0c1f9c06b1" DefinedType="IfcOrientedEdge" />
 		<DocSubtype UniqueId="da329a02-3dfd-4558-9d3e-67fa4f7d43ee" DefinedType="IfcEdgeCurve" />
@@ -21,9 +19,7 @@
 				<DocPoint X="296.291691221517" Y="879.238898383247" />
 				<DocPoint X="296.291691221517" Y="879.238898383247" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="296.291691221517" Y="859.238898383247" Width="117" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="296.291691221517" Y="859.238898383247" Width="117" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="EdgeEnd" UniqueId="e751fb52-dd63-46a8-8e2f-9f1b44e78f86" DefinedType="IfcVertex" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>End point (vertex) of the edge. The same vertex can be used for both EdgeStart and EdgeEnd.</Documentation>
@@ -32,9 +28,7 @@
 				<DocPoint X="296.291691221517" Y="929.461113823785" />
 				<DocPoint X="296.291691221517" Y="929.461113823785" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="296.291691221517" Y="909.461113823785" Width="109" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="296.291691221517" Y="909.461113823785" Width="109" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="280bbb91-3d77-4b73-88d5-594762c1989d">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcGrid" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcGrid" />
 	<Concepts>
 		<DocTemplateUsage Name="Grid Attributes" UniqueId="3d02a39c-105e-4e15-95de-d8315e28c9c9">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Grid Attributes_2SUqSDbuf0_gTtH9j0M8W0" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Grid_Attributes_2SUqSDbuf0_gTtH9j0M8W0" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Product Local Placement" UniqueId="8634309c-d5a5-4dc6-b825-c39231ed1741">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="FootPrint GeomSet Geometry" UniqueId="f036530f-76d6-4ec0-9040-b20a00f0537f">
 			<Documentation>&lt;p&gt;The 2D geometric representation of &lt;em&gt;IfcGrid&lt;/em&gt; is defined
@@ -96,18 +90,12 @@ As shown in Figure 31, the &lt;em&gt;IfcGrid&lt;/em&gt; defines a
 &amp;nbsp;&lt;/td&gt;
  &lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="FootPrint GeomSet Geometry_2KLjRMfYf8jBh$lYuukgoS" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="FootPrint_GeomSet_Geometry_2KLjRMfYf8jBhlYuukgoS" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Spatial Containment" UniqueId="24fb04df-c6ef-41e2-afee-157b0270e9f9">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Containment_3Pe$WY01HBmesKdP1dTP15" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Containment_3PeWY01HBmesKdP1dTP15" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="3ba6735c-3f6a-4d02-9a6f-84b14ac9bd22" Type="IfcGrid" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="3c5c34b3-67fb-4c38-a5be-26e299dc2412" Type="IfcGrid" />
 </DocConceptRoot>
 

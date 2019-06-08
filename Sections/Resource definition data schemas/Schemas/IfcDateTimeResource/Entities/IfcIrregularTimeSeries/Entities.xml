@@ -5,9 +5,7 @@
 		<DocLocalization Name="Irregular Time Series" Locale="en" />
 		<DocLocalization Name="Séries temporelles irrégulières" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="970.11862" Y="1496.1953" Width="487.86667" Height="111.46667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="970.11862" Y="1496.1953" Width="487.86667" Height="111.46667" />
 	<Attributes>
 		<DocAttribute Name="Values" UniqueId="109b36cd-c8f8-4239-b51f-3d4feb67a4cd" DefinedType="IfcIrregularTimeSeriesValue" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
 			<Documentation>The collection of time series values.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="1201.5308" Y="1607.662" />
 				<DocPoint X="1201.5308" Y="1686.617371" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1318.20083" Y="1618.661781" Width="159" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1318.20083" Y="1618.661781" Width="159" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

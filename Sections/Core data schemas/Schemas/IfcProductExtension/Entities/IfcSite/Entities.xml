@@ -5,9 +5,7 @@
 		<DocLocalization Name="Site" Locale="en" />
 		<DocLocalization Name="Site" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="8211.1201" Y="256.77598" Width="303.3" Height="402.49997" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="8211.1201" Y="256.77598" Width="303.3" Height="402.49997" />
 	<Attributes>
 		<DocAttribute Name="RefLatitude" UniqueId="35f5020f-d203-4c6b-9106-60f283ec94c7" DefinedType="IfcCompoundPlaneAngleMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>World Latitude at reference point (most likely defined in legal description). Defined as integer values for degrees, minutes, seconds, and, optionally, millionths of seconds with respect to the world geodetic system WGS84.
@@ -16,9 +14,7 @@
 				<DocPoint X="8514.4201" Y="398.13437" />
 				<DocPoint X="9033.4534" Y="398.13437" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="8517.30343" Y="385.676037" Width="135" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="8517.30343" Y="385.676037" Width="135" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="RefLongitude" UniqueId="d0f7ccd1-9a49-4d0d-a1b9-73c9edd9b69b" DefinedType="IfcCompoundPlaneAngleMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>World Longitude at reference point (most likely defined in legal description). Defined as integer values for degrees, minutes, seconds, and, optionally, millionths of seconds with respect to the world geodetic system WGS84.
@@ -28,9 +24,7 @@
 				<DocPoint X="8514.4201" Y="505.42628" />
 				<DocPoint X="9033.4534" Y="505.42628" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="8522.7034337" Y="496.30128" Width="156" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="8522.7034337" Y="496.30128" Width="156" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="RefElevation" UniqueId="117894b2-b884-433b-a0cd-6cbd59685a12" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Datum elevation relative to sea level.</Documentation>
@@ -38,9 +32,7 @@
 				<DocPoint X="8514.4201" Y="297.64788" />
 				<DocPoint X="9033.4534" Y="297.64788" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="8520.8201163" Y="288.9951303" Width="147" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="8520.8201163" Y="288.9951303" Width="147" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="LandTitleNumber" UniqueId="1adcd159-01ea-40ba-9dd2-0e9ed2cfc41a" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The land title number (designation of the site within a regional system).</Documentation>
@@ -48,9 +40,7 @@
 				<DocPoint X="8514.4201" Y="624.69268" />
 				<DocPoint X="9033.4534" Y="624.69268" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="8527.753433" Y="608.026013" Width="197" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="8527.753433" Y="608.026013" Width="197" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="SiteAddress" UniqueId="97ec96dd-f92e-43e8-9e7d-228cfdd0f137" DefinedType="IfcPostalAddress" AttributeFlags="1" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Address given to the site for postal purposes.</Documentation>
@@ -59,9 +49,7 @@
 				<DocPoint X="8428.3955" Y="731.030214" />
 				<DocPoint X="9033.53747" Y="731.030214" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="8491.407813" Y="715.646866" Width="139" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="8491.407813" Y="715.646866" Width="139" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

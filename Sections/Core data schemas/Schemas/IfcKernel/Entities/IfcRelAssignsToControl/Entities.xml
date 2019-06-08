@@ -5,9 +5,7 @@
 		<DocLocalization Name="Rel Assigns To Control" Locale="en" />
 		<DocLocalization Name="Assignation à contrôle" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="16930.212" Y="363.77393" Width="452.5" Height="133.3" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="16930.212" Y="363.77393" Width="452.5" Height="133.3" />
 	<Attributes>
 		<DocAttribute Name="RelatingControl" UniqueId="e7033623-d7b9-406d-8aae-46c7501560e6" DefinedType="IfcControl" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Reference to the &lt;em&gt;IfcControl&lt;/em&gt; that applies a control upon objects.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="16930.212" Y="430.42393" />
 				<DocPoint X="16447.277" Y="430.42393" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="16907.826709" Y="413.512596" Width="178" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="16907.826709" Y="413.512596" Width="178" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

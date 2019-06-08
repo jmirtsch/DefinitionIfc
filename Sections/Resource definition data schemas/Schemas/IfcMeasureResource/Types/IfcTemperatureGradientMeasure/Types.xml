@@ -4,12 +4,8 @@
 		<DocLocalization Name="Temperature Gradient Measure" Locale="en" />
 		<DocLocalization Name="Mesure de gradient de température" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="6921.1273" Y="852.13033" Width="747.84998" Height="70.297024" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_3rbVQZTh9EOu7SnSkHIT3S" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="6921.1273" Y="852.13033" Width="747.84998" Height="70.297024" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_3rbVQZTh9EOu7SnSkHIT3S" />
 	<DiagramLine>
 		<DocPoint X="7668.9773" Y="884.19842" />
 		<DocPoint X="7794.82287" Y="884.19842" />

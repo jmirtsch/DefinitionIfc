@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="f06383f6-3e68-424c-8386-86a445310e31">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcFlowSegment" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcFlowSegment" />
 	<Concepts>
 		<DocTemplateUsage Name="Material Profile Set Usage" UniqueId="b5d91ee7-fdc2-4f18-b96b-e6a37c5ff274">
 			<Documentation>&lt;p&gt;The material of the &lt;b&gt;IfcFlowSegment&lt;/b&gt; is defined using one of the following entities:&lt;/p&gt;
@@ -20,41 +18,29 @@
 &lt;/ul&gt;
 
 &lt;p&gt;The material is attached by the &lt;em&gt;RelatingMaterial&lt;/em&gt; attribute on the &lt;a href=&quot;../../ifcproductextension/lexical/ifcrelassociatesmaterial.htm&quot;&gt;IfcRelAssociatesMaterial&lt;/a&gt; relationship.  It is accessible by the &lt;em&gt;HasAssociations&lt;/em&gt; inverse attribute.  Material information can also be given at the &lt;a href=&quot;../../ifcsharedbldgserviceelements/lexical/ifcflowsegmenttype.htm&quot;&gt;IfcFlowSegmentType&lt;/a&gt;, defining the common attribute data for all occurrences of the same type.  Standard names and material types are defined at subtypes.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set Usage_1ge1GfjMPBDeTQCM88YfWn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Profile_Set_Usage_1ge1GfjMPBDeTQCM88YfWn" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Axis Geometry" UniqueId="3f8d786d-f433-413e-a57a-c05d9f91c908">
 			<Documentation>&lt;p&gt;
 Standard representations are defined at the supertype &lt;em&gt;IfcDistributionFlowElement&lt;/em&gt;.  For parametric flow segments where &lt;a href=&quot;../../ifcmaterialresource/lexical/ifcmaterialprofilesetusage.htm&quot;&gt;IfcMaterialProfileSetUsage&lt;/a&gt; is defined and an &apos;Axis&apos; representation is defined, then the &apos;Body&apos; representation may be generated using the &apos;SweptSolid&apos; or &apos;AdvancedSweptSolid&apos; representation types by sweeping the profile(s) along the axis.
 &lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Axis Geometry_0xznRVEP1B$815da0HoROY" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Axis_Geometry_0xznRVEP1B815da0HoROY" />
 			<Items>
 				<DocTemplateItem UniqueId="9a0b3d34-8f85-46ea-8894-685165796ec2" RuleParameters="RepresentationType=Curve3D;Geometry=IfcBoundedCurve;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="57ae85a3-f767-4fbf-b92e-b1b18974fe59">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set_12Ui1LAd52mgGZSMYVfrnP" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Profile_Set_12Ui1LAd52mgGZSMYVfrnP" />
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Design_Transfer_Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Design_Transfer_Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="8b2681b3-d307-4cb6-9ab5-c08dfc11d2bb" Type="IfcFlowSegment" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="8d0e7f32-ab34-4cd3-97e9-65b1d27a6b98" Type="IfcFlowSegment" />
 </DocConceptRoot>
 

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Pipe Segment Type" Locale="en" />
 		<DocLocalization Name="Type de tronçon de tuyauterie" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1672.4425" Y="1201.8694" Width="343.8" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1672.4425" Y="1201.8694" Width="343.8" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="7cf082e3-2380-49ba-be0e-eae30275e85d" DefinedType="IfcPipeSegmentTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The type of pipe segment.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="2016.2425" Y="1251.8694" />
 				<DocPoint X="2250.74807" Y="1251.8694" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2015.7343374" Y="1242.9794692" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2015.7343374" Y="1242.9794692" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

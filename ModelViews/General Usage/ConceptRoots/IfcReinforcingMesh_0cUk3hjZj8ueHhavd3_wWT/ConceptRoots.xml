@@ -1,39 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0cUk3hjZj8ueHhavd3_wWT">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcReinforcingMesh" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcReinforcingMesh" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="0aVV$60f57vQf1prNd$k96">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="1493826f-0fa4-45de-b298-d14b95c2c9e1" RuleParameters="RelatingType=IfcReinforcingMeshType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Property Sets" UniqueId="3K8aMzEh13RxlT85X_cvdB">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Quantity Sets" UniqueId="0R4cONiJTBABLBza6KBEAz">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="f0336d62-9c61-43b4-8bb9-e4d7491475ff" RuleParameters="QsetName=Qto_ReinforcingElementBaseQuantities;TemplateType=QTO_TYPEDRIVENOVERRIDE;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Geometry" UniqueId="3wEALrALrCVvYKj7WdLihm">
 			<Documentation>&lt;p&gt;The representation map referenced by a &apos;Body&apos; &apos;MappedRepresentation&apos; could contain a representation of type &apos;AdvancedSweptSolid&apos; which holds an &lt;em&gt;IfcSweptDiskSolid&lt;/em&gt; (including subtype &lt;em&gt;IfcSweptDiskSolidPolygonal&lt;/em&gt;). Multiple &lt;em&gt;IfcMappedItem&lt;/em&gt;&apos;s can be used to represent the bars within a mesh as one occurrence of &lt;em&gt;IfcReinforcingMesh&lt;/em&gt;.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Geometry_34HhqMBUDBbxDFH4Qi2wt2" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Geometry_34HhqMBUDBbxDFH4Qi2wt2" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="a6a0441e-73c0-4c4e-96bb-635025f56af3" Type="IfcReinforcingMesh" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="e371221f-8194-4078-bdb8-c8b881eac1eb" Type="IfcReinforcingMesh" />
 </DocConceptRoot>
 

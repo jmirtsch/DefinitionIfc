@@ -5,18 +5,14 @@
 		<DocLocalization Name="Humidifier" Locale="en" />
 		<DocLocalization Name="Humidificateur" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1220.359" Y="1748.0372" Width="334.1" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1220.359" Y="1748.0372" Width="334.1" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="4eb23e5a-4e31-4444-9ad3-91a4ae38c6e8" DefinedType="IfcHumidifierTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
 				<DocPoint X="1220.359" Y="1798.0372" />
 				<DocPoint X="1008.23651" Y="1798.0372" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1220.359" Y="1798.0372" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1220.359" Y="1798.0372" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

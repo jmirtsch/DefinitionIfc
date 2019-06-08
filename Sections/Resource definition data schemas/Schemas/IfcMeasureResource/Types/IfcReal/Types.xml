@@ -4,12 +4,8 @@
 		<DocLocalization Name="Real" Locale="en" />
 		<DocLocalization Name="Réel" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2161.13606770833" Y="1508.55021158854" Width="171.49011" Height="53.752326" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_0JgDIRzTP37xCI5l8ecWok" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="2161.13606770833" Y="1508.55021158854" Width="171.49011" Height="53.752326" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_0JgDIRzTP37xCI5l8ecWok" />
 	<DiagramLine>
 		<DocPoint X="2161.13606770833" Y="1526.99786710156" />
 		<DocPoint X="2161.13606770833" Y="1526.99786710156" />

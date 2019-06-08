@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0a03833e-eb30-441d-aa09-fc88c792a19d">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcSlabElementedCase" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcSlabElementedCase" />
 	<Concepts>
 		<DocTemplateUsage Name="Element Decomposition" UniqueId="87517f53-053d-43d0-9dda-fd74451ab243">
 			<Documentation>&lt;p&gt;An elemented slab is decomposed into parts for particular components such as headers, joists, deck/subfloor, insulation, fasteners, and sealants. There must be an object corresponding to each type of part, however there may be single object instance indicating multiple placements (via mapping geometry) for each part, or multiple instances corresponding to each placement. For minimizing file size, it is recommended to use a single object with multiple placement unless there are specific connectivity relationships indicated (e.g. a duct connected to specific joists).
 &lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Element Decomposition_2A9y5QnEfCgOpEVxkXoRpW" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Element_Decomposition_2A9y5QnEfCgOpEVxkXoRpW" />
 			<Items>
 				<DocTemplateItem UniqueId="4369f291-47d9-4c03-ad13-c34ffdc56094" RuleParameters="RelatedObjects=IfcPlateStandardCase;" Order="0">
 					<Documentation>Plywood for subfloor above.</Documentation>
@@ -23,27 +19,19 @@
 			</Items>
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="mandatory">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Design_Transfer_Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="mandatory">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Design_Transfer_Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Material Layer Set Usage" UniqueId="c580e1d9-2807-4e2f-b840-a55f326831ba">
 			<Documentation>&lt;p&gt;Similar to standard slabs (&lt;i&gt;IfcSlabStandardCase&lt;/i&gt;), elemented slabs are defined parametrically with &lt;i&gt;IfcMaterialLayerSetUsage&lt;/i&gt;, but go into further detail, where each material layer corresponds to an aggregated part of a particular type, where such parts may be further decomposed and/or use parametric material definitions.
 &lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Layer Set Usage_1jNxXlFor9_vKe1tXLtSn7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Layer_Set_Usage_1jNxXlFor9_vKe1tXLtSn7" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="de8312d6-f241-4efc-b0b1-b2029c34367c" Type="IfcSlabElementedCase" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="f285cc3d-0ad6-428d-883b-825c879e34bb" Type="IfcSlabElementedCase" />
 </DocConceptRoot>
 

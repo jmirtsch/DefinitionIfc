@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSIUnitName" UniqueId="464aa167-2890-43a0-903f-526df35611a8" DiagramNumber="1">
 	<Localization>
-		<DocLocalization Name="SI Einheit - Bezeichnung" Locale="de" />
-		<DocLocalization Name="SIUnit Name" Locale="en" />
-		<DocLocalization Name="Nom d&apos;unité du système international" Locale="fr" />
+		<DocLocalization xsi:nil="true" href="i43637" />
+		<DocLocalization xsi:nil="true" href="i43638" />
+		<DocLocalization xsi:nil="true" href="i43639" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="152.27019" Y="1755.5798" Width="294.33333" Height="66" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" xsi:nil="true" href="i43640" />
 	<Constants>
 		<DocConstant xsi:nil="true" href="AMPERE_2XuCjmDo9FjuNLmQDqmIMz" />
 		<DocConstant xsi:nil="true" href="BECQUEREL_38q40p4XDF_g9D09DreTdC" />
@@ -23,10 +21,10 @@
 		<DocConstant xsi:nil="true" href="JOULE_0i9SpchvX9IOgeqhVOlOhh" />
 		<DocConstant xsi:nil="true" href="KELVIN_2lC4iSf3D3lxX5AmTK1BSZ" />
 		<DocConstant xsi:nil="true" href="LUMEN_1JzrrW0FP7ewmSnYr38seD" />
-		<DocConstant xsi:nil="true" href="LUX_2O4fOKEkDCB8Tjj$tPco54" />
+		<DocConstant xsi:nil="true" href="LUX_2O4fOKEkDCB8TjjtPco54" />
 		<DocConstant xsi:nil="true" href="METRE_0jCWEaiBX2SvDbfIUqR2Eg" />
-		<DocConstant xsi:nil="true" href="MOLE_2Wz5XH$_bAnuO08I0xRhKT" />
-		<DocConstant xsi:nil="true" href="NEWTON_3fkfdGe$53bfvYPKFaHFms" />
+		<DocConstant xsi:nil="true" href="MOLE_2Wz5XH_bAnuO08I0xRhKT" />
+		<DocConstant xsi:nil="true" href="NEWTON_3fkfdGe53bfvYPKFaHFms" />
 		<DocConstant xsi:nil="true" href="OHM_0_w8OCY6PAH8kVKsPUUZOn" />
 		<DocConstant xsi:nil="true" href="PASCAL_39_HD40t16tApVBiIvO_I9" />
 		<DocConstant xsi:nil="true" href="RADIAN_3v8_hRtxn20wztmSS8a64f" />
@@ -38,7 +36,7 @@
 		<DocConstant xsi:nil="true" href="TESLA_3XLSLqP_v7LQ1vHgjkm6wL" />
 		<DocConstant xsi:nil="true" href="VOLT_2tvmov_Db1Nh56Lf0A_KuP" />
 		<DocConstant xsi:nil="true" href="WATT_2NYwRKFKvCb9ZuG0CdjI3Z" />
-		<DocConstant xsi:nil="true" href="WEBER_0vLJBwdbbCMB1w5K$3WYeT" />
+		<DocConstant xsi:nil="true" href="WEBER_0vLJBwdbbCMB1w5K3WYeT" />
 	</Constants>
 </DocEnumeration>
 

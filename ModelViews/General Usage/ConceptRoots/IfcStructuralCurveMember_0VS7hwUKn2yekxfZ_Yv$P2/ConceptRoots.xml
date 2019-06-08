@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="0VS7hwUKn2yekxfZ_Yv$P2">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcStructuralCurveMember" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcStructuralCurveMember" />
 	<Concepts>
 		<DocTemplateUsage Name="Structural Connectivity" UniqueId="125b09ca-3549-4b39-9238-40e1c666bc2d">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Structural Connectivity_3qzrrFRJXClfxxtxM4GD$B" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Structural_Connectivity_3qzrrFRJXClfxxtxM4GDB" />
 			<Items>
 				<DocTemplateItem UniqueId="e70f74ac-c676-4848-bd4a-6883213273f2" RuleParameters="StructuralConnection=IfcStructuralPointConnection;" Order="0">
 					<Documentation>Point connections at each end of the member.</Documentation>
@@ -32,9 +28,7 @@
 &lt;p&gt;Otherwise, the profile is inserted eccentrically and a different cardinal point should be set accordingly.&lt;/p&gt;
 
 &lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp;  Another eccentricity model is available independently of eccentric profile specification:  The reference curve of the member may be located eccentrically relative to the reference points of the connected &lt;em&gt;IfcStructuralPointConnection&lt;/em&gt;s.  The connection relationship is then established by &lt;em&gt;IfcRelConnectsWithEccentricity&lt;/em&gt;.  Whether one or the other or both eccentricity models may be used is subject to information requirements and local agreements.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Profile Set Usage_1ge1GfjMPBDeTQCM88YfWn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Profile_Set_Usage_1ge1GfjMPBDeTQCM88YfWn" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Reference Topology" UniqueId="0wObJaxHz1uuGEFhD0Cgag">
 			<Documentation>&lt;p&gt;Direct instances of &lt;em&gt;IfcStructuralCurveMember&lt;/em&gt; shall have a topology representation which consists of one instance of &lt;em&gt;IfcEdge&lt;/em&gt; or a subtype, representing the reference curve of the curve member.  See definitions at &lt;em&gt;IfcStructuralItem&lt;/em&gt; for further specifications.&lt;/p&gt;
@@ -47,16 +41,12 @@
 
 
 &lt;p&gt;The local coordinate system is established by the reference curve given by topology representation and by the attribute &lt;em&gt;Axis&lt;/em&gt;.  The local x axis is parallel with the tangent on the reference curve.  The local z axis is located in the surface which is created by sweeping &lt;em&gt;Axis&lt;/em&gt; along the reference curve and is directed according to &lt;em&gt;Axis&lt;/em&gt;.  The local y axis is directed such that x,y,z form a right-handed Cartesian coordinate system.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Reference Topology_1vtMCN8v14oeZ2SDHirRbf" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Reference_Topology_1vtMCN8v14oeZ2SDHirRbf" />
 			<Items>
 				<DocTemplateItem UniqueId="094b3d53-7c80-4a22-bac5-5e8f69fe04ae" RuleParameters="RepresentationType=Edge;Topology=IfcEdge;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="74ff87fc-92a8-4173-a09b-424b1f8e0b1a" Type="IfcStructuralCurveMember" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="07943591-e478-4bf4-874c-471676b2934b" Type="IfcStructuralCurveMember" />
 </DocConceptRoot>
 

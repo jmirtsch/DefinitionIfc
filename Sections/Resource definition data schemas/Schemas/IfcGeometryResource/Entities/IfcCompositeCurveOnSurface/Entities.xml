@@ -5,9 +5,7 @@
 		<DocLocalization Name="Composite Curve On Surface" Locale="en" />
 		<DocLocalization Name="Courbe composite sur surface" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="9702.8" Y="160.63333" Width="322.66667" Height="124" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="9702.8" Y="160.63333" Width="322.66667" Height="124" />
 	<Subtypes>
 		<DocSubtype UniqueId="2cf35123-0595-492c-94d2-54ae86fa1e4d" DefinedType="IfcBoundaryCurve" />
 	</Subtypes>
@@ -19,9 +17,7 @@
 				<DocPoint X="10025.467" Y="195.96666" />
 				<DocPoint X="10757.467" Y="195.96666" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="10022.8003333" Y="182.633327" Width="305" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="10022.8003333" Y="182.633327" Width="305" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

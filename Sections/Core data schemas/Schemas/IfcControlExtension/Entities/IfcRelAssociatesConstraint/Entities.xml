@@ -5,9 +5,7 @@
 		<DocLocalization Name="Rel Associates Constraint" Locale="en" />
 		<DocLocalization Name="Association à contrainte" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="221.33334" Y="1688" Width="489.33333" Height="126.66667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="221.33334" Y="1688" Width="489.33333" Height="126.66667" />
 	<Attributes>
 		<DocAttribute Name="Intent" UniqueId="368764f1-6454-4339-83cd-d5fb74a70d96" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The intent of the constraint usage with regard to its related IfcConstraint and IfcObjects, IfcPropertyDefinitions or IfcRelationships. Typical values can be e.g. RATIONALE or EXPECTED PERFORMANCE.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="318.99584" Y="1688" />
 				<DocPoint X="318.99584" Y="1563.43331" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="371.329175" Y="1651.43327" Width="70" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="371.329175" Y="1651.43327" Width="70" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="RelatingConstraint" UniqueId="91c32615-7bc4-4259-9da4-6f840dd2e322" DefinedType="IfcConstraint" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Reference to constraint that is being applied using this relationship.</Documentation>
@@ -25,9 +21,7 @@
 				<DocPoint X="466.00001" Y="1814.6667" />
 				<DocPoint X="466.00001" Y="1954.63333" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="582.86668" Y="1841.983365" Width="211" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="582.86668" Y="1841.983365" Width="211" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

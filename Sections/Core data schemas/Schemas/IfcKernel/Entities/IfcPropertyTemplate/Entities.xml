@@ -5,9 +5,7 @@
 		<DocLocalization Name="Property Template" Locale="en" />
 		<DocLocalization Name="Modèle de propriété" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3350.5867" Y="1043.28" Width="402.66667" Height="124" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3350.5867" Y="1043.28" Width="402.66667" Height="124" />
 	<Subtypes>
 		<DocSubtype UniqueId="1c16223d-9ad7-4da9-95b0-e4375ece0c64" DefinedType="IfcComplexPropertyTemplate" />
 		<DocSubtype UniqueId="b6a55d1d-e147-4550-a210-37b65f83b877" DefinedType="IfcSimplePropertyTemplate" />
@@ -19,9 +17,7 @@
 				<DocPoint X="4298.6533" Y="1097.28" />
 				<DocPoint X="3753.25337" Y="1097.28" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="4303.2867067" Y="1142.279997" Width="421" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="4303.2867067" Y="1142.279997" Width="421" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="PartOfPsetTemplate" UniqueId="8118417e-88aa-422d-889f-ee94c54dd384" DefinedType="IfcPropertySetTemplate" AttributeFlags="8" AggregationType="3" AggregationFlag="0" Inverse="HasPropertyTemplates">
 			<Documentation>Reference to the &lt;em&gt;IfcPropertySetTemplate&lt;/em&gt; that defines the scope for the &lt;em&gt;IfcPropertyTemplate&lt;/em&gt;. A single &lt;em&gt;IfcPropertyTemplate&lt;/em&gt; can be defined within the scope of zero, one or many &lt;em&gt;IfcPropertySetTemplate&lt;/em&gt;&apos;.</Documentation>
@@ -29,9 +25,7 @@
 				<DocPoint X="3538.3334" Y="827.73333" />
 				<DocPoint X="3538.3334" Y="1043.27997" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3738.3334" Y="875.399995" Width="373" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3738.3334" Y="875.399995" Width="373" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

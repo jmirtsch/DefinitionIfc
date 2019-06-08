@@ -5,9 +5,7 @@
 		<DocLocalization Name="Time Series" Locale="en" />
 		<DocLocalization Name="Séries temporelles" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="150.09302" Y="147.4668" Width="335.71508" Height="1036.004" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="150.09302" Y="147.4668" Width="335.71508" Height="1036.004" />
 	<Subtypes>
 		<DocSubtype UniqueId="22d240fe-a283-4ee4-8561-ea086ed0b559" DefinedType="IfcRegularTimeSeries" />
 		<DocSubtype UniqueId="e2f5350c-374f-4418-8d49-3807f5d8f390" DefinedType="IfcIrregularTimeSeries" />
@@ -20,9 +18,7 @@
 				<DocPoint X="485.8081" Y="217.5650935" />
 				<DocPoint X="958.82052" Y="217.5650935" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="485.8081" Y="197.5650935" Width="73" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="485.8081" Y="197.5650935" Width="73" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Description" UniqueId="35b2fdcb-dd9d-4659-9a9f-88ed103cc7e3" DefinedType="IfcText" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>A text description of the data that the series represents.</Documentation>
@@ -31,9 +27,7 @@
 				<DocPoint X="485.8081" Y="314.099305470785" />
 				<DocPoint X="959.974812825521" Y="314.099305470785" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="485.8081" Y="294.099305470785" Width="130" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="485.8081" Y="294.099305470785" Width="130" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="StartTime" UniqueId="40888137-c7f3-46ce-b025-d7d141d70954" DefinedType="IfcDateTime" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The start time of a time series.</Documentation>
@@ -42,9 +36,7 @@
 				<DocPoint X="485.8081" Y="418.57506" />
 				<DocPoint X="958.88082" Y="418.57506" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="485.8081" Y="398.57506" Width="113" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="485.8081" Y="398.57506" Width="113" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="EndTime" UniqueId="a0c55cac-3a6b-4188-b40e-86a1b8d8551e" DefinedType="IfcDateTime" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The end time of a time series.</Documentation>
@@ -53,9 +45,7 @@
 				<DocPoint X="485.8081" Y="539.553" />
 				<DocPoint X="958.88082" Y="539.553" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="485.8081" Y="519.553" Width="105" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="485.8081" Y="519.553" Width="105" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="TimeSeriesDataType" UniqueId="fe4ee506-c00b-4343-867f-0bfe2de83742" DefinedType="IfcTimeSeriesDataTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The time series data type.</Documentation>
@@ -64,9 +54,7 @@
 				<DocPoint X="485.8081" Y="656.2825555" />
 				<DocPoint X="958.79662" Y="656.2825555" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="485.8081" Y="636.2825555" Width="238" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="485.8081" Y="636.2825555" Width="238" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="DataOrigin" UniqueId="a066d6e2-e023-4c82-b13b-62af49f161e6" DefinedType="IfcDataOriginEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The origin of a time series data.</Documentation>
@@ -75,9 +63,7 @@
 				<DocPoint X="485.8081" Y="758.7525425" />
 				<DocPoint X="958.81452" Y="758.7525425" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="485.8081" Y="738.7525425" Width="125" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="485.8081" Y="738.7525425" Width="125" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="UserDefinedDataOrigin" UniqueId="0be8d17c-c445-42b4-9a22-47e1c851745e" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Value of the data origin if DataOrigin attribute is USERDEFINED.</Documentation>
@@ -86,9 +72,7 @@
 				<DocPoint X="485.8081" Y="863.09077" />
 				<DocPoint X="958.91972" Y="863.09077" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="485.8081" Y="843.09077" Width="263" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="485.8081" Y="843.09077" Width="263" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Unit" UniqueId="4cef5985-267c-417d-82ae-8c303b8c59e2" DefinedType="IfcUnit" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The unit to be assigned to all values within the time series. Note that mixing units is not allowed. If the value is not given, the global unit for the type of &lt;em&gt;IfcValue&lt;/em&gt;, as defined at &lt;em&gt;IfcProject.UnitsInContext&lt;/em&gt; is used.</Documentation>
@@ -97,9 +81,7 @@
 				<DocPoint X="485.8081" Y="1000.71322817708" />
 				<DocPoint X="943.930908203125" Y="1000.71322817708" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="485.8081" Y="980.713228177083" Width="51" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="485.8081" Y="980.713228177083" Width="51" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="HasExternalReference" UniqueId="65b0ae8e-3556-403a-86d8-6f15485a4e36" DefinedType="IfcExternalReferenceRelationship" AttributeFlags="32" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0" Inverse="RelatedResourceObjects">
 			<Documentation>Reference to an external reference, e.g. library, classification, or document information, that is associated to the IfcTimeSeries. 
@@ -109,9 +91,7 @@
 				<DocPoint X="485.8081" Y="1156.8718696875" />
 				<DocPoint X="975.974833170573" Y="1156.8718696875" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="485.8081" Y="1136.8718696875" Width="399" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="485.8081" Y="1136.8718696875" Width="399" Height="70" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

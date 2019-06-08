@@ -5,9 +5,7 @@
 		<DocLocalization Name="Grid Axis" Locale="en" />
 		<DocLocalization Name="Axe de grille" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="231.425" Y="1526.4417" Width="460.66667" Height="337.5" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="231.425" Y="1526.4417" Width="460.66667" Height="337.5" />
 	<Attributes>
 		<DocAttribute Name="AxisTag" UniqueId="f222aeae-6918-400f-8a3a-d30bc1517fdd" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The tag or name for this grid axis.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="692.09167" Y="1561.8583" />
 				<DocPoint X="1044.63747" Y="1561.8583" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="692.09167" Y="1553.5249667" Width="95" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="692.09167" Y="1553.5249667" Width="95" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="AxisCurve" UniqueId="589c5a86-2e76-4350-a83e-c51111d24192" DefinedType="IfcCurve" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>Underlying curve which provides the geometry for this grid axis.</Documentation>
@@ -25,9 +21,7 @@
 				<DocPoint X="692.09167" Y="1836.525" />
 				<DocPoint X="1044.67084" Y="1836.525" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="688.7583367" Y="1833.1916667" Width="118" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="688.7583367" Y="1833.1916667" Width="118" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="SameSense" UniqueId="64d5940a-89dc-4943-b2bb-32f8fabbef9c" DefinedType="IfcBoolean" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines whether the original sense of curve is used or whether it is reversed in the context of the grid axis.</Documentation>
@@ -35,9 +29,7 @@
 				<DocPoint X="692.09167" Y="1703.1917" />
 				<DocPoint X="1044.67084" Y="1703.1917" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="688.7583367" Y="1696.5250333" Width="141" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="688.7583367" Y="1696.5250333" Width="141" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="PartOfW" UniqueId="37f2104e-edaa-42e5-9169-517462c7484e" DefinedType="IfcGrid" AttributeFlags="32" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="WAxes">
 			<Documentation>If provided, the &lt;em&gt;IfcGridAxis&lt;/em&gt; is part of the &lt;em&gt;WAxes&lt;/em&gt; of &lt;em&gt;IfcGrid&lt;/em&gt;.
@@ -46,9 +38,7 @@
 				<DocPoint X="649.75834" Y="1863.9417" />
 				<DocPoint X="649.75834" Y="2095.2" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="789.09167" Y="1902.608367" Width="244" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="789.09167" Y="1902.608367" Width="244" Height="70" />
 		</DocAttribute>
 		<DocAttribute Name="PartOfV" UniqueId="2d9d9cfa-15a7-4eba-9d29-d6c6b56c8ca7" DefinedType="IfcGrid" AttributeFlags="32" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="VAxes">
 			<Documentation>If provided, the &lt;em&gt;IfcGridAxis&lt;/em&gt; is part of the &lt;em&gt;VAxes&lt;/em&gt; of &lt;em&gt;IfcGrid&lt;/em&gt;.
@@ -57,9 +47,7 @@
 				<DocPoint X="368.425" Y="1863.9417" />
 				<DocPoint X="368.425" Y="2095.2" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="495.09167" Y="1903.275033" Width="237" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="495.09167" Y="1903.275033" Width="237" Height="70" />
 		</DocAttribute>
 		<DocAttribute Name="PartOfU" UniqueId="a67ae0fa-6b90-407b-a0af-d5724a050f0d" DefinedType="IfcGrid" AttributeFlags="32" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="UAxes">
 			<Documentation>If provided, the &lt;em&gt;IfcGridAxis&lt;/em&gt; is part of the &lt;em&gt;UAxes&lt;/em&gt; of &lt;em&gt;IfcGrid&lt;/em&gt;.
@@ -68,9 +56,7 @@
 				<DocPoint X="281.75834" Y="1863.9417" />
 				<DocPoint X="281.75834" Y="2095.2" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="151.75834" Y="1901.275033" Width="239" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="151.75834" Y="1901.275033" Width="239" Height="70" />
 		</DocAttribute>
 		<DocAttribute Name="HasIntersections" UniqueId="351beb68-0443-424d-8205-71b6086c5eb7" DefinedType="IfcVirtualGridIntersection" AttributeFlags="8" AggregationType="3" AggregationFlag="0" Inverse="IntersectingAxes">
 			<Documentation>The reference to a set of &lt;IfcVirtualGridIntersection&lt;/em&gt;&apos;s, that connect other grid axes to this grid axis.
@@ -79,9 +65,7 @@
 				<DocPoint X="450.38917" Y="1364.0216" />
 				<DocPoint X="450.38917" Y="1526.44163" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="630.38917" Y="1382.250767" Width="334" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="630.38917" Y="1382.250767" Width="334" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

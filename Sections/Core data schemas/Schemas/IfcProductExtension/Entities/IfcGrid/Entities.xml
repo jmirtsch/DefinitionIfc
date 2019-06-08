@@ -5,9 +5,7 @@
 		<DocLocalization Name="Grid" Locale="en" />
 		<DocLocalization Name="Grille" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5016.7302" Y="631.93177" Width="219.46667" Height="450.13333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="5016.7302" Y="631.93177" Width="219.46667" Height="450.13333" />
 	<Attributes>
 		<DocAttribute Name="UAxes" UniqueId="bdb5916c-3554-4cf8-af9f-c8f845cd2167" DefinedType="IfcGridAxis" AttributeFlags="0" AggregationType="1" AggregationFlag="2" AggregationLower="1" AggregationUpper="0">
 			<Documentation>List of grid axes defining the first row of grid lines.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="5236.1969" Y="669.39843" />
 				<DocPoint X="5786.01347" Y="669.39843" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5236.1969" Y="661.39843" Width="166" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5236.1969" Y="661.39843" Width="166" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="VAxes" UniqueId="1717252a-3745-4aa4-a034-8dcd37a0d186" DefinedType="IfcGridAxis" AttributeFlags="0" AggregationType="1" AggregationFlag="2" AggregationLower="1" AggregationUpper="0">
 			<Documentation>List of grid axes defining the second row of grid lines.</Documentation>
@@ -25,9 +21,7 @@
 				<DocPoint X="5236.1969" Y="767.15082" />
 				<DocPoint X="5786.01347" Y="767.15082" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5236.1969" Y="761.8174867" Width="164" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5236.1969" Y="761.8174867" Width="164" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="WAxes" UniqueId="d9aa56a8-d4cc-43e3-ba44-e2f43708fed0" DefinedType="IfcGridAxis" AttributeFlags="1" AggregationType="1" AggregationFlag="2" AggregationLower="1" AggregationUpper="0">
 			<Documentation>List of grid axes defining the third row of grid lines. It may be given in the case of a triangular grid.</Documentation>
@@ -35,9 +29,7 @@
 				<DocPoint X="5236.1969" Y="882.46506" />
 				<DocPoint X="5786.01347" Y="882.46506" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5236.1969" Y="879.1317267" Width="171" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5236.1969" Y="879.1317267" Width="171" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="PredefinedType" UniqueId="dd530a2a-4234-4800-82ff-77018c7df73e" DefinedType="IfcGridTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined types to define the particular type of the grid.
@@ -47,9 +39,7 @@
 				<DocPoint X="5049.1302" Y="1082.0651" />
 				<DocPoint X="5049.1302" Y="1199.75953" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5158.46353" Y="1087.3984333" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5158.46353" Y="1087.3984333" Width="182" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ContainedInStructure" UniqueId="eab7c659-344b-47a3-82ed-2c7243b71a28" DefinedType="IfcRelContainedInSpatialStructure" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="RelatedElements">
 			<Documentation>Relationship to a spatial structure element, to which the grid is primarily associated.
@@ -58,9 +48,7 @@
 				<DocPoint X="5236.1969" Y="1029.7984" />
 				<DocPoint X="5856.5302" Y="1029.7984" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5241.7969033" Y="1013.3984" Width="584" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5241.7969033" Y="1013.3984" Width="584" Height="70" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

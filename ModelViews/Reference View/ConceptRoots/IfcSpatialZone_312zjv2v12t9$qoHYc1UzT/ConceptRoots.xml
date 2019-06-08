@@ -1,50 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="c10bdb79-0b90-42dc-9ff4-c918a605ef5d">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcSpatialZone" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcSpatialZone" />
 	<Concepts>
 		<DocTemplateUsage UniqueId="e8a320e2-4ad6-416b-975d-46110d169b9e">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Spatial Zone Attributes" UniqueId="8dbc0e09-1e54-441c-bfdb-9b68680da4d8">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Zone Attributes_05GL9TrITEtACcw2mZmmnz" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Zone_Attributes_05GL9TrITEtACcw2mZmmnz" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Object Typing" UniqueId="702402da-2431-41f4-9eaa-001d53154f9a">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="e05c0783-9cab-4837-81cd-105154ed06c0" RuleParameters="RelatingType=IfcSpatialZoneType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Product Local Placement" UniqueId="b9986eb0-c34d-4c4e-be2e-cd9e035c57d5">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Spatial Composition" UniqueId="38b73d1a-f412-4ceb-a893-c14bbaf59d72">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Composition_2C3zBtSRjERe$R30ApKl5A" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Composition_2C3zBtSRjEReR30ApKl5A" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Spatial Decomposition" UniqueId="8289e647-2095-4fb2-9084-29bd95ec2a67">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Decomposition_1cVuH3xCvAZQO$an_h15FW" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Decomposition_1cVuH3xCvAZQOan_h15FW" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Spatial Container" UniqueId="3f9784cb-257b-4ad1-ac5e-57677f6ac068">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Container_1XtGZj$G59LPCtYlqeIWvl" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Container_1XtGZjG59LPCtYlqeIWvl" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="94118184-76c9-4777-936c-c915d5a48d27" Type="IfcSpatialZone" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="154fb60c-840e-49ce-9442-04e02f4fb034" Type="IfcSpatialZone" />
 </DocConceptRoot>
 

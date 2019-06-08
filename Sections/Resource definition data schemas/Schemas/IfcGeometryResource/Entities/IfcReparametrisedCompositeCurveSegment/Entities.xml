@@ -4,9 +4,7 @@
 		<DocLocalization Name="Reparametrisiertes Segment einer zusammengesetzten Kurve" Locale="de" />
 		<DocLocalization Name="Reparametrised Composite Curve Segment" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="8471.3671875" Y="2110.9599609375" Width="448" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="8471.3671875" Y="2110.9599609375" Width="448" Height="100" />
 	<Attributes>
 		<DocAttribute Name="ParamLength" UniqueId="c5577010-d8c0-41e0-b393-c30f401114a2" DefinedType="IfcParameterValue" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
@@ -14,9 +12,7 @@
 				<DocPoint X="8919.3671875" Y="2166.2933" />
 				<DocPoint X="9237.0667" Y="2166.2933" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="8919.3671875" Y="2146.2933" Width="156" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="8919.3671875" Y="2146.2933" Width="156" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

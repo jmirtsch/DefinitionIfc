@@ -3,9 +3,7 @@
 	<Localization>
 		<DocLocalization Name="Curve Style Font Select" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4296.01774088542" Y="1284.23811848958" Width="324.666884635417" Height="118.33333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4296.01774088542" Y="1284.23811848958" Width="324.666884635417" Height="118.33333" />
 	<Selects>
 		<DocSelectItem Name="IfcPreDefinedCurveFont" UniqueId="cb0aaf4c-3c92-4c7a-867b-58fdb072c581" />
 		<DocSelectItem Name="IfcCurveStyleFont" UniqueId="c6537f63-ee98-4367-b73e-a71c56ce2217" />

@@ -4,9 +4,7 @@
 		<DocLocalization Name="Füllfläche - Kachelstil" Locale="de" />
 		<DocLocalization Name="Fill Area Style Tiles" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="8832.11751302083" Y="888.021402994792" Width="256.166666666666" Height="478.666676839193" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="8832.11751302083" Y="888.021402994792" Width="256.166666666666" Height="478.666676839193" />
 	<Attributes>
 		<DocAttribute Name="TilingPattern" UniqueId="85b936d1-2755-4739-9fd0-716ef0622f80" DefinedType="IfcVector" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="2" AggregationUpper="2">
 			<Documentation>A two direction repeat factor defining the shape and relative positioning of the tiles.
@@ -16,9 +14,7 @@
 				<DocPoint X="9049.067535" Y="1366.68807983398" />
 				<DocPoint X="9049.067535" Y="1888.8213" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="9049.067535" Y="1868.8213" Width="222" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="9049.067535" Y="1868.8213" Width="222" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Tiles" UniqueId="5812d5a2-edd8-486a-8237-149034e4dcaa" DefinedType="IfcStyledItem" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
 			<Documentation>A set of constituents of the tile being a styled item that is used as the annotation symbol for tiling the filled area.
@@ -29,9 +25,7 @@
 				<DocPoint X="9088.2841796875" Y="1122.02136230469" />
 				<DocPoint X="9299.78450520833" Y="1122.02136230469" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="9088.2841796875" Y="1102.02136230469" Width="137" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="9088.2841796875" Y="1102.02136230469" Width="137" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="TilingScale" UniqueId="0200d8ed-49fd-4670-a213-284158f9200d" DefinedType="IfcPositiveRatioMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The scale factor applied to each tile as it is placed in the annotation fill area.</Documentation>
@@ -40,9 +34,7 @@
 				<DocPoint X="9088.2841796875" Y="1239.68799658594" />
 				<DocPoint X="9224.75130208333" Y="1239.68799658594" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="9088.2841796875" Y="1219.68799658594" Width="126" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="9088.2841796875" Y="1219.68799658594" Width="126" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

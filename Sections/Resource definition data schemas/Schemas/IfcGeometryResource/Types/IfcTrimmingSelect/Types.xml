@@ -4,9 +4,7 @@
 		<DocLocalization Name="Trimming Select" Locale="en" />
 		<DocLocalization Name="Sélection de rognage" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="8597.115234375" Y="817.78857421875" Width="353.3" Height="66" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="8597.115234375" Y="817.78857421875" Width="353.3" Height="66" />
 	<Selects>
 		<DocSelectItem Name="IfcCartesianPoint" UniqueId="dfffcc03-fe07-415a-ac86-62c8ece38b63" />
 		<DocSelectItem Name="IfcParameterValue" UniqueId="a305b6e6-d2d9-47c2-b89c-eb9681ab1fb9" />

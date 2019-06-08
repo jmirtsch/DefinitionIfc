@@ -4,9 +4,7 @@
 		<DocLocalization Name="Facettierte Boundary Representation mit Aussparungen" Locale="de" />
 		<DocLocalization Name="Faceted Brep With Voids" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="10670.65" Y="842.58013" Width="334.666656494141" Height="123.96667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="10670.65" Y="842.58013" Width="334.666656494141" Height="123.96667" />
 	<Attributes>
 		<DocAttribute Name="Voids" UniqueId="8dc8167e-935a-434f-b223-97e3c9d2b1ac" DefinedType="IfcClosedShell" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
 			<Documentation>Set of closed shells defining voids within the solid.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="10670.65" Y="373.988535" />
 				<DocPoint X="10149.76667" Y="373.988535" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="10670.65" Y="353.988535" Width="147" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="10670.65" Y="353.988535" Width="147" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

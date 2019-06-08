@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="57006c13-9d07-484f-8227-fa143e9e55a7">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcDoorType" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcDoorType" />
 	<Concepts>
 		<DocTemplateUsage Name="Body Geometry" UniqueId="7463b188-1aba-4d64-8c09-12247094b8ee">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Type Body Geometry_0wx2q0jBj7QgWX$2AubRKn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Type_Body_Geometry_0wx2q0jBj7QgWX2AubRKn" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Property Sets for Types" UniqueId="02e378e8-72f0-42b5-aeb8-4138e2899b7a">
 			<Documentation>&lt;p&gt;Two subtypes of &lt;em&gt;IfcPreDefinedPropertySet&lt;/em&gt; are applicable
@@ -18,13 +14,9 @@ the shape parameters of the door lining&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;IfcDoorPanelProperties&lt;/em&gt; - one or several instances to
 define the shape parameters of the door panel(s)&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Types_1Bup4gCPb9Bh84oi8YcfhU" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Types_1Bup4gCPb9Bh84oi8YcfhU" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="4103dde9-393a-44bf-bec7-d809b4cea13d" Type="IfcDoorType" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="015e168f-6162-46c8-8a51-6bee5c202eb9" Type="IfcDoorType" />
 </DocConceptRoot>
 

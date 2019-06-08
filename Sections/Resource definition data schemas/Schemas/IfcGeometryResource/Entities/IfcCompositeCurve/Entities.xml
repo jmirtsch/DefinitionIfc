@@ -5,9 +5,7 @@
 		<DocLocalization Name="Composite Curve" Locale="en" />
 		<DocLocalization Name="Courbe composite" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="8609.681640625" Y="1115.72192382813" Width="372.33333" Height="255.33334" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="8609.681640625" Y="1115.72192382813" Width="372.33333" Height="255.33334" />
 	<Subtypes>
 		<DocSubtype UniqueId="e6a62b32-4227-4659-94ed-0e46d5f68fbd" DefinedType="IfcCompositeCurveOnSurface" />
 	</Subtypes>
@@ -19,9 +17,7 @@
 				<DocPoint X="8722.9784521875" Y="1371.05526382812" />
 				<DocPoint X="8722.9784521875" Y="1830.98852539063" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="8722.9784521875" Y="1810.98852539063" Width="195" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="8722.9784521875" Y="1810.98852539063" Width="195" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="SelfIntersect" UniqueId="8e53369e-bae8-4a7e-81e4-370b1cb785b8" DefinedType="IfcLogical" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Indication of whether the curve intersects itself or not; this is for information only.</Documentation>
@@ -30,9 +26,7 @@
 				<DocPoint X="8982.014970625" Y="1234.8134765625" />
 				<DocPoint X="9259.34798177083" Y="1234.8134765625" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="8982.014970625" Y="1214.8134765625" Width="144" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="8982.014970625" Y="1214.8134765625" Width="144" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="NSegments" UniqueId="46f28929-2534-4105-9848-5cbcd99dd9c4" DefinedType="IfcInteger" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The number of component curves.</Documentation>
@@ -42,9 +36,7 @@
 				<DocPoint X="8982.014970625" Y="1159.72200520833" />
 				<DocPoint X="9259.34765625" Y="1159.72200520833" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="8982.014970625" Y="1139.72200520833" Width="211" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="8982.014970625" Y="1139.72200520833" Width="211" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ClosedCurve" UniqueId="dc317cb3-07cf-46d5-8531-b7b35a80248f" DefinedType="IfcLogical" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Indication whether the curve is closed or not; this is derived from the transition code of the last segment.</Documentation>
@@ -54,9 +46,7 @@
 				<DocPoint X="8982.014970625" Y="1311.72200520833" />
 				<DocPoint X="9259.34798177083" Y="1311.72200520833" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="8982.014970625" Y="1291.72200520833" Width="225" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="8982.014970625" Y="1291.72200520833" Width="225" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

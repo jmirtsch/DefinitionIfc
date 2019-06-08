@@ -4,12 +4,8 @@
 		<DocLocalization Name="Angular Velocity Measure" Locale="en" />
 		<DocLocalization Name="Mesure de vélocité angulaire" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5665.1099" Y="320.53621" Width="456.73333" Height="54.923051" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_14EpYDs1b2pwNhC3mZ8W0W" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5665.1099" Y="320.53621" Width="456.73333" Height="54.923051" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_14EpYDs1b2pwNhC3mZ8W0W" />
 	<DiagramLine>
 		<DocPoint X="6121.8432" Y="346.4424" />
 		<DocPoint X="6232.69213" Y="346.4424" />

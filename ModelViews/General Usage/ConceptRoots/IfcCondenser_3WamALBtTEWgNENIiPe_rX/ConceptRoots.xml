@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="3WamALBtTEWgNENIiPe_rX">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcCondenser" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcCondenser" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="3okJLaToD1KxV$eSYSmYVA">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="0230fe14-b9c7-4b19-b7c8-3351d190268c" RuleParameters="RelatingType=IfcCondenserType;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="2SZq5qQhfA_9aEBskilGcj">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="609d5754-9f63-4e8e-9259-8f50b41aff0a" RuleParameters="PsetName=Pset_CondenserTypeCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="92db6189-b31f-401e-9e4b-50638b7cbddd">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="d0afc486-6044-4de8-950c-e5634438e2b2" RuleParameters="PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="45dc7f59-d02f-4305-8fee-9fb6b057632e" RuleParameters="PropertyName=ExternalSurfaceArea;Value=IfcAreaMeasure;" Order="0" />
@@ -34,9 +26,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="a4000e35-9bd3-4dca-9684-dadd28c3e828">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="eb07cf32-5552-4066-941f-7c9d68c70858" RuleParameters="PropertyName=RefrigerantClass;Value=IfcLabel;" Order="0" />
 							</Items>
@@ -46,17 +36,13 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="0$6UJ_q7PCuf0S0l9SCQxM">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="6f288b8a-12d3-47ad-8eee-67720d72a66c" RuleInstanceID="IfcElementQuantity" RuleParameters="QsetName=Qto_CondenserBaseQuantities;" Order="0" />
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Material" UniqueId="2fxfarJhjA785OhPY5_Ka$">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Constituent Set_3PRtzzvq9Dk9jT6ADgRVY4" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Constituent_Set_3PRtzzvq9Dk9jT6ADgRVY4" />
 			<Items>
 				<DocTemplateItem UniqueId="c11938a3-b262-4290-b3a1-d374b78fba13" RuleParameters="Name=Casing;" Order="0">
 					<Documentation>Material from which the casing is constructed.</Documentation>
@@ -67,9 +53,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Port" UniqueId="0LnADaRwT7keQMzioRA5K7">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Port Nesting_2w$9EtqE92s8JFNQ8EuKWA" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Port_Nesting_2w9EtqE92s8JFNQ8EuKWA" />
 			<Items>
 				<DocTemplateItem UniqueId="8d6acbee-8389-4551-b4a1-e7ad74d95fea" RuleParameters="PredefinedType=AIRCOOLED;PortName=RefrigerantIn;SystemType=REFRIGERATION;Flow=SINK;" Order="0">
 					<Documentation>Vapor refrigerant entering the condenser.</Documentation>
@@ -116,8 +100,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="edc3c3d4-6ae8-4b46-ad77-d1da32c10647" Type="IfcCondenser" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="997588df-6634-4240-8d55-9f6836e77e47" Type="IfcCondenser" />
 </DocConceptRoot>
 

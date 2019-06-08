@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="14eda651-97c1-4571-8496-be3538999c20">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcSlabType" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcSlabType" />
 	<Concepts>
 		<DocTemplateUsage Name="Material Layer Set" UniqueId="6c178501-b085-4d01-8ed7-1dd80f4db792">
 			<Documentation>&lt;p&gt;The material of the &lt;em&gt;IfcSlabType&lt;/em&gt; is defined by the
@@ -28,25 +26,17 @@ occurrences of type &lt;em&gt;IfcSlabStandardCase&lt;/em&gt; (see definition of
 reference plane, the same &lt;em&gt;IfcSlabType&lt;/em&gt; can be used
 independently of the reference plane alignment of its
 occurrences.&lt;/blockquote&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Layer Set_3VjREfKED6ueKO7mFdpzY6" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Layer_Set_3VjREfKED6ueKO7mFdpzY6" />
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Design_Transfer_Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Design Transfer Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Design_Transfer_Exchange_34c6WDp8j0Cgdpp6il2Mz2" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="c5ead25d-c06f-4a04-a7d4-237bd001a2dd" Type="IfcSlabType" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="0df0ff36-593e-4cf3-84fb-b6717a8babed" Type="IfcSlabType" />
 </DocConceptRoot>
 

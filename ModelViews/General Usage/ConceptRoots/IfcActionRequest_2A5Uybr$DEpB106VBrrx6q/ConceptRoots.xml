@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="2A5Uybr$DEpB106VBrrx6q">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcActionRequest" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcActionRequest" />
 	<Concepts>
 		<DocTemplateUsage UniqueId="0Txfa1m2z7Bf6lq7DMxehz">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="2beed1bb-5fa6-4930-9a5e-c91f0aae5db7" RuleParameters="PsetName=Pset_ActionRequest;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="834bc45c-250f-4208-a9c9-86a0cd8a0037">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="4daf7c41-6051-41ac-92c3-b764f6b45fac" RuleParameters="PropertyName=RequestSourceLabel;Value=IfcLabel;" Order="0" />
 								<DocTemplateItem UniqueId="d9047c4d-c813-46c0-904e-0b141f62ae01" RuleParameters="PropertyName=RequestComments;Value=IfcText;" Order="0" />
@@ -26,9 +20,7 @@
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Approval" UniqueId="3WqHUizTf3redk1ORzX6Ed">
 			<Documentation>&lt;p&gt;Approvals may be associated to indicate the status of acceptance or rejection using the &lt;a href=&quot;../../ifccontrolextension/lexical/ifcrelassociatesapproval.htm&quot;&gt;IfcRelAssociatesApproval&lt;/a&gt; relationship where &lt;em&gt;RelatingApproval&lt;/em&gt; refers to an &lt;a href=&quot;../../ifcapprovalresource/lexical/ifcapproval.htm&quot;&gt;IfcApproval&lt;/a&gt; and &lt;em&gt;RelatedObjects&lt;/em&gt; contains the &lt;b&gt;IfcActionRequest&lt;/b&gt;.  Approvals may be split into sub-approvals using &lt;a href=&quot;../../ifcapprovalresource/lexical/ifcapprovalrelationship.htm&quot;&gt;IfcApprovalRelationship&lt;/a&gt; to track approval status separately for each party where &lt;em&gt;RelatingApproval&lt;/em&gt; refers to the higher-level approval and &lt;em&gt;RelatedApprovals&lt;/em&gt; contains one or more lower-level approvals.  The hierarchy of approvals implies sequencing such that a higher-level approval is not executed until all of its lower-level approvals have been accepted.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Approval Association_1ILX$QGe50dQe7saXJ0YIU" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Approval_Association_1ILXQGe50dQe7saXJ0YIU" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Aggregation" UniqueId="2ilRK$A9H9Q9p6haDUJKGs">
 			<Documentation>&lt;p&gt;As shown in Figure 272, an &lt;b&gt;IfcActionRequest&lt;/b&gt; may be aggregated into components.&lt;/p&gt;
@@ -37,9 +29,7 @@
 &lt;tr&gt;&lt;td&gt;&lt;img alt=&quot;Composition Use Definition&quot; src=&quot;../../../figures/ifcactionrequest-composition.png&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 272 &amp;mdash; Action request composition&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
 			<Items>
 				<DocTemplateItem UniqueId="2defa02a-c3fb-44c9-a52b-310551385f0f" RuleParameters="PredefinedType=;RelatedObjects=IfcCostSchedule;" Order="0">
 					<Documentation>Cost schedules may indicate the costs projected or incurred for the request.</Documentation>
@@ -47,9 +37,7 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Nesting" UniqueId="1SJqDC$yHFwwexdpleSjaI">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Nesting_0uoeU8NaT178AKrM_UcbQH" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Nesting_0uoeU8NaT178AKrM_UcbQH" />
 			<Items>
 				<DocTemplateItem UniqueId="faa99ef5-cb50-4adb-befa-516345834f05" RuleParameters="Type=IfcActionRequest;" Order="0">
 					<Documentation>A request may be nested into follow-up requests, in order of issue</Documentation>
@@ -69,13 +57,9 @@
 &lt;tr&gt;&lt;td&gt;&lt;img alt=&quot;Assignment Use Definition&quot; src=&quot;../../../figures/ifcactionrequest-assignment.png&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 273 &amp;mdash; Action request assignment&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Control Assignment_21FdF_La56IAQ0Y8VFGrdn" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Control_Assignment_21FdF_La56IAQ0Y8VFGrdn" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="4e26c865-a09b-4fc5-9a5f-468d2023f7ef" Type="IfcActionRequest" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="4e451196-148f-49cc-9a34-f642939101e6" Type="IfcActionRequest" />
 </DocConceptRoot>
 

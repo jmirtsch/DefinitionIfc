@@ -4,9 +4,7 @@
 		<DocLocalization Name="Vorsprung / Auskragung" Locale="de" />
 		<DocLocalization Name="Projection Element" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2457.8558" Y="4440.8628" Width="387.7" Height="115.93333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2457.8558" Y="4440.8628" Width="387.7" Height="115.93333" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="d7539a41-7169-4cb2-8338-5e6df001437f" DefinedType="IfcProjectionElementTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined generic type for a projection element that is specified in an enumeration. There may be a property set given specificly for the predefined types.
@@ -17,9 +15,7 @@
 				<DocPoint X="3018.30122" Y="4397.716002" />
 				<DocPoint X="3018.30122" Y="4440.9533" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2788.6308" Y="4386.082669" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2788.6308" Y="4386.082669" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Member Type" Locale="en" />
 		<DocLocalization Name="Type de membre" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3629.6667" Y="425.76667" Width="326.63333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3629.6667" Y="425.76667" Width="326.63333" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="0856367e-c546-4caf-b6ef-583ceef73b2b" DefinedType="IfcMemberTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of a linear structural member element from which the type required may be set.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="3956.30003" Y="480.0916265" />
 				<DocPoint X="4184.7333" Y="480.0916265" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3956.30003" Y="460.0916265" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3956.30003" Y="460.0916265" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

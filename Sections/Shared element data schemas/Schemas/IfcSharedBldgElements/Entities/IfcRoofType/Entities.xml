@@ -5,9 +5,7 @@
 		<DocLocalization Name="Roof Type" Locale="en" />
 		<DocLocalization Name="Type de toiture" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3629.6" Y="1566.0666" Width="326.63333" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3629.6" Y="1566.0666" Width="326.63333" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="1e67307a-a7f0-418c-9478-1e90ab9d50c9" DefinedType="IfcRoofTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Identifies the predefined types of a roof element from which the type required may be set.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="3956.23333" Y="1615.8331665" />
 				<DocPoint X="4184.6167" Y="1615.8331665" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3956.23333" Y="1595.8331665" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3956.23333" Y="1595.8331665" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

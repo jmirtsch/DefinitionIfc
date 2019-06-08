@@ -5,9 +5,7 @@
 		<DocLocalization Name="Boiler Type" Locale="en" />
 		<DocLocalization Name="Type de chaudière" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="69.816285" Y="523.21885" Width="401.5768" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="69.816285" Y="523.21885" Width="401.5768" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="99850f73-da5b-40ff-9529-8a3816e83b04" DefinedType="IfcBoilerTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines types of boilers.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="471.39308" Y="573.21885" />
 				<DocPoint X="681.58342" Y="573.21885" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="471.39308" Y="573.21885" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="471.39308" Y="573.21885" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

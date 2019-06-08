@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DocPrimitive xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="INTEGER_34gxFiQjf7Kuufb$V6Yqnm" Name="INTEGER" UniqueId="c4abb3ec-6ada-4753-8e29-97f7c68b4c70" DiagramNumber="1">
-	<DiagramRectangle>
-		<DocRectangle X="588.81877" Y="1811.238" Width="191.41333" Height="52.666667" />
-	</DiagramRectangle>
+<DocPrimitive xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="INTEGER_34gxFiQjf7KuufbV6Yqnm" Name="INTEGER" UniqueId="c4abb3ec-6ada-4753-8e29-97f7c68b4c70" DiagramNumber="1">
+	<DiagramRectangle xsi:type="DocRectangle" X="588.81877" Y="1811.238" Width="191.41333" Height="52.666667" />
 </DocPrimitive>
 

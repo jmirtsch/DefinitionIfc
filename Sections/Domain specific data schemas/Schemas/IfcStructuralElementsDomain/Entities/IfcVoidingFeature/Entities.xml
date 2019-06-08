@@ -4,9 +4,7 @@
 		<DocLocalization Name="Aussparung / Abzugskörper" Locale="de" />
 		<DocLocalization Name="Voiding Feature" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="165.80653" Y="1356.1696" Width="317.36771" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="165.80653" Y="1356.1696" Width="317.36771" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="fff2ddf2-413b-4847-8afd-9e3ed847b801" DefinedType="IfcVoidingFeatureTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Qualifies the feature regarding its shape and configuration relative to the voided element.</Documentation>
@@ -14,9 +12,7 @@
 				<DocPoint X="483.17424" Y="1406.1696" />
 				<DocPoint X="724.5664" Y="1406.1696" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="483.17424" Y="1406.1696" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="483.17424" Y="1406.1696" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

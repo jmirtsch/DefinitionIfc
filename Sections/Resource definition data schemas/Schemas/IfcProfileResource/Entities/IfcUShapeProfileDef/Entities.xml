@@ -5,9 +5,7 @@
 		<DocLocalization Name="UShape Profile Def" Locale="en" />
 		<DocLocalization Name="Définition de section d&apos;un profil en U" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3457.4329" Y="3960.3866" Width="453.83538" Height="654.76315" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3457.4329" Y="3960.3866" Width="453.83538" Height="654.76315" />
 	<Attributes>
 		<DocAttribute Name="Depth" UniqueId="1e0ba4ff-53cd-4583-9e64-78f718fc1f17" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Web lengths, see illustration above (= h).</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="3911.2683" Y="3996.0657" />
 				<DocPoint X="4264.4377" Y="3996.0657" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3845.93036" Y="3992.8027627" Width="74" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3845.93036" Y="3992.8027627" Width="74" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="FlangeWidth" UniqueId="952d016a-ead8-4d08-9f8a-8a5e3a9381ad" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Flange lengths, see illustration above (= b).</Documentation>
@@ -25,9 +21,7 @@
 				<DocPoint X="3911.2683" Y="4088.4518" />
 				<DocPoint X="4264.371" Y="4088.4518" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3886.442344" Y="4086.761723" Width="146" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3886.442344" Y="4086.761723" Width="146" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="WebThickness" UniqueId="edd0c5a2-f668-4d28-90d9-527adbc2892b" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Constant wall thickness of web (= ts).</Documentation>
@@ -35,9 +29,7 @@
 				<DocPoint X="3911.2683" Y="4188.0107" />
 				<DocPoint X="4264.4377" Y="4188.0107" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3894.966984" Y="4184.094209" Width="168" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3894.966984" Y="4184.094209" Width="168" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="FlangeThickness" UniqueId="7dc76e01-ba86-4fc0-aefa-12cbd9de4354" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Constant wall thickness of flange (= tg).</Documentation>
@@ -45,9 +37,7 @@
 				<DocPoint X="3911.2683" Y="4284.3997" />
 				<DocPoint X="4264.4043" Y="4284.3997" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3908.4943267" Y="4275.5376576" Width="193" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3908.4943267" Y="4275.5376576" Width="193" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="FilletRadius" UniqueId="5aaea55d-d089-4885-b7ff-6c89cc0fdb81" DefinedType="IfcNonNegativeLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Fillet radius according the above illustration (= r1).</Documentation>
@@ -55,9 +45,7 @@
 				<DocPoint X="3911.2683" Y="4376.1045" />
 				<DocPoint X="4264.3883" Y="4376.1045" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3881.10763" Y="4368.7338333" Width="135" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3881.10763" Y="4368.7338333" Width="135" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="EdgeRadius" UniqueId="64a763ed-7fde-46d2-90ef-4e8189de7711" DefinedType="IfcNonNegativeLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Edge radius according the above illustration (= r2).</Documentation>
@@ -65,9 +53,7 @@
 				<DocPoint X="3911.2683" Y="4476.9098" />
 				<DocPoint X="4264.4416" Y="4476.9098" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3888.419653" Y="4468.0351334" Width="142" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3888.419653" Y="4468.0351334" Width="142" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="FlangeSlope" UniqueId="4b17d3b3-4476-485a-9aeb-b436e9bd7444" DefinedType="IfcPlaneAngleMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Slope of flange of the profile.</Documentation>
@@ -75,9 +61,7 @@
 				<DocPoint X="3911.2683" Y="4571.7791" />
 				<DocPoint X="4264.3662" Y="4571.7791" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3890.750967" Y="4566.4777667" Width="146" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3890.750967" Y="4566.4777667" Width="146" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

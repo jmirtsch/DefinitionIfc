@@ -5,8 +5,6 @@
 		<DocLocalization Name="Flow Fitting" Locale="en" />
 		<DocLocalization Name="Raccord d&apos;installation fluides" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="180.10416" Y="1442.8292" Width="518.34967" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="180.10416" Y="1442.8292" Width="518.34967" Height="100" />
 </DocEntity>
 

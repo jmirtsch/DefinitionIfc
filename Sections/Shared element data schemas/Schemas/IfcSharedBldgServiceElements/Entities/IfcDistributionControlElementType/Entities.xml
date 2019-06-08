@@ -5,8 +5,6 @@
 		<DocLocalization Name="Distribution Control Element Type" Locale="en" />
 		<DocLocalization Name="Type d&apos;élément de circuit de distribution" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2578.0725" Y="377.39312" Width="596.53344" Height="123.4881" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2578.0725" Y="377.39312" Width="596.53344" Height="123.4881" />
 </DocEntity>
 

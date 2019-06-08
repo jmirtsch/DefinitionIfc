@@ -5,9 +5,7 @@
 		<DocLocalization Name="Time Series Value" Locale="en" />
 		<DocLocalization Name="Valeur de séries temporelles" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="71.577717" Y="1686.662" Width="356.9763" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="71.577717" Y="1686.662" Width="356.9763" Height="100" />
 	<Attributes>
 		<DocAttribute Name="ListValues" UniqueId="05b6422d-b373-4182-83c9-0abf54079150" DefinedType="IfcValue" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
 			<Documentation>A list of time-series values. At least one value is required.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="251.46742" Y="1956.69086" />
 				<DocPoint X="358.57437" Y="1956.69086" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="254.375763" Y="1871.248213" Width="197" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="254.375763" Y="1871.248213" Width="197" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

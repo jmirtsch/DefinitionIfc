@@ -4,12 +4,8 @@
 		<DocLocalization Name="Thermal Transmittance Measure" Locale="en" />
 		<DocLocalization Name="mesure de transmittance thermique" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5060.3285" Y="1718.1048" Width="529.23333" Height="53.00186" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_0YkXvKJqL67vIOvifFUZ38" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5060.3285" Y="1718.1048" Width="529.23333" Height="53.00186" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_0YkXvKJqL67vIOvifFUZ38" />
 	<DiagramLine>
 		<DocPoint X="5060.3285" Y="1744.6057" />
 		<DocPoint X="4971.318123" Y="1744.6057" />

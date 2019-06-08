@@ -5,9 +5,7 @@
 		<DocLocalization Name="Type Product" Locale="en" />
 		<DocLocalization Name="Définition d&apos;un type de produit" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="11319.327" Y="1578.6591" Width="454.06667" Height="255.93333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="11319.327" Y="1578.6591" Width="454.06667" Height="255.93333" />
 	<Attributes>
 		<DocAttribute Name="RepresentationMaps" UniqueId="f1cc5d32-2c48-43ef-9814-701621b457a5" DefinedType="IfcRepresentationMap" AttributeFlags="1" AggregationType="1" AggregationFlag="2" AggregationLower="1" AggregationUpper="0">
 			<Documentation>List of unique representation maps. Each representation map describes a block definition of the shape of the product style. By providing more than one representation map, a multi-view block definition can be given.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="11773.394" Y="1767.9591" />
 				<DocPoint X="12295.94" Y="1767.9591" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="11771.9155046" Y="1756.450756" Width="323" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="11771.9155046" Y="1756.450756" Width="323" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="Tag" UniqueId="59d94263-1a31-4d38-8cb7-efb44b1a6814" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>The tag (or label) identifier at the particular type of a product, e.g. the article number (like the EAN). It is the identifier at the specific level.</Documentation>
@@ -25,9 +21,7 @@
 				<DocPoint X="11773.394" Y="1637.2924" />
 				<DocPoint X="12295.96" Y="1637.2924" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="11736.060667" Y="1627.2924" Width="50" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="11736.060667" Y="1627.2924" Width="50" Height="35" />
 		</DocAttribute>
 		<DocAttribute Name="ReferencedBy" UniqueId="4ac81661-5fee-4465-897b-54cba1c0bfe6" DefinedType="IfcRelAssignsToProduct" AttributeFlags="0" AggregationType="3" AggregationFlag="0" Inverse="RelatingProduct">
 			<Documentation>Reference to the &lt;em&gt;IfcRelAssignsToProduct&lt;/em&gt; relationship, by which other products, processes, controls, resources or actors (as subtypes of &lt;em&gt;IfcObjectDefinition&lt;/em&gt;) can be related to this product type.
@@ -38,9 +32,7 @@
 				<DocPoint X="12497.35567" Y="1517.29243" />
 				<DocPoint X="12497.35567" Y="487.27913" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="11549.8578333" Y="1546.285793" Width="461" Height="70" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="11549.8578333" Y="1546.285793" Width="461" Height="70" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

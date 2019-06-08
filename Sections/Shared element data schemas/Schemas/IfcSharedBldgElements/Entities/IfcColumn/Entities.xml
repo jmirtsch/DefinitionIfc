@@ -5,9 +5,7 @@
 		<DocLocalization Name="Column" Locale="en" />
 		<DocLocalization Name="Poteau" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="484.7749" Y="697.7617" Width="249.9" Height="214.66667" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="484.7749" Y="697.7617" Width="249.9" Height="214.66667" />
 	<Subtypes>
 		<DocSubtype UniqueId="3eec0970-cb99-4c5f-985b-0df8808ef2b5" DefinedType="IfcColumnStandardCase" />
 	</Subtypes>
@@ -20,9 +18,7 @@
 				<DocPoint X="734.6749" Y="863.7617" />
 				<DocPoint X="1114.0749" Y="863.7617" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="732.0082333" Y="855.7617" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="732.0082333" Y="855.7617" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

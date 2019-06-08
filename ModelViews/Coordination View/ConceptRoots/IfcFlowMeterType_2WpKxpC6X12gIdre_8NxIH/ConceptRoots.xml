@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="a0cd4ef3-3068-410a-a4a7-d68f885fb491">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcFlowMeterType" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="5832cba8-9e47-4277-9da7-abbf522385b9" Type="IfcFlowMeterType" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcFlowMeterType" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="4492dfa1-f020-47f1-894e-6da77f037d6e" Type="IfcFlowMeterType" />
 </DocConceptRoot>
 

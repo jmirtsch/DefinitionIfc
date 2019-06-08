@@ -5,9 +5,7 @@
 		<DocLocalization Name="Cooled Beam Type" Locale="en" />
 		<DocLocalization Name="Poutre froide type" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="69.859635" Y="1134.3598" Width="401.51291" Height="102.11007" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="69.859635" Y="1134.3598" Width="401.51291" Height="102.11007" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="a9aab02c-8410-4769-831e-142a438666ca" DefinedType="IfcCooledBeamTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Defines the type of cooled beam.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="471.37255" Y="1185.4148" />
 				<DocPoint X="681.56353" Y="1185.4148" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="471.37255" Y="1185.4148" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="471.37255" Y="1185.4148" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

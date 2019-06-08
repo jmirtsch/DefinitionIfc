@@ -5,9 +5,7 @@
 		<DocLocalization Name="Reinforcing Element" Locale="en" />
 		<DocLocalization Name="Elément d&apos;armature" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1672.1479" Y="190.14171" Width="239.54781" Height="178.45776" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1672.1479" Y="190.14171" Width="239.54781" Height="178.45776" />
 	<Subtypes>
 		<DocSubtype UniqueId="c8cfdd44-3766-4ed3-819b-9f0724c6e784" DefinedType="IfcReinforcingBar" />
 		<DocSubtype UniqueId="30687a91-76b0-4fa6-a2b2-ad128b6eedbd" DefinedType="IfcReinforcingMesh" />
@@ -24,9 +22,7 @@ Use material association at &lt;em&gt;IfcReinforcingElementType&lt;/em&gt; inste
 				<DocPoint X="1911.6957" Y="240.58965" />
 				<DocPoint X="2537.94897" Y="240.58965" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1898.223928" Y="232.3228808" Width="132" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1898.223928" Y="232.3228808" Width="132" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

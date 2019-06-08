@@ -4,9 +4,7 @@
 		<DocLocalization Name="Definition Select" Locale="en" />
 		<DocLocalization Name="Sélection de définition" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1885.4" Y="146.26667" Width="308.66667" Height="88.333333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1885.4" Y="146.26667" Width="308.66667" Height="88.333333" />
 	<Selects>
 		<DocSelectItem Name="IfcObjectDefinition" UniqueId="18fd1a64-b372-4f17-8456-503b9c666c4e" />
 		<DocSelectItem Name="IfcPropertyDefinition" UniqueId="70ab9962-4856-45e2-b326-98cad57d6372" />

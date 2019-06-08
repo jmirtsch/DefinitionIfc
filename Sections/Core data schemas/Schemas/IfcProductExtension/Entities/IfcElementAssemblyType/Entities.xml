@@ -5,9 +5,7 @@
 		<DocLocalization Name="Element Assembly Type" Locale="en" />
 		<DocLocalization Name="Type d&apos;assemblage d&apos;éléments" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="3426.6917" Y="1828.6333" Width="439.2" Height="119.9" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="3426.6917" Y="1828.6333" Width="439.2" Height="119.9" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="45aa3a72-bdd4-4e5b-b2d9-27b82bc19e4d" DefinedType="IfcElementAssemblyTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined types to define the particular type of the transport element. There may be property set definitions available for each predefined type.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="3865.8917" Y="1888.5833" />
 				<DocPoint X="4112.0513" Y="1888.5833" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="3861.5215333" Y="1879.5442726" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="3861.5215333" Y="1879.5442726" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

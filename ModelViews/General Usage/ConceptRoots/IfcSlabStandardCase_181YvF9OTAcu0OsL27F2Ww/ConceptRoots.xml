@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="181YvF9OTAcu0OsL27F2Ww">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcSlabStandardCase" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcSlabStandardCase" />
 	<Concepts>
 		<DocTemplateUsage Name="Material Layer Set Usage" UniqueId="2ibFQKZ8j5AOczlvrpLo1d">
 			<Documentation>&lt;p&gt;
@@ -71,9 +69,7 @@ assigned to all occurrences of this &lt;em&gt;IfcSlabType&lt;/em&gt;.&lt;/p&gt;
 &quot;0&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 243 &amp;mdash; Slab material layers&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Layer Set Usage_1jNxXlFor9_vKe1tXLtSn7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Layer_Set_Usage_1jNxXlFor9_vKe1tXLtSn7" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Product Placement" UniqueId="a0b3d9e6-c41d-4492-83d0-61cc701d0ee6">
 			<Documentation>&lt;p&gt;The following restriction is imposed:&lt;/p&gt;
@@ -83,9 +79,7 @@ assigned to all occurrences of this &lt;em&gt;IfcSlabType&lt;/em&gt;.&lt;/p&gt;
 for the standard slab, the x/y plane is the plane for the 
 profile, and the z-axis is the extrusion axis for the slab body.&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body SweptSolid Geometry" UniqueId="0dc72568-a7ee-451c-a4ca-df85da09a127">
 			<Documentation>&lt;p&gt;The following additional constraints apply to the swept solid
@@ -127,9 +121,7 @@ or non-perpendicularly to the plane of the swept profile.&lt;/li&gt;
  &lt;/tr&gt;
 
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Clipping Geometry" UniqueId="181cb8b7-a85b-4bcb-bd23-692ce0652d01">
 			<Documentation>&lt;p&gt;The following constraints apply to the &apos;Clipping&apos;
@@ -166,13 +158,9 @@ swept solid (here &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt;) and one or several
  &lt;/tr&gt;
 
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Clipping Geometry_0isyBrcmn3wfqgdNBG57u0" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Clipping_Geometry_0isyBrcmn3wfqgdNBG57u0" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="125a31e2-714e-472f-88da-30e029e3e4c1" Type="IfcSlabStandardCase" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="ebd3860f-a25a-4b79-aad9-ba0bbf4d9a38" Type="IfcSlabStandardCase" />
 </DocConceptRoot>
 

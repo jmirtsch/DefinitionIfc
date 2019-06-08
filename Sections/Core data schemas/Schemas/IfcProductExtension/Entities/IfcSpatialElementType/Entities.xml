@@ -5,9 +5,7 @@
 		<DocLocalization Name="Spatial Element Type" Locale="en" />
 		<DocLocalization Name="Type d&apos;élément spatial" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4337.7333" Y="491.83333" Width="342.93333" Height="140" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4337.7333" Y="491.83333" Width="342.93333" Height="140" />
 	<Subtypes>
 		<DocSubtype UniqueId="4c997a57-0355-4274-9642-7b66da6bb7b4" DefinedType="IfcSpatialStructureElementType" />
 		<DocSubtype UniqueId="d6676f11-fa6d-4d8c-8531-669073b19318" DefinedType="IfcSpatialZoneType" />
@@ -19,9 +17,7 @@
 				<DocPoint X="4337.7333" Y="514.31818" />
 				<DocPoint X="4098.69997" Y="514.31818" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="4333.4666333" Y="505.7848467" Width="152" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="4333.4666333" Y="505.7848467" Width="152" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<Tree>

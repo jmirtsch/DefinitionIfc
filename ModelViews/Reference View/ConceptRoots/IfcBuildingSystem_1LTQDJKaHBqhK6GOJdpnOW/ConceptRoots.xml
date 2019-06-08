@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="5575a353-5244-4bd2-b506-4184e7cf1620">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcBuildingSystem" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcBuildingSystem" />
 	<Concepts>
 		<DocTemplateUsage Name="Property Sets for Objects" UniqueId="9e3aa42e-fa15-45b0-8083-394951d3e5f4">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="47f44665-495e-48f1-b0ba-221fa6dabcef" RuleParameters="PsetName=Pset_BuildingSystemCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="cd3f00af-d1e5-41bd-8a0f-dff99e78d1d5">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="abac193d-b9fe-4a47-88bf-25f9a6127a93" RuleParameters="Order=1;PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 							</Items>
@@ -24,13 +18,9 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Group Assignment" UniqueId="4bd87d5b-1725-4a39-85ec-e9477ae94a1b">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Group Assignment_3rPvP$L9D4sQnHatm9h2M3" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Group_Assignment_3rPvPL9D4sQnHatm9h2M3" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="b9c5d863-136e-44b8-9052-d935213cebce" Type="IfcBuildingSystem" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="40d617b5-46de-4c18-a8f9-7b8f32f52f58" Type="IfcBuildingSystem" />
 </DocConceptRoot>
 

@@ -5,9 +5,7 @@
 		<DocLocalization Name="Rel Defines" Locale="en" />
 		<DocLocalization Name="Définition" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4932.7334" Y="321.49997" Width="454" Height="100.66666" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4932.7334" Y="321.49997" Width="454" Height="100.66666" />
 	<Subtypes>
 		<DocSubtype UniqueId="8e736228-c32b-4629-b534-e80b8c266c26" DefinedType="IfcRelDefinesByProperties" />
 		<DocSubtype UniqueId="802de497-117c-4433-a7b7-bade08ab990c" DefinedType="IfcRelDefinesByType" />

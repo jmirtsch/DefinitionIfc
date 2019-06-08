@@ -5,9 +5,7 @@
 		<DocLocalization Name="Chimney" Locale="en" />
 		<DocLocalization Name="Cheminée" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="1865.38" Y="1466.7733" Width="250" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="1865.38" Y="1466.7733" Width="250" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="ab536c54-8d4e-457f-9e93-92a66ff44f92" DefinedType="IfcChimneyTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<Documentation>Predefined generic type for a chimney that is specified in an enumeration. There may be a property set given specificly for the predefined types.
@@ -16,9 +14,7 @@
 				<DocPoint X="2115.38" Y="1516.7733" />
 				<DocPoint X="2501.38" Y="1516.7733" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="2115.38" Y="1503.439967" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="2115.38" Y="1503.439967" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

@@ -4,12 +4,8 @@
 		<DocLocalization Name="Pressure Measure" Locale="en" />
 		<DocLocalization Name="Mesure de pression" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="5060.3521" Y="1389.3175" Width="529.20465" Height="53.00186" />
-	</DiagramRectangle>
-	<Definition>
-		<DocPrimitive xsi:nil="true" href="REAL_2mvTQBOF52EAUnek_fBaIf" />
-	</Definition>
+	<DiagramRectangle xsi:type="DocRectangle" X="5060.3521" Y="1389.3175" Width="529.20465" Height="53.00186" />
+	<Definition xsi:type="DocPrimitive" xsi:nil="true" href="REAL_2mvTQBOF52EAUnek_fBaIf" />
 	<DiagramLine>
 		<DocPoint X="5060.3521" Y="1415.8184" />
 		<DocPoint X="4971.346523" Y="1415.8184" />

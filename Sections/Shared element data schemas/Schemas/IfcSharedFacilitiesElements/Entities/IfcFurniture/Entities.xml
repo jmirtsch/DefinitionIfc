@@ -5,9 +5,7 @@
 		<DocLocalization Name="Furniture" Locale="en" />
 		<DocLocalization Name="Mobilier" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="996.91478" Y="720.29438" Width="501.71366" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="996.91478" Y="720.29438" Width="501.71366" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="ffe18e42-a9d5-4e8f-984d-86632f76b530" DefinedType="IfcFurnitureTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
@@ -15,9 +13,7 @@
 				<DocPoint X="1236.1731" Y="939.08706" />
 				<DocPoint X="1089.73557" Y="939.08706" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1338.81795" Y="817.1839299" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1338.81795" Y="817.1839299" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

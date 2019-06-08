@@ -5,9 +5,7 @@
 		<DocLocalization Name="Advanced Brep" Locale="en" />
 		<DocLocalization Name="Représentation frontière avancée" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="10253.707" Y="583.92" Width="296" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="10253.707" Y="583.92" Width="296" Height="100" />
 	<Subtypes>
 		<DocSubtype UniqueId="b8290d32-bfd9-4143-9937-f27a7e93244c" DefinedType="IfcAdvancedBrepWithVoids" />
 	</Subtypes>

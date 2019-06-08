@@ -5,9 +5,7 @@
 		<DocLocalization Name="Valve Type" Locale="en" />
 		<DocLocalization Name="Type de vanne" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="4847.5335" Y="870.96826" Width="381.5" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="4847.5335" Y="870.96826" Width="381.5" Height="100" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="64e1374c-df50-4f51-8439-a60368207f3d" DefinedType="IfcValveTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
 			<Documentation>The type of valve.</Documentation>
@@ -15,9 +13,7 @@
 				<DocPoint X="5229.0335" Y="913.88096" />
 				<DocPoint X="5445.60231" Y="913.88096" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="5243.93386" Y="903.143542" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="5243.93386" Y="903.143542" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

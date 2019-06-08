@@ -4,9 +4,7 @@
 		<DocLocalization Name="Geometric Set Select" Locale="en" />
 		<DocLocalization Name="Sélection des items de représentation géométrique" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="11841.2327473958" Y="1228.25" Width="366.6" Height="86.6" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="11841.2327473958" Y="1228.25" Width="366.6" Height="86.6" />
 	<Selects>
 		<DocSelectItem Name="IfcPoint" UniqueId="041c2638-1340-4b33-ab77-825d81aaceb2" />
 		<DocSelectItem Name="IfcCurve" UniqueId="7b65260c-0a3c-45b2-9c73-2c218994ea16" />

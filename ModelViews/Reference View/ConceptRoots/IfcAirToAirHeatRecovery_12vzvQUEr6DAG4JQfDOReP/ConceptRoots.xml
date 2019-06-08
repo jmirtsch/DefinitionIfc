@@ -1,58 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="42e7de5a-78ed-4634-a404-4daa4d61ba19">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcAirToAirHeatRecovery" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcAirToAirHeatRecovery" />
 	<Concepts>
 		<DocTemplateUsage Name="Object Typing" UniqueId="579125ff-e2b9-4fa0-b2d8-5ebcbeb7cebb">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Object Typing_0rek4E8Dz0zAilsiyAPqJq" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 			<Items>
 				<DocTemplateItem UniqueId="60141371-06b4-4554-9034-2cc022231590" RuleParameters="RelatingType=IfcAirToAirHeatRecoveryType;" Order="0" />
 			</Items>
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="60b26ba0-cc69-4a7a-a9dc-885620c526ff">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="1f00a7bc-dc52-4434-933c-4d282fb8d692" RuleParameters="PsetName=Pset_AirToAirHeatRecoveryTypeCommon;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="c9a74672-ac24-47d2-858d-c91e0a011863">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="c0e3cca2-bf21-414b-bad6-73379bef4d29" RuleParameters="Order=1;PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="d759ab4b-26e0-44a3-bf1f-3c6adde842b3" RuleParameters="Order=4;PropertyName=HasDefrost;Value=IfcBoolean;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="982dfc11-d79c-4759-ab03-25723d6a95a2">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="fca9b114-d039-4fe2-85e6-c22e027cb116" RuleParameters="Order=2;PropertyName=Status;Value=IfcLabel;Reference=PEnum_ElementStatus;" Order="0" />
 								<DocTemplateItem UniqueId="a2a55c69-4b4e-4e6c-9669-964346b0b68d" RuleParameters="Order=3;PropertyName=HeatTransferTypeEnum;Value=IfcLabel;Reference=PEnum_AirToAirHeatTransferHeatTransferType;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="f2e5d832-6531-4586-8208-9c0c840bad6f">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Bounded_Value_0zPwBITXr4sQ2Ujkn_bOo" />
 							<Items>
 								<DocTemplateItem UniqueId="6105c567-dd30-43bd-9d66-f10392c52434" RuleParameters="Order=5;PropertyName=OperationalTemperatureRange;SetValue=IfcThermodynamicTemperatureMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="12c3b70b-3be2-4eb4-b93a-6ce280c64136" RuleParameters="Order=6;PropertyName=PrimaryAirflowRateRange;SetValue=IfcVolumetricFlowRateMeasure;" Order="0" />
@@ -64,16 +48,12 @@
 			</Items>
 		</DocTemplateUsage>
 		<DocTemplateUsage UniqueId="6586f1fc-9d5e-4e3e-8cad-0be73dc05b3b">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Quantity Sets_1cKZcEPNb4O8oq9YbQpwp7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Quantity_Sets_1cKZcEPNb4O8oq9YbQpwp7" />
 			<Items>
 				<DocTemplateItem UniqueId="2114a7c0-8a40-4ba5-bd81-b866a0e9109c" RuleParameters="QsetName=Qto_AirToAirHeatRecoveryBaseQuantities;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Quantities" UniqueId="c66fc8c0-9026-4583-a8f0-9e80d0de35bf">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Weight Quantity_3X0MvMF8bFGfPv1_7RF0hx" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Weight_Quantity_3X0MvMF8bFGfPv1_7RF0hx" />
 							<Items>
 								<DocTemplateItem UniqueId="efcf5087-71db-4350-9554-82b1dedc0ba1" RuleParameters="Order=1;QuantityName=GrossWeight;" Order="0" />
 							</Items>
@@ -83,8 +63,6 @@
 			</Items>
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="a462ef7d-a63b-4f93-9aee-cf5be9c464ec" Type="IfcAirToAirHeatRecovery" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="ac44f2b2-0a5e-4ee3-9e73-cb6b80057e12" Type="IfcAirToAirHeatRecovery" />
 </DocConceptRoot>
 

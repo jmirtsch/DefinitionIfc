@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="c90d504f-cdb7-44ca-8544-5376972df99c">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcMechanicalFastenerType" />
-	</ApplicableEntity>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="1af8da06-068a-4dcf-8f66-5a557c683b4a" Type="IfcMechanicalFastenerType" />
-	</ApplicableTemplate>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcMechanicalFastenerType" />
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="b29fb07a-d232-4bce-a915-810d5071d18f" Type="IfcMechanicalFastenerType" />
 </DocConceptRoot>
 

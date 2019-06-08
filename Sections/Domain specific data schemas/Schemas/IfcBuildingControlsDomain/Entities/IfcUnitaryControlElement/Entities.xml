@@ -5,9 +5,7 @@
 		<DocLocalization Name="Unitary Control Element" Locale="en" />
 		<DocLocalization Name="Elément de contrôle unitaire" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="865.66667" Y="1355.92" Width="674.6" Height="108" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="865.66667" Y="1355.92" Width="674.6" Height="108" />
 	<Attributes>
 		<DocAttribute Name="PredefinedType" UniqueId="5fd251f6-8d60-4ce4-bc91-5e5791b8cf4a" DefinedType="IfcUnitaryControlElementTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
 			<DiagramLine>
@@ -15,9 +13,7 @@
 				<DocPoint X="1533.6333" Y="1508.382528" />
 				<DocPoint X="1095.06663" Y="1508.382528" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="1442.349967" Y="1461.2533333" Width="182" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="1442.349967" Y="1461.2533333" Width="182" Height="35" />
 		</DocAttribute>
 	</Attributes>
 	<WhereRules>

@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="35Y6RzCIfEs8LfiHeFQKOq">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcElement" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcElement" />
 	<Concepts>
 		<DocTemplateUsage UniqueId="ab8a65fa-3066-412f-8347-a023abc3f817">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Property Sets for Objects_3tGbMc30vFCOIj99WTjYHX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 			<Items>
 				<DocTemplateItem UniqueId="7fc5f7cb-c6cf-49e3-90b8-0485f1373f27" RuleParameters="PsetName=Pset_EnvironmentalImpactIndicators;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="0decb114-80ed-438b-bd78-3a8906fda177">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="0a93ea81-0131-4d9f-befd-82857da1e37d" RuleParameters="Order=1;PropertyName=Reference;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="13cbb0b3-0989-4ac2-a574-1bd1b98acf71" RuleParameters="Order=2;PropertyName=FunctionalUnitReference;Value=IfcLabel;" Order="0" />
@@ -37,9 +31,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="93612d08-4265-4497-b0b0-6cd79b8a2ca6">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="7896ef70-bd0d-462e-975d-2510749e0e8a" RuleParameters="Order=4;PropertyName=LifeCyclePhase;Value=IfcLabel;Reference=PEnum_LifeCyclePhase;" Order="0" />
 							</Items>
@@ -49,9 +41,7 @@
 				<DocTemplateItem UniqueId="cf6fa80b-7d12-4c18-8688-0a13e8e1c3d4" RuleParameters="PsetName=Pset_EnvironmentalImpactValues;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="dab8c477-1259-48a7-9a36-46d0257e6c7c">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="b6ee2b39-c9c3-4026-8a1b-a0479192e522" RuleParameters="Order=1;PropertyName=TotalPrimaryEnergyConsumption;Value=IfcEnergyMeasure;" Order="0" />
 								<DocTemplateItem UniqueId="563bf23b-6781-4b23-a32c-8d9bb280d487" RuleParameters="Order=2;PropertyName=WaterConsumption;Value=IfcVolumeMeasure;" Order="0" />
@@ -77,9 +67,7 @@
 				<DocTemplateItem UniqueId="007431a9-e99a-40d5-8fa6-df41a78eeea1" RuleParameters="PsetName=Pset_ManufacturerOccurrence;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="b1e9bf87-6cba-442f-bd32-b23e2a000aa1">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="7d1e4ebe-4040-4ddd-bc86-d772cc960de6" RuleParameters="Order=1;PropertyName=AcquisitionDate;Value=IfcDate;" Order="0" />
 								<DocTemplateItem UniqueId="38e62e31-f159-4bea-8c22-42b6d9d0b9c9" RuleParameters="Order=2;PropertyName=BarCode;Value=IfcIdentifier;" Order="0" />
@@ -88,9 +76,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="dcd21732-8b5a-4cb7-8e86-13e334daee01">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="b7701daf-b193-493b-a31a-b1e800ce198d" RuleParameters="Order=5;PropertyName=AssemblyPlace;Value=IfcLabel;Reference=PEnum_AssemblyPlace;" Order="0" />
 							</Items>
@@ -100,9 +86,7 @@
 				<DocTemplateItem UniqueId="aa5a5a5c-7e24-4a94-9a66-b3ef1b5fbdd5" RuleParameters="PsetName=Pset_ManufacturerTypeInformation;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="f8611b2a-81d0-4c13-8dab-4fc9b6958e78">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="a7c7c93d-d274-45fa-8298-87d8d7adc71a" RuleParameters="Order=1;PropertyName=GlobalTradeItemNumber;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="af887da6-ec2b-4a82-a82c-5269f56868b9" RuleParameters="Order=2;PropertyName=ArticleNumber;Value=IfcIdentifier;" Order="0" />
@@ -113,9 +97,7 @@
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="92076ff9-9e60-485d-8f1d-7620dbeac478">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Enumerated Value_31IA2Pmr53g99cNptWj5gL" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Enumerated_Value_31IA2Pmr53g99cNptWj5gL" />
 							<Items>
 								<DocTemplateItem UniqueId="37507b61-0789-425b-8449-1e8c1b136401" RuleParameters="Order=7;PropertyName=AssemblyPlace;Value=IfcLabel;Reference=PEnum_AssemblyPlace;" Order="0" />
 							</Items>
@@ -125,17 +107,13 @@
 				<DocTemplateItem UniqueId="48e17a35-b567-4a06-ae0c-8288b87670ee" RuleParameters="PsetName=Pset_ServiceLife;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="4de4a14e-d70b-4e3c-9a55-b22b52d6cd60">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Bounded Value_0zPwBITXr4sQ2Uj$kn_bOo" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Bounded_Value_0zPwBITXr4sQ2Ujkn_bOo" />
 							<Items>
 								<DocTemplateItem UniqueId="0f145c36-c079-45f6-8dd0-951b28f7037d" RuleParameters="Order=1;PropertyName=ServiceLifeDuration;SetValue=IfcDuration;" Order="0" />
 							</Items>
 						</DocTemplateUsage>
 						<DocTemplateUsage Name="Properties" UniqueId="41b2bcc9-c239-4b37-8b35-0ee33824d0c3">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="7b5b3def-62e2-4050-9d99-20ae36085dbe" RuleParameters="Order=2;PropertyName=MeanTimeBetweenFailure;Value=IfcDuration;" Order="0" />
 							</Items>
@@ -145,9 +123,7 @@
 				<DocTemplateItem UniqueId="54c65360-646a-4d0a-96c3-6cc151726981" RuleParameters="PsetName=Pset_Warranty;" Order="0">
 					<Concepts>
 						<DocTemplateUsage Name="Properties" UniqueId="87b2dde2-ed35-4f75-8061-9e2a655688ee">
-							<Definition>
-								<DocTemplateDefinition xsi:nil="true" href="Single Value_1cLVRGAQX7k8yzoVpfoQOW" />
-							</Definition>
+							<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Single_Value_1cLVRGAQX7k8yzoVpfoQOW" />
 							<Items>
 								<DocTemplateItem UniqueId="bde1e5ed-040d-489c-97d2-8986b834abf0" RuleParameters="PropertyName=WarrantyIdentifier;Value=IfcIdentifier;" Order="0" />
 								<DocTemplateItem UniqueId="e99b1c12-e106-45aa-b6d1-0d64f8016860" RuleParameters="Order=2;PropertyName=WarrantyStartDate;Value=IfcDate;" Order="0" />
@@ -164,14 +140,10 @@
 			</Items>
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
@@ -181,9 +153,7 @@
 &lt;li&gt;the spatial container (&lt;i&gt;IfcRelContainedInSpatialStructure&lt;/i&gt;.&lt;i&gt;RelatingSpatialStructure&lt;/i&gt;)&lt;/li&gt;
 &lt;li&gt;the parent aggregation element (&lt;i&gt;IfcRelAggregates&lt;/i&gt;.&lt;i&gt;RelatingObject&lt;/i&gt;), if it is an aggregated part&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 			<Items>
 				<DocTemplateItem UniqueId="f114e1ec-215e-4f81-b778-ae731c21d3ef" RuleParameters="HasPlacement=IfcLocalPlacement;RelativeTo=IfcLocalPlacement;" Order="0">
 					<Documentation>Placement relative to the position and rotation of the container.</Documentation>
@@ -194,22 +164,16 @@
 			</Items>
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="CoG Geometry" UniqueId="134dc8e5-a89d-4d54-ac5d-6ba27d2c5a60">
 			<Documentation>&lt;p&gt;The &apos;CoG&apos;, Center of Gravity, shape representation is used as a means to verify the correct import by comparing the CoG of the imported geometry with the explicily provided CoG created during export.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="CoG Geometry_2XFmxAR4LAbR_c0ynzfgRF" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="CoG_Geometry_2XFmxAR4LAbR_c0ynzfgRF" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Box Geometry" UniqueId="16b0d3f0-2982-4224-ab5b-04288ac8d58b">
 			<Documentation>&lt;table&gt;
@@ -224,21 +188,15 @@
   &lt;td&gt;&amp;nbsp;&lt;/td&gt;
  &lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Box Geometry_2vGiwnk1X6WuSRd9UVeqtL" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Box_Geometry_2vGiwnk1X6WuSRd9UVeqtL" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Tessellation Geometry" UniqueId="ce779b85-4fbf-46dc-bcf0-ee657eccd537">
 			<Documentation>&lt;p&gt;The default geometric representation of any &lt;em&gt;IfcElement&lt;/em&gt; within this model view is a single or multiple tessellated item. The supported tessellation is a triangulated face set, defined by indices into a Cartesian point list. Optionally normals per vertex can be included as well.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Tessellation Geometry_1S$KG3PKLCRRmd2fMZq9bG" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Tessellation_Geometry_1SKG3PKLCRRmd2fMZq9bG" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body SweptSolid PolyCurve Geometry" UniqueId="522f2b24-b397-458a-9c5c-be641cc2071a">
 			<Documentation>&lt;p&gt;The &lt;em&gt;IfcElement&lt;/em&gt; can be geometrically represented by a single or multiple swept solid. In this case, both extruded and revolved solids are supported. The cross section of the swept solid is provided by a poly curve, having straight and circular arc segments. The cross section may have inner loops that result in holes of the resulting swept solid.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid PolyCurve Geometry_0uSGpDZ$L1ke$Q23091w0k" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_PolyCurve_Geometry_0uSGpDZL1keQ23091w0k" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Mapped Geometry" UniqueId="3kn37wXUT6fBXOCUtvg$jY">
 			<Documentation>&lt;p&gt;
@@ -251,78 +209,52 @@
 &lt;p&gt;The same constraints, as given for &apos;Tessellation&apos;, &apos;SweptSolid&apos;, and
  &apos;AdvancedSweptSolid&apos; geometric representation, shall apply to the
  &lt;em&gt;IfcRepresentationMap&lt;/em&gt;.&lt;/p&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Mapped Geometry_3i$TV8STL4dxyWvZebtBcw" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Mapped_Geometry_3iTV8STL4dxyWvZebtBcw" />
 			<Items>
 				<DocTemplateItem UniqueId="a837be9b-2b19-4fde-9bab-52a7896ca528" RuleParameters="Identifier=Surface;Type=MappedItem;" Order="0" />
 				<DocTemplateItem UniqueId="e11e2ce9-4fdf-40cd-bdd6-9adf6efdf57e" RuleParameters="Identifier=Body;Type=MappedItem;" Order="0" />
 			</Items>
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Spatial Containment" UniqueId="648282d7-f66b-43dc-9c2d-2ca98f6773d8">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Spatial Containment_3Pe$WY01HBmesKdP1dTP15" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Containment_3PeWY01HBmesKdP1dTP15" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Element Composition" UniqueId="1bc4288f-24ad-4398-802e-bc935868ed27">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Element Composition_3A3sNYEHDFsue935nw3LGX" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Element_Composition_3A3sNYEHDFsue935nw3LGX" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Element Decomposition" UniqueId="21563473-16d3-471a-a3b1-881221b2554e">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Element Decomposition_2A9y5QnEfCgOpEVxkXoRpW" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Element_Decomposition_2A9y5QnEfCgOpEVxkXoRpW" />
 			<Exchanges>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Element Voiding" UniqueId="f5a4c7d3-f844-473f-8d8d-8591607d5f99">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Element Voiding_2v05vvjSLC2vs616mXhK8D" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Element_Voiding_2v05vvjSLC2vs616mXhK8D" />
 			<Exchanges>
 				<DocExchangeItem Applicability="export" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 				<DocExchangeItem Applicability="import" Requirement="optional">
-					<Exchange>
-						<DocExchangeDefinition xsi:nil="true" href="Reference Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
-					</Exchange>
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" />
 				</DocExchangeItem>
 			</Exchanges>
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Material Single" UniqueId="139cc6a8-6b1f-4b75-8104-15fc2f740af3">
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Single_1VEQWKHA1Fiut6tQe5OFnK" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Single_1VEQWKHA1Fiut6tQe5OFnK" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="7d0ebee1-1c8e-40b5-bcf5-057b62923e20" Type="IfcElement" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="dd4d5174-c447-4718-bd88-3e037543ba29" Type="IfcElement" />
 </DocConceptRoot>
 

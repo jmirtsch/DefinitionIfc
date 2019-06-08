@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UniqueId="22ZlO$TPT5PhyWht7N_0NQ">
-	<ApplicableEntity>
-		<DocEntity xsi:nil="true" href="IfcWallStandardCase" />
-	</ApplicableEntity>
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcWallStandardCase" />
 	<Concepts>
 		<DocTemplateUsage Name="Material Layer Set Usage" UniqueId="09E7LyS1LFWBZbX2IRXWaI">
 			<Documentation>&lt;p&gt;
@@ -63,9 +61,7 @@ then point into the positive y-axis of the reference coordinate system.&lt;/li&g
 &lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot; width=&quot;610&quot;&gt;&lt;img src=&quot;../../../figures/ifcmateriallayersetusage_wall-01.png&quot; alt=&quot;roof slab material layer set&quot; width=&quot;601&quot; height=&quot;351&quot; border=&quot;0&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 253 &amp;mdash; Wall material layers&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Material Layer Set Usage_1jNxXlFor9_vKe1tXLtSn7" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Layer_Set_Usage_1jNxXlFor9_vKe1tXLtSn7" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Product Placement" UniqueId="95178cb6-bcc2-4138-88f8-e63b7ac32835">
 			<Documentation>&lt;p&gt;The following restriction is imposed:&lt;/p&gt;
@@ -75,9 +71,7 @@ then point into the positive y-axis of the reference coordinate system.&lt;/li&g
 for the standard wall, the x/y plane is the plane for the 
 profile, and the z-axis is the extrusion axis for the wall body.&lt;/li&gt;
 &lt;/ul&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Product Local Placement_3Bw5jVUH9AGukt7cE$GB9j" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Local_Placement_3Bw5jVUH9AGukt7cEGB9j" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Axis 2D Geometry" UniqueId="519873f2-d035-4df8-9f67-ce96049074e0">
 			<Documentation>&lt;p&gt;The wall axis is represented by a two-dimensional open curve 
@@ -139,9 +133,7 @@ a single geometric representation item of type &lt;em&gt;IfcTrimmedCurve&lt;/em&
 &lt;/tr&gt;
 
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Axis 2D Geometry_1u94Jere57Mf0qgUVrF6rb" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Axis_2D_Geometry_1u94Jere57Mf0qgUVrF6rb" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body SweptSolid Geometry" UniqueId="8437335e-7581-40d9-8d37-2e8a3579f9cd">
 			<Documentation>&lt;p&gt;The following additional constraints apply to the &apos;SweptSolid&apos;
@@ -175,9 +167,7 @@ z-axis of the Position of the &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt;.&lt;/li&
 &lt;td width=&quot;393&quot;&gt;&lt;p class=&quot;figure&quot;&gt;Figure 257 &amp;mdash; Wall body extrusion curved&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body SweptSolid Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
 		</DocTemplateUsage>
 		<DocTemplateUsage Name="Body Clipping Geometry" UniqueId="5558384d-c5d1-43f1-91b6-ed21ba000e4b">
 			<Documentation>&lt;p&gt;The following constraints apply to the &apos;Clipping&apos;
@@ -208,13 +198,9 @@ the &lt;em&gt;IfcBooleanClippingResult&lt;/em&gt;.&lt;/p&gt;
 &lt;td width=&quot;400&quot;&gt;&lt;p class=&quot;figure&quot;&gt;Figure 259 &amp;mdash; Wall body clipping curved&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;</Documentation>
-			<Definition>
-				<DocTemplateDefinition xsi:nil="true" href="Body Clipping Geometry_0isyBrcmn3wfqgdNBG57u0" />
-			</Definition>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Clipping_Geometry_0isyBrcmn3wfqgdNBG57u0" />
 		</DocTemplateUsage>
 	</Concepts>
-	<ApplicableTemplate>
-		<DocTemplateDefinition UniqueId="7aea882e-be74-4984-8d2e-21d8d3946c95" Type="IfcWallStandardCase" />
-	</ApplicableTemplate>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="c98483b9-ca23-4c66-849b-26797ed9e332" Type="IfcWallStandardCase" />
 </DocConceptRoot>
 

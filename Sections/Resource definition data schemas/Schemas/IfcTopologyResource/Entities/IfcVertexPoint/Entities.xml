@@ -5,9 +5,7 @@
 		<DocLocalization Name="Vertex Point" Locale="en" />
 		<DocLocalization Name="Sommet (point)" Locale="fr" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="156.040018717448" Y="999.666727701823" Width="279.86667" Height="100" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="156.040018717448" Y="999.666727701823" Width="279.86667" Height="100" />
 	<Attributes>
 		<DocAttribute Name="VertexGeometry" UniqueId="908edc85-594d-4aa2-bec6-a352ddd90a08" DefinedType="IfcPoint" AttributeFlags="0" AggregationType="0" AggregationFlag="0" XsdFormat="attribute">
 			<Documentation>The geometric point, which defines the position in geometric space of the vertex.</Documentation>
@@ -16,9 +14,7 @@
 				<DocPoint X="302.500015258789" Y="1099.66672770182" />
 				<DocPoint X="302.500015258789" Y="1153.63330078125" />
 			</DiagramLine>
-			<DiagramLabel>
-				<DocRectangle X="302.500015258789" Y="1133.63330078125" Width="186" Height="35" />
-			</DiagramLabel>
+			<DiagramLabel xsi:type="DocRectangle" X="302.500015258789" Y="1133.63330078125" Width="186" Height="35" />
 		</DocAttribute>
 	</Attributes>
 </DocEntity>

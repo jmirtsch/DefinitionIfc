@@ -4,8 +4,6 @@
 		<DocLocalization Name="Festdefinierte Merkmalliste" Locale="de" />
 		<DocLocalization Name="Pre Defined Property Set" Locale="en" />
 	</Localization>
-	<DiagramRectangle>
-		<DocRectangle X="2193.3334" Y="1677.1334" Width="350" Height="133.33333" />
-	</DiagramRectangle>
+	<DiagramRectangle xsi:type="DocRectangle" X="2193.3334" Y="1677.1334" Width="350" Height="133.33333" />
 </DocEntity>
 
